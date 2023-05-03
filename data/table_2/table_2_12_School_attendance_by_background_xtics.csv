@@ -1,0 +1,29 @@
+Value,Category,Proportion,Schooling level,Ratio,Background characteristics
+Urban,Male,87.6,Primary,Net Attendance Ratio,Residence
+Urban,Female,90.1,Primary,Net Attendance Ratio,Residence
+Rural,Male,84.7,Primary,Net Attendance Ratio,Residence
+Rural,Female,85.8,Primary,Net Attendance Ratio,Residence
+Urban,Male,56.5,Secondary,Net Attendance Ratio,Residence
+Urban,Female,59.7,Secondary,Net Attendance Ratio,Residence
+Rural,Male,42.2,Secondary,Net Attendance Ratio,Residence
+Rural,Female,50.2,Secondary,Net Attendance Ratio,Residence
+Lowest,Male,74.5,Primary,Net Attendance Ratio,Wealth quintile
+Lowest,Female,75,Primary,Net Attendance Ratio,Wealth quintile
+Second,Male,88.7,Primary,Net Attendance Ratio,Wealth quintile
+Second,Female,89.6,Primary,Net Attendance Ratio,Wealth quintile
+Middle,Male,89.5,Primary,Net Attendance Ratio,Wealth quintile
+Middle,Female,90.9,Primary,Net Attendance Ratio,Wealth quintile
+Fourth,Male,89,Primary,Net Attendance Ratio,Wealth quintile
+Fourth,Female,91.1,Primary,Net Attendance Ratio,Wealth quintile
+Highest,Male,90.2,Primary,Net Attendance Ratio,Wealth quintile
+Highest,Female,92.6,Primary,Net Attendance Ratio,Wealth quintile
+Lowest,Male,23.4,Secondary,Net Attendance Ratio,Wealth quintile
+Lowest,Female,30.6,Secondary,Net Attendance Ratio,Wealth quintile
+Second,Male,42.3,Secondary,Net Attendance Ratio,Wealth quintile
+Second,Female,50.4,Secondary,Net Attendance Ratio,Wealth quintile
+Middle,Male,49.7,Secondary,Net Attendance Ratio,Wealth quintile
+Middle,Female,59.6,Secondary,Net Attendance Ratio,Wealth quintile
+Fourth,Male,59.3,Secondary,Net Attendance Ratio,Wealth quintile
+Fourth,Female,62.4,Secondary,Net Attendance Ratio,Wealth quintile
+Highest,Male,71,Secondary,Net Attendance Ratio,Wealth quintile
+Highest,Female,68.1,Secondary,Net Attendance Ratio,Wealth quintile

@@ -1,0 +1,9 @@
+education,heard_of_any,heard_of_any_modern,number,gender
+No education,95.3,95.0,"1,373",Women
+Primary,99.9,99.9,"7,376",Women
+Secondary,100.0,100.0,"5,734",Women
+More than secondary,100.0,100.0,"3,339",Women
+No education,95.3,95.0,"1,373",Men
+Primary,99.9,99.9,"7,376",Men
+Secondary,100.0,100.0,"5,734",Men
+More than secondary,100.0,100.0,"3,339",Men

@@ -1,0 +1,13 @@
+Mother's education,sought_treatment,condition
+No education,69.3,ARI
+Primary,80.7,ARI
+Secondary,83.1,ARI
+More than secondary,95.2,ARI
+No education,56.8,Fever
+Primary,67.5,Fever
+Secondary,73.2,Fever
+More than secondary,71.9,Fever
+No education,59.2,Diarrhea
+Primary,54.8,Diarrhea
+Secondary,54.3,Diarrhea
+More than secondary,67.2,Diarrhea

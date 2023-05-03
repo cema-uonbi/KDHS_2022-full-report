@@ -1,0 +1,83 @@
+Background characteristics,Category,Gender,variable,value
+Age,15-19,Female,Have heard of female circumcision,94.4
+Age,20-24,Female,Have heard of female circumcision,96.9
+Age,25-29,Female,Have heard of female circumcision,97.7
+Age,30-34,Female,Have heard of female circumcision,97.7
+Age,35-39,Female,Have heard of female circumcision,97.5
+Age,40-44,Female,Have heard of female circumcision,98.3
+Age,45-49,Female,Have heard of female circumcision,97.2
+Religion,Catholic,Female,Have heard of female circumcision,97.8
+Religion,Protestant,Female,Have heard of female circumcision,97.4
+Religion,Evangelical churches,Female,Have heard of female circumcision,96.8
+Religion,African instituted churches,Female,Have heard of female circumcision,96.6
+Religion,Orthodox,Female,Have heard of female circumcision,NA
+Religion,Islam,Female,Have heard of female circumcision,94.6
+Religion,Hindu,Female,Have heard of female circumcision,NA
+Religion,Traditionists,Female,Have heard of female circumcision,NA
+Religion,No religion/atheists,Female,Have heard of female circumcision,95.4
+Religion,Other,Female,Have heard of female circumcision,97.1
+Ethnic group,Embu,Female,Have heard of female circumcision,99.5
+Ethnic group,Kalenjin,Female,Have heard of female circumcision,97.7
+Ethnic group,Kamba,Female,Have heard of female circumcision,97.1
+Ethnic group,Kikuyu,Female,Have heard of female circumcision,99
+Ethnic group,Kisii,Female,Have heard of female circumcision,99.4
+Ethnic group,Luhya,Female,Have heard of female circumcision,96.9
+Ethnic group,Luo,Female,Have heard of female circumcision,96.4
+Ethnic group,Maasai,Female,Have heard of female circumcision,93.9
+Ethnic group,Meru,Female,Have heard of female circumcision,95.9
+Ethnic group,Mijikenda/Swahili,Female,Have heard of female circumcision,86.1
+Ethnic group,Somali,Female,Have heard of female circumcision,98.6
+Ethnic group,Taita/Taveta,Female,Have heard of female circumcision,98.9
+Ethnic group,Other,Female,Have heard of female circumcision,NA
+Residence,Urban,Female,Have heard of female circumcision,98
+Residence,Rural,Female,Have heard of female circumcision,96.2
+Education,No education,Female,Have heard of female circumcision,92.4
+Education,Primary,Female,Have heard of female circumcision,95.1
+Education,Secondary,Female,Have heard of female circumcision,98.1
+Education,More than secondary,Female,Have heard of female circumcision,99.3
+Wealth quintile,Lowest,Female,Have heard of female circumcision,93.2
+Wealth quintile,Second,Female,Have heard of female circumcision,96.5
+Wealth quintile,Middle,Female,Have heard of female circumcision,96.8
+Wealth quintile,Fourth,Female,Have heard of female circumcision,98.1
+Wealth quintile,Highest,Female,Have heard of female circumcision,98.6
+Age,15-19,Male,Have heard of female circumcision,93.8
+Age,20-24,Male,Have heard of female circumcision,97.9
+Age,25-29,Male,Have heard of female circumcision,98.2
+Age,30-34,Male,Have heard of female circumcision,98
+Age,35-39,Male,Have heard of female circumcision,99
+Age,40-44,Male,Have heard of female circumcision,98.8
+Age,45-49,Male,Have heard of female circumcision,98.9
+Religion,Catholic,Male,Have heard of female circumcision,97.1
+Religion,Protestant,Male,Have heard of female circumcision,97.4
+Religion,Evangelical churches,Male,Have heard of female circumcision,97.4
+Religion,African instituted churches,Male,Have heard of female circumcision,98.4
+Religion,Orthodox,Male,Have heard of female circumcision,NA
+Religion,Islam,Male,Have heard of female circumcision,95.9
+Religion,Hindu,Male,Have heard of female circumcision,NA
+Religion,Traditionists,Male,Have heard of female circumcision,98.9
+Religion,No religion/atheists,Male,Have heard of female circumcision,96
+Religion,Other,Male,Have heard of female circumcision,99.7
+Ethnic group,Embu,Male,Have heard of female circumcision,99.8
+Ethnic group,Kalenjin,Male,Have heard of female circumcision,99.2
+Ethnic group,Kamba,Male,Have heard of female circumcision,97.2
+Ethnic group,Kikuyu,Male,Have heard of female circumcision,99.2
+Ethnic group,Kisii,Male,Have heard of female circumcision,97.8
+Ethnic group,Luhya,Male,Have heard of female circumcision,94.4
+Ethnic group,Luo,Male,Have heard of female circumcision,97.9
+Ethnic group,Maasai,Male,Have heard of female circumcision,99.6
+Ethnic group,Meru,Male,Have heard of female circumcision,99.9
+Ethnic group,Mijikenda/Swahili,Male,Have heard of female circumcision,94.5
+Ethnic group,Somali,Male,Have heard of female circumcision,97.6
+Ethnic group,Taita/Taveta,Male,Have heard of female circumcision,90.7
+Ethnic group,Other,Male,Have heard of female circumcision,95.2
+Residence,Urban,Male,Have heard of female circumcision,97.5
+Residence,Rural,Male,Have heard of female circumcision,97.2
+Education,No education,Male,Have heard of female circumcision,93.8
+Education,Primary,Male,Have heard of female circumcision,95.4
+Education,Secondary,Male,Have heard of female circumcision,97.9
+Education,More than secondary,Male,Have heard of female circumcision,99.9
+Wealth quintile,Lowest,Male,Have heard of female circumcision,95.8
+Wealth quintile,Second,Male,Have heard of female circumcision,96.5
+Wealth quintile,Middle,Male,Have heard of female circumcision,97.7
+Wealth quintile,Fourth,Male,Have heard of female circumcision,97.5
+Wealth quintile,Highest,Male,Have heard of female circumcision,98.5

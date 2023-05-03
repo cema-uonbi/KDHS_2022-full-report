@@ -1,0 +1,397 @@
+Indicator,Number,Participants,Indicator1,difficulty,difficultyprop,Indicator2,label
+5–14,9598,Women,Age_category,Some Difficulty,7.3,Age category,7%
+5–14,9598,Women,Age_category,Alot of difficulty,1.7,Age category,2%
+5–14,9598,Women,Age_category,Cannot do at all,0.4,Age category,<1%
+5–14,9598,Women,Age_category,Seeing,3.4,Age category,3%
+5–14,9598,Women,Age_category,Hearing,2.5,Age category,2%
+5–14,9598,Women,Age_category,Communicating,1.1,Age category,1%
+5–14,9598,Women,Age_category,Remembering_concentrating,2,Age category,2%
+5–14,9598,Women,Age_category,Walking/Climbing steps,1.1,Age category,1%
+5–14,9598,Women,Age_category,Washing all over/Dressing,1.5,Age category,2%
+15–49,17439,Women,Age_category,Some Difficulty,13.6,Age category,14%
+15–49,17439,Women,Age_category,Alot of difficulty,2.7,Age category,3%
+15–49,17439,Women,Age_category,Cannot do at all,0.2,Age category,<1%
+15–49,17439,Women,Age_category,Seeing,9.7,Age category,10%
+15–49,17439,Women,Age_category,Hearing,2.5,Age category,2%
+15–49,17439,Women,Age_category,Communicating,1,Age category,1%
+15–49,17439,Women,Age_category,Remembering_concentrating,3.5,Age category,4%
+15–49,17439,Women,Age_category,Walking/Climbing steps,4.5,Age category,4%
+15–49,17439,Women,Age_category,Washing all over/Dressing,1.1,Age category,1%
+50+,5016,Women,Age_category,Some Difficulty,40.7,Age category,41%
+50+,5016,Women,Age_category,Alot of difficulty,20.5,Age category,20%
+50+,5016,Women,Age_category,Cannot do at all,1.6,Age category,2%
+50+,5016,Women,Age_category,Seeing,38.8,Age category,39%
+50+,5016,Women,Age_category,Hearing,15.5,Age category,16%
+50+,5016,Women,Age_category,Communicating,3.5,Age category,4%
+50+,5016,Women,Age_category,Remembering_concentrating,23,Age category,23%
+50+,5016,Women,Age_category,Walking/Climbing steps,41.2,Age category,41%
+50+,5016,Women,Age_category,Washing all over/Dressing,13.7,Age category,14%
+5–14,9491,Men,Age_category,Some Difficulty,7.8,Age category,8%
+5–14,9491,Men,Age_category,Alot of difficulty,2.1,Age category,2%
+5–14,9491,Men,Age_category,Cannot do at all,0.8,Age category,1%
+5–14,9491,Men,Age_category,Seeing,3.4,Age category,3%
+5–14,9491,Men,Age_category,Hearing,2.5,Age category,2%
+5–14,9491,Men,Age_category,Communicating,1.7,Age category,2%
+5–14,9491,Men,Age_category,Remembering_concentrating,2.5,Age category,2%
+5–14,9491,Men,Age_category,Walking/Climbing steps,1.5,Age category,2%
+5–14,9491,Men,Age_category,Washing all over/Dressing,2.6,Age category,3%
+15–49,15806,Men,Age_category,Some Difficulty,10.8,Age category,11%
+15–49,15806,Men,Age_category,Alot of difficulty,2.6,Age category,3%
+15–49,15806,Men,Age_category,Cannot do at all,0.4,Age category,<1%
+15–49,15806,Men,Age_category,Seeing,6.9,Age category,7%
+15–49,15806,Men,Age_category,Hearing,2.1,Age category,2%
+15–49,15806,Men,Age_category,Communicating,1.4,Age category,1%
+15–49,15806,Men,Age_category,Remembering_concentrating,3.3,Age category,3%
+15–49,15806,Men,Age_category,Walking/Climbing steps,3.4,Age category,3%
+15–49,15806,Men,Age_category,Washing all over/Dressing,1.2,Age category,1%
+50+,4111,Men,Age_category,Some Difficulty,36.8,Age category,37%
+50+,4111,Men,Age_category,Alot of difficulty,12.6,Age category,13%
+50+,4111,Men,Age_category,Cannot do at all,1.6,Age category,2%
+50+,4111,Men,Age_category,Seeing,34,Age category,34%
+50+,4111,Men,Age_category,Hearing,11.5,Age category,12%
+50+,4111,Men,Age_category,Communicating,3.3,Age category,3%
+50+,4111,Men,Age_category,Remembering_concentrating,14.6,Age category,15%
+50+,4111,Men,Age_category,Walking/Climbing steps,23.6,Age category,24%
+50+,4111,Men,Age_category,Washing all over/Dressing,8.8,Age category,9%
+Never married,6226,Women,Marital_status,Some Difficulty,11.7,Marital status,12%
+Never married,6226,Women,Marital_status,Alot of difficulty,2.9,Marital status,3%
+Never married,6226,Women,Marital_status,Cannot do at all,0.6,Marital status,1%
+Never married,6226,Women,Marital_status,Seeing,9.2,Marital status,9%
+Never married,6226,Women,Marital_status,Hearing,2.8,Marital status,3%
+Never married,6226,Women,Marital_status,Communicating,1.8,Marital status,2%
+Never married,6226,Women,Marital_status,Remembering_concentrating,2.8,Marital status,3%
+Never married,6226,Women,Marital_status,Walking/Climbing steps,3.7,Marital status,4%
+Never married,6226,Women,Marital_status,Washing all over/Dressing,1.5,Marital status,2%
+"Married or 
+living together",12082,Women,Marital_status,Some Difficulty,19.2,Marital status,19%
+"Married or 
+living together",12082,Women,Marital_status,Alot of difficulty,4.8,Marital status,5%
+"Married or 
+living together",12082,Women,Marital_status,Cannot do at all,0.1,Marital status,<1%
+"Married or 
+living together",12082,Women,Marital_status,Seeing,14.3,Marital status,14%
+"Married or 
+living together",12082,Women,Marital_status,Hearing,3.9,Marital status,4%
+"Married or 
+living together",12082,Women,Marital_status,Communicating,0.8,Marital status,1%
+"Married or 
+living together",12082,Women,Marital_status,Remembering_concentrating,6.3,Marital status,6%
+"Married or 
+living together",12082,Women,Marital_status,Walking/Climbing steps,10.6,Marital status,11%
+"Married or 
+living together",12082,Women,Marital_status,Washing all over/Dressing,2.5,Marital status,2%
+Widowed,2398,Women,Marital_status,Some Difficulty,39.4,Marital status,39%
+Widowed,2398,Women,Marital_status,Alot of difficulty,25.3,Marital status,25%
+Widowed,2398,Women,Marital_status,Cannot do at all,3,Marital status,3%
+Widowed,2398,Women,Marital_status,Seeing,42.8,Marital status,43%
+Widowed,2398,Women,Marital_status,Hearing,19.8,Marital status,20%
+Widowed,2398,Women,Marital_status,Communicating,4.9,Marital status,5%
+Widowed,2398,Women,Marital_status,Remembering_concentrating,27.6,Marital status,28%
+Widowed,2398,Women,Marital_status,Walking/Climbing steps,45.9,Marital status,46%
+Widowed,2398,Women,Marital_status,Washing all over/Dressing,17.9,Marital status,18%
+"Divorced or 
+separated",1748,Women,Marital_status,Some Difficulty,24.2,Marital status,24%
+"Divorced or 
+separated",1748,Women,Marital_status,Alot of difficulty,7.6,Marital status,8%
+"Divorced or 
+separated",1748,Women,Marital_status,Cannot do at all,0.1,Marital status,<1%
+"Divorced or 
+separated",1748,Women,Marital_status,Seeing,17.6,Marital status,18%
+"Divorced or 
+separated",1748,Women,Marital_status,Hearing,5,Marital status,5%
+"Divorced or 
+separated",1748,Women,Marital_status,Communicating,1.2,Marital status,1%
+"Divorced or 
+separated",1748,Women,Marital_status,Remembering_concentrating,9.8,Marital status,10%
+"Divorced or 
+separated",1748,Women,Marital_status,Walking/Climbing steps,14.4,Marital status,14%
+"Divorced or 
+separated",1748,Women,Marital_status,Washing all over/Dressing,3.3,Marital status,3%
+"Not asked or
+missing",9619,Women,Marital_status,Some Difficulty,7.3,Marital status,7%
+"Not asked or
+missing",9619,Women,Marital_status,Alot of difficulty,1.7,Marital status,2%
+"Not asked or
+missing",9619,Women,Marital_status,Cannot do at all,0.4,Marital status,<1%
+"Not asked or
+missing",9619,Women,Marital_status,Seeing,3.5,Marital status,4%
+"Not asked or
+missing",9619,Women,Marital_status,Hearing,2.5,Marital status,2%
+"Not asked or
+missing",9619,Women,Marital_status,Communicating,1.1,Marital status,1%
+"Not asked or
+missing",9619,Women,Marital_status,Remembering_concentrating,2.1,Marital status,2%
+"Not asked or
+missing",9619,Women,Marital_status,Walking/Climbing steps,1.2,Marital status,1%
+"Not asked or
+missing",9619,Women,Marital_status,Washing all over/Dressing,1.5,Marital status,2%
+Never married,7765,Men,Marital_status,Some Difficulty,8.5,Marital status,8%
+Never married,7765,Men,Marital_status,Alot of difficulty,2.7,Marital status,3%
+Never married,7765,Men,Marital_status,Cannot do at all,0.8,Marital status,1%
+Never married,7765,Men,Marital_status,Seeing,5.2,Marital status,5%
+Never married,7765,Men,Marital_status,Hearing,2.3,Marital status,2%
+Never married,7765,Men,Marital_status,Communicating,1.9,Marital status,2%
+Never married,7765,Men,Marital_status,Remembering_concentrating,3.5,Marital status,4%
+Never married,7765,Men,Marital_status,Walking/Climbing steps,2.8,Marital status,3%
+Never married,7765,Men,Marital_status,Washing all over/Dressing,1.6,Marital status,2%
+"Married or 
+living together",10830,Men,Marital_status,Some Difficulty,20.3,Marital status,20%
+"Married or 
+living together",10830,Men,Marital_status,Alot of difficulty,5.5,Marital status,6%
+"Married or 
+living together",10830,Men,Marital_status,Cannot do at all,0.4,Marital status,<1%
+"Married or 
+living together",10830,Men,Marital_status,Seeing,16.7,Marital status,17%
+"Married or 
+living together",10830,Men,Marital_status,Hearing,4.8,Marital status,5%
+"Married or 
+living together",10830,Men,Marital_status,Communicating,1.5,Marital status,2%
+"Married or 
+living together",10830,Men,Marital_status,Remembering_concentrating,6.2,Marital status,6%
+"Married or 
+living together",10830,Men,Marital_status,Walking/Climbing steps,9.7,Marital status,10%
+"Married or 
+living together",10830,Men,Marital_status,Washing all over/Dressing,3,Marital status,3%
+Widowed,354,Men,Marital_status,Some Difficulty,39.7,Marital status,40%
+Widowed,354,Men,Marital_status,Alot of difficulty,16.1,Marital status,16%
+Widowed,354,Men,Marital_status,Cannot do at all,5,Marital status,5%
+Widowed,354,Men,Marital_status,Seeing,39,Marital status,39%
+Widowed,354,Men,Marital_status,Hearing,16,Marital status,16%
+Widowed,354,Men,Marital_status,Communicating,4.3,Marital status,4%
+Widowed,354,Men,Marital_status,Remembering_concentrating,20.4,Marital status,20%
+Widowed,354,Men,Marital_status,Walking/Climbing steps,35.7,Marital status,36%
+Widowed,354,Men,Marital_status,Washing all over/Dressing,18.8,Marital status,19%
+"Divorced or 
+separated",969,Men,Marital_status,Some Difficulty,23,Marital status,23%
+"Divorced or 
+separated",969,Men,Marital_status,Alot of difficulty,7.4,Marital status,7%
+"Divorced or 
+separated",969,Men,Marital_status,Cannot do at all,0.8,Marital status,1%
+"Divorced or 
+separated",969,Men,Marital_status,Seeing,15,Marital status,15%
+"Divorced or 
+separated",969,Men,Marital_status,Hearing,6.2,Marital status,6%
+"Divorced or 
+separated",969,Men,Marital_status,Communicating,2.5,Marital status,2%
+"Divorced or 
+separated",969,Men,Marital_status,Remembering_concentrating,10.3,Marital status,10%
+"Divorced or 
+separated",969,Men,Marital_status,Walking/Climbing steps,12.1,Marital status,12%
+"Divorced or 
+separated",969,Men,Marital_status,Washing all over/Dressing,4.3,Marital status,4%
+"Not asked or
+missing",9510,Men,Marital_status,Some Difficulty,7.8,Marital status,8%
+"Not asked or
+missing",9510,Men,Marital_status,Alot of difficulty,2.2,Marital status,2%
+"Not asked or
+missing",9510,Men,Marital_status,Cannot do at all,0.8,Marital status,1%
+"Not asked or
+missing",9510,Men,Marital_status,Seeing,3.4,Marital status,3%
+"Not asked or
+missing",9510,Men,Marital_status,Hearing,2.5,Marital status,2%
+"Not asked or
+missing",9510,Men,Marital_status,Communicating,1.7,Marital status,2%
+"Not asked or
+missing",9510,Men,Marital_status,Remembering_concentrating,2.5,Marital status,2%
+"Not asked or
+missing",9510,Men,Marital_status,Walking/Climbing steps,1.5,Marital status,2%
+"Not asked or
+missing",9510,Men,Marital_status,Washing all over/Dressing,2.6,Marital status,3%
+Urban,10734,Women,Residence,Some Difficulty,12.5,Residence,12%
+Urban,10734,Women,Residence,Alot of difficulty,3.2,Residence,3%
+Urban,10734,Women,Residence,Cannot do at all,0.3,Residence,<1%
+Urban,10734,Women,Residence,Seeing,10.2,Residence,10%
+Urban,10734,Women,Residence,Hearing,2.6,Residence,3%
+Urban,10734,Women,Residence,Communicating,1,Residence,1%
+Urban,10734,Women,Residence,Remembering_concentrating,2.9,Residence,3%
+Urban,10734,Women,Residence,Walking/Climbing steps,5.6,Residence,6%
+Urban,10734,Women,Residence,Washing all over/Dressing,1.7,Residence,2%
+Rural,21340,Women,Residence,Some Difficulty,17.7,Residence,18%
+Rural,21340,Women,Residence,Alot of difficulty,6.2,Residence,6%
+Rural,21340,Women,Residence,Cannot do at all,0.6,Residence,1%
+Rural,21340,Women,Residence,Seeing,13.5,Residence,14%
+Rural,21340,Women,Residence,Hearing,5.5,Residence,6%
+Rural,21340,Women,Residence,Communicating,1.6,Residence,2%
+Rural,21340,Women,Residence,Remembering_concentrating,7.8,Residence,8%
+Rural,21340,Women,Residence,Walking/Climbing steps,11.1,Residence,11%
+Rural,21340,Women,Residence,Washing all over/Dressing,4,Residence,4%
+Urban,9670,Men,Residence,Some Difficulty,11.6,Residence,12%
+Urban,9670,Men,Residence,Alot of difficulty,1.8,Residence,2%
+Urban,9670,Men,Residence,Cannot do at all,0.4,Residence,<1%
+Urban,9670,Men,Residence,Seeing,8.2,Residence,8%
+Urban,9670,Men,Residence,Hearing,1.9,Residence,2%
+Urban,9670,Men,Residence,Communicating,1,Residence,1%
+Urban,9670,Men,Residence,Remembering_concentrating,2.5,Residence,2%
+Urban,9670,Men,Residence,Walking/Climbing steps,3.4,Residence,3%
+Urban,9670,Men,Residence,Washing all over/Dressing,1.4,Residence,1%
+Rural,19758,Men,Residence,Some Difficulty,14.4,Residence,14%
+Rural,19758,Men,Residence,Alot of difficulty,4.9,Residence,5%
+Rural,19758,Men,Residence,Cannot do at all,0.9,Residence,1%
+Rural,19758,Men,Residence,Seeing,10.3,Residence,10%
+Rural,19758,Men,Residence,Hearing,4.4,Residence,4%
+Rural,19758,Men,Residence,Communicating,2.1,Residence,2%
+Rural,19758,Men,Residence,Remembering_concentrating,5.6,Residence,6%
+Rural,19758,Men,Residence,Walking/Climbing steps,6.7,Residence,7%
+Rural,19758,Men,Residence,Washing all over/Dressing,3.4,Residence,3%
+No education,4903,Women,Education_status,Some Difficulty,19.4,Education status,19%
+No education,4903,Women,Education_status,Alot of difficulty,11.3,Education status,11%
+No education,4903,Women,Education_status,Cannot do at all,2,Education status,2%
+No education,4903,Women,Education_status,Seeing,17.3,Education status,17%
+No education,4903,Women,Education_status,Hearing,10.6,Education status,11%
+No education,4903,Women,Education_status,Communicating,4,Education status,4%
+No education,4903,Women,Education_status,Remembering_concentrating,12.7,Education status,13%
+No education,4903,Women,Education_status,Walking/Climbing steps,19,Education status,19%
+No education,4903,Women,Education_status,Washing all over/Dressing,10.3,Education status,10%
+Primary,15691,Women,Education_status,Some Difficulty,16.5,Education status,16%
+Primary,15691,Women,Education_status,Alot of difficulty,5.2,Education status,5%
+Primary,15691,Women,Education_status,Cannot do at all,0.3,Education status,<1%
+Primary,15691,Women,Education_status,Seeing,11.8,Education status,12%
+Primary,15691,Women,Education_status,Hearing,4.4,Education status,4%
+Primary,15691,Women,Education_status,Communicating,1.1,Education status,1%
+Primary,15691,Women,Education_status,Remembering_concentrating,6.5,Education status,6%
+Primary,15691,Women,Education_status,Walking/Climbing steps,9.2,Education status,9%
+Primary,15691,Women,Education_status,Washing all over/Dressing,2.6,Education status,3%
+Secondary,7635,Women,Education_status,Some Difficulty,14.1,Education status,14%
+Secondary,7635,Women,Education_status,Alot of difficulty,2.9,Education status,3%
+Secondary,7635,Women,Education_status,Cannot do at all,0.2,Education status,<1%
+Secondary,7635,Women,Education_status,Seeing,11.2,Education status,11%
+Secondary,7635,Women,Education_status,Hearing,2.2,Education status,2%
+Secondary,7635,Women,Education_status,Communicating,0.7,Education status,1%
+Secondary,7635,Women,Education_status,Remembering_concentrating,3.1,Education status,3%
+Secondary,7635,Women,Education_status,Walking/Climbing steps,5.7,Education status,6%
+Secondary,7635,Women,Education_status,Washing all over/Dressing,1,Education status,1%
+More than secondary,3595,Women,Education_status,Some Difficulty,13.5,Education status,14%
+More than secondary,3595,Women,Education_status,Alot of difficulty,1.7,Education status,2%
+More than secondary,3595,Women,Education_status,Cannot do at all,0,Education status,<1%
+More than secondary,3595,Women,Education_status,Seeing,11.1,Education status,11%
+More than secondary,3595,Women,Education_status,Hearing,1.7,Education status,2%
+More than secondary,3595,Women,Education_status,Communicating,0.6,Education status,1%
+More than secondary,3595,Women,Education_status,Remembering_concentrating,2.1,Education status,2%
+More than secondary,3595,Women,Education_status,Walking/Climbing steps,3.9,Education status,4%
+More than secondary,3595,Women,Education_status,Washing all over/Dressing,0.8,Education status,1%
+No education,3563,Men,Education_status,Some Difficulty,13.7,Education status,14%
+No education,3563,Men,Education_status,Alot of difficulty,6.1,Education status,6%
+No education,3563,Men,Education_status,Cannot do at all,2.9,Education status,3%
+No education,3563,Men,Education_status,Seeing,10,Education status,10%
+No education,3563,Men,Education_status,Hearing,5.6,Education status,6%
+No education,3563,Men,Education_status,Communicating,4.1,Education status,4%
+No education,3563,Men,Education_status,Remembering_concentrating,6.3,Education status,6%
+No education,3563,Men,Education_status,Walking/Climbing steps,8.9,Education status,9%
+No education,3563,Men,Education_status,Washing all over/Dressing,8,Education status,8%
+Primary,14450,Men,Education_status,Some Difficulty,13.6,Education status,14%
+Primary,14450,Men,Education_status,Alot of difficulty,4.3,Education status,4%
+Primary,14450,Men,Education_status,Cannot do at all,0.6,Education status,1%
+Primary,14450,Men,Education_status,Seeing,9.1,Education status,9%
+Primary,14450,Men,Education_status,Hearing,4,Education status,4%
+Primary,14450,Men,Education_status,Communicating,1.9,Education status,2%
+Primary,14450,Men,Education_status,Remembering_concentrating,5.4,Education status,5%
+Primary,14450,Men,Education_status,Walking/Climbing steps,5.9,Education status,6%
+Primary,14450,Men,Education_status,Washing all over/Dressing,2.6,Education status,3%
+Secondary,7405,Men,Education_status,Some Difficulty,13.1,Education status,13%
+Secondary,7405,Men,Education_status,Alot of difficulty,2.8,Education status,3%
+Secondary,7405,Men,Education_status,Cannot do at all,0.2,Education status,<1%
+Secondary,7405,Men,Education_status,Seeing,9.8,Education status,10%
+Secondary,7405,Men,Education_status,Hearing,2.4,Education status,2%
+Secondary,7405,Men,Education_status,Communicating,1,Education status,1%
+Secondary,7405,Men,Education_status,Remembering_concentrating,3.3,Education status,3%
+Secondary,7405,Men,Education_status,Walking/Climbing steps,4.4,Education status,4%
+Secondary,7405,Men,Education_status,Washing all over/Dressing,1.3,Education status,1%
+More than secondary,3645,Men,Education_status,Some Difficulty,13.3,Education status,13%
+More than secondary,3645,Men,Education_status,Alot of difficulty,1.9,Education status,2%
+More than secondary,3645,Men,Education_status,Cannot do at all,0.2,Education status,<1%
+More than secondary,3645,Men,Education_status,Seeing,10.6,Education status,11%
+More than secondary,3645,Men,Education_status,Hearing,2,Education status,2%
+More than secondary,3645,Men,Education_status,Communicating,0.4,Education status,<1%
+More than secondary,3645,Men,Education_status,Remembering_concentrating,2.3,Education status,2%
+More than secondary,3645,Men,Education_status,Walking/Climbing steps,3.8,Education status,4%
+More than secondary,3645,Men,Education_status,Washing all over/Dressing,0.8,Education status,1%
+Lowest,6188,Women,Wealth_quintile,Some Difficulty,16.4,Wealth quintile,16%
+Lowest,6188,Women,Wealth_quintile,Alot of difficulty,7.2,Wealth quintile,7%
+Lowest,6188,Women,Wealth_quintile,Cannot do at all,0.9,Wealth quintile,1%
+Lowest,6188,Women,Wealth_quintile,Seeing,12.8,Wealth quintile,13%
+Lowest,6188,Women,Wealth_quintile,Hearing,7.2,Wealth quintile,7%
+Lowest,6188,Women,Wealth_quintile,Communicating,2.2,Wealth quintile,2%
+Lowest,6188,Women,Wealth_quintile,Remembering_concentrating,8.5,Wealth quintile,8%
+Lowest,6188,Women,Wealth_quintile,Walking/Climbing steps,10.9,Wealth quintile,11%
+Lowest,6188,Women,Wealth_quintile,Washing all over/Dressing,4.8,Wealth quintile,5%
+Second,6532,Women,Wealth_quintile,Some Difficulty,18.2,Wealth quintile,18%
+Second,6532,Women,Wealth_quintile,Alot of difficulty,6.4,Wealth quintile,6%
+Second,6532,Women,Wealth_quintile,Cannot do at all,0.6,Wealth quintile,1%
+Second,6532,Women,Wealth_quintile,Seeing,13.8,Wealth quintile,14%
+Second,6532,Women,Wealth_quintile,Hearing,5.9,Wealth quintile,6%
+Second,6532,Women,Wealth_quintile,Communicating,1.5,Wealth quintile,2%
+Second,6532,Women,Wealth_quintile,Remembering_concentrating,8.5,Wealth quintile,8%
+Second,6532,Women,Wealth_quintile,Walking/Climbing steps,11.1,Wealth quintile,11%
+Second,6532,Women,Wealth_quintile,Washing all over/Dressing,3.4,Wealth quintile,3%
+Middle,6317,Women,Wealth_quintile,Some Difficulty,17.6,Wealth quintile,18%
+Middle,6317,Women,Wealth_quintile,Alot of difficulty,6,Wealth quintile,6%
+Middle,6317,Women,Wealth_quintile,Cannot do at all,0.4,Wealth quintile,<1%
+Middle,6317,Women,Wealth_quintile,Seeing,13.4,Wealth quintile,13%
+Middle,6317,Women,Wealth_quintile,Hearing,4.3,Wealth quintile,4%
+Middle,6317,Women,Wealth_quintile,Communicating,1.4,Wealth quintile,1%
+Middle,6317,Women,Wealth_quintile,Remembering_concentrating,7.1,Wealth quintile,7%
+Middle,6317,Women,Wealth_quintile,Walking/Climbing steps,11.7,Wealth quintile,12%
+Middle,6317,Women,Wealth_quintile,Washing all over/Dressing,3.9,Wealth quintile,4%
+Fourth,6318,Women,Wealth_quintile,Some Difficulty,15.8,Wealth quintile,16%
+Fourth,6318,Women,Wealth_quintile,Alot of difficulty,3.8,Wealth quintile,4%
+Fourth,6318,Women,Wealth_quintile,Cannot do at all,0.5,Wealth quintile,0%
+Fourth,6318,Women,Wealth_quintile,Seeing,11.8,Wealth quintile,12%
+Fourth,6318,Women,Wealth_quintile,Hearing,3.1,Wealth quintile,3%
+Fourth,6318,Women,Wealth_quintile,Communicating,1.2,Wealth quintile,1%
+Fourth,6318,Women,Wealth_quintile,Remembering_concentrating,4.3,Wealth quintile,4%
+Fourth,6318,Women,Wealth_quintile,Walking/Climbing steps,8.5,Wealth quintile,8%
+Fourth,6318,Women,Wealth_quintile,Washing all over/Dressing,2.8,Wealth quintile,3%
+Highest,6718,Women,Wealth_quintile,Some Difficulty,12,Wealth quintile,12%
+Highest,6718,Women,Wealth_quintile,Alot of difficulty,2.7,Wealth quintile,3%
+Highest,6718,Women,Wealth_quintile,Cannot do at all,0.2,Wealth quintile,<1%
+Highest,6718,Women,Wealth_quintile,Seeing,10.3,Wealth quintile,10%
+Highest,6718,Women,Wealth_quintile,Hearing,2.1,Wealth quintile,2%
+Highest,6718,Women,Wealth_quintile,Communicating,0.9,Wealth quintile,1%
+Highest,6718,Women,Wealth_quintile,Remembering_concentrating,2.4,Wealth quintile,2%
+Highest,6718,Women,Wealth_quintile,Walking/Climbing steps,4.4,Wealth quintile,4%
+Highest,6718,Women,Wealth_quintile,Washing all over/Dressing,1.2,Wealth quintile,1%
+Lowest,5685,Men,Wealth_quintile,Some Difficulty,13.3,Wealth quintile,13%
+Lowest,5685,Men,Wealth_quintile,Alot of difficulty,5.5,Wealth quintile,6%
+Lowest,5685,Men,Wealth_quintile,Cannot do at all,1.1,Wealth quintile,1%
+Lowest,5685,Men,Wealth_quintile,Seeing,9.9,Wealth quintile,10%
+Lowest,5685,Men,Wealth_quintile,Hearing,5.4,Wealth quintile,5%
+Lowest,5685,Men,Wealth_quintile,Communicating,2.7,Wealth quintile,3%
+Lowest,5685,Men,Wealth_quintile,Remembering_concentrating,6,Wealth quintile,6%
+Lowest,5685,Men,Wealth_quintile,Walking/Climbing steps,7.4,Wealth quintile,7%
+Lowest,5685,Men,Wealth_quintile,Washing all over/Dressing,4.3,Wealth quintile,4%
+Second,5988,Men,Wealth_quintile,Some Difficulty,15.2,Wealth quintile,15%
+Second,5988,Men,Wealth_quintile,Alot of difficulty,5.5,Wealth quintile,6%
+Second,5988,Men,Wealth_quintile,Cannot do at all,0.8,Wealth quintile,1%
+Second,5988,Men,Wealth_quintile,Seeing,10.2,Wealth quintile,10%
+Second,5988,Men,Wealth_quintile,Hearing,4.7,Wealth quintile,5%
+Second,5988,Men,Wealth_quintile,Communicating,2.2,Wealth quintile,2%
+Second,5988,Men,Wealth_quintile,Remembering_concentrating,6.6,Wealth quintile,7%
+Second,5988,Men,Wealth_quintile,Walking/Climbing steps,6.8,Wealth quintile,7%
+Second,5988,Men,Wealth_quintile,Washing all over/Dressing,3.4,Wealth quintile,3%
+Middle,6034,Men,Wealth_quintile,Some Difficulty,14,Wealth quintile,14%
+Middle,6034,Men,Wealth_quintile,Alot of difficulty,4.3,Wealth quintile,4%
+Middle,6034,Men,Wealth_quintile,Cannot do at all,0.6,Wealth quintile,1%
+Middle,6034,Men,Wealth_quintile,Seeing,10.4,Wealth quintile,10%
+Middle,6034,Men,Wealth_quintile,Hearing,3.4,Wealth quintile,3%
+Middle,6034,Men,Wealth_quintile,Communicating,1.8,Wealth quintile,2%
+Middle,6034,Men,Wealth_quintile,Remembering_concentrating,4.8,Wealth quintile,5%
+Middle,6034,Men,Wealth_quintile,Walking/Climbing steps,6.2,Wealth quintile,6%
+Middle,6034,Men,Wealth_quintile,Washing all over/Dressing,2.8,Wealth quintile,3%
+Fourth,6280,Men,Wealth_quintile,Some Difficulty,13.1,Wealth quintile,13%
+Fourth,6280,Men,Wealth_quintile,Alot of difficulty,2.4,Wealth quintile,2%
+Fourth,6280,Men,Wealth_quintile,Cannot do at all,0.7,Wealth quintile,1%
+Fourth,6280,Men,Wealth_quintile,Seeing,9.1,Wealth quintile,9%
+Fourth,6280,Men,Wealth_quintile,Hearing,2.5,Wealth quintile,2%
+Fourth,6280,Men,Wealth_quintile,Communicating,1.3,Wealth quintile,1%
+Fourth,6280,Men,Wealth_quintile,Remembering_concentrating,3.5,Wealth quintile,4%
+Fourth,6280,Men,Wealth_quintile,Walking/Climbing steps,4.8,Wealth quintile,5%
+Fourth,6280,Men,Wealth_quintile,Washing all over/Dressing,2,Wealth quintile,2%
+Highest,5440,Men,Wealth_quintile,Some Difficulty,11.4,Wealth quintile,11%
+Highest,5440,Men,Wealth_quintile,Alot of difficulty,1.4,Wealth quintile,1%
+Highest,5440,Men,Wealth_quintile,Cannot do at all,0.3,Wealth quintile,<1%
+Highest,5440,Men,Wealth_quintile,Seeing,8.2,Wealth quintile,8%
+Highest,5440,Men,Wealth_quintile,Hearing,1.7,Wealth quintile,2%
+Highest,5440,Men,Wealth_quintile,Communicating,0.7,Wealth quintile,1%
+Highest,5440,Men,Wealth_quintile,Remembering_concentrating,2.1,Wealth quintile,2%
+Highest,5440,Men,Wealth_quintile,Walking/Climbing steps,2.7,Wealth quintile,3%
+Highest,5440,Men,Wealth_quintile,Washing all over/Dressing,1,Wealth quintile,1%

@@ -1,0 +1,706 @@
+County,Category,Prop,Proportion
+Mombasa,Stunting,Percentage change,-36
+Kwale,Stunting,Percentage change,-23.6
+Kilifi,Stunting,Percentage change,-5.4
+Tana River,Stunting,Percentage change,-24.9
+Lamu,Stunting,Percentage change,-44.9
+Taita Taveta,Stunting,Percentage change,-19.3
+Garissa,Stunting,Percentage change,-42.3
+Wajir,Stunting,Percentage change,-53
+Mandera,Stunting,Percentage change,-43.2
+Marsabit,Stunting,Percentage change,-28.7
+Isiolo,Stunting,Percentage change,-26.2
+Meru,Stunting,Percentage change,0
+Tharaka Nithi,Stunting,Percentage change,-37.7
+Embu,Stunting,Percentage change,-25.7
+Kitui,Stunting,Percentage change,-45.2
+Machakos,Stunting,Percentage change,-38.9
+Makueni,Stunting,Percentage change,-21.1
+Nyandarua,Stunting,Percentage change,-39.5
+Nyeri,Stunting,Percentage change,-17.2
+Kirinyaga,Stunting,Percentage change,-34.9
+Muranga,Stunting,Percentage change,-47.7
+Kiambu,Stunting,Percentage change,-2.5
+Turkana,Stunting,Percentage change,-3.8
+West Pokot,Stunting,Percentage change,-27
+Samburu,Stunting,Percentage change,4.3
+Trans Nzoia,Stunting,Percentage change,-27.1
+Uasin Gishu,Stunting,Percentage change,-54.5
+Elgeyo Marakwet,Stunting,Percentage change,-27.1
+Nandi,Stunting,Percentage change,-49.5
+Baringo,Stunting,Percentage change,-28.1
+Laikipia,Stunting,Percentage change,-53.2
+Nakuru,Stunting,Percentage change,-33
+Narok,Stunting,Percentage change,-34.7
+Kajiado,Stunting,Percentage change,-23.1
+Kericho,Stunting,Percentage change,-32.8
+Bomet,Stunting,Percentage change,-37.7
+Kakamega,Stunting,Percentage change,-59.5
+Vihiga,Stunting,Percentage change,-29.4
+Bungoma,Stunting,Percentage change,-22.1
+Busia,Stunting,Percentage change,-31.8
+Siaya,Stunting,Percentage change,-22.3
+Kisumu,Stunting,Percentage change,-49.4
+Homa Bay,Stunting,Percentage change,-33.2
+Migori,Stunting,Percentage change,-43.9
+Kisii,Stunting,Percentage change,-36.1
+Nyamira,Stunting,Percentage change,-47.1
+Nairobi,Stunting,Percentage change,-35.5
+Mombasa,Wasting,Percentage change,12.2
+Kwale,Wasting,Percentage change,40.9
+Kilifi,Wasting,Percentage change,75.6
+Tana River,Wasting,Percentage change,98.2
+Lamu,Wasting,Percentage change,-16.7
+Taita Taveta,Wasting,Percentage change,-43.1
+Garissa,Wasting,Percentage change,34.2
+Wajir,Wasting,Percentage change,60.6
+Mandera,Wasting,Percentage change,16.9
+Marsabit,Wasting,Percentage change,25.2
+Isiolo,Wasting,Percentage change,-20.9
+Meru,Wasting,Percentage change,106.9
+Tharaka Nithi,Wasting,Percentage change,-6.1
+Embu,Wasting,Percentage change,76.7
+Kitui,Wasting,Percentage change,44.1
+Machakos,Wasting,Percentage change,-46.2
+Makueni,Wasting,Percentage change,90.5
+Nyandarua,Wasting,Percentage change,-5
+Nyeri,Wasting,Percentage change,12.5
+Kirinyaga,Wasting,Percentage change,-43.6
+Muranga,Wasting,Percentage change,21.4
+Kiambu,Wasting,Percentage change,39.1
+Turkana,Wasting,Percentage change,-1.3
+West Pokot,Wasting,Percentage change,-23.1
+Samburu,Wasting,Percentage change,13.2
+Trans Nzoia,Wasting,Percentage change,-17.9
+Uasin Gishu,Wasting,Percentage change,33.3
+Elgeyo Marakwet,Wasting,Percentage change,11.6
+Nandi,Wasting,Percentage change,2.6
+Baringo,Wasting,Percentage change,97.1
+Laikipia,Wasting,Percentage change,-40.9
+Nakuru,Wasting,Percentage change,-33.3
+Narok,Wasting,Percentage change,-12.5
+Kajiado,Wasting,Percentage change,153.3
+Kericho,Wasting,Percentage change,-55.4
+Bomet,Wasting,Percentage change,83.3
+Kakamega,Wasting,Percentage change,-16.7
+Vihiga,Wasting,Percentage change,-7.7
+Bungoma,Wasting,Percentage change,27.8
+Busia,Wasting,Percentage change,27.3
+Siaya,Wasting,Percentage change,750
+Kisumu,Wasting,Percentage change,275
+Homa Bay,Wasting,Percentage change,-21.7
+Migori,Wasting,Percentage change,-40
+Kisii,Wasting,Percentage change,70.6
+Nyamira,Wasting,Percentage change,-70.7
+Nairobi,Wasting,Percentage change,0
+Mombasa,Underweight,Percentage change,2.1
+Kwale,Underweight,Percentage change,16.1
+Kilifi,Underweight,Percentage change,15.4
+Tana River,Underweight,Percentage change,-9.7
+Lamu,Underweight,Percentage change,5.9
+Taita Taveta,Underweight,Percentage change,61.5
+Garissa,Underweight,Percentage change,7.6
+Wajir,Underweight,Percentage change,-23.2
+Mandera,Underweight,Percentage change,-6.8
+Marsabit,Underweight,Percentage change,-14
+Isiolo,Underweight,Percentage change,-10.9
+Meru,Underweight,Percentage change,33.3
+Tharaka Nithi,Underweight,Percentage change,-28.7
+Embu,Underweight,Percentage change,1.8
+Kitui,Underweight,Percentage change,-29.4
+Machakos,Underweight,Percentage change,0
+Makueni,Underweight,Percentage change,-14.7
+Nyandarua,Underweight,Percentage change,-41.2
+Nyeri,Underweight,Percentage change,60
+Kirinyaga,Underweight,Percentage change,-26
+Muranga,Underweight,Percentage change,5.4
+Kiambu,Underweight,Percentage change,17.6
+Turkana,Underweight,Percentage change,-6.8
+West Pokot,Underweight,Percentage change,-29.6
+Samburu,Underweight,Percentage change,4.5
+Trans Nzoia,Underweight,Percentage change,-27.5
+Uasin Gishu,Underweight,Percentage change,-44.3
+Elgeyo Marakwet,Underweight,Percentage change,10.3
+Nandi,Underweight,Percentage change,-18.9
+Baringo,Underweight,Percentage change,-1.5
+Laikipia,Underweight,Percentage change,-52.5
+Nakuru,Underweight,Percentage change,-9.8
+Narok,Underweight,Percentage change,-7.8
+Kajiado,Underweight,Percentage change,18.5
+Kericho,Underweight,Percentage change,-25.8
+Bomet,Underweight,Percentage change,-18.3
+Kakamega,Underweight,Percentage change,-36.6
+Vihiga,Underweight,Percentage change,55.9
+Bungoma,Underweight,Percentage change,6.7
+Busia,Underweight,Percentage change,-30
+Siaya,Underweight,Percentage change,-10.3
+Kisumu,Underweight,Percentage change,-47
+Homa Bay,Underweight,Percentage change,13
+Migori,Underweight,Percentage change,-41.9
+Kisii,Underweight,Percentage change,-7.1
+Nyamira,Underweight,Percentage change,-64.6
+Nairobi,Underweight,Percentage change,39.5
+Mombasa,Households with >=1 ITN,Percentage change,11.2
+Mombasa,"Households with >=1 ITN
+per 2 people",Percentage change,17
+Kwale,Households with >=1 ITN,Percentage change,-8.6
+Kwale,"Households with >=1 ITN
+per 2 people",Percentage change,-0.6
+Kilifi,Households with >=1 ITN,Percentage change,1.8
+Kilifi,"Households with >=1 ITN
+per 2 people",Percentage change,16.1
+Tana River,Households with >=1 ITN,Percentage change,9.2
+Tana River,"Households with >=1 ITN
+per 2 people",Percentage change,3.9
+Lamu,Households with >=1 ITN,Percentage change,-7.3
+Lamu,"Households with >=1 ITN
+per 2 people",Percentage change,-15.4
+Taita Taveta,Households with >=1 ITN,Percentage change,8.6
+Taita Taveta,"Households with >=1 ITN
+per 2 people",Percentage change,22.6
+Garissa,Households with >=1 ITN,Percentage change,-67.8
+Garissa,"Households with >=1 ITN
+per 2 people",Percentage change,-80.2
+Wajir,Households with >=1 ITN,Percentage change,-18.7
+Wajir,"Households with >=1 ITN
+per 2 people",Percentage change,-14.4
+Mandera,Households with >=1 ITN,Percentage change,-45.3
+Mandera,"Households with >=1 ITN
+per 2 people",Percentage change,-56
+Marsabit,Households with >=1 ITN,Percentage change,9.7
+Marsabit,"Households with >=1 ITN
+per 2 people",Percentage change,5.7
+Isiolo,Households with >=1 ITN,Percentage change,-17.5
+Isiolo,"Households with >=1 ITN
+per 2 people",Percentage change,-25.7
+Meru,Households with >=1 ITN,Percentage change,-32.3
+Meru,"Households with >=1 ITN
+per 2 people",Percentage change,-45.1
+Tharaka Nithi,Households with >=1 ITN,Percentage change,-21.4
+Tharaka Nithi,"Households with >=1 ITN
+per 2 people",Percentage change,-24.2
+Embu,Households with >=1 ITN,Percentage change,-28.3
+Embu,"Households with >=1 ITN
+per 2 people",Percentage change,-31.7
+Kitui,Households with >=1 ITN,Percentage change,-46
+Kitui,"Households with >=1 ITN
+per 2 people",Percentage change,-48.5
+Machakos,Households with >=1 ITN,Percentage change,-0.2
+Machakos,"Households with >=1 ITN
+per 2 people",Percentage change,23.2
+Makueni,Households with >=1 ITN,Percentage change,-13
+Makueni,"Households with >=1 ITN
+per 2 people",Percentage change,-6.9
+Nyandarua,Households with >=1 ITN,Percentage change,-20.8
+Nyandarua,"Households with >=1 ITN
+per 2 people",Percentage change,-18.3
+Nyeri,Households with >=1 ITN,Percentage change,-8.1
+Nyeri,"Households with >=1 ITN
+per 2 people",Percentage change,1.7
+Kirinyaga,Households with >=1 ITN,Percentage change,-16.4
+Kirinyaga,"Households with >=1 ITN
+per 2 people",Percentage change,-12.7
+Muranga,Households with >=1 ITN,Percentage change,-17.8
+Muranga,"Households with >=1 ITN
+per 2 people",Percentage change,-18.8
+Kiambu,Households with >=1 ITN,Percentage change,-30.3
+Kiambu,"Households with >=1 ITN
+per 2 people",Percentage change,-36.5
+Turkana,Households with >=1 ITN,Percentage change,6.9
+Turkana,"Households with >=1 ITN
+per 2 people",Percentage change,15.3
+West Pokot,Households with >=1 ITN,Percentage change,30.9
+West Pokot,"Households with >=1 ITN
+per 2 people",Percentage change,95.8
+Samburu,Households with >=1 ITN,Percentage change,5.9
+Samburu,"Households with >=1 ITN
+per 2 people",Percentage change,-14.9
+Trans Nzoia,Households with >=1 ITN,Percentage change,21.8
+Trans Nzoia,"Households with >=1 ITN
+per 2 people",Percentage change,80.5
+Uasin Gishu,Households with >=1 ITN,Percentage change,-3.8
+Uasin Gishu,"Households with >=1 ITN
+per 2 people",Percentage change,14.3
+Elgeyo Marakwet,Households with >=1 ITN,Percentage change,15.5
+Elgeyo Marakwet,"Households with >=1 ITN
+per 2 people",Percentage change,0
+Nandi,Households with >=1 ITN,Percentage change,6.6
+Nandi,"Households with >=1 ITN
+per 2 people",Percentage change,64.7
+Baringo,Households with >=1 ITN,Percentage change,6.7
+Baringo,"Households with >=1 ITN
+per 2 people",Percentage change,14.6
+Laikipia,Households with >=1 ITN,Percentage change,42.3
+Laikipia,"Households with >=1 ITN
+per 2 people",Percentage change,50
+Nakuru,Households with >=1 ITN,Percentage change,-27.1
+Nakuru,"Households with >=1 ITN
+per 2 people",Percentage change,-32.6
+Narok,Households with >=1 ITN,Percentage change,45.6
+Narok,"Households with >=1 ITN
+per 2 people",Percentage change,112.6
+Kajiado,Households with >=1 ITN,Percentage change,-22.1
+Kajiado,"Households with >=1 ITN
+per 2 people",Percentage change,-37.2
+Kericho,Households with >=1 ITN,Percentage change,5.8
+Kericho,"Households with >=1 ITN
+per 2 people",Percentage change,45.2
+Bomet,Households with >=1 ITN,Percentage change,18.9
+Bomet,"Households with >=1 ITN
+per 2 people",Percentage change,65.2
+Kakamega,Households with >=1 ITN,Percentage change,13.1
+Kakamega,"Households with >=1 ITN
+per 2 people",Percentage change,42.3
+Vihiga,Households with >=1 ITN,Percentage change,11.6
+Vihiga,"Households with >=1 ITN
+per 2 people",Percentage change,68.8
+Bungoma,Households with >=1 ITN,Percentage change,7.8
+Bungoma,"Households with >=1 ITN
+per 2 people",Percentage change,69.3
+Busia,Households with >=1 ITN,Percentage change,11.4
+Busia,"Households with >=1 ITN
+per 2 people",Percentage change,38.1
+Siaya,Households with >=1 ITN,Percentage change,10
+Siaya,"Households with >=1 ITN
+per 2 people",Percentage change,40.9
+Kisumu,Households with >=1 ITN,Percentage change,-13.2
+Kisumu,"Households with >=1 ITN
+per 2 people",Percentage change,-10.6
+Homa Bay,Households with >=1 ITN,Percentage change,20.1
+Homa Bay,"Households with >=1 ITN
+per 2 people",Percentage change,60.5
+Migori,Households with >=1 ITN,Percentage change,17.6
+Migori,"Households with >=1 ITN
+per 2 people",Percentage change,78.9
+Kisii,Households with >=1 ITN,Percentage change,-1.3
+Kisii,"Households with >=1 ITN
+per 2 people",Percentage change,23.9
+Nyamira,Households with >=1 ITN,Percentage change,10.8
+Nyamira,"Households with >=1 ITN
+per 2 people",Percentage change,40.1
+Nairobi,Households with >=1 ITN,Percentage change,-46
+Nairobi,"Households with >=1 ITN
+per 2 people",Percentage change,-49.8
+Mombasa,BCG,Percentage change,-1.4
+Mombasa,DPT1,Percentage change,0
+Mombasa,DPT2,Percentage change,0.8
+Mombasa,DPT3,Percentage change,1.8
+Mombasa,OPV,Percentage change,16.5
+Mombasa,OPV1,Percentage change,0
+Mombasa,OPV2,Percentage change,0.8
+Mombasa,OPV3,Percentage change,-9.2
+Mombasa,FULL_VACCINATION,Percentage change,-11.6
+Kwale,BCG,Percentage change,-2.6
+Kwale,DPT1,Percentage change,0
+Kwale,DPT2,Percentage change,-2.9
+Kwale,DPT3,Percentage change,-15.3
+Kwale,OPV,Percentage change,14.4
+Kwale,OPV1,Percentage change,-2.8
+Kwale,OPV2,Percentage change,0.8
+Kwale,OPV3,Percentage change,-22.2
+Kwale,FULL_VACCINATION,Percentage change,-68.7
+Kilifi,BCG,Percentage change,5.7
+Kilifi,DPT1,Percentage change,4.7
+Kilifi,DPT2,Percentage change,3
+Kilifi,DPT3,Percentage change,6.6
+Kilifi,OPV,Percentage change,11.8
+Kilifi,OPV1,Percentage change,3.1
+Kilifi,OPV2,Percentage change,1.7
+Kilifi,OPV3,Percentage change,-13
+Kilifi,FULL_VACCINATION,Percentage change,-18.6
+Tana River,BCG,Percentage change,-2.6
+Tana River,DPT1,Percentage change,-3.9
+Tana River,DPT2,Percentage change,-7.1
+Tana River,DPT3,Percentage change,-11.3
+Tana River,OPV,Percentage change,47.8
+Tana River,OPV1,Percentage change,-4
+Tana River,OPV2,Percentage change,-9.3
+Tana River,OPV3,Percentage change,-30.5
+Tana River,FULL_VACCINATION,Percentage change,-79.1
+Lamu,BCG,Percentage change,4.5
+Lamu,DPT1,Percentage change,0.7
+Lamu,DPT2,Percentage change,0.2
+Lamu,DPT3,Percentage change,0.5
+Lamu,OPV,Percentage change,33.7
+Lamu,OPV1,Percentage change,-1
+Lamu,OPV2,Percentage change,0.5
+Lamu,OPV3,Percentage change,-23.1
+Lamu,FULL_VACCINATION,Percentage change,-24.4
+Taita Taveta,BCG,Percentage change,0
+Taita Taveta,DPT1,Percentage change,0
+Taita Taveta,DPT2,Percentage change,-3
+Taita Taveta,DPT3,Percentage change,-13.6
+Taita Taveta,OPV,Percentage change,8.2
+Taita Taveta,OPV1,Percentage change,-2.7
+Taita Taveta,OPV2,Percentage change,-4.8
+Taita Taveta,OPV3,Percentage change,-19.9
+Taita Taveta,FULL_VACCINATION,Percentage change,-35.8
+Garissa,BCG,Percentage change,-27.1
+Garissa,DPT1,Percentage change,-49.1
+Garissa,DPT2,Percentage change,-130.1
+Garissa,DPT3,Percentage change,-151.6
+Garissa,OPV,Percentage change,3.3
+Garissa,OPV1,Percentage change,-49.8
+Garissa,OPV2,Percentage change,-57.5
+Garissa,OPV3,Percentage change,-138.9
+Garissa,FULL_VACCINATION,Percentage change,-242.6
+Wajir,BCG,Percentage change,3.9
+Wajir,DPT1,Percentage change,4
+Wajir,DPT2,Percentage change,-3.5
+Wajir,DPT3,Percentage change,-18.9
+Wajir,OPV,Percentage change,18.2
+Wajir,OPV1,Percentage change,2.1
+Wajir,OPV2,Percentage change,-7.8
+Wajir,OPV3,Percentage change,-32.8
+Wajir,FULL_VACCINATION,Percentage change,-157.8
+Mandera,BCG,Percentage change,-13.6
+Mandera,DPT1,Percentage change,-7.1
+Mandera,DPT2,Percentage change,-8.2
+Mandera,DPT3,Percentage change,-11.4
+Mandera,OPV,Percentage change,10.8
+Mandera,OPV1,Percentage change,-15.8
+Mandera,OPV2,Percentage change,-1.5
+Mandera,OPV3,Percentage change,-34.4
+Mandera,FULL_VACCINATION,Percentage change,-662.5
+Marsabit,BCG,Percentage change,2.3
+Marsabit,DPT1,Percentage change,-3.4
+Marsabit,DPT2,Percentage change,-4.1
+Marsabit,DPT3,Percentage change,-1.2
+Marsabit,OPV,Percentage change,45.7
+Marsabit,OPV1,Percentage change,-7.5
+Marsabit,OPV2,Percentage change,-10.8
+Marsabit,OPV3,Percentage change,-66.9
+Marsabit,FULL_VACCINATION,Percentage change,-249.7
+Isiolo,BCG,Percentage change,0.7
+Isiolo,DPT1,Percentage change,-1.9
+Isiolo,DPT2,Percentage change,-2.4
+Isiolo,DPT3,Percentage change,-6.4
+Isiolo,OPV,Percentage change,14.6
+Isiolo,OPV1,Percentage change,-13.7
+Isiolo,OPV2,Percentage change,-17.8
+Isiolo,OPV3,Percentage change,-57.7
+Isiolo,FULL_VACCINATION,Percentage change,-121.8
+Meru,BCG,Percentage change,0.8
+Meru,DPT1,Percentage change,-1.7
+Meru,DPT2,Percentage change,-3.8
+Meru,DPT3,Percentage change,-1.4
+Meru,OPV,Percentage change,24
+Meru,OPV1,Percentage change,-3.2
+Meru,OPV2,Percentage change,-11.7
+Meru,OPV3,Percentage change,-16.8
+Meru,FULL_VACCINATION,Percentage change,-44.9
+Tharaka Nithi,BCG,Percentage change,0
+Tharaka Nithi,DPT1,Percentage change,1.7
+Tharaka Nithi,DPT2,Percentage change,-0.3
+Tharaka Nithi,DPT3,Percentage change,-0.5
+Tharaka Nithi,OPV,Percentage change,0.3
+Tharaka Nithi,OPV1,Percentage change,0
+Tharaka Nithi,OPV2,Percentage change,-2
+Tharaka Nithi,OPV3,Percentage change,-7
+Tharaka Nithi,FULL_VACCINATION,Percentage change,-16.1
+Embu,BCG,Percentage change,0
+Embu,DPT1,Percentage change,0
+Embu,DPT2,Percentage change,0
+Embu,DPT3,Percentage change,-2.1
+Embu,OPV,Percentage change,10.1
+Embu,OPV1,Percentage change,0
+Embu,OPV2,Percentage change,-1.9
+Embu,OPV3,Percentage change,-4.3
+Embu,FULL_VACCINATION,Percentage change,-13.1
+Kitui,BCG,Percentage change,-11
+Kitui,DPT1,Percentage change,-5.6
+Kitui,DPT2,Percentage change,-7.4
+Kitui,DPT3,Percentage change,2.9
+Kitui,OPV,Percentage change,41.9
+Kitui,OPV1,Percentage change,-7.6
+Kitui,OPV2,Percentage change,-2.5
+Kitui,OPV3,Percentage change,-4.1
+Kitui,FULL_VACCINATION,Percentage change,-15
+Machakos,BCG,Percentage change,-5
+Machakos,DPT1,Percentage change,-2.5
+Machakos,DPT2,Percentage change,-6.6
+Machakos,DPT3,Percentage change,-6
+Machakos,OPV,Percentage change,5.4
+Machakos,OPV1,Percentage change,-0.8
+Machakos,OPV2,Percentage change,-0.8
+Machakos,OPV3,Percentage change,-5.4
+Machakos,FULL_VACCINATION,Percentage change,-27.1
+Makueni,BCG,Percentage change,-2.2
+Makueni,DPT1,Percentage change,-2.2
+Makueni,DPT2,Percentage change,-11.6
+Makueni,DPT3,Percentage change,-15.9
+Makueni,OPV,Percentage change,20.8
+Makueni,OPV1,Percentage change,-2.2
+Makueni,OPV2,Percentage change,0
+Makueni,OPV3,Percentage change,-12.2
+Makueni,FULL_VACCINATION,Percentage change,-36.9
+Nyandarua,BCG,Percentage change,0
+Nyandarua,DPT1,Percentage change,0
+Nyandarua,DPT2,Percentage change,1.9
+Nyandarua,DPT3,Percentage change,7.3
+Nyandarua,OPV,Percentage change,13.7
+Nyandarua,OPV1,Percentage change,-0.8
+Nyandarua,OPV2,Percentage change,-2.5
+Nyandarua,OPV3,Percentage change,-13.8
+Nyandarua,FULL_VACCINATION,Percentage change,-15.3
+Nyeri,BCG,Percentage change,-7.9
+Nyeri,DPT1,Percentage change,-2.6
+Nyeri,DPT2,Percentage change,-4.6
+Nyeri,DPT3,Percentage change,-10.5
+Nyeri,OPV,Percentage change,4.5
+Nyeri,OPV1,Percentage change,-7.6
+Nyeri,OPV2,Percentage change,-7.6
+Nyeri,OPV3,Percentage change,-16
+Nyeri,FULL_VACCINATION,Percentage change,-48.9
+Kirinyaga,BCG,Percentage change,-1.9
+Kirinyaga,DPT1,Percentage change,0
+Kirinyaga,DPT2,Percentage change,-1.8
+Kirinyaga,DPT3,Percentage change,-8.6
+Kirinyaga,OPV,Percentage change,36.6
+Kirinyaga,OPV1,Percentage change,0
+Kirinyaga,OPV2,Percentage change,-2
+Kirinyaga,OPV3,Percentage change,-22.2
+Kirinyaga,FULL_VACCINATION,Percentage change,-30.2
+Muranga,BCG,Percentage change,-2.4
+Muranga,DPT1,Percentage change,-2.4
+Muranga,DPT2,Percentage change,1
+Muranga,DPT3,Percentage change,7
+Muranga,OPV,Percentage change,19.3
+Muranga,OPV1,Percentage change,-2.4
+Muranga,OPV2,Percentage change,1
+Muranga,OPV3,Percentage change,-20.3
+Muranga,FULL_VACCINATION,Percentage change,-30.5
+Kiambu,BCG,Percentage change,0
+Kiambu,DPT1,Percentage change,0
+Kiambu,DPT2,Percentage change,0
+Kiambu,DPT3,Percentage change,-7.8
+Kiambu,OPV,Percentage change,14.3
+Kiambu,OPV1,Percentage change,-1.8
+Kiambu,OPV2,Percentage change,-4.9
+Kiambu,OPV3,Percentage change,-23.1
+Kiambu,FULL_VACCINATION,Percentage change,-48.4
+Turkana,BCG,Percentage change,2.3
+Turkana,DPT1,Percentage change,2.3
+Turkana,DPT2,Percentage change,0.2
+Turkana,DPT3,Percentage change,-2.5
+Turkana,OPV,Percentage change,-12.3
+Turkana,OPV1,Percentage change,1.4
+Turkana,OPV2,Percentage change,-0.6
+Turkana,OPV3,Percentage change,-14.5
+Turkana,FULL_VACCINATION,Percentage change,-110.9
+West Pokot,BCG,Percentage change,18.9
+West Pokot,DPT1,Percentage change,11.9
+West Pokot,DPT2,Percentage change,5.7
+West Pokot,DPT3,Percentage change,7.6
+West Pokot,OPV,Percentage change,21.9
+West Pokot,OPV1,Percentage change,9.7
+West Pokot,OPV2,Percentage change,12.4
+West Pokot,OPV3,Percentage change,-17.2
+West Pokot,FULL_VACCINATION,Percentage change,-191.6
+Samburu,BCG,Percentage change,-4
+Samburu,DPT1,Percentage change,-2.6
+Samburu,DPT2,Percentage change,-0.8
+Samburu,DPT3,Percentage change,0.3
+Samburu,OPV,Percentage change,18.4
+Samburu,OPV1,Percentage change,-5.9
+Samburu,OPV2,Percentage change,-8.9
+Samburu,OPV3,Percentage change,-26.5
+Samburu,FULL_VACCINATION,Percentage change,-130.6
+Trans Nzoia,BCG,Percentage change,-2
+Trans Nzoia,DPT1,Percentage change,0
+Trans Nzoia,DPT2,Percentage change,-0.1
+Trans Nzoia,DPT3,Percentage change,11
+Trans Nzoia,OPV,Percentage change,35.1
+Trans Nzoia,OPV1,Percentage change,-1.8
+Trans Nzoia,OPV2,Percentage change,-1.9
+Trans Nzoia,OPV3,Percentage change,1.4
+Trans Nzoia,FULL_VACCINATION,Percentage change,9.5
+Uasin Gishu,BCG,Percentage change,2.7
+Uasin Gishu,DPT1,Percentage change,1.3
+Uasin Gishu,DPT2,Percentage change,-0.5
+Uasin Gishu,DPT3,Percentage change,3.3
+Uasin Gishu,OPV,Percentage change,39.8
+Uasin Gishu,OPV1,Percentage change,2.7
+Uasin Gishu,OPV2,Percentage change,0
+Uasin Gishu,OPV3,Percentage change,-15.6
+Uasin Gishu,FULL_VACCINATION,Percentage change,-46.7
+Elgeyo Marakwet,BCG,Percentage change,-2.5
+Elgeyo Marakwet,DPT1,Percentage change,-5.4
+Elgeyo Marakwet,DPT2,Percentage change,-10.2
+Elgeyo Marakwet,DPT3,Percentage change,-17.4
+Elgeyo Marakwet,OPV,Percentage change,0.8
+Elgeyo Marakwet,OPV1,Percentage change,-1.2
+Elgeyo Marakwet,OPV2,Percentage change,-6.5
+Elgeyo Marakwet,OPV3,Percentage change,-28.3
+Elgeyo Marakwet,FULL_VACCINATION,Percentage change,-97.2
+Nandi,BCG,Percentage change,0.6
+Nandi,DPT1,Percentage change,0
+Nandi,DPT2,Percentage change,-3.7
+Nandi,DPT3,Percentage change,-3.8
+Nandi,OPV,Percentage change,30.9
+Nandi,OPV1,Percentage change,0
+Nandi,OPV2,Percentage change,-0.5
+Nandi,OPV3,Percentage change,-13.1
+Nandi,FULL_VACCINATION,Percentage change,-48.2
+Baringo,BCG,Percentage change,-1.7
+Baringo,DPT1,Percentage change,-2
+Baringo,DPT2,Percentage change,-0.3
+Baringo,DPT3,Percentage change,1.8
+Baringo,OPV,Percentage change,21
+Baringo,OPV1,Percentage change,-2
+Baringo,OPV2,Percentage change,-1
+Baringo,OPV3,Percentage change,-13.6
+Baringo,FULL_VACCINATION,Percentage change,-60.3
+Laikipia,BCG,Percentage change,-5.1
+Laikipia,DPT1,Percentage change,-1.6
+Laikipia,DPT2,Percentage change,-1.6
+Laikipia,DPT3,Percentage change,2.4
+Laikipia,OPV,Percentage change,18.4
+Laikipia,OPV1,Percentage change,-1.6
+Laikipia,OPV2,Percentage change,-1
+Laikipia,OPV3,Percentage change,-18.5
+Laikipia,FULL_VACCINATION,Percentage change,-42.9
+Nakuru,BCG,Percentage change,1.9
+Nakuru,DPT1,Percentage change,1.2
+Nakuru,DPT2,Percentage change,3
+Nakuru,DPT3,Percentage change,8.3
+Nakuru,OPV,Percentage change,19.7
+Nakuru,OPV1,Percentage change,1.2
+Nakuru,OPV2,Percentage change,4
+Nakuru,OPV3,Percentage change,0.8
+Nakuru,FULL_VACCINATION,Percentage change,-7.9
+Narok,BCG,Percentage change,3.7
+Narok,DPT1,Percentage change,1.2
+Narok,DPT2,Percentage change,6.5
+Narok,DPT3,Percentage change,8.6
+Narok,OPV,Percentage change,30.2
+Narok,OPV1,Percentage change,-1.4
+Narok,OPV2,Percentage change,-0.8
+Narok,OPV3,Percentage change,-8.2
+Narok,FULL_VACCINATION,Percentage change,-89.9
+Kajiado,BCG,Percentage change,-0.8
+Kajiado,DPT1,Percentage change,-5.5
+Kajiado,DPT2,Percentage change,-7.9
+Kajiado,DPT3,Percentage change,-7.5
+Kajiado,OPV,Percentage change,36.2
+Kajiado,OPV1,Percentage change,0.7
+Kajiado,OPV2,Percentage change,1.5
+Kajiado,OPV3,Percentage change,3.5
+Kajiado,FULL_VACCINATION,Percentage change,-29.7
+Kericho,BCG,Percentage change,-6.3
+Kericho,DPT1,Percentage change,-4.8
+Kericho,DPT2,Percentage change,-4.8
+Kericho,DPT3,Percentage change,-2.9
+Kericho,OPV,Percentage change,1.7
+Kericho,OPV1,Percentage change,-4.8
+Kericho,OPV2,Percentage change,-6
+Kericho,OPV3,Percentage change,-29.9
+Kericho,FULL_VACCINATION,Percentage change,-50.8
+Bomet,BCG,Percentage change,-1.5
+Bomet,DPT1,Percentage change,-1.5
+Bomet,DPT2,Percentage change,-3.7
+Bomet,DPT3,Percentage change,-9.1
+Bomet,OPV,Percentage change,28.8
+Bomet,OPV1,Percentage change,-1.5
+Bomet,OPV2,Percentage change,-1.5
+Bomet,OPV3,Percentage change,-4.8
+Bomet,FULL_VACCINATION,Percentage change,-27.2
+Kakamega,BCG,Percentage change,5.1
+Kakamega,DPT1,Percentage change,1.1
+Kakamega,DPT2,Percentage change,5.1
+Kakamega,DPT3,Percentage change,7.8
+Kakamega,OPV,Percentage change,53.4
+Kakamega,OPV1,Percentage change,0.7
+Kakamega,OPV2,Percentage change,3.4
+Kakamega,OPV3,Percentage change,2.5
+Kakamega,FULL_VACCINATION,Percentage change,-0.4
+Vihiga,BCG,Percentage change,1.7
+Vihiga,DPT1,Percentage change,1.7
+Vihiga,DPT2,Percentage change,1.7
+Vihiga,DPT3,Percentage change,-1.1
+Vihiga,OPV,Percentage change,19.9
+Vihiga,OPV1,Percentage change,1.7
+Vihiga,OPV2,Percentage change,1.7
+Vihiga,OPV3,Percentage change,-6.5
+Vihiga,FULL_VACCINATION,Percentage change,-34.7
+Bungoma,BCG,Percentage change,4.7
+Bungoma,DPT1,Percentage change,3.7
+Bungoma,DPT2,Percentage change,2.4
+Bungoma,DPT3,Percentage change,8.6
+Bungoma,OPV,Percentage change,38.1
+Bungoma,OPV1,Percentage change,1.5
+Bungoma,OPV2,Percentage change,2
+Bungoma,OPV3,Percentage change,-1.3
+Bungoma,FULL_VACCINATION,Percentage change,-15.2
+Busia,BCG,Percentage change,0.2
+Busia,DPT1,Percentage change,3.1
+Busia,DPT2,Percentage change,4.7
+Busia,DPT3,Percentage change,6.3
+Busia,OPV,Percentage change,39.6
+Busia,OPV1,Percentage change,0
+Busia,OPV2,Percentage change,-1.1
+Busia,OPV3,Percentage change,-28.2
+Busia,FULL_VACCINATION,Percentage change,-44.1
+Siaya,BCG,Percentage change,0.9
+Siaya,DPT1,Percentage change,-0.7
+Siaya,DPT2,Percentage change,-2.6
+Siaya,DPT3,Percentage change,0
+Siaya,OPV,Percentage change,17.4
+Siaya,OPV1,Percentage change,-0.7
+Siaya,OPV2,Percentage change,-4.6
+Siaya,OPV3,Percentage change,-8.9
+Siaya,FULL_VACCINATION,Percentage change,-11.6
+Kisumu,BCG,Percentage change,0.5
+Kisumu,DPT1,Percentage change,2.4
+Kisumu,DPT2,Percentage change,-11.4
+Kisumu,DPT3,Percentage change,0.7
+Kisumu,OPV,Percentage change,16.5
+Kisumu,OPV1,Percentage change,1.1
+Kisumu,OPV2,Percentage change,2.3
+Kisumu,OPV3,Percentage change,-2.9
+Kisumu,FULL_VACCINATION,Percentage change,-26
+Homa Bay,BCG,Percentage change,3.9
+Homa Bay,DPT1,Percentage change,-0.4
+Homa Bay,DPT2,Percentage change,-2.6
+Homa Bay,DPT3,Percentage change,4.5
+Homa Bay,OPV,Percentage change,31.1
+Homa Bay,OPV1,Percentage change,-0.3
+Homa Bay,OPV2,Percentage change,-4.3
+Homa Bay,OPV3,Percentage change,-13.2
+Homa Bay,FULL_VACCINATION,Percentage change,-22.4
+Migori,BCG,Percentage change,12
+Migori,DPT1,Percentage change,0
+Migori,DPT2,Percentage change,0.6
+Migori,DPT3,Percentage change,1.5
+Migori,OPV,Percentage change,56.5
+Migori,OPV1,Percentage change,-0.9
+Migori,OPV2,Percentage change,-1.3
+Migori,OPV3,Percentage change,-8.8
+Migori,FULL_VACCINATION,Percentage change,19.9
+Kisii,BCG,Percentage change,-0.9
+Kisii,DPT1,Percentage change,1.3
+Kisii,DPT2,Percentage change,-2.2
+Kisii,DPT3,Percentage change,0.4
+Kisii,OPV,Percentage change,8.1
+Kisii,OPV1,Percentage change,0
+Kisii,OPV2,Percentage change,-3.7
+Kisii,OPV3,Percentage change,-9.8
+Kisii,FULL_VACCINATION,Percentage change,-0.7
+Nyamira,BCG,Percentage change,1
+Nyamira,DPT1,Percentage change,1
+Nyamira,DPT2,Percentage change,-3.1
+Nyamira,DPT3,Percentage change,-2.2
+Nyamira,OPV,Percentage change,7.2
+Nyamira,OPV1,Percentage change,-2.7
+Nyamira,OPV2,Percentage change,-5.5
+Nyamira,OPV3,Percentage change,-9.2
+Nyamira,FULL_VACCINATION,Percentage change,-65.1
+Nairobi,BCG,Percentage change,-0.8
+Nairobi,DPT1,Percentage change,0.1
+Nairobi,DPT2,Percentage change,-0.2
+Nairobi,DPT3,Percentage change,-0.3
+Nairobi,OPV,Percentage change,23.6
+Nairobi,OPV1,Percentage change,-3.1
+Nairobi,OPV2,Percentage change,-1.7
+Nairobi,OPV3,Percentage change,-34.7
+Nairobi,FULL_VACCINATION,Percentage change,-62.4

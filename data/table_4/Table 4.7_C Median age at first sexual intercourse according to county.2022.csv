@@ -1,0 +1,189 @@
+County,Category,Proportion
+Mombasa,women aged 20-49,19.7
+Mombasa,women aged 25-49,19.6
+Mombasa,men aged 20-54,18.7
+Mombasa,men aged 25-54,18.6
+Kwale,women aged 20-49,18.1
+Kwale,women aged 25-49,17.4
+Kwale,men aged 20-54,18.2
+Kwale,men aged 25-54,18.2
+Kilifi,women aged 20-49,18.3
+Kilifi,women aged 25-49,17.9
+Kilifi,men aged 20-54,18.7
+Kilifi,men aged 25-54,18.8
+Tana River,women aged 20-49,17.7
+Tana River,women aged 25-49,17.4
+Tana River,men aged 20-54,a
+Tana River,men aged 25-54,20.9
+Lamu,women aged 20-49,18.5
+Lamu,women aged 25-49,18.4
+Lamu,men aged 20-54,a
+Lamu,men aged 25-54,20.7
+Taita/Taveta,women aged 20-49,18.6
+Taita/Taveta,women aged 25-49,18.6
+Taita/Taveta,men aged 20-54,18.1
+Taita/Taveta,men aged 25-54,18.3
+Garissa,women aged 20-49,17.7
+Garissa,women aged 25-49,17.1
+Garissa,men aged 20-54,a
+Garissa,men aged 25-54,22.3
+Wajir,women aged 20-49,17.7
+Wajir,women aged 25-49,17.4
+Wajir,men aged 20-54,a
+Wajir,men aged 25-54,22.4
+Mandera,women aged 20-49,18.1
+Mandera,women aged 25-49,17.8
+Mandera,men aged 20-54,a
+Mandera,men aged 25-54,24.9
+Marsabit,women aged 20-49,18.2
+Marsabit,women aged 25-49,18.2
+Marsabit,men aged 20-54,19.9
+Marsabit,men aged 25-54,20.3
+Isiolo,women aged 20-49,18.6
+Isiolo,women aged 25-49,18.4
+Isiolo,men aged 20-54,17.4
+Isiolo,men aged 25-54,17.4
+Meru,women aged 20-49,17.9
+Meru,women aged 25-49,17.8
+Meru,men aged 20-54,17.8
+Meru,men aged 25-54,17.6
+Tharaka-Nithi,women aged 20-49,19.1
+Tharaka-Nithi,women aged 25-49,18.9
+Tharaka-Nithi,men aged 20-54,15.8
+Tharaka-Nithi,men aged 25-54,15.7
+Embu,women aged 20-49,18.6
+Embu,women aged 25-49,18.6
+Embu,men aged 20-54,18.9
+Embu,men aged 25-54,19.6
+Kitui,women aged 20-49,18.2
+Kitui,women aged 25-49,18.0
+Kitui,men aged 20-54,18.5
+Kitui,men aged 25-54,18.6
+Machakos,women aged 20-49,18.5
+Machakos,women aged 25-49,18.3
+Machakos,men aged 20-54,15.9
+Machakos,men aged 25-54,15.7
+Makueni,women aged 20-49,18.4
+Makueni,women aged 25-49,18.0
+Makueni,men aged 20-54,18.2
+Makueni,men aged 25-54,18.4
+Nyandarua,women aged 20-49,18.8
+Nyandarua,women aged 25-49,18.5
+Nyandarua,men aged 20-54,18.9
+Nyandarua,men aged 25-54,19.3
+Nyeri,women aged 20-49,19.5
+Nyeri,women aged 25-49,19.4
+Nyeri,men aged 20-54,18.7
+Nyeri,men aged 25-54,19.0
+Kirinyaga,women aged 20-49,18.5
+Kirinyaga,women aged 25-49,18.4
+Kirinyaga,men aged 20-54,a
+Kirinyaga,men aged 25-54,22.1
+Murang’a,women aged 20-49,17.9
+Murang’a,women aged 25-49,17.5
+Murang’a,men aged 20-54,18.2
+Murang’a,men aged 25-54,18.0
+Kiambu,women aged 20-49,19.4
+Kiambu,women aged 25-49,19.3
+Kiambu,men aged 20-54,18.2
+Kiambu,men aged 25-54,18.0
+Turkana,women aged 20-49,18.4
+Turkana,women aged 25-49,18.4
+Turkana,men aged 20-54,18.1
+Turkana,men aged 25-54,18.4
+West Pokot,women aged 20-49,15.8
+West Pokot,women aged 25-49,15.7
+West Pokot,men aged 20-54,15.2
+West Pokot,men aged 25-54,15.4
+Samburu,women aged 20-49,15.6
+Samburu,women aged 25-49,15.6
+Samburu,men aged 20-54,18.6
+Samburu,men aged 25-54,19.0
+Trans Nzoia,women aged 20-49,18.0
+Trans Nzoia,women aged 25-49,18.0
+Trans Nzoia,men aged 20-54,17.6
+Trans Nzoia,men aged 25-54,17.3
+Uasin Gishu,women aged 20-49,19.0
+Uasin Gishu,women aged 25-49,18.7
+Uasin Gishu,men aged 20-54,17.4
+Uasin Gishu,men aged 25-54,17.2
+Elgeyo/Marakwet,women aged 20-49,18.0
+Elgeyo/Marakwet,women aged 25-49,17.9
+Elgeyo/Marakwet,men aged 20-54,15.7
+Elgeyo/Marakwet,men aged 25-54,15.7
+Nandi,women aged 20-49,17.7
+Nandi,women aged 25-49,17.1
+Nandi,men aged 20-54,16.9
+Nandi,men aged 25-54,16.4
+Baringo,women aged 20-49,16.6
+Baringo,women aged 25-49,16.2
+Baringo,men aged 20-54,16.5
+Baringo,men aged 25-54,16.5
+Laikipia,women aged 20-49,18.8
+Laikipia,women aged 25-49,18.6
+Laikipia,men aged 20-54,17.7
+Laikipia,men aged 25-54,17.9
+Nakuru,women aged 20-49,18.7
+Nakuru,women aged 25-49,18.4
+Nakuru,men aged 20-54,15.9
+Nakuru,men aged 25-54,15.7
+Narok,women aged 20-49,16.4
+Narok,women aged 25-49,16.0
+Narok,men aged 20-54,16.5
+Narok,men aged 25-54,16.7
+Kajiado,women aged 20-49,18.6
+Kajiado,women aged 25-49,18.7
+Kajiado,men aged 20-54,16.9
+Kajiado,men aged 25-54,16.5
+Kericho,women aged 20-49,15.9
+Kericho,women aged 25-49,15.8
+Kericho,men aged 20-54,15.7
+Kericho,men aged 25-54,15.7
+Bomet,women aged 20-49,17.2
+Bomet,women aged 25-49,16.8
+Bomet,men aged 20-54,18.1
+Bomet,men aged 25-54,18.3
+Kakamega,women aged 20-49,17.6
+Kakamega,women aged 25-49,17.4
+Kakamega,men aged 20-54,16.9
+Kakamega,men aged 25-54,16.7
+Vihiga,women aged 20-49,17.7
+Vihiga,women aged 25-49,17.5
+Vihiga,men aged 20-54,17.5
+Vihiga,men aged 25-54,17.1
+Bungoma,women aged 20-49,17.8
+Bungoma,women aged 25-49,17.6
+Bungoma,men aged 20-54,18.1
+Bungoma,men aged 25-54,18.4
+Busia,women aged 20-49,16.4
+Busia,women aged 25-49,16.2
+Busia,men aged 20-54,17.7
+Busia,men aged 25-54,17.4
+Siaya,women aged 20-49,16.3
+Siaya,women aged 25-49,16.0
+Siaya,men aged 20-54,17.0
+Siaya,men aged 25-54,16.4
+Kisumu,women aged 20-49,16.5
+Kisumu,women aged 25-49,16.1
+Kisumu,men aged 20-54,17.1
+Kisumu,men aged 25-54,17.0
+Homa Bay,women aged 20-49,16.0
+Homa Bay,women aged 25-49,15.7
+Homa Bay,men aged 20-54,17.0
+Homa Bay,men aged 25-54,16.9
+Migori,women aged 20-49,16.0
+Migori,women aged 25-49,15.8
+Migori,men aged 20-54,15.9
+Migori,men aged 25-54,16.0
+Kisii,women aged 20-49,16.6
+Kisii,women aged 25-49,16.3
+Kisii,men aged 20-54,16.9
+Kisii,men aged 25-54,16.8
+Nyamira,women aged 20-49,16.1
+Nyamira,women aged 25-49,15.9
+Nyamira,men aged 20-54,16.4
+Nyamira,men aged 25-54,16.3
+Nairobi City,women aged 20-49,19.0
+Nairobi City,women aged 25-49,18.9
+Nairobi City,men aged 20-54,18.1
+Nairobi City,men aged 25-54,18.2

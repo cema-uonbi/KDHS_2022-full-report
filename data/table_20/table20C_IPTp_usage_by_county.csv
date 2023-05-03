@@ -1,0 +1,142 @@
+County,Category,Proportion,Classification
+Mombasa,1+ Doses of SP/Fansidar,80.1,IPTp implemented
+Mombasa,2+ Doses of SP/Fansidar,51.2,IPTp implemented
+Mombasa,3+ Doses of SP/Fansidar,31.2,IPTp implemented
+Kwale,1+ Doses of SP/Fansidar,75.3,IPTp implemented
+Kwale,2+ Doses of SP/Fansidar,48.1,IPTp implemented
+Kwale,3+ Doses of SP/Fansidar,27.7,IPTp implemented
+Kilifi,1+ Doses of SP/Fansidar,74.7,IPTp implemented
+Kilifi,2+ Doses of SP/Fansidar,49.2,IPTp implemented
+Kilifi,3+ Doses of SP/Fansidar,27.6,IPTp implemented
+Tana River,1+ Doses of SP/Fansidar,40.3,IPTp implemented
+Tana River,2+ Doses of SP/Fansidar,24.3,IPTp implemented
+Tana River,3+ Doses of SP/Fansidar,5.8,IPTp implemented
+Lamu,1+ Doses of SP/Fansidar,81.0,IPTp implemented
+Lamu,2+ Doses of SP/Fansidar,67.2,IPTp implemented
+Lamu,3+ Doses of SP/Fansidar,42.2,IPTp implemented
+Taita Taveta,1+ Doses of SP/Fansidar,61.7,IPTp implemented
+Taita Taveta,2+ Doses of SP/Fansidar,43.1,IPTp implemented
+Taita Taveta,3+ Doses of SP/Fansidar,22.7,IPTp implemented
+Kakamega,1+ Doses of SP/Fansidar,74.4,IPTp implemented
+Kakamega,2+ Doses of SP/Fansidar,62.2,IPTp implemented
+Kakamega,3+ Doses of SP/Fansidar,45.7,IPTp implemented
+Vihiga,1+ Doses of SP/Fansidar,88.3,IPTp implemented
+Vihiga,2+ Doses of SP/Fansidar,77.0,IPTp implemented
+Vihiga,3+ Doses of SP/Fansidar,59.1,IPTp implemented
+Bungoma,1+ Doses of SP/Fansidar,75.3,IPTp implemented
+Bungoma,2+ Doses of SP/Fansidar,58.2,IPTp implemented
+Bungoma,3+ Doses of SP/Fansidar,40.6,IPTp implemented
+Busia,1+ Doses of SP/Fansidar,73.5,IPTp implemented
+Busia,2+ Doses of SP/Fansidar,54.2,IPTp implemented
+Busia,3+ Doses of SP/Fansidar,34.7,IPTp implemented
+Siaya,1+ Doses of SP/Fansidar,68.7,IPTp implemented
+Siaya,2+ Doses of SP/Fansidar,56.8,IPTp implemented
+Siaya,3+ Doses of SP/Fansidar,33.8,IPTp implemented
+Kisumu,1+ Doses of SP/Fansidar,48.4,IPTp implemented
+Kisumu,2+ Doses of SP/Fansidar,38.4,IPTp implemented
+Kisumu,3+ Doses of SP/Fansidar,25.5,IPTp implemented
+Homa Bay,1+ Doses of SP/Fansidar,61.7,IPTp implemented
+Homa Bay,2+ Doses of SP/Fansidar,49.6,IPTp implemented
+Homa Bay,3+ Doses of SP/Fansidar,34.2,IPTp implemented
+Migori,1+ Doses of SP/Fansidar,68.2,IPTp implemented
+Migori,2+ Doses of SP/Fansidar,49.7,IPTp implemented
+Migori,3+ Doses of SP/Fansidar,25.4,IPTp implemented
+Garissa,1+ Doses of SP/Fansidar,0.6,IPTp not implemented
+Garissa,2+ Doses of SP/Fansidar,0.6,IPTp not implemented
+Garissa,3+ Doses of SP/Fansidar,0.6,IPTp not implemented
+Wajir,1+ Doses of SP/Fansidar,4.2,IPTp not implemented
+Wajir,2+ Doses of SP/Fansidar,2.6,IPTp not implemented
+Wajir,3+ Doses of SP/Fansidar,2.2,IPTp not implemented
+Mandera,1+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Mandera,2+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Mandera,3+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Marsabit,1+ Doses of SP/Fansidar,3.1,IPTp not implemented
+Marsabit,2+ Doses of SP/Fansidar,3.1,IPTp not implemented
+Marsabit,3+ Doses of SP/Fansidar,3.1,IPTp not implemented
+Isiolo,1+ Doses of SP/Fansidar,28.0,IPTp not implemented
+Isiolo,2+ Doses of SP/Fansidar,22.1,IPTp not implemented
+Isiolo,3+ Doses of SP/Fansidar,21.4,IPTp not implemented
+Meru,1+ Doses of SP/Fansidar,7.3,IPTp not implemented
+Meru,2+ Doses of SP/Fansidar,7.3,IPTp not implemented
+Meru,3+ Doses of SP/Fansidar,6.5,IPTp not implemented
+Tharaka Nithi,1+ Doses of SP/Fansidar,12.9,IPTp not implemented
+Tharaka Nithi,2+ Doses of SP/Fansidar,3.8,IPTp not implemented
+Tharaka Nithi,3+ Doses of SP/Fansidar,2.9,IPTp not implemented
+Embu,1+ Doses of SP/Fansidar,25.6,IPTp not implemented
+Embu,2+ Doses of SP/Fansidar,13.8,IPTp not implemented
+Embu,3+ Doses of SP/Fansidar,4.3,IPTp not implemented
+Kitui,1+ Doses of SP/Fansidar,8.6,IPTp not implemented
+Kitui,2+ Doses of SP/Fansidar,6.9,IPTp not implemented
+Kitui,3+ Doses of SP/Fansidar,4.9,IPTp not implemented
+Machakos,1+ Doses of SP/Fansidar,8.8,IPTp not implemented
+Machakos,2+ Doses of SP/Fansidar,2.6,IPTp not implemented
+Machakos,3+ Doses of SP/Fansidar,2.6,IPTp not implemented
+Makueni,1+ Doses of SP/Fansidar,15.6,IPTp not implemented
+Makueni,2+ Doses of SP/Fansidar,5.7,IPTp not implemented
+Makueni,3+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Nyandarua,1+ Doses of SP/Fansidar,7.4,IPTp not implemented
+Nyandarua,2+ Doses of SP/Fansidar,2.8,IPTp not implemented
+Nyandarua,3+ Doses of SP/Fansidar,2.3,IPTp not implemented
+Nyeri,1+ Doses of SP/Fansidar,5.1,IPTp not implemented
+Nyeri,2+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Nyeri,3+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Kirinyaga,1+ Doses of SP/Fansidar,25.7,IPTp not implemented
+Kirinyaga,2+ Doses of SP/Fansidar,10.4,IPTp not implemented
+Kirinyaga,3+ Doses of SP/Fansidar,2.1,IPTp not implemented
+Muranga,1+ Doses of SP/Fansidar,5.6,IPTp not implemented
+Muranga,2+ Doses of SP/Fansidar,1.8,IPTp not implemented
+Muranga,3+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Kiambu,1+ Doses of SP/Fansidar,2.0,IPTp not implemented
+Kiambu,2+ Doses of SP/Fansidar,1.0,IPTp not implemented
+Kiambu,3+ Doses of SP/Fansidar,1.0,IPTp not implemented
+Turkana,1+ Doses of SP/Fansidar,30.2,IPTp not implemented
+Turkana,2+ Doses of SP/Fansidar,18.2,IPTp not implemented
+Turkana,3+ Doses of SP/Fansidar,9.9,IPTp not implemented
+West Pokot,1+ Doses of SP/Fansidar,0.0,IPTp not implemented
+West Pokot,2+ Doses of SP/Fansidar,0.0,IPTp not implemented
+West Pokot,3+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Samburu,1+ Doses of SP/Fansidar,4.1,IPTp not implemented
+Samburu,2+ Doses of SP/Fansidar,2.3,IPTp not implemented
+Samburu,3+ Doses of SP/Fansidar,0.8,IPTp not implemented
+Trans Nzoia,1+ Doses of SP/Fansidar,32.3,IPTp not implemented
+Trans Nzoia,2+ Doses of SP/Fansidar,20.7,IPTp not implemented
+Trans Nzoia,3+ Doses of SP/Fansidar,11.9,IPTp not implemented
+Uasin Gishu,1+ Doses of SP/Fansidar,15.1,IPTp not implemented
+Uasin Gishu,2+ Doses of SP/Fansidar,8.9,IPTp not implemented
+Uasin Gishu,3+ Doses of SP/Fansidar,3.8,IPTp not implemented
+Elgeyo Marakwet,1+ Doses of SP/Fansidar,9.4,IPTp not implemented
+Elgeyo Marakwet,2+ Doses of SP/Fansidar,1.8,IPTp not implemented
+Elgeyo Marakwet,3+ Doses of SP/Fansidar,0.3,IPTp not implemented
+Nandi,1+ Doses of SP/Fansidar,21.9,IPTp not implemented
+Nandi,2+ Doses of SP/Fansidar,20.5,IPTp not implemented
+Nandi,3+ Doses of SP/Fansidar,20.5,IPTp not implemented
+Baringo,1+ Doses of SP/Fansidar,12.5,IPTp not implemented
+Baringo,2+ Doses of SP/Fansidar,5.0,IPTp not implemented
+Baringo,3+ Doses of SP/Fansidar,3.5,IPTp not implemented
+Laikipia,1+ Doses of SP/Fansidar,6.5,IPTp not implemented
+Laikipia,2+ Doses of SP/Fansidar,1.6,IPTp not implemented
+Laikipia,3+ Doses of SP/Fansidar,1.6,IPTp not implemented
+Nakuru,1+ Doses of SP/Fansidar,12.0,IPTp not implemented
+Nakuru,2+ Doses of SP/Fansidar,8.4,IPTp not implemented
+Nakuru,3+ Doses of SP/Fansidar,2.2,IPTp not implemented
+Narok,1+ Doses of SP/Fansidar,4.4,IPTp not implemented
+Narok,2+ Doses of SP/Fansidar,1.9,IPTp not implemented
+Narok,3+ Doses of SP/Fansidar,0.0,IPTp not implemented
+Kajiado,1+ Doses of SP/Fansidar,11.7,IPTp not implemented
+Kajiado,2+ Doses of SP/Fansidar,9.6,IPTp not implemented
+Kajiado,3+ Doses of SP/Fansidar,7.2,IPTp not implemented
+Kericho,1+ Doses of SP/Fansidar,11.1,IPTp not implemented
+Kericho,2+ Doses of SP/Fansidar,9.8,IPTp not implemented
+Kericho,3+ Doses of SP/Fansidar,5.2,IPTp not implemented
+Bomet,1+ Doses of SP/Fansidar,5.1,IPTp not implemented
+Bomet,2+ Doses of SP/Fansidar,1.5,IPTp not implemented
+Bomet,3+ Doses of SP/Fansidar,1.5,IPTp not implemented
+Kisii,1+ Doses of SP/Fansidar,16.6,IPTp not implemented
+Kisii,2+ Doses of SP/Fansidar,12.5,IPTp not implemented
+Kisii,3+ Doses of SP/Fansidar,11.2,IPTp not implemented
+Nyamira,1+ Doses of SP/Fansidar,6.8,IPTp not implemented
+Nyamira,2+ Doses of SP/Fansidar,2.1,IPTp not implemented
+Nyamira,3+ Doses of SP/Fansidar,2.1,IPTp not implemented
+Nairobi,1+ Doses of SP/Fansidar,18.1,IPTp not implemented
+Nairobi,2+ Doses of SP/Fansidar,9.8,IPTp not implemented
+Nairobi,3+ Doses of SP/Fansidar,5.9,IPTp not implemented

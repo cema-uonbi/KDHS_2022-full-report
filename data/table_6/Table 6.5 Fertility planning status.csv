@@ -1,0 +1,49 @@
+Variable,Fertility plan,percent,characteristic
+1,Wanted then,54.8,Birth order
+1,Wanted later,43.9,Birth order
+1,Wanted no more,1.3,Birth order
+2,Wanted then,70.2,Birth order
+2,Wanted later,26.4,Birth order
+2,Wanted no more,3.4,Birth order
+3,Wanted then,68.5,Birth order
+3,Wanted later,23.5,Birth order
+3,Wanted no more,8.0,Birth order
+4+,Wanted then,60.5,Birth order
+4+,Wanted later,19.1,Birth order
+4+,Wanted no more,20.4,Birth order
+<20,Wanted then,34.1,Mother age at birth
+<20,Wanted later,62.8,Mother age at birth
+<20,Wanted no more,3.1,Mother age at birth
+20-24,Wanted then,60.3,Mother age at birth
+20-24,Wanted later,36.7,Mother age at birth
+20-24,Wanted no more,3.1,Mother age at birth
+25-29,Wanted then,71.3,Mother age at birth
+25-29,Wanted later,22.5,Mother age at birth
+25-29,Wanted no more,6.2,Mother age at birth
+30-34,Wanted then,70.6,Mother age at birth
+30-34,Wanted later,17.1,Mother age at birth
+30-34,Wanted no more,12.3,Mother age at birth
+35-39,Wanted then,64.1,Mother age at birth
+35-39,Wanted later,14.1,Mother age at birth
+35-39,Wanted no more,21.8,Mother age at birth
+40-44,Wanted then,55.9,Mother age at birth
+40-44,Wanted later,6.5,Mother age at birth
+40-44,Wanted no more,37.6,Mother age at birth
+45-49,Wanted then,(72.4),Mother age at birth
+45-49,Wanted later,(3.0),Mother age at birth
+45-49,Wanted no more,(24.6),Mother age at birth
+Current pregnancies,Wanted then,67.8,Pregnancy outcome
+Current pregnancies,Wanted later,25.8,Pregnancy outcome
+Current pregnancies,Wanted no more,6.4,Pregnancy outcome
+Live births,Wanted then,61.7,Pregnancy outcome
+Live births,Wanted later,29.7,Pregnancy outcome
+Live births,Wanted no more,8.6,Pregnancy outcome
+Stillbirths,Wanted then,63.1,Pregnancy outcome
+Stillbirths,Wanted later,26.6,Pregnancy outcome
+Stillbirths,Wanted no more,10.3,Pregnancy outcome
+Miscarriages,Wanted then,70.2,Pregnancy outcome
+Miscarriages,Wanted later,19.8,Pregnancy outcome
+Miscarriages,Wanted no more,10.0,Pregnancy outcome
+Abortions,Wanted then,29.5,Pregnancy outcome
+Abortions,Wanted later,64.8,Pregnancy outcome
+Abortions,Wanted no more,5.6,Pregnancy outcome

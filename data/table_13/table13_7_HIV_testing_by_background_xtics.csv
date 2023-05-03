@@ -1,0 +1,173 @@
+Value,Category,Proportion,Participants,Background characteristics
+15-19,Ever tested,47.4,Women,Age
+15-19,Ever tested & received results,46.6,Women,Age
+15-19,Never tested,52.6,Women,Age
+15-19,Tested & received results (past 12 months),25.3,Women,Age
+20-24,Ever tested,88.2,Women,Age
+20-24,Ever tested & received results,87.9,Women,Age
+20-24,Never tested,11.8,Women,Age
+20-24,Tested & received results (past 12 months),55.6,Women,Age
+25-29,Ever tested,97.5,Women,Age
+25-29,Ever tested & received results,96.9,Women,Age
+25-29,Never tested,2.5,Women,Age
+25-29,Tested & received results (past 12 months),60.1,Women,Age
+30-39,Ever tested,96.8,Women,Age
+30-39,Ever tested & received results,96.0,Women,Age
+30-39,Never tested,3.2,Women,Age
+30-39,Tested & received results (past 12 months),50.9,Women,Age
+40-49,Ever tested,93.1,Women,Age
+40-49,Ever tested & received results,92.5,Women,Age
+40-49,Never tested,6.9,Women,Age
+40-49,Tested & received results (past 12 months),40.9,Women,Age
+15-19,Ever tested,33.3,Men,Age
+15-19,Ever tested & received results,32.5,Men,Age
+15-19,Never tested,66.7,Men,Age
+15-19,Tested & received results (past 12 months),12.3,Men,Age
+20-24,Ever tested,73.2,Men,Age
+20-24,Ever tested & received results,72.9,Men,Age
+20-24,Never tested,26.8,Men,Age
+20-24,Tested & received results (past 12 months),41.8,Men,Age
+25-29,Ever tested,89.4,Men,Age
+25-29,Ever tested & received results,89.1,Men,Age
+25-29,Never tested,10.6,Men,Age
+25-29,Tested & received results (past 12 months),55.6,Men,Age
+30-39,Ever tested,89.6,Men,Age
+30-39,Ever tested & received results,89.3,Men,Age
+30-39,Never tested,10.4,Men,Age
+30-39,Tested & received results (past 12 months),49.3,Men,Age
+40-49,Ever tested,85.1,Men,Age
+40-49,Ever tested & received results,84.8,Men,Age
+40-49,Never tested,14.9,Men,Age
+40-49,Tested & received results (past 12 months),40.5,Men,Age
+50-54,Ever tested,86.1,Men,Age
+50-54,Ever tested & received results,85.6,Men,Age
+50-54,Never tested,13.9,Men,Age
+50-54,Tested & received results (past 12 months),39.3,Men,Age
+Never married,Ever tested,63.4,Women,Marital status
+Never married,Ever tested & received results,62.9,Women,Marital status
+Never married,Never tested,36.6,Women,Marital status
+Never married,Tested & received results (past 12 months),35.4,Women,Marital status
+Ever had sex,Ever tested,85.3,Women,Marital status
+Ever had sex,Ever tested & received results,84.9,Women,Marital status
+Ever had sex,Never tested,14.7,Women,Marital status
+Ever had sex,Tested & received results (past 12 months),52.1,Women,Marital status
+Never had sex,Ever tested,39.8,Women,Marital status
+Never had sex,Ever tested & received results,39.1,Women,Marital status
+Never had sex,Never tested,60.2,Women,Marital status
+Never had sex,Tested & received results (past 12 months),17.3,Women,Marital status
+Married/Living together,Ever tested,95.8,Women,Marital status
+Married/Living together,Ever tested & received results,95.1,Women,Marital status
+Married/Living together,Never tested,4.2,Women,Marital status
+Married/Living together,Tested & received results (past 12 months),52.1,Women,Marital status
+Divorced/Separated/Widowed,Ever tested,95.9,Women,Marital status
+Divorced/Separated/Widowed,Ever tested & received results,95.4,Women,Marital status
+Divorced/Separated/Widowed,Never tested,4.1,Women,Marital status
+Divorced/Separated/Widowed,Tested & received results (past 12 months),52.8,Women,Marital status
+Never married,Ever tested,55.5,Men,Marital status
+Never married,Ever tested & received results,55.0,Men,Marital status
+Never married,Never tested,44.5,Men,Marital status
+Never married,Tested & received results (past 12 months),28.1,Men,Marital status
+Ever had sex,Ever tested,69.2,Men,Marital status
+Ever had sex,Ever tested & received results,68.8,Men,Marital status
+Ever had sex,Never tested,30.8,Men,Marital status
+Ever had sex,Tested & received results (past 12 months),37.8,Men,Marital status
+Never had sex,Ever tested,29.6,Men,Marital status
+Never had sex,Ever tested & received results,28.8,Men,Marital status
+Never had sex,Never tested,70.4,Men,Marital status
+Never had sex,Tested & received results (past 12 months),9.7,Men,Marital status
+Married/Living together,Ever tested,89.4,Men,Marital status
+Married/Living together,Ever tested & received results,89.0,Men,Marital status
+Married/Living together,Never tested,10.6,Men,Marital status
+Married/Living together,Tested & received results (past 12 months),49.6,Men,Marital status
+Divorced/Separated/Widowed,Ever tested,84.8,Men,Marital status
+Divorced/Separated/Widowed,Ever tested & received results,84.5,Men,Marital status
+Divorced/Separated/Widowed,Never tested,15.2,Men,Marital status
+Divorced/Separated/Widowed,Tested & received results (past 12 months),43.5,Men,Marital status
+Urban,Ever tested,88.9,Women,Residence
+Urban,Ever tested & received results,88.4,Women,Residence
+Urban,Never tested,11.1,Women,Residence
+Urban,Tested & received results (past 12 months),49.7,Women,Residence
+Rural,Ever tested,83.1,Women,Residence
+Rural,Ever tested & received results,82.3,Women,Residence
+Rural,Never tested,16.9,Women,Residence
+Rural,Tested & received results (past 12 months),44.8,Women,Residence
+Urban,Ever tested,82.3,Men,Residence
+Urban,Ever tested & received results,82.0,Men,Residence
+Urban,Never tested,17.7,Men,Residence
+Urban,Tested & received results (past 12 months),44.7,Men,Residence
+Rural,Ever tested,66.6,Men,Residence
+Rural,Ever tested & received results,66.0,Men,Residence
+Rural,Never tested,33.4,Men,Residence
+Rural,Tested & received results (past 12 months),35.1,Men,Residence
+No education,Ever tested,73.6,Women,Education
+No education,Ever tested & received results,72.3,Women,Education
+No education,Never tested,26.4,Women,Education
+No education,Tested & received results (past 12 months),32.5,Women,Education
+Primary,Ever tested,86.9,Women,Education
+Primary,Ever tested & received results,86.1,Women,Education
+Primary,Never tested,13.1,Women,Education
+Primary,Tested & received results (past 12 months),45.5,Women,Education
+Secondary,Ever tested,82.1,Women,Education
+Secondary,Ever tested & received results,81.4,Women,Education
+Secondary,Never tested,17.9,Women,Education
+Secondary,Tested & received results (past 12 months),46.6,Women,Education
+More than secondary,Ever tested,92.9,Women,Education
+More than secondary,Ever tested & received results,92.7,Women,Education
+More than secondary,Never tested,7.1,Women,Education
+More than secondary,Tested & received results (past 12 months),54.0,Women,Education
+No education,Ever tested,56.7,Men,Education
+No education,Ever tested & received results,56.6,Men,Education
+No education,Never tested,43.3,Men,Education
+No education,Tested & received results (past 12 months),28.6,Men,Education
+Primary,Ever tested,67.2,Men,Education
+Primary,Ever tested & received results,66.6,Men,Education
+Primary,Never tested,32.8,Men,Education
+Primary,Tested & received results (past 12 months),32.1,Men,Education
+Secondary,Ever tested,69.9,Men,Education
+Secondary,Ever tested & received results,69.4,Men,Education
+Secondary,Never tested,30.1,Men,Education
+Secondary,Tested & received results (past 12 months),37.1,Men,Education
+More than secondary,Ever tested,90.6,Men,Education
+More than secondary,Ever tested & received results,90.5,Men,Education
+More than secondary,Never tested,9.4,Men,Education
+More than secondary,Tested & received results (past 12 months),55.5,Men,Education
+Lowest,Ever tested,76.3,Women,Wealth quintile
+Lowest,Ever tested & received results,75.4,Women,Wealth quintile
+Lowest,Never tested,23.7,Women,Wealth quintile
+Lowest,Tested & received results (past 12 months),38.7,Women,Wealth quintile
+Second,Ever tested,81.7,Women,Wealth quintile
+Second,Ever tested & received results,80.7,Women,Wealth quintile
+Second,Never tested,18.3,Women,Wealth quintile
+Second,Tested & received results (past 12 months),43.4,Women,Wealth quintile
+Middle,Ever tested,86.5,Women,Wealth quintile
+Middle,Ever tested & received results,85.9,Women,Wealth quintile
+Middle,Never tested,13.5,Women,Wealth quintile
+Middle,Tested & received results (past 12 months),48.2,Women,Wealth quintile
+Fourth,Ever tested,90.2,Women,Wealth quintile
+Fourth,Ever tested & received results,89.9,Women,Wealth quintile
+Fourth,Never tested,9.8,Women,Wealth quintile
+Fourth,Tested & received results (past 12 months),51.9,Women,Wealth quintile
+Highest,Ever tested,88.7,Women,Wealth quintile
+Highest,Ever tested & received results,88.1,Women,Wealth quintile
+Highest,Never tested,11.3,Women,Wealth quintile
+Highest,Tested & received results (past 12 months),48.7,Women,Wealth quintile
+Lowest,Ever tested,59.2,Men,Wealth quintile
+Lowest,Ever tested & received results,58.7,Men,Wealth quintile
+Lowest,Never tested,40.8,Men,Wealth quintile
+Lowest,Tested & received results (past 12 months),29.4,Men,Wealth quintile
+Second,Ever tested,65.3,Men,Wealth quintile
+Second,Ever tested & received results,64.9,Men,Wealth quintile
+Second,Never tested,34.7,Men,Wealth quintile
+Second,Tested & received results (past 12 months),34.1,Men,Wealth quintile
+Middle,Ever tested,68.9,Men,Wealth quintile
+Middle,Ever tested & received results,68.5,Men,Wealth quintile
+Middle,Never tested,31.1,Men,Wealth quintile
+Middle,Tested & received results (past 12 months),36.3,Men,Wealth quintile
+Fourth,Ever tested,80.8,Men,Wealth quintile
+Fourth,Ever tested & received results,80.2,Men,Wealth quintile
+Fourth,Never tested,19.2,Men,Wealth quintile
+Fourth,Tested & received results (past 12 months),44.2,Men,Wealth quintile
+Highest,Ever tested,83.5,Men,Wealth quintile
+Highest,Ever tested & received results,83.3,Men,Wealth quintile
+Highest,Never tested,16.5,Men,Wealth quintile
+Highest,Tested & received results (past 12 months),46.1,Men,Wealth quintile

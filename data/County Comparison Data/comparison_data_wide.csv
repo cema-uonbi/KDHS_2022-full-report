@@ -1,0 +1,565 @@
+County,Category,Proportion,year,type,percentage_change
+Mombasa,Stunting,13.5,2022,Child nutritional status,-36
+Kwale,Stunting,22.7,2022,Child nutritional status,-23.6
+Kilifi,Stunting,37,2022,Child nutritional status,-5.4
+Tana River,Stunting,21.1,2022,Child nutritional status,-24.9
+Lamu,Stunting,16.1,2022,Child nutritional status,-44.9
+Taita Taveta,Stunting,19.2,2022,Child nutritional status,-19.3
+Garissa,Stunting,9,2022,Child nutritional status,-42.3
+Wajir,Stunting,12.4,2022,Child nutritional status,-53
+Mandera,Stunting,20.5,2022,Child nutritional status,-43.2
+Marsabit,Stunting,18.9,2022,Child nutritional status,-28.7
+Isiolo,Stunting,14.1,2022,Child nutritional status,-26.2
+Meru,Stunting,25.2,2022,Child nutritional status,0
+Tharaka Nithi,Stunting,20.5,2022,Child nutritional status,-37.7
+Embu,Stunting,19.9,2022,Child nutritional status,-25.7
+Kitui,Stunting,25.1,2022,Child nutritional status,-45.2
+Machakos,Stunting,16.2,2022,Child nutritional status,-38.9
+Makueni,Stunting,19.8,2022,Child nutritional status,-21.1
+Nyandarua,Stunting,17.8,2022,Child nutritional status,-39.5
+Nyeri,Stunting,12.5,2022,Child nutritional status,-17.2
+Kirinyaga,Stunting,11.2,2022,Child nutritional status,-34.9
+Muranga,Stunting,10.1,2022,Child nutritional status,-47.7
+Kiambu,Stunting,15.3,2022,Child nutritional status,-2.5
+Turkana,Stunting,23,2022,Child nutritional status,-3.8
+West Pokot,Stunting,33.5,2022,Child nutritional status,-27
+Samburu,Stunting,31.4,2022,Child nutritional status,4.3
+Trans Nzoia,Stunting,21.3,2022,Child nutritional status,-27.1
+Uasin Gishu,Stunting,14.2,2022,Child nutritional status,-54.5
+Elgeyo Marakwet,Stunting,21.8,2022,Child nutritional status,-27.1
+Nandi,Stunting,15.1,2022,Child nutritional status,-49.5
+Baringo,Stunting,21.2,2022,Child nutritional status,-28.1
+Laikipia,Stunting,12.6,2022,Child nutritional status,-53.2
+Nakuru,Stunting,18.5,2022,Child nutritional status,-33
+Narok,Stunting,21.5,2022,Child nutritional status,-34.7
+Kajiado,Stunting,14,2022,Child nutritional status,-23.1
+Kericho,Stunting,19.3,2022,Child nutritional status,-32.8
+Bomet,Stunting,22.1,2022,Child nutritional status,-37.7
+Kakamega,Stunting,11.5,2022,Child nutritional status,-59.5
+Vihiga,Stunting,16.6,2022,Child nutritional status,-29.4
+Bungoma,Stunting,19,2022,Child nutritional status,-22.1
+Busia,Stunting,15,2022,Child nutritional status,-31.8
+Siaya,Stunting,19.2,2022,Child nutritional status,-22.3
+Kisumu,Stunting,9.1,2022,Child nutritional status,-49.4
+Homa Bay,Stunting,12.5,2022,Child nutritional status,-33.2
+Migori,Stunting,14.8,2022,Child nutritional status,-43.9
+Kisii,Stunting,16.3,2022,Child nutritional status,-36.1
+Nyamira,Stunting,13.5,2022,Child nutritional status,-47.1
+Nairobi,Stunting,11.1,2022,Child nutritional status,-35.5
+Mombasa,Wasting,4.6,2022,Child nutritional status,12.2
+Kwale,Wasting,6.2,2022,Child nutritional status,40.9
+Kilifi,Wasting,7.2,2022,Child nutritional status,75.6
+Tana River,Wasting,11.3,2022,Child nutritional status,98.2
+Lamu,Wasting,3.5,2022,Child nutritional status,-16.7
+Taita Taveta,Wasting,4.1,2022,Child nutritional status,-43.1
+Garissa,Wasting,15.3,2022,Child nutritional status,34.2
+Wajir,Wasting,22.8,2022,Child nutritional status,60.6
+Mandera,Wasting,17.3,2022,Child nutritional status,16.9
+Marsabit,Wasting,20.4,2022,Child nutritional status,25.2
+Isiolo,Wasting,7.2,2022,Child nutritional status,-20.9
+Meru,Wasting,6,2022,Child nutritional status,106.9
+Tharaka Nithi,Wasting,3.1,2022,Child nutritional status,-6.1
+Embu,Wasting,5.3,2022,Child nutritional status,76.7
+Kitui,Wasting,4.9,2022,Child nutritional status,44.1
+Machakos,Wasting,3.5,2022,Child nutritional status,-46.2
+Makueni,Wasting,4,2022,Child nutritional status,90.5
+Nyandarua,Wasting,1.9,2022,Child nutritional status,-5
+Nyeri,Wasting,2.7,2022,Child nutritional status,12.5
+Kirinyaga,Wasting,2.2,2022,Child nutritional status,-43.6
+Muranga,Wasting,1.7,2022,Child nutritional status,21.4
+Kiambu,Wasting,3.2,2022,Child nutritional status,39.1
+Turkana,Wasting,22.6,2022,Child nutritional status,-1.3
+West Pokot,Wasting,11,2022,Child nutritional status,-23.1
+Samburu,Wasting,15.4,2022,Child nutritional status,13.2
+Trans Nzoia,Wasting,3.2,2022,Child nutritional status,-17.9
+Uasin Gishu,Wasting,4,2022,Child nutritional status,33.3
+Elgeyo Marakwet,Wasting,4.8,2022,Child nutritional status,11.6
+Nandi,Wasting,4,2022,Child nutritional status,2.6
+Baringo,Wasting,13.6,2022,Child nutritional status,97.1
+Laikipia,Wasting,2.6,2022,Child nutritional status,-40.9
+Nakuru,Wasting,3,2022,Child nutritional status,-33.3
+Narok,Wasting,2.1,2022,Child nutritional status,-12.5
+Kajiado,Wasting,7.6,2022,Child nutritional status,153.3
+Kericho,Wasting,2.5,2022,Child nutritional status,-55.4
+Bomet,Wasting,3.3,2022,Child nutritional status,83.3
+Kakamega,Wasting,1.5,2022,Child nutritional status,-16.7
+Vihiga,Wasting,2.4,2022,Child nutritional status,-7.7
+Bungoma,Wasting,2.3,2022,Child nutritional status,27.8
+Busia,Wasting,2.8,2022,Child nutritional status,27.3
+Siaya,Wasting,1.7,2022,Child nutritional status,750
+Kisumu,Wasting,3,2022,Child nutritional status,275
+Homa Bay,Wasting,1.8,2022,Child nutritional status,-21.7
+Migori,Wasting,2.4,2022,Child nutritional status,-40
+Kisii,Wasting,2.9,2022,Child nutritional status,70.6
+Nyamira,Wasting,1.2,2022,Child nutritional status,-70.7
+Nairobi,Wasting,2.5,2022,Child nutritional status,0
+Mombasa,Underweight,9.8,2022,Child nutritional status,2.1
+Kwale,Underweight,13.7,2022,Child nutritional status,16.1
+Kilifi,Underweight,19.5,2022,Child nutritional status,15.4
+Tana River,Underweight,16.8,2022,Child nutritional status,-9.7
+Lamu,Underweight,12.5,2022,Child nutritional status,5.9
+Taita Taveta,Underweight,12.6,2022,Child nutritional status,61.5
+Garissa,Underweight,14.1,2022,Child nutritional status,7.6
+Wajir,Underweight,16.2,2022,Child nutritional status,-23.2
+Mandera,Underweight,23.2,2022,Child nutritional status,-6.8
+Marsabit,Underweight,25.9,2022,Child nutritional status,-14
+Isiolo,Underweight,11.5,2022,Child nutritional status,-10.9
+Meru,Underweight,10.8,2022,Child nutritional status,33.3
+Tharaka Nithi,Underweight,7.7,2022,Child nutritional status,-28.7
+Embu,Underweight,11.3,2022,Child nutritional status,1.8
+Kitui,Underweight,13.9,2022,Child nutritional status,-29.4
+Machakos,Underweight,8.1,2022,Child nutritional status,0
+Makueni,Underweight,8.7,2022,Child nutritional status,-14.7
+Nyandarua,Underweight,4,2022,Child nutritional status,-41.2
+Nyeri,Underweight,4,2022,Child nutritional status,60
+Kirinyaga,Underweight,5.7,2022,Child nutritional status,-26
+Muranga,Underweight,5.9,2022,Child nutritional status,5.4
+Kiambu,Underweight,6,2022,Child nutritional status,17.6
+Turkana,Underweight,31.7,2022,Child nutritional status,-6.8
+West Pokot,Underweight,27.1,2022,Child nutritional status,-29.6
+Samburu,Underweight,30.2,2022,Child nutritional status,4.5
+Trans Nzoia,Underweight,11.1,2022,Child nutritional status,-27.5
+Uasin Gishu,Underweight,6.4,2022,Child nutritional status,-44.3
+Elgeyo Marakwet,Underweight,13.9,2022,Child nutritional status,10.3
+Nandi,Underweight,9,2022,Child nutritional status,-18.9
+Baringo,Underweight,19.9,2022,Child nutritional status,-1.5
+Laikipia,Underweight,6.6,2022,Child nutritional status,-52.5
+Nakuru,Underweight,9.2,2022,Child nutritional status,-9.8
+Narok,Underweight,10.7,2022,Child nutritional status,-7.8
+Kajiado,Underweight,9.6,2022,Child nutritional status,18.5
+Kericho,Underweight,9.2,2022,Child nutritional status,-25.8
+Bomet,Underweight,9.8,2022,Child nutritional status,-18.3
+Kakamega,Underweight,6.4,2022,Child nutritional status,-36.6
+Vihiga,Underweight,9.2,2022,Child nutritional status,55.9
+Bungoma,Underweight,9.6,2022,Child nutritional status,6.7
+Busia,Underweight,6.3,2022,Child nutritional status,-30
+Siaya,Underweight,7,2022,Child nutritional status,-10.3
+Kisumu,Underweight,3.5,2022,Child nutritional status,-47
+Homa Bay,Underweight,6.1,2022,Child nutritional status,13
+Migori,Underweight,5,2022,Child nutritional status,-41.9
+Kisii,Underweight,7.8,2022,Child nutritional status,-7.1
+Nyamira,Underweight,3.4,2022,Child nutritional status,-64.6
+Nairobi,Underweight,5.3,2022,Child nutritional status,39.5
+Mombasa,Households with >=1 ITN,63.3,2022,Household possession of ITNs,11.2
+Mombasa,"Households with >=1 ITN
+per 2 people",45.5,2022,Household possession of ITNs,17
+Kwale,Households with >=1 ITN,74,2022,Household possession of ITNs,-8.6
+Kwale,"Households with >=1 ITN
+per 2 people",47.5,2022,Household possession of ITNs,-0.6
+Kilifi,Households with >=1 ITN,74.4,2022,Household possession of ITNs,1.8
+Kilifi,"Households with >=1 ITN
+per 2 people",48.2,2022,Household possession of ITNs,16.1
+Tana River,Households with >=1 ITN,71.3,2022,Household possession of ITNs,9.2
+Tana River,"Households with >=1 ITN
+per 2 people",34.3,2022,Household possession of ITNs,3.9
+Lamu,Households with >=1 ITN,65.9,2022,Household possession of ITNs,-7.3
+Lamu,"Households with >=1 ITN
+per 2 people",43.3,2022,Household possession of ITNs,-15.4
+Taita Taveta,Households with >=1 ITN,87.3,2022,Household possession of ITNs,8.6
+Taita Taveta,"Households with >=1 ITN
+per 2 people",74.3,2022,Household possession of ITNs,22.6
+Garissa,Households with >=1 ITN,19.7,2022,Household possession of ITNs,-67.8
+Garissa,"Households with >=1 ITN
+per 2 people",6.8,2022,Household possession of ITNs,-80.2
+Wajir,Households with >=1 ITN,43.6,2022,Household possession of ITNs,-18.7
+Wajir,"Households with >=1 ITN
+per 2 people",15.5,2022,Household possession of ITNs,-14.4
+Mandera,Households with >=1 ITN,15.7,2022,Household possession of ITNs,-45.3
+Mandera,"Households with >=1 ITN
+per 2 people",4.8,2022,Household possession of ITNs,-56
+Marsabit,Households with >=1 ITN,27.1,2022,Household possession of ITNs,9.7
+Marsabit,"Households with >=1 ITN
+per 2 people",7.4,2022,Household possession of ITNs,5.7
+Isiolo,Households with >=1 ITN,51.7,2022,Household possession of ITNs,-17.5
+Isiolo,"Households with >=1 ITN
+per 2 people",23.4,2022,Household possession of ITNs,-25.7
+Meru,Households with >=1 ITN,36.2,2022,Household possession of ITNs,-32.3
+Meru,"Households with >=1 ITN
+per 2 people",16.8,2022,Household possession of ITNs,-45.1
+Tharaka Nithi,Households with >=1 ITN,52.8,2022,Household possession of ITNs,-21.4
+Tharaka Nithi,"Households with >=1 ITN
+per 2 people",34.7,2022,Household possession of ITNs,-24.2
+Embu,Households with >=1 ITN,40.1,2022,Household possession of ITNs,-28.3
+Embu,"Households with >=1 ITN
+per 2 people",24.1,2022,Household possession of ITNs,-31.7
+Kitui,Households with >=1 ITN,33,2022,Household possession of ITNs,-46
+Kitui,"Households with >=1 ITN
+per 2 people",15.1,2022,Household possession of ITNs,-48.5
+Machakos,Households with >=1 ITN,55.9,2022,Household possession of ITNs,-0.2
+Machakos,"Households with >=1 ITN
+per 2 people",38.8,2022,Household possession of ITNs,23.2
+Makueni,Households with >=1 ITN,48.1,2022,Household possession of ITNs,-13
+Makueni,"Households with >=1 ITN
+per 2 people",25.8,2022,Household possession of ITNs,-6.9
+Nyandarua,Households with >=1 ITN,9.9,2022,Household possession of ITNs,-20.8
+Nyandarua,"Households with >=1 ITN
+per 2 people",5.8,2022,Household possession of ITNs,-18.3
+Nyeri,Households with >=1 ITN,18.1,2022,Household possession of ITNs,-8.1
+Nyeri,"Households with >=1 ITN
+per 2 people",12.1,2022,Household possession of ITNs,1.7
+Kirinyaga,Households with >=1 ITN,57.3,2022,Household possession of ITNs,-16.4
+Kirinyaga,"Households with >=1 ITN
+per 2 people",47.4,2022,Household possession of ITNs,-12.7
+Muranga,Households with >=1 ITN,35.9,2022,Household possession of ITNs,-17.8
+Muranga,"Households with >=1 ITN
+per 2 people",22,2022,Household possession of ITNs,-18.8
+Kiambu,Households with >=1 ITN,27.8,2022,Household possession of ITNs,-30.3
+Kiambu,"Households with >=1 ITN
+per 2 people",16,2022,Household possession of ITNs,-36.5
+Turkana,Households with >=1 ITN,49.4,2022,Household possession of ITNs,6.9
+Turkana,"Households with >=1 ITN
+per 2 people",18.8,2022,Household possession of ITNs,15.3
+West Pokot,Households with >=1 ITN,78.8,2022,Household possession of ITNs,30.9
+West Pokot,"Households with >=1 ITN
+per 2 people",41.5,2022,Household possession of ITNs,95.8
+Samburu,Households with >=1 ITN,19.9,2022,Household possession of ITNs,5.9
+Samburu,"Households with >=1 ITN
+per 2 people",7.4,2022,Household possession of ITNs,-14.9
+Trans Nzoia,Households with >=1 ITN,86,2022,Household possession of ITNs,21.8
+Trans Nzoia,"Households with >=1 ITN
+per 2 people",69.3,2022,Household possession of ITNs,80.5
+Uasin Gishu,Households with >=1 ITN,69.3,2022,Household possession of ITNs,-3.8
+Uasin Gishu,"Households with >=1 ITN
+per 2 people",56.8,2022,Household possession of ITNs,14.3
+Elgeyo Marakwet,Households with >=1 ITN,25.3,2022,Household possession of ITNs,15.5
+Elgeyo Marakwet,"Households with >=1 ITN
+per 2 people",10.1,2022,Household possession of ITNs,0
+Nandi,Households with >=1 ITN,84,2022,Household possession of ITNs,6.6
+Nandi,"Households with >=1 ITN
+per 2 people",69,2022,Household possession of ITNs,64.7
+Baringo,Households with >=1 ITN,63.8,2022,Household possession of ITNs,6.7
+Baringo,"Households with >=1 ITN
+per 2 people",37.6,2022,Household possession of ITNs,14.6
+Laikipia,Households with >=1 ITN,24.9,2022,Household possession of ITNs,42.3
+Laikipia,"Households with >=1 ITN
+per 2 people",15.9,2022,Household possession of ITNs,50
+Nakuru,Households with >=1 ITN,27.5,2022,Household possession of ITNs,-27.1
+Nakuru,"Households with >=1 ITN
+per 2 people",15.3,2022,Household possession of ITNs,-32.6
+Narok,Households with >=1 ITN,76,2022,Household possession of ITNs,45.6
+Narok,"Households with >=1 ITN
+per 2 people",54,2022,Household possession of ITNs,112.6
+Kajiado,Households with >=1 ITN,38.8,2022,Household possession of ITNs,-22.1
+Kajiado,"Households with >=1 ITN
+per 2 people",20.9,2022,Household possession of ITNs,-37.2
+Kericho,Households with >=1 ITN,84.1,2022,Household possession of ITNs,5.8
+Kericho,"Households with >=1 ITN
+per 2 people",65.9,2022,Household possession of ITNs,45.2
+Bomet,Households with >=1 ITN,92.3,2022,Household possession of ITNs,18.9
+Bomet,"Households with >=1 ITN
+per 2 people",77.3,2022,Household possession of ITNs,65.2
+Kakamega,Households with >=1 ITN,89.1,2022,Household possession of ITNs,13.1
+Kakamega,"Households with >=1 ITN
+per 2 people",66.9,2022,Household possession of ITNs,42.3
+Vihiga,Households with >=1 ITN,92.5,2022,Household possession of ITNs,11.6
+Vihiga,"Households with >=1 ITN
+per 2 people",75.8,2022,Household possession of ITNs,68.8
+Bungoma,Households with >=1 ITN,89.4,2022,Household possession of ITNs,7.8
+Bungoma,"Households with >=1 ITN
+per 2 people",70.6,2022,Household possession of ITNs,69.3
+Busia,Households with >=1 ITN,93.5,2022,Household possession of ITNs,11.4
+Busia,"Households with >=1 ITN
+per 2 people",67.4,2022,Household possession of ITNs,38.1
+Siaya,Households with >=1 ITN,86.7,2022,Household possession of ITNs,10
+Siaya,"Households with >=1 ITN
+per 2 people",58.6,2022,Household possession of ITNs,40.9
+Kisumu,Households with >=1 ITN,76,2022,Household possession of ITNs,-13.2
+Kisumu,"Households with >=1 ITN
+per 2 people",47,2022,Household possession of ITNs,-10.6
+Homa Bay,Households with >=1 ITN,89.2,2022,Household possession of ITNs,20.1
+Homa Bay,"Households with >=1 ITN
+per 2 people",60.2,2022,Household possession of ITNs,60.5
+Migori,Households with >=1 ITN,87.7,2022,Household possession of ITNs,17.6
+Migori,"Households with >=1 ITN
+per 2 people",54.2,2022,Household possession of ITNs,78.9
+Kisii,Households with >=1 ITN,85,2022,Household possession of ITNs,-1.3
+Kisii,"Households with >=1 ITN
+per 2 people",67.4,2022,Household possession of ITNs,23.9
+Nyamira,Households with >=1 ITN,93.6,2022,Household possession of ITNs,10.8
+Nyamira,"Households with >=1 ITN
+per 2 people",80,2022,Household possession of ITNs,40.1
+Nairobi,Households with >=1 ITN,23.4,2022,Household possession of ITNs,-46
+Nairobi,"Households with >=1 ITN
+per 2 people",14.3,2022,Household possession of ITNs,-49.8
+Mombasa,Stunting,21.1,2014,Child nutritional status,NA
+Kwale,Stunting,29.7,2014,Child nutritional status,NA
+Kilifi,Stunting,39.1,2014,Child nutritional status,NA
+Tana River,Stunting,28.1,2014,Child nutritional status,NA
+Lamu,Stunting,29.2,2014,Child nutritional status,NA
+Taita Taveta,Stunting,23.8,2014,Child nutritional status,NA
+Garissa,Stunting,15.6,2014,Child nutritional status,NA
+Wajir,Stunting,26.4,2014,Child nutritional status,NA
+Mandera,Stunting,36.1,2014,Child nutritional status,NA
+Marsabit,Stunting,26.5,2014,Child nutritional status,NA
+Isiolo,Stunting,19.1,2014,Child nutritional status,NA
+Meru,Stunting,25.2,2014,Child nutritional status,NA
+Tharaka Nithi,Stunting,32.9,2014,Child nutritional status,NA
+Embu,Stunting,26.8,2014,Child nutritional status,NA
+Kitui,Stunting,45.8,2014,Child nutritional status,NA
+Machakos,Stunting,26.5,2014,Child nutritional status,NA
+Makueni,Stunting,25.1,2014,Child nutritional status,NA
+Nyandarua,Stunting,29.4,2014,Child nutritional status,NA
+Nyeri,Stunting,15.1,2014,Child nutritional status,NA
+Kirinyaga,Stunting,17.2,2014,Child nutritional status,NA
+Muranga,Stunting,19.3,2014,Child nutritional status,NA
+Kiambu,Stunting,15.7,2014,Child nutritional status,NA
+Turkana,Stunting,23.9,2014,Child nutritional status,NA
+West Pokot,Stunting,45.9,2014,Child nutritional status,NA
+Samburu,Stunting,30.1,2014,Child nutritional status,NA
+Trans Nzoia,Stunting,29.2,2014,Child nutritional status,NA
+Uasin Gishu,Stunting,31.2,2014,Child nutritional status,NA
+Elgeyo Marakwet,Stunting,29.9,2014,Child nutritional status,NA
+Nandi,Stunting,29.9,2014,Child nutritional status,NA
+Baringo,Stunting,29.5,2014,Child nutritional status,NA
+Laikipia,Stunting,26.9,2014,Child nutritional status,NA
+Nakuru,Stunting,27.6,2014,Child nutritional status,NA
+Narok,Stunting,32.9,2014,Child nutritional status,NA
+Kajiado,Stunting,18.2,2014,Child nutritional status,NA
+Kericho,Stunting,28.7,2014,Child nutritional status,NA
+Bomet,Stunting,35.5,2014,Child nutritional status,NA
+Kakamega,Stunting,28.4,2014,Child nutritional status,NA
+Vihiga,Stunting,23.5,2014,Child nutritional status,NA
+Bungoma,Stunting,24.4,2014,Child nutritional status,NA
+Busia,Stunting,22,2014,Child nutritional status,NA
+Siaya,Stunting,24.7,2014,Child nutritional status,NA
+Kisumu,Stunting,18,2014,Child nutritional status,NA
+Homa Bay,Stunting,18.7,2014,Child nutritional status,NA
+Migori,Stunting,26.4,2014,Child nutritional status,NA
+Kisii,Stunting,25.5,2014,Child nutritional status,NA
+Nyamira,Stunting,25.5,2014,Child nutritional status,NA
+Nairobi,Stunting,17.2,2014,Child nutritional status,NA
+Mombasa,Wasting,4.1,2014,Child nutritional status,NA
+Kwale,Wasting,4.4,2014,Child nutritional status,NA
+Kilifi,Wasting,4.1,2014,Child nutritional status,NA
+Tana River,Wasting,5.7,2014,Child nutritional status,NA
+Lamu,Wasting,4.2,2014,Child nutritional status,NA
+Taita Taveta,Wasting,7.2,2014,Child nutritional status,NA
+Garissa,Wasting,11.4,2014,Child nutritional status,NA
+Wajir,Wasting,14.2,2014,Child nutritional status,NA
+Mandera,Wasting,14.8,2014,Child nutritional status,NA
+Marsabit,Wasting,16.3,2014,Child nutritional status,NA
+Isiolo,Wasting,9.1,2014,Child nutritional status,NA
+Meru,Wasting,2.9,2014,Child nutritional status,NA
+Tharaka Nithi,Wasting,3.3,2014,Child nutritional status,NA
+Embu,Wasting,3,2014,Child nutritional status,NA
+Kitui,Wasting,3.4,2014,Child nutritional status,NA
+Machakos,Wasting,6.5,2014,Child nutritional status,NA
+Makueni,Wasting,2.1,2014,Child nutritional status,NA
+Nyandarua,Wasting,2,2014,Child nutritional status,NA
+Nyeri,Wasting,2.4,2014,Child nutritional status,NA
+Kirinyaga,Wasting,3.9,2014,Child nutritional status,NA
+Muranga,Wasting,1.4,2014,Child nutritional status,NA
+Kiambu,Wasting,2.3,2014,Child nutritional status,NA
+Turkana,Wasting,22.9,2014,Child nutritional status,NA
+West Pokot,Wasting,14.3,2014,Child nutritional status,NA
+Samburu,Wasting,13.6,2014,Child nutritional status,NA
+Trans Nzoia,Wasting,3.9,2014,Child nutritional status,NA
+Uasin Gishu,Wasting,3,2014,Child nutritional status,NA
+Elgeyo Marakwet,Wasting,4.3,2014,Child nutritional status,NA
+Nandi,Wasting,3.9,2014,Child nutritional status,NA
+Baringo,Wasting,6.9,2014,Child nutritional status,NA
+Laikipia,Wasting,4.4,2014,Child nutritional status,NA
+Nakuru,Wasting,4.5,2014,Child nutritional status,NA
+Narok,Wasting,2.4,2014,Child nutritional status,NA
+Kajiado,Wasting,3,2014,Child nutritional status,NA
+Kericho,Wasting,5.6,2014,Child nutritional status,NA
+Bomet,Wasting,1.8,2014,Child nutritional status,NA
+Kakamega,Wasting,1.8,2014,Child nutritional status,NA
+Vihiga,Wasting,2.6,2014,Child nutritional status,NA
+Bungoma,Wasting,1.8,2014,Child nutritional status,NA
+Busia,Wasting,2.2,2014,Child nutritional status,NA
+Siaya,Wasting,0.2,2014,Child nutritional status,NA
+Kisumu,Wasting,0.8,2014,Child nutritional status,NA
+Homa Bay,Wasting,2.3,2014,Child nutritional status,NA
+Migori,Wasting,4,2014,Child nutritional status,NA
+Kisii,Wasting,1.7,2014,Child nutritional status,NA
+Nyamira,Wasting,4.1,2014,Child nutritional status,NA
+Nairobi,Wasting,2.5,2014,Child nutritional status,NA
+Mombasa,Underweight,9.6,2014,Child nutritional status,NA
+Kwale,Underweight,11.8,2014,Child nutritional status,NA
+Kilifi,Underweight,16.9,2014,Child nutritional status,NA
+Tana River,Underweight,18.6,2014,Child nutritional status,NA
+Lamu,Underweight,11.8,2014,Child nutritional status,NA
+Taita Taveta,Underweight,7.8,2014,Child nutritional status,NA
+Garissa,Underweight,13.1,2014,Child nutritional status,NA
+Wajir,Underweight,21.1,2014,Child nutritional status,NA
+Mandera,Underweight,24.9,2014,Child nutritional status,NA
+Marsabit,Underweight,30.1,2014,Child nutritional status,NA
+Isiolo,Underweight,12.9,2014,Child nutritional status,NA
+Meru,Underweight,8.1,2014,Child nutritional status,NA
+Tharaka Nithi,Underweight,10.8,2014,Child nutritional status,NA
+Embu,Underweight,11.1,2014,Child nutritional status,NA
+Kitui,Underweight,19.7,2014,Child nutritional status,NA
+Machakos,Underweight,8.1,2014,Child nutritional status,NA
+Makueni,Underweight,10.2,2014,Child nutritional status,NA
+Nyandarua,Underweight,6.8,2014,Child nutritional status,NA
+Nyeri,Underweight,2.5,2014,Child nutritional status,NA
+Kirinyaga,Underweight,7.7,2014,Child nutritional status,NA
+Muranga,Underweight,5.6,2014,Child nutritional status,NA
+Kiambu,Underweight,5.1,2014,Child nutritional status,NA
+Turkana,Underweight,34,2014,Child nutritional status,NA
+West Pokot,Underweight,38.5,2014,Child nutritional status,NA
+Samburu,Underweight,28.9,2014,Child nutritional status,NA
+Trans Nzoia,Underweight,15.3,2014,Child nutritional status,NA
+Uasin Gishu,Underweight,11.5,2014,Child nutritional status,NA
+Elgeyo Marakwet,Underweight,12.6,2014,Child nutritional status,NA
+Nandi,Underweight,11.1,2014,Child nutritional status,NA
+Baringo,Underweight,20.2,2014,Child nutritional status,NA
+Laikipia,Underweight,13.9,2014,Child nutritional status,NA
+Nakuru,Underweight,10.2,2014,Child nutritional status,NA
+Narok,Underweight,11.6,2014,Child nutritional status,NA
+Kajiado,Underweight,8.1,2014,Child nutritional status,NA
+Kericho,Underweight,12.4,2014,Child nutritional status,NA
+Bomet,Underweight,12,2014,Child nutritional status,NA
+Kakamega,Underweight,10.1,2014,Child nutritional status,NA
+Vihiga,Underweight,5.9,2014,Child nutritional status,NA
+Bungoma,Underweight,9,2014,Child nutritional status,NA
+Busia,Underweight,9,2014,Child nutritional status,NA
+Siaya,Underweight,7.8,2014,Child nutritional status,NA
+Kisumu,Underweight,6.6,2014,Child nutritional status,NA
+Homa Bay,Underweight,5.4,2014,Child nutritional status,NA
+Migori,Underweight,8.6,2014,Child nutritional status,NA
+Kisii,Underweight,8.4,2014,Child nutritional status,NA
+Nyamira,Underweight,9.6,2014,Child nutritional status,NA
+Nairobi,Underweight,3.8,2014,Child nutritional status,NA
+Mombasa,Households with >=1 ITN,56.9,2014,Household possession of ITNs,NA
+Mombasa,"Households with >=1 ITN
+per 2 people",38.9,2014,Household possession of ITNs,NA
+Kwale,Households with >=1 ITN,81,2014,Household possession of ITNs,NA
+Kwale,"Households with >=1 ITN
+per 2 people",47.8,2014,Household possession of ITNs,NA
+Kilifi,Households with >=1 ITN,73.1,2014,Household possession of ITNs,NA
+Kilifi,"Households with >=1 ITN
+per 2 people",41.5,2014,Household possession of ITNs,NA
+Tana River,Households with >=1 ITN,65.3,2014,Household possession of ITNs,NA
+Tana River,"Households with >=1 ITN
+per 2 people",33,2014,Household possession of ITNs,NA
+Lamu,Households with >=1 ITN,71.1,2014,Household possession of ITNs,NA
+Lamu,"Households with >=1 ITN
+per 2 people",51.2,2014,Household possession of ITNs,NA
+Taita Taveta,Households with >=1 ITN,80.4,2014,Household possession of ITNs,NA
+Taita Taveta,"Households with >=1 ITN
+per 2 people",60.6,2014,Household possession of ITNs,NA
+Garissa,Households with >=1 ITN,61.1,2014,Household possession of ITNs,NA
+Garissa,"Households with >=1 ITN
+per 2 people",34.4,2014,Household possession of ITNs,NA
+Wajir,Households with >=1 ITN,53.6,2014,Household possession of ITNs,NA
+Wajir,"Households with >=1 ITN
+per 2 people",18.1,2014,Household possession of ITNs,NA
+Mandera,Households with >=1 ITN,28.7,2014,Household possession of ITNs,NA
+Mandera,"Households with >=1 ITN
+per 2 people",10.9,2014,Household possession of ITNs,NA
+Marsabit,Households with >=1 ITN,24.7,2014,Household possession of ITNs,NA
+Marsabit,"Households with >=1 ITN
+per 2 people",7,2014,Household possession of ITNs,NA
+Isiolo,Households with >=1 ITN,62.7,2014,Household possession of ITNs,NA
+Isiolo,"Households with >=1 ITN
+per 2 people",31.5,2014,Household possession of ITNs,NA
+Meru,Households with >=1 ITN,53.5,2014,Household possession of ITNs,NA
+Meru,"Households with >=1 ITN
+per 2 people",30.6,2014,Household possession of ITNs,NA
+Tharaka Nithi,Households with >=1 ITN,67.2,2014,Household possession of ITNs,NA
+Tharaka Nithi,"Households with >=1 ITN
+per 2 people",45.8,2014,Household possession of ITNs,NA
+Embu,Households with >=1 ITN,55.9,2014,Household possession of ITNs,NA
+Embu,"Households with >=1 ITN
+per 2 people",35.3,2014,Household possession of ITNs,NA
+Kitui,Households with >=1 ITN,61.1,2014,Household possession of ITNs,NA
+Kitui,"Households with >=1 ITN
+per 2 people",29.3,2014,Household possession of ITNs,NA
+Machakos,Households with >=1 ITN,56,2014,Household possession of ITNs,NA
+Machakos,"Households with >=1 ITN
+per 2 people",31.5,2014,Household possession of ITNs,NA
+Makueni,Households with >=1 ITN,55.3,2014,Household possession of ITNs,NA
+Makueni,"Households with >=1 ITN
+per 2 people",27.7,2014,Household possession of ITNs,NA
+Nyandarua,Households with >=1 ITN,12.5,2014,Household possession of ITNs,NA
+Nyandarua,"Households with >=1 ITN
+per 2 people",7.1,2014,Household possession of ITNs,NA
+Nyeri,Households with >=1 ITN,19.7,2014,Household possession of ITNs,NA
+Nyeri,"Households with >=1 ITN
+per 2 people",11.9,2014,Household possession of ITNs,NA
+Kirinyaga,Households with >=1 ITN,68.5,2014,Household possession of ITNs,NA
+Kirinyaga,"Households with >=1 ITN
+per 2 people",54.3,2014,Household possession of ITNs,NA
+Muranga,Households with >=1 ITN,43.7,2014,Household possession of ITNs,NA
+Muranga,"Households with >=1 ITN
+per 2 people",27.1,2014,Household possession of ITNs,NA
+Kiambu,Households with >=1 ITN,39.9,2014,Household possession of ITNs,NA
+Kiambu,"Households with >=1 ITN
+per 2 people",25.2,2014,Household possession of ITNs,NA
+Turkana,Households with >=1 ITN,46.2,2014,Household possession of ITNs,NA
+Turkana,"Households with >=1 ITN
+per 2 people",16.3,2014,Household possession of ITNs,NA
+West Pokot,Households with >=1 ITN,60.2,2014,Household possession of ITNs,NA
+West Pokot,"Households with >=1 ITN
+per 2 people",21.2,2014,Household possession of ITNs,NA
+Samburu,Households with >=1 ITN,18.8,2014,Household possession of ITNs,NA
+Samburu,"Households with >=1 ITN
+per 2 people",8.7,2014,Household possession of ITNs,NA
+Trans Nzoia,Households with >=1 ITN,70.6,2014,Household possession of ITNs,NA
+Trans Nzoia,"Households with >=1 ITN
+per 2 people",38.4,2014,Household possession of ITNs,NA
+Uasin Gishu,Households with >=1 ITN,72,2014,Household possession of ITNs,NA
+Uasin Gishu,"Households with >=1 ITN
+per 2 people",49.7,2014,Household possession of ITNs,NA
+Elgeyo Marakwet,Households with >=1 ITN,21.9,2014,Household possession of ITNs,NA
+Elgeyo Marakwet,"Households with >=1 ITN
+per 2 people",10.1,2014,Household possession of ITNs,NA
+Nandi,Households with >=1 ITN,78.8,2014,Household possession of ITNs,NA
+Nandi,"Households with >=1 ITN
+per 2 people",41.9,2014,Household possession of ITNs,NA
+Baringo,Households with >=1 ITN,59.8,2014,Household possession of ITNs,NA
+Baringo,"Households with >=1 ITN
+per 2 people",32.8,2014,Household possession of ITNs,NA
+Laikipia,Households with >=1 ITN,17.5,2014,Household possession of ITNs,NA
+Laikipia,"Households with >=1 ITN
+per 2 people",10.6,2014,Household possession of ITNs,NA
+Nakuru,Households with >=1 ITN,37.7,2014,Household possession of ITNs,NA
+Nakuru,"Households with >=1 ITN
+per 2 people",22.7,2014,Household possession of ITNs,NA
+Narok,Households with >=1 ITN,52.2,2014,Household possession of ITNs,NA
+Narok,"Households with >=1 ITN
+per 2 people",25.4,2014,Household possession of ITNs,NA
+Kajiado,Households with >=1 ITN,49.8,2014,Household possession of ITNs,NA
+Kajiado,"Households with >=1 ITN
+per 2 people",33.3,2014,Household possession of ITNs,NA
+Kericho,Households with >=1 ITN,79.5,2014,Household possession of ITNs,NA
+Kericho,"Households with >=1 ITN
+per 2 people",45.4,2014,Household possession of ITNs,NA
+Bomet,Households with >=1 ITN,77.6,2014,Household possession of ITNs,NA
+Bomet,"Households with >=1 ITN
+per 2 people",46.8,2014,Household possession of ITNs,NA
+Kakamega,Households with >=1 ITN,78.8,2014,Household possession of ITNs,NA
+Kakamega,"Households with >=1 ITN
+per 2 people",47,2014,Household possession of ITNs,NA
+Vihiga,Households with >=1 ITN,82.9,2014,Household possession of ITNs,NA
+Vihiga,"Households with >=1 ITN
+per 2 people",44.9,2014,Household possession of ITNs,NA
+Bungoma,Households with >=1 ITN,82.9,2014,Household possession of ITNs,NA
+Bungoma,"Households with >=1 ITN
+per 2 people",41.7,2014,Household possession of ITNs,NA
+Busia,Households with >=1 ITN,83.9,2014,Household possession of ITNs,NA
+Busia,"Households with >=1 ITN
+per 2 people",48.8,2014,Household possession of ITNs,NA
+Siaya,Households with >=1 ITN,78.8,2014,Household possession of ITNs,NA
+Siaya,"Households with >=1 ITN
+per 2 people",41.6,2014,Household possession of ITNs,NA
+Kisumu,Households with >=1 ITN,87.6,2014,Household possession of ITNs,NA
+Kisumu,"Households with >=1 ITN
+per 2 people",52.6,2014,Household possession of ITNs,NA
+Homa Bay,Households with >=1 ITN,74.3,2014,Household possession of ITNs,NA
+Homa Bay,"Households with >=1 ITN
+per 2 people",37.5,2014,Household possession of ITNs,NA
+Migori,Households with >=1 ITN,74.6,2014,Household possession of ITNs,NA
+Migori,"Households with >=1 ITN
+per 2 people",30.3,2014,Household possession of ITNs,NA
+Kisii,Households with >=1 ITN,86.1,2014,Household possession of ITNs,NA
+Kisii,"Households with >=1 ITN
+per 2 people",54.4,2014,Household possession of ITNs,NA
+Nyamira,Households with >=1 ITN,84.5,2014,Household possession of ITNs,NA
+Nyamira,"Households with >=1 ITN
+per 2 people",57.1,2014,Household possession of ITNs,NA
+Nairobi,Households with >=1 ITN,43.3,2014,Household possession of ITNs,NA
+Nairobi,"Households with >=1 ITN
+per 2 people",28.5,2014,Household possession of ITNs,NA

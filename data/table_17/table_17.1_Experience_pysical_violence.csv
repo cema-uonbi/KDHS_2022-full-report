@@ -1,0 +1,177 @@
+Background characteristics,Category,Gender,variable,value
+Age,15-19,Female,Since age 15,19.5
+Age,20-24,Female,Since age 15,29
+Age,25-29,Female,Since age 15,36.9
+Age,30-39,Female,Since age 15,40.2
+Age,40-49,Female,Since age 15,41.7
+Residence,Urban,Female,Since age 15,31.6
+Residence,Rural,Female,Since age 15,35.5
+Marital Status,Never married,Female,Since age 15,19.8
+Marital Status,Never ever had intimate partner,Female,Since age 15,12.3
+Marital Status,Ever had intimate partner,Female,Since age 15,25.2
+Marital Status,Ever married,Female,Since age 15,40.7
+Marital Status,Married/living together,Female,Since age 15,37
+Marital Status,Divorced/separated/widowed,Female,Since age 15,58.4
+Education,No education,Female,Since age 15,35.9
+Education,Primary,Female,Since age 15,42.7
+Education,Secondary,Female,Since age 15,30.8
+Education,More than secondary,Female,Since age 15,23.3
+Wealth quintile,Lowest,Female,Since age 15,36.9
+Wealth quintile,Second,Female,Since age 15,36.7
+Wealth quintile,Middle,Female,Since age 15,36.8
+Wealth quintile,Fourth,Female,Since age 15,33.6
+Wealth quintile,Highest,Female,Since age 15,28.1
+Age,15-19,Male,Since age 15,29.2
+Age,20-24,Male,Since age 15,26.6
+Age,25-29,Male,Since age 15,28.3
+Age,30-39,Male,Since age 15,25.3
+Age,40-49,Male,Since age 15,26.1
+Residence,Urban,Male,Since age 15,29.1
+Residence,Rural,Male,Since age 15,25.8
+Marital Status,Never married,Male,Since age 15,28.1
+Marital Status,Never ever had intimate partner,Male,Since age 15,30
+Marital Status,Ever had intimate partner,Male,Since age 15,26.3
+Marital Status,Ever married,Male,Since age 15,26.1
+Marital Status,Married/living together,Male,Since age 15,23.5
+Marital Status,Divorced/separated/widowed,Male,Since age 15,45.5
+Education,No education,Male,Since age 15,11.5
+Education,Primary,Male,Since age 15,26.3
+Education,Secondary,Male,Since age 15,29.4
+Education,More than secondary,Male,Since age 15,25.9
+Wealth quintile,Lowest,Male,Since age 15,23
+Wealth quintile,Second,Male,Since age 15,27.2
+Wealth quintile,Middle,Male,Since age 15,28.6
+Wealth quintile,Fourth,Male,Since age 15,27.4
+Wealth quintile,Highest,Male,Since age 15,27.9
+Age,15-19,Female,Often,1
+Age,20-24,Female,Often,2.9
+Age,25-29,Female,Often,4.4
+Age,30-39,Female,Often,4.9
+Age,40-49,Female,Often,4
+Residence,Urban,Female,Often,3.3
+Residence,Rural,Female,Often,3.7
+Marital Status,Never married,Female,Often,0.9
+Marital Status,Never ever had intimate partner,Female,Often,0.5
+Marital Status,Ever had intimate partner,Female,Often,1.3
+Marital Status,Ever married,Female,Often,4.8
+Marital Status,Married/living together,Female,Often,4.1
+Marital Status,Divorced/separated/widowed,Female,Often,8.1
+Education,No education,Female,Often,4.9
+Education,Primary,Female,Often,5.5
+Education,Secondary,Female,Often,2.9
+Education,More than secondary,Female,Often,0.9
+Wealth quintile,Lowest,Female,Often,5.3
+Wealth quintile,Second,Female,Often,4.4
+Wealth quintile,Middle,Female,Often,3.5
+Wealth quintile,Fourth,Female,Often,2.8
+Wealth quintile,Highest,Female,Often,2.4
+Age,15-19,Male,Often,1.7
+Age,20-24,Male,Often,0.7
+Age,25-29,Male,Often,0.6
+Age,30-39,Male,Often,0.9
+Age,40-49,Male,Often,1
+Residence,Urban,Male,Often,0.7
+Residence,Rural,Male,Often,1.2
+Marital Status,Never married,Male,Often,1.2
+Marital Status,Never ever had intimate partner,Male,Often,1.1
+Marital Status,Ever had intimate partner,Male,Often,1.3
+Marital Status,Ever married,Male,Often,0.9
+Marital Status,Married/living together,Male,Often,0.6
+Marital Status,Divorced/separated/widowed,Male,Often,2.6
+Education,No education,Male,Often,0
+Education,Primary,Male,Often,1.4
+Education,Secondary,Male,Often,0.9
+Education,More than secondary,Male,Often,0.8
+Wealth quintile,Lowest,Male,Often,1.1
+Wealth quintile,Second,Male,Often,1.2
+Wealth quintile,Middle,Male,Often,1.7
+Wealth quintile,Fourth,Male,Often,0.3
+Wealth quintile,Highest,Male,Often,0.9
+Age,15-19,Female,Sometimes,10
+Age,20-24,Female,Sometimes,12.3
+Age,25-29,Female,Sometimes,14.4
+Age,30-39,Female,Sometimes,13.2
+Age,40-49,Female,Sometimes,9.8
+Residence,Urban,Female,Sometimes,10
+Residence,Rural,Female,Sometimes,13.5
+Marital Status,Never married,Female,Sometimes,8
+Marital Status,Never ever had intimate partner,Female,Sometimes,6.2
+Marital Status,Ever had intimate partner,Female,Sometimes,9.3
+Marital Status,Ever married,Female,Sometimes,14
+Marital Status,Married/living together,Female,Sometimes,14.7
+Marital Status,Divorced/separated/widowed,Female,Sometimes,10.8
+Education,No education,Female,Sometimes,12.7
+Education,Primary,Female,Sometimes,15.7
+Education,Secondary,Female,Sometimes,11.7
+Education,More than secondary,Female,Sometimes,5.8
+Wealth quintile,Lowest,Female,Sometimes,15.8
+Wealth quintile,Second,Female,Sometimes,14.4
+Wealth quintile,Middle,Female,Sometimes,13.8
+Wealth quintile,Fourth,Female,Sometimes,11
+Wealth quintile,Highest,Female,Sometimes,7.6
+Age,15-19,Male,Sometimes,15.5
+Age,20-24,Male,Sometimes,9.7
+Age,25-29,Male,Sometimes,7.8
+Age,30-39,Male,Sometimes,7.5
+Age,40-49,Male,Sometimes,4.9
+Residence,Urban,Male,Sometimes,11.9
+Residence,Rural,Male,Sometimes,7.8
+Marital Status,Never married,Male,Sometimes,12
+Marital Status,Never ever had intimate partner,Male,Sometimes,14.5
+Marital Status,Ever had intimate partner,Male,Sometimes,9.8
+Marital Status,Ever married,Male,Sometimes,6.9
+Marital Status,Married/living together,Male,Sometimes,5.9
+Marital Status,Divorced/separated/widowed,Male,Sometimes,14.3
+Education,No education,Male,Sometimes,5.1
+Education,Primary,Male,Sometimes,9.1
+Education,Secondary,Male,Sometimes,11
+Education,More than secondary,Male,Sometimes,6.8
+Wealth quintile,Lowest,Male,Sometimes,8.1
+Wealth quintile,Second,Male,Sometimes,9.4
+Wealth quintile,Middle,Male,Sometimes,9.1
+Wealth quintile,Fourth,Male,Sometimes,8.5
+Wealth quintile,Highest,Male,Sometimes,11.3
+Age,15-19,Female,Often or sometimes,11.2
+Age,20-24,Female,Often or sometimes,15.4
+Age,25-29,Female,Often or sometimes,18.9
+Age,30-39,Female,Often or sometimes,18.2
+Age,40-49,Female,Often or sometimes,13.9
+Residence,Urban,Female,Often or sometimes,13.4
+Residence,Rural,Female,Often or sometimes,17.3
+Marital Status,Never married,Female,Often or sometimes,9
+Marital Status,Never ever had intimate partner,Female,Often or sometimes,6.7
+Marital Status,Ever had intimate partner,Female,Often or sometimes,10.7
+Marital Status,Ever married,Female,Often or sometimes,19
+Marital Status,Married/living together,Female,Often or sometimes,18.9
+Marital Status,Divorced/separated/widowed,Female,Often or sometimes,19.3
+Education,No education,Female,Often or sometimes,17.6
+Education,Primary,Female,Often or sometimes,21.4
+Education,Secondary,Female,Often or sometimes,14.7
+Education,More than secondary,Female,Often or sometimes,6.8
+Wealth quintile,Lowest,Female,Often or sometimes,21.2
+Wealth quintile,Second,Female,Often or sometimes,19
+Wealth quintile,Middle,Female,Often or sometimes,17.4
+Wealth quintile,Fourth,Female,Often or sometimes,14.1
+Wealth quintile,Highest,Female,Often or sometimes,10
+Age,15-19,Male,Often or sometimes,17.4
+Age,20-24,Male,Often or sometimes,10.4
+Age,25-29,Male,Often or sometimes,8.3
+Age,30-39,Male,Often or sometimes,8.4
+Age,40-49,Male,Often or sometimes,6
+Residence,Urban,Male,Often or sometimes,12.7
+Residence,Rural,Male,Often or sometimes,9.1
+Marital Status,Never married,Male,Often or sometimes,13.4
+Marital Status,Never ever had intimate partner,Male,Often or sometimes,15.6
+Marital Status,Ever had intimate partner,Male,Often or sometimes,11.3
+Marital Status,Ever married,Male,Often or sometimes,7.8
+Marital Status,Married/living together,Male,Often or sometimes,6.5
+Marital Status,Divorced/separated/widowed,Male,Often or sometimes,17.1
+Education,No education,Male,Often or sometimes,5.1
+Education,Primary,Male,Often or sometimes,10.6
+Education,Secondary,Male,Often or sometimes,12
+Education,More than secondary,Male,Often or sometimes,7.6
+Wealth quintile,Lowest,Male,Often or sometimes,9.2
+Wealth quintile,Second,Male,Often or sometimes,10.9
+Wealth quintile,Middle,Male,Often or sometimes,10.8
+Wealth quintile,Fourth,Male,Often or sometimes,8.8
+Wealth quintile,Highest,Male,Often or sometimes,12.2

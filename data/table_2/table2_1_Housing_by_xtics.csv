@@ -1,0 +1,77 @@
+Value,Category,Proportion,Participants,Characteristics
+Yes,Urban,90.4,Household,Electricity
+Yes,Rural,35.7,Household,Electricity
+No,Urban,9.6,Household,Electricity
+No,Rural,64.3,Household,Electricity
+Yes,Urban,89.7,Population,Electricity
+Yes,Rural,31.5,Population,Electricity
+No,Urban,10.3,Population,Electricity
+No,Rural,68.5,Population,Electricity
+"Earth, sand",Urban,5.5,Household,Flooring material
+"Earth, sand",Rural,35,Household,Flooring material
+Dung,Urban,0.8,Household,Flooring material
+Dung,Rural,17.6,Household,Flooring material
+Wood/planks,Urban,0.4,Household,Flooring material
+Wood/planks,Rural,0.2,Household,Flooring material
+Parquet or polished wood,Urban,0.7,Household,Flooring material
+Parquet or polished wood,Rural,0,Household,Flooring material
+Vinyl or asphalt strips,Urban,0.8,Household,Flooring material
+Vinyl or asphalt strips,Rural,0,Household,Flooring material
+Ceramic tiles,Urban,26.8,Household,Flooring material
+Ceramic tiles,Rural,7,Household,Flooring material
+Cement,Urban,58.7,Household,Flooring material
+Cement,Rural,38.6,Household,Flooring material
+Carpet,Urban,6.2,Household,Flooring material
+Carpet,Rural,1.5,Household,Flooring material
+Other,Urban,0.1,Household,Flooring material
+Other,Rural,0.1,Household,Flooring material
+"Earth, sand",Urban,6.7,Population,Flooring material
+"Earth, sand",Rural,36.6,Population,Flooring material
+Dung,Urban,1.1,Population,Flooring material
+Dung,Rural,20,Population,Flooring material
+Wood/planks,Urban,0.5,Population,Flooring material
+Wood/planks,Rural,0.1,Population,Flooring material
+Parquet or polished wood,Urban,0.8,Population,Flooring material
+Parquet or polished wood,Rural,0,Population,Flooring material
+Vinyl or asphalt strips,Urban,0.6,Population,Flooring material
+Vinyl or asphalt strips,Rural,0,Population,Flooring material
+Ceramic tiles,Urban,28.5,Population,Flooring material
+Ceramic tiles,Rural,6.7,Population,Flooring material
+Cement,Urban,56,Population,Flooring material
+Cement,Rural,35.2,Population,Flooring material
+Carpet,Urban,5.7,Population,Flooring material
+Carpet,Rural,1.3,Population,Flooring material
+Other,Urban,0.1,Population,Flooring material
+Other,Rural,0.1,Population,Flooring material
+One,Urban,61.2,Household,Rooms for sleeping
+One,Rural,32,Household,Rooms for sleeping
+Two,Urban,25.1,Household,Rooms for sleeping
+Two,Rural,38.4,Household,Rooms for sleeping
+Three or more,Urban,13.6,Household,Rooms for sleeping
+Three or more,Rural,29.6,Household,Rooms for sleeping
+One,Urban,45,Population,Rooms for sleeping
+One,Rural,21.8,Population,Rooms for sleeping
+Two,Urban,32.9,Population,Rooms for sleeping
+Two,Rural,40.6,Population,Rooms for sleeping
+Three or more,Urban,22.1,Population,Rooms for sleeping
+Three or more,Rural,37.6,Population,Rooms for sleeping
+Daily,Urban,5.1,Household,Smoking frequency in home
+Daily,Rural,11.3,Household,Smoking frequency in home
+Weekly,Urban,1.2,Household,Smoking frequency in home
+Weekly,Rural,2,Household,Smoking frequency in home
+Monthly,Urban,0.3,Household,Smoking frequency in home
+Monthly,Rural,0.3,Household,Smoking frequency in home
+Less than once a month,Urban,0.6,Household,Smoking frequency in home
+Less than once a month,Rural,0.6,Household,Smoking frequency in home
+Never,Urban,92.8,Household,Smoking frequency in home
+Never,Rural,85.9,Household,Smoking frequency in home
+Daily,Urban,4.7,Population,Smoking frequency in home
+Daily,Rural,11,Population,Smoking frequency in home
+Weekly,Urban,1.1,Population,Smoking frequency in home
+Weekly,Rural,2,Population,Smoking frequency in home
+Monthly,Urban,0.2,Population,Smoking frequency in home
+Monthly,Rural,0.3,Population,Smoking frequency in home
+Less than once a month,Urban,0.5,Population,Smoking frequency in home
+Less than once a month,Rural,0.6,Population,Smoking frequency in home
+Never,Urban,93.4,Population,Smoking frequency in home
+Never,Rural,86.1,Population,Smoking frequency in home

@@ -1,0 +1,95 @@
+County,indicator,indicator1,values
+Kisii,Child Vaccinations,CountyFullyVaccinated12,81.6
+Kisii,Child Vaccinations,CountyFullyVaccinated24,50.9
+Nyamira,Child Vaccinations,CountyFullyVaccinated12,(55.8)
+Nyamira,Child Vaccinations,CountyFullyVaccinated24,(48.5)
+Nairobi,Child Vaccinations,CountyFullyVaccinated12,45.8
+Nairobi,Child Vaccinations,CountyFullyVaccinated24,30.5
+Mombasa,Child Vaccinations,CountyFullyVaccinated12,70.4
+Mombasa,Child Vaccinations,CountyFullyVaccinated24,24.8
+Kwale,Child Vaccinations,CountyFullyVaccinated12,50.1
+Kwale,Child Vaccinations,CountyFullyVaccinated24,39.3
+Kilifi,Child Vaccinations,CountyFullyVaccinated12,62.5
+Kilifi,Child Vaccinations,CountyFullyVaccinated24,47.6
+Tana River,Child Vaccinations,CountyFullyVaccinated12,39.2
+Tana River,Child Vaccinations,CountyFullyVaccinated24,28.1
+Lamu,Child Vaccinations,CountyFullyVaccinated12,54.2
+Lamu,Child Vaccinations,CountyFullyVaccinated24,36.6
+Taita Taveta,Child Vaccinations,CountyFullyVaccinated12,65.4
+Taita Taveta,Child Vaccinations,CountyFullyVaccinated24,(44.3)
+Garissa,Child Vaccinations,CountyFullyVaccinated12,16.9
+Garissa,Child Vaccinations,CountyFullyVaccinated24,3.6
+Wajir,Child Vaccinations,CountyFullyVaccinated12,19.2
+Wajir,Child Vaccinations,CountyFullyVaccinated24,5.5
+Mandera,Child Vaccinations,CountyFullyVaccinated12,5.6
+Mandera,Child Vaccinations,CountyFullyVaccinated24,3.5
+Marsabit,Child Vaccinations,CountyFullyVaccinated12,19.3
+Marsabit,Child Vaccinations,CountyFullyVaccinated24,8.4
+Isiolo,Child Vaccinations,CountyFullyVaccinated12,37.1
+Isiolo,Child Vaccinations,CountyFullyVaccinated24,25.3
+Meru,Child Vaccinations,CountyFullyVaccinated12,57.9
+Meru,Child Vaccinations,CountyFullyVaccinated24,49.1
+Tharaka Nithi,Child Vaccinations,CountyFullyVaccinated12,82.1
+Tharaka Nithi,Child Vaccinations,CountyFullyVaccinated24,48.5
+Embu,Child Vaccinations,CountyFullyVaccinated12,(75.6)
+Embu,Child Vaccinations,CountyFullyVaccinated24,52.6
+Kitui,Child Vaccinations,CountyFullyVaccinated12,49.4
+Kitui,Child Vaccinations,CountyFullyVaccinated24,24.7
+Machakos,Child Vaccinations,CountyFullyVaccinated12,(70.8)
+Machakos,Child Vaccinations,CountyFullyVaccinated24,60.9
+Makueni,Child Vaccinations,CountyFullyVaccinated12,65.5
+Makueni,Child Vaccinations,CountyFullyVaccinated24,48.4
+Nyandarua,Child Vaccinations,CountyFullyVaccinated12,70.6
+Nyandarua,Child Vaccinations,CountyFullyVaccinated24,(63.5)
+Nyeri,Child Vaccinations,CountyFullyVaccinated12,(56.6)
+Nyeri,Child Vaccinations,CountyFullyVaccinated24,45.1
+Kirinyaga,Child Vaccinations,CountyFullyVaccinated12,70.9
+Kirinyaga,Child Vaccinations,CountyFullyVaccinated24,(43.8)
+Muranga,Child Vaccinations,CountyFullyVaccinated12,(66.2)
+Muranga,Child Vaccinations,CountyFullyVaccinated24,(62.5)
+Kiambu,Child Vaccinations,CountyFullyVaccinated12,65.5
+Kiambu,Child Vaccinations,CountyFullyVaccinated24,39.6
+Turkana,Child Vaccinations,CountyFullyVaccinated12,29.3
+Turkana,Child Vaccinations,CountyFullyVaccinated24,25.3
+West Pokot,Child Vaccinations,CountyFullyVaccinated12,10.7
+West Pokot,Child Vaccinations,CountyFullyVaccinated24,5.2
+Samburu,Child Vaccinations,CountyFullyVaccinated12,27.8
+Samburu,Child Vaccinations,CountyFullyVaccinated24,14.9
+Trans Nzoia,Child Vaccinations,CountyFullyVaccinated12,70.6
+Trans Nzoia,Child Vaccinations,CountyFullyVaccinated24,64.8
+Uasin Gishu,Child Vaccinations,CountyFullyVaccinated12,49.3
+Uasin Gishu,Child Vaccinations,CountyFullyVaccinated24,37.5
+Elgeyo Marakwet,Child Vaccinations,CountyFullyVaccinated12,43.2
+Elgeyo Marakwet,Child Vaccinations,CountyFullyVaccinated24,30.2
+Nandi,Child Vaccinations,CountyFullyVaccinated12,65.0
+Nandi,Child Vaccinations,CountyFullyVaccinated24,51.6
+Baringo,Child Vaccinations,CountyFullyVaccinated12,43.3
+Baringo,Child Vaccinations,CountyFullyVaccinated24,32.4
+Laikipia,Child Vaccinations,CountyFullyVaccinated12,55.5
+Laikipia,Child Vaccinations,CountyFullyVaccinated24,33.2
+Nakuru,Child Vaccinations,CountyFullyVaccinated12,69.2
+Nakuru,Child Vaccinations,CountyFullyVaccinated24,57.6
+Narok,Child Vaccinations,CountyFullyVaccinated12,30.8
+Narok,Child Vaccinations,CountyFullyVaccinated24,16.2
+Kajiado,Child Vaccinations,CountyFullyVaccinated12,43.5
+Kajiado,Child Vaccinations,CountyFullyVaccinated24,27.9
+Kericho,Child Vaccinations,CountyFullyVaccinated12,47.6
+Kericho,Child Vaccinations,CountyFullyVaccinated24,45.6
+Bomet,Child Vaccinations,CountyFullyVaccinated12,63.9
+Bomet,Child Vaccinations,CountyFullyVaccinated24,45.1
+Kakamega,Child Vaccinations,CountyFullyVaccinated12,72.8
+Kakamega,Child Vaccinations,CountyFullyVaccinated24,53.2
+Vihiga,Child Vaccinations,CountyFullyVaccinated12,70.1
+Vihiga,Child Vaccinations,CountyFullyVaccinated24,58.1
+Bungoma,Child Vaccinations,CountyFullyVaccinated12,65.9
+Bungoma,Child Vaccinations,CountyFullyVaccinated24,29.0
+Busia,Child Vaccinations,CountyFullyVaccinated12,55.8
+Busia,Child Vaccinations,CountyFullyVaccinated24,60.2
+Siaya,Child Vaccinations,CountyFullyVaccinated12,69.9
+Siaya,Child Vaccinations,CountyFullyVaccinated24,26.6
+Kisumu,Child Vaccinations,CountyFullyVaccinated12,62.6
+Kisumu,Child Vaccinations,CountyFullyVaccinated24,30.1
+Homa Bay,Child Vaccinations,CountyFullyVaccinated12,52.6
+Homa Bay,Child Vaccinations,CountyFullyVaccinated24,28.5
+Migori,Child Vaccinations,CountyFullyVaccinated12,71.4
+Migori,Child Vaccinations,CountyFullyVaccinated24,37.9

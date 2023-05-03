@@ -1,0 +1,101 @@
+Background characteristics,Category,Gender,variable,value
+Age,15-19,Female,Ever,7.2
+Age,20-24,Female,Ever,11.3
+Age,25-29,Female,Ever,13.1
+Age,30-39,Female,Ever,15.2
+Age,40-49,Female,Ever,17.5
+Residence,Urban,Female,Ever,12.8
+Residence,Rural,Female,Ever,13.1
+Marital Status,Never married,Female,Ever,8.4
+Marital Status,Never ever had intimate partner,Female,Ever,3
+Marital Status,Ever had intimate partner,Female,Ever,12.3
+Marital Status,Ever married,Female,Ever,15.2
+Marital Status,Married/living together,Female,Ever,12.9
+Marital Status,Divorced/separated/widowed,Female,Ever,26.5
+Employment,Employed for cash,Female,Ever,16.4
+Employment,Employed not for cash,Female,Ever,14
+Employment,Not employed,Female,Ever,8.6
+Education,No education,Female,Ever,8
+Education,Primary,Female,Ever,16.2
+Education,Secondary,Female,Ever,11.7
+Education,More than secondary,Female,Ever,11.2
+Wealth quintile,Lowest,Female,Ever,12.7
+Wealth quintile,Second,Female,Ever,14.8
+Wealth quintile,Middle,Female,Ever,12.9
+Wealth quintile,Fourth,Female,Ever,13.7
+Wealth quintile,Highest,Female,Ever,11.3
+Age,15-19,Male,Ever,4.8
+Age,20-24,Male,Ever,8.1
+Age,25-29,Male,Ever,7.6
+Age,30-39,Male,Ever,8
+Age,40-49,Male,Ever,6.7
+Residence,Urban,Male,Ever,8.5
+Residence,Rural,Male,Ever,6.1
+Marital Status,Never married,Male,Ever,5.2
+Marital Status,Never ever had intimate partner,Male,Ever,1.7
+Marital Status,Ever had intimate partner,Male,Ever,8.4
+Marital Status,Ever married,Male,Ever,8.5
+Marital Status,Married/living together,Male,Ever,6.9
+Marital Status,Divorced/separated/widowed,Male,Ever,21.1
+Employment,Employed for cash,Male,Ever,8.2
+Employment,Employed not for cash,Male,Ever,3
+Employment,Not employed,Male,Ever,3.9
+Education,No education,Male,Ever,5.3
+Education,Primary,Male,Ever,7
+Education,Secondary,Male,Ever,7.3
+Education,More than secondary,Male,Ever,6.6
+Wealth quintile,Lowest,Male,Ever,5.6
+Wealth quintile,Second,Male,Ever,7.4
+Wealth quintile,Middle,Male,Ever,7.2
+Wealth quintile,Fourth,Male,Ever,7.2
+Wealth quintile,Highest,Male,Ever,7.1
+Age,15-19,Female,In the last 12 months,3.3
+Age,20-24,Female,In the last 12 months,6.3
+Age,25-29,Female,In the last 12 months,7.6
+Age,30-39,Female,In the last 12 months,7.9
+Age,40-49,Female,In the last 12 months,7
+Residence,Urban,Female,In the last 12 months,5.7
+Residence,Rural,Female,In the last 12 months,7.1
+Marital Status,Never married,Female,In the last 12 months,3.3
+Marital Status,Never ever had intimate partner,Female,In the last 12 months,0.5
+Marital Status,Ever had intimate partner,Female,In the last 12 months,5.3
+Marital Status,Ever married,Female,In the last 12 months,8.1
+Marital Status,Married/living together,Female,In the last 12 months,8.1
+Marital Status,Divorced/separated/widowed,Female,In the last 12 months,8.3
+Employment,Employed for cash,Female,In the last 12 months,7.8
+Employment,Employed not for cash,Female,In the last 12 months,8.2
+Employment,Not employed,Female,In the last 12 months,4.6
+Education,No education,Female,In the last 12 months,4.8
+Education,Primary,Female,In the last 12 months,8.3
+Education,Secondary,Female,In the last 12 months,6.3
+Education,More than secondary,Female,In the last 12 months,4.3
+Wealth quintile,Lowest,Female,In the last 12 months,7.2
+Wealth quintile,Second,Female,In the last 12 months,8.1
+Wealth quintile,Middle,Female,In the last 12 months,7.2
+Wealth quintile,Fourth,Female,In the last 12 months,6.2
+Wealth quintile,Highest,Female,In the last 12 months,4.8
+Age,15-19,Male,In the last 12 months,2.9
+Age,20-24,Male,In the last 12 months,5.5
+Age,25-29,Male,In the last 12 months,5.1
+Age,30-39,Male,In the last 12 months,3.7
+Age,40-49,Male,In the last 12 months,2.9
+Residence,Urban,Male,In the last 12 months,5.1
+Residence,Rural,Male,In the last 12 months,3.2
+Marital Status,Never married,Male,In the last 12 months,3.1
+Marital Status,Never ever had intimate partner,Male,In the last 12 months,0.2
+Marital Status,Ever had intimate partner,Male,In the last 12 months,5.7
+Marital Status,Ever married,Male,In the last 12 months,4.6
+Marital Status,Married/living together,Male,In the last 12 months,3.8
+Marital Status,Divorced/separated/widowed,Male,In the last 12 months,10.9
+Employment,Employed for cash,Male,In the last 12 months,4.6
+Employment,Employed not for cash,Male,In the last 12 months,2.1
+Employment,Not employed,Male,In the last 12 months,1.8
+Education,No education,Male,In the last 12 months,2.5
+Education,Primary,Male,In the last 12 months,4.2
+Education,Secondary,Male,In the last 12 months,4.1
+Education,More than secondary,Male,In the last 12 months,3
+Wealth quintile,Lowest,Male,In the last 12 months,3.8
+Wealth quintile,Second,Male,In the last 12 months,3.8
+Wealth quintile,Middle,Male,In the last 12 months,3.9
+Wealth quintile,Fourth,Male,In the last 12 months,4.6
+Wealth quintile,Highest,Male,In the last 12 months,3.3

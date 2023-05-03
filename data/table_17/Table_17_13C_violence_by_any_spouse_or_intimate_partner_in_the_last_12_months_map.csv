@@ -1,0 +1,941 @@
+County,Gender,variable,value
+Mombasa,Female,Psychological/emotional violence,19.1
+Kwale,Female,Psychological/emotional violence,13.5
+Kilifi,Female,Psychological/emotional violence,11.5
+Tana River,Female,Psychological/emotional violence,34.4
+Lamu,Female,Psychological/emotional violence,29.3
+Taita Taveta,Female,Psychological/emotional violence,14.3
+Garissa,Female,Psychological/emotional violence,9.2
+Wajir,Female,Psychological/emotional violence,6.1
+Mandera,Female,Psychological/emotional violence,8.3
+Marsabit,Female,Psychological/emotional violence,14.2
+Isiolo,Female,Psychological/emotional violence,22.1
+Meru,Female,Psychological/emotional violence,29.9
+Tharaka Nithi,Female,Psychological/emotional violence,26.6
+Embu,Female,Psychological/emotional violence,37.5
+Kitui,Female,Psychological/emotional violence,11.3
+Machakos,Female,Psychological/emotional violence,17.6
+Makueni,Female,Psychological/emotional violence,14.8
+Nyandarua,Female,Psychological/emotional violence,14.4
+Nyeri,Female,Psychological/emotional violence,24.4
+Kirinyaga,Female,Psychological/emotional violence,31.1
+Muranga,Female,Psychological/emotional violence,40.6
+Kiambu,Female,Psychological/emotional violence,26.1
+Turkana,Female,Psychological/emotional violence,15.7
+West Pokot,Female,Psychological/emotional violence,15.3
+Samburu,Female,Psychological/emotional violence,31.4
+Trans Nzoia,Female,Psychological/emotional violence,23.4
+Uasin Gishu,Female,Psychological/emotional violence,26
+Elgeyo Marakwet,Female,Psychological/emotional violence,21.6
+Nandi,Female,Psychological/emotional violence,14.1
+Baringo,Female,Psychological/emotional violence,19.9
+Laikipia,Female,Psychological/emotional violence,24.2
+Nakuru,Female,Psychological/emotional violence,14.7
+Narok,Female,Psychological/emotional violence,19.6
+Kajiado,Female,Psychological/emotional violence,18.8
+Kericho,Female,Psychological/emotional violence,16.9
+Bomet,Female,Psychological/emotional violence,13.7
+Kakamega,Female,Psychological/emotional violence,24.3
+Vihiga,Female,Psychological/emotional violence,26.3
+Bungoma,Female,Psychological/emotional violence,36
+Busia,Female,Psychological/emotional violence,32.6
+Siaya,Female,Psychological/emotional violence,8.6
+Kisumu,Female,Psychological/emotional violence,22.4
+Homa Bay,Female,Psychological/emotional violence,30.7
+Migori,Female,Psychological/emotional violence,38.7
+Kisii,Female,Psychological/emotional violence,37.3
+Nyamira,Female,Psychological/emotional violence,21.2
+Nairobi,Female,Psychological/emotional violence,17.7
+Mombasa,Male,Psychological/emotional violence,30.5
+Kwale,Male,Psychological/emotional violence,20.4
+Kilifi,Male,Psychological/emotional violence,14.8
+Tana River,Male,Psychological/emotional violence,2.4
+Lamu,Male,Psychological/emotional violence,1.9
+Taita Taveta,Male,Psychological/emotional violence,16.5
+Garissa,Male,Psychological/emotional violence,0
+Wajir,Male,Psychological/emotional violence,4.7
+Mandera,Male,Psychological/emotional violence,0
+Marsabit,Male,Psychological/emotional violence,23.4
+Isiolo,Male,Psychological/emotional violence,14.4
+Meru,Male,Psychological/emotional violence,16.5
+Tharaka Nithi,Male,Psychological/emotional violence,37.7
+Embu,Male,Psychological/emotional violence,8.3
+Kitui,Male,Psychological/emotional violence,1.7
+Machakos,Male,Psychological/emotional violence,6.8
+Makueni,Male,Psychological/emotional violence,9.3
+Nyandarua,Male,Psychological/emotional violence,13.9
+Nyeri,Male,Psychological/emotional violence,8.5
+Kirinyaga,Male,Psychological/emotional violence,0
+Muranga,Male,Psychological/emotional violence,40.9
+Kiambu,Male,Psychological/emotional violence,29.7
+Turkana,Male,Psychological/emotional violence,16.4
+West Pokot,Male,Psychological/emotional violence,20.1
+Samburu,Male,Psychological/emotional violence,19
+Trans Nzoia,Male,Psychological/emotional violence,6.9
+Uasin Gishu,Male,Psychological/emotional violence,15.9
+Elgeyo Marakwet,Male,Psychological/emotional violence,22.8
+Nandi,Male,Psychological/emotional violence,25
+Baringo,Male,Psychological/emotional violence,8.6
+Laikipia,Male,Psychological/emotional violence,33.9
+Nakuru,Male,Psychological/emotional violence,13.8
+Narok,Male,Psychological/emotional violence,13.6
+Kajiado,Male,Psychological/emotional violence,10.6
+Kericho,Male,Psychological/emotional violence,13.2
+Bomet,Male,Psychological/emotional violence,13.2
+Kakamega,Male,Psychological/emotional violence,6.5
+Vihiga,Male,Psychological/emotional violence,25.5
+Bungoma,Male,Psychological/emotional violence,40.2
+Busia,Male,Psychological/emotional violence,28.4
+Siaya,Male,Psychological/emotional violence,54.7
+Kisumu,Male,Psychological/emotional violence,10.1
+Homa Bay,Male,Psychological/emotional violence,25
+Migori,Male,Psychological/emotional violence,12.2
+Kisii,Male,Psychological/emotional violence,10.9
+Nyamira,Male,Psychological/emotional violence,16.1
+Nairobi,Male,Psychological/emotional violence,31.3
+Mombasa,Female,Physical violence,12.1
+Kwale,Female,Physical violence,13.3
+Kilifi,Female,Physical violence,8.7
+Tana River,Female,Physical violence,22.3
+Lamu,Female,Physical violence,12.4
+Taita Taveta,Female,Physical violence,6.8
+Garissa,Female,Physical violence,14.6
+Wajir,Female,Physical violence,5.8
+Mandera,Female,Physical violence,2.8
+Marsabit,Female,Physical violence,16
+Isiolo,Female,Physical violence,27.4
+Meru,Female,Physical violence,15.8
+Tharaka Nithi,Female,Physical violence,15.4
+Embu,Female,Physical violence,31.7
+Kitui,Female,Physical violence,5.5
+Machakos,Female,Physical violence,10
+Makueni,Female,Physical violence,14
+Nyandarua,Female,Physical violence,4.5
+Nyeri,Female,Physical violence,13.9
+Kirinyaga,Female,Physical violence,13.9
+Muranga,Female,Physical violence,19.1
+Kiambu,Female,Physical violence,17.5
+Turkana,Female,Physical violence,18.9
+West Pokot,Female,Physical violence,16.8
+Samburu,Female,Physical violence,28.2
+Trans Nzoia,Female,Physical violence,16.5
+Uasin Gishu,Female,Physical violence,12.1
+Elgeyo Marakwet,Female,Physical violence,16.2
+Nandi,Female,Physical violence,13
+Baringo,Female,Physical violence,20
+Laikipia,Female,Physical violence,11.3
+Nakuru,Female,Physical violence,9.9
+Narok,Female,Physical violence,17.8
+Kajiado,Female,Physical violence,17.2
+Kericho,Female,Physical violence,10.7
+Bomet,Female,Physical violence,11.4
+Kakamega,Female,Physical violence,18.8
+Vihiga,Female,Physical violence,17.3
+Bungoma,Female,Physical violence,24.1
+Busia,Female,Physical violence,22.3
+Siaya,Female,Physical violence,18.5
+Kisumu,Female,Physical violence,28.7
+Homa Bay,Female,Physical violence,24.5
+Migori,Female,Physical violence,28.9
+Kisii,Female,Physical violence,20.8
+Nyamira,Female,Physical violence,12.2
+Nairobi,Female,Physical violence,14.9
+Mombasa,Male,Physical violence,3.1
+Kwale,Male,Physical violence,6.1
+Kilifi,Male,Physical violence,5.9
+Tana River,Male,Physical violence,0
+Lamu,Male,Physical violence,0.6
+Taita Taveta,Male,Physical violence,0
+Garissa,Male,Physical violence,0.8
+Wajir,Male,Physical violence,13.9
+Mandera,Male,Physical violence,0
+Marsabit,Male,Physical violence,1.9
+Isiolo,Male,Physical violence,2.6
+Meru,Male,Physical violence,2
+Tharaka Nithi,Male,Physical violence,17.1
+Embu,Male,Physical violence,0.6
+Kitui,Male,Physical violence,0.8
+Machakos,Male,Physical violence,0.4
+Makueni,Male,Physical violence,1.1
+Nyandarua,Male,Physical violence,3.7
+Nyeri,Male,Physical violence,6.7
+Kirinyaga,Male,Physical violence,0
+Muranga,Male,Physical violence,1.4
+Kiambu,Male,Physical violence,14.8
+Turkana,Male,Physical violence,9.4
+West Pokot,Male,Physical violence,6.5
+Samburu,Male,Physical violence,6.7
+Trans Nzoia,Male,Physical violence,2
+Uasin Gishu,Male,Physical violence,6.1
+Elgeyo Marakwet,Male,Physical violence,5.9
+Nandi,Male,Physical violence,4.1
+Baringo,Male,Physical violence,2.5
+Laikipia,Male,Physical violence,3.2
+Nakuru,Male,Physical violence,3.6
+Narok,Male,Physical violence,2.1
+Kajiado,Male,Physical violence,8.5
+Kericho,Male,Physical violence,0.3
+Bomet,Male,Physical violence,0.9
+Kakamega,Male,Physical violence,4
+Vihiga,Male,Physical violence,7.9
+Bungoma,Male,Physical violence,24.3
+Busia,Male,Physical violence,14.7
+Siaya,Male,Physical violence,2.8
+Kisumu,Male,Physical violence,6.6
+Homa Bay,Male,Physical violence,11.6
+Migori,Male,Physical violence,6.8
+Kisii,Male,Physical violence,0.4
+Nyamira,Male,Physical violence,3.8
+Nairobi,Male,Physical violence,3.8
+Mombasa,Female,Sexual violence,3.5
+Kwale,Female,Sexual violence,4.2
+Kilifi,Female,Sexual violence,8.4
+Tana River,Female,Sexual violence,1.8
+Lamu,Female,Sexual violence,7.4
+Taita Taveta,Female,Sexual violence,3
+Garissa,Female,Sexual violence,4.7
+Wajir,Female,Sexual violence,1.4
+Mandera,Female,Sexual violence,0.9
+Marsabit,Female,Sexual violence,1.2
+Isiolo,Female,Sexual violence,6.7
+Meru,Female,Sexual violence,9.2
+Tharaka Nithi,Female,Sexual violence,7.7
+Embu,Female,Sexual violence,15.5
+Kitui,Female,Sexual violence,0.3
+Machakos,Female,Sexual violence,3.5
+Makueni,Female,Sexual violence,3.9
+Nyandarua,Female,Sexual violence,7.7
+Nyeri,Female,Sexual violence,6
+Kirinyaga,Female,Sexual violence,3.6
+Muranga,Female,Sexual violence,14.2
+Kiambu,Female,Sexual violence,10.7
+Turkana,Female,Sexual violence,8
+West Pokot,Female,Sexual violence,7.2
+Samburu,Female,Sexual violence,4.4
+Trans Nzoia,Female,Sexual violence,5.6
+Uasin Gishu,Female,Sexual violence,3.4
+Elgeyo Marakwet,Female,Sexual violence,4.3
+Nandi,Female,Sexual violence,3
+Baringo,Female,Sexual violence,6.8
+Laikipia,Female,Sexual violence,1.8
+Nakuru,Female,Sexual violence,3.7
+Narok,Female,Sexual violence,9.4
+Kajiado,Female,Sexual violence,8.5
+Kericho,Female,Sexual violence,1.7
+Bomet,Female,Sexual violence,9.3
+Kakamega,Female,Sexual violence,9.3
+Vihiga,Female,Sexual violence,6.8
+Bungoma,Female,Sexual violence,15.6
+Busia,Female,Sexual violence,10.3
+Siaya,Female,Sexual violence,5.5
+Kisumu,Female,Sexual violence,7.7
+Homa Bay,Female,Sexual violence,11.7
+Migori,Female,Sexual violence,8.2
+Kisii,Female,Sexual violence,11.6
+Nyamira,Female,Sexual violence,7.3
+Nairobi,Female,Sexual violence,5.7
+Mombasa,Male,Sexual violence,9.5
+Kwale,Male,Sexual violence,3.8
+Kilifi,Male,Sexual violence,3.7
+Tana River,Male,Sexual violence,0
+Lamu,Male,Sexual violence,0
+Taita Taveta,Male,Sexual violence,0.9
+Garissa,Male,Sexual violence,0
+Wajir,Male,Sexual violence,4.3
+Mandera,Male,Sexual violence,0
+Marsabit,Male,Sexual violence,0
+Isiolo,Male,Sexual violence,13.5
+Meru,Male,Sexual violence,3.7
+Tharaka Nithi,Male,Sexual violence,6.8
+Embu,Male,Sexual violence,2.1
+Kitui,Male,Sexual violence,3.4
+Machakos,Male,Sexual violence,0.6
+Makueni,Male,Sexual violence,2.4
+Nyandarua,Male,Sexual violence,5.3
+Nyeri,Male,Sexual violence,0
+Kirinyaga,Male,Sexual violence,0
+Muranga,Male,Sexual violence,11.3
+Kiambu,Male,Sexual violence,14.9
+Turkana,Male,Sexual violence,3.9
+West Pokot,Male,Sexual violence,4.5
+Samburu,Male,Sexual violence,9
+Trans Nzoia,Male,Sexual violence,0
+Uasin Gishu,Male,Sexual violence,4.5
+Elgeyo Marakwet,Male,Sexual violence,2.9
+Nandi,Male,Sexual violence,5.2
+Baringo,Male,Sexual violence,5.2
+Laikipia,Male,Sexual violence,10.9
+Nakuru,Male,Sexual violence,3.8
+Narok,Male,Sexual violence,0
+Kajiado,Male,Sexual violence,0.4
+Kericho,Male,Sexual violence,0
+Bomet,Male,Sexual violence,3.8
+Kakamega,Male,Sexual violence,0
+Vihiga,Male,Sexual violence,2.2
+Bungoma,Male,Sexual violence,15.9
+Busia,Male,Sexual violence,10.8
+Siaya,Male,Sexual violence,0.4
+Kisumu,Male,Sexual violence,0.9
+Homa Bay,Male,Sexual violence,5
+Migori,Male,Sexual violence,11.1
+Kisii,Male,Sexual violence,0
+Nyamira,Male,Sexual violence,2.7
+Nairobi,Male,Sexual violence,3.1
+Mombasa,Female,Economic violence,7.6
+Kwale,Female,Economic violence,3.3
+Kilifi,Female,Economic violence,5.5
+Tana River,Female,Economic violence,4.5
+Lamu,Female,Economic violence,3.7
+Taita Taveta,Female,Economic violence,9.5
+Garissa,Female,Economic violence,6.2
+Wajir,Female,Economic violence,3.8
+Mandera,Female,Economic violence,1.9
+Marsabit,Female,Economic violence,3.5
+Isiolo,Female,Economic violence,7
+Meru,Female,Economic violence,11
+Tharaka Nithi,Female,Economic violence,8.6
+Embu,Female,Economic violence,10.9
+Kitui,Female,Economic violence,1.9
+Machakos,Female,Economic violence,4
+Makueni,Female,Economic violence,7.4
+Nyandarua,Female,Economic violence,4.1
+Nyeri,Female,Economic violence,9.5
+Kirinyaga,Female,Economic violence,3.5
+Muranga,Female,Economic violence,9.9
+Kiambu,Female,Economic violence,8.7
+Turkana,Female,Economic violence,6.4
+West Pokot,Female,Economic violence,1.2
+Samburu,Female,Economic violence,5.3
+Trans Nzoia,Female,Economic violence,10.2
+Uasin Gishu,Female,Economic violence,13.7
+Elgeyo Marakwet,Female,Economic violence,7.5
+Nandi,Female,Economic violence,6
+Baringo,Female,Economic violence,12.7
+Laikipia,Female,Economic violence,9.8
+Nakuru,Female,Economic violence,6.7
+Narok,Female,Economic violence,6.3
+Kajiado,Female,Economic violence,12.1
+Kericho,Female,Economic violence,2.8
+Bomet,Female,Economic violence,7.2
+Kakamega,Female,Economic violence,11.2
+Vihiga,Female,Economic violence,7.3
+Bungoma,Female,Economic violence,14
+Busia,Female,Economic violence,8.8
+Siaya,Female,Economic violence,1
+Kisumu,Female,Economic violence,3.8
+Homa Bay,Female,Economic violence,7.5
+Migori,Female,Economic violence,10.5
+Kisii,Female,Economic violence,9
+Nyamira,Female,Economic violence,3.4
+Nairobi,Female,Economic violence,5.7
+Mombasa,Male,Economic violence,5.7
+Kwale,Male,Economic violence,2.6
+Kilifi,Male,Economic violence,7.5
+Tana River,Male,Economic violence,5.5
+Lamu,Male,Economic violence,1.9
+Taita Taveta,Male,Economic violence,10.4
+Garissa,Male,Economic violence,0.8
+Wajir,Male,Economic violence,2.7
+Mandera,Male,Economic violence,2.5
+Marsabit,Male,Economic violence,0
+Isiolo,Male,Economic violence,1.5
+Meru,Male,Economic violence,14.4
+Tharaka Nithi,Male,Economic violence,9.2
+Embu,Male,Economic violence,6.5
+Kitui,Male,Economic violence,1.6
+Machakos,Male,Economic violence,9.1
+Makueni,Male,Economic violence,6.5
+Nyandarua,Male,Economic violence,2.5
+Nyeri,Male,Economic violence,9.2
+Kirinyaga,Male,Economic violence,1.2
+Muranga,Male,Economic violence,11
+Kiambu,Male,Economic violence,8.9
+Turkana,Male,Economic violence,18.5
+West Pokot,Male,Economic violence,2.8
+Samburu,Male,Economic violence,5
+Trans Nzoia,Male,Economic violence,8.1
+Uasin Gishu,Male,Economic violence,14.2
+Elgeyo Marakwet,Male,Economic violence,5.7
+Nandi,Male,Economic violence,9.5
+Baringo,Male,Economic violence,7.1
+Laikipia,Male,Economic violence,4.4
+Nakuru,Male,Economic violence,13
+Narok,Male,Economic violence,6.1
+Kajiado,Male,Economic violence,10.5
+Kericho,Male,Economic violence,1.1
+Bomet,Male,Economic violence,11.6
+Kakamega,Male,Economic violence,6.5
+Vihiga,Male,Economic violence,6.7
+Bungoma,Male,Economic violence,12.6
+Busia,Male,Economic violence,2.2
+Siaya,Male,Economic violence,0
+Kisumu,Male,Economic violence,5.2
+Homa Bay,Male,Economic violence,7
+Migori,Male,Economic violence,10.5
+Kisii,Male,Economic violence,5.7
+Nyamira,Male,Economic violence,2.7
+Nairobi,Male,Economic violence,6.2
+Mombasa,Female,Physical and sexual,1.8
+Kwale,Female,Physical and sexual,2.7
+Kilifi,Female,Physical and sexual,2.7
+Tana River,Female,Physical and sexual,1.7
+Lamu,Female,Physical and sexual,3.4
+Taita Taveta,Female,Physical and sexual,1.6
+Garissa,Female,Physical and sexual,4.6
+Wajir,Female,Physical and sexual,0.6
+Mandera,Female,Physical and sexual,0.3
+Marsabit,Female,Physical and sexual,0.6
+Isiolo,Female,Physical and sexual,5.4
+Meru,Female,Physical and sexual,5.9
+Tharaka Nithi,Female,Physical and sexual,4
+Embu,Female,Physical and sexual,11.8
+Kitui,Female,Physical and sexual,0.2
+Machakos,Female,Physical and sexual,2
+Makueni,Female,Physical and sexual,2.7
+Nyandarua,Female,Physical and sexual,1
+Nyeri,Female,Physical and sexual,2.9
+Kirinyaga,Female,Physical and sexual,2.4
+Muranga,Female,Physical and sexual,7.8
+Kiambu,Female,Physical and sexual,6.7
+Turkana,Female,Physical and sexual,6.1
+West Pokot,Female,Physical and sexual,2.9
+Samburu,Female,Physical and sexual,4
+Trans Nzoia,Female,Physical and sexual,3.2
+Uasin Gishu,Female,Physical and sexual,1.8
+Elgeyo Marakwet,Female,Physical and sexual,2.7
+Nandi,Female,Physical and sexual,1.7
+Baringo,Female,Physical and sexual,4.3
+Laikipia,Female,Physical and sexual,0.9
+Nakuru,Female,Physical and sexual,2.5
+Narok,Female,Physical and sexual,6.1
+Kajiado,Female,Physical and sexual,5.8
+Kericho,Female,Physical and sexual,1.1
+Bomet,Female,Physical and sexual,5.7
+Kakamega,Female,Physical and sexual,4.4
+Vihiga,Female,Physical and sexual,5.1
+Bungoma,Female,Physical and sexual,8.1
+Busia,Female,Physical and sexual,6.4
+Siaya,Female,Physical and sexual,4.1
+Kisumu,Female,Physical and sexual,6
+Homa Bay,Female,Physical and sexual,7.6
+Migori,Female,Physical and sexual,5.7
+Kisii,Female,Physical and sexual,7.4
+Nyamira,Female,Physical and sexual,2.9
+Nairobi,Female,Physical and sexual,3.5
+Mombasa,Male,Physical and sexual,2.3
+Kwale,Male,Physical and sexual,0.3
+Kilifi,Male,Physical and sexual,0
+Tana River,Male,Physical and sexual,0
+Lamu,Male,Physical and sexual,0
+Taita Taveta,Male,Physical and sexual,0
+Garissa,Male,Physical and sexual,0
+Wajir,Male,Physical and sexual,4.3
+Mandera,Male,Physical and sexual,0
+Marsabit,Male,Physical and sexual,0
+Isiolo,Male,Physical and sexual,1.1
+Meru,Male,Physical and sexual,0
+Tharaka Nithi,Male,Physical and sexual,0
+Embu,Male,Physical and sexual,0.3
+Kitui,Male,Physical and sexual,0.8
+Machakos,Male,Physical and sexual,0
+Makueni,Male,Physical and sexual,0
+Nyandarua,Male,Physical and sexual,1.1
+Nyeri,Male,Physical and sexual,0
+Kirinyaga,Male,Physical and sexual,0
+Muranga,Male,Physical and sexual,0.5
+Kiambu,Male,Physical and sexual,9.1
+Turkana,Male,Physical and sexual,1.3
+West Pokot,Male,Physical and sexual,0
+Samburu,Male,Physical and sexual,1.7
+Trans Nzoia,Male,Physical and sexual,0
+Uasin Gishu,Male,Physical and sexual,2.5
+Elgeyo Marakwet,Male,Physical and sexual,0.8
+Nandi,Male,Physical and sexual,1.2
+Baringo,Male,Physical and sexual,2
+Laikipia,Male,Physical and sexual,0
+Nakuru,Male,Physical and sexual,1.2
+Narok,Male,Physical and sexual,0
+Kajiado,Male,Physical and sexual,0
+Kericho,Male,Physical and sexual,0
+Bomet,Male,Physical and sexual,0.8
+Kakamega,Male,Physical and sexual,0
+Vihiga,Male,Physical and sexual,0
+Bungoma,Male,Physical and sexual,9.7
+Busia,Male,Physical and sexual,7.2
+Siaya,Male,Physical and sexual,0.4
+Kisumu,Male,Physical and sexual,0.9
+Homa Bay,Male,Physical and sexual,1.1
+Migori,Male,Physical and sexual,0
+Kisii,Male,Physical and sexual,0
+Nyamira,Male,Physical and sexual,0.7
+Nairobi,Male,Physical and sexual,1.1
+Mombasa,Female,Physical and sexual and psychological/emotional,1.8
+Kwale,Female,Physical and sexual and psychological/emotional,1.7
+Kilifi,Female,Physical and sexual and psychological/emotional,2.4
+Tana River,Female,Physical and sexual and psychological/emotional,1.3
+Lamu,Female,Physical and sexual and psychological/emotional,3.1
+Taita Taveta,Female,Physical and sexual and psychological/emotional,1.3
+Garissa,Female,Physical and sexual and psychological/emotional,2.7
+Wajir,Female,Physical and sexual and psychological/emotional,0.6
+Mandera,Female,Physical and sexual and psychological/emotional,0.3
+Marsabit,Female,Physical and sexual and psychological/emotional,0.2
+Isiolo,Female,Physical and sexual and psychological/emotional,3.5
+Meru,Female,Physical and sexual and psychological/emotional,5.6
+Tharaka Nithi,Female,Physical and sexual and psychological/emotional,3.7
+Embu,Female,Physical and sexual and psychological/emotional,11.6
+Kitui,Female,Physical and sexual and psychological/emotional,0.2
+Machakos,Female,Physical and sexual and psychological/emotional,0.3
+Makueni,Female,Physical and sexual and psychological/emotional,2.1
+Nyandarua,Female,Physical and sexual and psychological/emotional,0.7
+Nyeri,Female,Physical and sexual and psychological/emotional,2.1
+Kirinyaga,Female,Physical and sexual and psychological/emotional,2.4
+Muranga,Female,Physical and sexual and psychological/emotional,7.8
+Kiambu,Female,Physical and sexual and psychological/emotional,5.5
+Turkana,Female,Physical and sexual and psychological/emotional,4.8
+West Pokot,Female,Physical and sexual and psychological/emotional,2.1
+Samburu,Female,Physical and sexual and psychological/emotional,3.8
+Trans Nzoia,Female,Physical and sexual and psychological/emotional,2.9
+Uasin Gishu,Female,Physical and sexual and psychological/emotional,1.3
+Elgeyo Marakwet,Female,Physical and sexual and psychological/emotional,2.7
+Nandi,Female,Physical and sexual and psychological/emotional,1.7
+Baringo,Female,Physical and sexual and psychological/emotional,3.5
+Laikipia,Female,Physical and sexual and psychological/emotional,0.9
+Nakuru,Female,Physical and sexual and psychological/emotional,2.1
+Narok,Female,Physical and sexual and psychological/emotional,4.2
+Kajiado,Female,Physical and sexual and psychological/emotional,5.2
+Kericho,Female,Physical and sexual and psychological/emotional,1
+Bomet,Female,Physical and sexual and psychological/emotional,4.3
+Kakamega,Female,Physical and sexual and psychological/emotional,3.9
+Vihiga,Female,Physical and sexual and psychological/emotional,5.1
+Bungoma,Female,Physical and sexual and psychological/emotional,7.7
+Busia,Female,Physical and sexual and psychological/emotional,5.2
+Siaya,Female,Physical and sexual and psychological/emotional,1.8
+Kisumu,Female,Physical and sexual and psychological/emotional,4.9
+Homa Bay,Female,Physical and sexual and psychological/emotional,6
+Migori,Female,Physical and sexual and psychological/emotional,5.5
+Kisii,Female,Physical and sexual and psychological/emotional,7.1
+Nyamira,Female,Physical and sexual and psychological/emotional,2.9
+Nairobi,Female,Physical and sexual and psychological/emotional,3.2
+Mombasa,Male,Physical and sexual and psychological/emotional,2.3
+Kwale,Male,Physical and sexual and psychological/emotional,0.3
+Kilifi,Male,Physical and sexual and psychological/emotional,0
+Tana River,Male,Physical and sexual and psychological/emotional,0
+Lamu,Male,Physical and sexual and psychological/emotional,0
+Taita Taveta,Male,Physical and sexual and psychological/emotional,0
+Garissa,Male,Physical and sexual and psychological/emotional,0
+Wajir,Male,Physical and sexual and psychological/emotional,0
+Mandera,Male,Physical and sexual and psychological/emotional,0
+Marsabit,Male,Physical and sexual and psychological/emotional,0
+Isiolo,Male,Physical and sexual and psychological/emotional,1.1
+Meru,Male,Physical and sexual and psychological/emotional,0
+Tharaka Nithi,Male,Physical and sexual and psychological/emotional,0
+Embu,Male,Physical and sexual and psychological/emotional,0.3
+Kitui,Male,Physical and sexual and psychological/emotional,0
+Machakos,Male,Physical and sexual and psychological/emotional,0
+Makueni,Male,Physical and sexual and psychological/emotional,0
+Nyandarua,Male,Physical and sexual and psychological/emotional,1.1
+Nyeri,Male,Physical and sexual and psychological/emotional,0
+Kirinyaga,Male,Physical and sexual and psychological/emotional,0
+Muranga,Male,Physical and sexual and psychological/emotional,0.5
+Kiambu,Male,Physical and sexual and psychological/emotional,8
+Turkana,Male,Physical and sexual and psychological/emotional,0
+West Pokot,Male,Physical and sexual and psychological/emotional,0
+Samburu,Male,Physical and sexual and psychological/emotional,1.7
+Trans Nzoia,Male,Physical and sexual and psychological/emotional,0
+Uasin Gishu,Male,Physical and sexual and psychological/emotional,0
+Elgeyo Marakwet,Male,Physical and sexual and psychological/emotional,0.8
+Nandi,Male,Physical and sexual and psychological/emotional,1.2
+Baringo,Male,Physical and sexual and psychological/emotional,2
+Laikipia,Male,Physical and sexual and psychological/emotional,0
+Nakuru,Male,Physical and sexual and psychological/emotional,1.2
+Narok,Male,Physical and sexual and psychological/emotional,0
+Kajiado,Male,Physical and sexual and psychological/emotional,0
+Kericho,Male,Physical and sexual and psychological/emotional,0
+Bomet,Male,Physical and sexual and psychological/emotional,0.8
+Kakamega,Male,Physical and sexual and psychological/emotional,0
+Vihiga,Male,Physical and sexual and psychological/emotional,0
+Bungoma,Male,Physical and sexual and psychological/emotional,5.8
+Busia,Male,Physical and sexual and psychological/emotional,5.1
+Siaya,Male,Physical and sexual and psychological/emotional,0.4
+Kisumu,Male,Physical and sexual and psychological/emotional,0
+Homa Bay,Male,Physical and sexual and psychological/emotional,1.1
+Migori,Male,Physical and sexual and psychological/emotional,0
+Kisii,Male,Physical and sexual and psychological/emotional,0
+Nyamira,Male,Physical and sexual and psychological/emotional,0.3
+Nairobi,Male,Physical and sexual and psychological/emotional,1.1
+Mombasa,Female,Physical and sexual and psychological/emotional and economic,1.6
+Kwale,Female,Physical and sexual and psychological/emotional and economic,0.3
+Kilifi,Female,Physical and sexual and psychological/emotional and economic,1.7
+Tana River,Female,Physical and sexual and psychological/emotional and economic,0.3
+Lamu,Female,Physical and sexual and psychological/emotional and economic,0
+Taita Taveta,Female,Physical and sexual and psychological/emotional and economic,1
+Garissa,Female,Physical and sexual and psychological/emotional and economic,2.7
+Wajir,Female,Physical and sexual and psychological/emotional and economic,0.3
+Mandera,Female,Physical and sexual and psychological/emotional and economic,0.3
+Marsabit,Female,Physical and sexual and psychological/emotional and economic,0.2
+Isiolo,Female,Physical and sexual and psychological/emotional and economic,1.1
+Meru,Female,Physical and sexual and psychological/emotional and economic,4.2
+Tharaka Nithi,Female,Physical and sexual and psychological/emotional and economic,3
+Embu,Female,Physical and sexual and psychological/emotional and economic,4.6
+Kitui,Female,Physical and sexual and psychological/emotional and economic,0.2
+Machakos,Female,Physical and sexual and psychological/emotional and economic,0.3
+Makueni,Female,Physical and sexual and psychological/emotional and economic,1.8
+Nyandarua,Female,Physical and sexual and psychological/emotional and economic,0.4
+Nyeri,Female,Physical and sexual and psychological/emotional and economic,1.7
+Kirinyaga,Female,Physical and sexual and psychological/emotional and economic,0.6
+Muranga,Female,Physical and sexual and psychological/emotional and economic,4.2
+Kiambu,Female,Physical and sexual and psychological/emotional and economic,3.2
+Turkana,Female,Physical and sexual and psychological/emotional and economic,2.9
+West Pokot,Female,Physical and sexual and psychological/emotional and economic,0.3
+Samburu,Female,Physical and sexual and psychological/emotional and economic,1.7
+Trans Nzoia,Female,Physical and sexual and psychological/emotional and economic,2.1
+Uasin Gishu,Female,Physical and sexual and psychological/emotional and economic,1.3
+Elgeyo Marakwet,Female,Physical and sexual and psychological/emotional and economic,1.1
+Nandi,Female,Physical and sexual and psychological/emotional and economic,0.4
+Baringo,Female,Physical and sexual and psychological/emotional and economic,3
+Laikipia,Female,Physical and sexual and psychological/emotional and economic,0.3
+Nakuru,Female,Physical and sexual and psychological/emotional and economic,1.3
+Narok,Female,Physical and sexual and psychological/emotional and economic,2
+Kajiado,Female,Physical and sexual and psychological/emotional and economic,2.9
+Kericho,Female,Physical and sexual and psychological/emotional and economic,0.1
+Bomet,Female,Physical and sexual and psychological/emotional and economic,2.7
+Kakamega,Female,Physical and sexual and psychological/emotional and economic,1.8
+Vihiga,Female,Physical and sexual and psychological/emotional and economic,3.8
+Bungoma,Female,Physical and sexual and psychological/emotional and economic,5.4
+Busia,Female,Physical and sexual and psychological/emotional and economic,2
+Siaya,Female,Physical and sexual and psychological/emotional and economic,0.2
+Kisumu,Female,Physical and sexual and psychological/emotional and economic,1
+Homa Bay,Female,Physical and sexual and psychological/emotional and economic,0.6
+Migori,Female,Physical and sexual and psychological/emotional and economic,2.6
+Kisii,Female,Physical and sexual and psychological/emotional and economic,3
+Nyamira,Female,Physical and sexual and psychological/emotional and economic,1
+Nairobi,Female,Physical and sexual and psychological/emotional and economic,1.3
+Mombasa,Male,Physical and sexual and psychological/emotional and economic,0
+Kwale,Male,Physical and sexual and psychological/emotional and economic,0
+Kilifi,Male,Physical and sexual and psychological/emotional and economic,0
+Tana River,Male,Physical and sexual and psychological/emotional and economic,0
+Lamu,Male,Physical and sexual and psychological/emotional and economic,0
+Taita Taveta,Male,Physical and sexual and psychological/emotional and economic,0
+Garissa,Male,Physical and sexual and psychological/emotional and economic,0
+Wajir,Male,Physical and sexual and psychological/emotional and economic,0
+Mandera,Male,Physical and sexual and psychological/emotional and economic,0
+Marsabit,Male,Physical and sexual and psychological/emotional and economic,0
+Isiolo,Male,Physical and sexual and psychological/emotional and economic,0
+Meru,Male,Physical and sexual and psychological/emotional and economic,0
+Tharaka Nithi,Male,Physical and sexual and psychological/emotional and economic,0
+Embu,Male,Physical and sexual and psychological/emotional and economic,0
+Kitui,Male,Physical and sexual and psychological/emotional and economic,0
+Machakos,Male,Physical and sexual and psychological/emotional and economic,0
+Makueni,Male,Physical and sexual and psychological/emotional and economic,0
+Nyandarua,Male,Physical and sexual and psychological/emotional and economic,1.1
+Nyeri,Male,Physical and sexual and psychological/emotional and economic,0
+Kirinyaga,Male,Physical and sexual and psychological/emotional and economic,0
+Muranga,Male,Physical and sexual and psychological/emotional and economic,0
+Kiambu,Male,Physical and sexual and psychological/emotional and economic,0
+Turkana,Male,Physical and sexual and psychological/emotional and economic,0
+West Pokot,Male,Physical and sexual and psychological/emotional and economic,0
+Samburu,Male,Physical and sexual and psychological/emotional and economic,0
+Trans Nzoia,Male,Physical and sexual and psychological/emotional and economic,0
+Uasin Gishu,Male,Physical and sexual and psychological/emotional and economic,0
+Elgeyo Marakwet,Male,Physical and sexual and psychological/emotional and economic,0.8
+Nandi,Male,Physical and sexual and psychological/emotional and economic,1
+Baringo,Male,Physical and sexual and psychological/emotional and economic,0
+Laikipia,Male,Physical and sexual and psychological/emotional and economic,0
+Nakuru,Male,Physical and sexual and psychological/emotional and economic,0
+Narok,Male,Physical and sexual and psychological/emotional and economic,0
+Kajiado,Male,Physical and sexual and psychological/emotional and economic,0
+Kericho,Male,Physical and sexual and psychological/emotional and economic,0
+Bomet,Male,Physical and sexual and psychological/emotional and economic,0
+Kakamega,Male,Physical and sexual and psychological/emotional and economic,0
+Vihiga,Male,Physical and sexual and psychological/emotional and economic,0
+Bungoma,Male,Physical and sexual and psychological/emotional and economic,0.8
+Busia,Male,Physical and sexual and psychological/emotional and economic,0
+Siaya,Male,Physical and sexual and psychological/emotional and economic,0
+Kisumu,Male,Physical and sexual and psychological/emotional and economic,0
+Homa Bay,Male,Physical and sexual and psychological/emotional and economic,0
+Migori,Male,Physical and sexual and psychological/emotional and economic,0
+Kisii,Male,Physical and sexual and psychological/emotional and economic,0
+Nyamira,Male,Physical and sexual and psychological/emotional and economic,0
+Nairobi,Male,Physical and sexual and psychological/emotional and economic,0
+Mombasa,Female,Physical or sexual,13.8
+Kwale,Female,Physical or sexual,14.8
+Kilifi,Female,Physical or sexual,14.4
+Tana River,Female,Physical or sexual,22.4
+Lamu,Female,Physical or sexual,16.3
+Taita Taveta,Female,Physical or sexual,8.1
+Garissa,Female,Physical or sexual,14.8
+Wajir,Female,Physical or sexual,6.5
+Mandera,Female,Physical or sexual,3.4
+Marsabit,Female,Physical or sexual,16.5
+Isiolo,Female,Physical or sexual,28.8
+Meru,Female,Physical or sexual,19
+Tharaka Nithi,Female,Physical or sexual,19.1
+Embu,Female,Physical or sexual,35.4
+Kitui,Female,Physical or sexual,5.7
+Machakos,Female,Physical or sexual,11.5
+Makueni,Female,Physical or sexual,15.2
+Nyandarua,Female,Physical or sexual,11.2
+Nyeri,Female,Physical or sexual,17
+Kirinyaga,Female,Physical or sexual,15.1
+Muranga,Female,Physical or sexual,25.5
+Kiambu,Female,Physical or sexual,21.5
+Turkana,Female,Physical or sexual,20.8
+West Pokot,Female,Physical or sexual,21.1
+Samburu,Female,Physical or sexual,28.6
+Trans Nzoia,Female,Physical or sexual,19
+Uasin Gishu,Female,Physical or sexual,13.6
+Elgeyo Marakwet,Female,Physical or sexual,17.8
+Nandi,Female,Physical or sexual,14.2
+Baringo,Female,Physical or sexual,22.5
+Laikipia,Female,Physical or sexual,12.2
+Nakuru,Female,Physical or sexual,11.1
+Narok,Female,Physical or sexual,21
+Kajiado,Female,Physical or sexual,19.9
+Kericho,Female,Physical or sexual,11.3
+Bomet,Female,Physical or sexual,15
+Kakamega,Female,Physical or sexual,23.7
+Vihiga,Female,Physical or sexual,19
+Bungoma,Female,Physical or sexual,31.6
+Busia,Female,Physical or sexual,26.2
+Siaya,Female,Physical or sexual,19.8
+Kisumu,Female,Physical or sexual,30.4
+Homa Bay,Female,Physical or sexual,28.6
+Migori,Female,Physical or sexual,31.4
+Kisii,Female,Physical or sexual,25
+Nyamira,Female,Physical or sexual,16.5
+Nairobi,Female,Physical or sexual,17.1
+Mombasa,Male,Physical or sexual,10.3
+Kwale,Male,Physical or sexual,9.5
+Kilifi,Male,Physical or sexual,9.7
+Tana River,Male,Physical or sexual,0
+Lamu,Male,Physical or sexual,0.6
+Taita Taveta,Male,Physical or sexual,0.9
+Garissa,Male,Physical or sexual,0.8
+Wajir,Male,Physical or sexual,13.9
+Mandera,Male,Physical or sexual,0
+Marsabit,Male,Physical or sexual,1.9
+Isiolo,Male,Physical or sexual,15
+Meru,Male,Physical or sexual,5.7
+Tharaka Nithi,Male,Physical or sexual,23.9
+Embu,Male,Physical or sexual,2.5
+Kitui,Male,Physical or sexual,3.4
+Machakos,Male,Physical or sexual,1
+Makueni,Male,Physical or sexual,3.5
+Nyandarua,Male,Physical or sexual,8
+Nyeri,Male,Physical or sexual,6.7
+Kirinyaga,Male,Physical or sexual,0
+Muranga,Male,Physical or sexual,12.2
+Kiambu,Male,Physical or sexual,20.5
+Turkana,Male,Physical or sexual,12
+West Pokot,Male,Physical or sexual,11
+Samburu,Male,Physical or sexual,14
+Trans Nzoia,Male,Physical or sexual,2
+Uasin Gishu,Male,Physical or sexual,8.1
+Elgeyo Marakwet,Male,Physical or sexual,7.9
+Nandi,Male,Physical or sexual,8.1
+Baringo,Male,Physical or sexual,5.6
+Laikipia,Male,Physical or sexual,14.1
+Nakuru,Male,Physical or sexual,6.2
+Narok,Male,Physical or sexual,2.1
+Kajiado,Male,Physical or sexual,8.9
+Kericho,Male,Physical or sexual,0.3
+Bomet,Male,Physical or sexual,3.9
+Kakamega,Male,Physical or sexual,4
+Vihiga,Male,Physical or sexual,10.1
+Bungoma,Male,Physical or sexual,30.5
+Busia,Male,Physical or sexual,18.3
+Siaya,Male,Physical or sexual,2.8
+Kisumu,Male,Physical or sexual,6.6
+Homa Bay,Male,Physical or sexual,15.5
+Migori,Male,Physical or sexual,17.9
+Kisii,Male,Physical or sexual,0.4
+Nyamira,Male,Physical or sexual,5.7
+Nairobi,Male,Physical or sexual,5.8
+Mombasa,Female,Physical or sexual or psychological/emotional,21.2
+Kwale,Female,Physical or sexual or psychological/emotional,20
+Kilifi,Female,Physical or sexual or psychological/emotional,19
+Tana River,Female,Physical or sexual or psychological/emotional,41.9
+Lamu,Female,Physical or sexual or psychological/emotional,33.3
+Taita Taveta,Female,Physical or sexual or psychological/emotional,16.5
+Garissa,Female,Physical or sexual or psychological/emotional,16.6
+Wajir,Female,Physical or sexual or psychological/emotional,8.5
+Mandera,Female,Physical or sexual or psychological/emotional,10.2
+Marsabit,Female,Physical or sexual or psychological/emotional,19.4
+Isiolo,Female,Physical or sexual or psychological/emotional,35
+Meru,Female,Physical or sexual or psychological/emotional,33.5
+Tharaka Nithi,Female,Physical or sexual or psychological/emotional,32.6
+Embu,Female,Physical or sexual or psychological/emotional,47.6
+Kitui,Female,Physical or sexual or psychological/emotional,13.2
+Machakos,Female,Physical or sexual or psychological/emotional,21.3
+Makueni,Female,Physical or sexual or psychological/emotional,22.3
+Nyandarua,Female,Physical or sexual or psychological/emotional,17
+Nyeri,Female,Physical or sexual or psychological/emotional,27.6
+Kirinyaga,Female,Physical or sexual or psychological/emotional,34.7
+Muranga,Female,Physical or sexual or psychological/emotional,43.2
+Kiambu,Female,Physical or sexual or psychological/emotional,34.3
+Turkana,Female,Physical or sexual or psychological/emotional,23.4
+West Pokot,Female,Physical or sexual or psychological/emotional,25.4
+Samburu,Female,Physical or sexual or psychological/emotional,40.1
+Trans Nzoia,Female,Physical or sexual or psychological/emotional,27.1
+Uasin Gishu,Female,Physical or sexual or psychological/emotional,28.6
+Elgeyo Marakwet,Female,Physical or sexual or psychological/emotional,25.9
+Nandi,Female,Physical or sexual or psychological/emotional,19.6
+Baringo,Female,Physical or sexual or psychological/emotional,26.9
+Laikipia,Female,Physical or sexual or psychological/emotional,26.9
+Nakuru,Female,Physical or sexual or psychological/emotional,17.6
+Narok,Female,Physical or sexual or psychological/emotional,29.3
+Kajiado,Female,Physical or sexual or psychological/emotional,24.7
+Kericho,Female,Physical or sexual or psychological/emotional,19.7
+Bomet,Female,Physical or sexual or psychological/emotional,20.6
+Kakamega,Female,Physical or sexual or psychological/emotional,32
+Vihiga,Female,Physical or sexual or psychological/emotional,30.2
+Bungoma,Female,Physical or sexual or psychological/emotional,47.6
+Busia,Female,Physical or sexual or psychological/emotional,41.1
+Siaya,Female,Physical or sexual or psychological/emotional,21
+Kisumu,Female,Physical or sexual or psychological/emotional,34.8
+Homa Bay,Female,Physical or sexual or psychological/emotional,39.7
+Migori,Female,Physical or sexual or psychological/emotional,46.6
+Kisii,Female,Physical or sexual or psychological/emotional,41
+Nyamira,Female,Physical or sexual or psychological/emotional,27
+Nairobi,Female,Physical or sexual or psychological/emotional,23.3
+Mombasa,Male,Physical or sexual or psychological/emotional,33.3
+Kwale,Male,Physical or sexual or psychological/emotional,25.3
+Kilifi,Male,Physical or sexual or psychological/emotional,24.4
+Tana River,Male,Physical or sexual or psychological/emotional,2.4
+Lamu,Male,Physical or sexual or psychological/emotional,1.9
+Taita Taveta,Male,Physical or sexual or psychological/emotional,17.4
+Garissa,Male,Physical or sexual or psychological/emotional,0.8
+Wajir,Male,Physical or sexual or psychological/emotional,18.6
+Mandera,Male,Physical or sexual or psychological/emotional,0
+Marsabit,Male,Physical or sexual or psychological/emotional,23.4
+Isiolo,Male,Physical or sexual or psychological/emotional,22.7
+Meru,Male,Physical or sexual or psychological/emotional,17.2
+Tharaka Nithi,Male,Physical or sexual or psychological/emotional,42.9
+Embu,Male,Physical or sexual or psychological/emotional,8.3
+Kitui,Male,Physical or sexual or psychological/emotional,5.1
+Machakos,Male,Physical or sexual or psychological/emotional,7.4
+Makueni,Male,Physical or sexual or psychological/emotional,10.1
+Nyandarua,Male,Physical or sexual or psychological/emotional,15
+Nyeri,Male,Physical or sexual or psychological/emotional,13
+Kirinyaga,Male,Physical or sexual or psychological/emotional,0
+Muranga,Male,Physical or sexual or psychological/emotional,45.3
+Kiambu,Male,Physical or sexual or psychological/emotional,36.3
+Turkana,Male,Physical or sexual or psychological/emotional,22
+West Pokot,Male,Physical or sexual or psychological/emotional,26.8
+Samburu,Male,Physical or sexual or psychological/emotional,25.4
+Trans Nzoia,Male,Physical or sexual or psychological/emotional,7.6
+Uasin Gishu,Male,Physical or sexual or psychological/emotional,18.9
+Elgeyo Marakwet,Male,Physical or sexual or psychological/emotional,23.6
+Nandi,Male,Physical or sexual or psychological/emotional,30.6
+Baringo,Male,Physical or sexual or psychological/emotional,10.7
+Laikipia,Male,Physical or sexual or psychological/emotional,38
+Nakuru,Male,Physical or sexual or psychological/emotional,15.9
+Narok,Male,Physical or sexual or psychological/emotional,14.2
+Kajiado,Male,Physical or sexual or psychological/emotional,13.9
+Kericho,Male,Physical or sexual or psychological/emotional,13.5
+Bomet,Male,Physical or sexual or psychological/emotional,15.5
+Kakamega,Male,Physical or sexual or psychological/emotional,7.5
+Vihiga,Male,Physical or sexual or psychological/emotional,27.8
+Bungoma,Male,Physical or sexual or psychological/emotional,46.2
+Busia,Male,Physical or sexual or psychological/emotional,37.9
+Siaya,Male,Physical or sexual or psychological/emotional,54.7
+Kisumu,Male,Physical or sexual or psychological/emotional,11.8
+Homa Bay,Male,Physical or sexual or psychological/emotional,28.4
+Migori,Male,Physical or sexual or psychological/emotional,23.8
+Kisii,Male,Physical or sexual or psychological/emotional,10.9
+Nyamira,Male,Physical or sexual or psychological/emotional,19.6
+Nairobi,Male,Physical or sexual or psychological/emotional,33.4
+Mombasa,Female,Physical or sexual or psychological/emotional or economic,26.6
+Kwale,Female,Physical or sexual or psychological/emotional or economic,20.8
+Kilifi,Female,Physical or sexual or psychological/emotional or economic,25.7
+Tana River,Female,Physical or sexual or psychological/emotional or economic,43.7
+Lamu,Female,Physical or sexual or psychological/emotional or economic,35.6
+Taita Taveta,Female,Physical or sexual or psychological/emotional or economic,31.4
+Garissa,Female,Physical or sexual or psychological/emotional or economic,17.8
+Wajir,Female,Physical or sexual or psychological/emotional or economic,12.3
+Mandera,Female,Physical or sexual or psychological/emotional or economic,10.4
+Marsabit,Female,Physical or sexual or psychological/emotional or economic,20.1
+Isiolo,Female,Physical or sexual or psychological/emotional or economic,39.6
+Meru,Female,Physical or sexual or psychological/emotional or economic,39.7
+Tharaka Nithi,Female,Physical or sexual or psychological/emotional or economic,38.9
+Embu,Female,Physical or sexual or psychological/emotional or economic,50.8
+Kitui,Female,Physical or sexual or psychological/emotional or economic,13.8
+Machakos,Female,Physical or sexual or psychological/emotional or economic,24.5
+Makueni,Female,Physical or sexual or psychological/emotional or economic,27
+Nyandarua,Female,Physical or sexual or psychological/emotional or economic,22
+Nyeri,Female,Physical or sexual or psychological/emotional or economic,34.3
+Kirinyaga,Female,Physical or sexual or psychological/emotional or economic,38.4
+Muranga,Female,Physical or sexual or psychological/emotional or economic,46.4
+Kiambu,Female,Physical or sexual or psychological/emotional or economic,37
+Turkana,Female,Physical or sexual or psychological/emotional or economic,28.9
+West Pokot,Female,Physical or sexual or psychological/emotional or economic,25.4
+Samburu,Female,Physical or sexual or psychological/emotional or economic,42.1
+Trans Nzoia,Female,Physical or sexual or psychological/emotional or economic,34.1
+Uasin Gishu,Female,Physical or sexual or psychological/emotional or economic,34.8
+Elgeyo Marakwet,Female,Physical or sexual or psychological/emotional or economic,27.5
+Nandi,Female,Physical or sexual or psychological/emotional or economic,24.3
+Baringo,Female,Physical or sexual or psychological/emotional or economic,30.3
+Laikipia,Female,Physical or sexual or psychological/emotional or economic,35.4
+Nakuru,Female,Physical or sexual or psychological/emotional or economic,25.7
+Narok,Female,Physical or sexual or psychological/emotional or economic,34.8
+Kajiado,Female,Physical or sexual or psychological/emotional or economic,33.1
+Kericho,Female,Physical or sexual or psychological/emotional or economic,20.6
+Bomet,Female,Physical or sexual or psychological/emotional or economic,27.3
+Kakamega,Female,Physical or sexual or psychological/emotional or economic,36.3
+Vihiga,Female,Physical or sexual or psychological/emotional or economic,31.4
+Bungoma,Female,Physical or sexual or psychological/emotional or economic,52.6
+Busia,Female,Physical or sexual or psychological/emotional or economic,43.4
+Siaya,Female,Physical or sexual or psychological/emotional or economic,21.9
+Kisumu,Female,Physical or sexual or psychological/emotional or economic,35.7
+Homa Bay,Female,Physical or sexual or psychological/emotional or economic,43.6
+Migori,Female,Physical or sexual or psychological/emotional or economic,49.6
+Kisii,Female,Physical or sexual or psychological/emotional or economic,44.7
+Nyamira,Female,Physical or sexual or psychological/emotional or economic,30.6
+Nairobi,Female,Physical or sexual or psychological/emotional or economic,27.3
+Mombasa,Male,Physical or sexual or psychological/emotional or economic,42.4
+Kwale,Male,Physical or sexual or psychological/emotional or economic,27.1
+Kilifi,Male,Physical or sexual or psychological/emotional or economic,30.9
+Tana River,Male,Physical or sexual or psychological/emotional or economic,9.4
+Lamu,Male,Physical or sexual or psychological/emotional or economic,4.8
+Taita Taveta,Male,Physical or sexual or psychological/emotional or economic,28.7
+Garissa,Male,Physical or sexual or psychological/emotional or economic,3.7
+Wajir,Male,Physical or sexual or psychological/emotional or economic,21.3
+Mandera,Male,Physical or sexual or psychological/emotional or economic,2.5
+Marsabit,Male,Physical or sexual or psychological/emotional or economic,23.4
+Isiolo,Male,Physical or sexual or psychological/emotional or economic,26.1
+Meru,Male,Physical or sexual or psychological/emotional or economic,29.5
+Tharaka Nithi,Male,Physical or sexual or psychological/emotional or economic,51.2
+Embu,Male,Physical or sexual or psychological/emotional or economic,17.4
+Kitui,Male,Physical or sexual or psychological/emotional or economic,7.7
+Machakos,Male,Physical or sexual or psychological/emotional or economic,18.6
+Makueni,Male,Physical or sexual or psychological/emotional or economic,19.1
+Nyandarua,Male,Physical or sexual or psychological/emotional or economic,18.6
+Nyeri,Male,Physical or sexual or psychological/emotional or economic,24
+Kirinyaga,Male,Physical or sexual or psychological/emotional or economic,4.4
+Muranga,Male,Physical or sexual or psychological/emotional or economic,64.8
+Kiambu,Male,Physical or sexual or psychological/emotional or economic,44.6
+Turkana,Male,Physical or sexual or psychological/emotional or economic,38.8
+West Pokot,Male,Physical or sexual or psychological/emotional or economic,29.7
+Samburu,Male,Physical or sexual or psychological/emotional or economic,27
+Trans Nzoia,Male,Physical or sexual or psychological/emotional or economic,22.7
+Uasin Gishu,Male,Physical or sexual or psychological/emotional or economic,33.9
+Elgeyo Marakwet,Male,Physical or sexual or psychological/emotional or economic,28.2
+Nandi,Male,Physical or sexual or psychological/emotional or economic,40.1
+Baringo,Male,Physical or sexual or psychological/emotional or economic,17.8
+Laikipia,Male,Physical or sexual or psychological/emotional or economic,40.7
+Nakuru,Male,Physical or sexual or psychological/emotional or economic,26.2
+Narok,Male,Physical or sexual or psychological/emotional or economic,22.3
+Kajiado,Male,Physical or sexual or psychological/emotional or economic,31.3
+Kericho,Male,Physical or sexual or psychological/emotional or economic,14.6
+Bomet,Male,Physical or sexual or psychological/emotional or economic,32.7
+Kakamega,Male,Physical or sexual or psychological/emotional or economic,15
+Vihiga,Male,Physical or sexual or psychological/emotional or economic,35.1
+Bungoma,Male,Physical or sexual or psychological/emotional or economic,53.7
+Busia,Male,Physical or sexual or psychological/emotional or economic,39.4
+Siaya,Male,Physical or sexual or psychological/emotional or economic,55.6
+Kisumu,Male,Physical or sexual or psychological/emotional or economic,15.4
+Homa Bay,Male,Physical or sexual or psychological/emotional or economic,37.1
+Migori,Male,Physical or sexual or psychological/emotional or economic,31.1
+Kisii,Male,Physical or sexual or psychological/emotional or economic,19.2
+Nyamira,Male,Physical or sexual or psychological/emotional or economic,28
+Nairobi,Male,Physical or sexual or psychological/emotional or economic,40.5

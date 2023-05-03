@@ -1,0 +1,259 @@
+Value,Reason For Migration,Proportion,Participants,Background characteristics
+15-19,Employment,14.8,Women,Age
+15-19,Education/training,23.4,Women,Age
+15-19,Marriage formation,7.9,Women,Age
+15-19,Family reasons,49.8,Women,Age
+15-19,Forced displacment,1.4,Women,Age
+15-19,Other,2.6,Women,Age
+20-24,Employment,29.8,Women,Age
+20-24,Education/training,18.7,Women,Age
+20-24,Marriage formation,26.7,Women,Age
+20-24,Family reasons,23.1,Women,Age
+20-24,Forced displacment,0.3,Women,Age
+20-24,Other,1.4,Women,Age
+25-29,Employment,38.7,Women,Age
+25-29,Education/training,8.3,Women,Age
+25-29,Marriage formation,34.1,Women,Age
+25-29,Family reasons,16.4,Women,Age
+25-29,Forced displacment,0.6,Women,Age
+25-29,Other,1.9,Women,Age
+30-34,Employment,39.1,Women,Age
+30-34,Education/training,3.8,Women,Age
+30-34,Marriage formation,37.1,Women,Age
+30-34,Family reasons,17.2,Women,Age
+30-34,Forced displacment,0.7,Women,Age
+30-34,Other,2.1,Women,Age
+35-39,Employment,38.6,Women,Age
+35-39,Education/training,3.5,Women,Age
+35-39,Marriage formation,38.3,Women,Age
+35-39,Family reasons,15.9,Women,Age
+35-39,Forced displacment,1.1,Women,Age
+35-39,Other,2.6,Women,Age
+40-44,Employment,33.2,Women,Age
+40-44,Education/training,3.1,Women,Age
+40-44,Marriage formation,41.8,Women,Age
+40-44,Family reasons,18.2,Women,Age
+40-44,Forced displacment,1.7,Women,Age
+40-44,Other,1.9,Women,Age
+45-49,Employment,29.7,Women,Age
+45-49,Education/training,1.6,Women,Age
+45-49,Marriage formation,45.7,Women,Age
+45-49,Family reasons,18.4,Women,Age
+45-49,Forced displacment,2.2,Women,Age
+45-49,Other,2.4,Women,Age
+15-19,Employment,17.4,Men,Age
+15-19,Education/training,28.6,Men,Age
+15-19,Marriage formation,0.0,Men,Age
+15-19,Family reasons,47.5,Men,Age
+15-19,Forced displacment,0.9,Men,Age
+15-19,Other,5.6,Men,Age
+20-24,Employment,49.6,Men,Age
+20-24,Education/training,25.5,Men,Age
+20-24,Marriage formation,0.0,Men,Age
+20-24,Family reasons,21.3,Men,Age
+20-24,Forced displacment,0.7,Men,Age
+20-24,Other,2.9,Men,Age
+25-29,Employment,68.4,Men,Age
+25-29,Education/training,14.0,Men,Age
+25-29,Marriage formation,0.0,Men,Age
+25-29,Family reasons,15.2,Men,Age
+25-29,Forced displacment,0.6,Men,Age
+25-29,Other,1.7,Men,Age
+30-34,Employment,70.6,Men,Age
+30-34,Education/training,7.2,Men,Age
+30-34,Marriage formation,1.0,Men,Age
+30-34,Family reasons,18.2,Men,Age
+30-34,Forced displacment,0.7,Men,Age
+30-34,Other,2.3,Men,Age
+35-39,Employment,72.6,Men,Age
+35-39,Education/training,4.7,Men,Age
+35-39,Marriage formation,0.2,Men,Age
+35-39,Family reasons,19.6,Men,Age
+35-39,Forced displacment,2.4,Men,Age
+35-39,Other,0.6,Men,Age
+40-44,Employment,73.7,Men,Age
+40-44,Education/training,1.4,Men,Age
+40-44,Marriage formation,0.3,Men,Age
+40-44,Family reasons,21.6,Men,Age
+40-44,Forced displacment,0.7,Men,Age
+40-44,Other,2.2,Men,Age
+45-49,Employment,70.3,Men,Age
+45-49,Education/training,2.5,Men,Age
+45-49,Marriage formation,0.4,Men,Age
+45-49,Family reasons,19.0,Men,Age
+45-49,Forced displacment,2.7,Men,Age
+45-49,Other,5.1,Men,Age
+50-54,Employment,64.4,Men,Age
+50-54,Education/training,1.6,Men,Age
+50-54,Marriage formation,0.8,Men,Age
+50-54,Family reasons,26.9,Men,Age
+50-54,Forced displacment,2.2,Men,Age
+50-54,Other,4.1,Men,Age
+0-4 years,Employment,40.3,Women,Timing of move
+0-4 years,Education/training,11.7,Women,Timing of move
+0-4 years,Marriage formation,21.7,Women,Timing of move
+0-4 years,Family reasons,22.7,Women,Timing of move
+0-4 years,Forced displacment,0.7,Women,Timing of move
+0-4 years,Other,2.9,Women,Timing of move
+5-9 years,Employment,37.3,Women,Timing of move
+5-9 years,Education/training,9.3,Women,Timing of move
+5-9 years,Marriage formation,29.6,Women,Timing of move
+5-9 years,Family reasons,20.6,Women,Timing of move
+5-9 years,Forced displacment,1.0,Women,Timing of move
+5-9 years,Other,2.1,Women,Timing of move
+10 years or more,Employment,24.8,Women,Timing of move
+10 years or more,Education/training,6.8,Women,Timing of move
+10 years or more,Marriage formation,45.3,Women,Timing of move
+10 years or more,Family reasons,20.6,Women,Timing of move
+10 years or more,Forced displacment,1.2,Women,Timing of move
+10 years or more,Other,1.2,Women,Timing of move
+0-4 years,Employment,68.1,Men,Timing of move
+0-4 years,Education/training,15.5,Men,Timing of move
+0-4 years,Marriage formation,0.2,Men,Timing of move
+0-4 years,Family reasons,15.0,Men,Timing of move
+0-4 years,Forced displacment,0.3,Men,Timing of move
+0-4 years,Other,1.1,Men,Timing of move
+5-9 years,Employment,60.7,Men,Timing of move
+5-9 years,Education/training,16.9,Men,Timing of move
+5-9 years,Marriage formation,0.4,Men,Timing of move
+5-9 years,Family reasons,20.6,Men,Timing of move
+5-9 years,Forced displacment,1.4,Men,Timing of move
+5-9 years,Other,0.1,Men,Timing of move
+10 years or more,Employment,51.6,Men,Timing of move
+10 years or more,Education/training,9.9,Men,Timing of move
+10 years or more,Marriage formation,0.3,Men,Timing of move
+10 years or more,Family reasons,30.8,Men,Timing of move
+10 years or more,Forced displacment,1.7,Men,Timing of move
+10 years or more,Other,5.8,Men,Timing of move
+Urban to urban,Employment,50.5,Women,Type of migration
+Urban to urban,Education/training,13.1,Women,Type of migration
+Urban to urban,Marriage formation,12.5,Women,Type of migration
+Urban to urban,Family reasons,17.9,Women,Type of migration
+Urban to urban,Forced displacment,1.0,Women,Type of migration
+Urban to urban,Other,5.0,Women,Type of migration
+Urban to rural,Employment,30.1,Women,Type of migration
+Urban to rural,Education/training,6.2,Women,Type of migration
+Urban to rural,Marriage formation,24.2,Women,Type of migration
+Urban to rural,Family reasons,35.6,Women,Type of migration
+Urban to rural,Forced displacment,0.7,Women,Type of migration
+Urban to rural,Other,3.3,Women,Type of migration
+Rural to urban,Employment,51.2,Women,Type of migration
+Rural to urban,Education/training,16.7,Women,Type of migration
+Rural to urban,Marriage formation,13.7,Women,Type of migration
+Rural to urban,Family reasons,16.6,Women,Type of migration
+Rural to urban,Forced displacment,0.5,Women,Type of migration
+Rural to urban,Other,1.3,Women,Type of migration
+Rural to rural,Employment,22.9,Women,Type of migration
+Rural to rural,Education/training,7.6,Women,Type of migration
+Rural to rural,Marriage formation,39.7,Women,Type of migration
+Rural to rural,Family reasons,26.8,Women,Type of migration
+Rural to rural,Forced displacment,0.8,Women,Type of migration
+Rural to rural,Other,2.1,Women,Type of migration
+Urban to urban,Employment,70.9,Men,Type of migration
+Urban to urban,Education/training,14.0,Men,Type of migration
+Urban to urban,Marriage formation,0.3,Men,Type of migration
+Urban to urban,Family reasons,13.2,Men,Type of migration
+Urban to urban,Forced displacment,0.0,Men,Type of migration
+Urban to urban,Other,1.5,Men,Type of migration
+Urban to rural,Employment,55.1,Men,Type of migration
+Urban to rural,Education/training,9.6,Men,Type of migration
+Urban to rural,Marriage formation,0.3,Men,Type of migration
+Urban to rural,Family reasons,32.6,Men,Type of migration
+Urban to rural,Forced displacment,0.3,Men,Type of migration
+Urban to rural,Other,2.1,Men,Type of migration
+Rural to urban,Employment,76.6,Men,Type of migration
+Rural to urban,Education/training,17.3,Men,Type of migration
+Rural to urban,Marriage formation,0.0,Men,Type of migration
+Rural to urban,Family reasons,5.8,Men,Type of migration
+Rural to urban,Forced displacment,0.0,Men,Type of migration
+Rural to urban,Other,0.3,Men,Type of migration
+Rural to rural,Employment,58.0,Men,Type of migration
+Rural to rural,Education/training,19.9,Men,Type of migration
+Rural to rural,Marriage formation,0.0,Men,Type of migration
+Rural to rural,Family reasons,19.9,Men,Type of migration
+Rural to rural,Forced displacment,1.2,Men,Type of migration
+Rural to rural,Other,0.9,Men,Type of migration
+Urban,Employment,48.5,Women,Residence
+Urban,Education/training,13.8,Women,Residence
+Urban,Marriage formation,15.4,Women,Residence
+Urban,Family reasons,19.1,Women,Residence
+Urban,Forced displacment,0.9,Women,Residence
+Urban,Other,2.3,Women,Residence
+Rural,Employment,16.9,Women,Residence
+Rural,Education/training,4.2,Women,Residence
+Rural,Marriage formation,52.3,Women,Residence
+Rural,Family reasons,23.8,Women,Residence
+Rural,Forced displacment,1.1,Women,Residence
+Rural,Other,1.8,Women,Residence
+Urban,Employment,65.9,Men,Residence
+Urban,Education/training,15.1,Men,Residence
+Urban,Marriage formation,0.2,Men,Residence
+Urban,Family reasons,15.0,Men,Residence
+Urban,Forced displacment,0.5,Men,Residence
+Urban,Other,3.2,Men,Residence
+Rural,Employment,46.5,Men,Residence
+Rural,Education/training,10.2,Men,Residence
+Rural,Marriage formation,0.4,Men,Residence
+Rural,Family reasons,39.0,Men,Residence
+Rural,Forced displacment,2.4,Men,Residence
+Rural,Other,1.6,Men,Residence
+Lowest,Employment,7.0,Women,Wealth quintile
+Lowest,Education/training,2.0,Women,Wealth quintile
+Lowest,Marriage formation,66.8,Women,Wealth quintile
+Lowest,Family reasons,21.3,Women,Wealth quintile
+Lowest,Forced displacment,1.6,Women,Wealth quintile
+Lowest,Other,1.3,Women,Wealth quintile
+Second,Employment,12.0,Women,Wealth quintile
+Second,Education/training,3.6,Women,Wealth quintile
+Second,Marriage formation,57.9,Women,Wealth quintile
+Second,Family reasons,23.3,Women,Wealth quintile
+Second,Forced displacment,1.6,Women,Wealth quintile
+Second,Other,1.5,Women,Wealth quintile
+Middle,Employment,22.3,Women,Wealth quintile
+Middle,Education/training,5.3,Women,Wealth quintile
+Middle,Marriage formation,45.6,Women,Wealth quintile
+Middle,Family reasons,23.6,Women,Wealth quintile
+Middle,Forced displacment,1.0,Women,Wealth quintile
+Middle,Other,2.2,Women,Wealth quintile
+Fourth,Employment,42.1,Women,Wealth quintile
+Fourth,Education/training,9.8,Women,Wealth quintile
+Fourth,Marriage formation,24.5,Women,Wealth quintile
+Fourth,Family reasons,21.6,Women,Wealth quintile
+Fourth,Forced displacment,0.7,Women,Wealth quintile
+Fourth,Other,1.2,Women,Wealth quintile
+Highest,Employment,48.4,Women,Wealth quintile
+Highest,Education/training,15.0,Women,Wealth quintile
+Highest,Marriage formation,13.6,Women,Wealth quintile
+Highest,Family reasons,19.3,Women,Wealth quintile
+Highest,Forced displacment,0.8,Women,Wealth quintile
+Highest,Other,3.0,Women,Wealth quintile
+Lowest,Employment,37.9,Men,Wealth quintile
+Lowest,Education/training,6.3,Men,Wealth quintile
+Lowest,Marriage formation,0.2,Men,Wealth quintile
+Lowest,Family reasons,49.2,Men,Wealth quintile
+Lowest,Forced displacment,4.2,Men,Wealth quintile
+Lowest,Other,2.2,Men,Wealth quintile
+Second,Employment,43.4,Men,Wealth quintile
+Second,Education/training,6.3,Men,Wealth quintile
+Second,Marriage formation,0.6,Men,Wealth quintile
+Second,Family reasons,45.8,Men,Wealth quintile
+Second,Forced displacment,2.6,Men,Wealth quintile
+Second,Other,1.3,Men,Wealth quintile
+Middle,Employment,56.6,Men,Wealth quintile
+Middle,Education/training,11.3,Men,Wealth quintile
+Middle,Marriage formation,0.1,Men,Wealth quintile
+Middle,Family reasons,29.4,Men,Wealth quintile
+Middle,Forced displacment,1.5,Men,Wealth quintile
+Middle,Other,0.9,Men,Wealth quintile
+Fourth,Employment,69.7,Men,Wealth quintile
+Fourth,Education/training,11.6,Men,Wealth quintile
+Fourth,Marriage formation,0.1,Men,Wealth quintile
+Fourth,Family reasons,16.0,Men,Wealth quintile
+Fourth,Forced displacment,1.1,Men,Wealth quintile
+Fourth,Other,1.5,Men,Wealth quintile
+Highest,Employment,58.4,Men,Wealth quintile
+Highest,Education/training,18.9,Men,Wealth quintile
+Highest,Marriage formation,0.3,Men,Wealth quintile
+Highest,Family reasons,17.3,Men,Wealth quintile
+Highest,Forced displacment,0.2,Men,Wealth quintile
+Highest,Other,4.9,Men,Wealth quintile

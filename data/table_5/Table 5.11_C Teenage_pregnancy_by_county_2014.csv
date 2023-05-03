@@ -1,0 +1,142 @@
+"","County","Category","Proportion"
+"1","Mombasa","had a live birth",11.6
+"2","Mombasa","pregnant with first child",5
+"3","Mombasa","begun child bearing",16.6
+"4","Kwale","had a live birth",18.9
+"5","Kwale","pregnant with first child",5.3
+"6","Kwale","begun child bearing",24.2
+"7","Kilifi","had a live birth",18.8
+"8","Kilifi","pregnant with first child",3
+"9","Kilifi","begun child bearing",21.8
+"10","Tana River","had a live birth",20.4
+"11","Tana River","pregnant with first child",7.8
+"12","Tana River","begun child bearing",28.2
+"13","Lamu","had a live birth",8.2
+"14","Lamu","pregnant with first child",1.9
+"15","Lamu","begun child bearing",10
+"16","Taita Taveta","had a live birth",10
+"17","Taita Taveta","pregnant with first child",3.4
+"18","Taita Taveta","begun child bearing",13.4
+"19","Garissa","had a live birth",8.5
+"20","Garissa","pregnant with first child",1.7
+"21","Garissa","begun child bearing",10.2
+"22","Wajir","had a live birth",13.8
+"23","Wajir","pregnant with first child",3.5
+"24","Wajir","begun child bearing",17.4
+"25","Mandera","had a live birth",3.3
+"26","Mandera","pregnant with first child",6.8
+"27","Mandera","begun child bearing",10.1
+"28","Marsabit","had a live birth",11.9
+"29","Marsabit","pregnant with first child",4.8
+"30","Marsabit","begun child bearing",16.6
+"31","Isiolo","had a live birth",18
+"32","Isiolo","pregnant with first child",0.9
+"33","Isiolo","begun child bearing",18.9
+"34","Meru","had a live birth",18.3
+"35","Meru","pregnant with first child",1.5
+"36","Meru","begun child bearing",19.9
+"37","Tharaka-Nithi","had a live birth",10.4
+"38","Tharaka-Nithi","pregnant with first child",3.2
+"39","Tharaka-Nithi","begun child bearing",13.7
+"40","Embu","had a live birth",4.7
+"41","Embu","pregnant with first child",3.3
+"42","Embu","begun child bearing",8
+"43","Kitui","had a live birth",11.8
+"44","Kitui","pregnant with first child",3
+"45","Kitui","begun child bearing",14.8
+"46","Machakos","had a live birth",12.2
+"47","Machakos","pregnant with first child",1.7
+"48","Machakos","begun child bearing",14
+"49","Makueni","had a live birth",9.3
+"50","Makueni","pregnant with first child",1.8
+"51","Makueni","begun child bearing",11.1
+"52","Nyandarua","had a live birth",4
+"53","Nyandarua","pregnant with first child",5.7
+"54","Nyandarua","begun child bearing",9.7
+"55","Nyeri","had a live birth",4.2
+"56","Nyeri","pregnant with first child",2.7
+"57","Nyeri","begun child bearing",6.9
+"58","Kirinyaga","had a live birth",9.2
+"59","Kirinyaga","pregnant with first child",2.1
+"60","Kirinyaga","begun child bearing",11.3
+"61","Murang’a","had a live birth",2.6
+"62","Murang’a","pregnant with first child",3.8
+"63","Murang’a","begun child bearing",6.3
+"64","Kiambu","had a live birth",12.7
+"65","Kiambu","pregnant with first child",1.4
+"66","Kiambu","begun child bearing",14.1
+"67","Turkana","had a live birth",17.6
+"68","Turkana","pregnant with first child",2.6
+"69","Turkana","begun child bearing",20.2
+"70","West Pokot","had a live birth",22.8
+"71","West Pokot","pregnant with first child",5.9
+"72","West Pokot","begun child bearing",28.6
+"73","Samburu","had a live birth",19.7
+"74","Samburu","pregnant with first child",6
+"75","Samburu","begun child bearing",25.7
+"76","Trans-Nzoia","had a live birth",18.9
+"77","Trans-Nzoia","pregnant with first child",4.3
+"78","Trans-Nzoia","begun child bearing",23.3
+"79","Uasin Gishu","had a live birth",16.4
+"80","Uasin Gishu","pregnant with first child",5.9
+"81","Uasin Gishu","begun child bearing",22.2
+"82","Elgeyo Marakwet","had a live birth",7.4
+"83","Elgeyo Marakwet","pregnant with first child",1.2
+"84","Elgeyo Marakwet","begun child bearing",8.7
+"85","Nandi","had a live birth",13.8
+"86","Nandi","pregnant with first child",1.8
+"87","Nandi","begun child bearing",15.6
+"88","Baringo","had a live birth",10.5
+"89","Baringo","pregnant with first child",2.7
+"90","Baringo","begun child bearing",13.2
+"91","Laikipia","had a live birth",14.8
+"92","Laikipia","pregnant with first child",3.9
+"93","Laikipia","begun child bearing",18.7
+"94","Nakuru","had a live birth",13.4
+"95","Nakuru","pregnant with first child",5
+"96","Nakuru","begun child bearing",18.4
+"97","Narok","had a live birth",33
+"98","Narok","pregnant with first child",7.4
+"99","Narok","begun child bearing",40.4
+"100","Kajiado","had a live birth",16.2
+"101","Kajiado","pregnant with first child",4
+"102","Kajiado","begun child bearing",20.2
+"103","Kericho","had a live birth",17.6
+"104","Kericho","pregnant with first child",2.9
+"105","Kericho","begun child bearing",20.5
+"106","Bomet","had a live birth",19.6
+"107","Bomet","pregnant with first child",4.5
+"108","Bomet","begun child bearing",24
+"109","Kakamega","had a live birth",13.5
+"110","Kakamega","pregnant with first child",6
+"111","Kakamega","begun child bearing",19.4
+"112","Vihiga","had a live birth",10.8
+"113","Vihiga","pregnant with first child",2
+"114","Vihiga","begun child bearing",12.7
+"115","Bungoma","had a live birth",13.8
+"116","Bungoma","pregnant with first child",0.7
+"117","Bungoma","begun child bearing",14.4
+"118","Busia","had a live birth",18.4
+"119","Busia","pregnant with first child",2.3
+"120","Busia","begun child bearing",20.8
+"121","Siaya","had a live birth",13.6
+"122","Siaya","pregnant with first child",3.6
+"123","Siaya","begun child bearing",17.2
+"124","Kisumu","had a live birth",12.4
+"125","Kisumu","pregnant with first child",3.1
+"126","Kisumu","begun child bearing",15.4
+"127","Homa Bay","had a live birth",31.2
+"128","Homa Bay","pregnant with first child",2.1
+"129","Homa Bay","begun child bearing",33.3
+"130","Migori","had a live birth",20.9
+"131","Migori","pregnant with first child",3.4
+"132","Migori","begun child bearing",24.3
+"133","Kisii","had a live birth",15.9
+"134","Kisii","pregnant with first child",2.5
+"135","Kisii","begun child bearing",18.4
+"136","Nyamira","had a live birth",23.5
+"137","Nyamira","pregnant with first child",4.3
+"138","Nyamira","begun child bearing",27.8
+"139","Nairobi","had a live birth",13.1
+"140","Nairobi","pregnant with first child",4.3
+"141","Nairobi","begun child bearing",17.4

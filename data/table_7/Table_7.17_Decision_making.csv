@@ -1,0 +1,25 @@
+Characteristic,mainly_wife,partner_jointly,partner,other,total,percentage,variable
+15-19,32.8,50.7,15.9,0.5,99.8,83.5,age
+20-24,31.0,58.6,10.0,0.3,100.0,89.6,age
+25-29,35.5,56.0,8.2,0.3,100.0,91.5,age
+30-34,42.5,50.4,6.3,0.9,100.0,92.8,age
+35-39,49.0,44.3,6.2,0.5,100.0,93.3,age
+40-44,50.3,45.0,4.1,0.6,100.0,95.3,age
+45-49,50.8,43.0,5.3,0.9,100.0,93.9,age
+Currently using,41.5,52.2,6.0,0.3,100.0,93.7,family_planning_use
+Not currently using1,42.9,47.3,8.9,0.9,100.0,90.2,family_planning_use
+0,31.5,60.2,8.1,0.3,100.0,91.6,number_of_living_children
+1-2,37.9,55.2,6.5,0.3,100.0,93.2,number_of_living_children
+3-4,45.3,47.7,6.4,0.5,100.0,93.0,number_of_living_children
+5+,48.2,41.2,9.4,1.2,100.0,89.4,number_of_living_children
+Urban,40.5,54.7,4.5,0.3,100.0,95.2,residence
+Rural,43.0,47.5,8.8,0.7,100.0,90.5,residence
+No education,40.4,38.5,17.9,3.2,99.9,78.8,education
+Primary,46.0,45.3,8.3,0.4,100.0,91.3,education
+Secondary,41.0,53.2,5.5,0.2,100.0,94.2,education
+More than secondary,35.8,61.1,2.8,0.3,100.0,96.9,education
+Lowest,41.3,43.0,14.0,1.7,99.9,84.2,wealth
+Second,44.2,45.8,9.5,0.5,100.0,90.0,wealth
+Middle,43.7,50.2,5.8,0.3,100.0,93.9,wealth
+Fourth,40.0,54.9,4.9,0.2,100.0,94.9,wealth
+Highest,41.6,54.4,3.7,0.3,100.0,95.9,wealth

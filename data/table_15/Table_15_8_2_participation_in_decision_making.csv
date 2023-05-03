@@ -1,0 +1,226 @@
+Background characteristics,Category,variable,value,Gender
+Age,15-19,Own's health,72.2,Female
+Age,20-24,Own's health,80.4,Female
+Age,25-29,Own's health,85.7,Female
+Age,30-34,Own's health,87,Female
+Age,35-39,Own's health,86.3,Female
+Age,40-44,Own's health,88.1,Female
+Age,45-49,Own's health,90.2,Female
+Employment (last 12 months),Not employed,Own's health,79.9,Female
+Employment (last 12 months),Employed for cash,Own's health,89.8,Female
+Employment (last 12 months),Employed not for cash,Own's health,82.5,Female
+Number of living children,0,Own's health,84.3,Female
+Number of living children,1-2,Own's health,86.5,Female
+Number of living children,3-4,Own's health,86.6,Female
+Number of living children,5+,Own's health,82.5,Female
+Residence,Urban,Own's health,89.3,Female
+Residence,Rural,Own's health,83.3,Female
+Education,No education,Own's health,72.6,Female
+Education,Primary,Own's health,83.7,Female
+Education,Secondary,Own's health,86.8,Female
+Education,More than secondary,Own's health,93.2,Female
+Wealth quintile,Lowest,Own's health,77.2,Female
+Wealth quintile,Second,Own's health,82.8,Female
+Wealth quintile,Middle,Own's health,85.7,Female
+Wealth quintile,Fourth,Own's health,88.2,Female
+Wealth quintile,Highest,Own's health,91,Female
+Age,15-19,Making major household purchases,64.7,Female
+Age,20-24,Making major household purchases,73.3,Female
+Age,25-29,Making major household purchases,77.9,Female
+Age,30-34,Making major household purchases,79.6,Female
+Age,35-39,Making major household purchases,79.3,Female
+Age,40-44,Making major household purchases,80.1,Female
+Age,45-49,Making major household purchases,82.3,Female
+Employment (last 12 months),Not employed,Making major household purchases,72.4,Female
+Employment (last 12 months),Employed for cash,Making major household purchases,82.2,Female
+Employment (last 12 months),Employed not for cash,Making major household purchases,75.7,Female
+Number of living children,0,Making major household purchases,78.4,Female
+Number of living children,1-2,Making major household purchases,78.1,Female
+Number of living children,3-4,Making major household purchases,79.1,Female
+Number of living children,5+,Making major household purchases,76.7,Female
+Residence,Urban,Making major household purchases,81,Female
+Residence,Rural,Making major household purchases,76.4,Female
+Education,No education,Making major household purchases,68.9,Female
+Education,Primary,Making major household purchases,76.9,Female
+Education,Secondary,Making major household purchases,77.7,Female
+Education,More than secondary,Making major household purchases,85.6,Female
+Wealth quintile,Lowest,Making major household purchases,71.8,Female
+Wealth quintile,Second,Making major household purchases,76.2,Female
+Wealth quintile,Middle,Making major household purchases,77.1,Female
+Wealth quintile,Fourth,Making major household purchases,78.7,Female
+Wealth quintile,Highest,Making major household purchases,84.2,Female
+Age,15-19,Visits to her family or relatives,67.6,Female
+Age,20-24,Visits to her family or relatives,76.2,Female
+Age,25-29,Visits to her family or relatives,80.6,Female
+Age,30-34,Visits to her family or relatives,81.9,Female
+Age,35-39,Visits to her family or relatives,82.5,Female
+Age,40-44,Visits to her family or relatives,86.2,Female
+Age,45-49,Visits to her family or relatives,87.8,Female
+Employment (last 12 months),Not employed,Visits to her family or relatives,77.1,Female
+Employment (last 12 months),Employed for cash,Visits to her family or relatives,84.9,Female
+Employment (last 12 months),Employed not for cash,Visits to her family or relatives,79.4,Female
+Number of living children,0,Visits to her family or relatives,81,Female
+Number of living children,1-2,Visits to her family or relatives,81.8,Female
+Number of living children,3-4,Visits to her family or relatives,83.2,Female
+Number of living children,5+,Visits to her family or relatives,78.5,Female
+Residence,Urban,Visits to her family or relatives,84,Female
+Residence,Rural,Visits to her family or relatives,80.1,Female
+Education,No education,Visits to her family or relatives,72.2,Female
+Education,Primary,Visits to her family or relatives,78.8,Female
+Education,Secondary,Visits to her family or relatives,81.7,Female
+Education,More than secondary,Visits to her family or relatives,91.6,Female
+Wealth quintile,Lowest,Visits to her family or relatives,74.6,Female
+Wealth quintile,Second,Visits to her family or relatives,79.1,Female
+Wealth quintile,Middle,Visits to her family or relatives,81.6,Female
+Wealth quintile,Fourth,Visits to her family or relatives,82.2,Female
+Wealth quintile,Highest,Visits to her family or relatives,87.6,Female
+Age,15-19,All decisions,46.9,Female
+Age,20-24,All decisions,57.5,Female
+Age,25-29,All decisions,65.4,Female
+Age,30-34,All decisions,68.5,Female
+Age,35-39,All decisions,67.8,Female
+Age,40-44,All decisions,71.2,Female
+Age,45-49,All decisions,72.1,Female
+Employment (last 12 months),Not employed,All decisions,60.3,Female
+Employment (last 12 months),Employed for cash,All decisions,70.8,Female
+Employment (last 12 months),Employed not for cash,All decisions,61.7,Female
+Number of living children,0,All decisions,65.4,Female
+Number of living children,1-2,All decisions,66.2,Female
+Number of living children,3-4,All decisions,67.7,Female
+Number of living children,5+,All decisions,63.4,Female
+Residence,Urban,All decisions,70.6,Female
+Residence,Rural,All decisions,63.3,Female
+Education,No education,All decisions,55.4,Female
+Education,Primary,All decisions,62.8,Female
+Education,Secondary,All decisions,66,Female
+Education,More than secondary,All decisions,78.2,Female
+Wealth quintile,Lowest,All decisions,57.4,Female
+Wealth quintile,Second,All decisions,62.2,Female
+Wealth quintile,Middle,All decisions,65,Female
+Wealth quintile,Fourth,All decisions,67.6,Female
+Wealth quintile,Highest,All decisions,74.6,Female
+Age,15-19,None of the decisions,15.1,Female
+Age,20-24,None of the decisions,8.2,Female
+Age,25-29,None of the decisions,5.8,Female
+Age,30-34,None of the decisions,5,Female
+Age,35-39,None of the decisions,5.3,Female
+Age,40-44,None of the decisions,4.9,Female
+Age,45-49,None of the decisions,2.9,Female
+Employment (last 12 months),Not employed,None of the decisions,10.3,Female
+Employment (last 12 months),Employed for cash,None of the decisions,2.8,Female
+Employment (last 12 months),Employed not for cash,None of the decisions,6.8,Female
+Number of living children,0,None of the decisions,6.7,Female
+Number of living children,1-2,None of the decisions,5.4,Female
+Number of living children,3-4,None of the decisions,4.8,Female
+Number of living children,5+,None of the decisions,8,Female
+Residence,Urban,None of the decisions,3.9,Female
+Residence,Rural,None of the decisions,7,Female
+Education,No education,None of the decisions,15.3,Female
+Education,Primary,None of the decisions,6.3,Female
+Education,Secondary,None of the decisions,5.2,Female
+Education,More than secondary,None of the decisions,1.7,Female
+Wealth quintile,Lowest,None of the decisions,11.7,Female
+Wealth quintile,Second,None of the decisions,6.7,Female
+Wealth quintile,Middle,None of the decisions,5.5,Female
+Wealth quintile,Fourth,None of the decisions,4.4,Female
+Wealth quintile,Highest,None of the decisions,2.5,Female
+Age,15-19,Own's health,NA,Male
+Age,20-24,Own's health,94.6,Male
+Age,25-29,Own's health,91.7,Male
+Age,30-34,Own's health,95.3,Male
+Age,35-39,Own's health,94,Male
+Age,40-44,Own's health,94.2,Male
+Age,45-49,Own's health,93.8,Male
+Employment (last 12 months),Not employed,Own's health,94.4,Male
+Employment (last 12 months),Employed for cash,Own's health,93.7,Male
+Employment (last 12 months),Employed not for cash,Own's health,96.4,Male
+Number of living children,0,Own's health,91.1,Male
+Number of living children,1-2,Own's health,92.5,Male
+Number of living children,3-4,Own's health,95.8,Male
+Number of living children,5+,Own's health,94.6,Male
+Residence,Urban,Own's health,92.1,Male
+Residence,Rural,Own's health,95.2,Male
+Education,No education,Own's health,94.8,Male
+Education,Primary,Own's health,95.1,Male
+Education,Secondary,Own's health,92.7,Male
+Education,More than secondary,Own's health,93.1,Male
+Wealth quintile,Lowest,Own's health,95.3,Male
+Wealth quintile,Second,Own's health,93.5,Male
+Wealth quintile,Middle,Own's health,96.2,Male
+Wealth quintile,Fourth,Own's health,94.5,Male
+Wealth quintile,Highest,Own's health,90.7,Male
+Age,15-19,Making major household purchases,NA,Male
+Age,20-24,Making major household purchases,82.5,Male
+Age,25-29,Making major household purchases,82.9,Male
+Age,30-34,Making major household purchases,88.5,Male
+Age,35-39,Making major household purchases,84.3,Male
+Age,40-44,Making major household purchases,89.8,Male
+Age,45-49,Making major household purchases,91.1,Male
+Employment (last 12 months),Not employed,Making major household purchases,86.8,Male
+Employment (last 12 months),Employed for cash,Making major household purchases,86.9,Male
+Employment (last 12 months),Employed not for cash,Making major household purchases,87.8,Male
+Number of living children,0,Making major household purchases,85,Male
+Number of living children,1-2,Making major household purchases,84.4,Male
+Number of living children,3-4,Making major household purchases,88.6,Male
+Number of living children,5+,Making major household purchases,90.2,Male
+Residence,Urban,Making major household purchases,80.5,Male
+Residence,Rural,Making major household purchases,91.8,Male
+Education,No education,Making major household purchases,84.1,Male
+Education,Primary,Making major household purchases,89.4,Male
+Education,Secondary,Making major household purchases,84,Male
+Education,More than secondary,Making major household purchases,87,Male
+Wealth quintile,Lowest,Making major household purchases,90,Male
+Wealth quintile,Second,Making major household purchases,90.9,Male
+Wealth quintile,Middle,Making major household purchases,92.3,Male
+Wealth quintile,Fourth,Making major household purchases,83.4,Male
+Wealth quintile,Highest,Making major household purchases,82,Male
+Age,15-19,All decisions,NA,Male
+Age,20-24,All decisions,80.5,Male
+Age,25-29,All decisions,79.9,Male
+Age,30-34,All decisions,85.9,Male
+Age,35-39,All decisions,82.5,Male
+Age,40-44,All decisions,87.3,Male
+Age,45-49,All decisions,88,Male
+Employment (last 12 months),Not employed,All decisions,85.7,Male
+Employment (last 12 months),Employed for cash,All decisions,84.3,Male
+Employment (last 12 months),Employed not for cash,All decisions,85.8,Male
+Number of living children,0,All decisions,81.6,Male
+Number of living children,1-2,All decisions,81.4,Male
+Number of living children,3-4,All decisions,86.9,Male
+Number of living children,5+,All decisions,87.6,Male
+Residence,Urban,All decisions,78.3,Male
+Residence,Rural,All decisions,88.9,Male
+Education,No education,All decisions,83.8,Male
+Education,Primary,All decisions,86.8,Male
+Education,Secondary,All decisions,81.4,Male
+Education,More than secondary,All decisions,84.1,Male
+Wealth quintile,Lowest,All decisions,87.7,Male
+Wealth quintile,Second,All decisions,87.2,Male
+Wealth quintile,Middle,All decisions,90.1,Male
+Wealth quintile,Fourth,All decisions,81.9,Male
+Wealth quintile,Highest,All decisions,78.7,Male
+Age,15-19,None of the decisions,NA,Male
+Age,20-24,None of the decisions,3.4,Male
+Age,25-29,None of the decisions,5.3,Male
+Age,30-34,None of the decisions,2,Male
+Age,35-39,None of the decisions,4.2,Male
+Age,40-44,None of the decisions,3.3,Male
+Age,45-49,None of the decisions,3.2,Male
+Employment (last 12 months),Not employed,None of the decisions,4.4,Male
+Employment (last 12 months),Employed for cash,None of the decisions,3.7,Male
+Employment (last 12 months),Employed not for cash,None of the decisions,1.6,Male
+Number of living children,0,None of the decisions,5.5,Male
+Number of living children,1-2,None of the decisions,4.5,Male
+Number of living children,3-4,None of the decisions,2.5,Male
+Number of living children,5+,None of the decisions,2.8,Male
+Residence,Urban,None of the decisions,5.7,Male
+Residence,Rural,None of the decisions,2,Male
+Education,No education,None of the decisions,4.9,Male
+Education,Primary,None of the decisions,2.3,Male
+Education,Secondary,None of the decisions,4.8,Male
+Education,More than secondary,None of the decisions,4,Male
+Wealth quintile,Lowest,None of the decisions,2.3,Male
+Wealth quintile,Second,None of the decisions,2.8,Male
+Wealth quintile,Middle,None of the decisions,1.6,Male
+Wealth quintile,Fourth,None of the decisions,4,Male
+Wealth quintile,Highest,None of the decisions,6,Male

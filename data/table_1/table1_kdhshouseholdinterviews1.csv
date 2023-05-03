@@ -1,0 +1,47 @@
+Respondents,selection,residence,numbers,Gender,Participant
+Selected,All households,Rural,25411,All,All
+Occupied,All households,Rural,23861,All,All
+Interviewed,All households,Rural,23581,All,All
+Selected,All households,Urban,16611,All,All
+Occupied,All households,Urban,14870,All,All
+Interviewed,All households,Urban,14330,All,All
+Selected,Full questionnaire,Rural,13312,All,All
+Occupied,Full questionnaire,Rural,12469,All,All
+Interviewed,Full questionnaire,Rural,12318,All,All
+Household,Full questionnaire,Rural,98.8,All,Response Rate
+Selected,Full questionnaire,Urban,8657,All,All
+Occupied,Full questionnaire,Urban,7725,All,All
+Interviewed,Full questionnaire,Urban,7429,All,All
+Household,Full questionnaire,Urban,96.2,All,Response Rate
+Selected,Short questionnaire,Rural,12099,All,All
+Occupied,Short questionnaire,Rural,11392,All,All
+Interviewed,Short questionnaire,Rural,11263,All,All
+Household,Short questionnaire,Rural,98.9,All,Response Rate
+Selected,Short questionnaire,Urban,7954,All,All
+Occupied,Short questionnaire,Urban,7145,All,All
+Interviewed,Short questionnaire,Urban,6901,All,All
+Household,Short questionnaire,Urban,96.6,All,Response Rate
+Number of eligible women,All households,Rural,20750,Female,Eligible women
+Number of eligible women interviewed,All households,Rural,19770,Female,Women interviewed
+Eligible women,All households,Rural,95.3,Female,Response Rate
+Number of eligible women,All households,Urban,13129,Female,Eligible women
+Number of eligible women interviewed,All households,Urban,12386,Female,Women interviewed
+Eligible women,All households,Urban,94.3,Female,Response Rate
+Number of eligible women,Full questionnaire,Rural,10914,Female,Eligible women
+Number of eligible women interviewed,Full questionnaire,Rural,10384,Female,Women interviewed
+Eligible women,Full questionnaire,Rural,95.1,Female,Response Rate
+Number of eligible women,Full questionnaire,Urban,6911,Female,Eligible women
+Number of eligible women interviewed,Full questionnaire,Urban,6517,Female,Women interviewed
+Eligible women,Full questionnaire,Urban,94.3,Female,Response Rate
+Number of eligible women,Short questionnaire,Rural,9836,Female,Eligible women
+Number of eligible women interviewed,Short questionnaire,Rural,9386,Female,Women interviewed
+Eligible women,Short questionnaire,Rural,95.4,Female,Response Rate
+Number of eligible women,Short questionnaire,Urban,6218,Female,Eligible women
+Number of eligible women interviewed,Short questionnaire,Urban,5869,Female,Women interviewed
+Eligible women,Short questionnaire,Urban,94.4,Female,Response Rate
+Number of eligible men,Full questionnaire,Rural,10418,Male,Eligible men
+Number of eligible men interviewed,Full questionnaire,Rural,9221,Male,Men interviewed
+Eligible men,Full questionnaire,Rural,88.5,Male,Response Rate
+Number of eligible men,Full questionnaire,Urban,6134,Male,Eligible men
+Number of eligible men interviewed,Full questionnaire,Urban,5232,Male,Men interviewed
+Eligible men,Full questionnaire,Urban,85.3,Male,Response Rate

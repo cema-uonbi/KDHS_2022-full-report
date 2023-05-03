@@ -1,0 +1,253 @@
+Characteristic,Variable,category,proportion,type
+<20,Age at birth,Blood preassure measured,97.3,Women receiving ANC
+<20,Age at birth,Urine sample taken,95.6,Women receiving ANC
+<20,Age at birth,Blood sample taken,96.2,Women receiving ANC
+<20,Age at birth,Baby heartbeat listened,96.6,Women receiving ANC
+<20,Age at birth,Counseled about diet,79.1,Women receiving ANC
+<20,Age at birth,Counseled about breastfeeding,75.3,Women receiving ANC
+<20,Age at birth,Asked about vaginal bleeding,67.1,Women receiving ANC
+20-34,Age at birth,Blood preassure measured,98.1,Women receiving ANC
+20-34,Age at birth,Urine sample taken,96,Women receiving ANC
+20-34,Age at birth,Blood sample taken,97.6,Women receiving ANC
+20-34,Age at birth,Baby heartbeat listened,97.8,Women receiving ANC
+20-34,Age at birth,Counseled about diet,84.6,Women receiving ANC
+20-34,Age at birth,Counseled about breastfeeding,82.5,Women receiving ANC
+20-34,Age at birth,Asked about vaginal bleeding,77.3,Women receiving ANC
+35-49,Age at birth,Blood preassure measured,98.2,Women receiving ANC
+35-49,Age at birth,Urine sample taken,96.2,Women receiving ANC
+35-49,Age at birth,Blood sample taken,97.2,Women receiving ANC
+35-49,Age at birth,Baby heartbeat listened,97.6,Women receiving ANC
+35-49,Age at birth,Counseled about diet,84.3,Women receiving ANC
+35-49,Age at birth,Counseled about breastfeeding,80.4,Women receiving ANC
+35-49,Age at birth,Asked about vaginal bleeding,79.1,Women receiving ANC
+1,Birth order,Blood preassure measured,98,Women receiving ANC
+1,Birth order,Urine sample taken,96.1,Women receiving ANC
+1,Birth order,Blood sample taken,97.2,Women receiving ANC
+1,Birth order,Baby heartbeat listened,97.4,Women receiving ANC
+1,Birth order,Counseled about diet,84.1,Women receiving ANC
+1,Birth order,Counseled about breastfeeding,81.2,Women receiving ANC
+1,Birth order,Asked about vaginal bleeding,73.4,Women receiving ANC
+2-3,Birth order,Blood preassure measured,98.2,Women receiving ANC
+2-3,Birth order,Urine sample taken,96.8,Women receiving ANC
+2-3,Birth order,Blood sample taken,98.1,Women receiving ANC
+2-3,Birth order,Baby heartbeat listened,98.1,Women receiving ANC
+2-3,Birth order,Counseled about diet,85.4,Women receiving ANC
+2-3,Birth order,Counseled about breastfeeding,84,Women receiving ANC
+2-3,Birth order,Asked about vaginal bleeding,79,Women receiving ANC
+4-5,Birth order,Blood preassure measured,98.1,Women receiving ANC
+4-5,Birth order,Urine sample taken,95.6,Women receiving ANC
+4-5,Birth order,Blood sample taken,97.5,Women receiving ANC
+4-5,Birth order,Baby heartbeat listened,97.7,Women receiving ANC
+4-5,Birth order,Counseled about diet,82.4,Women receiving ANC
+4-5,Birth order,Counseled about breastfeeding,80.2,Women receiving ANC
+4-5,Birth order,Asked about vaginal bleeding,77.2,Women receiving ANC
+6+,Birth order,Blood preassure measured,96.9,Women receiving ANC
+6+,Birth order,Urine sample taken,92.4,Women receiving ANC
+6+,Birth order,Blood sample taken,94.5,Women receiving ANC
+6+,Birth order,Baby heartbeat listened,96.1,Women receiving ANC
+6+,Birth order,Counseled about diet,78.5,Women receiving ANC
+6+,Birth order,Counseled about breastfeeding,72.1,Women receiving ANC
+6+,Birth order,Asked about vaginal bleeding,70.6,Women receiving ANC
+Urban,Residence,Blood preassure measured,99.2,Women receiving ANC
+Urban,Residence,Urine sample taken,98.4,Women receiving ANC
+Urban,Residence,Blood sample taken,98.7,Women receiving ANC
+Urban,Residence,Baby heartbeat listened,98.4,Women receiving ANC
+Urban,Residence,Counseled about diet,89,Women receiving ANC
+Urban,Residence,Counseled about breastfeeding,88.2,Women receiving ANC
+Urban,Residence,Asked about vaginal bleeding,81.9,Women receiving ANC
+Rural,Residence,Blood preassure measured,97.3,Women receiving ANC
+Rural,Residence,Urine sample taken,94.6,Women receiving ANC
+Rural,Residence,Blood sample taken,96.6,Women receiving ANC
+Rural,Residence,Baby heartbeat listened,97.2,Women receiving ANC
+Rural,Residence,Counseled about diet,80.9,Women receiving ANC
+Rural,Residence,Counseled about breastfeeding,77.4,Women receiving ANC
+Rural,Residence,Asked about vaginal bleeding,72.9,Women receiving ANC
+No education,Education,Blood preassure measured,95.8,Women receiving ANC
+No education,Education,Urine sample taken,88.2,Women receiving ANC
+No education,Education,Blood sample taken,92.8,Women receiving ANC
+No education,Education,Baby heartbeat listened,91.8,Women receiving ANC
+No education,Education,Counseled about diet,75.2,Women receiving ANC
+No education,Education,Counseled about breastfeeding,69.2,Women receiving ANC
+No education,Education,Asked about vaginal bleeding,65.3,Women receiving ANC
+Primary,Education,Blood preassure measured,98.1,Women receiving ANC
+Primary,Education,Urine sample taken,95.8,Women receiving ANC
+Primary,Education,Blood sample taken,97.6,Women receiving ANC
+Primary,Education,Baby heartbeat listened,98.5,Women receiving ANC
+Primary,Education,Counseled about diet,81.3,Women receiving ANC
+Primary,Education,Counseled about breastfeeding,79.4,Women receiving ANC
+Primary,Education,Asked about vaginal bleeding,73.5,Women receiving ANC
+Secondary,Education,Blood preassure measured,97.9,Women receiving ANC
+Secondary,Education,Urine sample taken,96.8,Women receiving ANC
+Secondary,Education,Blood sample taken,97.4,Women receiving ANC
+Secondary,Education,Baby heartbeat listened,97.5,Women receiving ANC
+Secondary,Education,Counseled about diet,84.6,Women receiving ANC
+Secondary,Education,Counseled about breastfeeding,83.1,Women receiving ANC
+Secondary,Education,Asked about vaginal bleeding,78.4,Women receiving ANC
+More than secondary,Education,Blood preassure measured,99,Women receiving ANC
+More than secondary,Education,Urine sample taken,98.2,Women receiving ANC
+More than secondary,Education,Blood sample taken,99,Women receiving ANC
+More than secondary,Education,Baby heartbeat listened,99,Women receiving ANC
+More than secondary,Education,Counseled about diet,91.2,Women receiving ANC
+More than secondary,Education,Counseled about breastfeeding,87.3,Women receiving ANC
+More than secondary,Education,Asked about vaginal bleeding,82,Women receiving ANC
+Lowest,Wealth,Blood preassure measured,95.9,Women receiving ANC
+Lowest,Wealth,Urine sample taken,91.2,Women receiving ANC
+Lowest,Wealth,Blood sample taken,95.3,Women receiving ANC
+Lowest,Wealth,Baby heartbeat listened,95.5,Women receiving ANC
+Lowest,Wealth,Counseled about diet,76.2,Women receiving ANC
+Lowest,Wealth,Counseled about breastfeeding,71.9,Women receiving ANC
+Lowest,Wealth,Asked about vaginal bleeding,66.4,Women receiving ANC
+Second,Wealth,Blood preassure measured,98.1,Women receiving ANC
+Second,Wealth,Urine sample taken,95.8,Women receiving ANC
+Second,Wealth,Blood sample taken,96.9,Women receiving ANC
+Second,Wealth,Baby heartbeat listened,97.3,Women receiving ANC
+Second,Wealth,Counseled about diet,79.7,Women receiving ANC
+Second,Wealth,Counseled about breastfeeding,77.9,Women receiving ANC
+Second,Wealth,Asked about vaginal bleeding,74.5,Women receiving ANC
+Middle,Wealth,Blood preassure measured,98,Women receiving ANC
+Middle,Wealth,Urine sample taken,96.9,Women receiving ANC
+Middle,Wealth,Blood sample taken,97.8,Women receiving ANC
+Middle,Wealth,Baby heartbeat listened,98.2,Women receiving ANC
+Middle,Wealth,Counseled about diet,85.4,Women receiving ANC
+Middle,Wealth,Counseled about breastfeeding,82.6,Women receiving ANC
+Middle,Wealth,Asked about vaginal bleeding,77.5,Women receiving ANC
+Fourth,Wealth,Blood preassure measured,98.9,Women receiving ANC
+Fourth,Wealth,Urine sample taken,97.1,Women receiving ANC
+Fourth,Wealth,Blood sample taken,98.2,Women receiving ANC
+Fourth,Wealth,Baby heartbeat listened,98.3,Women receiving ANC
+Fourth,Wealth,Counseled about diet,88.4,Women receiving ANC
+Fourth,Wealth,Counseled about breastfeeding,85.6,Women receiving ANC
+Fourth,Wealth,Asked about vaginal bleeding,78.1,Women receiving ANC
+Highest,Wealth,Blood preassure measured,99.3,Women receiving ANC
+Highest,Wealth,Urine sample taken,99.3,Women receiving ANC
+Highest,Wealth,Blood sample taken,98.8,Women receiving ANC
+Highest,Wealth,Baby heartbeat listened,99.2,Women receiving ANC
+Highest,Wealth,Counseled about diet,89.6,Women receiving ANC
+Highest,Wealth,Counseled about breastfeeding,88.7,Women receiving ANC
+Highest,Wealth,Asked about vaginal bleeding,84.9,Women receiving ANC
+<20,Age at birth,Blood preassure measured,94.7,All women
+<20,Age at birth,Urine sample taken,93,All women
+<20,Age at birth,Blood sample taken,93.6,All women
+<20,Age at birth,Baby heartbeat listened,93.9,All women
+<20,Age at birth,Counseled about diet,77,All women
+<20,Age at birth,Counseled about breastfeeding,73.3,All women
+<20,Age at birth,Asked about vaginal bleeding,65.2,All women
+20-34,Age at birth,Blood preassure measured,96.6,All women
+20-34,Age at birth,Urine sample taken,94.6,All women
+20-34,Age at birth,Blood sample taken,96.1,All women
+20-34,Age at birth,Baby heartbeat listened,96.4,All women
+20-34,Age at birth,Counseled about diet,83.3,All women
+20-34,Age at birth,Counseled about breastfeeding,81.3,All women
+20-34,Age at birth,Asked about vaginal bleeding,76.1,All women
+35-49,Age at birth,Blood preassure measured,94.3,All women
+35-49,Age at birth,Urine sample taken,92.4,All women
+35-49,Age at birth,Blood sample taken,93.3,All women
+35-49,Age at birth,Baby heartbeat listened,93.7,All women
+35-49,Age at birth,Counseled about diet,81,All women
+35-49,Age at birth,Counseled about breastfeeding,77.2,All women
+35-49,Age at birth,Asked about vaginal bleeding,75.9,All women
+1,Birth order,Blood preassure measured,96.8,All women
+1,Birth order,Urine sample taken,94.9,All women
+1,Birth order,Blood sample taken,96,All women
+1,Birth order,Baby heartbeat listened,96.2,All women
+1,Birth order,Counseled about diet,83.1,All women
+1,Birth order,Counseled about breastfeeding,80.2,All women
+1,Birth order,Asked about vaginal bleeding,72.5,All women
+2-3,Birth order,Blood preassure measured,97.3,All women
+2-3,Birth order,Urine sample taken,95.9,All women
+2-3,Birth order,Blood sample taken,97.2,All women
+2-3,Birth order,Baby heartbeat listened,97.2,All women
+2-3,Birth order,Counseled about diet,84.7,All women
+2-3,Birth order,Counseled about breastfeeding,83.2,All women
+2-3,Birth order,Asked about vaginal bleeding,78.3,All women
+4-5,Birth order,Blood preassure measured,95,All women
+4-5,Birth order,Urine sample taken,92.6,All women
+4-5,Birth order,Blood sample taken,94.4,All women
+4-5,Birth order,Baby heartbeat listened,94.6,All women
+4-5,Birth order,Counseled about diet,79.8,All women
+4-5,Birth order,Counseled about breastfeeding,77.6,All women
+4-5,Birth order,Asked about vaginal bleeding,74.7,All women
+6+,Birth order,Blood preassure measured,90.7,All women
+6+,Birth order,Urine sample taken,86.5,All women
+6+,Birth order,Blood sample taken,88.5,All women
+6+,Birth order,Baby heartbeat listened,89.9,All women
+6+,Birth order,Counseled about diet,73.5,All women
+6+,Birth order,Counseled about breastfeeding,67.5,All women
+6+,Birth order,Asked about vaginal bleeding,66.1,All women
+Urban,Residence,Blood preassure measured,98.1,All women
+Urban,Residence,Urine sample taken,97.3,All women
+Urban,Residence,Blood sample taken,97.6,All women
+Urban,Residence,Baby heartbeat listened,97.2,All women
+Urban,Residence,Counseled about diet,88,All women
+Urban,Residence,Counseled about breastfeeding,87.2,All women
+Urban,Residence,Asked about vaginal bleeding,81,All women
+Rural,Residence,Blood preassure measured,94.9,All women
+Rural,Residence,Urine sample taken,92.3,All women
+Rural,Residence,Blood sample taken,94.3,All women
+Rural,Residence,Baby heartbeat listened,94.9,All women
+Rural,Residence,Counseled about diet,78.9,All women
+Rural,Residence,Counseled about breastfeeding,75.5,All women
+Rural,Residence,Asked about vaginal bleeding,71.1,All women
+No education,Education,Blood preassure measured,87.2,All women
+No education,Education,Urine sample taken,80.3,All women
+No education,Education,Blood sample taken,84.5,All women
+No education,Education,Baby heartbeat listened,83.6,All women
+No education,Education,Counseled about diet,68.4,All women
+No education,Education,Counseled about breastfeeding,63,All women
+No education,Education,Asked about vaginal bleeding,59.4,All women
+Primary,Education,Blood preassure measured,96.1,All women
+Primary,Education,Urine sample taken,93.8,All women
+Primary,Education,Blood sample taken,95.6,All women
+Primary,Education,Baby heartbeat listened,96.4,All women
+Primary,Education,Counseled about diet,79.6,All women
+Primary,Education,Counseled about breastfeeding,77.7,All women
+Primary,Education,Asked about vaginal bleeding,72,All women
+Secondary,Education,Blood preassure measured,97.1,All women
+Secondary,Education,Urine sample taken,96.1,All women
+Secondary,Education,Blood sample taken,96.6,All women
+Secondary,Education,Baby heartbeat listened,96.7,All women
+Secondary,Education,Counseled about diet,83.9,All women
+Secondary,Education,Counseled about breastfeeding,82.4,All women
+Secondary,Education,Asked about vaginal bleeding,77.7,All women
+More than secondary,Education,Blood preassure measured,98.6,All women
+More than secondary,Education,Urine sample taken,97.8,All women
+More than secondary,Education,Blood sample taken,98.6,All women
+More than secondary,Education,Baby heartbeat listened,98.6,All women
+More than secondary,Education,Counseled about diet,90.8,All women
+More than secondary,Education,Counseled about breastfeeding,86.9,All women
+More than secondary,Education,Asked about vaginal bleeding,81.7,All women
+Lowest,Wealth,Blood preassure measured,91.6,All women
+Lowest,Wealth,Urine sample taken,87.1,All women
+Lowest,Wealth,Blood sample taken,91,All women
+Lowest,Wealth,Baby heartbeat listened,91.2,All women
+Lowest,Wealth,Counseled about diet,72.8,All women
+Lowest,Wealth,Counseled about breastfeeding,68.7,All women
+Lowest,Wealth,Asked about vaginal bleeding,63.4,All women
+Second,Wealth,Blood preassure measured,96.1,All women
+Second,Wealth,Urine sample taken,93.8,All women
+Second,Wealth,Blood sample taken,94.9,All women
+Second,Wealth,Baby heartbeat listened,95.3,All women
+Second,Wealth,Counseled about diet,78.1,All women
+Second,Wealth,Counseled about breastfeeding,76.3,All women
+Second,Wealth,Asked about vaginal bleeding,73,All women
+Middle,Wealth,Blood preassure measured,96.4,All women
+Middle,Wealth,Urine sample taken,95.3,All women
+Middle,Wealth,Blood sample taken,96.3,All women
+Middle,Wealth,Baby heartbeat listened,96.6,All women
+Middle,Wealth,Counseled about diet,84,All women
+Middle,Wealth,Counseled about breastfeeding,81.3,All women
+Middle,Wealth,Asked about vaginal bleeding,76.2,All women
+Fourth,Wealth,Blood preassure measured,97.6,All women
+Fourth,Wealth,Urine sample taken,95.9,All women
+Fourth,Wealth,Blood sample taken,97,All women
+Fourth,Wealth,Baby heartbeat listened,97.1,All women
+Fourth,Wealth,Counseled about diet,87.3,All women
+Fourth,Wealth,Counseled about breastfeeding,84.6,All women
+Fourth,Wealth,Asked about vaginal bleeding,77.1,All women
+Highest,Wealth,Blood preassure measured,99,All women
+Highest,Wealth,Urine sample taken,99,All women
+Highest,Wealth,Blood sample taken,98.5,All women
+Highest,Wealth,Baby heartbeat listened,98.9,All women
+Highest,Wealth,Counseled about diet,89.4,All women
+Highest,Wealth,Counseled about breastfeeding,88.5,All women
+Highest,Wealth,Asked about vaginal bleeding,84.7,All women

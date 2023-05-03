@@ -1,0 +1,471 @@
+County,category,Value,Participants,type
+Mombasa,Registred by civil authority,35,All,Marriage registration
+Mombasa,Registred by civil authority with certificate,29.9,All,Marriage registration
+Kwale,Registred by civil authority,26.1,All,Marriage registration
+Kwale,Registred by civil authority with certificate,25.1,All,Marriage registration
+Kilifi,Registred by civil authority,13.2,All,Marriage registration
+Kilifi,Registred by civil authority with certificate,11.9,All,Marriage registration
+Tana River,Registred by civil authority,9.3,All,Marriage registration
+Tana River,Registred by civil authority with certificate,7.4,All,Marriage registration
+Lamu,Registred by civil authority,46.6,All,Marriage registration
+Lamu,Registred by civil authority with certificate,32.9,All,Marriage registration
+Taita Taveta,Registred by civil authority,16.1,All,Marriage registration
+Taita Taveta,Registred by civil authority with certificate,13.4,All,Marriage registration
+Garissa,Registred by civil authority,52.2,All,Marriage registration
+Garissa,Registred by civil authority with certificate,34.3,All,Marriage registration
+Wajir,Registred by civil authority,7.5,All,Marriage registration
+Wajir,Registred by civil authority with certificate,6.6,All,Marriage registration
+Mandera,Registred by civil authority,32.1,All,Marriage registration
+Mandera,Registred by civil authority with certificate,5,All,Marriage registration
+Marsabit,Registred by civil authority,3.4,All,Marriage registration
+Marsabit,Registred by civil authority with certificate,3.4,All,Marriage registration
+Isiolo,Registred by civil authority,40.3,All,Marriage registration
+Isiolo,Registred by civil authority with certificate,28.9,All,Marriage registration
+Meru,Registred by civil authority,21.5,All,Marriage registration
+Meru,Registred by civil authority with certificate,17.7,All,Marriage registration
+Tharaka Nithi,Registred by civil authority,26.2,All,Marriage registration
+Tharaka Nithi,Registred by civil authority with certificate,21.2,All,Marriage registration
+Embu,Registred by civil authority,26.6,All,Marriage registration
+Embu,Registred by civil authority with certificate,24.7,All,Marriage registration
+Kitui,Registred by civil authority,16.5,All,Marriage registration
+Kitui,Registred by civil authority with certificate,15.7,All,Marriage registration
+Machakos,Registred by civil authority,17.4,All,Marriage registration
+Machakos,Registred by civil authority with certificate,15,All,Marriage registration
+Makueni,Registred by civil authority,20.4,All,Marriage registration
+Makueni,Registred by civil authority with certificate,18.5,All,Marriage registration
+Nyandarua,Registred by civil authority,14.3,All,Marriage registration
+Nyandarua,Registred by civil authority with certificate,10,All,Marriage registration
+Nyeri,Registred by civil authority,20.1,All,Marriage registration
+Nyeri,Registred by civil authority with certificate,16.8,All,Marriage registration
+Kirinyaga,Registred by civil authority,17.1,All,Marriage registration
+Kirinyaga,Registred by civil authority with certificate,14.2,All,Marriage registration
+Muranga,Registred by civil authority,17.8,All,Marriage registration
+Muranga,Registred by civil authority with certificate,10.6,All,Marriage registration
+Kiambu,Registred by civil authority,14.8,All,Marriage registration
+Kiambu,Registred by civil authority with certificate,10.4,All,Marriage registration
+Turkana,Registred by civil authority,18.2,All,Marriage registration
+Turkana,Registred by civil authority with certificate,18.2,All,Marriage registration
+West Pokot,Registred by civil authority,9.4,All,Marriage registration
+West Pokot,Registred by civil authority with certificate,7.9,All,Marriage registration
+Samburu,Registred by civil authority,6.9,All,Marriage registration
+Samburu,Registred by civil authority with certificate,5.9,All,Marriage registration
+Trans Nzoia,Registred by civil authority,17.4,All,Marriage registration
+Trans Nzoia,Registred by civil authority with certificate,13.1,All,Marriage registration
+Uasin Gishu,Registred by civil authority,24.6,All,Marriage registration
+Uasin Gishu,Registred by civil authority with certificate,21.7,All,Marriage registration
+Elgeyo Marakwet,Registred by civil authority,14.8,All,Marriage registration
+Elgeyo Marakwet,Registred by civil authority with certificate,13.2,All,Marriage registration
+Nandi,Registred by civil authority,25.8,All,Marriage registration
+Nandi,Registred by civil authority with certificate,24.8,All,Marriage registration
+Baringo,Registred by civil authority,18.4,All,Marriage registration
+Baringo,Registred by civil authority with certificate,11.3,All,Marriage registration
+Laikipia,Registred by civil authority,15.6,All,Marriage registration
+Laikipia,Registred by civil authority with certificate,13.3,All,Marriage registration
+Nakuru,Registred by civil authority,15.6,All,Marriage registration
+Nakuru,Registred by civil authority with certificate,12.6,All,Marriage registration
+Narok,Registred by civil authority,12.9,All,Marriage registration
+Narok,Registred by civil authority with certificate,10.6,All,Marriage registration
+Kajiado,Registred by civil authority,22.5,All,Marriage registration
+Kajiado,Registred by civil authority with certificate,19.7,All,Marriage registration
+Kericho,Registred by civil authority,37.6,All,Marriage registration
+Kericho,Registred by civil authority with certificate,28.8,All,Marriage registration
+Bomet,Registred by civil authority,30.1,All,Marriage registration
+Bomet,Registred by civil authority with certificate,16.9,All,Marriage registration
+Kakamega,Registred by civil authority,14.5,All,Marriage registration
+Kakamega,Registred by civil authority with certificate,11,All,Marriage registration
+Vihiga,Registred by civil authority,11.7,All,Marriage registration
+Vihiga,Registred by civil authority with certificate,8.3,All,Marriage registration
+Bungoma,Registred by civil authority,14.3,All,Marriage registration
+Bungoma,Registred by civil authority with certificate,11.3,All,Marriage registration
+Busia,Registred by civil authority,12.1,All,Marriage registration
+Busia,Registred by civil authority with certificate,10.6,All,Marriage registration
+Siaya,Registred by civil authority,10.5,All,Marriage registration
+Siaya,Registred by civil authority with certificate,8,All,Marriage registration
+Kisumu,Registred by civil authority,12.8,All,Marriage registration
+Kisumu,Registred by civil authority with certificate,11.6,All,Marriage registration
+Homa Bay,Registred by civil authority,11.4,All,Marriage registration
+Homa Bay,Registred by civil authority with certificate,8.2,All,Marriage registration
+Migori,Registred by civil authority,15.8,All,Marriage registration
+Migori,Registred by civil authority with certificate,8.4,All,Marriage registration
+Kisii,Registred by civil authority,12.4,All,Marriage registration
+Kisii,Registred by civil authority with certificate,11.3,All,Marriage registration
+Nyamira,Registred by civil authority,8.6,All,Marriage registration
+Nyamira,Registred by civil authority with certificate,6.6,All,Marriage registration
+Nairobi,Registred by civil authority,24.3,All,Marriage registration
+Nairobi,Registred by civil authority with certificate,21.3,All,Marriage registration
+Mombasa,Women (20-49 yrs),NA,Women,Age first marriage
+Mombasa,Women (25-49 yrs),22.1,Women,Age first marriage
+Mombasa,Men (25-54 yrs),NA,Men,Age first marriage
+Mombasa,Men (35-54 yrs),25.5,Men,Age first marriage
+Kwale,Women (20-49 yrs),19.7,Women,Age first marriage
+Kwale,Women (25-49 yrs),19.2,Women,Age first marriage
+Kwale,Men (25-54 yrs),24.4,Men,Age first marriage
+Kwale,Men (35-54 yrs),24.2,Men,Age first marriage
+Kilifi,Women (20-49 yrs),NA,Women,Age first marriage
+Kilifi,Women (25-49 yrs),19.5,Women,Age first marriage
+Kilifi,Men (25-54 yrs),NA,Men,Age first marriage
+Kilifi,Men (35-54 yrs),25.7,Men,Age first marriage
+Tana River,Women (20-49 yrs),18.7,Women,Age first marriage
+Tana River,Women (25-49 yrs),18.8,Women,Age first marriage
+Tana River,Men (25-54 yrs),23.9,Men,Age first marriage
+Tana River,Men (35-54 yrs),24.5,Men,Age first marriage
+Lamu,Women (20-49 yrs),NA,Women,Age first marriage
+Lamu,Women (25-49 yrs),20.3,Women,Age first marriage
+Lamu,Men (25-54 yrs),NA,Men,Age first marriage
+Lamu,Men (35-54 yrs),25.5,Men,Age first marriage
+Taita Taveta,Women (20-49 yrs),NA,Women,Age first marriage
+Taita Taveta,Women (25-49 yrs),21.6,Women,Age first marriage
+Taita Taveta,Men (25-54 yrs),NA,Men,Age first marriage
+Taita Taveta,Men (35-54 yrs),28,Men,Age first marriage
+Garissa,Women (20-49 yrs),19.1,Women,Age first marriage
+Garissa,Women (25-49 yrs),18.7,Women,Age first marriage
+Garissa,Men (25-54 yrs),NA,Men,Age first marriage
+Garissa,Men (35-54 yrs),25.1,Men,Age first marriage
+Wajir,Women (20-49 yrs),19.5,Women,Age first marriage
+Wajir,Women (25-49 yrs),19.2,Women,Age first marriage
+Wajir,Men (25-54 yrs),NA,Men,Age first marriage
+Wajir,Men (35-54 yrs),26,Men,Age first marriage
+Mandera,Women (20-49 yrs),19,Women,Age first marriage
+Mandera,Women (25-49 yrs),18.8,Women,Age first marriage
+Mandera,Men (25-54 yrs),NA,Men,Age first marriage
+Mandera,Men (35-54 yrs),25.7,Men,Age first marriage
+Marsabit,Women (20-49 yrs),19.5,Women,Age first marriage
+Marsabit,Women (25-49 yrs),19.7,Women,Age first marriage
+Marsabit,Men (25-54 yrs),NA,Men,Age first marriage
+Marsabit,Men (35-54 yrs),27.5,Men,Age first marriage
+Isiolo,Women (20-49 yrs),NA,Women,Age first marriage
+Isiolo,Women (25-49 yrs),20,Women,Age first marriage
+Isiolo,Men (25-54 yrs),NA,Men,Age first marriage
+Isiolo,Men (35-54 yrs),24.9,Men,Age first marriage
+Meru,Women (20-49 yrs),NA,Women,Age first marriage
+Meru,Women (25-49 yrs),20,Women,Age first marriage
+Meru,Men (25-54 yrs),NA,Men,Age first marriage
+Meru,Men (35-54 yrs),25.5,Men,Age first marriage
+Tharaka Nithi,Women (20-49 yrs),NA,Women,Age first marriage
+Tharaka Nithi,Women (25-49 yrs),21.3,Women,Age first marriage
+Tharaka Nithi,Men (25-54 yrs),24.5,Men,Age first marriage
+Tharaka Nithi,Men (35-54 yrs),24.2,Men,Age first marriage
+Embu,Women (20-49 yrs),NA,Women,Age first marriage
+Embu,Women (25-49 yrs),21.9,Women,Age first marriage
+Embu,Men (25-54 yrs),NA,Men,Age first marriage
+Embu,Men (35-54 yrs),26.7,Men,Age first marriage
+Kitui,Women (20-49 yrs),NA,Women,Age first marriage
+Kitui,Women (25-49 yrs),20.6,Women,Age first marriage
+Kitui,Men (25-54 yrs),NA,Men,Age first marriage
+Kitui,Men (35-54 yrs),26.4,Men,Age first marriage
+Machakos,Women (20-49 yrs),NA,Women,Age first marriage
+Machakos,Women (25-49 yrs),22.2,Women,Age first marriage
+Machakos,Men (25-54 yrs),NA,Men,Age first marriage
+Machakos,Men (35-54 yrs),25.4,Men,Age first marriage
+Makueni,Women (20-49 yrs),NA,Women,Age first marriage
+Makueni,Women (25-49 yrs),21.9,Women,Age first marriage
+Makueni,Men (25-54 yrs),NA,Men,Age first marriage
+Makueni,Men (35-54 yrs),25.7,Men,Age first marriage
+Nyandarua,Women (20-49 yrs),NA,Women,Age first marriage
+Nyandarua,Women (25-49 yrs),20.5,Women,Age first marriage
+Nyandarua,Men (25-54 yrs),NA,Men,Age first marriage
+Nyandarua,Men (35-54 yrs),25.7,Men,Age first marriage
+Nyeri,Women (20-49 yrs),NA,Women,Age first marriage
+Nyeri,Women (25-49 yrs),22.9,Women,Age first marriage
+Nyeri,Men (25-54 yrs),NA,Men,Age first marriage
+Nyeri,Men (35-54 yrs),27.3,Men,Age first marriage
+Kirinyaga,Women (20-49 yrs),NA,Women,Age first marriage
+Kirinyaga,Women (25-49 yrs),21.6,Women,Age first marriage
+Kirinyaga,Men (25-54 yrs),NA,Men,Age first marriage
+Kirinyaga,Men (35-54 yrs),27.3,Men,Age first marriage
+Muranga,Women (20-49 yrs),NA,Women,Age first marriage
+Muranga,Women (25-49 yrs),21.9,Women,Age first marriage
+Muranga,Men (25-54 yrs),NA,Men,Age first marriage
+Muranga,Men (35-54 yrs),25.1,Men,Age first marriage
+Kiambu,Women (20-49 yrs),NA,Women,Age first marriage
+Kiambu,Women (25-49 yrs),22.4,Women,Age first marriage
+Kiambu,Men (25-54 yrs),NA,Men,Age first marriage
+Kiambu,Men (35-54 yrs),26.6,Men,Age first marriage
+Turkana,Women (20-49 yrs),NA,Women,Age first marriage
+Turkana,Women (25-49 yrs),20.4,Women,Age first marriage
+Turkana,Men (25-54 yrs),25,Men,Age first marriage
+Turkana,Men (35-54 yrs),25.4,Men,Age first marriage
+West Pokot,Women (20-49 yrs),19.7,Women,Age first marriage
+West Pokot,Women (25-49 yrs),19.6,Women,Age first marriage
+West Pokot,Men (25-54 yrs),24.1,Men,Age first marriage
+West Pokot,Men (35-54 yrs),23.9,Men,Age first marriage
+Samburu,Women (20-49 yrs),18.2,Women,Age first marriage
+Samburu,Women (25-49 yrs),17.7,Women,Age first marriage
+Samburu,Men (25-54 yrs),NA,Men,Age first marriage
+Samburu,Men (35-54 yrs),28,Men,Age first marriage
+Trans Nzoia,Women (20-49 yrs),NA,Women,Age first marriage
+Trans Nzoia,Women (25-49 yrs),20.3,Women,Age first marriage
+Trans Nzoia,Men (25-54 yrs),NA,Men,Age first marriage
+Trans Nzoia,Men (35-54 yrs),26.4,Men,Age first marriage
+Uasin Gishu,Women (20-49 yrs),NA,Women,Age first marriage
+Uasin Gishu,Women (25-49 yrs),22,Women,Age first marriage
+Uasin Gishu,Men (25-54 yrs),NA,Men,Age first marriage
+Uasin Gishu,Men (35-54 yrs),26.7,Men,Age first marriage
+Elgeyo Marakwet,Women (20-49 yrs),NA,Women,Age first marriage
+Elgeyo Marakwet,Women (25-49 yrs),21.5,Women,Age first marriage
+Elgeyo Marakwet,Men (25-54 yrs),NA,Men,Age first marriage
+Elgeyo Marakwet,Men (35-54 yrs),25.3,Men,Age first marriage
+Nandi,Women (20-49 yrs),NA,Women,Age first marriage
+Nandi,Women (25-49 yrs),21.8,Women,Age first marriage
+Nandi,Men (25-54 yrs),NA,Men,Age first marriage
+Nandi,Men (35-54 yrs),25.6,Men,Age first marriage
+Baringo,Women (20-49 yrs),NA,Women,Age first marriage
+Baringo,Women (25-49 yrs),21.6,Women,Age first marriage
+Baringo,Men (25-54 yrs),NA,Men,Age first marriage
+Baringo,Men (35-54 yrs),26.2,Men,Age first marriage
+Laikipia,Women (20-49 yrs),NA,Women,Age first marriage
+Laikipia,Women (25-49 yrs),21.4,Women,Age first marriage
+Laikipia,Men (25-54 yrs),NA,Men,Age first marriage
+Laikipia,Men (35-54 yrs),25.8,Men,Age first marriage
+Nakuru,Women (20-49 yrs),NA,Women,Age first marriage
+Nakuru,Women (25-49 yrs),21.3,Women,Age first marriage
+Nakuru,Men (25-54 yrs),NA,Men,Age first marriage
+Nakuru,Men (35-54 yrs),25.5,Men,Age first marriage
+Narok,Women (20-49 yrs),19.1,Women,Age first marriage
+Narok,Women (25-49 yrs),18.5,Women,Age first marriage
+Narok,Men (25-54 yrs),NA,Men,Age first marriage
+Narok,Men (35-54 yrs),25.7,Men,Age first marriage
+Kajiado,Women (20-49 yrs),NA,Women,Age first marriage
+Kajiado,Women (25-49 yrs),22,Women,Age first marriage
+Kajiado,Men (25-54 yrs),NA,Men,Age first marriage
+Kajiado,Men (35-54 yrs),26.9,Men,Age first marriage
+Kericho,Women (20-49 yrs),NA,Women,Age first marriage
+Kericho,Women (25-49 yrs),21.1,Women,Age first marriage
+Kericho,Men (25-54 yrs),NA,Men,Age first marriage
+Kericho,Men (35-54 yrs),26.1,Men,Age first marriage
+Bomet,Women (20-49 yrs),19.7,Women,Age first marriage
+Bomet,Women (25-49 yrs),19.2,Women,Age first marriage
+Bomet,Men (25-54 yrs),NA,Men,Age first marriage
+Bomet,Men (35-54 yrs),25.6,Men,Age first marriage
+Kakamega,Women (20-49 yrs),NA,Women,Age first marriage
+Kakamega,Women (25-49 yrs),20.8,Women,Age first marriage
+Kakamega,Men (25-54 yrs),NA,Men,Age first marriage
+Kakamega,Men (35-54 yrs),26.3,Men,Age first marriage
+Vihiga,Women (20-49 yrs),NA,Women,Age first marriage
+Vihiga,Women (25-49 yrs),20.6,Women,Age first marriage
+Vihiga,Men (25-54 yrs),24.8,Men,Age first marriage
+Vihiga,Men (35-54 yrs),24.5,Men,Age first marriage
+Bungoma,Women (20-49 yrs),NA,Women,Age first marriage
+Bungoma,Women (25-49 yrs),20,Women,Age first marriage
+Bungoma,Men (25-54 yrs),24.4,Men,Age first marriage
+Bungoma,Men (35-54 yrs),23.8,Men,Age first marriage
+Busia,Women (20-49 yrs),NA,Women,Age first marriage
+Busia,Women (25-49 yrs),20,Women,Age first marriage
+Busia,Men (25-54 yrs),24.1,Men,Age first marriage
+Busia,Men (35-54 yrs),23.6,Men,Age first marriage
+Siaya,Women (20-49 yrs),19.9,Women,Age first marriage
+Siaya,Women (25-49 yrs),19.2,Women,Age first marriage
+Siaya,Men (25-54 yrs),NA,Men,Age first marriage
+Siaya,Men (35-54 yrs),25.2,Men,Age first marriage
+Kisumu,Women (20-49 yrs),NA,Women,Age first marriage
+Kisumu,Women (25-49 yrs),19.7,Women,Age first marriage
+Kisumu,Men (25-54 yrs),NA,Men,Age first marriage
+Kisumu,Men (35-54 yrs),25.1,Men,Age first marriage
+Homa Bay,Women (20-49 yrs),19.1,Women,Age first marriage
+Homa Bay,Women (25-49 yrs),18.4,Women,Age first marriage
+Homa Bay,Men (25-54 yrs),23.9,Men,Age first marriage
+Homa Bay,Men (35-54 yrs),23.4,Men,Age first marriage
+Migori,Women (20-49 yrs),18.4,Women,Age first marriage
+Migori,Women (25-49 yrs),18,Women,Age first marriage
+Migori,Men (25-54 yrs),23.3,Men,Age first marriage
+Migori,Men (35-54 yrs),23,Men,Age first marriage
+Kisii,Women (20-49 yrs),19.9,Women,Age first marriage
+Kisii,Women (25-49 yrs),19.5,Women,Age first marriage
+Kisii,Men (25-54 yrs),24.7,Men,Age first marriage
+Kisii,Men (35-54 yrs),24.5,Men,Age first marriage
+Nyamira,Women (20-49 yrs),19.6,Women,Age first marriage
+Nyamira,Women (25-49 yrs),19.2,Women,Age first marriage
+Nyamira,Men (25-54 yrs),NA,Men,Age first marriage
+Nyamira,Men (35-54 yrs),25.2,Men,Age first marriage
+Nairobi,Women (20-49 yrs),NA,Women,Age first marriage
+Nairobi,Women (25-49 yrs),23,Women,Age first marriage
+Nairobi,Men (25-54 yrs),NA,Men,Age first marriage
+Nairobi,Men (35-54 yrs),26.7,Men,Age first marriage
+Mombasa,Women (20-49 yrs),19.7,Women,Age first sexual intercourse
+Mombasa,Women (25-49 yrs),19.6,Women,Age first sexual intercourse
+Mombasa,men.20_54,18.7,Men,Age first sexual intercourse
+Mombasa,Men (25-54 yrs),18.6,Men,Age first sexual intercourse
+Kwale,Women (20-49 yrs),18.1,Women,Age first sexual intercourse
+Kwale,Women (25-49 yrs),17.4,Women,Age first sexual intercourse
+Kwale,men.20_54,18.2,Men,Age first sexual intercourse
+Kwale,Men (25-54 yrs),18.2,Men,Age first sexual intercourse
+Kilifi,Women (20-49 yrs),18.3,Women,Age first sexual intercourse
+Kilifi,Women (25-49 yrs),17.9,Women,Age first sexual intercourse
+Kilifi,men.20_54,18.7,Men,Age first sexual intercourse
+Kilifi,Men (25-54 yrs),18.8,Men,Age first sexual intercourse
+Tana River,Women (20-49 yrs),17.7,Women,Age first sexual intercourse
+Tana River,Women (25-49 yrs),17.4,Women,Age first sexual intercourse
+Tana River,men.20_54,NA,Men,Age first sexual intercourse
+Tana River,Men (25-54 yrs),20.9,Men,Age first sexual intercourse
+Lamu,Women (20-49 yrs),18.5,Women,Age first sexual intercourse
+Lamu,Women (25-49 yrs),18.4,Women,Age first sexual intercourse
+Lamu,men.20_54,NA,Men,Age first sexual intercourse
+Lamu,Men (25-54 yrs),20.7,Men,Age first sexual intercourse
+Taita Taveta,Women (20-49 yrs),18.6,Women,Age first sexual intercourse
+Taita Taveta,Women (25-49 yrs),18.6,Women,Age first sexual intercourse
+Taita Taveta,men.20_54,18.1,Men,Age first sexual intercourse
+Taita Taveta,Men (25-54 yrs),18.3,Men,Age first sexual intercourse
+Garissa,Women (20-49 yrs),17.7,Women,Age first sexual intercourse
+Garissa,Women (25-49 yrs),17.1,Women,Age first sexual intercourse
+Garissa,men.20_54,NA,Men,Age first sexual intercourse
+Garissa,Men (25-54 yrs),22.3,Men,Age first sexual intercourse
+Wajir,Women (20-49 yrs),17.7,Women,Age first sexual intercourse
+Wajir,Women (25-49 yrs),17.4,Women,Age first sexual intercourse
+Wajir,men.20_54,NA,Men,Age first sexual intercourse
+Wajir,Men (25-54 yrs),22.4,Men,Age first sexual intercourse
+Mandera,Women (20-49 yrs),18.1,Women,Age first sexual intercourse
+Mandera,Women (25-49 yrs),17.8,Women,Age first sexual intercourse
+Mandera,men.20_54,NA,Men,Age first sexual intercourse
+Mandera,Men (25-54 yrs),24.9,Men,Age first sexual intercourse
+Marsabit,Women (20-49 yrs),18.2,Women,Age first sexual intercourse
+Marsabit,Women (25-49 yrs),18.2,Women,Age first sexual intercourse
+Marsabit,men.20_54,19.9,Men,Age first sexual intercourse
+Marsabit,Men (25-54 yrs),20.3,Men,Age first sexual intercourse
+Isiolo,Women (20-49 yrs),18.6,Women,Age first sexual intercourse
+Isiolo,Women (25-49 yrs),18.4,Women,Age first sexual intercourse
+Isiolo,men.20_54,17.4,Men,Age first sexual intercourse
+Isiolo,Men (25-54 yrs),17.4,Men,Age first sexual intercourse
+Meru,Women (20-49 yrs),17.9,Women,Age first sexual intercourse
+Meru,Women (25-49 yrs),17.8,Women,Age first sexual intercourse
+Meru,men.20_54,17.8,Men,Age first sexual intercourse
+Meru,Men (25-54 yrs),17.6,Men,Age first sexual intercourse
+Tharaka Nithi,Women (20-49 yrs),19.1,Women,Age first sexual intercourse
+Tharaka Nithi,Women (25-49 yrs),18.9,Women,Age first sexual intercourse
+Tharaka Nithi,men.20_54,15.8,Men,Age first sexual intercourse
+Tharaka Nithi,Men (25-54 yrs),15.7,Men,Age first sexual intercourse
+Embu,Women (20-49 yrs),18.6,Women,Age first sexual intercourse
+Embu,Women (25-49 yrs),18.6,Women,Age first sexual intercourse
+Embu,men.20_54,18.9,Men,Age first sexual intercourse
+Embu,Men (25-54 yrs),19.6,Men,Age first sexual intercourse
+Kitui,Women (20-49 yrs),18.2,Women,Age first sexual intercourse
+Kitui,Women (25-49 yrs),18,Women,Age first sexual intercourse
+Kitui,men.20_54,18.5,Men,Age first sexual intercourse
+Kitui,Men (25-54 yrs),18.6,Men,Age first sexual intercourse
+Machakos,Women (20-49 yrs),18.5,Women,Age first sexual intercourse
+Machakos,Women (25-49 yrs),18.3,Women,Age first sexual intercourse
+Machakos,men.20_54,15.9,Men,Age first sexual intercourse
+Machakos,Men (25-54 yrs),15.7,Men,Age first sexual intercourse
+Makueni,Women (20-49 yrs),18.4,Women,Age first sexual intercourse
+Makueni,Women (25-49 yrs),18,Women,Age first sexual intercourse
+Makueni,men.20_54,18.2,Men,Age first sexual intercourse
+Makueni,Men (25-54 yrs),18.4,Men,Age first sexual intercourse
+Nyandarua,Women (20-49 yrs),18.8,Women,Age first sexual intercourse
+Nyandarua,Women (25-49 yrs),18.5,Women,Age first sexual intercourse
+Nyandarua,men.20_54,18.9,Men,Age first sexual intercourse
+Nyandarua,Men (25-54 yrs),19.3,Men,Age first sexual intercourse
+Nyeri,Women (20-49 yrs),19.5,Women,Age first sexual intercourse
+Nyeri,Women (25-49 yrs),19.4,Women,Age first sexual intercourse
+Nyeri,men.20_54,18.7,Men,Age first sexual intercourse
+Nyeri,Men (25-54 yrs),19,Men,Age first sexual intercourse
+Kirinyaga,Women (20-49 yrs),18.5,Women,Age first sexual intercourse
+Kirinyaga,Women (25-49 yrs),18.4,Women,Age first sexual intercourse
+Kirinyaga,men.20_54,NA,Men,Age first sexual intercourse
+Kirinyaga,Men (25-54 yrs),22.1,Men,Age first sexual intercourse
+Muranga,Women (20-49 yrs),17.9,Women,Age first sexual intercourse
+Muranga,Women (25-49 yrs),17.5,Women,Age first sexual intercourse
+Muranga,men.20_54,18.2,Men,Age first sexual intercourse
+Muranga,Men (25-54 yrs),18,Men,Age first sexual intercourse
+Kiambu,Women (20-49 yrs),19.4,Women,Age first sexual intercourse
+Kiambu,Women (25-49 yrs),19.3,Women,Age first sexual intercourse
+Kiambu,men.20_54,18.2,Men,Age first sexual intercourse
+Kiambu,Men (25-54 yrs),18,Men,Age first sexual intercourse
+Turkana,Women (20-49 yrs),18.4,Women,Age first sexual intercourse
+Turkana,Women (25-49 yrs),18.4,Women,Age first sexual intercourse
+Turkana,men.20_54,18.1,Men,Age first sexual intercourse
+Turkana,Men (25-54 yrs),18.4,Men,Age first sexual intercourse
+West Pokot,Women (20-49 yrs),15.8,Women,Age first sexual intercourse
+West Pokot,Women (25-49 yrs),15.7,Women,Age first sexual intercourse
+West Pokot,men.20_54,15.2,Men,Age first sexual intercourse
+West Pokot,Men (25-54 yrs),15.4,Men,Age first sexual intercourse
+Samburu,Women (20-49 yrs),15.6,Women,Age first sexual intercourse
+Samburu,Women (25-49 yrs),15.6,Women,Age first sexual intercourse
+Samburu,men.20_54,18.6,Men,Age first sexual intercourse
+Samburu,Men (25-54 yrs),19,Men,Age first sexual intercourse
+Trans Nzoia,Women (20-49 yrs),18,Women,Age first sexual intercourse
+Trans Nzoia,Women (25-49 yrs),18,Women,Age first sexual intercourse
+Trans Nzoia,men.20_54,17.6,Men,Age first sexual intercourse
+Trans Nzoia,Men (25-54 yrs),17.3,Men,Age first sexual intercourse
+Uasin Gishu,Women (20-49 yrs),19,Women,Age first sexual intercourse
+Uasin Gishu,Women (25-49 yrs),18.7,Women,Age first sexual intercourse
+Uasin Gishu,men.20_54,17.4,Men,Age first sexual intercourse
+Uasin Gishu,Men (25-54 yrs),17.2,Men,Age first sexual intercourse
+Elgeyo Marakwet,Women (20-49 yrs),18,Women,Age first sexual intercourse
+Elgeyo Marakwet,Women (25-49 yrs),17.9,Women,Age first sexual intercourse
+Elgeyo Marakwet,men.20_54,15.7,Men,Age first sexual intercourse
+Elgeyo Marakwet,Men (25-54 yrs),15.7,Men,Age first sexual intercourse
+Nandi,Women (20-49 yrs),17.7,Women,Age first sexual intercourse
+Nandi,Women (25-49 yrs),17.1,Women,Age first sexual intercourse
+Nandi,men.20_54,16.9,Men,Age first sexual intercourse
+Nandi,Men (25-54 yrs),16.4,Men,Age first sexual intercourse
+Baringo,Women (20-49 yrs),16.6,Women,Age first sexual intercourse
+Baringo,Women (25-49 yrs),16.2,Women,Age first sexual intercourse
+Baringo,men.20_54,16.5,Men,Age first sexual intercourse
+Baringo,Men (25-54 yrs),16.5,Men,Age first sexual intercourse
+Laikipia,Women (20-49 yrs),18.8,Women,Age first sexual intercourse
+Laikipia,Women (25-49 yrs),18.6,Women,Age first sexual intercourse
+Laikipia,men.20_54,17.7,Men,Age first sexual intercourse
+Laikipia,Men (25-54 yrs),17.9,Men,Age first sexual intercourse
+Nakuru,Women (20-49 yrs),18.7,Women,Age first sexual intercourse
+Nakuru,Women (25-49 yrs),18.4,Women,Age first sexual intercourse
+Nakuru,men.20_54,15.9,Men,Age first sexual intercourse
+Nakuru,Men (25-54 yrs),15.7,Men,Age first sexual intercourse
+Narok,Women (20-49 yrs),16.4,Women,Age first sexual intercourse
+Narok,Women (25-49 yrs),16,Women,Age first sexual intercourse
+Narok,men.20_54,16.5,Men,Age first sexual intercourse
+Narok,Men (25-54 yrs),16.7,Men,Age first sexual intercourse
+Kajiado,Women (20-49 yrs),18.6,Women,Age first sexual intercourse
+Kajiado,Women (25-49 yrs),18.7,Women,Age first sexual intercourse
+Kajiado,men.20_54,16.9,Men,Age first sexual intercourse
+Kajiado,Men (25-54 yrs),16.5,Men,Age first sexual intercourse
+Kericho,Women (20-49 yrs),15.9,Women,Age first sexual intercourse
+Kericho,Women (25-49 yrs),15.8,Women,Age first sexual intercourse
+Kericho,men.20_54,15.7,Men,Age first sexual intercourse
+Kericho,Men (25-54 yrs),15.7,Men,Age first sexual intercourse
+Bomet,Women (20-49 yrs),17.2,Women,Age first sexual intercourse
+Bomet,Women (25-49 yrs),16.8,Women,Age first sexual intercourse
+Bomet,men.20_54,18.1,Men,Age first sexual intercourse
+Bomet,Men (25-54 yrs),18.3,Men,Age first sexual intercourse
+Kakamega,Women (20-49 yrs),17.6,Women,Age first sexual intercourse
+Kakamega,Women (25-49 yrs),17.4,Women,Age first sexual intercourse
+Kakamega,men.20_54,16.9,Men,Age first sexual intercourse
+Kakamega,Men (25-54 yrs),16.7,Men,Age first sexual intercourse
+Vihiga,Women (20-49 yrs),17.7,Women,Age first sexual intercourse
+Vihiga,Women (25-49 yrs),17.5,Women,Age first sexual intercourse
+Vihiga,men.20_54,17.5,Men,Age first sexual intercourse
+Vihiga,Men (25-54 yrs),17.1,Men,Age first sexual intercourse
+Bungoma,Women (20-49 yrs),17.8,Women,Age first sexual intercourse
+Bungoma,Women (25-49 yrs),17.6,Women,Age first sexual intercourse
+Bungoma,men.20_54,18.1,Men,Age first sexual intercourse
+Bungoma,Men (25-54 yrs),18.4,Men,Age first sexual intercourse
+Busia,Women (20-49 yrs),16.4,Women,Age first sexual intercourse
+Busia,Women (25-49 yrs),16.2,Women,Age first sexual intercourse
+Busia,men.20_54,17.7,Men,Age first sexual intercourse
+Busia,Men (25-54 yrs),17.4,Men,Age first sexual intercourse
+Siaya,Women (20-49 yrs),16.3,Women,Age first sexual intercourse
+Siaya,Women (25-49 yrs),16,Women,Age first sexual intercourse
+Siaya,men.20_54,17,Men,Age first sexual intercourse
+Siaya,Men (25-54 yrs),16.4,Men,Age first sexual intercourse
+Kisumu,Women (20-49 yrs),16.5,Women,Age first sexual intercourse
+Kisumu,Women (25-49 yrs),16.1,Women,Age first sexual intercourse
+Kisumu,men.20_54,17.1,Men,Age first sexual intercourse
+Kisumu,Men (25-54 yrs),17,Men,Age first sexual intercourse
+Homa Bay,Women (20-49 yrs),16,Women,Age first sexual intercourse
+Homa Bay,Women (25-49 yrs),15.7,Women,Age first sexual intercourse
+Homa Bay,men.20_54,17,Men,Age first sexual intercourse
+Homa Bay,Men (25-54 yrs),16.9,Men,Age first sexual intercourse
+Migori,Women (20-49 yrs),16,Women,Age first sexual intercourse
+Migori,Women (25-49 yrs),15.8,Women,Age first sexual intercourse
+Migori,men.20_54,15.9,Men,Age first sexual intercourse
+Migori,Men (25-54 yrs),16,Men,Age first sexual intercourse
+Kisii,Women (20-49 yrs),16.6,Women,Age first sexual intercourse
+Kisii,Women (25-49 yrs),16.3,Women,Age first sexual intercourse
+Kisii,men.20_54,16.9,Men,Age first sexual intercourse
+Kisii,Men (25-54 yrs),16.8,Men,Age first sexual intercourse
+Nyamira,Women (20-49 yrs),16.1,Women,Age first sexual intercourse
+Nyamira,Women (25-49 yrs),15.9,Women,Age first sexual intercourse
+Nyamira,men.20_54,16.4,Men,Age first sexual intercourse
+Nyamira,Men (25-54 yrs),16.3,Men,Age first sexual intercourse
+Nairobi,Women (20-49 yrs),19,Women,Age first sexual intercourse
+Nairobi,Women (25-49 yrs),18.9,Women,Age first sexual intercourse
+Nairobi,men.20_54,18.1,Men,Age first sexual intercourse
+Nairobi,Men (25-54 yrs),18.2,Men,Age first sexual intercourse

@@ -1,0 +1,65 @@
+Background characteristic,Category,variable,value
+Age,15-19,Doctor/medical personnel,4.6
+Age,20-24,Doctor/medical personnel,9.2
+Age,25-29,Doctor/medical personnel,3.2
+Age,30-39,Doctor/medical personnel,8.8
+Age,40-49,Doctor/medical personnel,6.7
+Residence,Urban,Doctor/medical personnel,8.9
+Residence,Rural,Doctor/medical personnel,6.3
+Education,No education,Doctor/medical personnel,3.7
+Education,Primary,Doctor/medical personnel,6.7
+Education,Secondary,Doctor/medical personnel,8.9
+Education,More than secondary,Doctor/medical personnel,10.2
+Wealth Quintile,Lowest,Doctor/medical personnel,5.8
+Wealth Quintile,Second,Doctor/medical personnel,7.1
+Wealth Quintile,Middle,Doctor/medical personnel,7.6
+Wealth Quintile,Fourth,Doctor/medical personnel,10.5
+Wealth Quintile,Highest,Doctor/medical personnel,5
+Age,15-19,Traditional circumciser/traditional healer/herbalist,4.8
+Age,20-24,Traditional circumciser/traditional healer/herbalist,5.7
+Age,25-29,Traditional circumciser/traditional healer/herbalist,6.1
+Age,30-39,Traditional circumciser/traditional healer/herbalist,8.3
+Age,40-49,Traditional circumciser/traditional healer/herbalist,12.9
+Residence,Urban,Traditional circumciser/traditional healer/herbalist,6.9
+Residence,Rural,Traditional circumciser/traditional healer/herbalist,9.7
+Education,No education,Traditional circumciser/traditional healer/herbalist,4.2
+Education,Primary,Traditional circumciser/traditional healer/herbalist,11.3
+Education,Secondary,Traditional circumciser/traditional healer/herbalist,8.8
+Education,More than secondary,Traditional circumciser/traditional healer/herbalist,4.4
+Wealth Quintile,Lowest,Traditional circumciser/traditional healer/herbalist,8.2
+Wealth Quintile,Second,Traditional circumciser/traditional healer/herbalist,6.8
+Wealth Quintile,Middle,Traditional circumciser/traditional healer/herbalist,11.2
+Wealth Quintile,Fourth,Traditional circumciser/traditional healer/herbalist,12.8
+Wealth Quintile,Highest,Traditional circumciser/traditional healer/herbalist,6.8
+Age,15-19,Other person,1.8
+Age,20-24,Other person,5.4
+Age,25-29,Other person,3.9
+Age,30-39,Other person,1.5
+Age,40-49,Other person,2.8
+Residence,Urban,Other person,0.6
+Residence,Rural,Other person,3.3
+Education,No education,Other person,0.6
+Education,Primary,Other person,3
+Education,Secondary,Other person,3.2
+Education,More than secondary,Other person,3.4
+Wealth Quintile,Lowest,Other person,3.3
+Wealth Quintile,Second,Other person,0.8
+Wealth Quintile,Middle,Other person,3
+Wealth Quintile,Fourth,Other person,6.1
+Wealth Quintile,Highest,Other person,0
+Age,15-19,Never sought help,89.5
+Age,20-24,Never sought help,86.1
+Age,25-29,Never sought help,87
+Age,30-39,Never sought help,83.8
+Age,40-49,Never sought help,80.3
+Residence,Urban,Never sought help,84.9
+Residence,Rural,Never sought help,83.4
+Education,No education,Never sought help,92.6
+Education,Primary,Never sought help,82.4
+Education,Secondary,Never sought help,80.8
+Education,More than secondary,Never sought help,82
+Wealth Quintile,Lowest,Never sought help,86.6
+Wealth Quintile,Second,Never sought help,86.1
+Wealth Quintile,Middle,Never sought help,78.4
+Wealth Quintile,Fourth,Never sought help,77.7
+Wealth Quintile,Highest,Never sought help,88.2

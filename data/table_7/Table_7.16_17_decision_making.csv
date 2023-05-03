@@ -1,0 +1,128 @@
+category,proportion,variable,Characteristic
+Mainly wife,42,General,NA
+Wife and husband/partner jointly,50.3,General,NA
+Wife's opinion more important,7.9,General,NA
+Wife's and husband's/partner's opinion equally important,39.2,General,NA
+Wife's opinion less important than husband's/partner's,3.2,General,NA
+Mainly husband,7.1,General,NA
+Someone else/other,0.6,General,NA
+Mainly wife,32.8,Age,15-19
+Partner jointly,50.7,Age,15-19
+Partner,15.9,Age,15-19
+Other,0.5,Age,15-19
+Total,99.8,Age,15-19
+Mainly wife,31,Age,20-24
+Partner jointly,58.6,Age,20-24
+Partner,10,Age,20-24
+Other,0.3,Age,20-24
+Total,100,Age,20-24
+Mainly wife,35.5,Age,25-29
+Partner jointly,56,Age,25-29
+Partner,8.2,Age,25-29
+Other,0.3,Age,25-29
+Total,100,Age,25-29
+Mainly wife,42.5,Age,30-34
+Partner jointly,50.4,Age,30-34
+Partner,6.3,Age,30-34
+Other,0.9,Age,30-34
+Total,100,Age,30-34
+Mainly wife,49,Age,35-39
+Partner jointly,44.3,Age,35-39
+Partner,6.2,Age,35-39
+Other,0.5,Age,35-39
+Total,100,Age,35-39
+Mainly wife,50.3,Age,40-44
+Partner jointly,45,Age,40-44
+Partner,4.1,Age,40-44
+Other,0.6,Age,40-44
+Total,100,Age,40-44
+Mainly wife,50.8,Age,45-49
+Partner jointly,43,Age,45-49
+Partner,5.3,Age,45-49
+Other,0.9,Age,45-49
+Total,100,Age,45-49
+Mainly wife,41.5,Family planning use,Currently using
+Partner jointly,52.2,Family planning use,Currently using
+Partner,6,Family planning use,Currently using
+Other,0.3,Family planning use,Currently using
+Total,100,Family planning use,Currently using
+Mainly wife,42.9,Family planning use,Not currently using1
+Partner jointly,47.3,Family planning use,Not currently using1
+Partner,8.9,Family planning use,Not currently using1
+Other,0.9,Family planning use,Not currently using1
+Total,100,Family planning use,Not currently using1
+Mainly wife,31.5,Number of living children,0
+Partner jointly,60.2,Number of living children,0
+Partner,8.1,Number of living children,0
+Other,0.3,Number of living children,0
+Total,100,Number of living children,0
+Mainly wife,37.9,Number of living children,1-2
+Partner jointly,55.2,Number of living children,1-2
+Partner,6.5,Number of living children,1-2
+Other,0.3,Number of living children,1-2
+Total,100,Number of living children,1-2
+Mainly wife,45.3,Number of living children,3-4
+Partner jointly,47.7,Number of living children,3-4
+Partner,6.4,Number of living children,3-4
+Other,0.5,Number of living children,3-4
+Total,100,Number of living children,3-4
+Mainly wife,48.2,Number of living children,5+
+Partner jointly,41.2,Number of living children,5+
+Partner,9.4,Number of living children,5+
+Other,1.2,Number of living children,5+
+Total,100,Number of living children,5+
+Mainly wife,40.5,Residence,Urban
+Partner jointly,54.7,Residence,Urban
+Partner,4.5,Residence,Urban
+Other,0.3,Residence,Urban
+Total,100,Residence,Urban
+Mainly wife,43,Residence,Rural
+Partner jointly,47.5,Residence,Rural
+Partner,8.8,Residence,Rural
+Other,0.7,Residence,Rural
+Total,100,Residence,Rural
+Mainly wife,40.4,Education,No education
+Partner jointly,38.5,Education,No education
+Partner,17.9,Education,No education
+Other,3.2,Education,No education
+Total,99.9,Education,No education
+Mainly wife,46,Education,Primary
+Partner jointly,45.3,Education,Primary
+Partner,8.3,Education,Primary
+Other,0.4,Education,Primary
+Total,100,Education,Primary
+Mainly wife,41,Education,Secondary
+Partner jointly,53.2,Education,Secondary
+Partner,5.5,Education,Secondary
+Other,0.2,Education,Secondary
+Total,100,Education,Secondary
+Mainly wife,35.8,Education,More than secondary
+Partner jointly,61.1,Education,More than secondary
+Partner,2.8,Education,More than secondary
+Other,0.3,Education,More than secondary
+Total,100,Education,More than secondary
+Mainly wife,41.3,Wealth,Lowest
+Partner jointly,43,Wealth,Lowest
+Partner,14,Wealth,Lowest
+Other,1.7,Wealth,Lowest
+Total,99.9,Wealth,Lowest
+Mainly wife,44.2,Wealth,Second
+Partner jointly,45.8,Wealth,Second
+Partner,9.5,Wealth,Second
+Other,0.5,Wealth,Second
+Total,100,Wealth,Second
+Mainly wife,43.7,Wealth,Middle
+Partner jointly,50.2,Wealth,Middle
+Partner,5.8,Wealth,Middle
+Other,0.3,Wealth,Middle
+Total,100,Wealth,Middle
+Mainly wife,40,Wealth,Fourth
+Partner jointly,54.9,Wealth,Fourth
+Partner,4.9,Wealth,Fourth
+Other,0.2,Wealth,Fourth
+Total,100,Wealth,Fourth
+Mainly wife,41.6,Wealth,Highest
+Partner jointly,54.4,Wealth,Highest
+Partner,3.7,Wealth,Highest
+Other,0.3,Wealth,Highest
+Total,100,Wealth,Highest

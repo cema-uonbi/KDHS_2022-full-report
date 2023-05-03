@@ -1,0 +1,433 @@
+Background characteristics,Category,Gender,variable,value
+Age,15-19,Female,Alone,0.3
+Age,20-24,Female,Alone,0.9
+Age,25-29,Female,Alone,2
+Age,30-34,Female,Alone,3.4
+Age,35-39,Female,Alone,4.8
+Age,40-44,Female,Alone,7.1
+Age,45-49,Female,Alone,9.5
+Residence,Urban,Female,Alone,2.1
+Residence,Rural,Female,Alone,3.8
+Education,No education,Female,Alone,3.8
+Education,Primary,Female,Alone,3.2
+Education,Secondary,Female,Alone,3.2
+Education,More than secondary,Female,Alone,2.6
+Wealth quintile,Lowest,Female,Alone,4
+Wealth quintile,Second,Female,Alone,4.1
+Wealth quintile,Middle,Female,Alone,3.1
+Wealth quintile,Fourth,Female,Alone,2.2
+Wealth quintile,Highest,Female,Alone,2.6
+Age,15-19,Male,Alone,2.2
+Age,20-24,Male,Alone,8.6
+Age,25-29,Male,Alone,21.8
+Age,30-34,Male,Alone,36.9
+Age,35-39,Male,Alone,43.6
+Age,40-44,Male,Alone,46.4
+Age,45-49,Male,Alone,51.9
+Residence,Urban,Male,Alone,16.7
+Residence,Rural,Male,Alone,29.2
+Education,No education,Male,Alone,19.1
+Education,Primary,Male,Alone,32.9
+Education,Secondary,Male,Alone,19.3
+Education,More than secondary,Male,Alone,28.7
+Wealth quintile,Lowest,Male,Alone,26.1
+Wealth quintile,Second,Male,Alone,29.2
+Wealth quintile,Middle,Male,Alone,26.8
+Wealth quintile,Fourth,Male,Alone,20
+Wealth quintile,Highest,Male,Alone,21
+Age,15-19,Female,Jointly,1.8
+Age,20-24,Female,Jointly,12.8
+Age,25-29,Female,Jointly,23.3
+Age,30-34,Female,Jointly,28.4
+Age,35-39,Female,Jointly,31.6
+Age,40-44,Female,Jointly,36.1
+Age,45-49,Female,Jointly,38.4
+Residence,Urban,Female,Jointly,11.9
+Residence,Rural,Female,Jointly,28.2
+Education,No education,Female,Jointly,21.5
+Education,Primary,Female,Jointly,24.7
+Education,Secondary,Female,Jointly,21.3
+Education,More than secondary,Female,Jointly,16.7
+Wealth quintile,Lowest,Female,Jointly,25.1
+Wealth quintile,Second,Female,Jointly,29.1
+Wealth quintile,Middle,Female,Jointly,26
+Wealth quintile,Fourth,Female,Jointly,16.7
+Wealth quintile,Highest,Female,Jointly,15.1
+Age,15-19,Male,Jointly,1.6
+Age,20-24,Male,Jointly,3.9
+Age,25-29,Male,Jointly,6.7
+Age,30-34,Male,Jointly,7
+Age,35-39,Male,Jointly,11.1
+Age,40-44,Male,Jointly,12.7
+Age,45-49,Male,Jointly,14.1
+Residence,Urban,Male,Jointly,5.2
+Residence,Rural,Male,Jointly,7.8
+Education,No education,Male,Jointly,15.8
+Education,Primary,Male,Jointly,9
+Education,Secondary,Male,Jointly,5.3
+Education,More than secondary,Male,Jointly,6.7
+Wealth quintile,Lowest,Male,Jointly,9.7
+Wealth quintile,Second,Male,Jointly,6.6
+Wealth quintile,Middle,Male,Jointly,7.6
+Wealth quintile,Fourth,Male,Jointly,6.1
+Wealth quintile,Highest,Male,Jointly,4.8
+Age,15-19,Female,"Both alone 
+and jointly",0
+Age,20-24,Female,"Both alone 
+and jointly",0.1
+Age,25-29,Female,"Both alone 
+and jointly",0
+Age,30-34,Female,"Both alone 
+and jointly",0.1
+Age,35-39,Female,"Both alone 
+and jointly",0.5
+Age,40-44,Female,"Both alone 
+and jointly",0.2
+Age,45-49,Female,"Both alone 
+and jointly",0.2
+Residence,Urban,Female,"Both alone 
+and jointly",0.1
+Residence,Rural,Female,"Both alone 
+and jointly",0.2
+Education,No education,Female,"Both alone 
+and jointly",0.1
+Education,Primary,Female,"Both alone 
+and jointly",0.1
+Education,Secondary,Female,"Both alone 
+and jointly",0.1
+Education,More than secondary,Female,"Both alone 
+and jointly",0.1
+Wealth quintile,Lowest,Female,"Both alone 
+and jointly",0.1
+Wealth quintile,Second,Female,"Both alone 
+and jointly",0
+Wealth quintile,Middle,Female,"Both alone 
+and jointly",0.2
+Wealth quintile,Fourth,Female,"Both alone 
+and jointly",0.2
+Wealth quintile,Highest,Female,"Both alone 
+and jointly",0.1
+Age,15-19,Male,"Both alone 
+and jointly",0.2
+Age,20-24,Male,"Both alone 
+and jointly",0.1
+Age,25-29,Male,"Both alone 
+and jointly",0.4
+Age,30-34,Male,"Both alone 
+and jointly",0
+Age,35-39,Male,"Both alone 
+and jointly",0.2
+Age,40-44,Male,"Both alone 
+and jointly",0.2
+Age,45-49,Male,"Both alone 
+and jointly",0.6
+Residence,Urban,Male,"Both alone 
+and jointly",0.1
+Residence,Rural,Male,"Both alone 
+and jointly",0.3
+Education,No education,Male,"Both alone 
+and jointly",0.3
+Education,Primary,Male,"Both alone 
+and jointly",0.2
+Education,Secondary,Male,"Both alone 
+and jointly",0.2
+Education,More than secondary,Male,"Both alone 
+and jointly",0.1
+Wealth quintile,Lowest,Male,"Both alone 
+and jointly",0.3
+Wealth quintile,Second,Male,"Both alone 
+and jointly",0.4
+Wealth quintile,Middle,Male,"Both alone 
+and jointly",0.2
+Wealth quintile,Fourth,Male,"Both alone 
+and jointly",0.2
+Wealth quintile,Highest,Male,"Both alone 
+and jointly",0.1
+Age,15-19,Female,"Do not own 
+agricultural land",97.9
+Age,20-24,Female,"Do not own 
+agricultural land",86.3
+Age,25-29,Female,"Do not own 
+agricultural land",74.7
+Age,30-34,Female,"Do not own 
+agricultural land",68.1
+Age,35-39,Female,"Do not own 
+agricultural land",63.2
+Age,40-44,Female,"Do not own 
+agricultural land",56.6
+Age,45-49,Female,"Do not own 
+agricultural land",52
+Residence,Urban,Female,"Do not own 
+agricultural land",85.9
+Residence,Rural,Female,"Do not own 
+agricultural land",67.8
+Education,No education,Female,"Do not own 
+agricultural land",74.6
+Education,Primary,Female,"Do not own 
+agricultural land",72
+Education,Secondary,Female,"Do not own 
+agricultural land",75.3
+Education,More than secondary,Female,"Do not own 
+agricultural land",80.6
+Wealth quintile,Lowest,Female,"Do not own 
+agricultural land",70.8
+Wealth quintile,Second,Female,"Do not own 
+agricultural land",66.8
+Wealth quintile,Middle,Female,"Do not own 
+agricultural land",70.6
+Wealth quintile,Fourth,Female,"Do not own 
+agricultural land",80.9
+Wealth quintile,Highest,Female,"Do not own 
+agricultural land",82.2
+Age,15-19,Male,"Do not own 
+agricultural land",95.9
+Age,20-24,Male,"Do not own 
+agricultural land",87.4
+Age,25-29,Male,"Do not own 
+agricultural land",71.2
+Age,30-34,Male,"Do not own 
+agricultural land",56
+Age,35-39,Male,"Do not own 
+agricultural land",45.2
+Age,40-44,Male,"Do not own 
+agricultural land",40.7
+Age,45-49,Male,"Do not own 
+agricultural land",33.4
+Residence,Urban,Male,"Do not own 
+agricultural land",78
+Residence,Rural,Male,"Do not own 
+agricultural land",62.8
+Education,No education,Male,"Do not own 
+agricultural land",64.8
+Education,Primary,Male,"Do not own 
+agricultural land",57.8
+Education,Secondary,Male,"Do not own 
+agricultural land",75.2
+Education,More than secondary,Male,"Do not own 
+agricultural land",64.6
+Wealth quintile,Lowest,Male,"Do not own 
+agricultural land",63.9
+Wealth quintile,Second,Male,"Do not own 
+agricultural land",63.8
+Wealth quintile,Middle,Male,"Do not own 
+agricultural land",65.4
+Wealth quintile,Fourth,Male,"Do not own 
+agricultural land",73.7
+Wealth quintile,Highest,Male,"Do not own 
+agricultural land",74.1
+Age,15-19,Female,Name is on title deed,6.7
+Age,20-24,Female,Name is on title deed,8.4
+Age,25-29,Female,Name is on title deed,13.1
+Age,30-34,Female,Name is on title deed,14.7
+Age,35-39,Female,Name is on title deed,14.4
+Age,40-44,Female,Name is on title deed,15.1
+Age,45-49,Female,Name is on title deed,12.9
+Residence,Urban,Female,Name is on title deed,27.4
+Residence,Rural,Female,Name is on title deed,9.1
+Education,No education,Female,Name is on title deed,9.5
+Education,Primary,Female,Name is on title deed,10.7
+Education,Secondary,Female,Name is on title deed,13.6
+Education,More than secondary,Female,Name is on title deed,20.3
+Wealth quintile,Lowest,Female,Name is on title deed,4.3
+Wealth quintile,Second,Female,Name is on title deed,6.4
+Wealth quintile,Middle,Female,Name is on title deed,10
+Wealth quintile,Fourth,Female,Name is on title deed,16.7
+Wealth quintile,Highest,Female,Name is on title deed,32.6
+Age,15-19,Male,Name is on title deed,8.4
+Age,20-24,Male,Name is on title deed,7.9
+Age,25-29,Male,Name is on title deed,15.8
+Age,30-34,Male,Name is on title deed,21.9
+Age,35-39,Male,Name is on title deed,21.4
+Age,40-44,Male,Name is on title deed,25.5
+Age,45-49,Male,Name is on title deed,30.8
+Residence,Urban,Male,Name is on title deed,34.5
+Residence,Rural,Male,Name is on title deed,16.8
+Education,No education,Male,Name is on title deed,18.9
+Education,Primary,Male,Name is on title deed,16.7
+Education,Secondary,Male,Name is on title deed,22.5
+Education,More than secondary,Male,Name is on title deed,39
+Wealth quintile,Lowest,Male,Name is on title deed,8.1
+Wealth quintile,Second,Male,Name is on title deed,12.9
+Wealth quintile,Middle,Male,Name is on title deed,16.9
+Wealth quintile,Fourth,Male,Name is on title deed,31
+Wealth quintile,Highest,Male,Name is on title deed,41.1
+Age,15-19,Female,"Name is not 
+on title deed",21.3
+Age,20-24,Female,"Name is not 
+on title deed",23
+Age,25-29,Female,"Name is not 
+on title deed",21.2
+Age,30-34,Female,"Name is not 
+on title deed",19.4
+Age,35-39,Female,"Name is not 
+on title deed",21.4
+Age,40-44,Female,"Name is not 
+on title deed",22.5
+Age,45-49,Female,"Name is not 
+on title deed",27.5
+Residence,Urban,Female,"Name is not 
+on title deed",28.3
+Residence,Rural,Female,"Name is not 
+on title deed",20.4
+Education,No education,Female,"Name is not 
+on title deed",18
+Education,Primary,Female,"Name is not 
+on title deed",21.6
+Education,Secondary,Female,"Name is not 
+on title deed",21.4
+Education,More than secondary,Female,"Name is not 
+on title deed",26.6
+Wealth quintile,Lowest,Female,"Name is not 
+on title deed",15.5
+Wealth quintile,Second,Female,"Name is not 
+on title deed",18.2
+Wealth quintile,Middle,Female,"Name is not 
+on title deed",22.2
+Wealth quintile,Fourth,Female,"Name is not 
+on title deed",28.9
+Wealth quintile,Highest,Female,"Name is not 
+on title deed",27.9
+Age,15-19,Male,"Name is not 
+on title deed",18
+Age,20-24,Male,"Name is not 
+on title deed",24.5
+Age,25-29,Male,"Name is not 
+on title deed",23.9
+Age,30-34,Male,"Name is not 
+on title deed",17.8
+Age,35-39,Male,"Name is not 
+on title deed",17.3
+Age,40-44,Male,"Name is not 
+on title deed",18.7
+Age,45-49,Male,"Name is not 
+on title deed",12.7
+Residence,Urban,Male,"Name is not 
+on title deed",20.3
+Residence,Rural,Male,"Name is not 
+on title deed",17.7
+Education,No education,Male,"Name is not 
+on title deed",10.8
+Education,Primary,Male,"Name is not 
+on title deed",17.6
+Education,Secondary,Male,"Name is not 
+on title deed",18.7
+Education,More than secondary,Male,"Name is not 
+on title deed",17.4
+Wealth quintile,Lowest,Male,"Name is not 
+on title deed",16
+Wealth quintile,Second,Male,"Name is not 
+on title deed",15.7
+Wealth quintile,Middle,Male,"Name is not 
+on title deed",22.1
+Wealth quintile,Fourth,Male,"Name is not 
+on title deed",19.9
+Wealth quintile,Highest,Male,"Name is not 
+on title deed",17.7
+Age,15-19,Female,"Does not have 
+a title deed",62.4
+Age,20-24,Female,"Does not have 
+a title deed",64.7
+Age,25-29,Female,"Does not have 
+a title deed",62.8
+Age,30-34,Female,"Does not have 
+a title deed",63.3
+Age,35-39,Female,"Does not have 
+a title deed",61.7
+Age,40-44,Female,"Does not have 
+a title deed",60.3
+Age,45-49,Female,"Does not have 
+a title deed",57.6
+Residence,Urban,Female,"Does not have 
+a title deed",42.1
+Residence,Rural,Female,"Does not have 
+a title deed",67.6
+Education,No education,Female,"Does not have 
+a title deed",69.8
+Education,Primary,Female,"Does not have 
+a title deed",65
+Education,Secondary,Female,"Does not have 
+a title deed",61.8
+Education,More than secondary,Female,"Does not have 
+a title deed",51.5
+Wealth quintile,Lowest,Female,"Does not have 
+a title deed",77.7
+Wealth quintile,Second,Female,"Does not have 
+a title deed",71.8
+Wealth quintile,Middle,Female,"Does not have 
+a title deed",65.2
+Wealth quintile,Fourth,Female,"Does not have 
+a title deed",51.8
+Wealth quintile,Highest,Female,"Does not have 
+a title deed",37.3
+Age,15-19,Male,"Does not have 
+a title deed",58
+Age,20-24,Male,"Does not have 
+a title deed",63.1
+Age,25-29,Male,"Does not have 
+a title deed",59.4
+Age,30-34,Male,"Does not have 
+a title deed",59.9
+Age,35-39,Male,"Does not have 
+a title deed",60.9
+Age,40-44,Male,"Does not have 
+a title deed",55.4
+Age,45-49,Male,"Does not have 
+a title deed",56
+Residence,Urban,Male,"Does not have 
+a title deed",44.2
+Residence,Rural,Male,"Does not have 
+a title deed",64.3
+Education,No education,Male,"Does not have 
+a title deed",68.5
+Education,Primary,Male,"Does not have 
+a title deed",64.5
+Education,Secondary,Male,"Does not have 
+a title deed",57.3
+Education,More than secondary,Male,"Does not have 
+a title deed",43.1
+Wealth quintile,Lowest,Male,"Does not have 
+a title deed",74.3
+Wealth quintile,Second,Male,"Does not have 
+a title deed",70.8
+Wealth quintile,Middle,Male,"Does not have 
+a title deed",59.4
+Wealth quintile,Fourth,Male,"Does not have 
+a title deed",47.5
+Wealth quintile,Highest,Male,"Does not have 
+a title deed",40.4
+Age,15-19,Female,Don't know,9.6
+Age,20-24,Female,Don't know,4
+Age,25-29,Female,Don't know,2.9
+Age,30-34,Female,Don't know,2.6
+Age,35-39,Female,Don't know,2.5
+Age,40-44,Female,Don't know,2
+Age,45-49,Female,Don't know,2
+Residence,Urban,Female,Don't know,2.2
+Residence,Rural,Female,Don't know,2.9
+Education,No education,Female,Don't know,2.7
+Education,Primary,Female,Don't know,2.7
+Education,Secondary,Female,Don't know,3.2
+Education,More than secondary,Female,Don't know,1.6
+Wealth quintile,Lowest,Female,Don't know,2.5
+Wealth quintile,Second,Female,Don't know,3.6
+Wealth quintile,Middle,Female,Don't know,2.6
+Wealth quintile,Fourth,Female,Don't know,2.6
+Wealth quintile,Highest,Female,Don't know,2.1
+Age,15-19,Male,Don't know,15.7
+Age,20-24,Male,Don't know,4.5
+Age,25-29,Male,Don't know,0.9
+Age,30-34,Male,Don't know,0.4
+Age,35-39,Male,Don't know,0.4
+Age,40-44,Male,Don't know,0.3
+Age,45-49,Male,Don't know,0.5
+Residence,Urban,Male,Don't know,1.1
+Residence,Rural,Male,Don't know,1.3
+Education,No education,Male,Don't know,1.7
+Education,Primary,Male,Don't know,1.1
+Education,Secondary,Male,Don't know,1.5
+Education,More than secondary,Male,Don't know,0.5
+Wealth quintile,Lowest,Male,Don't know,1.5
+Wealth quintile,Second,Male,Don't know,0.7
+Wealth quintile,Middle,Male,Don't know,1.6
+Wealth quintile,Fourth,Male,Don't know,1.6
+Wealth quintile,Highest,Male,Don't know,0.8

@@ -1,0 +1,53 @@
+Value,Category,Proportion,Possessions
+Radio,Urban,71.2,Household effects
+Radio,Rural,62.1,Household effects
+Television,Urban,67.6,Household effects
+Television,Rural,38.2,Household effects
+Mobile phone,Urban,97.4,Household effects
+Mobile phone,Rural,90.9,Household effects
+Computer,Urban,20.6,Household effects
+Computer,Rural,4.1,Household effects
+Non-mobile telephone,Urban,2.4,Household effects
+Non-mobile telephone,Rural,1.8,Household effects
+Refrigerator,Urban,22,Household effects
+Refrigerator,Rural,3.5,Household effects
+Watch,Urban,43,Household effects
+Watch,Rural,21.3,Household effects
+Solar panel,Urban,10.4,Household effects
+Solar panel,Rural,46.5,Household effects
+Table,Urban,85.8,Household effects
+Table,Rural,86.3,Household effects
+Chair,Urban,83,Household effects
+Chair,Rural,88.6,Household effects
+Sofa,Urban,71.7,Household effects
+Sofa,Rural,56.2,Household effects
+Bed,Urban,93.4,Household effects
+Bed,Rural,93,Household effects
+Cupboard,Urban,50.1,Household effects
+Cupboard,Rural,45,Household effects
+Clock,Urban,23.6,Household effects
+Clock,Rural,10,Household effects
+Microwave oven,Urban,14.5,Household effects
+Microwave oven,Rural,2.1,Household effects
+DVD player,Urban,25.5,Household effects
+DVD player,Rural,8.8,Household effects
+Cassette or CD player,Urban,13.1,Household effects
+Cassette or CD player,Rural,4.5,Household effects
+Bicycle,Urban,16.6,Means of transportation
+Bicycle,Rural,16.2,Means of transportation
+Animal drawn cart,Urban,1.4,Means of transportation
+Animal drawn cart,Rural,3.1,Means of transportation
+Motorcycle/scooter,Urban,10.8,Means of transportation
+Motorcycle/scooter,Rural,15.3,Means of transportation
+Car/truck,Urban,13.1,Means of transportation
+Car/truck,Rural,5.2,Means of transportation
+Boat with a motor,Urban,0.6,Means of transportation
+Boat with a motor,Rural,0.3,Means of transportation
+Ownership of agricultural land,Urban,33.3,Assets
+Ownership of agricultural land,Rural,70.7,Assets
+Ownership of farm animals,Urban,40.8,Assets
+Ownership of farm animals,Rural,77.6,Assets
+Ownership of dwelling,Urban,21.1,Assets
+Ownership of dwelling,Rural,84.5,Assets
+Ownership of land on which dwelling is built,Urban,20.2,Assets
+Ownership of land on which dwelling is built,Rural,80.6,Assets

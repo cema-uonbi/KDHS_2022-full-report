@@ -1,0 +1,189 @@
+County,Category,Proportion,Participants
+Mombasa,All households,54.7,Children
+Mombasa,Households with 1+ ITN,76.4,Children
+Kwale,All households,66.4,Children
+Kwale,Households with 1+ ITN,82.7,Children
+Kilifi,All households,72.4,Children
+Kilifi,Households with 1+ ITN,82.5,Children
+Tana River,All households,65.5,Children
+Tana River,Households with 1+ ITN,84.3,Children
+Lamu,All households,60.9,Children
+Lamu,Households with 1+ ITN,83.0,Children
+Taita Taveta,All households,83.3,Children
+Taita Taveta,Households with 1+ ITN,90.2,Children
+Garissa,All households,12.8,Children
+Garissa,Households with 1+ ITN,58.5,Children
+Wajir,All households,20.9,Children
+Wajir,Households with 1+ ITN,49.6,Children
+Mandera,All households,9.0,Children
+Mandera,Households with 1+ ITN,53.3,Children
+Marsabit,All households,8.9,Children
+Marsabit,Households with 1+ ITN,31.2,Children
+Isiolo,All households,48.9,Children
+Isiolo,Households with 1+ ITN,78.8,Children
+Meru,All households,45.7,Children
+Meru,Households with 1+ ITN,75.0,Children
+Tharaka Nithi,All households,56.6,Children
+Tharaka Nithi,Households with 1+ ITN,81.7,Children
+Embu,All households,58.2,Children
+Embu,Households with 1+ ITN,85.4,Children
+Kitui,All households,42.3,Children
+Kitui,Households with 1+ ITN,77.3,Children
+Machakos,All households,64.7,Children
+Machakos,Households with 1+ ITN,85.5,Children
+Makueni,All households,46.9,Children
+Makueni,Households with 1+ ITN,74.9,Children
+Nyandarua,All households,8.6,Children
+Nyandarua,Households with 1+ ITN,69.3,Children
+Nyeri,All households,19.0,Children
+Nyeri,Households with 1+ ITN,66.6,Children
+Kirinyaga,All households,66.4,Children
+Kirinyaga,Households with 1+ ITN,85.1,Children
+Muranga,All households,45.1,Children
+Muranga,Households with 1+ ITN,68.7,Children
+Kiambu,All households,28.9,Children
+Kiambu,Households with 1+ ITN,70.2,Children
+Turkana,All households,33.3,Children
+Turkana,Households with 1+ ITN,65.1,Children
+West Pokot,All households,57.6,Children
+West Pokot,Households with 1+ ITN,70.9,Children
+Samburu,All households,9.9,Children
+Samburu,Households with 1+ ITN,51.5,Children
+Trans Nzoia,All households,75.7,Children
+Trans Nzoia,Households with 1+ ITN,84.0,Children
+Uasin Gishu,All households,65.8,Children
+Uasin Gishu,Households with 1+ ITN,74.5,Children
+Elgeyo Marakwet,All households,16.6,Children
+Elgeyo Marakwet,Households with 1+ ITN,41.3,Children
+Nandi,All households,71.4,Children
+Nandi,Households with 1+ ITN,78.2,Children
+Baringo,All households,53.5,Children
+Baringo,Households with 1+ ITN,76.3,Children
+Laikipia,All households,23.7,Children
+Laikipia,Households with 1+ ITN,71.6,Children
+Nakuru,All households,22.9,Children
+Nakuru,Households with 1+ ITN,67.7,Children
+Narok,All households,56.6,Children
+Narok,Households with 1+ ITN,67.1,Children
+Kajiado,All households,39.9,Children
+Kajiado,Households with 1+ ITN,73.5,Children
+Kericho,All households,72.2,Children
+Kericho,Households with 1+ ITN,79.7,Children
+Bomet,All households,75.8,Children
+Bomet,Households with 1+ ITN,79.5,Children
+Kakamega,All households,71.8,Children
+Kakamega,Households with 1+ ITN,77.5,Children
+Vihiga,All households,79.0,Children
+Vihiga,Households with 1+ ITN,81.8,Children
+Bungoma,All households,74.2,Children
+Bungoma,Households with 1+ ITN,77.8,Children
+Busia,All households,83.8,Children
+Busia,Households with 1+ ITN,85.6,Children
+Siaya,All households,77.0,Children
+Siaya,Households with 1+ ITN,82.3,Children
+Kisumu,All households,68.9,Children
+Kisumu,Households with 1+ ITN,81.1,Children
+Homa Bay,All households,69.6,Children
+Homa Bay,Households with 1+ ITN,74.8,Children
+Migori,All households,75.5,Children
+Migori,Households with 1+ ITN,81.4,Children
+Kisii,All households,75.4,Children
+Kisii,Households with 1+ ITN,82.7,Children
+Nyamira,All households,81.1,Children
+Nyamira,Households with 1+ ITN,83.3,Children
+Nairobi,All households,23.9,Children
+Nairobi,Households with 1+ ITN,72.9,Children
+Mombasa,All households,48.3,Mothers
+Mombasa,Households with 1+ ITN,NA,Mothers
+Kwale,All households,60.1,Mothers
+Kwale,Households with 1+ ITN,82.8,Mothers
+Kilifi,All households,70.0,Mothers
+Kilifi,Households with 1+ ITN,81.2,Mothers
+Tana River,All households,68.5,Mothers
+Tana River,Households with 1+ ITN,88.9,Mothers
+Lamu,All households,46.9,Mothers
+Lamu,Households with 1+ ITN,79.5,Mothers
+Taita Taveta,All households,NA,Mothers
+Taita Taveta,Households with 1+ ITN,NA,Mothers
+Garissa,All households,21.4,Mothers
+Garissa,Households with 1+ ITN,NA,Mothers
+Wajir,All households,16.6,Mothers
+Wajir,Households with 1+ ITN,47.9,Mothers
+Mandera,All households,15.2,Mothers
+Mandera,Households with 1+ ITN,NA,Mothers
+Marsabit,All households,12.1,Mothers
+Marsabit,Households with 1+ ITN,NA,Mothers
+Isiolo,All households,43.9,Mothers
+Isiolo,Households with 1+ ITN,72.2,Mothers
+Meru,All households,NA,Mothers
+Meru,Households with 1+ ITN,NA,Mothers
+Tharaka Nithi,All households,NA,Mothers
+Tharaka Nithi,Households with 1+ ITN,NA,Mothers
+Embu,All households,NA,Mothers
+Embu,Households with 1+ ITN,NA,Mothers
+Kitui,All households,NA,Mothers
+Kitui,Households with 1+ ITN,NA,Mothers
+Machakos,All households,54.8,Mothers
+Machakos,Households with 1+ ITN,NA,Mothers
+Makueni,All households,55.3,Mothers
+Makueni,Households with 1+ ITN,72.2,Mothers
+Nyandarua,All households,NA,Mothers
+Nyandarua,Households with 1+ ITN,NA,Mothers
+Nyeri,All households,NA,Mothers
+Nyeri,Households with 1+ ITN,NA,Mothers
+Kirinyaga,All households,NA,Mothers
+Kirinyaga,Households with 1+ ITN,NA,Mothers
+Muranga,All households,NA,Mothers
+Muranga,Households with 1+ ITN,NA,Mothers
+Kiambu,All households,8.1,Mothers
+Kiambu,Households with 1+ ITN,NA,Mothers
+Turkana,All households,25.7,Mothers
+Turkana,Households with 1+ ITN,NA,Mothers
+West Pokot,All households,59.2,Mothers
+West Pokot,Households with 1+ ITN,76.2,Mothers
+Samburu,All households,1.7,Mothers
+Samburu,Households with 1+ ITN,NA,Mothers
+Trans Nzoia,All households,71.0,Mothers
+Trans Nzoia,Households with 1+ ITN,76.4,Mothers
+Uasin Gishu,All households,54.2,Mothers
+Uasin Gishu,Households with 1+ ITN,75.5,Mothers
+Elgeyo Marakwet,All households,NA,Mothers
+Elgeyo Marakwet,Households with 1+ ITN,NA,Mothers
+Nandi,All households,77.8,Mothers
+Nandi,Households with 1+ ITN,94.0,Mothers
+Baringo,All households,63.1,Mothers
+Baringo,Households with 1+ ITN,90.0,Mothers
+Laikipia,All households,6.5,Mothers
+Laikipia,Households with 1+ ITN,NA,Mothers
+Nakuru,All households,7.6,Mothers
+Nakuru,Households with 1+ ITN,NA,Mothers
+Narok,All households,50.6,Mothers
+Narok,Households with 1+ ITN,57.9,Mothers
+Kajiado,All households,34.5,Mothers
+Kajiado,Households with 1+ ITN,59.8,Mothers
+Kericho,All households,69.5,Mothers
+Kericho,Households with 1+ ITN,93.8,Mothers
+Bomet,All households,94.3,Mothers
+Bomet,Households with 1+ ITN,98.9,Mothers
+Kakamega,All households,77.5,Mothers
+Kakamega,Households with 1+ ITN,80.5,Mothers
+Vihiga,All households,91.7,Mothers
+Vihiga,Households with 1+ ITN,93.3,Mothers
+Bungoma,All households,73.3,Mothers
+Bungoma,Households with 1+ ITN,76.9,Mothers
+Busia,All households,81.3,Mothers
+Busia,Households with 1+ ITN,85.0,Mothers
+Siaya,All households,72.4,Mothers
+Siaya,Households with 1+ ITN,79.5,Mothers
+Kisumu,All households,72.4,Mothers
+Kisumu,Households with 1+ ITN,92.3,Mothers
+Homa Bay,All households,64.2,Mothers
+Homa Bay,Households with 1+ ITN,67.3,Mothers
+Migori,All households,78.0,Mothers
+Migori,Households with 1+ ITN,96.6,Mothers
+Kisii,All households,69.8,Mothers
+Kisii,Households with 1+ ITN,74.5,Mothers
+Nyamira,All households,NA,Mothers
+Nyamira,Households with 1+ ITN,NA,Mothers
+Nairobi,All households,10.3,Mothers
+Nairobi,Households with 1+ ITN,NA,Mothers

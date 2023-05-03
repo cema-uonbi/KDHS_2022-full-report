@@ -1,0 +1,16 @@
+wealth,For_spacing,For_limiting,Total,need
+Lowest,18.9,5.8,24.7,unmet_need
+Second,19.2,6.5,25.7,unmet_need
+Middle,14.2,5.3,19.5,unmet_need
+Fourth,13.1,7.0,20.1,unmet_need
+Highest,11.7,2.3,14.0,unmet_need
+Lowest,33.7,24.2,57.9,met_need
+Second,39.9,25.0,64.9,met_need
+Middle,34.7,34.9,69.6,met_need
+Fourth,50.5,19.0,69.6,met_need
+Highest,57.2,19.6,76.9,met_need
+Lowest,52.6,30.0,82.6,total_demand
+Second,59.1,31.6,90.6,total_demand
+Middle,48.9,40.2,89.0,total_demand
+Fourth,63.6,26.0,89.7,total_demand
+Highest,68.9,22.0,90.9,total_demand

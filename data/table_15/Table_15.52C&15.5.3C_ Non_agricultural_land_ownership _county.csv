@@ -1,0 +1,1035 @@
+County,Gender,variable,value
+Mombasa,Female,Alone,2.8
+Kwale,Female,Alone,0.2
+Kilifi,Female,Alone,0.8
+Tana River,Female,Alone,0.8
+Lamu,Female,Alone,0.7
+Taita Taveta,Female,Alone,1.9
+Garissa,Female,Alone,1.5
+Wajir,Female,Alone,2.9
+Mandera,Female,Alone,0
+Marsabit,Female,Alone,0.4
+Isiolo,Female,Alone,1.3
+Meru,Female,Alone,2
+Tharaka Nithi,Female,Alone,1.1
+Embu,Female,Alone,0.1
+Kitui,Female,Alone,0.3
+Machakos,Female,Alone,1.6
+Makueni,Female,Alone,1
+Nyandarua,Female,Alone,1
+Nyeri,Female,Alone,1.3
+Kirinyaga,Female,Alone,1.2
+Murang'a,Female,Alone,1.1
+Kiambu,Female,Alone,2.6
+Turkana,Female,Alone,2.7
+West Pokot,Female,Alone,0.6
+Samburu,Female,Alone,2.1
+Trans Nzoia,Female,Alone,0.5
+Uasin Gishu,Female,Alone,3.5
+Elgeyo-Marakwet,Female,Alone,0.7
+Nandi,Female,Alone,2.8
+Baringo,Female,Alone,0.6
+Laikipia,Female,Alone,2.7
+Nakuru,Female,Alone,1.2
+Narok,Female,Alone,4.3
+Kajiado,Female,Alone,1.8
+Kericho,Female,Alone,0.3
+Bomet,Female,Alone,1.9
+Kakamega,Female,Alone,0.6
+Vihiga,Female,Alone,0.3
+Bungoma,Female,Alone,1.1
+Busia,Female,Alone,0.6
+Siaya,Female,Alone,0
+Kisumu,Female,Alone,0.6
+Homa Bay,Female,Alone,0.1
+Migori,Female,Alone,0.8
+Kisii,Female,Alone,0.1
+Nyamira,Female,Alone,0.1
+Nairobi,Female,Alone,1.4
+Mombasa,Male,Alone,1
+Kwale,Male,Alone,3.6
+Kilifi,Male,Alone,2.9
+Tana River,Male,Alone,2.3
+Lamu,Male,Alone,3.9
+Taita Taveta,Male,Alone,3.2
+Garissa,Male,Alone,0.2
+Wajir,Male,Alone,0
+Mandera,Male,Alone,3.4
+Marsabit,Male,Alone,6.1
+Isiolo,Male,Alone,18
+Meru,Male,Alone,7.6
+Tharaka-Nithi,Male,Alone,9.7
+Embu,Male,Alone,2
+Kitui,Male,Alone,4.7
+Machakos,Male,Alone,13.3
+Makueni,Male,Alone,0.4
+Nyandarua,Male,Alone,7.7
+Nyeri,Male,Alone,6.4
+Kirinyaga,Male,Alone,0.2
+Murang'a,Male,Alone,6.5
+Kiambu,Male,Alone,8.4
+Turkana,Male,Alone,2.1
+West Pokot,Male,Alone,9.4
+Samburu,Male,Alone,1.4
+Trans Nzoia,Male,Alone,8.4
+Uasin Gishu,Male,Alone,9.1
+Elgeyo-Marakwet,Male,Alone,1.8
+Nandi,Male,Alone,16.2
+Baringo,Male,Alone,6.3
+Laikipia,Male,Alone,8.5
+Nakuru,Male,Alone,5.8
+Narok,Male,Alone,11.4
+Kajiado,Male,Alone,18.1
+Kericho,Male,Alone,7.8
+Bomet,Male,Alone,2.6
+Kakamega,Male,Alone,0.4
+Vihiga,Male,Alone,2.1
+Bungoma,Male,Alone,13.5
+Busia,Male,Alone,10
+Siaya,Male,Alone,4
+Kisumu,Male,Alone,1.3
+Homa Bay,Male,Alone,9
+Migori,Male,Alone,8.5
+Kisii,Male,Alone,3.8
+Nyamira,Male,Alone,0.6
+Nairobi,Male,Alone,4.6
+Mombasa,Female,Jointly,3.6
+Kwale,Female,Jointly,1.5
+Kilifi,Female,Jointly,1.7
+Tana River,Female,Jointly,4.9
+Lamu,Female,Jointly,6.1
+Taita Taveta,Female,Jointly,2
+Garissa,Female,Jointly,0.5
+Wajir,Female,Jointly,0.5
+Mandera,Female,Jointly,1
+Marsabit,Female,Jointly,3.2
+Isiolo,Female,Jointly,5.2
+Meru,Female,Jointly,3.7
+Tharaka Nithi,Female,Jointly,4.4
+Embu,Female,Jointly,0.8
+Kitui,Female,Jointly,8
+Machakos,Female,Jointly,9.8
+Makueni,Female,Jointly,4.2
+Nyandarua,Female,Jointly,1.6
+Nyeri,Female,Jointly,4.8
+Kirinyaga,Female,Jointly,1.5
+Murang'a,Female,Jointly,2.3
+Kiambu,Female,Jointly,11.8
+Turkana,Female,Jointly,4
+West Pokot,Female,Jointly,8.8
+Samburu,Female,Jointly,8.4
+Trans Nzoia,Female,Jointly,3.8
+Uasin Gishu,Female,Jointly,14.5
+Elgeyo-Marakwet,Female,Jointly,4.1
+Nandi,Female,Jointly,10.7
+Baringo,Female,Jointly,3.5
+Laikipia,Female,Jointly,2.6
+Nakuru,Female,Jointly,4.8
+Narok,Female,Jointly,22.8
+Kajiado,Female,Jointly,7.9
+Kericho,Female,Jointly,1.9
+Bomet,Female,Jointly,2.5
+Kakamega,Female,Jointly,2.1
+Vihiga,Female,Jointly,0.8
+Bungoma,Female,Jointly,4.9
+Busia,Female,Jointly,1.1
+Siaya,Female,Jointly,2.1
+Kisumu,Female,Jointly,2.2
+Homa Bay,Female,Jointly,4.2
+Migori,Female,Jointly,4
+Kisii,Female,Jointly,4.6
+Nyamira,Female,Jointly,1.2
+Nairobi,Female,Jointly,4
+Mombasa,Male,Jointly,0.5
+Kwale,Male,Jointly,8
+Kilifi,Male,Jointly,0.7
+Tana River,Male,Jointly,1.9
+Lamu,Male,Jointly,2.2
+Taita Taveta,Male,Jointly,1.2
+Garissa,Male,Jointly,0.3
+Wajir,Male,Jointly,0.1
+Mandera,Male,Jointly,0
+Marsabit,Male,Jointly,2.4
+Isiolo,Male,Jointly,4.9
+Meru,Male,Jointly,0.8
+Tharaka-Nithi,Male,Jointly,0.7
+Embu,Male,Jointly,1.6
+Kitui,Male,Jointly,0.4
+Machakos,Male,Jointly,0
+Makueni,Male,Jointly,3.8
+Nyandarua,Male,Jointly,0.7
+Nyeri,Male,Jointly,0
+Kirinyaga,Male,Jointly,0
+Murang'a,Male,Jointly,0
+Kiambu,Male,Jointly,2.9
+Turkana,Male,Jointly,0.4
+West Pokot,Male,Jointly,2.8
+Samburu,Male,Jointly,0.3
+Trans Nzoia,Male,Jointly,1.4
+Uasin Gishu,Male,Jointly,0.4
+Elgeyo-Marakwet,Male,Jointly,0.4
+Nandi,Male,Jointly,0
+Baringo,Male,Jointly,0.2
+Laikipia,Male,Jointly,2.6
+Nakuru,Male,Jointly,0.3
+Narok,Male,Jointly,2.6
+Kajiado,Male,Jointly,4.4
+Kericho,Male,Jointly,0.8
+Bomet,Male,Jointly,0
+Kakamega,Male,Jointly,0
+Vihiga,Male,Jointly,0.6
+Bungoma,Male,Jointly,4.2
+Busia,Male,Jointly,0.4
+Siaya,Male,Jointly,1.1
+Kisumu,Male,Jointly,0.8
+Homa Bay,Male,Jointly,13.6
+Migori,Male,Jointly,7.4
+Kisii,Male,Jointly,3.1
+Nyamira,Male,Jointly,1.2
+Nairobi,Male,Jointly,0.5
+Mombasa,Female,"Both alone 
+and jointly",0
+Kwale,Female,"Both alone 
+and jointly",0
+Kilifi,Female,"Both alone 
+and jointly",0
+Tana River,Female,"Both alone 
+and jointly",0
+Lamu,Female,"Both alone 
+and jointly",0
+Taita Taveta,Female,"Both alone 
+and jointly",0.2
+Garissa,Female,"Both alone 
+and jointly",0
+Wajir,Female,"Both alone 
+and jointly",0
+Mandera,Female,"Both alone 
+and jointly",0.2
+Marsabit,Female,"Both alone 
+and jointly",0.5
+Isiolo,Female,"Both alone 
+and jointly",0
+Meru,Female,"Both alone 
+and jointly",0.2
+Tharaka Nithi,Female,"Both alone 
+and jointly",0
+Embu,Female,"Both alone 
+and jointly",0
+Kitui,Female,"Both alone 
+and jointly",0.6
+Machakos,Female,"Both alone 
+and jointly",0
+Makueni,Female,"Both alone 
+and jointly",0.4
+Nyandarua,Female,"Both alone 
+and jointly",0
+Nyeri,Female,"Both alone 
+and jointly",0
+Kirinyaga,Female,"Both alone 
+and jointly",0
+Murang'a,Female,"Both alone 
+and jointly",0.3
+Kiambu,Female,"Both alone 
+and jointly",0.6
+Turkana,Female,"Both alone 
+and jointly",0.1
+West Pokot,Female,"Both alone 
+and jointly",0.1
+Samburu,Female,"Both alone 
+and jointly",0
+Trans Nzoia,Female,"Both alone 
+and jointly",0
+Uasin Gishu,Female,"Both alone 
+and jointly",0.4
+Elgeyo-Marakwet,Female,"Both alone 
+and jointly",0
+Nandi,Female,"Both alone 
+and jointly",0.2
+Baringo,Female,"Both alone 
+and jointly",0
+Laikipia,Female,"Both alone 
+and jointly",0
+Nakuru,Female,"Both alone 
+and jointly",0
+Narok,Female,"Both alone 
+and jointly",0.3
+Kajiado,Female,"Both alone 
+and jointly",0
+Kericho,Female,"Both alone 
+and jointly",0.1
+Bomet,Female,"Both alone 
+and jointly",0.1
+Kakamega,Female,"Both alone 
+and jointly",0.3
+Vihiga,Female,"Both alone 
+and jointly",0.1
+Bungoma,Female,"Both alone 
+and jointly",0
+Busia,Female,"Both alone 
+and jointly",0
+Siaya,Female,"Both alone 
+and jointly",0
+Kisumu,Female,"Both alone 
+and jointly",0
+Homa Bay,Female,"Both alone 
+and jointly",0
+Migori,Female,"Both alone 
+and jointly",0
+Kisii,Female,"Both alone 
+and jointly",0
+Nyamira,Female,"Both alone 
+and jointly",0
+Nairobi,Female,"Both alone 
+and jointly",0
+Mombasa,Male,"Both alone 
+and jointly",0
+Kwale,Male,"Both alone 
+and jointly",0
+Kilifi,Male,"Both alone 
+and jointly",0
+Tana River,Male,"Both alone 
+and jointly",0
+Lamu,Male,"Both alone 
+and jointly",0
+Taita Taveta,Male,"Both alone 
+and jointly",0
+Garissa,Male,"Both alone 
+and jointly",0
+Wajir,Male,"Both alone 
+and jointly",0
+Mandera,Male,"Both alone 
+and jointly",0
+Marsabit,Male,"Both alone 
+and jointly",0
+Isiolo,Male,"Both alone 
+and jointly",0
+Meru,Male,"Both alone 
+and jointly",0
+Tharaka-Nithi,Male,"Both alone 
+and jointly",0
+Embu,Male,"Both alone 
+and jointly",0.4
+Kitui,Male,"Both alone 
+and jointly",0
+Machakos,Male,"Both alone 
+and jointly",0
+Makueni,Male,"Both alone 
+and jointly",0
+Nyandarua,Male,"Both alone 
+and jointly",0
+Nyeri,Male,"Both alone 
+and jointly",0
+Kirinyaga,Male,"Both alone 
+and jointly",0
+Murang'a,Male,"Both alone 
+and jointly",0
+Kiambu,Male,"Both alone 
+and jointly",0
+Turkana,Male,"Both alone 
+and jointly",0
+West Pokot,Male,"Both alone 
+and jointly",0
+Samburu,Male,"Both alone 
+and jointly",0
+Trans Nzoia,Male,"Both alone 
+and jointly",0
+Uasin Gishu,Male,"Both alone 
+and jointly",0
+Elgeyo-Marakwet,Male,"Both alone 
+and jointly",0
+Nandi,Male,"Both alone 
+and jointly",0
+Baringo,Male,"Both alone 
+and jointly",0
+Laikipia,Male,"Both alone 
+and jointly",0
+Nakuru,Male,"Both alone 
+and jointly",0
+Narok,Male,"Both alone 
+and jointly",0
+Kajiado,Male,"Both alone 
+and jointly",0.5
+Kericho,Male,"Both alone 
+and jointly",0
+Bomet,Male,"Both alone 
+and jointly",0
+Kakamega,Male,"Both alone 
+and jointly",0.3
+Vihiga,Male,"Both alone 
+and jointly",0
+Bungoma,Male,"Both alone 
+and jointly",0.2
+Busia,Male,"Both alone 
+and jointly",0
+Siaya,Male,"Both alone 
+and jointly",0.1
+Kisumu,Male,"Both alone 
+and jointly",0.4
+Homa Bay,Male,"Both alone 
+and jointly",0
+Migori,Male,"Both alone 
+and jointly",0
+Kisii,Male,"Both alone 
+and jointly",0
+Nyamira,Male,"Both alone 
+and jointly",0
+Nairobi,Male,"Both alone 
+and jointly",0
+Mombasa,Female,"Do not own 
+agricultural land",93.7
+Kwale,Female,"Do not own 
+agricultural land",98.4
+Kilifi,Female,"Do not own 
+agricultural land",97.5
+Tana River,Female,"Do not own 
+agricultural land",94.4
+Lamu,Female,"Do not own 
+agricultural land",93.2
+Taita Taveta,Female,"Do not own 
+agricultural land",95.8
+Garissa,Female,"Do not own 
+agricultural land",98
+Wajir,Female,"Do not own 
+agricultural land",96.6
+Mandera,Female,"Do not own 
+agricultural land",98.8
+Marsabit,Female,"Do not own 
+agricultural land",95.9
+Isiolo,Female,"Do not own 
+agricultural land",93.5
+Meru,Female,"Do not own 
+agricultural land",94.1
+Tharaka Nithi,Female,"Do not own 
+agricultural land",94.5
+Embu,Female,"Do not own 
+agricultural land",99
+Kitui,Female,"Do not own 
+agricultural land",91.1
+Machakos,Female,"Do not own 
+agricultural land",88.6
+Makueni,Female,"Do not own 
+agricultural land",94.3
+Nyandarua,Female,"Do not own 
+agricultural land",97.4
+Nyeri,Female,"Do not own 
+agricultural land",93.9
+Kirinyaga,Female,"Do not own 
+agricultural land",97.3
+Murang'a,Female,"Do not own 
+agricultural land",96.3
+Kiambu,Female,"Do not own 
+agricultural land",85
+Turkana,Female,"Do not own 
+agricultural land",93.2
+West Pokot,Female,"Do not own 
+agricultural land",90.4
+Samburu,Female,"Do not own 
+agricultural land",89.5
+Trans Nzoia,Female,"Do not own 
+agricultural land",95.7
+Uasin Gishu,Female,"Do not own 
+agricultural land",81.5
+Elgeyo-Marakwet,Female,"Do not own 
+agricultural land",95.2
+Nandi,Female,"Do not own 
+agricultural land",86.3
+Baringo,Female,"Do not own 
+agricultural land",95.9
+Laikipia,Female,"Do not own 
+agricultural land",94.7
+Nakuru,Female,"Do not own 
+agricultural land",94
+Narok,Female,"Do not own 
+agricultural land",72.6
+Kajiado,Female,"Do not own 
+agricultural land",90.3
+Kericho,Female,"Do not own 
+agricultural land",97.6
+Bomet,Female,"Do not own 
+agricultural land",95.4
+Kakamega,Female,"Do not own 
+agricultural land",97.1
+Vihiga,Female,"Do not own 
+agricultural land",98.8
+Bungoma,Female,"Do not own 
+agricultural land",94
+Busia,Female,"Do not own 
+agricultural land",98.4
+Siaya,Female,"Do not own 
+agricultural land",97.9
+Kisumu,Female,"Do not own 
+agricultural land",97.2
+Homa Bay,Female,"Do not own 
+agricultural land",95.7
+Migori,Female,"Do not own 
+agricultural land",95.2
+Kisii,Female,"Do not own 
+agricultural land",95.3
+Nyamira,Female,"Do not own 
+agricultural land",98.7
+Nairobi,Female,"Do not own 
+agricultural land",94.5
+Mombasa,Male,"Do not own 
+agricultural land",98.4
+Kwale,Male,"Do not own 
+agricultural land",88.4
+Kilifi,Male,"Do not own 
+agricultural land",96.3
+Tana River,Male,"Do not own 
+agricultural land",95.8
+Lamu,Male,"Do not own 
+agricultural land",93.9
+Taita Taveta,Male,"Do not own 
+agricultural land",95.6
+Garissa,Male,"Do not own 
+agricultural land",99.4
+Wajir,Male,"Do not own 
+agricultural land",99.9
+Mandera,Male,"Do not own 
+agricultural land",96.6
+Marsabit,Male,"Do not own 
+agricultural land",91.5
+Isiolo,Male,"Do not own 
+agricultural land",77.1
+Meru,Male,"Do not own 
+agricultural land",91.6
+Tharaka-Nithi,Male,"Do not own 
+agricultural land",89.6
+Embu,Male,"Do not own 
+agricultural land",96
+Kitui,Male,"Do not own 
+agricultural land",94.9
+Machakos,Male,"Do not own 
+agricultural land",86.7
+Makueni,Male,"Do not own 
+agricultural land",95.8
+Nyandarua,Male,"Do not own 
+agricultural land",91.6
+Nyeri,Male,"Do not own 
+agricultural land",93.6
+Kirinyaga,Male,"Do not own 
+agricultural land",99.8
+Murang'a,Male,"Do not own 
+agricultural land",93.5
+Kiambu,Male,"Do not own 
+agricultural land",88.7
+Turkana,Male,"Do not own 
+agricultural land",97.5
+West Pokot,Male,"Do not own 
+agricultural land",87.8
+Samburu,Male,"Do not own 
+agricultural land",98.3
+Trans Nzoia,Male,"Do not own 
+agricultural land",90.2
+Uasin Gishu,Male,"Do not own 
+agricultural land",90.5
+Elgeyo-Marakwet,Male,"Do not own 
+agricultural land",97.8
+Nandi,Male,"Do not own 
+agricultural land",83.8
+Baringo,Male,"Do not own 
+agricultural land",93.6
+Laikipia,Male,"Do not own 
+agricultural land",88.8
+Nakuru,Male,"Do not own 
+agricultural land",94
+Narok,Male,"Do not own 
+agricultural land",86
+Kajiado,Male,"Do not own 
+agricultural land",76.9
+Kericho,Male,"Do not own 
+agricultural land",91.4
+Bomet,Male,"Do not own 
+agricultural land",97.4
+Kakamega,Male,"Do not own 
+agricultural land",99.2
+Vihiga,Male,"Do not own 
+agricultural land",97.3
+Bungoma,Male,"Do not own 
+agricultural land",82.1
+Busia,Male,"Do not own 
+agricultural land",89.6
+Siaya,Male,"Do not own 
+agricultural land",94.8
+Kisumu,Male,"Do not own 
+agricultural land",97.5
+Homa Bay,Male,"Do not own 
+agricultural land",77.4
+Migori,Male,"Do not own 
+agricultural land",84
+Kisii,Male,"Do not own 
+agricultural land",93.1
+Nyamira,Male,"Do not own 
+agricultural land",98.2
+Nairobi,Male,"Do not own 
+agricultural land",94.8
+Mombasa,Female,Name is on title deed,-44.7
+Kwale,Female,Name is on title deed,NA
+Kilifi,Female,Name is on title deed,NA
+Tana River,Female,Name is on title deed,-7.6
+Lamu,Female,Name is on title deed,-11.3
+Taita Taveta,Female,Name is on title deed,NA
+Garissa,Female,Name is on title deed,NA
+Wajir,Female,Name is on title deed,NA
+Mandera,Female,Name is on title deed,NA
+Marsabit,Female,Name is on title deed,NA
+Isiolo,Female,Name is on title deed,-18.9
+Meru,Female,Name is on title deed,-52
+Tharaka Nithi,Female,Name is on title deed,-45.9
+Embu,Female,Name is on title deed,NA
+Kitui,Female,Name is on title deed,4.1
+Machakos,Female,Name is on title deed,33.5
+Makueni,Female,Name is on title deed,-18.6
+Nyandarua,Female,Name is on title deed,NA
+Nyeri,Female,Name is on title deed,-63.9
+Kirinyaga,Female,Name is on title deed,NA
+Murang'a,Female,Name is on title deed,NA
+Kiambu,Female,Name is on title deed,23
+Turkana,Female,Name is on title deed,-24
+West Pokot,Female,Name is on title deed,12.1
+Samburu,Female,Name is on title deed,7.3
+Trans Nzoia,Female,Name is on title deed,-22.5
+Uasin Gishu,Female,Name is on title deed,30.2
+Elgeyo-Marakwet,Female,Name is on title deed,-6.9
+Nandi,Female,Name is on title deed,11.5
+Baringo,Female,Name is on title deed,-31.4
+Laikipia,Female,Name is on title deed,-56.5
+Nakuru,Female,Name is on title deed,31.8
+Narok,Female,Name is on title deed,21.2
+Kajiado,Female,Name is on title deed,43.9
+Kericho,Female,Name is on title deed,NA
+Bomet,Female,Name is on title deed,-53.4
+Kakamega,Female,Name is on title deed,-40.8
+Vihiga,Female,Name is on title deed,NA
+Bungoma,Female,Name is on title deed,25.3
+Busia,Female,Name is on title deed,NA
+Siaya,Female,Name is on title deed,NA
+Kisumu,Female,Name is on title deed,NA
+Homa Bay,Female,Name is on title deed,-17.4
+Migori,Female,Name is on title deed,-15.9
+Kisii,Female,Name is on title deed,-12.1
+Nyamira,Female,Name is on title deed,NA
+Nairobi,Female,Name is on title deed,57.2
+Mombasa,Male,Name is on title deed,NA
+Kwale,Male,Name is on title deed,0
+Kilifi,Male,Name is on title deed,NA
+Tana River,Male,Name is on title deed,NA
+Lamu,Male,Name is on title deed,NA
+Taita Taveta,Male,Name is on title deed,NA
+Garissa,Male,Name is on title deed,NA
+Wajir,Male,Name is on title deed,NA
+Mandera,Male,Name is on title deed,NA
+Marsabit,Male,Name is on title deed,NA
+Isiolo,Male,Name is on title deed,0
+Meru,Male,Name is on title deed,0
+Tharaka-Nithi,Male,Name is on title deed,0
+Embu,Male,Name is on title deed,NA
+Kitui,Male,Name is on title deed,NA
+Machakos,Male,Name is on title deed,0
+Makueni,Male,Name is on title deed,NA
+Nyandarua,Male,Name is on title deed,NA
+Nyeri,Male,Name is on title deed,NA
+Kirinyaga,Male,Name is on title deed,NA
+Murang'a,Male,Name is on title deed,NA
+Kiambu,Male,Name is on title deed,0
+Turkana,Male,Name is on title deed,NA
+West Pokot,Male,Name is on title deed,0
+Samburu,Male,Name is on title deed,NA
+Trans Nzoia,Male,Name is on title deed,0
+Uasin Gishu,Male,Name is on title deed,0
+Elgeyo-Marakwet,Male,Name is on title deed,NA
+Nandi,Male,Name is on title deed,0
+Baringo,Male,Name is on title deed,NA
+Laikipia,Male,Name is on title deed,NA
+Nakuru,Male,Name is on title deed,NA
+Narok,Male,Name is on title deed,0
+Kajiado,Male,Name is on title deed,0
+Kericho,Male,Name is on title deed,0
+Bomet,Male,Name is on title deed,NA
+Kakamega,Male,Name is on title deed,NA
+Vihiga,Male,Name is on title deed,NA
+Bungoma,Male,Name is on title deed,0
+Busia,Male,Name is on title deed,0
+Siaya,Male,Name is on title deed,NA
+Kisumu,Male,Name is on title deed,NA
+Homa Bay,Male,Name is on title deed,0
+Migori,Male,Name is on title deed,0
+Kisii,Male,Name is on title deed,NA
+Nyamira,Male,Name is on title deed,NA
+Nairobi,Male,Name is on title deed,NA
+Mombasa,Female,Does not have a title deed,-6.2
+Kwale,Female,Does not have a title deed,NA
+Kilifi,Female,Does not have a title deed,NA
+Tana River,Female,Does not have a title deed,-10.2
+Lamu,Female,Does not have a title deed,-12.7
+Taita Taveta,Female,Does not have a title deed,NA
+Garissa,Female,Does not have a title deed,NA
+Wajir,Female,Does not have a title deed,NA
+Mandera,Female,Does not have a title deed,NA
+Marsabit,Female,Does not have a title deed,NA
+Isiolo,Female,Does not have a title deed,-3
+Meru,Female,Does not have a title deed,-24.7
+Tharaka Nithi,Female,Does not have a title deed,-8.6
+Embu,Female,Does not have a title deed,NA
+Kitui,Female,Does not have a title deed,5.7
+Machakos,Female,Does not have a title deed,16.2
+Makueni,Female,Does not have a title deed,-23.3
+Nyandarua,Female,Does not have a title deed,NA
+Nyeri,Female,Does not have a title deed,-23.7
+Kirinyaga,Female,Does not have a title deed,NA
+Murang'a,Female,Does not have a title deed,NA
+Kiambu,Female,Does not have a title deed,26.6
+Turkana,Female,Does not have a title deed,-5.3
+West Pokot,Female,Does not have a title deed,22.5
+Samburu,Female,Does not have a title deed,10.4
+Trans Nzoia,Female,Does not have a title deed,-27.8
+Uasin Gishu,Female,Does not have a title deed,21.1
+Elgeyo-Marakwet,Female,Does not have a title deed,-28.4
+Nandi,Female,Does not have a title deed,7.8
+Baringo,Female,Does not have a title deed,-10.5
+Laikipia,Female,Does not have a title deed,-17.5
+Nakuru,Female,Does not have a title deed,36.1
+Narok,Female,Does not have a title deed,44.4
+Kajiado,Female,Does not have a title deed,37.5
+Kericho,Female,Does not have a title deed,NA
+Bomet,Female,Does not have a title deed,-19.1
+Kakamega,Female,Does not have a title deed,-8.6
+Vihiga,Female,Does not have a title deed,NA
+Bungoma,Female,Does not have a title deed,22.3
+Busia,Female,Does not have a title deed,NA
+Siaya,Female,Does not have a title deed,NA
+Kisumu,Female,Does not have a title deed,NA
+Homa Bay,Female,Does not have a title deed,-54.8
+Migori,Female,Does not have a title deed,-17.4
+Kisii,Female,Does not have a title deed,-23.4
+Nyamira,Female,Does not have a title deed,NA
+Nairobi,Female,Does not have a title deed,25.3
+Mombasa,Male,Does not have a title deed,NA
+Kwale,Male,Does not have a title deed,0
+Kilifi,Male,Does not have a title deed,NA
+Tana River,Male,Does not have a title deed,NA
+Lamu,Male,Does not have a title deed,NA
+Taita Taveta,Male,Does not have a title deed,NA
+Garissa,Male,Does not have a title deed,NA
+Wajir,Male,Does not have a title deed,NA
+Mandera,Male,Does not have a title deed,NA
+Marsabit,Male,Does not have a title deed,NA
+Isiolo,Male,Does not have a title deed,0
+Meru,Male,Does not have a title deed,0
+Tharaka-Nithi,Male,Does not have a title deed,0
+Embu,Male,Does not have a title deed,NA
+Kitui,Male,Does not have a title deed,NA
+Machakos,Male,Does not have a title deed,0
+Makueni,Male,Does not have a title deed,NA
+Nyandarua,Male,Does not have a title deed,NA
+Nyeri,Male,Does not have a title deed,NA
+Kirinyaga,Male,Does not have a title deed,NA
+Murang'a,Male,Does not have a title deed,NA
+Kiambu,Male,Does not have a title deed,0
+Turkana,Male,Does not have a title deed,NA
+West Pokot,Male,Does not have a title deed,0
+Samburu,Male,Does not have a title deed,NA
+Trans Nzoia,Male,Does not have a title deed,0
+Uasin Gishu,Male,Does not have a title deed,0
+Elgeyo-Marakwet,Male,Does not have a title deed,NA
+Nandi,Male,Does not have a title deed,0
+Baringo,Male,Does not have a title deed,NA
+Laikipia,Male,Does not have a title deed,NA
+Nakuru,Male,Does not have a title deed,NA
+Narok,Male,Does not have a title deed,0
+Kajiado,Male,Does not have a title deed,0
+Kericho,Male,Does not have a title deed,0
+Bomet,Male,Does not have a title deed,NA
+Kakamega,Male,Does not have a title deed,NA
+Vihiga,Male,Does not have a title deed,NA
+Bungoma,Male,Does not have a title deed,0
+Busia,Male,Does not have a title deed,0
+Siaya,Male,Does not have a title deed,NA
+Kisumu,Male,Does not have a title deed,NA
+Homa Bay,Male,Does not have a title deed,0
+Migori,Male,Does not have a title deed,0
+Kisii,Male,Does not have a title deed,NA
+Nyamira,Male,Does not have a title deed,NA
+Nairobi,Male,Does not have a title deed,NA
+Mombasa,Female,"Does not have 
+a title deed",-46.6
+Kwale,Female,"Does not have 
+a title deed",NA
+Kilifi,Female,"Does not have 
+a title deed",NA
+Tana River,Female,"Does not have 
+a title deed",-82.2
+Lamu,Female,"Does not have 
+a title deed",-68.6
+Taita Taveta,Female,"Does not have 
+a title deed",NA
+Garissa,Female,"Does not have 
+a title deed",NA
+Wajir,Female,"Does not have 
+a title deed",NA
+Mandera,Female,"Does not have 
+a title deed",NA
+Marsabit,Female,"Does not have 
+a title deed",NA
+Isiolo,Female,"Does not have 
+a title deed",-76.5
+Meru,Female,"Does not have 
+a title deed",-20.2
+Tharaka Nithi,Female,"Does not have 
+a title deed",-38.5
+Embu,Female,"Does not have 
+a title deed",NA
+Kitui,Female,"Does not have 
+a title deed",86.2
+Machakos,Female,"Does not have 
+a title deed",46.6
+Makueni,Female,"Does not have 
+a title deed",-52.6
+Nyandarua,Female,"Does not have 
+a title deed",NA
+Nyeri,Female,"Does not have 
+a title deed",-12.4
+Kirinyaga,Female,"Does not have 
+a title deed",NA
+Murang'a,Female,"Does not have 
+a title deed",NA
+Kiambu,Female,"Does not have 
+a title deed",50.4
+Turkana,Female,"Does not have 
+a title deed",-69.6
+West Pokot,Female,"Does not have 
+a title deed",65.4
+Samburu,Female,"Does not have 
+a title deed",81.2
+Trans Nzoia,Female,"Does not have 
+a title deed",-49.7
+Uasin Gishu,Female,"Does not have 
+a title deed",47.3
+Elgeyo-Marakwet,Female,"Does not have 
+a title deed",-64.7
+Nandi,Female,"Does not have 
+a title deed",79.2
+Baringo,Female,"Does not have 
+a title deed",-58.1
+Laikipia,Female,"Does not have 
+a title deed",-23.4
+Nakuru,Female,"Does not have 
+a title deed",32
+Narok,Female,"Does not have 
+a title deed",30.3
+Kajiado,Female,"Does not have 
+a title deed",16.7
+Kericho,Female,"Does not have 
+a title deed",NA
+Bomet,Female,"Does not have 
+a title deed",-27.6
+Kakamega,Female,"Does not have 
+a title deed",-43.5
+Vihiga,Female,"Does not have 
+a title deed",NA
+Bungoma,Female,"Does not have 
+a title deed",50.2
+Busia,Female,"Does not have 
+a title deed",NA
+Siaya,Female,"Does not have 
+a title deed",NA
+Kisumu,Female,"Does not have 
+a title deed",NA
+Homa Bay,Female,"Does not have 
+a title deed",-27.8
+Migori,Female,"Does not have 
+a title deed",-66.8
+Kisii,Female,"Does not have 
+a title deed",-59.1
+Nyamira,Female,"Does not have 
+a title deed",NA
+Nairobi,Female,"Does not have 
+a title deed",15.9
+Mombasa,Male,"Does not have 
+a title deed",NA
+Kwale,Male,"Does not have 
+a title deed",-34.7
+Kilifi,Male,"Does not have 
+a title deed",NA
+Tana River,Male,"Does not have 
+a title deed",NA
+Lamu,Male,"Does not have 
+a title deed",NA
+Taita Taveta,Male,"Does not have 
+a title deed",NA
+Garissa,Male,"Does not have 
+a title deed",NA
+Wajir,Male,"Does not have 
+a title deed",NA
+Mandera,Male,"Does not have 
+a title deed",NA
+Marsabit,Male,"Does not have 
+a title deed",NA
+Isiolo,Male,"Does not have 
+a title deed",68.4
+Meru,Male,"Does not have 
+a title deed",-71.3
+Tharaka-Nithi,Male,"Does not have 
+a title deed",-61.8
+Embu,Male,"Does not have 
+a title deed",NA
+Kitui,Male,"Does not have 
+a title deed",NA
+Machakos,Male,"Does not have 
+a title deed",-44.2
+Makueni,Male,"Does not have 
+a title deed",NA
+Nyandarua,Male,"Does not have 
+a title deed",NA
+Nyeri,Male,"Does not have 
+a title deed",NA
+Kirinyaga,Male,"Does not have 
+a title deed",NA
+Murang'a,Male,"Does not have 
+a title deed",NA
+Kiambu,Male,"Does not have 
+a title deed",-42.6
+Turkana,Male,"Does not have 
+a title deed",NA
+West Pokot,Male,"Does not have 
+a title deed",-82.8
+Samburu,Male,"Does not have 
+a title deed",NA
+Trans Nzoia,Male,"Does not have 
+a title deed",-63.6
+Uasin Gishu,Male,"Does not have 
+a title deed",-5.4
+Elgeyo-Marakwet,Male,"Does not have 
+a title deed",NA
+Nandi,Male,"Does not have 
+a title deed",49.6
+Baringo,Male,"Does not have 
+a title deed",NA
+Laikipia,Male,"Does not have 
+a title deed",NA
+Nakuru,Male,"Does not have 
+a title deed",NA
+Narok,Male,"Does not have 
+a title deed",-2.2
+Kajiado,Male,"Does not have 
+a title deed",-33.3
+Kericho,Male,"Does not have 
+a title deed",-77
+Bomet,Male,"Does not have 
+a title deed",NA
+Kakamega,Male,"Does not have 
+a title deed",NA
+Vihiga,Male,"Does not have 
+a title deed",NA
+Bungoma,Male,"Does not have 
+a title deed",64.5
+Busia,Male,"Does not have 
+a title deed",-68
+Siaya,Male,"Does not have 
+a title deed",NA
+Kisumu,Male,"Does not have 
+a title deed",NA
+Homa Bay,Male,"Does not have 
+a title deed",31.5
+Migori,Male,"Does not have 
+a title deed",-39.7
+Kisii,Male,"Does not have 
+a title deed",NA
+Nyamira,Male,"Does not have 
+a title deed",NA
+Nairobi,Male,"Does not have 
+a title deed",NA
+Mombasa,Female,Don't know,-2.5
+Kwale,Female,Don't know,NA
+Kilifi,Female,Don't know,NA
+Tana River,Female,Don't know,0
+Lamu,Female,Don't know,-7.5
+Taita Taveta,Female,Don't know,NA
+Garissa,Female,Don't know,NA
+Wajir,Female,Don't know,NA
+Mandera,Female,Don't know,NA
+Marsabit,Female,Don't know,NA
+Isiolo,Female,Don't know,-1.6
+Meru,Female,Don't know,-3.1
+Tharaka Nithi,Female,Don't know,-7
+Embu,Female,Don't know,NA
+Kitui,Female,Don't know,4
+Machakos,Female,Don't know,3.6
+Makueni,Female,Don't know,-5.5
+Nyandarua,Female,Don't know,NA
+Nyeri,Female,Don't know,0
+Kirinyaga,Female,Don't know,NA
+Murang'a,Female,Don't know,NA
+Kiambu,Female,Don't know,0
+Turkana,Female,Don't know,-1.1
+West Pokot,Female,Don't know,0
+Samburu,Female,Don't know,1.1
+Trans Nzoia,Female,Don't know,0
+Uasin Gishu,Female,Don't know,1.5
+Elgeyo-Marakwet,Female,Don't know,0
+Nandi,Female,Don't know,1.5
+Baringo,Female,Don't know,0
+Laikipia,Female,Don't know,-2.6
+Nakuru,Female,Don't know,0
+Narok,Female,Don't know,4.1
+Kajiado,Female,Don't know,1.9
+Kericho,Female,Don't know,NA
+Bomet,Female,Don't know,0
+Kakamega,Female,Don't know,-7.1
+Vihiga,Female,Don't know,NA
+Bungoma,Female,Don't know,2.3
+Busia,Female,Don't know,NA
+Siaya,Female,Don't know,NA
+Kisumu,Female,Don't know,NA
+Homa Bay,Female,Don't know,0
+Migori,Female,Don't know,0
+Kisii,Female,Don't know,-5.4
+Nyamira,Female,Don't know,NA
+Nairobi,Female,Don't know,1.6
+Mombasa,Male,Don't know,NA
+Kwale,Male,Don't know,-9.8
+Kilifi,Male,Don't know,NA
+Tana River,Male,Don't know,NA
+Lamu,Male,Don't know,NA
+Taita Taveta,Male,Don't know,NA
+Garissa,Male,Don't know,NA
+Wajir,Male,Don't know,NA
+Mandera,Male,Don't know,NA
+Marsabit,Male,Don't know,NA
+Isiolo,Male,Don't know,0
+Meru,Male,Don't know,0
+Tharaka-Nithi,Male,Don't know,0
+Embu,Male,Don't know,NA
+Kitui,Male,Don't know,NA
+Machakos,Male,Don't know,0
+Makueni,Male,Don't know,NA
+Nyandarua,Male,Don't know,NA
+Nyeri,Male,Don't know,NA
+Kirinyaga,Male,Don't know,NA
+Murang'a,Male,Don't know,NA
+Kiambu,Male,Don't know,0
+Turkana,Male,Don't know,NA
+West Pokot,Male,Don't know,0
+Samburu,Male,Don't know,NA
+Trans Nzoia,Male,Don't know,0
+Uasin Gishu,Male,Don't know,0
+Elgeyo-Marakwet,Male,Don't know,NA
+Nandi,Male,Don't know,0
+Baringo,Male,Don't know,NA
+Laikipia,Male,Don't know,NA
+Nakuru,Male,Don't know,NA
+Narok,Male,Don't know,0
+Kajiado,Male,Don't know,0
+Kericho,Male,Don't know,0
+Bomet,Male,Don't know,NA
+Kakamega,Male,Don't know,NA
+Vihiga,Male,Don't know,NA
+Bungoma,Male,Don't know,0
+Busia,Male,Don't know,0
+Siaya,Male,Don't know,NA
+Kisumu,Male,Don't know,NA
+Homa Bay,Male,Don't know,4.2
+Migori,Male,Don't know,0
+Kisii,Male,Don't know,NA
+Nyamira,Male,Don't know,NA
+Nairobi,Male,Don't know,NA

@@ -1,0 +1,57 @@
+Value,Category,Proportion,Background characteristics
+Urban,Appropriate management method,89.6,Residence
+Urban,Connected to sewer,28.1,Residence
+Urban,Safe disposal from on-site facilities,53.0,Residence
+Urban,Unsafe disposal from on-site facilities,0.4,Residence
+Urban,Removal for treatment off-site,8.5,Residence
+Urban,Improved facilities,1.7,Residence
+Urban,Unimproved facilities,7.4,Residence
+Urban,Open defecation,0.9,Residence
+Rural,Appropriate management method,53.8,Residence
+Rural,Connected to sewer,0.3,Residence
+Rural,Safe disposal from on-site facilities,53.1,Residence
+Rural,Unsafe disposal from on-site facilities,0.1,Residence
+Rural,Removal for treatment off-site,0.5,Residence
+Rural,Improved facilities,0.0,Residence
+Rural,Unimproved facilities,35.6,Residence
+Rural,Open defecation,10.4,Residence
+Lowest,Appropriate management method,22.4,Wealth quintile
+Lowest,Connected to sewer,0.0,Wealth quintile
+Lowest,Safe disposal from on-site facilities,22.3,Wealth quintile
+Lowest,Unsafe disposal from on-site facilities,0.0,Wealth quintile
+Lowest,Removal for treatment off-site,0.0,Wealth quintile
+Lowest,Improved facilities,0.0,Wealth quintile
+Lowest,Unimproved facilities,45.4,Wealth quintile
+Lowest,Open defecation,32.2,Wealth quintile
+Second,Appropriate management method,48.6,Wealth quintile
+Second,Connected to sewer,0.4,Wealth quintile
+Second,Safe disposal from on-site facilities,48.0,Wealth quintile
+Second,Unsafe disposal from on-site facilities,0.1,Wealth quintile
+Second,Removal for treatment off-site,0.2,Wealth quintile
+Second,Improved facilities,0.0,Wealth quintile
+Second,Unimproved facilities,48.0,Wealth quintile
+Second,Open defecation,3.3,Wealth quintile
+Middle,Appropriate management method,73.6,Wealth quintile
+Middle,Connected to sewer,1.5,Wealth quintile
+Middle,Safe disposal from on-site facilities,71.5,Wealth quintile
+Middle,Unsafe disposal from on-site facilities,0.1,Wealth quintile
+Middle,Removal for treatment off-site,0.6,Wealth quintile
+Middle,Improved facilities,0.1,Wealth quintile
+Middle,Unimproved facilities,25.6,Wealth quintile
+Middle,Open defecation,0.6,Wealth quintile
+Fourth,Appropriate management method,89.7,Wealth quintile
+Fourth,Connected to sewer,10.0,Wealth quintile
+Fourth,Safe disposal from on-site facilities,75.1,Wealth quintile
+Fourth,Unsafe disposal from on-site facilities,0.3,Wealth quintile
+Fourth,Removal for treatment off-site,4.5,Wealth quintile
+Fourth,Improved facilities,1.1,Wealth quintile
+Fourth,Unimproved facilities,8.9,Wealth quintile
+Fourth,Open defecation,0.0,Wealth quintile
+Highest,Appropriate management method,95.1,Wealth quintile
+Highest,Connected to sewer,36.4,Wealth quintile
+Highest,Safe disposal from on-site facilities,48.3,Wealth quintile
+Highest,Unsafe disposal from on-site facilities,0.4,Wealth quintile
+Highest,Removal for treatment off-site,10.5,Wealth quintile
+Highest,Improved facilities,1.8,Wealth quintile
+Highest,Unimproved facilities,2.6,Wealth quintile
+Highest,Open defecation,0.0,Wealth quintile

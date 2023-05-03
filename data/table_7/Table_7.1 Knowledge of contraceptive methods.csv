@@ -1,0 +1,85 @@
+method,gender,variable,proportion
+Any method,Women,All,98.7
+Any method,Women,Currently married,99.6
+Any method,Women,Sexually active unmarried,99.7
+Any method,Men,All,98.7
+Any method,Men,Currently married,99.6
+Any method,Men,Sexually active unmarried,99.7
+Any modern method,Women,All,98.7
+Any modern method,Women,Currently married,99.5
+Any modern method,Women,Sexually active unmarried,99.7
+Any modern method,Men,All,98.7
+Any modern method,Men,Currently married,99.5
+Any modern method,Men,Sexually active unmarried,99.7
+Female sterilization,Women,All,69.7
+Female sterilization,Women,Currently married,77.1
+Female sterilization,Women,Sexually active unmarried,78.7
+Male sterilization,Women,All,45.7
+Male sterilization,Women,Currently married,49.8
+Male sterilization,Women,Sexually active unmarried,52.7
+IUD,Women,All,77.2
+IUD,Women,Currently married,87.6
+IUD,Women,Sexually active unmarried,87.4
+Injectables,Women,All,94.3
+Injectables,Women,Currently married,98.5
+Injectables,Women,Sexually active unmarried,98.5
+Implants,Women,All,91.1
+Implants,Women,Currently married,97.3
+Implants,Women,Sexually active unmarried,96.3
+Pill,Women,All,90.7
+Pill,Women,Currently married,96
+Pill,Women,Sexually active unmarried,95.8
+Male condom,Women,All,96.5
+Male condom,Women,Currently married,97.4
+Male condom,Women,Sexually active unmarried,99.3
+Female condom,Women,All,72.6
+Female condom,Women,Currently married,76.4
+Female condom,Women,Sexually active unmarried,85.6
+Emergency contraception,Women,All,70.7
+Emergency contraception,Women,Currently married,71.6
+Emergency contraception,Women,Sexually active unmarried,87.4
+Standard days method,Women,All,39.5
+Standard days method,Women,Currently married,45
+Standard days method,Women,Sexually active unmarried,40.1
+Lactational amenorrhea method (LAM),Women,All,59
+Lactational amenorrhea method (LAM),Women,Currently married,71.4
+Lactational amenorrhea method (LAM),Women,Sexually active unmarried,56.8
+Other modern method,Women,All,0.4
+Other modern method,Women,Currently married,0.5
+Other modern method,Women,Sexually active unmarried,0.3
+Female sterilization,Men,All,69.7
+Female sterilization,Men,Currently married,77.1
+Female sterilization,Men,Sexually active unmarried,78.7
+Male sterilization,Men,All,45.7
+Male sterilization,Men,Currently married,49.8
+Male sterilization,Men,Sexually active unmarried,52.7
+IUD,Men,All,77.2
+IUD,Men,Currently married,87.6
+IUD,Men,Sexually active unmarried,87.4
+Injectables,Men,All,94.3
+Injectables,Men,Currently married,98.5
+Injectables,Men,Sexually active unmarried,98.5
+Implants,Men,All,91.1
+Implants,Men,Currently married,97.3
+Implants,Men,Sexually active unmarried,96.3
+Pill,Men,All,90.7
+Pill,Men,Currently married,96
+Pill,Men,Sexually active unmarried,95.8
+Male condom,Men,All,96.5
+Male condom,Men,Currently married,97.4
+Male condom,Men,Sexually active unmarried,99.3
+Female condom,Men,All,72.6
+Female condom,Men,Currently married,76.4
+Female condom,Men,Sexually active unmarried,85.6
+Emergency contraception,Men,All,70.7
+Emergency contraception,Men,Currently married,71.6
+Emergency contraception,Men,Sexually active unmarried,87.4
+Standard days method,Men,All,39.5
+Standard days method,Men,Currently married,45
+Standard days method,Men,Sexually active unmarried,40.1
+Lactational amenorrhea method (LAM),Men,All,59
+Lactational amenorrhea method (LAM),Men,Currently married,71.4
+Lactational amenorrhea method (LAM),Men,Sexually active unmarried,56.8
+Other modern method,Men,All,0.4
+Other modern method,Men,Currently married,0.5
+Other modern method,Men,Sexually active unmarried,0.3

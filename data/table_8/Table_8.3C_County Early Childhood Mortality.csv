@@ -1,0 +1,236 @@
+county,category,proportion
+Mombasa,Neonatal mortality,32
+Mombasa,Post neonatal mortality,10
+Mombasa,Infant mortality,43
+Mombasa,Child mortality,8
+Mombasa,Under 5 mortality,50
+Kwale,Neonatal mortality,19
+Kwale,Post neonatal mortality,4
+Kwale,Infant mortality,23
+Kwale,Child mortality,7
+Kwale,Under 5 mortality,30
+Kilifi,Neonatal mortality,24
+Kilifi,Post neonatal mortality,10
+Kilifi,Infant mortality,34
+Kilifi,Child mortality,6
+Kilifi,Under 5 mortality,40
+Tana River,Neonatal mortality,23
+Tana River,Post neonatal mortality,14
+Tana River,Infant mortality,38
+Tana River,Child mortality,8
+Tana River,Under 5 mortality,45
+Lamu,Neonatal mortality,26
+Lamu,Post neonatal mortality,15
+Lamu,Infant mortality,41
+Lamu,Child mortality,9
+Lamu,Under 5 mortality,50
+Taita Taveta,Neonatal mortality,19
+Taita Taveta,Post neonatal mortality,5
+Taita Taveta,Infant mortality,24
+Taita Taveta,Child mortality,6
+Taita Taveta,Under 5 mortality,29
+Garissa,Neonatal mortality,28
+Garissa,Post neonatal mortality,13
+Garissa,Infant mortality,41
+Garissa,Child mortality,3
+Garissa,Under 5 mortality,44
+Wajir,Neonatal mortality,37
+Wajir,Post neonatal mortality,6
+Wajir,Infant mortality,43
+Wajir,Child mortality,15
+Wajir,Under 5 mortality,57
+Mandera,Neonatal mortality,16
+Mandera,Post neonatal mortality,4
+Mandera,Infant mortality,20
+Mandera,Child mortality,1
+Mandera,Under 5 mortality,21
+Marsabit,Neonatal mortality,4
+Marsabit,Post neonatal mortality,5
+Marsabit,Infant mortality,9
+Marsabit,Child mortality,6
+Marsabit,Under 5 mortality,15
+Isiolo,Neonatal mortality,22
+Isiolo,Post neonatal mortality,2
+Isiolo,Infant mortality,24
+Isiolo,Child mortality,9
+Isiolo,Under 5 mortality,33
+Meru,Neonatal mortality,20
+Meru,Post neonatal mortality,9
+Meru,Infant mortality,29
+Meru,Child mortality,6
+Meru,Under 5 mortality,35
+Tharaka Nithi,Neonatal mortality,12
+Tharaka Nithi,Post neonatal mortality,7
+Tharaka Nithi,Infant mortality,19
+Tharaka Nithi,Child mortality,6
+Tharaka Nithi,Under 5 mortality,25
+Embu,Neonatal mortality,24
+Embu,Post neonatal mortality,11
+Embu,Infant mortality,36
+Embu,Child mortality,8
+Embu,Under 5 mortality,44
+Kitui,Neonatal mortality,13
+Kitui,Post neonatal mortality,9
+Kitui,Infant mortality,23
+Kitui,Child mortality,4
+Kitui,Under 5 mortality,27
+Machakos,Neonatal mortality,26
+Machakos,Post neonatal mortality,8
+Machakos,Infant mortality,34
+Machakos,Child mortality,7
+Machakos,Under 5 mortality,41
+Makueni,Neonatal mortality,26
+Makueni,Post neonatal mortality,9
+Makueni,Infant mortality,35
+Makueni,Child mortality,3
+Makueni,Under 5 mortality,38
+Nyandarua,Neonatal mortality,20
+Nyandarua,Post neonatal mortality,16
+Nyandarua,Infant mortality,36
+Nyandarua,Child mortality,10
+Nyandarua,Under 5 mortality,45
+Nyeri,Neonatal mortality,27
+Nyeri,Post neonatal mortality,21
+Nyeri,Infant mortality,48
+Nyeri,Child mortality,5
+Nyeri,Under 5 mortality,52
+Kirinyaga,Neonatal mortality,37
+Kirinyaga,Post neonatal mortality,17
+Kirinyaga,Infant mortality,55
+Kirinyaga,Child mortality,2
+Kirinyaga,Under 5 mortality,56
+Murang’a,Neonatal mortality,36
+Murang’a,Post neonatal mortality,7
+Murang’a,Infant mortality,43
+Murang’a,Child mortality,5
+Murang’a,Under 5 mortality,47
+Kiambu,Neonatal mortality,28
+Kiambu,Post neonatal mortality,7
+Kiambu,Infant mortality,35
+Kiambu,Child mortality,5
+Kiambu,Under 5 mortality,40
+Turkana,Neonatal mortality,21
+Turkana,Post neonatal mortality,7
+Turkana,Infant mortality,29
+Turkana,Child mortality,27
+Turkana,Under 5 mortality,55
+West Pokot,Neonatal mortality,27
+West Pokot,Post neonatal mortality,11
+West Pokot,Infant mortality,38
+West Pokot,Child mortality,9
+West Pokot,Under 5 mortality,46
+Samburu,Neonatal mortality,19
+Samburu,Post neonatal mortality,10
+Samburu,Infant mortality,29
+Samburu,Child mortality,9
+Samburu,Under 5 mortality,38
+Trans Nzoia,Neonatal mortality,23
+Trans Nzoia,Post neonatal mortality,14
+Trans Nzoia,Infant mortality,36
+Trans Nzoia,Child mortality,6
+Trans Nzoia,Under 5 mortality,42
+Uasin Gishu,Neonatal mortality,17
+Uasin Gishu,Post neonatal mortality,14
+Uasin Gishu,Infant mortality,31
+Uasin Gishu,Child mortality,6
+Uasin Gishu,Under 5 mortality,37
+Elgeyo/Marakwet,Neonatal mortality,27
+Elgeyo/Marakwet,Post neonatal mortality,5
+Elgeyo/Marakwet,Infant mortality,32
+Elgeyo/Marakwet,Child mortality,1
+Elgeyo/Marakwet,Under 5 mortality,33
+Nandi,Neonatal mortality,24
+Nandi,Post neonatal mortality,9
+Nandi,Infant mortality,33
+Nandi,Child mortality,7
+Nandi,Under 5 mortality,39
+Baringo,Neonatal mortality,33
+Baringo,Post neonatal mortality,17
+Baringo,Infant mortality,50
+Baringo,Child mortality,5
+Baringo,Under 5 mortality,55
+Laikipia,Neonatal mortality,20
+Laikipia,Post neonatal mortality,23
+Laikipia,Infant mortality,44
+Laikipia,Child mortality,7
+Laikipia,Under 5 mortality,50
+Nakuru,Neonatal mortality,25
+Nakuru,Post neonatal mortality,16
+Nakuru,Infant mortality,41
+Nakuru,Child mortality,10
+Nakuru,Under 5 mortality,51
+Narok,Neonatal mortality,16
+Narok,Post neonatal mortality,8
+Narok,Infant mortality,24
+Narok,Child mortality,2
+Narok,Under 5 mortality,26
+Kajiado,Neonatal mortality,14
+Kajiado,Post neonatal mortality,12
+Kajiado,Infant mortality,25
+Kajiado,Child mortality,7
+Kajiado,Under 5 mortality,32
+Kericho,Neonatal mortality,17
+Kericho,Post neonatal mortality,8
+Kericho,Infant mortality,25
+Kericho,Child mortality,7
+Kericho,Under 5 mortality,31
+Bomet,Neonatal mortality,17
+Bomet,Post neonatal mortality,9
+Bomet,Infant mortality,26
+Bomet,Child mortality,3
+Bomet,Under 5 mortality,28
+Kakamega,Neonatal mortality,16
+Kakamega,Post neonatal mortality,11
+Kakamega,Infant mortality,28
+Kakamega,Child mortality,18
+Kakamega,Under 5 mortality,45
+Vihiga,Neonatal mortality,16
+Vihiga,Post neonatal mortality,18
+Vihiga,Infant mortality,34
+Vihiga,Child mortality,17
+Vihiga,Under 5 mortality,51
+Bungoma,Neonatal mortality,25
+Bungoma,Post neonatal mortality,15
+Bungoma,Infant mortality,39
+Bungoma,Child mortality,16
+Bungoma,Under 5 mortality,55
+Busia,Neonatal mortality,22
+Busia,Post neonatal mortality,12
+Busia,Infant mortality,34
+Busia,Child mortality,20
+Busia,Under 5 mortality,53
+Siaya,Neonatal mortality,24
+Siaya,Post neonatal mortality,22
+Siaya,Infant mortality,45
+Siaya,Child mortality,19
+Siaya,Under 5 mortality,63
+Kisumu,Neonatal mortality,21
+Kisumu,Post neonatal mortality,19
+Kisumu,Infant mortality,40
+Kisumu,Child mortality,5
+Kisumu,Under 5 mortality,45
+Homa Bay,Neonatal mortality,32
+Homa Bay,Post neonatal mortality,11
+Homa Bay,Infant mortality,42
+Homa Bay,Child mortality,20
+Homa Bay,Under 5 mortality,61
+Migori,Neonatal mortality,37
+Migori,Post neonatal mortality,16
+Migori,Infant mortality,53
+Migori,Child mortality,21
+Migori,Under 5 mortality,73
+Kisii,Neonatal mortality,21
+Kisii,Post neonatal mortality,3
+Kisii,Infant mortality,24
+Kisii,Child mortality,16
+Kisii,Under 5 mortality,40
+Nyamira,Neonatal mortality,27
+Nyamira,Post neonatal mortality,4
+Nyamira,Infant mortality,31
+Nyamira,Child mortality,12
+Nyamira,Under 5 mortality,42
+Nairobi,Neonatal mortality,20
+Nairobi,Post neonatal mortality,20
+Nairobi,Infant mortality,40
+Nairobi,Child mortality,4
+Nairobi,Under 5 mortality,44

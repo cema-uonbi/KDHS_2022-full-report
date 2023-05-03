@@ -1,0 +1,73 @@
+Value,Category,Proportion,Participants,Background characteristics
+15-19,Diagnosed with Depression,2.5,Women,Age
+15-19,Receiving treatment,30.2,Women,Age
+20-24,Diagnosed with Depression,3.3,Women,Age
+20-24,Receiving treatment,23.4,Women,Age
+25-29,Diagnosed with Depression,3.9,Women,Age
+25-29,Receiving treatment,24.8,Women,Age
+30-34,Diagnosed with Depression,3.7,Women,Age
+30-34,Receiving treatment,23.8,Women,Age
+35-39,Diagnosed with Depression,5.7,Women,Age
+35-39,Receiving treatment,30.2,Women,Age
+40-44,Diagnosed with Depression,6.5,Women,Age
+40-44,Receiving treatment,28.4,Women,Age
+45-49,Diagnosed with Depression,4.3,Women,Age
+45-49,Receiving treatment,24.8,Women,Age
+15-19,Diagnosed with Depression,1.6,Men,Age
+15-19,Receiving treatment,13.5,Men,Age
+20-24,Diagnosed with Depression,2.2,Men,Age
+20-24,Receiving treatment,30.3,Men,Age
+25-29,Diagnosed with Depression,2.7,Men,Age
+25-29,Receiving treatment,23.4,Men,Age
+30-34,Diagnosed with Depression,4.4,Men,Age
+30-34,Receiving treatment,23.7,Men,Age
+35-39,Diagnosed with Depression,4.1,Men,Age
+35-39,Receiving treatment,14.3,Men,Age
+40-44,Diagnosed with Depression,4.9,Men,Age
+40-44,Receiving treatment,16.2,Men,Age
+45-49,Diagnosed with Depression,4.3,Men,Age
+45-49,Receiving treatment,29.2,Men,Age
+Urban,Diagnosed with Depression,4.3,Women,Residence
+Urban,Receiving treatment,27.8,Women,Residence
+Rural,Diagnosed with Depression,3.8,Women,Residence
+Rural,Receiving treatment,25.8,Women,Residence
+Urban,Diagnosed with Depression,3.4,Men,Residence
+Urban,Receiving treatment,20.4,Men,Residence
+Rural,Diagnosed with Depression,2.9,Men,Residence
+Rural,Receiving treatment,21.9,Men,Residence
+No education,Diagnosed with Depression,4.5,Women,Education
+No education,Receiving treatment,23.3,Women,Education
+Primary,Diagnosed with Depression,3.9,Women,Education
+Primary,Receiving treatment,22.9,Women,Education
+Secondary,Diagnosed with Depression,3.2,Women,Education
+Secondary,Receiving treatment,36.6,Women,Education
+More than secondary,Diagnosed with Depression,5.7,Women,Education
+More than secondary,Receiving treatment,21.5,Women,Education
+No education,Diagnosed with Depression,2.1,Men,Education
+No education,Receiving treatment,NA,Men,Education
+Primary,Diagnosed with Depression,3.3,Men,Education
+Primary,Receiving treatment,24.3,Men,Education
+Secondary,Diagnosed with Depression,2.2,Men,Education
+Secondary,Receiving treatment,18.8,Men,Education
+More than secondary,Diagnosed with Depression,4.6,Men,Education
+More than secondary,Receiving treatment,17.9,Men,Education
+Lowest,Diagnosed with Depression,3.9,Women,Wealth quintile
+Lowest,Receiving treatment,20.4,Women,Wealth quintile
+Second,Diagnosed with Depression,3.4,Women,Wealth quintile
+Second,Receiving treatment,22.6,Women,Wealth quintile
+Middle,Diagnosed with Depression,4.1,Women,Wealth quintile
+Middle,Receiving treatment,34.5,Women,Wealth quintile
+Fourth,Diagnosed with Depression,3.8,Women,Wealth quintile
+Fourth,Receiving treatment,24.6,Women,Wealth quintile
+Highest,Diagnosed with Depression,4.7,Women,Wealth quintile
+Highest,Receiving treatment,28.4,Women,Wealth quintile
+Lowest,Diagnosed with Depression,2.8,Men,Wealth quintile
+Lowest,Receiving treatment,31.8,Men,Wealth quintile
+Second,Diagnosed with Depression,3.2,Men,Wealth quintile
+Second,Receiving treatment,24.2,Men,Wealth quintile
+Middle,Diagnosed with Depression,2.4,Men,Wealth quintile
+Middle,Receiving treatment,16.3,Men,Wealth quintile
+Fourth,Diagnosed with Depression,2.7,Men,Wealth quintile
+Fourth,Receiving treatment,11.1,Men,Wealth quintile
+Highest,Diagnosed with Depression,4.3,Men,Wealth quintile
+Highest,Receiving treatment,24.3,Men,Wealth quintile

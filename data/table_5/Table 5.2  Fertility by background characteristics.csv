@@ -1,0 +1,12 @@
+Variable,TFR,women.aged.15_25.pregnant,mean.number.children.born.women.age.40_49,characteristic
+Urban,2.8,5.8,3.4,residence
+Rural,3.9,5.3,4.8,residence
+No education,6.3,9.4,6.5,education
+Primary,3.9,5.2,4.9,education
+Secondary,3.1,5.4,3.6,education
+More than secondary,2.8,5.1,2.8,education
+Lowest,5.3,7.1,6.2,Wealth quintile
+Second,3.8,4.9,5.2,Wealth quintile
+Middle,3.4,5.0,4.4,Wealth quintile
+Fourth,3.0,5.4,3.6,Wealth quintile
+Highest,2.7,5.3,3.1,Wealth quintile

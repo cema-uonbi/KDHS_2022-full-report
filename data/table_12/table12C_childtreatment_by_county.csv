@@ -1,0 +1,142 @@
+County,sought_treatment,condition
+Mombasa,NA,ARI
+Kwale,NA,ARI
+Kilifi,NA,ARI
+Tana River,NA,ARI
+Lamu,65,ARI
+Taita Taveta,NA,ARI
+Garissa,NA,ARI
+Wajir,NA,ARI
+Mandera,NA,ARI
+Marsabit,NA,ARI
+Isiolo,NA,ARI
+Meru,NA,ARI
+Tharaka Nithi,NA,ARI
+Embu,NA,ARI
+Kitui,NA,ARI
+Machakos,NA,ARI
+Makueni,NA,ARI
+Nyandarua,NA,ARI
+Nyeri,NA,ARI
+Kirinyaga,NA,ARI
+Muranga,NA,ARI
+Kiambu,NA,ARI
+Turkana,NA,ARI
+West Pokot,NA,ARI
+Samburu,NA,ARI
+Trans Nzoia,NA,ARI
+Uasin Gishu,NA,ARI
+Elgeyo Marakwet,NA,ARI
+Nandi,NA,ARI
+Baringo,NA,ARI
+Laikipia,NA,ARI
+Nakuru,NA,ARI
+Narok,NA,ARI
+Kajiado,NA,ARI
+Kericho,NA,ARI
+Bomet,NA,ARI
+Kakamega,NA,ARI
+Vihiga,NA,ARI
+Bungoma,NA,ARI
+Busia,NA,ARI
+Siaya,NA,ARI
+Kisumu,NA,ARI
+Homa Bay,NA,ARI
+Migori,NA,ARI
+Kisii,NA,ARI
+Nyamira,NA,ARI
+Nairobi,NA,ARI
+Mombasa,41.7,Fever
+Kwale,NA,Fever
+Kilifi,61,Fever
+Tana River,54,Fever
+Lamu,78.6,Fever
+Taita Taveta,57.6,Fever
+Garissa,55,Fever
+Wajir,56.9,Fever
+Mandera,37.5,Fever
+Marsabit,46.1,Fever
+Isiolo,59.9,Fever
+Meru,66.5,Fever
+Tharaka Nithi,74.4,Fever
+Embu,79.5,Fever
+Kitui,54.4,Fever
+Machakos,78,Fever
+Makueni,NA,Fever
+Nyandarua,73.3,Fever
+Nyeri,97.6,Fever
+Kirinyaga,NA,Fever
+Muranga,71.3,Fever
+Kiambu,68,Fever
+Turkana,76.2,Fever
+West Pokot,72,Fever
+Samburu,51,Fever
+Trans Nzoia,74,Fever
+Uasin Gishu,77.9,Fever
+Elgeyo Marakwet,64.6,Fever
+Nandi,72.5,Fever
+Baringo,85.3,Fever
+Laikipia,77.9,Fever
+Nakuru,66.2,Fever
+Narok,58,Fever
+Kajiado,60.1,Fever
+Kericho,NA,Fever
+Bomet,67,Fever
+Kakamega,72.2,Fever
+Vihiga,64.2,Fever
+Bungoma,71.4,Fever
+Busia,85,Fever
+Siaya,84.1,Fever
+Kisumu,66.3,Fever
+Homa Bay,78.2,Fever
+Migori,73.7,Fever
+Kisii,69.2,Fever
+Nyamira,67.2,Fever
+Nairobi,72.3,Fever
+Mombasa,53.5,Diarrhea
+Kwale,NA,Diarrhea
+Kilifi,60.4,Diarrhea
+Tana River,60.2,Diarrhea
+Lamu,75.7,Diarrhea
+Taita Taveta,NA,Diarrhea
+Garissa,72.5,Diarrhea
+Wajir,57.7,Diarrhea
+Mandera,66.2,Diarrhea
+Marsabit,71.2,Diarrhea
+Isiolo,81.2,Diarrhea
+Meru,47.5,Diarrhea
+Tharaka Nithi,52.1,Diarrhea
+Embu,90.6,Diarrhea
+Kitui,62.1,Diarrhea
+Machakos,40.8,Diarrhea
+Makueni,NA,Diarrhea
+Nyandarua,NA,Diarrhea
+Nyeri,88.6,Diarrhea
+Kirinyaga,52.5,Diarrhea
+Muranga,53.2,Diarrhea
+Kiambu,30.5,Diarrhea
+Turkana,68.2,Diarrhea
+West Pokot,77.7,Diarrhea
+Samburu,45.8,Diarrhea
+Trans Nzoia,63.1,Diarrhea
+Uasin Gishu,69.7,Diarrhea
+Elgeyo Marakwet,69.5,Diarrhea
+Nandi,61.6,Diarrhea
+Baringo,77.2,Diarrhea
+Laikipia,50.3,Diarrhea
+Nakuru,51.6,Diarrhea
+Narok,59.1,Diarrhea
+Kajiado,44,Diarrhea
+Kericho,54.5,Diarrhea
+Bomet,58.5,Diarrhea
+Kakamega,55,Diarrhea
+Vihiga,24.9,Diarrhea
+Bungoma,54.3,Diarrhea
+Busia,66.6,Diarrhea
+Siaya,NA,Diarrhea
+Kisumu,56.6,Diarrhea
+Homa Bay,54.5,Diarrhea
+Migori,62.7,Diarrhea
+Kisii,58.9,Diarrhea
+Nyamira,50,Diarrhea
+Nairobi,64.9,Diarrhea

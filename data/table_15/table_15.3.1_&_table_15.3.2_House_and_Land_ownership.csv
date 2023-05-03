@@ -1,0 +1,145 @@
+Background characteristics,Category,Gender,variable,value
+House Ownership,Alone,Female,Never married,1.6
+House Ownership,Jointly with spouse only,Female,Never married,NA
+House Ownership,Jointly with someone else only,Female,Never married,0
+House Ownership,Jointly with spouse and someone else,Female,Never married,NA
+House Ownership,Both alone and jointly,Female,Never married,0.2
+House Ownership,Does not own,Female,Never married,98.2
+Agricultural Land Ownership,Alone,Female,Never married,1.4
+Agricultural Land Ownership,Jointly with spouse only,Female,Never married,NA
+Agricultural Land Ownership,Jointly with someone else only,Female,Never married,0.3
+Agricultural Land Ownership,Jointly with spouse and someone else,Female,Never married,NA
+Agricultural Land Ownership,Both alone and jointly,Female,Never married,0.1
+Agricultural Land Ownership,Does not own,Female,Never married,98.3
+Non-Agricultural Land Ownership,Alone,Female,Never married,0.9
+Non-Agricultural Land Ownership,Jointly with spouse only,Female,Never married,0
+Non-Agricultural Land Ownership,Jointly with someone else only,Female,Never married,0.2
+Non-Agricultural Land Ownership,Jointly with spouse and someone else,Female,Never married,0
+Non-Agricultural Land Ownership,Both alone and jointly,Female,Never married,0.1
+Non-Agricultural Land Ownership,Does not own,Female,Never married,98.9
+House Ownership,Alone,Male,Never married,16.1
+House Ownership,Jointly with spouse only,Male,Never married,NA
+House Ownership,Jointly with someone else only,Male,Never married,0
+House Ownership,Jointly with spouse and someone else,Male,Never married,NA
+House Ownership,Both alone and jointly,Male,Never married,1.3
+House Ownership,Does not own,Male,Never married,81.7
+Agricultural Land Ownership,Alone,Male,Never married,6.3
+Agricultural Land Ownership,Jointly with spouse only,Male,Never married,NA
+Agricultural Land Ownership,Jointly with someone else only,Male,Never married,2.3
+Agricultural Land Ownership,Jointly with spouse and someone else,Male,Never married,NA
+Agricultural Land Ownership,Both alone and jointly,Male,Never married,0.2
+Agricultural Land Ownership,Does not own,Male,Never married,91.3
+Non-Agricultural Land Ownership,Alone,Male,Never married,1.5
+Non-Agricultural Land Ownership,Jointly with spouse only,Male,Never married,0
+Non-Agricultural Land Ownership,Jointly with someone else only,Male,Never married,0.6
+Non-Agricultural Land Ownership,Jointly with spouse and someone else,Male,Never married,0
+Non-Agricultural Land Ownership,Both alone and jointly,Male,Never married,0
+Non-Agricultural Land Ownership,Does not own,Male,Never married,97.9
+House Ownership,Alone,Female,Married/ Living together,2.5
+House Ownership,Jointly with spouse only,Female,Married/ Living together,49.1
+House Ownership,Jointly with someone else only,Female,Married/ Living together,0.2
+House Ownership,Jointly with spouse and someone else,Female,Married/ Living together,0.6
+House Ownership,Both alone and jointly,Female,Married/ Living together,0.1
+House Ownership,Does not own,Female,Married/ Living together,47.5
+Agricultural Land Ownership,Alone,Female,Married/ Living together,1.6
+Agricultural Land Ownership,Jointly with spouse only,Female,Married/ Living together,34.9
+Agricultural Land Ownership,Jointly with someone else only,Female,Married/ Living together,0.9
+Agricultural Land Ownership,Jointly with spouse and someone else,Female,Married/ Living together,1.8
+Agricultural Land Ownership,Both alone and jointly,Female,Married/ Living together,0.2
+Agricultural Land Ownership,Does not own,Female,Married/ Living together,60.6
+Non-Agricultural Land Ownership,Alone,Female,Married/ Living together,0.9
+Non-Agricultural Land Ownership,Jointly with spouse only,Female,Married/ Living together,8.5
+Non-Agricultural Land Ownership,Jointly with someone else only,Female,Married/ Living together,0.3
+Non-Agricultural Land Ownership,Jointly with spouse and someone else,Female,Married/ Living together,0.4
+Non-Agricultural Land Ownership,Both alone and jointly,Female,Married/ Living together,0.2
+Non-Agricultural Land Ownership,Does not own,Female,Married/ Living together,89.8
+House Ownership,Alone,Male,Married/ Living together,51
+House Ownership,Jointly with spouse only,Male,Married/ Living together,18.4
+House Ownership,Jointly with someone else only,Male,Married/ Living together,0.3
+House Ownership,Jointly with spouse and someone else,Male,Married/ Living together,0.3
+House Ownership,Both alone and jointly,Male,Married/ Living together,0.1
+House Ownership,Does not own,Male,Married/ Living together,29.9
+Agricultural Land Ownership,Alone,Male,Married/ Living together,41.5
+Agricultural Land Ownership,Jointly with spouse only,Male,Married/ Living together,7.6
+Agricultural Land Ownership,Jointly with someone else only,Male,Married/ Living together,3.2
+Agricultural Land Ownership,Jointly with spouse and someone else,Male,Married/ Living together,0.9
+Agricultural Land Ownership,Both alone and jointly,Male,Married/ Living together,0.2
+Agricultural Land Ownership,Does not own,Male,Married/ Living together,46.7
+Non-Agricultural Land Ownership,Alone,Male,Married/ Living together,11.3
+Non-Agricultural Land Ownership,Jointly with spouse only,Male,Married/ Living together,1.9
+Non-Agricultural Land Ownership,Jointly with someone else only,Male,Married/ Living together,0.5
+Non-Agricultural Land Ownership,Jointly with spouse and someone else,Male,Married/ Living together,0.3
+Non-Agricultural Land Ownership,Both alone and jointly,Male,Married/ Living together,0.1
+Non-Agricultural Land Ownership,Does not own,Male,Married/ Living together,86
+House Ownership,Alone,Female,Divorced/separated,11.8
+House Ownership,Jointly with spouse only,Female,Divorced/separated,1.5
+House Ownership,Jointly with someone else only,Female,Divorced/separated,0.6
+House Ownership,Jointly with spouse and someone else,Female,Divorced/separated,0
+House Ownership,Both alone and jointly,Female,Divorced/separated,0.1
+House Ownership,Does not own,Female,Divorced/separated,86
+Agricultural Land Ownership,Alone,Female,Divorced/separated,7.8
+Agricultural Land Ownership,Jointly with spouse only,Female,Divorced/separated,1.6
+Agricultural Land Ownership,Jointly with someone else only,Female,Divorced/separated,1.3
+Agricultural Land Ownership,Jointly with spouse and someone else,Female,Divorced/separated,0
+Agricultural Land Ownership,Both alone and jointly,Female,Divorced/separated,0
+Agricultural Land Ownership,Does not own,Female,Divorced/separated,89.3
+Non-Agricultural Land Ownership,Alone,Female,Divorced/separated,3.1
+Non-Agricultural Land Ownership,Jointly with spouse only,Female,Divorced/separated,0.4
+Non-Agricultural Land Ownership,Jointly with someone else only,Female,Divorced/separated,0.5
+Non-Agricultural Land Ownership,Jointly with spouse and someone else,Female,Divorced/separated,0
+Non-Agricultural Land Ownership,Both alone and jointly,Female,Divorced/separated,0.1
+Non-Agricultural Land Ownership,Does not own,Female,Divorced/separated,95.9
+House Ownership,Alone,Male,Divorced/separated,58.3
+House Ownership,Jointly with spouse only,Male,Divorced/separated,0.4
+House Ownership,Jointly with someone else only,Male,Divorced/separated,1.3
+House Ownership,Jointly with spouse and someone else,Male,Divorced/separated,0
+House Ownership,Both alone and jointly,Male,Divorced/separated,0.1
+House Ownership,Does not own,Male,Divorced/separated,39.9
+Agricultural Land Ownership,Alone,Male,Divorced/separated,35.8
+Agricultural Land Ownership,Jointly with spouse only,Male,Divorced/separated,0.2
+Agricultural Land Ownership,Jointly with someone else only,Male,Divorced/separated,5.6
+Agricultural Land Ownership,Jointly with spouse and someone else,Male,Divorced/separated,0
+Agricultural Land Ownership,Both alone and jointly,Male,Divorced/separated,0.6
+Agricultural Land Ownership,Does not own,Male,Divorced/separated,57.8
+Non-Agricultural Land Ownership,Alone,Male,Divorced/separated,7.3
+Non-Agricultural Land Ownership,Jointly with spouse only,Male,Divorced/separated,0.3
+Non-Agricultural Land Ownership,Jointly with someone else only,Male,Divorced/separated,0.7
+Non-Agricultural Land Ownership,Jointly with spouse and someone else,Male,Divorced/separated,0
+Non-Agricultural Land Ownership,Both alone and jointly,Male,Divorced/separated,0
+Non-Agricultural Land Ownership,Does not own,Male,Divorced/separated,91.7
+House Ownership,Alone,Female,Widowed,54.7
+House Ownership,Jointly with spouse only,Female,Widowed,9.4
+House Ownership,Jointly with someone else only,Female,Widowed,0.6
+House Ownership,Jointly with spouse and someone else,Female,Widowed,0.4
+House Ownership,Both alone and jointly,Female,Widowed,0
+House Ownership,Does not own,Female,Widowed,34.8
+Agricultural Land Ownership,Alone,Female,Widowed,37.3
+Agricultural Land Ownership,Jointly with spouse only,Female,Widowed,7.7
+Agricultural Land Ownership,Jointly with someone else only,Female,Widowed,2.1
+Agricultural Land Ownership,Jointly with spouse and someone else,Female,Widowed,1.1
+Agricultural Land Ownership,Both alone and jointly,Female,Widowed,0.4
+Agricultural Land Ownership,Does not own,Female,Widowed,51.4
+Non-Agricultural Land Ownership,Alone,Female,Widowed,10
+Non-Agricultural Land Ownership,Jointly with spouse only,Female,Widowed,1.1
+Non-Agricultural Land Ownership,Jointly with someone else only,Female,Widowed,0.2
+Non-Agricultural Land Ownership,Jointly with spouse and someone else,Female,Widowed,0
+Non-Agricultural Land Ownership,Both alone and jointly,Female,Widowed,0.1
+Non-Agricultural Land Ownership,Does not own,Female,Widowed,88.5
+House Ownership,Alone,Male,Widowed,76.5
+House Ownership,Jointly with spouse only,Male,Widowed,0
+House Ownership,Jointly with someone else only,Male,Widowed,0
+House Ownership,Jointly with spouse and someone else,Male,Widowed,0
+House Ownership,Both alone and jointly,Male,Widowed,0
+House Ownership,Does not own,Male,Widowed,23.5
+Agricultural Land Ownership,Alone,Male,Widowed,57.5
+Agricultural Land Ownership,Jointly with spouse only,Male,Widowed,0
+Agricultural Land Ownership,Jointly with someone else only,Male,Widowed,3
+Agricultural Land Ownership,Jointly with spouse and someone else,Male,Widowed,0
+Agricultural Land Ownership,Both alone and jointly,Male,Widowed,0
+Agricultural Land Ownership,Does not own,Male,Widowed,39.5
+Non-Agricultural Land Ownership,Alone,Male,Widowed,18
+Non-Agricultural Land Ownership,Jointly with spouse only,Male,Widowed,0
+Non-Agricultural Land Ownership,Jointly with someone else only,Male,Widowed,0.8
+Non-Agricultural Land Ownership,Jointly with spouse and someone else,Male,Widowed,0
+Non-Agricultural Land Ownership,Both alone and jointly,Male,Widowed,0
+Non-Agricultural Land Ownership,Does not own,Male,Widowed,81.1

@@ -1,0 +1,52 @@
+Value,Category,Proportion,Background characteristics
+15-19,MDD-W,46.3,Age
+15-19,Sweet Beverage Consumption,12.4,Age
+15-19,Unhealthy food consumption,42.8,Age
+20-29,MDD-W,50.7,Age
+20-29,Sweet Beverage Consumption,14.7,Age
+20-29,Unhealthy food consumption,37.9,Age
+30-39,MDD-W,48,Age
+30-39,Sweet Beverage Consumption,11.3,Age
+30-39,Unhealthy food consumption,30.4,Age
+40-49,MDD-W,46.9,Age
+40-49,Sweet Beverage Consumption,10.5,Age
+40-49,Unhealthy food consumption,25,Age
+Pregnant,MDD-W,49.4,Maternity status
+Pregnant,Sweet Beverage Consumption,12.7,Maternity status
+Pregnant,Unhealthy food consumption,34.3,Maternity status
+Not pregnant,MDD-W,48.4,Maternity status
+Not pregnant,Sweet Beverage Consumption,12.6,Maternity status
+Not pregnant,Unhealthy food consumption,34.5,Maternity status
+Urban,MDD-W,56.4,Residence
+Urban,Sweet Beverage Consumption,19.8,Residence
+Urban,Unhealthy food consumption,42.4,Residence
+Rural,MDD-W,43,Residence
+Rural,Sweet Beverage Consumption,7.6,Residence
+Rural,Unhealthy food consumption,29.1,Residence
+No education,MDD-W,19.8,Education
+No education,Sweet Beverage Consumption,7,Education
+No education,Unhealthy food consumption,13.7,Education
+Primary,MDD-W,39.3,Education
+Primary,Sweet Beverage Consumption,6.7,Education
+Primary,Unhealthy food consumption,28.6,Education
+Secondary,MDD-W,52.9,Education
+Secondary,Sweet Beverage Consumption,12.9,Education
+Secondary,Unhealthy food consumption,39.1,Education
+More than secondary,MDD-W,65.2,Education
+More than secondary,Sweet Beverage Consumption,24.7,Education
+More than secondary,Unhealthy food consumption,42.4,Education
+Lowest,MDD-W,22.4,Wealth quintile
+Lowest,Sweet Beverage Consumption,3.6,Wealth quintile
+Lowest,Unhealthy food consumption,19.5,Wealth quintile
+Second,MDD-W,37.5,Wealth quintile
+Second,Sweet Beverage Consumption,5,Wealth quintile
+Second,Unhealthy food consumption,27.9,Wealth quintile
+Middle,MDD-W,48.4,Wealth quintile
+Middle,Sweet Beverage Consumption,8.4,Wealth quintile
+Middle,Unhealthy food consumption,32.8,Wealth quintile
+Fourth,MDD-W,56.3,Wealth quintile
+Fourth,Sweet Beverage Consumption,13.7,Wealth quintile
+Fourth,Unhealthy food consumption,39.8,Wealth quintile
+Highest,MDD-W,65.3,Wealth quintile
+Highest,Sweet Beverage Consumption,25.4,Wealth quintile
+Highest,Unhealthy food consumption,44.9,Wealth quintile

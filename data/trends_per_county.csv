@@ -1,0 +1,116 @@
+Years,grouping,Percent,indicator
+1989,Rural,7.1,fertility
+1989,Urban,4.5,fertility
+1993,Rural,5.8,fertility
+1993,Urban,3.4,fertility
+1998,Rural,5.2,fertility
+1998,Urban,3.1,fertility
+2003,Rural,5.4,fertility
+2003,Urban,3.3,fertility
+2008,Rural,5.2,fertility
+2008,Urban,2.9,fertility
+2014,Rural,4.5,fertility
+2014,Urban,3.1,fertility
+2022,Rural,3.9,fertility
+2022,Urban,2.8,fertility
+1993,Total demand,68,family_planning
+1993,Unmet need,35,family_planning
+1993,Traditional methods:met need,6,family_planning
+1993,Modern methods:met need,27,family_planning
+1998,Total demand,67,family_planning
+1998,Unmet need,28,family_planning
+1998,Traditional methods:met need,8,family_planning
+1998,Modern methods:met need,32,family_planning
+2003,Total demand,67,family_planning
+2003,Unmet need,27,family_planning
+2003,Traditional methods:met need,8,family_planning
+2003,Modern methods:met need,32,family_planning
+2008,Total demand,71,family_planning
+2008,Unmet need,26,family_planning
+2008,Traditional methods:met need,6,family_planning
+2008,Modern methods:met need,39,family_planning
+2014,Total demand,76,family_planning
+2014,Unmet need,18,family_planning
+2014,Traditional methods:met need,5,family_planning
+2014,Modern methods:met need,53,family_planning
+2022,Total demand,76,family_planning
+2022,Unmet need,14,family_planning
+2022,Traditional methods:met need,6,family_planning
+2022,Modern methods:met need,57,family_planning
+1989,Delivery,52,delivery
+1993,Delivery,43,delivery
+1998,Delivery,43,delivery
+2003,Delivery,41,delivery
+2008,Delivery,48,delivery
+2014,Delivery,66,delivery
+2022,Delivery,89,delivery
+1989,Fully vaccinated,44,vaccinations
+1989,No vaccination,39,vaccinations
+1993,Fully vaccinated,79,vaccinations
+1993,No vaccination,3,vaccinations
+1998,Fully vaccinated,65,vaccinations
+1998,No vaccination,3,vaccinations
+2003,Fully vaccinated,57,vaccinations
+2003,No vaccination,7,vaccinations
+2008,Fully vaccinated,77,vaccinations
+2008,No vaccination,3,vaccinations
+2014,Fully vaccinated,79,vaccinations
+2014,No vaccination,2,vaccinations
+2022,Fully vaccinated,80,vaccinations
+2022,No vaccination,2,vaccinations
+1993,Stunting,40,nutrition
+1993,Wasting,7,nutrition
+1993,Overweight,6,nutrition
+1998,Stunting,38,nutrition
+1998,Wasting,7,nutrition
+1998,Overweight,6,nutrition
+2003,Stunting,36,nutrition
+2003,Wasting,6,nutrition
+2003,Overweight,6,nutrition
+2008,Stunting,35,nutrition
+2008,Wasting,7,nutrition
+2008,Overweight,5,nutrition
+2014,Stunting,26,nutrition
+2014,Wasting,4,nutrition
+2014,Overweight,4,nutrition
+2022,Stunting,18,nutrition
+2022,Wasting,5,nutrition
+2022,Overweight,3,nutrition
+1989,Exclusive breastfeeding,23,breastfeeding
+1993,Exclusive breastfeeding,17,breastfeeding
+1998,Exclusive breastfeeding,13,breastfeeding
+2003,Exclusive breastfeeding,13,breastfeeding
+2008,Exclusive breastfeeding,32,breastfeeding
+2014,Exclusive breastfeeding,61,breastfeeding
+2022,Exclusive breastfeeding,60,breastfeeding
+1989,Under 5 mortality,90,mortality
+1989,Infant mortality,61,mortality
+1989,Neonatal mortality,28,mortality
+1993,Under 5 mortality,96,mortality
+1993,Infant mortality,62,mortality
+1993,Neonatal mortality,26,mortality
+1998,Under 5 mortality,111,mortality
+1998,Infant mortality,74,mortality
+1998,Neonatal mortality,28,mortality
+2003,Under 5 mortality,115,mortality
+2003,Infant mortality,77,mortality
+2003,Neonatal mortality,33,mortality
+2008,Under 5 mortality,74,mortality
+2008,Infant mortality,52,mortality
+2008,Neonatal mortality,31,mortality
+2014,Under 5 mortality,52,mortality
+2014,Infant mortality,39,mortality
+2014,Neonatal mortality,22,mortality
+2022,Under 5 mortality,41,mortality
+2022,Infant mortality,32,mortality
+2022,Neonatal mortality,21,mortality
+2008,ITN ownership,56,treated_nets
+2008,ITN ownership per 2 people,27,treated_nets
+2014,ITN ownership,59,treated_nets
+2014,ITN ownership per 2 people,35,treated_nets
+2015,ITN ownership,63,treated_nets
+2015,ITN ownership per 2 people,40,treated_nets
+2020,ITN ownership,49,treated_nets
+2020,ITN ownership per 2 people,29,treated_nets
+2022,ITN ownership,54,treated_nets
+2022,ITN ownership per 2 people,37,treated_nets

@@ -1,0 +1,7 @@
+residence,For_spacing,For_limiting,Total,need
+Urban,5.1,2.9,8.0,unmet_need
+Rural,6.3,4.8,11.1,unmet_need
+Urban,28.7,19.1,47.8,met_need
+Rural,21.6,24.7,46.3,met_need
+Urban,33.7,22.0,55.7,total_demand
+Rural,27.9,29.4,57.4,total_demand

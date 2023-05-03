@@ -1,0 +1,236 @@
+County,variable,value
+Mombasa,Percentage of women circumcised,3.9
+Kwale,Percentage of women circumcised,3
+Kilifi,Percentage of women circumcised,0.8
+Tana River,Percentage of women circumcised,60.1
+Lamu,Percentage of women circumcised,12.9
+Taita Taveta,Percentage of women circumcised,17
+Garissa,Percentage of women circumcised,82.5
+Wajir,Percentage of women circumcised,97.2
+Mandera,Percentage of women circumcised,95.9
+Marsabit,Percentage of women circumcised,83
+Isiolo,Percentage of women circumcised,66
+Meru,Percentage of women circumcised,18.8
+Tharaka Nithi,Percentage of women circumcised,27.1
+Embu,Percentage of women circumcised,18.7
+Kitui,Percentage of women circumcised,11.1
+Machakos,Percentage of women circumcised,3.4
+Makueni,Percentage of women circumcised,0.7
+Nyandarua,Percentage of women circumcised,6.9
+Nyeri,Percentage of women circumcised,2.5
+Kirinyaga,Percentage of women circumcised,10.9
+Muranga,Percentage of women circumcised,17.2
+Kiambu,Percentage of women circumcised,5.7
+Turkana,Percentage of women circumcised,0.6
+West Pokot,Percentage of women circumcised,44.2
+Samburu,Percentage of women circumcised,75.6
+Trans Nzoia,Percentage of women circumcised,8.2
+Uasin Gishu,Percentage of women circumcised,4.2
+Elgeyo Marakwet,Percentage of women circumcised,19.7
+Nandi,Percentage of women circumcised,2.5
+Baringo,Percentage of women circumcised,21.2
+Laikipia,Percentage of women circumcised,10.8
+Nakuru,Percentage of women circumcised,12.6
+Narok,Percentage of women circumcised,51
+Kajiado,Percentage of women circumcised,23.7
+Kericho,Percentage of women circumcised,10.1
+Bomet,Percentage of women circumcised,23.3
+Kakamega,Percentage of women circumcised,0.4
+Vihiga,Percentage of women circumcised,0.8
+Bungoma,Percentage of women circumcised,3.2
+Busia,Percentage of women circumcised,0.1
+Siaya,Percentage of women circumcised,0.5
+Kisumu,Percentage of women circumcised,1
+Homa Bay,Percentage of women circumcised,2.3
+Migori,Percentage of women circumcised,19.7
+Kisii,Percentage of women circumcised,77.3
+Nyamira,Percentage of women circumcised,74.7
+Nairobi,Percentage of women circumcised,6.3
+Mombasa,"Cut, no flesh removed",NA
+Kwale,"Cut, no flesh removed",NA
+Kilifi,"Cut, no flesh removed",NA
+Tana River,"Cut, no flesh removed",1.5
+Lamu,"Cut, no flesh removed",NA
+Taita Taveta,"Cut, no flesh removed",NA
+Garissa,"Cut, no flesh removed",5.5
+Wajir,"Cut, no flesh removed",8.4
+Mandera,"Cut, no flesh removed",5.6
+Marsabit,"Cut, no flesh removed",6.8
+Isiolo,"Cut, no flesh removed",0.5
+Meru,"Cut, no flesh removed",8.7
+Tharaka Nithi,"Cut, no flesh removed",3
+Embu,"Cut, no flesh removed",0
+Kitui,"Cut, no flesh removed",NA
+Machakos,"Cut, no flesh removed",NA
+Makueni,"Cut, no flesh removed",NA
+Nyandarua,"Cut, no flesh removed",NA
+Nyeri,"Cut, no flesh removed",NA
+Kirinyaga,"Cut, no flesh removed",NA
+Muranga,"Cut, no flesh removed",NA
+Kiambu,"Cut, no flesh removed",NA
+Turkana,"Cut, no flesh removed",NA
+West Pokot,"Cut, no flesh removed",1.1
+Samburu,"Cut, no flesh removed",1
+Trans Nzoia,"Cut, no flesh removed",NA
+Uasin Gishu,"Cut, no flesh removed",NA
+Elgeyo Marakwet,"Cut, no flesh removed",0
+Nandi,"Cut, no flesh removed",NA
+Baringo,"Cut, no flesh removed",0
+Laikipia,"Cut, no flesh removed",NA
+Nakuru,"Cut, no flesh removed",3.8
+Narok,"Cut, no flesh removed",4.3
+Kajiado,"Cut, no flesh removed",1.5
+Kericho,"Cut, no flesh removed",NA
+Bomet,"Cut, no flesh removed",0
+Kakamega,"Cut, no flesh removed",NA
+Vihiga,"Cut, no flesh removed",NA
+Bungoma,"Cut, no flesh removed",NA
+Busia,"Cut, no flesh removed",NA
+Siaya,"Cut, no flesh removed",NA
+Kisumu,"Cut, no flesh removed",NA
+Homa Bay,"Cut, no flesh removed",NA
+Migori,"Cut, no flesh removed",14.7
+Kisii,"Cut, no flesh removed",31
+Nyamira,"Cut, no flesh removed",23
+Nairobi,"Cut, no flesh removed",NA
+Mombasa,"Cut, flesh removed",NA
+Kwale,"Cut, flesh removed",NA
+Kilifi,"Cut, flesh removed",NA
+Tana River,"Cut, flesh removed",45.1
+Lamu,"Cut, flesh removed",NA
+Taita Taveta,"Cut, flesh removed",NA
+Garissa,"Cut, flesh removed",46.8
+Wajir,"Cut, flesh removed",84.3
+Mandera,"Cut, flesh removed",72.6
+Marsabit,"Cut, flesh removed",77.3
+Isiolo,"Cut, flesh removed",44.9
+Meru,"Cut, flesh removed",72.2
+Tharaka Nithi,"Cut, flesh removed",89.3
+Embu,"Cut, flesh removed",65.8
+Kitui,"Cut, flesh removed",NA
+Machakos,"Cut, flesh removed",NA
+Makueni,"Cut, flesh removed",NA
+Nyandarua,"Cut, flesh removed",NA
+Nyeri,"Cut, flesh removed",NA
+Kirinyaga,"Cut, flesh removed",NA
+Muranga,"Cut, flesh removed",NA
+Kiambu,"Cut, flesh removed",NA
+Turkana,"Cut, flesh removed",NA
+West Pokot,"Cut, flesh removed",86.9
+Samburu,"Cut, flesh removed",97.8
+Trans Nzoia,"Cut, flesh removed",NA
+Uasin Gishu,"Cut, flesh removed",NA
+Elgeyo Marakwet,"Cut, flesh removed",86.2
+Nandi,"Cut, flesh removed",NA
+Baringo,"Cut, flesh removed",93.8
+Laikipia,"Cut, flesh removed",NA
+Nakuru,"Cut, flesh removed",75
+Narok,"Cut, flesh removed",82.1
+Kajiado,"Cut, flesh removed",78
+Kericho,"Cut, flesh removed",NA
+Bomet,"Cut, flesh removed",97.4
+Kakamega,"Cut, flesh removed",NA
+Vihiga,"Cut, flesh removed",NA
+Bungoma,"Cut, flesh removed",NA
+Busia,"Cut, flesh removed",NA
+Siaya,"Cut, flesh removed",NA
+Kisumu,"Cut, flesh removed",NA
+Homa Bay,"Cut, flesh removed",NA
+Migori,"Cut, flesh removed",28.3
+Kisii,"Cut, flesh removed",64.7
+Nyamira,"Cut, flesh removed",69.5
+Nairobi,"Cut, flesh removed",NA
+Mombasa,Sewn closed,NA
+Kwale,Sewn closed,NA
+Kilifi,Sewn closed,NA
+Tana River,Sewn closed,47.9
+Lamu,Sewn closed,NA
+Taita Taveta,Sewn closed,NA
+Garissa,Sewn closed,30.6
+Wajir,Sewn closed,6.7
+Mandera,Sewn closed,15.9
+Marsabit,Sewn closed,9.3
+Isiolo,Sewn closed,39.3
+Meru,Sewn closed,14.2
+Tharaka Nithi,Sewn closed,6.4
+Embu,Sewn closed,34.2
+Kitui,Sewn closed,NA
+Machakos,Sewn closed,NA
+Makueni,Sewn closed,NA
+Nyandarua,Sewn closed,NA
+Nyeri,Sewn closed,NA
+Kirinyaga,Sewn closed,NA
+Muranga,Sewn closed,NA
+Kiambu,Sewn closed,NA
+Turkana,Sewn closed,NA
+West Pokot,Sewn closed,10.3
+Samburu,Sewn closed,0.9
+Trans Nzoia,Sewn closed,NA
+Uasin Gishu,Sewn closed,NA
+Elgeyo Marakwet,Sewn closed,12
+Nandi,Sewn closed,NA
+Baringo,Sewn closed,6.2
+Laikipia,Sewn closed,NA
+Nakuru,Sewn closed,6.7
+Narok,Sewn closed,1.2
+Kajiado,Sewn closed,20.5
+Kericho,Sewn closed,NA
+Bomet,Sewn closed,2.6
+Kakamega,Sewn closed,NA
+Vihiga,Sewn closed,NA
+Bungoma,Sewn closed,NA
+Busia,Sewn closed,NA
+Siaya,Sewn closed,NA
+Kisumu,Sewn closed,NA
+Homa Bay,Sewn closed,NA
+Migori,Sewn closed,3.5
+Kisii,Sewn closed,0.5
+Nyamira,Sewn closed,1.3
+Nairobi,Sewn closed,NA
+Mombasa,Don't know,NA
+Kwale,Don't know,NA
+Kilifi,Don't know,NA
+Tana River,Don't know,5.5
+Lamu,Don't know,NA
+Taita Taveta,Don't know,NA
+Garissa,Don't know,17.1
+Wajir,Don't know,0.7
+Mandera,Don't know,5.8
+Marsabit,Don't know,6.6
+Isiolo,Don't know,15.3
+Meru,Don't know,4.8
+Tharaka Nithi,Don't know,1.3
+Embu,Don't know,0
+Kitui,Don't know,NA
+Machakos,Don't know,NA
+Makueni,Don't know,NA
+Nyandarua,Don't know,NA
+Nyeri,Don't know,NA
+Kirinyaga,Don't know,NA
+Muranga,Don't know,NA
+Kiambu,Don't know,NA
+Turkana,Don't know,NA
+West Pokot,Don't know,1.8
+Samburu,Don't know,0.3
+Trans Nzoia,Don't know,NA
+Uasin Gishu,Don't know,NA
+Elgeyo Marakwet,Don't know,1.8
+Nandi,Don't know,NA
+Baringo,Don't know,0
+Laikipia,Don't know,NA
+Nakuru,Don't know,14.6
+Narok,Don't know,12.4
+Kajiado,Don't know,0
+Kericho,Don't know,NA
+Bomet,Don't know,0
+Kakamega,Don't know,NA
+Vihiga,Don't know,NA
+Bungoma,Don't know,NA
+Busia,Don't know,NA
+Siaya,Don't know,NA
+Kisumu,Don't know,NA
+Homa Bay,Don't know,NA
+Migori,Don't know,53.5
+Kisii,Don't know,3.7
+Nyamira,Don't know,6.2
+Nairobi,Don't know,NA

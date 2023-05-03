@@ -1,0 +1,37 @@
+Value,Category,Proportion,Background characteristics
+Urban,1/+doses of SP/Fansidar,24.2,Residence
+Urban,2/+doses of SP/Fansidar,16.1,Residence
+Urban,3/+doses of SP/Fansidar,9.7,Residence
+Rural,1/+doses of SP/Fansidar,30.4,Residence
+Rural,2/+doses of SP/Fansidar,21.9,Residence
+Rural,3/+doses of SP/Fansidar,14.1,Residence
+Highland epidemic prone,1/+doses of SP/Fansidar,14.1,Endemicity zone
+Highland epidemic prone,2/+doses of SP/Fansidar,9.4,Endemicity zone
+Highland epidemic prone,3/+doses of SP/Fansidar,6.3,Endemicity zone
+Lake endemic,1/+doses of SP/Fansidar,70.7,Endemicity zone
+Lake endemic,2/+doses of SP/Fansidar,56.6,Endemicity zone
+Lake endemic,3/+doses of SP/Fansidar,38.1,Endemicity zone
+Coast endemic,1/+doses of SP/Fansidar,75.7,Endemicity zone
+Coast endemic,2/+doses of SP/Fansidar,49.9,Endemicity zone
+Coast endemic,3/+doses of SP/Fansidar,29.3,Endemicity zone
+Seasonal,1/+doses of SP/Fansidar,12.7,Endemicity zone
+Seasonal,2/+doses of SP/Fansidar,8.5,Endemicity zone
+Seasonal,3/+doses of SP/Fansidar,5.2,Endemicity zone
+Low risk,1/+doses of SP/Fansidar,11.5,Endemicity zone
+Low risk,2/+doses of SP/Fansidar,5.8,Endemicity zone
+Low risk,3/+doses of SP/Fansidar,3,Endemicity zone
+Lowest,1/+doses of SP/Fansidar,28,Wealth quintile
+Lowest,2/+doses of SP/Fansidar,19.9,Wealth quintile
+Lowest,3/+doses of SP/Fansidar,11.3,Wealth quintile
+Second,1/+doses of SP/Fansidar,35.2,Wealth quintile
+Second,2/+doses of SP/Fansidar,25.9,Wealth quintile
+Second,3/+doses of SP/Fansidar,16.3,Wealth quintile
+Middle,1/+doses of SP/Fansidar,28.3,Wealth quintile
+Middle,2/+doses of SP/Fansidar,21.4,Wealth quintile
+Middle,3/+doses of SP/Fansidar,15.3,Wealth quintile
+Fourth,1/+doses of SP/Fansidar,28,Wealth quintile
+Fourth,2/+doses of SP/Fansidar,17.4,Wealth quintile
+Fourth,3/+doses of SP/Fansidar,11.1,Wealth quintile
+Highest,1/+doses of SP/Fansidar,22.1,Wealth quintile
+Highest,2/+doses of SP/Fansidar,15.3,Wealth quintile
+Highest,3/+doses of SP/Fansidar,9.5,Wealth quintile

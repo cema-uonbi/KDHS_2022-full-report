@@ -1,0 +1,103 @@
+Value,Category,Proportion,Background characteristics
+15-29,"Aware of self examination
+ for breast cancer",39.3,Age
+15-29,"Examined
+ for breast cancer",8.8,Age
+15-29,"Diagnosed with
+ breast cancer",0.2,Age
+30-49,"Aware of self examination
+ for breast cancer",51.1,Age
+30-49,"Examined
+ for breast cancer",19.9,Age
+30-49,"Diagnosed with
+ breast cancer",0.1,Age
+30-34,"Aware of self examination
+ for breast cancer",50,Age
+30-34,"Examined
+ for breast cancer",16.7,Age
+30-34,"Diagnosed with
+ breast cancer",0.1,Age
+35-39,"Aware of self examination
+ for breast cancer",50.9,Age
+35-39,"Examined
+ for breast cancer",18.8,Age
+35-39,"Diagnosed with
+ breast cancer",0.2,Age
+40-44,"Aware of self examination
+ for breast cancer",52.9,Age
+40-44,"Examined
+ for breast cancer",23.8,Age
+40-44,"Diagnosed with
+ breast cancer",0.2,Age
+45-49,"Aware of self examination
+ for breast cancer",51.5,Age
+45-49,"Examined
+ for breast cancer",22.7,Age
+45-49,"Diagnosed with
+ breast cancer",0.1,Age
+Urban,"Aware of self examination
+ for breast cancer",55.2,Residence
+Urban,"Examined
+ for breast cancer",18.2,Residence
+Urban,"Diagnosed with
+ breast cancer",0.1,Residence
+Rural,"Aware of self examination
+ for breast cancer",37.4,Residence
+Rural,"Examined
+ for breast cancer",10.9,Residence
+Rural,"Diagnosed with
+ breast cancer",0.2,Residence
+No education,"Aware of self examination
+ for breast cancer",16.2,Education
+No education,"Examined
+ for breast cancer",5.2,Education
+No education,"Diagnosed with
+ breast cancer",0.5,Education
+Primary,"Aware of self examination
+ for breast cancer",35.4,Education
+Primary,"Examined
+ for breast cancer",12,Education
+Primary,"Diagnosed with
+ breast cancer",0.2,Education
+Secondary,"Aware of self examination
+ for breast cancer",43.3,Education
+Secondary,"Examined
+ for breast cancer",11.5,Education
+Secondary,"Diagnosed with
+ breast cancer",0.1,Education
+More than secondary,"Aware of self examination
+ for breast cancer",73.4,Education
+More than secondary,"Examined
+ for breast cancer",24.5,Education
+More than secondary,"Diagnosed with
+ breast cancer",0.2,Education
+Lowest,"Aware of self examination
+ for breast cancer",21.8,Wealth quintile
+Lowest,"Examined
+ for breast cancer",5.9,Wealth quintile
+Lowest,"Diagnosed with
+ breast cancer",0.4,Wealth quintile
+Second,"Aware of self examination
+ for breast cancer",31.4,Wealth quintile
+Second,"Examined
+ for breast cancer",8.8,Wealth quintile
+Second,"Diagnosed with
+ breast cancer",0.1,Wealth quintile
+Middle,"Aware of self examination
+ for breast cancer",41.9,Wealth quintile
+Middle,"Examined
+ for breast cancer",11.4,Wealth quintile
+Middle,"Diagnosed with
+ breast cancer",0.3,Wealth quintile
+Fourth,"Aware of self examination
+ for breast cancer",51.8,Wealth quintile
+Fourth,"Examined
+ for breast cancer",16.6,Wealth quintile
+Fourth,"Diagnosed with
+ breast cancer",0.1,Wealth quintile
+Highest,"Aware of self examination
+ for breast cancer",63.4,Wealth quintile
+Highest,"Examined
+ for breast cancer",21.5,Wealth quintile
+Highest,"Diagnosed with
+ breast cancer",0.1,Wealth quintile

@@ -1,0 +1,424 @@
+County,variable,value,Gender
+Mombasa,Own's health,81.4,Female
+Kwale,Own's health,81.3,Female
+Kilifi,Own's health,83.7,Female
+Tana River,Own's health,60.2,Female
+Lamu,Own's health,84.5,Female
+Taita Taveta,Own's health,83.8,Female
+Garissa,Own's health,74.7,Female
+Wajir,Own's health,89.6,Female
+Mandera,Own's health,55.2,Female
+Marsabit,Own's health,88.8,Female
+Isiolo,Own's health,90.9,Female
+Meru,Own's health,79.1,Female
+Tharaka Nithi,Own's health,79.2,Female
+Embu,Own's health,79,Female
+Kitui,Own's health,95.3,Female
+Machakos,Own's health,96.3,Female
+Makueni,Own's health,87.2,Female
+Nyandarua,Own's health,86.7,Female
+Nyeri,Own's health,84.9,Female
+Kirinyaga,Own's health,93.1,Female
+Muranga,Own's health,83.3,Female
+Kiambu,Own's health,90.8,Female
+Turkana,Own's health,88,Female
+West Pokot,Own's health,86.5,Female
+Samburu,Own's health,71.4,Female
+Trans Nzoia,Own's health,95.7,Female
+Uasin Gishu,Own's health,82.7,Female
+Elgeyo Marakwet,Own's health,79.6,Female
+Nandi,Own's health,89.8,Female
+Baringo,Own's health,58.4,Female
+Laikipia,Own's health,79.8,Female
+Nakuru,Own's health,85,Female
+Narok,Own's health,68.2,Female
+Kajiado,Own's health,79.9,Female
+Kericho,Own's health,85.6,Female
+Bomet,Own's health,86.1,Female
+Kakamega,Own's health,95.2,Female
+Vihiga,Own's health,90.2,Female
+Bungoma,Own's health,81.4,Female
+Busia,Own's health,79.2,Female
+Siaya,Own's health,77.3,Female
+Kisumu,Own's health,94.6,Female
+Homa Bay,Own's health,74.3,Female
+Migori,Own's health,89.2,Female
+Kisii,Own's health,89.9,Female
+Nyamira,Own's health,95,Female
+Nairobi,Own's health,91.3,Female
+Mombasa,Making major household purchases,77.2,Female
+Kwale,Making major household purchases,75.7,Female
+Kilifi,Making major household purchases,82.2,Female
+Tana River,Making major household purchases,63.8,Female
+Lamu,Making major household purchases,78.5,Female
+Taita Taveta,Making major household purchases,82,Female
+Garissa,Making major household purchases,75.4,Female
+Wajir,Making major household purchases,57.4,Female
+Mandera,Making major household purchases,52.5,Female
+Marsabit,Making major household purchases,89.7,Female
+Isiolo,Making major household purchases,82.2,Female
+Meru,Making major household purchases,85.1,Female
+Tharaka Nithi,Making major household purchases,65.7,Female
+Embu,Making major household purchases,75.3,Female
+Kitui,Making major household purchases,87.4,Female
+Machakos,Making major household purchases,91.5,Female
+Makueni,Making major household purchases,91.1,Female
+Nyandarua,Making major household purchases,82,Female
+Nyeri,Making major household purchases,79.2,Female
+Kirinyaga,Making major household purchases,76.7,Female
+Muranga,Making major household purchases,70.5,Female
+Kiambu,Making major household purchases,70.4,Female
+Turkana,Making major household purchases,91.5,Female
+West Pokot,Making major household purchases,85.1,Female
+Samburu,Making major household purchases,55.5,Female
+Trans Nzoia,Making major household purchases,82.2,Female
+Uasin Gishu,Making major household purchases,73.5,Female
+Elgeyo Marakwet,Making major household purchases,76.7,Female
+Nandi,Making major household purchases,60.9,Female
+Baringo,Making major household purchases,62.6,Female
+Laikipia,Making major household purchases,77.8,Female
+Nakuru,Making major household purchases,68.3,Female
+Narok,Making major household purchases,67.1,Female
+Kajiado,Making major household purchases,75.2,Female
+Kericho,Making major household purchases,92.2,Female
+Bomet,Making major household purchases,66.1,Female
+Kakamega,Making major household purchases,83,Female
+Vihiga,Making major household purchases,85.1,Female
+Bungoma,Making major household purchases,73.1,Female
+Busia,Making major household purchases,58.6,Female
+Siaya,Making major household purchases,74.3,Female
+Kisumu,Making major household purchases,94.8,Female
+Homa Bay,Making major household purchases,75.8,Female
+Migori,Making major household purchases,75.3,Female
+Kisii,Making major household purchases,85.7,Female
+Nyamira,Making major household purchases,92.5,Female
+Nairobi,Making major household purchases,85.3,Female
+Mombasa,Visits to her family or relatives,74.5,Female
+Kwale,Visits to her family or relatives,78.8,Female
+Kilifi,Visits to her family or relatives,68.7,Female
+Tana River,Visits to her family or relatives,74.1,Female
+Lamu,Visits to her family or relatives,84.7,Female
+Taita Taveta,Visits to her family or relatives,78.1,Female
+Garissa,Visits to her family or relatives,76.1,Female
+Wajir,Visits to her family or relatives,95.1,Female
+Mandera,Visits to her family or relatives,62.6,Female
+Marsabit,Visits to her family or relatives,88.8,Female
+Isiolo,Visits to her family or relatives,90.7,Female
+Meru,Visits to her family or relatives,92.1,Female
+Tharaka Nithi,Visits to her family or relatives,69,Female
+Embu,Visits to her family or relatives,75.6,Female
+Kitui,Visits to her family or relatives,93.2,Female
+Machakos,Visits to her family or relatives,95.4,Female
+Makueni,Visits to her family or relatives,91.4,Female
+Nyandarua,Visits to her family or relatives,78.4,Female
+Nyeri,Visits to her family or relatives,83.8,Female
+Kirinyaga,Visits to her family or relatives,92.2,Female
+Muranga,Visits to her family or relatives,75.3,Female
+Kiambu,Visits to her family or relatives,78,Female
+Turkana,Visits to her family or relatives,95.2,Female
+West Pokot,Visits to her family or relatives,88.6,Female
+Samburu,Visits to her family or relatives,60.3,Female
+Trans Nzoia,Visits to her family or relatives,82,Female
+Uasin Gishu,Visits to her family or relatives,83,Female
+Elgeyo Marakwet,Visits to her family or relatives,82.3,Female
+Nandi,Visits to her family or relatives,83.4,Female
+Baringo,Visits to her family or relatives,69.1,Female
+Laikipia,Visits to her family or relatives,82.3,Female
+Nakuru,Visits to her family or relatives,70.4,Female
+Narok,Visits to her family or relatives,65.2,Female
+Kajiado,Visits to her family or relatives,78,Female
+Kericho,Visits to her family or relatives,93,Female
+Bomet,Visits to her family or relatives,76.7,Female
+Kakamega,Visits to her family or relatives,88.7,Female
+Vihiga,Visits to her family or relatives,89.6,Female
+Bungoma,Visits to her family or relatives,68.1,Female
+Busia,Visits to her family or relatives,77.4,Female
+Siaya,Visits to her family or relatives,83.2,Female
+Kisumu,Visits to her family or relatives,96.5,Female
+Homa Bay,Visits to her family or relatives,73.9,Female
+Migori,Visits to her family or relatives,77.2,Female
+Kisii,Visits to her family or relatives,84,Female
+Nyamira,Visits to her family or relatives,84.9,Female
+Nairobi,Visits to her family or relatives,87.4,Female
+Mombasa,All decisions,61.7,Female
+Kwale,All decisions,69.8,Female
+Kilifi,All decisions,58.2,Female
+Tana River,All decisions,51.4,Female
+Lamu,All decisions,67.8,Female
+Taita Taveta,All decisions,65.6,Female
+Garissa,All decisions,67.5,Female
+Wajir,All decisions,56.5,Female
+Mandera,All decisions,46.1,Female
+Marsabit,All decisions,84.7,Female
+Isiolo,All decisions,77.7,Female
+Meru,All decisions,65.1,Female
+Tharaka Nithi,All decisions,50.4,Female
+Embu,All decisions,60.9,Female
+Kitui,All decisions,83.7,Female
+Machakos,All decisions,87.8,Female
+Makueni,All decisions,81.3,Female
+Nyandarua,All decisions,63.8,Female
+Nyeri,All decisions,65.2,Female
+Kirinyaga,All decisions,71.4,Female
+Muranga,All decisions,59.1,Female
+Kiambu,All decisions,62.9,Female
+Turkana,All decisions,83,Female
+West Pokot,All decisions,79,Female
+Samburu,All decisions,35.8,Female
+Trans Nzoia,All decisions,68.7,Female
+Uasin Gishu,All decisions,61.2,Female
+Elgeyo Marakwet,All decisions,69.7,Female
+Nandi,All decisions,54.1,Female
+Baringo,All decisions,43.2,Female
+Laikipia,All decisions,63.4,Female
+Nakuru,All decisions,52.6,Female
+Narok,All decisions,43.5,Female
+Kajiado,All decisions,60.4,Female
+Kericho,All decisions,80.4,Female
+Bomet,All decisions,50.6,Female
+Kakamega,All decisions,74.7,Female
+Vihiga,All decisions,74.8,Female
+Bungoma,All decisions,52.3,Female
+Busia,All decisions,50.9,Female
+Siaya,All decisions,61.4,Female
+Kisumu,All decisions,90.6,Female
+Homa Bay,All decisions,56.2,Female
+Migori,All decisions,62.2,Female
+Kisii,All decisions,74.1,Female
+Nyamira,All decisions,79.6,Female
+Nairobi,All decisions,75.7,Female
+Mombasa,None of the decisions,8.6,Female
+Kwale,None of the decisions,15.9,Female
+Kilifi,None of the decisions,6.2,Female
+Tana River,None of the decisions,20.5,Female
+Lamu,None of the decisions,6.3,Female
+Taita Taveta,None of the decisions,6.6,Female
+Garissa,None of the decisions,16.5,Female
+Wajir,None of the decisions,2.7,Female
+Mandera,None of the decisions,35.6,Female
+Marsabit,None of the decisions,5.9,Female
+Isiolo,None of the decisions,3.3,Female
+Meru,None of the decisions,1.4,Female
+Tharaka Nithi,None of the decisions,9.2,Female
+Embu,None of the decisions,10.2,Female
+Kitui,None of the decisions,3,Female
+Machakos,None of the decisions,1.2,Female
+Makueni,None of the decisions,4.1,Female
+Nyandarua,None of the decisions,4.2,Female
+Nyeri,None of the decisions,3.2,Female
+Kirinyaga,None of the decisions,1.7,Female
+Muranga,None of the decisions,8.7,Female
+Kiambu,None of the decisions,3.6,Female
+Turkana,None of the decisions,1.5,Female
+West Pokot,None of the decisions,7.3,Female
+Samburu,None of the decisions,19.2,Female
+Trans Nzoia,None of the decisions,0.6,Female
+Uasin Gishu,None of the decisions,5.1,Female
+Elgeyo Marakwet,None of the decisions,11.8,Female
+Nandi,None of the decisions,3.6,Female
+Baringo,None of the decisions,18,Female
+Laikipia,None of the decisions,7.5,Female
+Nakuru,None of the decisions,6.2,Female
+Narok,None of the decisions,13.8,Female
+Kajiado,None of the decisions,8.5,Female
+Kericho,None of the decisions,2.3,Female
+Bomet,None of the decisions,5.3,Female
+Kakamega,None of the decisions,2,Female
+Vihiga,None of the decisions,1.7,Female
+Bungoma,None of the decisions,7.3,Female
+Busia,None of the decisions,10.9,Female
+Siaya,None of the decisions,7.7,Female
+Kisumu,None of the decisions,1.4,Female
+Homa Bay,None of the decisions,9.1,Female
+Migori,None of the decisions,6.1,Female
+Kisii,None of the decisions,2.9,Female
+Nyamira,None of the decisions,2,Female
+Nairobi,None of the decisions,2.9,Female
+Mombasa,Own's health,100,Male
+Kwale,Own's health,97.5,Male
+Kilifi,Own's health,100,Male
+Tana River,Own's health,98.8,Male
+Lamu,Own's health,100,Male
+Taita Taveta,Own's health,100,Male
+Garissa,Own's health,100,Male
+Wajir,Own's health,90.5,Male
+Mandera,Own's health,96.5,Male
+Marsabit,Own's health,100,Male
+Isiolo,Own's health,93.4,Male
+Meru,Own's health,86.4,Male
+Tharaka Nithi,Own's health,97.4,Male
+Embu,Own's health,96.9,Male
+Kitui,Own's health,97.7,Male
+Machakos,Own's health,100,Male
+Makueni,Own's health,100,Male
+Nyandarua,Own's health,98.4,Male
+Nyeri,Own's health,89.1,Male
+Kirinyaga,Own's health,99.2,Male
+Muranga,Own's health,95.2,Male
+Kiambu,Own's health,92.7,Male
+Turkana,Own's health,99.1,Male
+West Pokot,Own's health,96.5,Male
+Samburu,Own's health,97.2,Male
+Trans Nzoia,Own's health,93.5,Male
+Uasin Gishu,Own's health,100,Male
+Elgeyo Marakwet,Own's health,97.5,Male
+Nandi,Own's health,100,Male
+Baringo,Own's health,96.7,Male
+Laikipia,Own's health,80.3,Male
+Nakuru,Own's health,84.6,Male
+Narok,Own's health,99.3,Male
+Kajiado,Own's health,98.1,Male
+Kericho,Own's health,100,Male
+Bomet,Own's health,99.4,Male
+Kakamega,Own's health,94.3,Male
+Vihiga,Own's health,90.3,Male
+Bungoma,Own's health,76.7,Male
+Busia,Own's health,90.4,Male
+Siaya,Own's health,94.9,Male
+Kisumu,Own's health,98.9,Male
+Homa Bay,Own's health,85.2,Male
+Migori,Own's health,91.5,Male
+Kisii,Own's health,99.3,Male
+Nyamira,Own's health,98.3,Male
+Nairobi,Own's health,87.7,Male
+Mombasa,Making major household purchases,74.8,Male
+Kwale,Making major household purchases,88.3,Male
+Kilifi,Making major household purchases,98.4,Male
+Tana River,Making major household purchases,97.3,Male
+Lamu,Making major household purchases,48.5,Male
+Taita Taveta,Making major household purchases,81.4,Male
+Garissa,Making major household purchases,100,Male
+Wajir,Making major household purchases,90.2,Male
+Mandera,Making major household purchases,94.8,Male
+Marsabit,Making major household purchases,97.4,Male
+Isiolo,Making major household purchases,38,Male
+Meru,Making major household purchases,92.8,Male
+Tharaka Nithi,Making major household purchases,97.7,Male
+Embu,Making major household purchases,93.4,Male
+Kitui,Making major household purchases,98.7,Male
+Machakos,Making major household purchases,99.5,Male
+Makueni,Making major household purchases,99.1,Male
+Nyandarua,Making major household purchases,76.6,Male
+Nyeri,Making major household purchases,90.2,Male
+Kirinyaga,Making major household purchases,100,Male
+Muranga,Making major household purchases,69.2,Male
+Kiambu,Making major household purchases,72.1,Male
+Turkana,Making major household purchases,89.6,Male
+West Pokot,Making major household purchases,71,Male
+Samburu,Making major household purchases,80.3,Male
+Trans Nzoia,Making major household purchases,97.7,Male
+Uasin Gishu,Making major household purchases,94.5,Male
+Elgeyo Marakwet,Making major household purchases,96.9,Male
+Nandi,Making major household purchases,88,Male
+Baringo,Making major household purchases,92.9,Male
+Laikipia,Making major household purchases,91.7,Male
+Nakuru,Making major household purchases,84.2,Male
+Narok,Making major household purchases,97.1,Male
+Kajiado,Making major household purchases,95.9,Male
+Kericho,Making major household purchases,100,Male
+Bomet,Making major household purchases,97.1,Male
+Kakamega,Making major household purchases,93.9,Male
+Vihiga,Making major household purchases,89,Male
+Bungoma,Making major household purchases,75.6,Male
+Busia,Making major household purchases,71.8,Male
+Siaya,Making major household purchases,95.7,Male
+Kisumu,Making major household purchases,97.4,Male
+Homa Bay,Making major household purchases,95.9,Male
+Migori,Making major household purchases,86.3,Male
+Kisii,Making major household purchases,98.1,Male
+Nyamira,Making major household purchases,98.3,Male
+Nairobi,Making major household purchases,72.7,Male
+Mombasa,All decisions,74.8,Male
+Kwale,All decisions,86.7,Male
+Kilifi,All decisions,98.4,Male
+Tana River,All decisions,97.1,Male
+Lamu,All decisions,48.5,Male
+Taita Taveta,All decisions,81.4,Male
+Garissa,All decisions,100,Male
+Wajir,All decisions,88.2,Male
+Mandera,All decisions,94.8,Male
+Marsabit,All decisions,97.4,Male
+Isiolo,All decisions,36.1,Male
+Meru,All decisions,79.2,Male
+Tharaka Nithi,All decisions,96.4,Male
+Embu,All decisions,93.4,Male
+Kitui,All decisions,97.7,Male
+Machakos,All decisions,99.5,Male
+Makueni,All decisions,99.1,Male
+Nyandarua,All decisions,76.1,Male
+Nyeri,All decisions,82.8,Male
+Kirinyaga,All decisions,99.2,Male
+Muranga,All decisions,65.7,Male
+Kiambu,All decisions,72.1,Male
+Turkana,All decisions,88.7,Male
+West Pokot,All decisions,68.3,Male
+Samburu,All decisions,78.9,Male
+Trans Nzoia,All decisions,92.3,Male
+Uasin Gishu,All decisions,94.5,Male
+Elgeyo Marakwet,All decisions,96.9,Male
+Nandi,All decisions,88,Male
+Baringo,All decisions,90.6,Male
+Laikipia,All decisions,75.9,Male
+Nakuru,All decisions,81.7,Male
+Narok,All decisions,96.5,Male
+Kajiado,All decisions,95.2,Male
+Kericho,All decisions,100,Male
+Bomet,All decisions,97.1,Male
+Kakamega,All decisions,93.4,Male
+Vihiga,All decisions,87.3,Male
+Bungoma,All decisions,66,Male
+Busia,All decisions,67.5,Male
+Siaya,All decisions,93.6,Male
+Kisumu,All decisions,97.4,Male
+Homa Bay,All decisions,81.7,Male
+Migori,All decisions,81.3,Male
+Kisii,All decisions,98.1,Male
+Nyamira,All decisions,96.6,Male
+Nairobi,All decisions,68.9,Male
+Mombasa,None of the decisions,0,Male
+Kwale,None of the decisions,0.9,Male
+Kilifi,None of the decisions,0,Male
+Tana River,None of the decisions,1,Male
+Lamu,None of the decisions,0,Male
+Taita Taveta,None of the decisions,0,Male
+Garissa,None of the decisions,0,Male
+Wajir,None of the decisions,7.4,Male
+Mandera,None of the decisions,3.5,Male
+Marsabit,None of the decisions,0,Male
+Isiolo,None of the decisions,4.6,Male
+Meru,None of the decisions,0,Male
+Tharaka Nithi,None of the decisions,1.3,Male
+Embu,None of the decisions,3.1,Male
+Kitui,None of the decisions,1.3,Male
+Machakos,None of the decisions,0,Male
+Makueni,None of the decisions,0,Male
+Nyandarua,None of the decisions,1.1,Male
+Nyeri,None of the decisions,3.5,Male
+Kirinyaga,None of the decisions,0,Male
+Muranga,None of the decisions,1.2,Male
+Kiambu,None of the decisions,7.3,Male
+Turkana,None of the decisions,0,Male
+West Pokot,None of the decisions,0.7,Male
+Samburu,None of the decisions,1.5,Male
+Trans Nzoia,None of the decisions,1,Male
+Uasin Gishu,None of the decisions,0,Male
+Elgeyo Marakwet,None of the decisions,2.5,Male
+Nandi,None of the decisions,0,Male
+Baringo,None of the decisions,0.9,Male
+Laikipia,None of the decisions,4,Male
+Nakuru,None of the decisions,12.9,Male
+Narok,None of the decisions,0,Male
+Kajiado,None of the decisions,1.2,Male
+Kericho,None of the decisions,0,Male
+Bomet,None of the decisions,0.6,Male
+Kakamega,None of the decisions,5.3,Male
+Vihiga,None of the decisions,8,Male
+Bungoma,None of the decisions,13.7,Male
+Busia,None of the decisions,5.3,Male
+Siaya,None of the decisions,3.1,Male
+Kisumu,None of the decisions,1.1,Male
+Homa Bay,None of the decisions,0.5,Male
+Migori,None of the decisions,3.4,Male
+Kisii,None of the decisions,0.7,Male
+Nyamira,None of the decisions,0,Male
+Nairobi,None of the decisions,8.5,Male

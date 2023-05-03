@@ -1,0 +1,21 @@
+Value,Category,Proportion,Employment characteristics
+Cash only,Agricultural Work,52.1,Type of Earnings
+Cash only,Nonagricultural Work,87.9,Type of Earnings
+Cash and in-kind,Agricultural Work,6.3,Type of Earnings
+Cash and in-kind,Nonagricultural Work,2.9,Type of Earnings
+In-kind only,Agricultural Work,0.8,Type of Earnings
+In-kind only,Nonagricultural Work,0.4,Type of Earnings
+Not paid,Agricultural Work,40.8,Type of Earnings
+Not paid,Nonagricultural Work,8.8,Type of Earnings
+Employed by family member,Agricultural Work,12.3,Type of Employer
+Employed by family member,Nonagricultural Work,2.7,Type of Employer
+Employed by nonfamily member,Agricultural Work,36.9,Type of Employer
+Employed by nonfamily member,Nonagricultural Work,53.6,Type of Employer
+Self-employed,Agricultural Work,50.9,Type of Employer
+Self-employed,Nonagricultural Work,43.7,Type of Employer
+All year,Agricultural Work,41.2,Continuity of Employment
+All year,Nonagricultural Work,68.9,Continuity of Employment
+Seasonal,Agricultural Work,39.3,Continuity of Employment
+Seasonal,Nonagricultural Work,17.8,Continuity of Employment
+Occasional,Agricultural Work,19.6,Continuity of Employment
+Occasional,Nonagricultural Work,13.3,Continuity of Employment

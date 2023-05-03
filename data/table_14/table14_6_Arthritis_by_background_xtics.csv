@@ -1,0 +1,73 @@
+Value,Category,Proportion,Participants,Background characteristics
+15-19,Diagnosed with Arthritis,1.1,Women,Age
+15-19,Receiving treatment,37,Women,Age
+20-24,Diagnosed with Arthritis,0.9,Women,Age
+20-24,Receiving treatment,26.3,Women,Age
+25-29,Diagnosed with Arthritis,1.4,Women,Age
+25-29,Receiving treatment,45.1,Women,Age
+30-34,Diagnosed with Arthritis,2.2,Women,Age
+30-34,Receiving treatment,32.5,Women,Age
+35-39,Diagnosed with Arthritis,3.9,Women,Age
+35-39,Receiving treatment,53.2,Women,Age
+40-44,Diagnosed with Arthritis,6.4,Women,Age
+40-44,Receiving treatment,52.2,Women,Age
+45-49,Diagnosed with Arthritis,9.4,Women,Age
+45-49,Receiving treatment,59.4,Women,Age
+15-19,Diagnosed with Arthritis,0.5,Men,Age
+15-19,Receiving treatment,NA,Men,Age
+20-24,Diagnosed with Arthritis,0.7,Men,Age
+20-24,Receiving treatment,NA,Men,Age
+25-29,Diagnosed with Arthritis,0.5,Men,Age
+25-29,Receiving treatment,NA,Men,Age
+30-34,Diagnosed with Arthritis,0.9,Men,Age
+30-34,Receiving treatment,NA,Men,Age
+35-39,Diagnosed with Arthritis,1.5,Men,Age
+35-39,Receiving treatment,NA,Men,Age
+40-44,Diagnosed with Arthritis,2.8,Men,Age
+40-44,Receiving treatment,42.6,Men,Age
+45-49,Diagnosed with Arthritis,2.8,Men,Age
+45-49,Receiving treatment,53,Men,Age
+Urban,Diagnosed with Arthritis,2.4,Women,Residence
+Urban,Receiving treatment,50.8,Women,Residence
+Rural,Diagnosed with Arthritis,3.1,Women,Residence
+Rural,Receiving treatment,48,Women,Residence
+Urban,Diagnosed with Arthritis,0.5,Men,Residence
+Urban,Receiving treatment,55.3,Men,Residence
+Rural,Diagnosed with Arthritis,1.6,Men,Residence
+Rural,Receiving treatment,42.7,Men,Residence
+No education,Diagnosed with Arthritis,2.4,Women,Education
+No education,Receiving treatment,53.9,Women,Education
+Primary,Diagnosed with Arthritis,3.6,Women,Education
+Primary,Receiving treatment,46.5,Women,Education
+Secondary,Diagnosed with Arthritis,2.5,Women,Education
+Secondary,Receiving treatment,52.6,Women,Education
+More than secondary,Diagnosed with Arthritis,1.9,Women,Education
+More than secondary,Receiving treatment,47.3,Women,Education
+No education,Diagnosed with Arthritis,2.5,Men,Education
+No education,Receiving treatment,NA,Men,Education
+Primary,Diagnosed with Arthritis,1.9,Men,Education
+Primary,Receiving treatment,46.9,Men,Education
+Secondary,Diagnosed with Arthritis,0.6,Men,Education
+Secondary,Receiving treatment,56.4,Men,Education
+More than secondary,Diagnosed with Arthritis,0.7,Men,Education
+More than secondary,Receiving treatment,NA,Men,Education
+Lowest,Diagnosed with Arthritis,1.8,Women,Wealth quintile
+Lowest,Receiving treatment,38.8,Women,Wealth quintile
+Second,Diagnosed with Arthritis,3,Women,Wealth quintile
+Second,Receiving treatment,43.1,Women,Wealth quintile
+Middle,Diagnosed with Arthritis,2.6,Women,Wealth quintile
+Middle,Receiving treatment,49.9,Women,Wealth quintile
+Fourth,Diagnosed with Arthritis,3.8,Women,Wealth quintile
+Fourth,Receiving treatment,56.6,Women,Wealth quintile
+Highest,Diagnosed with Arthritis,2.6,Women,Wealth quintile
+Highest,Receiving treatment,47.7,Women,Wealth quintile
+Lowest,Diagnosed with Arthritis,1.5,Men,Wealth quintile
+Lowest,Receiving treatment,43,Men,Wealth quintile
+Second,Diagnosed with Arthritis,1.8,Men,Wealth quintile
+Second,Receiving treatment,38.2,Men,Wealth quintile
+Middle,Diagnosed with Arthritis,1.2,Men,Wealth quintile
+Middle,Receiving treatment,51.4,Men,Wealth quintile
+Fourth,Diagnosed with Arthritis,0.9,Men,Wealth quintile
+Fourth,Receiving treatment,37.6,Men,Wealth quintile
+Highest,Diagnosed with Arthritis,0.5,Men,Wealth quintile
+Highest,Receiving treatment,NA,Men,Wealth quintile

@@ -1,0 +1,106 @@
+Characteristic,Variable,category,proportion
+<20,Mother's age,Neonatal mortality,24
+<20,Mother's age,Post neonatal mortality,12
+<20,Mother's age,Infant mortality,37
+<20,Mother's age,Child mortality,8
+<20,Mother's age,Under 5 mortality,45
+20-29,Mother's age,Neonatal mortality,23
+20-29,Mother's age,Post neonatal mortality,12
+20-29,Mother's age,Infant mortality,35
+20-29,Mother's age,Child mortality,9
+20-29,Mother's age,Under 5 mortality,44
+30-39,Mother's age,Neonatal mortality,21
+30-39,Mother's age,Post neonatal mortality,12
+30-39,Mother's age,Infant mortality,33
+30-39,Mother's age,Child mortality,8
+30-39,Mother's age,Under 5 mortality,41
+40-49,Mother's age,Neonatal mortality,34
+40-49,Mother's age,Post neonatal mortality,9
+40-49,Mother's age,Infant mortality,43
+40-49,Mother's age,Child mortality,15
+40-49,Mother's age,Under 5 mortality,58
+1,Birth order,Neonatal mortality,24
+1,Birth order,Post neonatal mortality,11
+1,Birth order,Infant mortality,35
+1,Birth order,Child mortality,5
+1,Birth order,Under 5 mortality,41
+2-3,Birth order,Neonatal mortality,22
+2-3,Birth order,Post neonatal mortality,14
+2-3,Birth order,Infant mortality,36
+2-3,Birth order,Child mortality,9
+2-3,Birth order,Under 5 mortality,44
+4-6,Birth order,Neonatal mortality,21
+4-6,Birth order,Post neonatal mortality,10
+4-6,Birth order,Infant mortality,31
+4-6,Birth order,Child mortality,11
+4-6,Birth order,Under 5 mortality,41
+7+,Birth order,Neonatal mortality,30
+7+,Birth order,Post neonatal mortality,15
+7+,Birth order,Infant mortality,44
+7+,Birth order,Child mortality,15
+7+,Birth order,Under 5 mortality,59
+<2 years,Birth interval,Neonatal mortality,36
+<2 years,Birth interval,Post neonatal mortality,14
+<2 years,Birth interval,Infant mortality,50
+<2 years,Birth interval,Child mortality,17
+<2 years,Birth interval,Under 5 mortality,67
+2 years,Birth interval,Neonatal mortality,18
+2 years,Birth interval,Post neonatal mortality,12
+2 years,Birth interval,Infant mortality,30
+2 years,Birth interval,Child mortality,8
+2 years,Birth interval,Under 5 mortality,37
+3 years,Birth interval,Neonatal mortality,16
+3 years,Birth interval,Post neonatal mortality,14
+3 years,Birth interval,Infant mortality,30
+3 years,Birth interval,Child mortality,9
+3 years,Birth interval,Under 5 mortality,38
+4+ years,Birth interval,Neonatal mortality,21
+4+ years,Birth interval,Post neonatal mortality,12
+4+ years,Birth interval,Infant mortality,33
+4+ years,Birth interval,Child mortality,8
+4+ years,Birth interval,Under 5 mortality,41
+No education,Education,Neonatal mortality,24
+No education,Education,Post neonatal mortality,9
+No education,Education,Infant mortality,33
+No education,Education,Child mortality,9
+No education,Education,Under 5 mortality,41
+Primary,Education,Neonatal mortality,24
+Primary,Education,Post neonatal mortality,14
+Primary,Education,Infant mortality,38
+Primary,Education,Child mortality,12
+Primary,Education,Under 5 mortality,49
+Secondary,Education,Neonatal mortality,24
+Secondary,Education,Post neonatal mortality,11
+Secondary,Education,Infant mortality,35
+Secondary,Education,Child mortality,7
+Secondary,Education,Under 5 mortality,42
+More than secondary,Education,Neonatal mortality,19
+More than secondary,Education,Post neonatal mortality,11
+More than secondary,Education,Infant mortality,30
+More than secondary,Education,Child mortality,3
+More than secondary,Education,Under 5 mortality,32
+Lowest,Education,Neonatal mortality,24
+Lowest,Education,Post neonatal mortality,11
+Lowest,Education,Infant mortality,36
+Lowest,Education,Child mortality,11
+Lowest,Education,Under 5 mortality,47
+Second,Education,Neonatal mortality,22
+Second,Education,Post neonatal mortality,13
+Second,Education,Infant mortality,35
+Second,Education,Child mortality,11
+Second,Education,Under 5 mortality,46
+Middle,Education,Neonatal mortality,23
+Middle,Education,Post neonatal mortality,12
+Middle,Education,Infant mortality,35
+Middle,Education,Child mortality,6
+Middle,Education,Under 5 mortality,41
+Fourth,Education,Neonatal mortality,25
+Fourth,Education,Post neonatal mortality,13
+Fourth,Education,Infant mortality,37
+Fourth,Education,Child mortality,9
+Fourth,Education,Under 5 mortality,46
+Highest,Education,Neonatal mortality,21
+Highest,Education,Post neonatal mortality,12
+Highest,Education,Infant mortality,33
+Highest,Education,Child mortality,5
+Highest,Education,Under 5 mortality,37

@@ -1,0 +1,111 @@
+Value,Category,Proportion,Background characteristics
+Urban,Use appropriate treatment method,33.5,Residence
+Urban,Boil,21.6,Residence
+Urban,Bleach/chlorine,14.4,Residence
+Urban,Strain through cloth,0.6,Residence
+Urban,Ceramic/sand/other filter,1.3,Residence
+Urban,Solar disinfection,0.0,Residence
+Urban,Stand & settle,0.5,Residence
+Urban,Cover container,0.8,Residence
+Urban,Other,0.1,Residence
+Urban,Don't know,0.0,Residence
+Urban,No treatment,65.9,Residence
+Rural,Use appropriate treatment method,35.4,Residence
+Rural,Boil,19.9,Residence
+Rural,Bleach/chlorine,17.6,Residence
+Rural,Strain through cloth,2.4,Residence
+Rural,Ceramic/sand/other filter,1.1,Residence
+Rural,Solar disinfection,0.1,Residence
+Rural,Stand & settle,2.1,Residence
+Rural,Cover container,2.6,Residence
+Rural,Other,0.1,Residence
+Rural,Don't know,0.0,Residence
+Rural,No treatment,61.3,Residence
+Improved,Use appropriate treatment method,35.0,Water source
+Improved,Boil,21.1,Water source
+Improved,Bleach/chlorine,16.2,Water source
+Improved,Strain through cloth,1.5,Water source
+Improved,Ceramic/sand/other filter,1.2,Water source
+Improved,Solar disinfection,0.0,Water source
+Improved,Stand & settle,1.5,Water source
+Improved,Cover container,1.9,Water source
+Improved,Other,0.1,Water source
+Improved,Don't know,0.0,Water source
+Improved,No treatment,62.8,Water source
+Unimproved,Use appropriate treatment method,32.2,Water source
+Unimproved,Boil,18.9,Water source
+Unimproved,Bleach/chlorine,15.4,Water source
+Unimproved,Strain through cloth,3.0,Water source
+Unimproved,Ceramic/sand/other filter,0.8,Water source
+Unimproved,Solar disinfection,0.1,Water source
+Unimproved,Stand & settle,2.3,Water source
+Unimproved,Cover container,3.7,Water source
+Unimproved,Other,0.1,Water source
+Unimproved,Don't know,0.1,Water source
+Unimproved,No treatment,63.9,Water source
+Surface,Use appropriate treatment method,34.4,Water source
+Surface,Boil,18.0,Water source
+Surface,Bleach/chlorine,18.7,Water source
+Surface,Strain through cloth,2.9,Water source
+Surface,Ceramic/sand/other filter,1.1,Water source
+Surface,Solar disinfection,0.1,Water source
+Surface,Stand & settle,1.7,Water source
+Surface,Cover container,1.5,Water source
+Surface,Other,0.0,Water source
+Surface,Don't know,0.0,Water source
+Surface,No treatment,62.8,Water source
+Lowest,Use appropriate treatment method,21.2,Wealth quintile
+Lowest,Boil,10.8,Wealth quintile
+Lowest,Bleach/chlorine,11.3,Wealth quintile
+Lowest,Strain through cloth,2.2,Wealth quintile
+Lowest,Ceramic/sand/other filter,0.8,Wealth quintile
+Lowest,Solar disinfection,0.1,Wealth quintile
+Lowest,Stand & settle,1.4,Wealth quintile
+Lowest,Cover container,1.5,Wealth quintile
+Lowest,Other,0.0,Wealth quintile
+Lowest,Don't know,0.1,Wealth quintile
+Lowest,No treatment,76.0,Wealth quintile
+Second,Use appropriate treatment method,34.6,Wealth quintile
+Second,Boil,17.2,Wealth quintile
+Second,Bleach/chlorine,19.1,Wealth quintile
+Second,Strain through cloth,3.2,Wealth quintile
+Second,Ceramic/sand/other filter,1.1,Wealth quintile
+Second,Solar disinfection,0.0,Wealth quintile
+Second,Stand & settle,2.5,Wealth quintile
+Second,Cover container,2.9,Wealth quintile
+Second,Other,0.0,Wealth quintile
+Second,Don't know,0.0,Wealth quintile
+Second,No treatment,61.1,Wealth quintile
+Middle,Use appropriate treatment method,38.5,Wealth quintile
+Middle,Boil,22.2,Wealth quintile
+Middle,Bleach/chlorine,18.6,Wealth quintile
+Middle,Strain through cloth,2.1,Wealth quintile
+Middle,Ceramic/sand/other filter,1.0,Wealth quintile
+Middle,Solar disinfection,0.0,Wealth quintile
+Middle,Stand & settle,1.9,Wealth quintile
+Middle,Cover container,2.7,Wealth quintile
+Middle,Other,0.1,Wealth quintile
+Middle,Don't know,0.0,Wealth quintile
+Middle,No treatment,58.8,Wealth quintile
+Fourth,Use appropriate treatment method,38.9,Wealth quintile
+Fourth,Boil,25.6,Wealth quintile
+Fourth,Bleach/chlorine,16.1,Wealth quintile
+Fourth,Strain through cloth,1.0,Wealth quintile
+Fourth,Ceramic/sand/other filter,0.9,Wealth quintile
+Fourth,Solar disinfection,0.0,Wealth quintile
+Fourth,Stand & settle,1.5,Wealth quintile
+Fourth,Cover container,1.9,Wealth quintile
+Fourth,Other,0.0,Wealth quintile
+Fourth,Don't know,0.1,Wealth quintile
+Fourth,No treatment,59.6,Wealth quintile
+Highest,Use appropriate treatment method,40.4,Wealth quintile
+Highest,Boil,26.5,Wealth quintile
+Highest,Bleach/chlorine,17.3,Wealth quintile
+Highest,Strain through cloth,0.6,Wealth quintile
+Highest,Ceramic/sand/other filter,1.9,Wealth quintile
+Highest,Solar disinfection,0.0,Wealth quintile
+Highest,Stand & settle,0.5,Wealth quintile
+Highest,Cover container,0.7,Wealth quintile
+Highest,Other,0.2,Wealth quintile
+Highest,Don't know,0.0,Wealth quintile
+Highest,No treatment,58.9,Wealth quintile

@@ -1,0 +1,40 @@
+Indicator,perc_below3sd,perc_below2sd,zscore,no,indicator,measure,lab,Indicator1
+Male,5.1,19.6,−1.0,8679,HFA,Stunting,19.6%,Sex
+Female,3.3,15.6,−0.8,8453,HFA,Stunting,15.6%,Sex
+Male,0.6,5.4,−0.2,8742,WFH,Wasting,5.4%,Sex
+Female,0.6,4.3,−0.1,8496,WFH,Wasting,4.3%,Sex
+Male,2,11.1,−0.7,8692,WFA,Underweight,11.1%,Sex
+Female,1.6,9.2,−0.5,8488,WFA,Underweight,9.2%,Sex
+Urban,2.7,12.1,−0.6,5679,HFA,Stunting,12.1%,Residence
+Rural,4.9,20.3,−1.0,11453,HFA,Stunting,20.3%,Residence
+Urban,0.7,4,−0.0,5714,WFH,Wasting,4%,Residence
+Rural,0.6,5.3,−0.2,11524,WFH,Wasting,5.3%,Residence
+Urban,1.2,6.7,−0.3,5701,WFA,Underweight,6.7%,Residence
+Rural,2.1,11.9,−0.7,11478,WFA,Underweight,11.9%,Residence
+No education,6.9,22.2,−1.0,1695,HFA,Stunting,22.2%,Mother_education
+Primary,5.2,22.1,−1.1,5898,HFA,Stunting,22.1%,Mother_education
+Secondary,3.1,14.8,−0.8,5037,HFA,Stunting,14.8%,Mother_education
+More than secondary,1.6,8.6,−0.4,2716,HFA,Stunting,8.6%,Mother_education
+No education,2,15.4,−0.9,1710,WFH,Wasting,15.4%,Mother_education
+Primary,0.6,4.3,−0.2,5909,WFH,Wasting,4.3%,Mother_education
+Secondary,0.3,3.1,−0.0,5037,WFH,Wasting,3.1%,Mother_education
+More than secondary,0.4,3.2,0.0,2712,WFH,Wasting,3.2%,Mother_education
+No education,5.3,22.1,−1.2,1703,WFA,Underweight,22.1%,Mother_education
+Primary,2,11.9,−0.7,5912,WFA,Underweight,11.9%,Mother_education
+Secondary,0.9,6.8,−0.4,5048,WFA,Underweight,6.8%,Mother_education
+More than secondary,0.8,5,−0.2,2716,WFA,Underweight,5%,Mother_education
+Lowest,7.6,27.6,−1.3,4039,HFA,Stunting,27.6%,Wealth_quintile
+Second,5.2,21.5,−1.1,3343,HFA,Stunting,21.5%,Wealth_quintile
+Middle,3.7,16.2,−0.9,3143,HFA,Stunting,16.2%,Wealth_quintile
+Fourth,2,11.6,−0.7,3315,HFA,Stunting,11.6%,Wealth_quintile
+Highest,1.7,8.7,−0.4,3292,HFA,Stunting,8.7%,Wealth_quintile
+Lowest,1.3,9.5,−0.5,4064,WFH,Wasting,9.5%,Wealth_quintile
+Second,0.2,3,−0.1,3377,WFH,Wasting,3%,Wealth_quintile
+Middle,0.5,4.2,−0.1,3159,WFH,Wasting,4.2%,Wealth_quintile
+Fourth,0.4,3.8,−0.1,3326,WFH,Wasting,3.8%,Wealth_quintile
+Highest,0.6,2.7,0.1,3311,WFH,Wasting,2.7%,Wealth_quintile
+Lowest,4.4,19.3,−1.1,4052,WFA,Underweight,19.3%,Wealth_quintile
+Second,1.1,10,−0.7,3353,WFA,Underweight,10%,Wealth_quintile
+Middle,1.2,8.9,−0.6,3149,WFA,Underweight,8.9%,Wealth_quintile
+Fourth,0.8,6.3,−0.4,3325,WFA,Underweight,6.3%,Wealth_quintile
+Highest,0.6,4.2,−0.2,3301,WFA,Underweight,4.2%,Wealth_quintile

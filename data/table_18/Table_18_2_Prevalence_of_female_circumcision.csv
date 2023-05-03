@@ -1,0 +1,71 @@
+Background characteristics,Category,variable,value
+Age,15-19,Percentage of women circumcised,9.1
+Age,20-24,Percentage of women circumcised,9.9
+Age,25-29,Percentage of women circumcised,13.2
+Age,30-34,Percentage of women circumcised,16.1
+Age,35-39,Percentage of women circumcised,18.7
+Age,40-44,Percentage of women circumcised,23.8
+Age,45-49,Percentage of women circumcised,23.1
+Residence,Urban,Percentage of women circumcised,9.7
+Residence,Rural,Percentage of women circumcised,18.4
+Wealth quintile,Lowest,Percentage of women circumcised,32
+Wealth quintile,Second,Percentage of women circumcised,16.8
+Wealth quintile,Middle,Percentage of women circumcised,14.6
+Wealth quintile,Fourth,Percentage of women circumcised,11
+Wealth quintile,Highest,Percentage of women circumcised,6.6
+Age,15-19,"Cut, no flesh removed",11.9
+Age,20-24,"Cut, no flesh removed",13.9
+Age,25-29,"Cut, no flesh removed",12
+Age,30-34,"Cut, no flesh removed",11.3
+Age,35-39,"Cut, no flesh removed",12.3
+Age,40-44,"Cut, no flesh removed",11.1
+Age,45-49,"Cut, no flesh removed",10.9
+Residence,Urban,"Cut, no flesh removed",14
+Residence,Rural,"Cut, no flesh removed",11.1
+Wealth quintile,Lowest,"Cut, no flesh removed",8.8
+Wealth quintile,Second,"Cut, no flesh removed",11.8
+Wealth quintile,Middle,"Cut, no flesh removed",12.7
+Wealth quintile,Fourth,"Cut, no flesh removed",15.7
+Wealth quintile,Highest,"Cut, no flesh removed",14.3
+Age,15-19,"Cut, flesh removed",67.3
+Age,20-24,"Cut, flesh removed",63.3
+Age,25-29,"Cut, flesh removed",69.5
+Age,30-34,"Cut, flesh removed",69.8
+Age,35-39,"Cut, flesh removed",70.1
+Age,40-44,"Cut, flesh removed",72.9
+Age,45-49,"Cut, flesh removed",76.6
+Residence,Urban,"Cut, flesh removed",61.6
+Residence,Rural,"Cut, flesh removed",73.1
+Wealth quintile,Lowest,"Cut, flesh removed",74.7
+Wealth quintile,Second,"Cut, flesh removed",72.2
+Wealth quintile,Middle,"Cut, flesh removed",71.9
+Wealth quintile,Fourth,"Cut, flesh removed",61.4
+Wealth quintile,Highest,"Cut, flesh removed",62.2
+Age,15-19,Sewn closed,12.6
+Age,20-24,Sewn closed,13
+Age,25-29,Sewn closed,12
+Age,30-34,Sewn closed,12.7
+Age,35-39,Sewn closed,11.6
+Age,40-44,Sewn closed,10.9
+Age,45-49,Sewn closed,7.9
+Residence,Urban,Sewn closed,16.7
+Residence,Rural,Sewn closed,9.7
+Wealth quintile,Lowest,Sewn closed,11.3
+Wealth quintile,Second,Sewn closed,8.4
+Wealth quintile,Middle,Sewn closed,7.4
+Wealth quintile,Fourth,Sewn closed,16.4
+Wealth quintile,Highest,Sewn closed,17.3
+Age,15-19,Don't know,8.1
+Age,20-24,Don't know,9.9
+Age,25-29,Don't know,6.4
+Age,30-34,Don't know,6.2
+Age,35-39,Don't know,6
+Age,40-44,Don't know,5.1
+Age,45-49,Don't know,4.5
+Residence,Urban,Don't know,7.7
+Residence,Rural,Don't know,6.1
+Wealth quintile,Lowest,Don't know,5.2
+Wealth quintile,Second,Don't know,7.6
+Wealth quintile,Middle,Don't know,7.9
+Wealth quintile,Fourth,Don't know,6.5
+Wealth quintile,Highest,Don't know,6.2

@@ -1,0 +1,283 @@
+County,perc_below3sd,perc_below2sd,zscore,indicator,measure,lab,year
+Mombasa,3.5,13.5,−0.7,HFA,Stunting,13.5%,2022
+Kwale,6.9,22.7,−1.2,HFA,Stunting,22.7%,2022
+Kilifi,13.4,37,−1.5,HFA,Stunting,37%,2022
+Tana River,5.6,21.1,−1.0,HFA,Stunting,21.1%,2022
+Lamu,2.5,16.1,−1.0,HFA,Stunting,16.1%,2022
+Taita Taveta,4.9,19.2,−0.9,HFA,Stunting,19.2%,2022
+Garissa,0.6,9,−0.4,HFA,Stunting,9%,2022
+Wajir,3.2,12.4,−0.3,HFA,Stunting,12.4%,2022
+Mandera,6.3,20.5,−0.9,HFA,Stunting,20.5%,2022
+Marsabit,4.9,18.9,−0.8,HFA,Stunting,18.9%,2022
+Isiolo,4.3,14.1,−0.6,HFA,Stunting,14.1%,2022
+Meru,4.6,25.2,−1.1,HFA,Stunting,25.2%,2022
+Tharaka Nithi,3.4,20.5,−1.0,HFA,Stunting,20.5%,2022
+Embu,5.3,19.9,−0.9,HFA,Stunting,19.9%,2022
+Kitui,8.8,25.1,−1.2,HFA,Stunting,25.1%,2022
+Machakos,3.8,16.2,−0.9,HFA,Stunting,16.2%,2022
+Makueni,4.2,19.8,−1.1,HFA,Stunting,19.8%,2022
+Nyandarua,3.2,17.8,−0.9,HFA,Stunting,17.8%,2022
+Nyeri,2.2,12.5,−0.7,HFA,Stunting,12.5%,2022
+Kirinyaga,1.9,11.2,−0.8,HFA,Stunting,11.2%,2022
+Muranga,1.1,10.1,−0.7,HFA,Stunting,10.1%,2022
+Kiambu,3.8,15.3,−0.8,HFA,Stunting,15.3%,2022
+Turkana,7.3,23,−1.1,HFA,Stunting,23%,2022
+West Pokot,10.4,33.5,−1.5,HFA,Stunting,33.5%,2022
+Samburu,8.9,31.4,−1.4,HFA,Stunting,31.4%,2022
+Trans Nzoia,4.8,21.3,−1.0,HFA,Stunting,21.3%,2022
+Uasin Gishu,2.7,14.2,−0.8,HFA,Stunting,14.2%,2022
+Elgeyo Marakwet,3.1,21.8,−1.2,HFA,Stunting,21.8%,2022
+Nandi,2.6,15.1,−0.8,HFA,Stunting,15.1%,2022
+Baringo,4.7,21.2,−1.1,HFA,Stunting,21.2%,2022
+Laikipia,2.5,12.6,−0.8,HFA,Stunting,12.6%,2022
+Nakuru,5.3,18.5,−0.9,HFA,Stunting,18.5%,2022
+Narok,3.5,21.5,−1.2,HFA,Stunting,21.5%,2022
+Kajiado,4.5,14,−0.5,HFA,Stunting,14%,2022
+Kericho,3.7,19.3,−1.0,HFA,Stunting,19.3%,2022
+Bomet,4.5,22.1,−1.1,HFA,Stunting,22.1%,2022
+Kakamega,2.1,11.5,−0.7,HFA,Stunting,11.5%,2022
+Vihiga,4.2,16.6,−1.0,HFA,Stunting,16.6%,2022
+Bungoma,4,19,−1.0,HFA,Stunting,19%,2022
+Busia,3.1,15,−0.7,HFA,Stunting,15%,2022
+Siaya,5.3,19.2,−1.0,HFA,Stunting,19.2%,2022
+Kisumu,1.3,9.1,−0.5,HFA,Stunting,9.1%,2022
+Homa Bay,2.3,12.5,−0.7,HFA,Stunting,12.5%,2022
+Migori,2.5,14.8,−0.9,HFA,Stunting,14.8%,2022
+Kisii,4.3,16.3,−0.8,HFA,Stunting,16.3%,2022
+Nyamira,3,13.5,−0.9,HFA,Stunting,13.5%,2022
+Nairobi,2,11.1,−0.6,HFA,Stunting,11.1%,2022
+Mombasa,0.2,4.6,−0.3,WFH,Wasting,4.6%,2022
+Kwale,1.1,6.2,−0.4,WFH,Wasting,6.2%,2022
+Kilifi,0.9,7.2,−0.3,WFH,Wasting,7.2%,2022
+Tana River,1.3,11.3,−0.6,WFH,Wasting,11.3%,2022
+Lamu,0.4,3.5,−0.3,WFH,Wasting,3.5%,2022
+Taita Taveta,0,4.1,−0.2,WFH,Wasting,4.1%,2022
+Garissa,2.6,15.3,−0.9,WFH,Wasting,15.3%,2022
+Wajir,3.6,22.8,−1.2,WFH,Wasting,22.8%,2022
+Mandera,2.9,17.3,−1.1,WFH,Wasting,17.3%,2022
+Marsabit,3.8,20.4,−1.1,WFH,Wasting,20.4%,2022
+Isiolo,1.1,7.2,−0.7,WFH,Wasting,7.2%,2022
+Meru,0,6,−0.1,WFH,Wasting,6%,2022
+Tharaka Nithi,0,3.1,−0.1,WFH,Wasting,3.1%,2022
+Embu,1.6,5.3,−0.2,WFH,Wasting,5.3%,2022
+Kitui,1.1,4.9,−0.4,WFH,Wasting,4.9%,2022
+Machakos,0,3.5,−0.1,WFH,Wasting,3.5%,2022
+Makueni,0,4,−0.2,WFH,Wasting,4%,2022
+Nyandarua,0.6,1.9,0.2,WFH,Wasting,1.9%,2022
+Nyeri,0,2.7,0.2,WFH,Wasting,2.7%,2022
+Kirinyaga,0,2.2,−0.0,WFH,Wasting,2.2%,2022
+Muranga,0,1.7,−0.1,WFH,Wasting,1.7%,2022
+Kiambu,1,3.2,0.1,WFH,Wasting,3.2%,2022
+Turkana,3.5,22.6,−1.2,WFH,Wasting,22.6%,2022
+West Pokot,0.9,11,−0.8,WFH,Wasting,11%,2022
+Samburu,1.4,15.4,−0.9,WFH,Wasting,15.4%,2022
+Trans Nzoia,0,3.2,−0.2,WFH,Wasting,3.2%,2022
+Uasin Gishu,0.9,4,−0.1,WFH,Wasting,4%,2022
+Elgeyo Marakwet,1,4.8,−0.4,WFH,Wasting,4.8%,2022
+Nandi,0.3,4,−0.2,WFH,Wasting,4%,2022
+Baringo,2.3,13.6,−0.8,WFH,Wasting,13.6%,2022
+Laikipia,0,2.6,−0.1,WFH,Wasting,2.6%,2022
+Nakuru,0.9,3,−0.1,WFH,Wasting,3%,2022
+Narok,0.2,2.1,−0.1,WFH,Wasting,2.1%,2022
+Kajiado,1.3,7.6,−0.2,WFH,Wasting,7.6%,2022
+Kericho,0.3,2.5,−0.1,WFH,Wasting,2.5%,2022
+Bomet,0.2,3.3,−0.0,WFH,Wasting,3.3%,2022
+Kakamega,0,1.5,0.1,WFH,Wasting,1.5%,2022
+Vihiga,0,2.4,0.1,WFH,Wasting,2.4%,2022
+Bungoma,0,2.3,−0.0,WFH,Wasting,2.3%,2022
+Busia,0,2.8,−0.0,WFH,Wasting,2.8%,2022
+Siaya,1.1,1.7,0.1,WFH,Wasting,1.7%,2022
+Kisumu,0.5,3,−0.0,WFH,Wasting,3%,2022
+Homa Bay,0,1.8,0.1,WFH,Wasting,1.8%,2022
+Migori,0,2.4,0.0,WFH,Wasting,2.4%,2022
+Kisii,0.3,2.9,0.1,WFH,Wasting,2.9%,2022
+Nyamira,0.1,1.2,0.2,WFH,Wasting,1.2%,2022
+Nairobi,0,2.5,0.1,WFH,Wasting,2.5%,2022
+Mombasa,1.5,9.8,−0.6,WFA,Underweight,9.8%,2022
+Kwale,2.8,13.7,−0.9,WFA,Underweight,13.7%,2022
+Kilifi,3.1,19.5,−1.1,WFA,Underweight,19.5%,2022
+Tana River,2.6,16.8,−1.0,WFA,Underweight,16.8%,2022
+Lamu,1,12.5,−0.8,WFA,Underweight,12.5%,2022
+Taita Taveta,2.1,12.6,−0.7,WFA,Underweight,12.6%,2022
+Garissa,1.2,14.1,−0.8,WFA,Underweight,14.1%,2022
+Wajir,4.3,16.2,−1.0,WFA,Underweight,16.2%,2022
+Mandera,5.4,23.2,−1.2,WFA,Underweight,23.2%,2022
+Marsabit,6.2,25.9,−1.2,WFA,Underweight,25.9%,2022
+Isiolo,2.4,11.5,−0.8,WFA,Underweight,11.5%,2022
+Meru,1,10.8,−0.7,WFA,Underweight,10.8%,2022
+Tharaka Nithi,2.2,7.7,−0.6,WFA,Underweight,7.7%,2022
+Embu,2.6,11.3,−0.6,WFA,Underweight,11.3%,2022
+Kitui,2.6,13.9,−0.9,WFA,Underweight,13.9%,2022
+Machakos,1,8.1,−0.6,WFA,Underweight,8.1%,2022
+Makueni,1.2,8.7,−0.7,WFA,Underweight,8.7%,2022
+Nyandarua,1.4,4,−0.4,WFA,Underweight,4%,2022
+Nyeri,0.5,4,−0.2,WFA,Underweight,4%,2022
+Kirinyaga,0,5.7,−0.4,WFA,Underweight,5.7%,2022
+Muranga,0.4,5.9,−0.5,WFA,Underweight,5.9%,2022
+Kiambu,2.1,6,−0.3,WFA,Underweight,6%,2022
+Turkana,8.8,31.7,−1.5,WFA,Underweight,31.7%,2022
+West Pokot,6,27.1,−1.4,WFA,Underweight,27.1%,2022
+Samburu,7.4,30.2,−1.4,WFA,Underweight,30.2%,2022
+Trans Nzoia,0.5,11.1,−0.6,WFA,Underweight,11.1%,2022
+Uasin Gishu,1,6.4,−0.5,WFA,Underweight,6.4%,2022
+Elgeyo Marakwet,2.5,13.9,−0.9,WFA,Underweight,13.9%,2022
+Nandi,0.9,9,−0.6,WFA,Underweight,9%,2022
+Baringo,5.8,19.9,−1.1,WFA,Underweight,19.9%,2022
+Laikipia,0.5,6.6,−0.5,WFA,Underweight,6.6%,2022
+Nakuru,2.1,9.2,−0.6,WFA,Underweight,9.2%,2022
+Narok,1,10.7,−0.7,WFA,Underweight,10.7%,2022
+Kajiado,1.3,9.6,−0.4,WFA,Underweight,9.6%,2022
+Kericho,1.4,9.2,−0.7,WFA,Underweight,9.2%,2022
+Bomet,1.3,9.8,−0.6,WFA,Underweight,9.8%,2022
+Kakamega,0.8,6.4,−0.3,WFA,Underweight,6.4%,2022
+Vihiga,0.8,9.2,−0.4,WFA,Underweight,9.2%,2022
+Bungoma,1.2,9.6,−0.5,WFA,Underweight,9.6%,2022
+Busia,0.7,6.3,−0.4,WFA,Underweight,6.3%,2022
+Siaya,2.1,7,−0.5,WFA,Underweight,7%,2022
+Kisumu,0.8,3.5,−0.3,WFA,Underweight,3.5%,2022
+Homa Bay,1,6.1,−0.3,WFA,Underweight,6.1%,2022
+Migori,0.3,5,−0.4,WFA,Underweight,5%,2022
+Kisii,1.5,7.8,−0.4,WFA,Underweight,7.8%,2022
+Nyamira,0.2,3.4,−0.4,WFA,Underweight,3.4%,2022
+Nairobi,0.4,5.3,−0.2,WFA,Underweight,5.3%,2022
+Mombasa,7.1,21.1,-1,HFA,Stunting,21.1%,2014
+Kwale,10.5,29.7,-1.4,HFA,Stunting,29.7%,2014
+Kilifi,13.6,39.1,-1.5,HFA,Stunting,39.1%,2014
+Tana River,9.4,28.1,-1.4,HFA,Stunting,28.1%,2014
+Lamu,7.1,29.2,-1.2,HFA,Stunting,29.2%,2014
+Taita Taveta,5.8,23.8,-0.9,HFA,Stunting,23.8%,2014
+Garissa,5.9,15.6,-0.7,HFA,Stunting,15.6%,2014
+Wajir,10.3,26.4,-1,HFA,Stunting,26.4%,2014
+Mandera,19,36.1,-1.3,HFA,Stunting,36.1%,2014
+Marsabit,10.7,26.5,-1.2,HFA,Stunting,26.5%,2014
+Isiolo,5.1,19.1,-0.7,HFA,Stunting,19.1%,2014
+Meru,6.2,25.2,-1.1,HFA,Stunting,25.2%,2014
+Tharaka Nithi,7.6,32.9,-1.4,HFA,Stunting,32.9%,2014
+Embu,6.5,26.8,-1.3,HFA,Stunting,26.8%,2014
+Kitui,12.7,45.8,-1.7,HFA,Stunting,45.8%,2014
+Machakos,7.1,26.5,-1.1,HFA,Stunting,26.5%,2014
+Makueni,7.8,25.1,-1.3,HFA,Stunting,25.1%,2014
+Nyandarua,8.1,29.4,-1.3,HFA,Stunting,29.4%,2014
+Nyeri,5.6,15.1,-0.9,HFA,Stunting,15.1%,2014
+Kirinyaga,3.7,17.2,-0.9,HFA,Stunting,17.2%,2014
+Muranga,4.8,19.3,-1,HFA,Stunting,19.3%,2014
+Kiambu,3.8,15.7,-0.7,HFA,Stunting,15.7%,2014
+Turkana,7.1,23.9,-1.1,HFA,Stunting,23.9%,2014
+West Pokot,19,45.9,-1.8,HFA,Stunting,45.9%,2014
+Samburu,9.8,30.1,-1.3,HFA,Stunting,30.1%,2014
+Trans Nzoia,10.7,29.2,-1.3,HFA,Stunting,29.2%,2014
+Uasin Gishu,11.1,31.2,-1.3,HFA,Stunting,31.2%,2014
+Elgeyo Marakwet,7.3,29.9,-1.4,HFA,Stunting,29.9%,2014
+Nandi,8.3,29.9,-1.3,HFA,Stunting,29.9%,2014
+Baringo,8.4,29.5,-1.4,HFA,Stunting,29.5%,2014
+Laikipia,7.4,26.9,-1.3,HFA,Stunting,26.9%,2014
+Nakuru,7.2,27.6,-1.2,HFA,Stunting,27.6%,2014
+Narok,8.7,32.9,-1.4,HFA,Stunting,32.9%,2014
+Kajiado,7.1,18.2,-0.7,HFA,Stunting,18.2%,2014
+Kericho,10.5,28.7,-1.3,HFA,Stunting,28.7%,2014
+Bomet,10.7,35.5,-1.6,HFA,Stunting,35.5%,2014
+Kakamega,12.3,28.4,-1.3,HFA,Stunting,28.4%,2014
+Vihiga,6,23.5,-1.1,HFA,Stunting,23.5%,2014
+Bungoma,6.4,24.4,-1.1,HFA,Stunting,24.4%,2014
+Busia,5.4,22,-1.1,HFA,Stunting,22%,2014
+Siaya,7.1,24.7,-1.1,HFA,Stunting,24.7%,2014
+Kisumu,6.9,18,-0.7,HFA,Stunting,18%,2014
+Homa Bay,4.2,18.7,-0.7,HFA,Stunting,18.7%,2014
+Migori,10.1,26.4,-1.1,HFA,Stunting,26.4%,2014
+Kisii,9.3,25.5,-1.3,HFA,Stunting,25.5%,2014
+Nyamira,10.1,25.5,-1.1,HFA,Stunting,25.5%,2014
+Nairobi,3.9,17.2,-0.7,HFA,Stunting,17.2%,2014
+Mombasa,0,4.1,0,WFH,Wasting,4.1%,2014
+Kwale,0.8,4.4,0,WFH,Wasting,4.4%,2014
+Kilifi,0.9,4.1,-0.1,WFH,Wasting,4.1%,2014
+Tana River,0.9,5.7,-0.3,WFH,Wasting,5.7%,2014
+Lamu,0.3,4.2,-0.1,WFH,Wasting,4.2%,2014
+Taita Taveta,3.6,7.2,-0.1,WFH,Wasting,7.2%,2014
+Garissa,1.3,11.4,-0.6,WFH,Wasting,11.4%,2014
+Wajir,3.1,14.2,-0.8,WFH,Wasting,14.2%,2014
+Mandera,3.8,14.8,-0.5,WFH,Wasting,14.8%,2014
+Marsabit,5.1,16.3,-0.9,WFH,Wasting,16.3%,2014
+Isiolo,2.4,9.1,-0.6,WFH,Wasting,9.1%,2014
+Meru,1,2.9,0.1,WFH,Wasting,2.9%,2014
+Tharaka Nithi,0,3.3,0,WFH,Wasting,3.3%,2014
+Embu,0.2,3,0.1,WFH,Wasting,3%,2014
+Kitui,0.4,3.4,-0.2,WFH,Wasting,3.4%,2014
+Machakos,2.5,6.5,-0.1,WFH,Wasting,6.5%,2014
+Makueni,1,2.1,0.1,WFH,Wasting,2.1%,2014
+Nyandarua,0.1,2,0.3,WFH,Wasting,2%,2014
+Nyeri,0,2.4,0.2,WFH,Wasting,2.4%,2014
+Kirinyaga,0.8,3.9,0,WFH,Wasting,3.9%,2014
+Muranga,0,1.4,0.1,WFH,Wasting,1.4%,2014
+Kiambu,0.3,2.3,0.4,WFH,Wasting,2.3%,2014
+Turkana,4.4,22.9,-1.3,WFH,Wasting,22.9%,2014
+West Pokot,2.4,14.3,-0.8,WFH,Wasting,14.3%,2014
+Samburu,2.8,13.6,-0.9,WFH,Wasting,13.6%,2014
+Trans Nzoia,2,3.9,-0.1,WFH,Wasting,3.9%,2014
+Uasin Gishu,1.1,3,0,WFH,Wasting,3%,2014
+Elgeyo Marakwet,1.2,4.3,-0.2,WFH,Wasting,4.3%,2014
+Nandi,1,3.9,-0.1,WFH,Wasting,3.9%,2014
+Baringo,1.2,6.9,-0.5,WFH,Wasting,6.9%,2014
+Laikipia,0.8,4.4,-0.1,WFH,Wasting,4.4%,2014
+Nakuru,0.6,4.5,0.1,WFH,Wasting,4.5%,2014
+Narok,0.7,2.4,-0.1,WFH,Wasting,2.4%,2014
+Kajiado,0.8,3,0.1,WFH,Wasting,3%,2014
+Kericho,1.1,5.6,0.1,WFH,Wasting,5.6%,2014
+Bomet,0.4,1.8,0.1,WFH,Wasting,1.8%,2014
+Kakamega,0.5,1.8,0.2,WFH,Wasting,1.8%,2014
+Vihiga,0.4,2.6,0.2,WFH,Wasting,2.6%,2014
+Bungoma,0.2,1.8,0.1,WFH,Wasting,1.8%,2014
+Busia,0.7,2.2,0.1,WFH,Wasting,2.2%,2014
+Siaya,0,0.2,0.2,WFH,Wasting,0.2%,2014
+Kisumu,0,0.8,0.2,WFH,Wasting,0.8%,2014
+Homa Bay,0.9,2.3,0.2,WFH,Wasting,2.3%,2014
+Migori,0.9,4,0.2,WFH,Wasting,4%,2014
+Kisii,0,1.7,0.2,WFH,Wasting,1.7%,2014
+Nyamira,0.9,4.1,0,WFH,Wasting,4.1%,2014
+Nairobi,0.8,2.5,0.2,WFH,Wasting,2.5%,2014
+Mombasa,1.5,9.6,-0.6,WFA,Underweight,9.6%,2014
+Kwale,1.5,11.8,-0.8,WFA,Underweight,11.8%,2014
+Kilifi,3.1,16.9,-1,WFA,Underweight,16.9%,2014
+Tana River,3.1,18.6,-1,WFA,Underweight,18.6%,2014
+Lamu,2.1,11.8,-0.8,WFA,Underweight,11.8%,2014
+Taita Taveta,3.2,7.8,-0.6,WFA,Underweight,7.8%,2014
+Garissa,2.9,13.1,-0.8,WFA,Underweight,13.1%,2014
+Wajir,3.7,21.1,-1.1,WFA,Underweight,21.1%,2014
+Mandera,8.2,24.9,-1.1,WFA,Underweight,24.9%,2014
+Marsabit,7.3,30.1,-1.3,WFA,Underweight,30.1%,2014
+Isiolo,3.2,12.9,-0.8,WFA,Underweight,12.9%,2014
+Meru,1.2,8.1,-0.6,WFA,Underweight,8.1%,2014
+Tharaka Nithi,4.1,10.8,-0.8,WFA,Underweight,10.8%,2014
+Embu,1.3,11.1,-0.7,WFA,Underweight,11.1%,2014
+Kitui,2.9,19.7,-1.1,WFA,Underweight,19.7%,2014
+Machakos,1.7,8.1,-0.7,WFA,Underweight,8.1%,2014
+Makueni,1.7,10.2,-0.7,WFA,Underweight,10.2%,2014
+Nyandarua,1,6.8,-0.6,WFA,Underweight,6.8%,2014
+Nyeri,1.2,2.5,-0.3,WFA,Underweight,2.5%,2014
+Kirinyaga,1.3,7.7,-0.5,WFA,Underweight,7.7%,2014
+Muranga,1.6,5.6,-0.5,WFA,Underweight,5.6%,2014
+Kiambu,1.1,5.1,-0.1,WFA,Underweight,5.1%,2014
+Turkana,9.8,34,-1.5,WFA,Underweight,34%,2014
+West Pokot,9.6,38.5,-1.5,WFA,Underweight,38.5%,2014
+Samburu,8.1,28.9,-1.4,WFA,Underweight,28.9%,2014
+Trans Nzoia,3.9,15.3,-0.8,WFA,Underweight,15.3%,2014
+Uasin Gishu,2.8,11.5,-0.7,WFA,Underweight,11.5%,2014
+Elgeyo Marakwet,2.5,12.6,-0.9,WFA,Underweight,12.6%,2014
+Nandi,1.9,11.1,-0.8,WFA,Underweight,11.1%,2014
+Baringo,3.6,20.2,-1.1,WFA,Underweight,20.2%,2014
+Laikipia,2.8,13.9,-0.8,WFA,Underweight,13.9%,2014
+Nakuru,2.8,10.2,-0.6,WFA,Underweight,10.2%,2014
+Narok,1.1,11.6,-0.9,WFA,Underweight,11.6%,2014
+Kajiado,2.5,8.1,-0.4,WFA,Underweight,8.1%,2014
+Kericho,3.5,12.4,-0.7,WFA,Underweight,12.4%,2014
+Bomet,2.1,12,-0.8,WFA,Underweight,12%,2014
+Kakamega,2.2,10.1,-0.6,WFA,Underweight,10.1%,2014
+Vihiga,1.4,5.9,-0.5,WFA,Underweight,5.9%,2014
+Bungoma,0.9,9,-0.5,WFA,Underweight,9%,2014
+Busia,1.8,9,-0.6,WFA,Underweight,9%,2014
+Siaya,1.4,7.8,-0.4,WFA,Underweight,7.8%,2014
+Kisumu,0.4,6.6,-0.2,WFA,Underweight,6.6%,2014
+Homa Bay,1.3,5.4,-0.3,WFA,Underweight,5.4%,2014
+Migori,1.6,8.6,-0.5,WFA,Underweight,8.6%,2014
+Kisii,1.8,8.4,-0.6,WFA,Underweight,8.4%,2014
+Nyamira,2,9.6,-0.6,WFA,Underweight,9.6%,2014
+Nairobi,1.2,3.8,-0.2,WFA,Underweight,3.8%,2014

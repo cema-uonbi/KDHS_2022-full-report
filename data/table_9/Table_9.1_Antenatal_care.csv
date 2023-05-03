@@ -1,0 +1,109 @@
+Characteristic,Variable,category,proportion
+<20,Age,Doctor,47.5
+<20,Age,Midwife,49.6
+<20,Age,Community health worker,0.1
+<20,Age,Traditional birth attendant,0.1
+<20,Age,No ANC,2.7
+<20,Age,Total percentage,97
+20-34,Age,Doctor,46.3
+20-34,Age,Midwife,52.1
+20-34,Age,Community health worker,0.1
+20-34,Age,Traditional birth attendant,0.1
+20-34,Age,No ANC,1.5
+20-34,Age,Total percentage,98.4
+35-49,Age,Doctor,45
+35-49,Age,Midwife,50.8
+35-49,Age,Community health worker,0.2
+35-49,Age,Traditional birth attendant,0
+35-49,Age,No ANC,4
+35-49,Age,Total percentage,95.8
+1,Birth order,Doctor,49.6
+1,Birth order,Midwife,49.2
+1,Birth order,Community health worker,0
+1,Birth order,Traditional birth attendant,0
+1,Birth order,No ANC,1.2
+1,Birth order,Total percentage,98.8
+2-3,Birth order,Doctor,46.8
+2-3,Birth order,Midwife,52.2
+2-3,Birth order,Community health worker,0.1
+2-3,Birth order,Traditional birth attendant,0
+2-3,Birth order,No ANC,0.9
+2-3,Birth order,Total percentage,99
+4-5,Birth order,Doctor,44
+4-5,Birth order,Midwife,52.5
+4-5,Birth order,Community health worker,0.1
+4-5,Birth order,Traditional birth attendant,0.1
+4-5,Birth order,No ANC,3.2
+4-5,Birth order,Total percentage,96.6
+6+,Birth order,Doctor,38.5
+6+,Birth order,Midwife,54.5
+6+,Birth order,Community health worker,0.2
+6+,Birth order,Traditional birth attendant,0.4
+6+,Birth order,No ANC,6.4
+6+,Birth order,Total percentage,93
+Urban,Residence,Doctor,55.4
+Urban,Residence,Midwife,43.4
+Urban,Residence,Community health worker,0
+Urban,Residence,Traditional birth attendant,0
+Urban,Residence,No ANC,1.1
+Urban,Residence,Total percentage,98.9
+Rural,Residence,Doctor,41.1
+Rural,Residence,Midwife,56.2
+Rural,Residence,Community health worker,0.1
+Rural,Residence,Traditional birth attendant,0.1
+Rural,Residence,No ANC,2.4
+Rural,Residence,Total percentage,97.3
+No education,Education,Doctor,26.3
+No education,Education,Midwife,63.9
+No education,Education,Community health worker,0.2
+No education,Education,Traditional birth attendant,0.6
+No education,Education,No ANC,9
+No education,Education,Total percentage,90.2
+Primary,Education,Doctor,47.2
+Primary,Education,Midwife,50.5
+Primary,Education,Community health worker,0.2
+Primary,Education,Traditional birth attendant,0
+Primary,Education,No ANC,2.1
+Primary,Education,Total percentage,97.7
+Secondary,Education,Doctor,46.9
+Secondary,Education,Midwife,52.3
+Secondary,Education,Community health worker,0
+Secondary,Education,Traditional birth attendant,0
+Secondary,Education,No ANC,0.8
+Secondary,Education,Total percentage,99.1
+More than secondary,Education,Doctor,53.6
+More than secondary,Education,Midwife,46
+More than secondary,Education,Community health worker,0
+More than secondary,Education,Traditional birth attendant,0
+More than secondary,Education,No ANC,0.4
+More than secondary,Education,Total percentage,99.6
+Lowest,Wealth,Doctor,37.8
+Lowest,Wealth,Midwife,57.3
+Lowest,Wealth,Community health worker,0.2
+Lowest,Wealth,Traditional birth attendant,0.3
+Lowest,Wealth,No ANC,4.5
+Lowest,Wealth,Total percentage,95.1
+Second,Wealth,Doctor,41.4
+Second,Wealth,Midwife,56.4
+Second,Wealth,Community health worker,0.2
+Second,Wealth,Traditional birth attendant,0
+Second,Wealth,No ANC,2
+Second,Wealth,Total percentage,97.8
+Middle,Wealth,Doctor,42.1
+Middle,Wealth,Midwife,56.2
+Middle,Wealth,Community health worker,0.1
+Middle,Wealth,Traditional birth attendant,0
+Middle,Wealth,No ANC,1.6
+Middle,Wealth,Total percentage,98.3
+Fourth,Wealth,Doctor,50.2
+Fourth,Wealth,Midwife,48.5
+Fourth,Wealth,Community health worker,0
+Fourth,Wealth,Traditional birth attendant,0
+Fourth,Wealth,No ANC,1.2
+Fourth,Wealth,Total percentage,98.8
+Highest,Wealth,Doctor,59.6
+Highest,Wealth,Midwife,40.1
+Highest,Wealth,Community health worker,0
+Highest,Wealth,Traditional birth attendant,0
+Highest,Wealth,No ANC,0.3
+Highest,Wealth,Total percentage,99.7

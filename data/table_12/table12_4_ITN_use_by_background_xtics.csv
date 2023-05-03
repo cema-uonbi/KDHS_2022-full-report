@@ -1,0 +1,25 @@
+Value,Category,Proportion,Background characteristics
+Urban,Use in households with 1/+ ITN,31.6,Residence
+Urban,Use in households with 1/+ ITN per 2 persons,69.3,Residence
+Rural,Use in households with 1/+ ITN,48.3,Residence
+Rural,Use in households with 1/+ ITN per 2 persons,71.1,Residence
+Highland epidemic prone,Use in households with 1/+ ITN,63.5,Endemicity zone
+Highland epidemic prone,Use in households with 1/+ ITN per 2 persons,73.8,Endemicity zone
+Lake endemic,Use in households with 1/+ ITN,67.2,Endemicity zone
+Lake endemic,Use in households with 1/+ ITN per 2 persons,74.5,Endemicity zone
+Coast endemic,Use in households with 1/+ ITN,59.7,Endemicity zone
+Coast endemic,Use in households with 1/+ ITN per 2 persons,78,Endemicity zone
+Seasonal,Use in households with 1/+ ITN,25,Endemicity zone
+Seasonal,Use in households with 1/+ ITN per 2 persons,59.3,Endemicity zone
+Low risk,Use in households with 1/+ ITN,21.5,Endemicity zone
+Low risk,Use in households with 1/+ ITN per 2 persons,62.7,Endemicity zone
+Lowest,Use in households with 1/+ ITN,40.4,Wealth quintile
+Lowest,Use in households with 1/+ ITN per 2 persons,65.3,Wealth quintile
+Second,Use in households with 1/+ ITN,52.1,Wealth quintile
+Second,Use in households with 1/+ ITN per 2 persons,72,Wealth quintile
+Middle,Use in households with 1/+ ITN,50.8,Wealth quintile
+Middle,Use in households with 1/+ ITN per 2 persons,74.7,Wealth quintile
+Fourth,Use in households with 1/+ ITN,40.7,Wealth quintile
+Fourth,Use in households with 1/+ ITN per 2 persons,73.2,Wealth quintile
+Highest,Use in households with 1/+ ITN,29.3,Wealth quintile
+Highest,Use in households with 1/+ ITN per 2 persons,66.2,Wealth quintile

@@ -1,0 +1,15 @@
+Value,Category,Proportion,Background characteristics
+Urban,Basic,67.6,Residence
+Urban,Limited,17.2,Residence
+Rural,Basic,43,Residence
+Rural,Limited,27,Residence
+Lowest,Basic,29,Wealth quintile
+Lowest,Limited,29.4,Wealth quintile
+Second,Basic,43.3,Wealth quintile
+Second,Limited,25.4,Wealth quintile
+Middle,Basic,48.4,Wealth quintile
+Middle,Limited,26,Wealth quintile
+Fourth,Basic,55.1,Wealth quintile
+Fourth,Limited,24.5,Wealth quintile
+Highest,Basic,80,Wealth quintile
+Highest,Limited,13.5,Wealth quintile

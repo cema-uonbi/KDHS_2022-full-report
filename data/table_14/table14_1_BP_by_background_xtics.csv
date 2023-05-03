@@ -1,0 +1,73 @@
+Value,Category,Proportion,Participants,Background characteristics
+15-19,Diagnosed with HBP/Hypertension,1.5,Women,Age
+15-19,Taking meds to control BP,31.2,Women,Age
+20-24,Diagnosed with HBP/Hypertension,5.1,Women,Age
+20-24,Taking meds to control BP,25.2,Women,Age
+25-29,Diagnosed with HBP/Hypertension,7.6,Women,Age
+25-29,Taking meds to control BP,20.6,Women,Age
+30-34,Diagnosed with HBP/Hypertension,9.9,Women,Age
+30-34,Taking meds to control BP,26.2,Women,Age
+35-39,Diagnosed with HBP/Hypertension,11.3,Women,Age
+35-39,Taking meds to control BP,28.3,Women,Age
+40-44,Diagnosed with HBP/Hypertension,15.5,Women,Age
+40-44,Taking meds to control BP,39.4,Women,Age
+45-49,Diagnosed with HBP/Hypertension,19.6,Women,Age
+45-49,Taking meds to control BP,47.5,Women,Age
+15-19,Diagnosed with HBP/Hypertension,0.6,Men,Age
+15-19,Taking meds to control BP,NA,Men,Age
+20-24,Diagnosed with HBP/Hypertension,1.2,Men,Age
+20-24,Taking meds to control BP,NA,Men,Age
+25-29,Diagnosed with HBP/Hypertension,1.7,Men,Age
+25-29,Taking meds to control BP,10.9,Men,Age
+30-34,Diagnosed with HBP/Hypertension,2.9,Men,Age
+30-34,Taking meds to control BP,17.8,Men,Age
+35-39,Diagnosed with HBP/Hypertension,4.7,Men,Age
+35-39,Taking meds to control BP,33,Men,Age
+40-44,Diagnosed with HBP/Hypertension,6.1,Men,Age
+40-44,Taking meds to control BP,38.2,Men,Age
+45-49,Diagnosed with HBP/Hypertension,10.2,Men,Age
+45-49,Taking meds to control BP,39.8,Men,Age
+Urban,Diagnosed with HBP/Hypertension,9.7,Women,Residence
+Urban,Taking meds to control BP,32.9,Women,Residence
+Rural,Diagnosed with HBP/Hypertension,7.8,Women,Residence
+Rural,Taking meds to control BP,31.2,Women,Residence
+Urban,Diagnosed with HBP/Hypertension,3.3,Men,Residence
+Urban,Taking meds to control BP,33.6,Men,Residence
+Rural,Diagnosed with HBP/Hypertension,2.8,Men,Residence
+Rural,Taking meds to control BP,30.2,Men,Residence
+No education,Diagnosed with HBP/Hypertension,5.6,Women,Education
+No education,Taking meds to control BP,34.9,Women,Education
+Primary,Diagnosed with HBP/Hypertension,9.7,Women,Education
+Primary,Taking meds to control BP,33.8,Women,Education
+Secondary,Diagnosed with HBP/Hypertension,7.5,Women,Education
+Secondary,Taking meds to control BP,30.4,Women,Education
+More than secondary,Diagnosed with HBP/Hypertension,9.3,Women,Education
+More than secondary,Taking meds to control BP,30.4,Women,Education
+No education,Diagnosed with HBP/Hypertension,5.1,Men,Education
+No education,Taking meds to control BP,NA,Men,Education
+Primary,Diagnosed with HBP/Hypertension,2.6,Men,Education
+Primary,Taking meds to control BP,28.4,Men,Education
+Secondary,Diagnosed with HBP/Hypertension,2.4,Men,Education
+Secondary,Taking meds to control BP,32.8,Men,Education
+More than secondary,Diagnosed with HBP/Hypertension,4.5,Men,Education
+More than secondary,Taking meds to control BP,35.7,Men,Education
+Lowest,Diagnosed with HBP/Hypertension,5,Women,Wealth quintile
+Lowest,Taking meds to control BP,36.5,Women,Wealth quintile
+Second,Diagnosed with HBP/Hypertension,6.3,Women,Wealth quintile
+Second,Taking meds to control BP,29.2,Women,Wealth quintile
+Middle,Diagnosed with HBP/Hypertension,9.2,Women,Wealth quintile
+Middle,Taking meds to control BP,30.1,Women,Wealth quintile
+Fourth,Diagnosed with HBP/Hypertension,9.3,Women,Wealth quintile
+Fourth,Taking meds to control BP,31.7,Women,Wealth quintile
+Highest,Diagnosed with HBP/Hypertension,11.2,Women,Wealth quintile
+Highest,Taking meds to control BP,33.2,Women,Wealth quintile
+Lowest,Diagnosed with HBP/Hypertension,2.1,Men,Wealth quintile
+Lowest,Taking meds to control BP,29.8,Men,Wealth quintile
+Second,Diagnosed with HBP/Hypertension,2.1,Men,Wealth quintile
+Second,Taking meds to control BP,24.8,Men,Wealth quintile
+Middle,Diagnosed with HBP/Hypertension,2.6,Men,Wealth quintile
+Middle,Taking meds to control BP,33.4,Men,Wealth quintile
+Fourth,Diagnosed with HBP/Hypertension,3.1,Men,Wealth quintile
+Fourth,Taking meds to control BP,32.1,Men,Wealth quintile
+Highest,Diagnosed with HBP/Hypertension,4.6,Men,Wealth quintile
+Highest,Taking meds to control BP,33.8,Men,Wealth quintile

@@ -1,0 +1,283 @@
+County,Category,percentage_change,cat
+Mombasa,Stunting,-36,[-50 - 0)
+Kwale,Stunting,-23.6,[-50 - 0)
+Kilifi,Stunting,-5.4,[-50 - 0)
+Tana River,Stunting,-24.9,[-50 - 0)
+Lamu,Stunting,-44.9,[-50 - 0)
+Taita Taveta,Stunting,-19.3,[-50 - 0)
+Garissa,Stunting,-42.3,[-50 - 0)
+Wajir,Stunting,-53,[-100 - -50)
+Mandera,Stunting,-43.2,[-50 - 0)
+Marsabit,Stunting,-28.7,[-50 - 0)
+Isiolo,Stunting,-26.2,[-50 - 0)
+Meru,Stunting,0,[0-50)
+Tharaka Nithi,Stunting,-37.7,[-50 - 0)
+Embu,Stunting,-25.7,[-50 - 0)
+Kitui,Stunting,-45.2,[-50 - 0)
+Machakos,Stunting,-38.9,[-50 - 0)
+Makueni,Stunting,-21.1,[-50 - 0)
+Nyandarua,Stunting,-39.5,[-50 - 0)
+Nyeri,Stunting,-17.2,[-50 - 0)
+Kirinyaga,Stunting,-34.9,[-50 - 0)
+Muranga,Stunting,-47.7,[-50 - 0)
+Kiambu,Stunting,-2.5,[-50 - 0)
+Turkana,Stunting,-3.8,[-50 - 0)
+West Pokot,Stunting,-27,[-50 - 0)
+Samburu,Stunting,4.3,[0-50)
+Trans Nzoia,Stunting,-27.1,[-50 - 0)
+Uasin Gishu,Stunting,-54.5,[-100 - -50)
+Elgeyo Marakwet,Stunting,-27.1,[-50 - 0)
+Nandi,Stunting,-49.5,>100
+Baringo,Stunting,-28.1,[-50 - 0)
+Laikipia,Stunting,-53.2,[-100 - -50)
+Nakuru,Stunting,-33,[-50 - 0)
+Narok,Stunting,-34.7,[-50 - 0)
+Kajiado,Stunting,-23.1,[-50 - 0)
+Kericho,Stunting,-32.8,[-50 - 0)
+Bomet,Stunting,-37.7,[-50 - 0)
+Kakamega,Stunting,-59.5,[-100 - -50)
+Vihiga,Stunting,-29.4,[-50 - 0)
+Bungoma,Stunting,-22.1,[-50 - 0)
+Busia,Stunting,-31.8,[-50 - 0)
+Siaya,Stunting,-22.3,[-50 - 0)
+Kisumu,Stunting,-49.4,>100
+Homa Bay,Stunting,-33.2,[-50 - 0)
+Migori,Stunting,-43.9,[-50 - 0)
+Kisii,Stunting,-36.1,[-50 - 0)
+Nyamira,Stunting,-47.1,[-50 - 0)
+Nairobi,Stunting,-35.5,[-50 - 0)
+Mombasa,Wasting,12.2,[0-50)
+Kwale,Wasting,40.9,[0-50)
+Kilifi,Wasting,75.6,[50-100)
+Tana River,Wasting,98.2,[50-100)
+Lamu,Wasting,-16.7,[-50 - 0)
+Taita Taveta,Wasting,-43.1,[-50 - 0)
+Garissa,Wasting,34.2,[0-50)
+Wajir,Wasting,60.6,[50-100)
+Mandera,Wasting,16.9,[0-50)
+Marsabit,Wasting,25.2,[0-50)
+Isiolo,Wasting,-20.9,[-50 - 0)
+Meru,Wasting,106.9,>100
+Tharaka Nithi,Wasting,-6.1,[-50 - 0)
+Embu,Wasting,76.7,[50-100)
+Kitui,Wasting,44.1,[0-50)
+Machakos,Wasting,-46.2,[-50 - 0)
+Makueni,Wasting,90.5,[50-100)
+Nyandarua,Wasting,-5,[-50 - 0)
+Nyeri,Wasting,12.5,[0-50)
+Kirinyaga,Wasting,-43.6,[-50 - 0)
+Muranga,Wasting,21.4,[0-50)
+Kiambu,Wasting,39.1,[0-50)
+Turkana,Wasting,-1.3,[-50 - 0)
+West Pokot,Wasting,-23.1,[-50 - 0)
+Samburu,Wasting,13.2,[0-50)
+Trans Nzoia,Wasting,-17.9,[-50 - 0)
+Uasin Gishu,Wasting,33.3,[0-50)
+Elgeyo Marakwet,Wasting,11.6,[0-50)
+Nandi,Wasting,2.6,[0-50)
+Baringo,Wasting,97.1,[50-100)
+Laikipia,Wasting,-40.9,[-50 - 0)
+Nakuru,Wasting,-33.3,[-50 - 0)
+Narok,Wasting,-12.5,[-50 - 0)
+Kajiado,Wasting,153.3,>100
+Kericho,Wasting,-55.4,[-100 - -50)
+Bomet,Wasting,83.3,[50-100)
+Kakamega,Wasting,-16.7,[-50 - 0)
+Vihiga,Wasting,-7.7,[-50 - 0)
+Bungoma,Wasting,27.8,[0-50)
+Busia,Wasting,27.3,[0-50)
+Siaya,Wasting,750,>100
+Kisumu,Wasting,275,>100
+Homa Bay,Wasting,-21.7,[-50 - 0)
+Migori,Wasting,-40,[-50 - 0)
+Kisii,Wasting,70.6,[50-100)
+Nyamira,Wasting,-70.7,[-100 - -50)
+Nairobi,Wasting,0,[0-50)
+Mombasa,Underweight,2.1,[0-50)
+Kwale,Underweight,16.1,[0-50)
+Kilifi,Underweight,15.4,[0-50)
+Tana River,Underweight,-9.7,[-50 - 0)
+Lamu,Underweight,5.9,[0-50)
+Taita Taveta,Underweight,61.5,[50-100)
+Garissa,Underweight,7.6,[0-50)
+Wajir,Underweight,-23.2,[-50 - 0)
+Mandera,Underweight,-6.8,[-50 - 0)
+Marsabit,Underweight,-14,[-50 - 0)
+Isiolo,Underweight,-10.9,[-50 - 0)
+Meru,Underweight,33.3,[0-50)
+Tharaka Nithi,Underweight,-28.7,[-50 - 0)
+Embu,Underweight,1.8,[0-50)
+Kitui,Underweight,-29.4,[-50 - 0)
+Machakos,Underweight,0,[0-50)
+Makueni,Underweight,-14.7,[-50 - 0)
+Nyandarua,Underweight,-41.2,[-50 - 0)
+Nyeri,Underweight,60,[50-100)
+Kirinyaga,Underweight,-26,[-50 - 0)
+Muranga,Underweight,5.4,[0-50)
+Kiambu,Underweight,17.6,[0-50)
+Turkana,Underweight,-6.8,[-50 - 0)
+West Pokot,Underweight,-29.6,[-50 - 0)
+Samburu,Underweight,4.5,[0-50)
+Trans Nzoia,Underweight,-27.5,[-50 - 0)
+Uasin Gishu,Underweight,-44.3,[-50 - 0)
+Elgeyo Marakwet,Underweight,10.3,[0-50)
+Nandi,Underweight,-18.9,[-50 - 0)
+Baringo,Underweight,-1.5,[-50 - 0)
+Laikipia,Underweight,-52.5,[-100 - -50)
+Nakuru,Underweight,-9.8,[-50 - 0)
+Narok,Underweight,-7.8,[-50 - 0)
+Kajiado,Underweight,18.5,[0-50)
+Kericho,Underweight,-25.8,[-50 - 0)
+Bomet,Underweight,-18.3,[-50 - 0)
+Kakamega,Underweight,-36.6,[-50 - 0)
+Vihiga,Underweight,55.9,[50-100)
+Bungoma,Underweight,6.7,[0-50)
+Busia,Underweight,-30,[-50 - 0)
+Siaya,Underweight,-10.3,[-50 - 0)
+Kisumu,Underweight,-47,[-50 - 0)
+Homa Bay,Underweight,13,[0-50)
+Migori,Underweight,-41.9,[-50 - 0)
+Kisii,Underweight,-7.1,[-50 - 0)
+Nyamira,Underweight,-64.6,[-100 - -50)
+Nairobi,Underweight,39.5,[0-50)
+Mombasa,Households with >=1 ITN,11.2,[0-50)
+Mombasa,"Households with >=1 ITN
+per 2 people",17,[0-50)
+Kwale,Households with >=1 ITN,-8.6,[-50 - 0)
+Kwale,"Households with >=1 ITN
+per 2 people",-0.6,[-50 - 0)
+Kilifi,Households with >=1 ITN,1.8,[0-50)
+Kilifi,"Households with >=1 ITN
+per 2 people",16.1,[0-50)
+Tana River,Households with >=1 ITN,9.2,[0-50)
+Tana River,"Households with >=1 ITN
+per 2 people",3.9,[0-50)
+Lamu,Households with >=1 ITN,-7.3,[-50 - 0)
+Lamu,"Households with >=1 ITN
+per 2 people",-15.4,[-50 - 0)
+Taita Taveta,Households with >=1 ITN,8.6,[0-50)
+Taita Taveta,"Households with >=1 ITN
+per 2 people",22.6,[0-50)
+Garissa,Households with >=1 ITN,-67.8,[-100 - -50)
+Garissa,"Households with >=1 ITN
+per 2 people",-80.2,[-100 - -50)
+Wajir,Households with >=1 ITN,-18.7,[-50 - 0)
+Wajir,"Households with >=1 ITN
+per 2 people",-14.4,[-50 - 0)
+Mandera,Households with >=1 ITN,-45.3,[-50 - 0)
+Mandera,"Households with >=1 ITN
+per 2 people",-56,[-100 - -50)
+Marsabit,Households with >=1 ITN,9.7,[0-50)
+Marsabit,"Households with >=1 ITN
+per 2 people",5.7,[0-50)
+Isiolo,Households with >=1 ITN,-17.5,[-50 - 0)
+Isiolo,"Households with >=1 ITN
+per 2 people",-25.7,[-50 - 0)
+Meru,Households with >=1 ITN,-32.3,[-50 - 0)
+Meru,"Households with >=1 ITN
+per 2 people",-45.1,[-50 - 0)
+Tharaka Nithi,Households with >=1 ITN,-21.4,[-50 - 0)
+Tharaka Nithi,"Households with >=1 ITN
+per 2 people",-24.2,[-50 - 0)
+Embu,Households with >=1 ITN,-28.3,[-50 - 0)
+Embu,"Households with >=1 ITN
+per 2 people",-31.7,[-50 - 0)
+Kitui,Households with >=1 ITN,-46,[-50 - 0)
+Kitui,"Households with >=1 ITN
+per 2 people",-48.5,[-50 - 0)
+Machakos,Households with >=1 ITN,-0.2,[-50 - 0)
+Machakos,"Households with >=1 ITN
+per 2 people",23.2,[0-50)
+Makueni,Households with >=1 ITN,-13,[-50 - 0)
+Makueni,"Households with >=1 ITN
+per 2 people",-6.9,[-50 - 0)
+Nyandarua,Households with >=1 ITN,-20.8,[-50 - 0)
+Nyandarua,"Households with >=1 ITN
+per 2 people",-18.3,[-50 - 0)
+Nyeri,Households with >=1 ITN,-8.1,[-50 - 0)
+Nyeri,"Households with >=1 ITN
+per 2 people",1.7,[0-50)
+Kirinyaga,Households with >=1 ITN,-16.4,[-50 - 0)
+Kirinyaga,"Households with >=1 ITN
+per 2 people",-12.7,[-50 - 0)
+Muranga,Households with >=1 ITN,-17.8,[-50 - 0)
+Muranga,"Households with >=1 ITN
+per 2 people",-18.8,[-50 - 0)
+Kiambu,Households with >=1 ITN,-30.3,[-50 - 0)
+Kiambu,"Households with >=1 ITN
+per 2 people",-36.5,[-50 - 0)
+Turkana,Households with >=1 ITN,6.9,[0-50)
+Turkana,"Households with >=1 ITN
+per 2 people",15.3,[0-50)
+West Pokot,Households with >=1 ITN,30.9,[0-50)
+West Pokot,"Households with >=1 ITN
+per 2 people",95.8,[50-100)
+Samburu,Households with >=1 ITN,5.9,[0-50)
+Samburu,"Households with >=1 ITN
+per 2 people",-14.9,[-50 - 0)
+Trans Nzoia,Households with >=1 ITN,21.8,[0-50)
+Trans Nzoia,"Households with >=1 ITN
+per 2 people",80.5,[50-100)
+Uasin Gishu,Households with >=1 ITN,-3.8,[-50 - 0)
+Uasin Gishu,"Households with >=1 ITN
+per 2 people",14.3,[0-50)
+Elgeyo Marakwet,Households with >=1 ITN,15.5,[0-50)
+Elgeyo Marakwet,"Households with >=1 ITN
+per 2 people",0,[0-50)
+Nandi,Households with >=1 ITN,6.6,[0-50)
+Nandi,"Households with >=1 ITN
+per 2 people",64.7,[50-100)
+Baringo,Households with >=1 ITN,6.7,[0-50)
+Baringo,"Households with >=1 ITN
+per 2 people",14.6,[0-50)
+Laikipia,Households with >=1 ITN,42.3,[0-50)
+Laikipia,"Households with >=1 ITN
+per 2 people",50,[50-100)
+Nakuru,Households with >=1 ITN,-27.1,[-50 - 0)
+Nakuru,"Households with >=1 ITN
+per 2 people",-32.6,[-50 - 0)
+Narok,Households with >=1 ITN,45.6,[0-50)
+Narok,"Households with >=1 ITN
+per 2 people",112.6,>100
+Kajiado,Households with >=1 ITN,-22.1,[-50 - 0)
+Kajiado,"Households with >=1 ITN
+per 2 people",-37.2,[-50 - 0)
+Kericho,Households with >=1 ITN,5.8,[0-50)
+Kericho,"Households with >=1 ITN
+per 2 people",45.2,[0-50)
+Bomet,Households with >=1 ITN,18.9,[0-50)
+Bomet,"Households with >=1 ITN
+per 2 people",65.2,[50-100)
+Kakamega,Households with >=1 ITN,13.1,[0-50)
+Kakamega,"Households with >=1 ITN
+per 2 people",42.3,[0-50)
+Vihiga,Households with >=1 ITN,11.6,[0-50)
+Vihiga,"Households with >=1 ITN
+per 2 people",68.8,[50-100)
+Bungoma,Households with >=1 ITN,7.8,[0-50)
+Bungoma,"Households with >=1 ITN
+per 2 people",69.3,[50-100)
+Busia,Households with >=1 ITN,11.4,[0-50)
+Busia,"Households with >=1 ITN
+per 2 people",38.1,[0-50)
+Siaya,Households with >=1 ITN,10,[0-50)
+Siaya,"Households with >=1 ITN
+per 2 people",40.9,[0-50)
+Kisumu,Households with >=1 ITN,-13.2,[-50 - 0)
+Kisumu,"Households with >=1 ITN
+per 2 people",-10.6,[-50 - 0)
+Homa Bay,Households with >=1 ITN,20.1,[0-50)
+Homa Bay,"Households with >=1 ITN
+per 2 people",60.5,[50-100)
+Migori,Households with >=1 ITN,17.6,[0-50)
+Migori,"Households with >=1 ITN
+per 2 people",78.9,[50-100)
+Kisii,Households with >=1 ITN,-1.3,[-50 - 0)
+Kisii,"Households with >=1 ITN
+per 2 people",23.9,[0-50)
+Nyamira,Households with >=1 ITN,10.8,[0-50)
+Nyamira,"Households with >=1 ITN
+per 2 people",40.1,[0-50)
+Nairobi,Households with >=1 ITN,-46,[-50 - 0)
+Nairobi,"Households with >=1 ITN
+per 2 people",-49.8,>100

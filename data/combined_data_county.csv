@@ -1,0 +1,2680 @@
+County,indicator,indicator1,values
+Mombasa,HFA,HFA_perc_below3sd,3.5
+Mombasa,HFA,HFA_perc_below2sd,13.5
+Kwale,HFA,HFA_perc_below3sd,6.9
+Kwale,HFA,HFA_perc_below2sd,22.7
+Kilifi,HFA,HFA_perc_below3sd,13.4
+Kilifi,HFA,HFA_perc_below2sd,37
+Tana River,HFA,HFA_perc_below3sd,5.6
+Tana River,HFA,HFA_perc_below2sd,21.1
+Lamu,HFA,HFA_perc_below3sd,2.5
+Lamu,HFA,HFA_perc_below2sd,16.1
+Taita Taveta,HFA,HFA_perc_below3sd,4.9
+Taita Taveta,HFA,HFA_perc_below2sd,19.2
+Garissa,HFA,HFA_perc_below3sd,0.6
+Garissa,HFA,HFA_perc_below2sd,9
+Wajir,HFA,HFA_perc_below3sd,3.2
+Wajir,HFA,HFA_perc_below2sd,12.4
+Mandera,HFA,HFA_perc_below3sd,6.3
+Mandera,HFA,HFA_perc_below2sd,20.5
+Marsabit,HFA,HFA_perc_below3sd,4.9
+Marsabit,HFA,HFA_perc_below2sd,18.9
+Isiolo,HFA,HFA_perc_below3sd,4.3
+Isiolo,HFA,HFA_perc_below2sd,14.1
+Meru,HFA,HFA_perc_below3sd,4.6
+Meru,HFA,HFA_perc_below2sd,25.2
+Tharaka Nithi,HFA,HFA_perc_below3sd,3.4
+Tharaka Nithi,HFA,HFA_perc_below2sd,20.5
+Embu,HFA,HFA_perc_below3sd,5.3
+Embu,HFA,HFA_perc_below2sd,19.9
+Kitui,HFA,HFA_perc_below3sd,8.8
+Kitui,HFA,HFA_perc_below2sd,25.1
+Machakos,HFA,HFA_perc_below3sd,3.8
+Machakos,HFA,HFA_perc_below2sd,16.2
+Makueni,HFA,HFA_perc_below3sd,4.2
+Makueni,HFA,HFA_perc_below2sd,19.8
+Nyandarua,HFA,HFA_perc_below3sd,3.2
+Nyandarua,HFA,HFA_perc_below2sd,17.8
+Nyeri,HFA,HFA_perc_below3sd,2.2
+Nyeri,HFA,HFA_perc_below2sd,12.5
+Kirinyaga,HFA,HFA_perc_below3sd,1.9
+Kirinyaga,HFA,HFA_perc_below2sd,11.2
+Muranga,HFA,HFA_perc_below3sd,1.1
+Muranga,HFA,HFA_perc_below2sd,10.1
+Kiambu,HFA,HFA_perc_below3sd,3.8
+Kiambu,HFA,HFA_perc_below2sd,15.3
+Turkana,HFA,HFA_perc_below3sd,7.3
+Turkana,HFA,HFA_perc_below2sd,23
+West Pokot,HFA,HFA_perc_below3sd,10.4
+West Pokot,HFA,HFA_perc_below2sd,33.5
+Samburu,HFA,HFA_perc_below3sd,8.9
+Samburu,HFA,HFA_perc_below2sd,31.4
+Trans Nzoia,HFA,HFA_perc_below3sd,4.8
+Trans Nzoia,HFA,HFA_perc_below2sd,21.3
+Uasin Gishu,HFA,HFA_perc_below3sd,2.7
+Uasin Gishu,HFA,HFA_perc_below2sd,14.2
+Elgeyo Marakwet,HFA,HFA_perc_below3sd,3.1
+Elgeyo Marakwet,HFA,HFA_perc_below2sd,21.8
+Nandi,HFA,HFA_perc_below3sd,2.6
+Nandi,HFA,HFA_perc_below2sd,15.1
+Baringo,HFA,HFA_perc_below3sd,4.7
+Baringo,HFA,HFA_perc_below2sd,21.2
+Laikipia,HFA,HFA_perc_below3sd,2.5
+Laikipia,HFA,HFA_perc_below2sd,12.6
+Nakuru,HFA,HFA_perc_below3sd,5.3
+Nakuru,HFA,HFA_perc_below2sd,18.5
+Narok,HFA,HFA_perc_below3sd,3.5
+Narok,HFA,HFA_perc_below2sd,21.5
+Kajiado,HFA,HFA_perc_below3sd,4.5
+Kajiado,HFA,HFA_perc_below2sd,14
+Kericho,HFA,HFA_perc_below3sd,3.7
+Kericho,HFA,HFA_perc_below2sd,19.3
+Bomet,HFA,HFA_perc_below3sd,4.5
+Bomet,HFA,HFA_perc_below2sd,22.1
+Kakamega,HFA,HFA_perc_below3sd,2.1
+Kakamega,HFA,HFA_perc_below2sd,11.5
+Vihiga,HFA,HFA_perc_below3sd,4.2
+Vihiga,HFA,HFA_perc_below2sd,16.6
+Bungoma,HFA,HFA_perc_below3sd,4
+Bungoma,HFA,HFA_perc_below2sd,19
+Busia,HFA,HFA_perc_below3sd,3.1
+Busia,HFA,HFA_perc_below2sd,15
+Siaya,HFA,HFA_perc_below3sd,5.3
+Siaya,HFA,HFA_perc_below2sd,19.2
+Kisumu,HFA,HFA_perc_below3sd,1.3
+Kisumu,HFA,HFA_perc_below2sd,9.1
+Homa Bay,HFA,HFA_perc_below3sd,2.3
+Homa Bay,HFA,HFA_perc_below2sd,12.5
+Migori,HFA,HFA_perc_below3sd,2.5
+Migori,HFA,HFA_perc_below2sd,14.8
+Kisii,HFA,HFA_perc_below3sd,4.3
+Kisii,HFA,HFA_perc_below2sd,16.3
+Nyamira,HFA,HFA_perc_below3sd,3
+Nyamira,HFA,HFA_perc_below2sd,13.5
+Nairobi,HFA,HFA_perc_below3sd,2
+Nairobi,HFA,HFA_perc_below2sd,11.1
+Mombasa,WFH,WFH_perc_below3sd,0.2
+Mombasa,WFH,WFH_perc_below2sd,4.6
+Kwale,WFH,WFH_perc_below3sd,1.1
+Kwale,WFH,WFH_perc_below2sd,6.2
+Kilifi,WFH,WFH_perc_below3sd,0.9
+Kilifi,WFH,WFH_perc_below2sd,7.2
+Tana River,WFH,WFH_perc_below3sd,1.3
+Tana River,WFH,WFH_perc_below2sd,11.3
+Lamu,WFH,WFH_perc_below3sd,0.4
+Lamu,WFH,WFH_perc_below2sd,3.5
+Taita Taveta,WFH,WFH_perc_below3sd,0
+Taita Taveta,WFH,WFH_perc_below2sd,4.1
+Garissa,WFH,WFH_perc_below3sd,2.6
+Garissa,WFH,WFH_perc_below2sd,15.3
+Wajir,WFH,WFH_perc_below3sd,3.6
+Wajir,WFH,WFH_perc_below2sd,22.8
+Mandera,WFH,WFH_perc_below3sd,2.9
+Mandera,WFH,WFH_perc_below2sd,17.3
+Marsabit,WFH,WFH_perc_below3sd,3.8
+Marsabit,WFH,WFH_perc_below2sd,20.4
+Isiolo,WFH,WFH_perc_below3sd,1.1
+Isiolo,WFH,WFH_perc_below2sd,7.2
+Meru,WFH,WFH_perc_below3sd,0
+Meru,WFH,WFH_perc_below2sd,6
+Tharaka Nithi,WFH,WFH_perc_below3sd,0
+Tharaka Nithi,WFH,WFH_perc_below2sd,3.1
+Embu,WFH,WFH_perc_below3sd,1.6
+Embu,WFH,WFH_perc_below2sd,5.3
+Kitui,WFH,WFH_perc_below3sd,1.1
+Kitui,WFH,WFH_perc_below2sd,4.9
+Machakos,WFH,WFH_perc_below3sd,0
+Machakos,WFH,WFH_perc_below2sd,3.5
+Makueni,WFH,WFH_perc_below3sd,0
+Makueni,WFH,WFH_perc_below2sd,4
+Nyandarua,WFH,WFH_perc_below3sd,0.6
+Nyandarua,WFH,WFH_perc_below2sd,1.9
+Nyeri,WFH,WFH_perc_below3sd,0
+Nyeri,WFH,WFH_perc_below2sd,2.7
+Kirinyaga,WFH,WFH_perc_below3sd,0
+Kirinyaga,WFH,WFH_perc_below2sd,2.2
+Muranga,WFH,WFH_perc_below3sd,0
+Muranga,WFH,WFH_perc_below2sd,1.7
+Kiambu,WFH,WFH_perc_below3sd,1
+Kiambu,WFH,WFH_perc_below2sd,3.2
+Turkana,WFH,WFH_perc_below3sd,3.5
+Turkana,WFH,WFH_perc_below2sd,22.6
+West Pokot,WFH,WFH_perc_below3sd,0.9
+West Pokot,WFH,WFH_perc_below2sd,11
+Samburu,WFH,WFH_perc_below3sd,1.4
+Samburu,WFH,WFH_perc_below2sd,15.4
+Trans Nzoia,WFH,WFH_perc_below3sd,0
+Trans Nzoia,WFH,WFH_perc_below2sd,3.2
+Uasin Gishu,WFH,WFH_perc_below3sd,0.9
+Uasin Gishu,WFH,WFH_perc_below2sd,4
+Elgeyo Marakwet,WFH,WFH_perc_below3sd,1
+Elgeyo Marakwet,WFH,WFH_perc_below2sd,4.8
+Nandi,WFH,WFH_perc_below3sd,0.3
+Nandi,WFH,WFH_perc_below2sd,4
+Baringo,WFH,WFH_perc_below3sd,2.3
+Baringo,WFH,WFH_perc_below2sd,13.6
+Laikipia,WFH,WFH_perc_below3sd,0
+Laikipia,WFH,WFH_perc_below2sd,2.6
+Nakuru,WFH,WFH_perc_below3sd,0.9
+Nakuru,WFH,WFH_perc_below2sd,3
+Narok,WFH,WFH_perc_below3sd,0.2
+Narok,WFH,WFH_perc_below2sd,2.1
+Kajiado,WFH,WFH_perc_below3sd,1.3
+Kajiado,WFH,WFH_perc_below2sd,7.6
+Kericho,WFH,WFH_perc_below3sd,0.3
+Kericho,WFH,WFH_perc_below2sd,2.5
+Bomet,WFH,WFH_perc_below3sd,0.2
+Bomet,WFH,WFH_perc_below2sd,3.3
+Kakamega,WFH,WFH_perc_below3sd,0
+Kakamega,WFH,WFH_perc_below2sd,1.5
+Vihiga,WFH,WFH_perc_below3sd,0
+Vihiga,WFH,WFH_perc_below2sd,2.4
+Bungoma,WFH,WFH_perc_below3sd,0
+Bungoma,WFH,WFH_perc_below2sd,2.3
+Busia,WFH,WFH_perc_below3sd,0
+Busia,WFH,WFH_perc_below2sd,2.8
+Siaya,WFH,WFH_perc_below3sd,1.1
+Siaya,WFH,WFH_perc_below2sd,1.7
+Kisumu,WFH,WFH_perc_below3sd,0.5
+Kisumu,WFH,WFH_perc_below2sd,3
+Homa Bay,WFH,WFH_perc_below3sd,0
+Homa Bay,WFH,WFH_perc_below2sd,1.8
+Migori,WFH,WFH_perc_below3sd,0
+Migori,WFH,WFH_perc_below2sd,2.4
+Kisii,WFH,WFH_perc_below3sd,0.3
+Kisii,WFH,WFH_perc_below2sd,2.9
+Nyamira,WFH,WFH_perc_below3sd,0.1
+Nyamira,WFH,WFH_perc_below2sd,1.2
+Nairobi,WFH,WFH_perc_below3sd,0
+Nairobi,WFH,WFH_perc_below2sd,2.5
+Mombasa,WFA,WFA_perc_below3sd,1.5
+Mombasa,WFA,WFA_perc_below2sd,9.8
+Kwale,WFA,WFA_perc_below3sd,2.8
+Kwale,WFA,WFA_perc_below2sd,13.7
+Kilifi,WFA,WFA_perc_below3sd,3.1
+Kilifi,WFA,WFA_perc_below2sd,19.5
+Tana River,WFA,WFA_perc_below3sd,2.6
+Tana River,WFA,WFA_perc_below2sd,16.8
+Lamu,WFA,WFA_perc_below3sd,1
+Lamu,WFA,WFA_perc_below2sd,12.5
+Taita Taveta,WFA,WFA_perc_below3sd,2.1
+Taita Taveta,WFA,WFA_perc_below2sd,12.6
+Garissa,WFA,WFA_perc_below3sd,1.2
+Garissa,WFA,WFA_perc_below2sd,14.1
+Wajir,WFA,WFA_perc_below3sd,4.3
+Wajir,WFA,WFA_perc_below2sd,16.2
+Mandera,WFA,WFA_perc_below3sd,5.4
+Mandera,WFA,WFA_perc_below2sd,23.2
+Marsabit,WFA,WFA_perc_below3sd,6.2
+Marsabit,WFA,WFA_perc_below2sd,25.9
+Isiolo,WFA,WFA_perc_below3sd,2.4
+Isiolo,WFA,WFA_perc_below2sd,11.5
+Meru,WFA,WFA_perc_below3sd,1
+Meru,WFA,WFA_perc_below2sd,10.8
+Tharaka Nithi,WFA,WFA_perc_below3sd,2.2
+Tharaka Nithi,WFA,WFA_perc_below2sd,7.7
+Embu,WFA,WFA_perc_below3sd,2.6
+Embu,WFA,WFA_perc_below2sd,11.3
+Kitui,WFA,WFA_perc_below3sd,2.6
+Kitui,WFA,WFA_perc_below2sd,13.9
+Machakos,WFA,WFA_perc_below3sd,1
+Machakos,WFA,WFA_perc_below2sd,8.1
+Makueni,WFA,WFA_perc_below3sd,1.2
+Makueni,WFA,WFA_perc_below2sd,8.7
+Nyandarua,WFA,WFA_perc_below3sd,1.4
+Nyandarua,WFA,WFA_perc_below2sd,4
+Nyeri,WFA,WFA_perc_below3sd,0.5
+Nyeri,WFA,WFA_perc_below2sd,4
+Kirinyaga,WFA,WFA_perc_below3sd,0
+Kirinyaga,WFA,WFA_perc_below2sd,5.7
+Muranga,WFA,WFA_perc_below3sd,0.4
+Muranga,WFA,WFA_perc_below2sd,5.9
+Kiambu,WFA,WFA_perc_below3sd,2.1
+Kiambu,WFA,WFA_perc_below2sd,6
+Turkana,WFA,WFA_perc_below3sd,8.8
+Turkana,WFA,WFA_perc_below2sd,31.7
+West Pokot,WFA,WFA_perc_below3sd,6
+West Pokot,WFA,WFA_perc_below2sd,27.1
+Samburu,WFA,WFA_perc_below3sd,7.4
+Samburu,WFA,WFA_perc_below2sd,30.2
+Trans Nzoia,WFA,WFA_perc_below3sd,0.5
+Trans Nzoia,WFA,WFA_perc_below2sd,11.1
+Uasin Gishu,WFA,WFA_perc_below3sd,1
+Uasin Gishu,WFA,WFA_perc_below2sd,6.4
+Elgeyo Marakwet,WFA,WFA_perc_below3sd,2.5
+Elgeyo Marakwet,WFA,WFA_perc_below2sd,13.9
+Nandi,WFA,WFA_perc_below3sd,0.9
+Nandi,WFA,WFA_perc_below2sd,9
+Baringo,WFA,WFA_perc_below3sd,5.8
+Baringo,WFA,WFA_perc_below2sd,19.9
+Laikipia,WFA,WFA_perc_below3sd,0.5
+Laikipia,WFA,WFA_perc_below2sd,6.6
+Nakuru,WFA,WFA_perc_below3sd,2.1
+Nakuru,WFA,WFA_perc_below2sd,9.2
+Narok,WFA,WFA_perc_below3sd,1
+Narok,WFA,WFA_perc_below2sd,10.7
+Kajiado,WFA,WFA_perc_below3sd,1.3
+Kajiado,WFA,WFA_perc_below2sd,9.6
+Kericho,WFA,WFA_perc_below3sd,1.4
+Kericho,WFA,WFA_perc_below2sd,9.2
+Bomet,WFA,WFA_perc_below3sd,1.3
+Bomet,WFA,WFA_perc_below2sd,9.8
+Kakamega,WFA,WFA_perc_below3sd,0.8
+Kakamega,WFA,WFA_perc_below2sd,6.4
+Vihiga,WFA,WFA_perc_below3sd,0.8
+Vihiga,WFA,WFA_perc_below2sd,9.2
+Bungoma,WFA,WFA_perc_below3sd,1.2
+Bungoma,WFA,WFA_perc_below2sd,9.6
+Busia,WFA,WFA_perc_below3sd,0.7
+Busia,WFA,WFA_perc_below2sd,6.3
+Siaya,WFA,WFA_perc_below3sd,2.1
+Siaya,WFA,WFA_perc_below2sd,7
+Kisumu,WFA,WFA_perc_below3sd,0.8
+Kisumu,WFA,WFA_perc_below2sd,3.5
+Homa Bay,WFA,WFA_perc_below3sd,1
+Homa Bay,WFA,WFA_perc_below2sd,6.1
+Migori,WFA,WFA_perc_below3sd,0.3
+Migori,WFA,WFA_perc_below2sd,5
+Kisii,WFA,WFA_perc_below3sd,1.5
+Kisii,WFA,WFA_perc_below2sd,7.8
+Nyamira,WFA,WFA_perc_below3sd,0.2
+Nyamira,WFA,WFA_perc_below2sd,3.4
+Nairobi,WFA,WFA_perc_below3sd,0.4
+Nairobi,WFA,WFA_perc_below2sd,5.3
+Mombasa,Insecticide treated nets,perc_atleast_1itn,63.3
+Mombasa,Insecticide treated nets,avrg_itn_hh,1.2
+Mombasa,Insecticide treated nets,perc_atleast_1itn_2pple,45.5
+Mombasa,Insecticide treated nets,no_hhs_1person_overnight,1051
+Kwale,Insecticide treated nets,perc_atleast_1itn,74
+Kwale,Insecticide treated nets,avrg_itn_hh,1.8
+Kwale,Insecticide treated nets,perc_atleast_1itn_2pple,47.5
+Kwale,Insecticide treated nets,no_hhs_1person_overnight,502
+Kilifi,Insecticide treated nets,perc_atleast_1itn,74.4
+Kilifi,Insecticide treated nets,avrg_itn_hh,1.8
+Kilifi,Insecticide treated nets,perc_atleast_1itn_2pple,48.2
+Kilifi,Insecticide treated nets,no_hhs_1person_overnight,989
+Tana River,Insecticide treated nets,perc_atleast_1itn,71.3
+Tana River,Insecticide treated nets,avrg_itn_hh,1.4
+Tana River,Insecticide treated nets,perc_atleast_1itn_2pple,34.3
+Tana River,Insecticide treated nets,no_hhs_1person_overnight,180
+Lamu,Insecticide treated nets,perc_atleast_1itn,65.9
+Lamu,Insecticide treated nets,avrg_itn_hh,1.5
+Lamu,Insecticide treated nets,perc_atleast_1itn_2pple,43.3
+Lamu,Insecticide treated nets,no_hhs_1person_overnight,107
+Taita Taveta,Insecticide treated nets,perc_atleast_1itn,87.3
+Taita Taveta,Insecticide treated nets,avrg_itn_hh,2
+Taita Taveta,Insecticide treated nets,perc_atleast_1itn_2pple,74.3
+Taita Taveta,Insecticide treated nets,no_hhs_1person_overnight,331
+Garissa,Insecticide treated nets,perc_atleast_1itn,19.7
+Garissa,Insecticide treated nets,avrg_itn_hh,0.3
+Garissa,Insecticide treated nets,perc_atleast_1itn_2pple,6.8
+Garissa,Insecticide treated nets,no_hhs_1person_overnight,269
+Wajir,Insecticide treated nets,perc_atleast_1itn,43.6
+Wajir,Insecticide treated nets,avrg_itn_hh,1
+Wajir,Insecticide treated nets,perc_atleast_1itn_2pple,15.5
+Wajir,Insecticide treated nets,no_hhs_1person_overnight,137
+Mandera,Insecticide treated nets,perc_atleast_1itn,15.7
+Mandera,Insecticide treated nets,avrg_itn_hh,0.3
+Mandera,Insecticide treated nets,perc_atleast_1itn_2pple,4.8
+Mandera,Insecticide treated nets,no_hhs_1person_overnight,203
+Marsabit,Insecticide treated nets,perc_atleast_1itn,27.1
+Marsabit,Insecticide treated nets,avrg_itn_hh,0.4
+Marsabit,Insecticide treated nets,perc_atleast_1itn_2pple,7.4
+Marsabit,Insecticide treated nets,no_hhs_1person_overnight,170
+Isiolo,Insecticide treated nets,perc_atleast_1itn,51.7
+Isiolo,Insecticide treated nets,avrg_itn_hh,0.9
+Isiolo,Insecticide treated nets,perc_atleast_1itn_2pple,23.4
+Isiolo,Insecticide treated nets,no_hhs_1person_overnight,149
+Meru,Insecticide treated nets,perc_atleast_1itn,36.2
+Meru,Insecticide treated nets,avrg_itn_hh,0.5
+Meru,Insecticide treated nets,perc_atleast_1itn_2pple,16.8
+Meru,Insecticide treated nets,no_hhs_1person_overnight,1359
+Tharaka Nithi,Insecticide treated nets,perc_atleast_1itn,52.8
+Tharaka Nithi,Insecticide treated nets,avrg_itn_hh,1
+Tharaka Nithi,Insecticide treated nets,perc_atleast_1itn_2pple,34.7
+Tharaka Nithi,Insecticide treated nets,no_hhs_1person_overnight,373
+Embu,Insecticide treated nets,perc_atleast_1itn,40.1
+Embu,Insecticide treated nets,avrg_itn_hh,0.7
+Embu,Insecticide treated nets,perc_atleast_1itn_2pple,24.1
+Embu,Insecticide treated nets,no_hhs_1person_overnight,522
+Kitui,Insecticide treated nets,perc_atleast_1itn,33
+Kitui,Insecticide treated nets,avrg_itn_hh,0.5
+Kitui,Insecticide treated nets,perc_atleast_1itn_2pple,15.1
+Kitui,Insecticide treated nets,no_hhs_1person_overnight,895
+Machakos,Insecticide treated nets,perc_atleast_1itn,55.9
+Machakos,Insecticide treated nets,avrg_itn_hh,1.1
+Machakos,Insecticide treated nets,perc_atleast_1itn_2pple,38.8
+Machakos,Insecticide treated nets,no_hhs_1person_overnight,1227
+Makueni,Insecticide treated nets,perc_atleast_1itn,48.1
+Makueni,Insecticide treated nets,avrg_itn_hh,0.8
+Makueni,Insecticide treated nets,perc_atleast_1itn_2pple,25.8
+Makueni,Insecticide treated nets,no_hhs_1person_overnight,769
+Nyandarua,Insecticide treated nets,perc_atleast_1itn,9.9
+Nyandarua,Insecticide treated nets,avrg_itn_hh,0.2
+Nyandarua,Insecticide treated nets,perc_atleast_1itn_2pple,5.8
+Nyandarua,Insecticide treated nets,no_hhs_1person_overnight,573
+Nyeri,Insecticide treated nets,perc_atleast_1itn,18.1
+Nyeri,Insecticide treated nets,avrg_itn_hh,0.3
+Nyeri,Insecticide treated nets,perc_atleast_1itn_2pple,12.1
+Nyeri,Insecticide treated nets,no_hhs_1person_overnight,790
+Kirinyaga,Insecticide treated nets,perc_atleast_1itn,57.3
+Kirinyaga,Insecticide treated nets,avrg_itn_hh,1.3
+Kirinyaga,Insecticide treated nets,perc_atleast_1itn_2pple,47.4
+Kirinyaga,Insecticide treated nets,no_hhs_1person_overnight,635
+Muranga,Insecticide treated nets,perc_atleast_1itn,35.9
+Muranga,Insecticide treated nets,avrg_itn_hh,0.6
+Muranga,Insecticide treated nets,perc_atleast_1itn_2pple,22
+Muranga,Insecticide treated nets,no_hhs_1person_overnight,1000
+Kiambu,Insecticide treated nets,perc_atleast_1itn,27.8
+Kiambu,Insecticide treated nets,avrg_itn_hh,0.4
+Kiambu,Insecticide treated nets,perc_atleast_1itn_2pple,16
+Kiambu,Insecticide treated nets,no_hhs_1person_overnight,2662
+Turkana,Insecticide treated nets,perc_atleast_1itn,49.4
+Turkana,Insecticide treated nets,avrg_itn_hh,0.8
+Turkana,Insecticide treated nets,perc_atleast_1itn_2pple,18.8
+Turkana,Insecticide treated nets,no_hhs_1person_overnight,383
+West Pokot,Insecticide treated nets,perc_atleast_1itn,78.8
+West Pokot,Insecticide treated nets,avrg_itn_hh,1.9
+West Pokot,Insecticide treated nets,perc_atleast_1itn_2pple,41.5
+West Pokot,Insecticide treated nets,no_hhs_1person_overnight,416
+Samburu,Insecticide treated nets,perc_atleast_1itn,19.9
+Samburu,Insecticide treated nets,avrg_itn_hh,0.3
+Samburu,Insecticide treated nets,perc_atleast_1itn_2pple,7.4
+Samburu,Insecticide treated nets,no_hhs_1person_overnight,174
+Trans Nzoia,Insecticide treated nets,perc_atleast_1itn,86
+Trans Nzoia,Insecticide treated nets,avrg_itn_hh,2.5
+Trans Nzoia,Insecticide treated nets,perc_atleast_1itn_2pple,69.3
+Trans Nzoia,Insecticide treated nets,no_hhs_1person_overnight,747
+Uasin Gishu,Insecticide treated nets,perc_atleast_1itn,69.3
+Uasin Gishu,Insecticide treated nets,avrg_itn_hh,1.9
+Uasin Gishu,Insecticide treated nets,perc_atleast_1itn_2pple,56.8
+Uasin Gishu,Insecticide treated nets,no_hhs_1person_overnight,1112
+Elgeyo Marakwet,Insecticide treated nets,perc_atleast_1itn,25.3
+Elgeyo Marakwet,Insecticide treated nets,avrg_itn_hh,0.4
+Elgeyo Marakwet,Insecticide treated nets,perc_atleast_1itn_2pple,10.1
+Elgeyo Marakwet,Insecticide treated nets,no_hhs_1person_overnight,290
+Nandi,Insecticide treated nets,perc_atleast_1itn,84
+Nandi,Insecticide treated nets,avrg_itn_hh,2.1
+Nandi,Insecticide treated nets,perc_atleast_1itn_2pple,69
+Nandi,Insecticide treated nets,no_hhs_1person_overnight,728
+Baringo,Insecticide treated nets,perc_atleast_1itn,63.8
+Baringo,Insecticide treated nets,avrg_itn_hh,1.4
+Baringo,Insecticide treated nets,perc_atleast_1itn_2pple,37.6
+Baringo,Insecticide treated nets,no_hhs_1person_overnight,429
+Laikipia,Insecticide treated nets,perc_atleast_1itn,24.9
+Laikipia,Insecticide treated nets,avrg_itn_hh,0.4
+Laikipia,Insecticide treated nets,perc_atleast_1itn_2pple,15.9
+Laikipia,Insecticide treated nets,no_hhs_1person_overnight,445
+Nakuru,Insecticide treated nets,perc_atleast_1itn,27.5
+Nakuru,Insecticide treated nets,avrg_itn_hh,0.5
+Nakuru,Insecticide treated nets,perc_atleast_1itn_2pple,15.3
+Nakuru,Insecticide treated nets,no_hhs_1person_overnight,2006
+Narok,Insecticide treated nets,perc_atleast_1itn,76
+Narok,Insecticide treated nets,avrg_itn_hh,2.1
+Narok,Insecticide treated nets,perc_atleast_1itn_2pple,54
+Narok,Insecticide treated nets,no_hhs_1person_overnight,776
+Kajiado,Insecticide treated nets,perc_atleast_1itn,38.8
+Kajiado,Insecticide treated nets,avrg_itn_hh,0.6
+Kajiado,Insecticide treated nets,perc_atleast_1itn_2pple,20.9
+Kajiado,Insecticide treated nets,no_hhs_1person_overnight,1072
+Kericho,Insecticide treated nets,perc_atleast_1itn,84.1
+Kericho,Insecticide treated nets,avrg_itn_hh,2.3
+Kericho,Insecticide treated nets,perc_atleast_1itn_2pple,65.9
+Kericho,Insecticide treated nets,no_hhs_1person_overnight,745
+Bomet,Insecticide treated nets,perc_atleast_1itn,92.3
+Bomet,Insecticide treated nets,avrg_itn_hh,2.8
+Bomet,Insecticide treated nets,perc_atleast_1itn_2pple,77.3
+Bomet,Insecticide treated nets,no_hhs_1person_overnight,659
+Kakamega,Insecticide treated nets,perc_atleast_1itn,89.1
+Kakamega,Insecticide treated nets,avrg_itn_hh,2.4
+Kakamega,Insecticide treated nets,perc_atleast_1itn_2pple,66.9
+Kakamega,Insecticide treated nets,no_hhs_1person_overnight,1381
+Vihiga,Insecticide treated nets,perc_atleast_1itn,92.5
+Vihiga,Insecticide treated nets,avrg_itn_hh,2.6
+Vihiga,Insecticide treated nets,perc_atleast_1itn_2pple,75.8
+Vihiga,Insecticide treated nets,no_hhs_1person_overnight,412
+Bungoma,Insecticide treated nets,perc_atleast_1itn,89.4
+Bungoma,Insecticide treated nets,avrg_itn_hh,2.7
+Bungoma,Insecticide treated nets,perc_atleast_1itn_2pple,70.6
+Bungoma,Insecticide treated nets,no_hhs_1person_overnight,1157
+Busia,Insecticide treated nets,perc_atleast_1itn,93.5
+Busia,Insecticide treated nets,avrg_itn_hh,2.6
+Busia,Insecticide treated nets,perc_atleast_1itn_2pple,67.4
+Busia,Insecticide treated nets,no_hhs_1person_overnight,653
+Siaya,Insecticide treated nets,perc_atleast_1itn,86.7
+Siaya,Insecticide treated nets,avrg_itn_hh,1.9
+Siaya,Insecticide treated nets,perc_atleast_1itn_2pple,58.6
+Siaya,Insecticide treated nets,no_hhs_1person_overnight,703
+Kisumu,Insecticide treated nets,perc_atleast_1itn,76
+Kisumu,Insecticide treated nets,avrg_itn_hh,1.5
+Kisumu,Insecticide treated nets,perc_atleast_1itn_2pple,47
+Kisumu,Insecticide treated nets,no_hhs_1person_overnight,888
+Homa Bay,Insecticide treated nets,perc_atleast_1itn,89.2
+Homa Bay,Insecticide treated nets,avrg_itn_hh,2.1
+Homa Bay,Insecticide treated nets,perc_atleast_1itn_2pple,60.2
+Homa Bay,Insecticide treated nets,no_hhs_1person_overnight,766
+Migori,Insecticide treated nets,perc_atleast_1itn,87.7
+Migori,Insecticide treated nets,avrg_itn_hh,2.1
+Migori,Insecticide treated nets,perc_atleast_1itn_2pple,54.2
+Migori,Insecticide treated nets,no_hhs_1person_overnight,706
+Kisii,Insecticide treated nets,perc_atleast_1itn,85
+Kisii,Insecticide treated nets,avrg_itn_hh,2.3
+Kisii,Insecticide treated nets,perc_atleast_1itn_2pple,67.4
+Kisii,Insecticide treated nets,no_hhs_1person_overnight,917
+Nyamira,Insecticide treated nets,perc_atleast_1itn,93.6
+Nyamira,Insecticide treated nets,avrg_itn_hh,2.6
+Nyamira,Insecticide treated nets,perc_atleast_1itn_2pple,80
+Nyamira,Insecticide treated nets,no_hhs_1person_overnight,422
+Nairobi,Insecticide treated nets,perc_atleast_1itn,23.4
+Nairobi,Insecticide treated nets,avrg_itn_hh,0.4
+Nairobi,Insecticide treated nets,perc_atleast_1itn_2pple,14.3
+Nairobi,Insecticide treated nets,no_hhs_1person_overnight,4691
+Mombasa,Family planning,Contraceptive_use_any_method,46.7
+Mombasa,Family planning,Contraceptive_use_modern_method,42.1
+Mombasa,Family planning,Female_sterilization,0.8
+Mombasa,Family planning,Male_sterilization,0
+Mombasa,Family planning,IUD,3.7
+Mombasa,Family planning,Injectables,16.6
+Mombasa,Family planning,Implants,14.3
+Mombasa,Family planning,Pill,3.8
+Mombasa,Family planning,Male_condom,1.7
+Mombasa,Family planning,Female_condom,0
+Mombasa,Family planning,Emergency_contraception,0.2
+Mombasa,Family planning,SDM,0.6
+Mombasa,Family planning,LAM,0.3
+Mombasa,Family planning,Other,0
+Kwale,Family planning,Contraceptive_use_any_method,34.6
+Kwale,Family planning,Contraceptive_use_modern_method,34.6
+Kwale,Family planning,Female_sterilization,0.8
+Kwale,Family planning,Male_sterilization,0
+Kwale,Family planning,IUD,2.8
+Kwale,Family planning,Injectables,18.2
+Kwale,Family planning,Implants,9.6
+Kwale,Family planning,Pill,2.3
+Kwale,Family planning,Male_condom,0.3
+Kwale,Family planning,Female_condom,0
+Kwale,Family planning,Emergency_contraception,0
+Kwale,Family planning,SDM,0.1
+Kwale,Family planning,LAM,0.5
+Kwale,Family planning,Other,0
+Kilifi,Family planning,Contraceptive_use_any_method,48.6
+Kilifi,Family planning,Contraceptive_use_modern_method,44.7
+Kilifi,Family planning,Female_sterilization,1.6
+Kilifi,Family planning,Male_sterilization,0
+Kilifi,Family planning,IUD,2.1
+Kilifi,Family planning,Injectables,17.4
+Kilifi,Family planning,Implants,17.8
+Kilifi,Family planning,Pill,3.7
+Kilifi,Family planning,Male_condom,0.1
+Kilifi,Family planning,Female_condom,0
+Kilifi,Family planning,Emergency_contraception,0
+Kilifi,Family planning,SDM,1.6
+Kilifi,Family planning,LAM,0.4
+Kilifi,Family planning,Other,0
+Tana River,Family planning,Contraceptive_use_any_method,24.8
+Tana River,Family planning,Contraceptive_use_modern_method,23.2
+Tana River,Family planning,Female_sterilization,0.5
+Tana River,Family planning,Male_sterilization,0
+Tana River,Family planning,IUD,1
+Tana River,Family planning,Injectables,13.1
+Tana River,Family planning,Implants,5.1
+Tana River,Family planning,Pill,1.1
+Tana River,Family planning,Male_condom,0.5
+Tana River,Family planning,Female_condom,0
+Tana River,Family planning,Emergency_contraception,0.8
+Tana River,Family planning,SDM,0
+Tana River,Family planning,LAM,1.2
+Tana River,Family planning,Other,0
+Lamu,Family planning,Contraceptive_use_any_method,42.4
+Lamu,Family planning,Contraceptive_use_modern_method,39.2
+Lamu,Family planning,Female_sterilization,0.5
+Lamu,Family planning,Male_sterilization,0.4
+Lamu,Family planning,IUD,1.1
+Lamu,Family planning,Injectables,13.7
+Lamu,Family planning,Implants,10.5
+Lamu,Family planning,Pill,5.6
+Lamu,Family planning,Male_condom,1.1
+Lamu,Family planning,Female_condom,0
+Lamu,Family planning,Emergency_contraception,0
+Lamu,Family planning,SDM,2.8
+Lamu,Family planning,LAM,3.4
+Lamu,Family planning,Other,0
+Taita Taveta,Family planning,Contraceptive_use_any_method,67.5
+Taita Taveta,Family planning,Contraceptive_use_modern_method,64.5
+Taita Taveta,Family planning,Female_sterilization,2.8
+Taita Taveta,Family planning,Male_sterilization,0
+Taita Taveta,Family planning,IUD,4.2
+Taita Taveta,Family planning,Injectables,29.3
+Taita Taveta,Family planning,Implants,15.4
+Taita Taveta,Family planning,Pill,7.3
+Taita Taveta,Family planning,Male_condom,1.8
+Taita Taveta,Family planning,Female_condom,0
+Taita Taveta,Family planning,Emergency_contraception,0.2
+Taita Taveta,Family planning,SDM,2.5
+Taita Taveta,Family planning,LAM,0.8
+Taita Taveta,Family planning,Other,0
+Garissa,Family planning,Contraceptive_use_any_method,12.7
+Garissa,Family planning,Contraceptive_use_modern_method,11.1
+Garissa,Family planning,Female_sterilization,1.4
+Garissa,Family planning,Male_sterilization,0
+Garissa,Family planning,IUD,0.2
+Garissa,Family planning,Injectables,4.3
+Garissa,Family planning,Implants,3.5
+Garissa,Family planning,Pill,1.1
+Garissa,Family planning,Male_condom,0.1
+Garissa,Family planning,Female_condom,0
+Garissa,Family planning,Emergency_contraception,0
+Garissa,Family planning,SDM,0
+Garissa,Family planning,LAM,0.5
+Garissa,Family planning,Other,0
+Wajir,Family planning,Contraceptive_use_any_method,3
+Wajir,Family planning,Contraceptive_use_modern_method,2.8
+Wajir,Family planning,Female_sterilization,0.1
+Wajir,Family planning,Male_sterilization,0
+Wajir,Family planning,IUD,0.2
+Wajir,Family planning,Injectables,0.9
+Wajir,Family planning,Implants,0.8
+Wajir,Family planning,Pill,0.8
+Wajir,Family planning,Male_condom,0
+Wajir,Family planning,Female_condom,0
+Wajir,Family planning,Emergency_contraception,0
+Wajir,Family planning,SDM,0
+Wajir,Family planning,LAM,0
+Wajir,Family planning,Other,0
+Mandera,Family planning,Contraceptive_use_any_method,2.1
+Mandera,Family planning,Contraceptive_use_modern_method,1.8
+Mandera,Family planning,Female_sterilization,0
+Mandera,Family planning,Male_sterilization,0
+Mandera,Family planning,IUD,0
+Mandera,Family planning,Injectables,0.6
+Mandera,Family planning,Implants,0.2
+Mandera,Family planning,Pill,0.3
+Mandera,Family planning,Male_condom,0
+Mandera,Family planning,Female_condom,0
+Mandera,Family planning,Emergency_contraception,0
+Mandera,Family planning,SDM,0
+Mandera,Family planning,LAM,0.8
+Mandera,Family planning,Other,0
+Marsabit,Family planning,Contraceptive_use_any_method,5.9
+Marsabit,Family planning,Contraceptive_use_modern_method,5.6
+Marsabit,Family planning,Female_sterilization,0.4
+Marsabit,Family planning,Male_sterilization,0
+Marsabit,Family planning,IUD,0
+Marsabit,Family planning,Injectables,2.5
+Marsabit,Family planning,Implants,2.6
+Marsabit,Family planning,Pill,0.1
+Marsabit,Family planning,Male_condom,0
+Marsabit,Family planning,Female_condom,0
+Marsabit,Family planning,Emergency_contraception,0
+Marsabit,Family planning,SDM,0
+Marsabit,Family planning,LAM,0
+Marsabit,Family planning,Other,0
+Isiolo,Family planning,Contraceptive_use_any_method,30.7
+Isiolo,Family planning,Contraceptive_use_modern_method,28.7
+Isiolo,Family planning,Female_sterilization,0.8
+Isiolo,Family planning,Male_sterilization,0
+Isiolo,Family planning,IUD,1.4
+Isiolo,Family planning,Injectables,15.8
+Isiolo,Family planning,Implants,4.4
+Isiolo,Family planning,Pill,5.1
+Isiolo,Family planning,Male_condom,0.7
+Isiolo,Family planning,Female_condom,0
+Isiolo,Family planning,Emergency_contraception,0
+Isiolo,Family planning,SDM,0
+Isiolo,Family planning,LAM,0.6
+Isiolo,Family planning,Other,0
+Meru,Family planning,Contraceptive_use_any_method,76
+Meru,Family planning,Contraceptive_use_modern_method,69.7
+Meru,Family planning,Female_sterilization,0.7
+Meru,Family planning,Male_sterilization,0
+Meru,Family planning,IUD,3.3
+Meru,Family planning,Injectables,31.3
+Meru,Family planning,Implants,22.9
+Meru,Family planning,Pill,9.7
+Meru,Family planning,Male_condom,0.1
+Meru,Family planning,Female_condom,0
+Meru,Family planning,Emergency_contraception,0.3
+Meru,Family planning,SDM,0
+Meru,Family planning,LAM,0
+Meru,Family planning,Other,1.3
+Tharaka Nithi,Family planning,Contraceptive_use_any_method,74.7
+Tharaka Nithi,Family planning,Contraceptive_use_modern_method,67.9
+Tharaka Nithi,Family planning,Female_sterilization,3
+Tharaka Nithi,Family planning,Male_sterilization,0
+Tharaka Nithi,Family planning,IUD,4.5
+Tharaka Nithi,Family planning,Injectables,31.3
+Tharaka Nithi,Family planning,Implants,19.5
+Tharaka Nithi,Family planning,Pill,7.3
+Tharaka Nithi,Family planning,Male_condom,1.7
+Tharaka Nithi,Family planning,Female_condom,0
+Tharaka Nithi,Family planning,Emergency_contraception,0
+Tharaka Nithi,Family planning,SDM,0.3
+Tharaka Nithi,Family planning,LAM,0.3
+Tharaka Nithi,Family planning,Other,0
+Embu,Family planning,Contraceptive_use_any_method,81.7
+Embu,Family planning,Contraceptive_use_modern_method,75.2
+Embu,Family planning,Female_sterilization,1.8
+Embu,Family planning,Male_sterilization,0
+Embu,Family planning,IUD,7.5
+Embu,Family planning,Injectables,21.1
+Embu,Family planning,Implants,19.6
+Embu,Family planning,Pill,22.9
+Embu,Family planning,Male_condom,0.5
+Embu,Family planning,Female_condom,0
+Embu,Family planning,Emergency_contraception,0
+Embu,Family planning,SDM,1.7
+Embu,Family planning,LAM,0.1
+Embu,Family planning,Other,0
+Kitui,Family planning,Contraceptive_use_any_method,68.3
+Kitui,Family planning,Contraceptive_use_modern_method,62.4
+Kitui,Family planning,Female_sterilization,1.2
+Kitui,Family planning,Male_sterilization,0
+Kitui,Family planning,IUD,1
+Kitui,Family planning,Injectables,35.2
+Kitui,Family planning,Implants,16.3
+Kitui,Family planning,Pill,4.8
+Kitui,Family planning,Male_condom,0.7
+Kitui,Family planning,Female_condom,0
+Kitui,Family planning,Emergency_contraception,2.4
+Kitui,Family planning,SDM,0.7
+Kitui,Family planning,LAM,0
+Kitui,Family planning,Other,0
+Machakos,Family planning,Contraceptive_use_any_method,76.3
+Machakos,Family planning,Contraceptive_use_modern_method,66.4
+Machakos,Family planning,Female_sterilization,3.4
+Machakos,Family planning,Male_sterilization,0
+Machakos,Family planning,IUD,4.9
+Machakos,Family planning,Injectables,26.5
+Machakos,Family planning,Implants,13.4
+Machakos,Family planning,Pill,16
+Machakos,Family planning,Male_condom,1.9
+Machakos,Family planning,Female_condom,0
+Machakos,Family planning,Emergency_contraception,0.2
+Machakos,Family planning,SDM,0.3
+Machakos,Family planning,LAM,0
+Machakos,Family planning,Other,0
+Makueni,Family planning,Contraceptive_use_any_method,73.3
+Makueni,Family planning,Contraceptive_use_modern_method,64.4
+Makueni,Family planning,Female_sterilization,4.4
+Makueni,Family planning,Male_sterilization,0
+Makueni,Family planning,IUD,2.9
+Makueni,Family planning,Injectables,24.8
+Makueni,Family planning,Implants,19.6
+Makueni,Family planning,Pill,10.2
+Makueni,Family planning,Male_condom,1.5
+Makueni,Family planning,Female_condom,0
+Makueni,Family planning,Emergency_contraception,0
+Makueni,Family planning,SDM,0.1
+Makueni,Family planning,LAM,0.7
+Makueni,Family planning,Other,0
+Nyandarua,Family planning,Contraceptive_use_any_method,71.4
+Nyandarua,Family planning,Contraceptive_use_modern_method,66.7
+Nyandarua,Family planning,Female_sterilization,2.3
+Nyandarua,Family planning,Male_sterilization,0
+Nyandarua,Family planning,IUD,12.2
+Nyandarua,Family planning,Injectables,22.9
+Nyandarua,Family planning,Implants,13.1
+Nyandarua,Family planning,Pill,12
+Nyandarua,Family planning,Male_condom,2.5
+Nyandarua,Family planning,Female_condom,0
+Nyandarua,Family planning,Emergency_contraception,0
+Nyandarua,Family planning,SDM,0.1
+Nyandarua,Family planning,LAM,1.1
+Nyandarua,Family planning,Other,0.5
+Nyeri,Family planning,Contraceptive_use_any_method,81
+Nyeri,Family planning,Contraceptive_use_modern_method,70.5
+Nyeri,Family planning,Female_sterilization,3.7
+Nyeri,Family planning,Male_sterilization,0
+Nyeri,Family planning,IUD,18.8
+Nyeri,Family planning,Injectables,16.9
+Nyeri,Family planning,Implants,12.6
+Nyeri,Family planning,Pill,15.7
+Nyeri,Family planning,Male_condom,1.5
+Nyeri,Family planning,Female_condom,0
+Nyeri,Family planning,Emergency_contraception,0
+Nyeri,Family planning,SDM,0
+Nyeri,Family planning,LAM,1.3
+Nyeri,Family planning,Other,0.3
+Kirinyaga,Family planning,Contraceptive_use_any_method,76.6
+Kirinyaga,Family planning,Contraceptive_use_modern_method,70.8
+Kirinyaga,Family planning,Female_sterilization,0.8
+Kirinyaga,Family planning,Male_sterilization,0
+Kirinyaga,Family planning,IUD,15.4
+Kirinyaga,Family planning,Injectables,17.5
+Kirinyaga,Family planning,Implants,16.2
+Kirinyaga,Family planning,Pill,19
+Kirinyaga,Family planning,Male_condom,1.4
+Kirinyaga,Family planning,Female_condom,0
+Kirinyaga,Family planning,Emergency_contraception,0.3
+Kirinyaga,Family planning,SDM,0
+Kirinyaga,Family planning,LAM,0.2
+Kirinyaga,Family planning,Other,0
+Muranga,Family planning,Contraceptive_use_any_method,72.7
+Muranga,Family planning,Contraceptive_use_modern_method,67.3
+Muranga,Family planning,Female_sterilization,1.4
+Muranga,Family planning,Male_sterilization,0
+Muranga,Family planning,IUD,7
+Muranga,Family planning,Injectables,17.4
+Muranga,Family planning,Implants,14.9
+Muranga,Family planning,Pill,20.4
+Muranga,Family planning,Male_condom,1.9
+Muranga,Family planning,Female_condom,0
+Muranga,Family planning,Emergency_contraception,1.3
+Muranga,Family planning,SDM,0.7
+Muranga,Family planning,LAM,2.2
+Muranga,Family planning,Other,0
+Kiambu,Family planning,Contraceptive_use_any_method,77.4
+Kiambu,Family planning,Contraceptive_use_modern_method,68.2
+Kiambu,Family planning,Female_sterilization,2.5
+Kiambu,Family planning,Male_sterilization,0
+Kiambu,Family planning,IUD,9.7
+Kiambu,Family planning,Injectables,14.7
+Kiambu,Family planning,Implants,22.5
+Kiambu,Family planning,Pill,16.8
+Kiambu,Family planning,Male_condom,0.6
+Kiambu,Family planning,Female_condom,0
+Kiambu,Family planning,Emergency_contraception,0
+Kiambu,Family planning,SDM,0.6
+Kiambu,Family planning,LAM,0.7
+Kiambu,Family planning,Other,0
+Turkana,Family planning,Contraceptive_use_any_method,43.8
+Turkana,Family planning,Contraceptive_use_modern_method,30.7
+Turkana,Family planning,Female_sterilization,1.3
+Turkana,Family planning,Male_sterilization,0
+Turkana,Family planning,IUD,0
+Turkana,Family planning,Injectables,9.3
+Turkana,Family planning,Implants,5.7
+Turkana,Family planning,Pill,0.3
+Turkana,Family planning,Male_condom,0.2
+Turkana,Family planning,Female_condom,0
+Turkana,Family planning,Emergency_contraception,0.2
+Turkana,Family planning,SDM,0.5
+Turkana,Family planning,LAM,13.2
+Turkana,Family planning,Other,0
+West Pokot,Family planning,Contraceptive_use_any_method,23.5
+West Pokot,Family planning,Contraceptive_use_modern_method,23.2
+West Pokot,Family planning,Female_sterilization,0.9
+West Pokot,Family planning,Male_sterilization,0
+West Pokot,Family planning,IUD,0.2
+West Pokot,Family planning,Injectables,8.3
+West Pokot,Family planning,Implants,11.7
+West Pokot,Family planning,Pill,1.6
+West Pokot,Family planning,Male_condom,0.1
+West Pokot,Family planning,Female_condom,0
+West Pokot,Family planning,Emergency_contraception,0
+West Pokot,Family planning,SDM,0
+West Pokot,Family planning,LAM,0.4
+West Pokot,Family planning,Other,0
+Samburu,Family planning,Contraceptive_use_any_method,33.7
+Samburu,Family planning,Contraceptive_use_modern_method,25.4
+Samburu,Family planning,Female_sterilization,0.3
+Samburu,Family planning,Male_sterilization,0
+Samburu,Family planning,IUD,2.8
+Samburu,Family planning,Injectables,8.3
+Samburu,Family planning,Implants,10.6
+Samburu,Family planning,Pill,2.3
+Samburu,Family planning,Male_condom,0.2
+Samburu,Family planning,Female_condom,0
+Samburu,Family planning,Emergency_contraception,0
+Samburu,Family planning,SDM,0
+Samburu,Family planning,LAM,0.9
+Samburu,Family planning,Other,0
+Trans Nzoia,Family planning,Contraceptive_use_any_method,69.8
+Trans Nzoia,Family planning,Contraceptive_use_modern_method,65.4
+Trans Nzoia,Family planning,Female_sterilization,3
+Trans Nzoia,Family planning,Male_sterilization,0
+Trans Nzoia,Family planning,IUD,2.2
+Trans Nzoia,Family planning,Injectables,24.4
+Trans Nzoia,Family planning,Implants,27
+Trans Nzoia,Family planning,Pill,4.9
+Trans Nzoia,Family planning,Male_condom,1.5
+Trans Nzoia,Family planning,Female_condom,0
+Trans Nzoia,Family planning,Emergency_contraception,0.1
+Trans Nzoia,Family planning,SDM,1
+Trans Nzoia,Family planning,LAM,1.2
+Trans Nzoia,Family planning,Other,0
+Uasin Gishu,Family planning,Contraceptive_use_any_method,71.1
+Uasin Gishu,Family planning,Contraceptive_use_modern_method,62.7
+Uasin Gishu,Family planning,Female_sterilization,1.5
+Uasin Gishu,Family planning,Male_sterilization,0
+Uasin Gishu,Family planning,IUD,5.8
+Uasin Gishu,Family planning,Injectables,22.9
+Uasin Gishu,Family planning,Implants,23.2
+Uasin Gishu,Family planning,Pill,5.7
+Uasin Gishu,Family planning,Male_condom,1.8
+Uasin Gishu,Family planning,Female_condom,0
+Uasin Gishu,Family planning,Emergency_contraception,0.5
+Uasin Gishu,Family planning,SDM,0
+Uasin Gishu,Family planning,LAM,1.2
+Uasin Gishu,Family planning,Other,0
+Elgeyo Marakwet,Family planning,Contraceptive_use_any_method,74.3
+Elgeyo Marakwet,Family planning,Contraceptive_use_modern_method,59
+Elgeyo Marakwet,Family planning,Female_sterilization,3.4
+Elgeyo Marakwet,Family planning,Male_sterilization,0
+Elgeyo Marakwet,Family planning,IUD,2.8
+Elgeyo Marakwet,Family planning,Injectables,24.4
+Elgeyo Marakwet,Family planning,Implants,20.4
+Elgeyo Marakwet,Family planning,Pill,3
+Elgeyo Marakwet,Family planning,Male_condom,2.2
+Elgeyo Marakwet,Family planning,Female_condom,0.2
+Elgeyo Marakwet,Family planning,Emergency_contraception,0.8
+Elgeyo Marakwet,Family planning,SDM,0.1
+Elgeyo Marakwet,Family planning,LAM,1.7
+Elgeyo Marakwet,Family planning,Other,0
+Nandi,Family planning,Contraceptive_use_any_method,65.6
+Nandi,Family planning,Contraceptive_use_modern_method,60
+Nandi,Family planning,Female_sterilization,1.6
+Nandi,Family planning,Male_sterilization,0
+Nandi,Family planning,IUD,0.2
+Nandi,Family planning,Injectables,29.8
+Nandi,Family planning,Implants,21
+Nandi,Family planning,Pill,3.4
+Nandi,Family planning,Male_condom,3
+Nandi,Family planning,Female_condom,0
+Nandi,Family planning,Emergency_contraception,0.3
+Nandi,Family planning,SDM,0.2
+Nandi,Family planning,LAM,0.5
+Nandi,Family planning,Other,0
+Baringo,Family planning,Contraceptive_use_any_method,57.8
+Baringo,Family planning,Contraceptive_use_modern_method,47.7
+Baringo,Family planning,Female_sterilization,0.5
+Baringo,Family planning,Male_sterilization,0
+Baringo,Family planning,IUD,3.3
+Baringo,Family planning,Injectables,16.6
+Baringo,Family planning,Implants,17.8
+Baringo,Family planning,Pill,3.8
+Baringo,Family planning,Male_condom,1.4
+Baringo,Family planning,Female_condom,0
+Baringo,Family planning,Emergency_contraception,0.3
+Baringo,Family planning,SDM,0.6
+Baringo,Family planning,LAM,3.5
+Baringo,Family planning,Other,0
+Laikipia,Family planning,Contraceptive_use_any_method,72.3
+Laikipia,Family planning,Contraceptive_use_modern_method,64.5
+Laikipia,Family planning,Female_sterilization,4.5
+Laikipia,Family planning,Male_sterilization,0
+Laikipia,Family planning,IUD,6.9
+Laikipia,Family planning,Injectables,24
+Laikipia,Family planning,Implants,15
+Laikipia,Family planning,Pill,12.1
+Laikipia,Family planning,Male_condom,1.2
+Laikipia,Family planning,Female_condom,0
+Laikipia,Family planning,Emergency_contraception,0.5
+Laikipia,Family planning,SDM,0
+Laikipia,Family planning,LAM,0.4
+Laikipia,Family planning,Other,0
+Nakuru,Family planning,Contraceptive_use_any_method,72.5
+Nakuru,Family planning,Contraceptive_use_modern_method,66.6
+Nakuru,Family planning,Female_sterilization,3.2
+Nakuru,Family planning,Male_sterilization,0
+Nakuru,Family planning,IUD,7.4
+Nakuru,Family planning,Injectables,23.5
+Nakuru,Family planning,Implants,18.5
+Nakuru,Family planning,Pill,8.6
+Nakuru,Family planning,Male_condom,2
+Nakuru,Family planning,Female_condom,0
+Nakuru,Family planning,Emergency_contraception,0.5
+Nakuru,Family planning,SDM,1.2
+Nakuru,Family planning,LAM,1.7
+Nakuru,Family planning,Other,0
+Narok,Family planning,Contraceptive_use_any_method,65.2
+Narok,Family planning,Contraceptive_use_modern_method,52.2
+Narok,Family planning,Female_sterilization,1.6
+Narok,Family planning,Male_sterilization,0
+Narok,Family planning,IUD,1
+Narok,Family planning,Injectables,16.5
+Narok,Family planning,Implants,24.5
+Narok,Family planning,Pill,1.8
+Narok,Family planning,Male_condom,0.8
+Narok,Family planning,Female_condom,0
+Narok,Family planning,Emergency_contraception,0
+Narok,Family planning,SDM,1.5
+Narok,Family planning,LAM,4.5
+Narok,Family planning,Other,0
+Kajiado,Family planning,Contraceptive_use_any_method,63.9
+Kajiado,Family planning,Contraceptive_use_modern_method,57.3
+Kajiado,Family planning,Female_sterilization,1.1
+Kajiado,Family planning,Male_sterilization,0
+Kajiado,Family planning,IUD,7.6
+Kajiado,Family planning,Injectables,21.9
+Kajiado,Family planning,Implants,12.9
+Kajiado,Family planning,Pill,10.5
+Kajiado,Family planning,Male_condom,2.1
+Kajiado,Family planning,Female_condom,0
+Kajiado,Family planning,Emergency_contraception,0.4
+Kajiado,Family planning,SDM,0
+Kajiado,Family planning,LAM,0.5
+Kajiado,Family planning,Other,0
+Kericho,Family planning,Contraceptive_use_any_method,60.2
+Kericho,Family planning,Contraceptive_use_modern_method,60
+Kericho,Family planning,Female_sterilization,2.8
+Kericho,Family planning,Male_sterilization,0
+Kericho,Family planning,IUD,1.6
+Kericho,Family planning,Injectables,20.8
+Kericho,Family planning,Implants,29.6
+Kericho,Family planning,Pill,3.5
+Kericho,Family planning,Male_condom,1.1
+Kericho,Family planning,Female_condom,0
+Kericho,Family planning,Emergency_contraception,0
+Kericho,Family planning,SDM,0
+Kericho,Family planning,LAM,0.6
+Kericho,Family planning,Other,0
+Bomet,Family planning,Contraceptive_use_any_method,63.9
+Bomet,Family planning,Contraceptive_use_modern_method,57.8
+Bomet,Family planning,Female_sterilization,8.3
+Bomet,Family planning,Male_sterilization,0
+Bomet,Family planning,IUD,1.2
+Bomet,Family planning,Injectables,22.6
+Bomet,Family planning,Implants,21.3
+Bomet,Family planning,Pill,2.2
+Bomet,Family planning,Male_condom,0.7
+Bomet,Family planning,Female_condom,0
+Bomet,Family planning,Emergency_contraception,0.6
+Bomet,Family planning,SDM,0
+Bomet,Family planning,LAM,0.8
+Bomet,Family planning,Other,0
+Kakamega,Family planning,Contraceptive_use_any_method,66.7
+Kakamega,Family planning,Contraceptive_use_modern_method,63.4
+Kakamega,Family planning,Female_sterilization,4.1
+Kakamega,Family planning,Male_sterilization,0
+Kakamega,Family planning,IUD,2.9
+Kakamega,Family planning,Injectables,25
+Kakamega,Family planning,Implants,26.4
+Kakamega,Family planning,Pill,2.8
+Kakamega,Family planning,Male_condom,1.6
+Kakamega,Family planning,Female_condom,0
+Kakamega,Family planning,Emergency_contraception,0
+Kakamega,Family planning,SDM,0.3
+Kakamega,Family planning,LAM,0
+Kakamega,Family planning,Other,0.2
+Vihiga,Family planning,Contraceptive_use_any_method,62.4
+Vihiga,Family planning,Contraceptive_use_modern_method,60.1
+Vihiga,Family planning,Female_sterilization,3.3
+Vihiga,Family planning,Male_sterilization,0
+Vihiga,Family planning,IUD,2.1
+Vihiga,Family planning,Injectables,15.1
+Vihiga,Family planning,Implants,34.6
+Vihiga,Family planning,Pill,4.1
+Vihiga,Family planning,Male_condom,0.8
+Vihiga,Family planning,Female_condom,0
+Vihiga,Family planning,Emergency_contraception,0
+Vihiga,Family planning,SDM,0
+Vihiga,Family planning,LAM,0
+Vihiga,Family planning,Other,0
+Bungoma,Family planning,Contraceptive_use_any_method,66
+Bungoma,Family planning,Contraceptive_use_modern_method,63.7
+Bungoma,Family planning,Female_sterilization,3.4
+Bungoma,Family planning,Male_sterilization,0.3
+Bungoma,Family planning,IUD,1.7
+Bungoma,Family planning,Injectables,23.4
+Bungoma,Family planning,Implants,26.8
+Bungoma,Family planning,Pill,4.3
+Bungoma,Family planning,Male_condom,1.4
+Bungoma,Family planning,Female_condom,0.3
+Bungoma,Family planning,Emergency_contraception,0.3
+Bungoma,Family planning,SDM,1.6
+Bungoma,Family planning,LAM,0.3
+Bungoma,Family planning,Other,0
+Busia,Family planning,Contraceptive_use_any_method,56.4
+Busia,Family planning,Contraceptive_use_modern_method,55.4
+Busia,Family planning,Female_sterilization,5.1
+Busia,Family planning,Male_sterilization,0.3
+Busia,Family planning,IUD,3.2
+Busia,Family planning,Injectables,14.1
+Busia,Family planning,Implants,27.6
+Busia,Family planning,Pill,1.4
+Busia,Family planning,Male_condom,2.4
+Busia,Family planning,Female_condom,0
+Busia,Family planning,Emergency_contraception,0.3
+Busia,Family planning,SDM,0.4
+Busia,Family planning,LAM,0.6
+Busia,Family planning,Other,0
+Siaya,Family planning,Contraceptive_use_any_method,43.5
+Siaya,Family planning,Contraceptive_use_modern_method,42.9
+Siaya,Family planning,Female_sterilization,2.2
+Siaya,Family planning,Male_sterilization,0
+Siaya,Family planning,IUD,0.5
+Siaya,Family planning,Injectables,15.6
+Siaya,Family planning,Implants,17
+Siaya,Family planning,Pill,3.7
+Siaya,Family planning,Male_condom,3.6
+Siaya,Family planning,Female_condom,0
+Siaya,Family planning,Emergency_contraception,0.3
+Siaya,Family planning,SDM,0
+Siaya,Family planning,LAM,0
+Siaya,Family planning,Other,0
+Kisumu,Family planning,Contraceptive_use_any_method,60
+Kisumu,Family planning,Contraceptive_use_modern_method,56.6
+Kisumu,Family planning,Female_sterilization,0.7
+Kisumu,Family planning,Male_sterilization,0
+Kisumu,Family planning,IUD,1.7
+Kisumu,Family planning,Injectables,19.1
+Kisumu,Family planning,Implants,25
+Kisumu,Family planning,Pill,4.3
+Kisumu,Family planning,Male_condom,4
+Kisumu,Family planning,Female_condom,0
+Kisumu,Family planning,Emergency_contraception,0.3
+Kisumu,Family planning,SDM,0.8
+Kisumu,Family planning,LAM,0.6
+Kisumu,Family planning,Other,0
+Homa Bay,Family planning,Contraceptive_use_any_method,56.8
+Homa Bay,Family planning,Contraceptive_use_modern_method,54.3
+Homa Bay,Family planning,Female_sterilization,3.6
+Homa Bay,Family planning,Male_sterilization,0
+Homa Bay,Family planning,IUD,0.7
+Homa Bay,Family planning,Injectables,20.7
+Homa Bay,Family planning,Implants,20.9
+Homa Bay,Family planning,Pill,1.8
+Homa Bay,Family planning,Male_condom,6.6
+Homa Bay,Family planning,Female_condom,0
+Homa Bay,Family planning,Emergency_contraception,0
+Homa Bay,Family planning,SDM,0
+Homa Bay,Family planning,LAM,0
+Homa Bay,Family planning,Other,0
+Migori,Family planning,Contraceptive_use_any_method,60.2
+Migori,Family planning,Contraceptive_use_modern_method,54.7
+Migori,Family planning,Female_sterilization,2.5
+Migori,Family planning,Male_sterilization,0
+Migori,Family planning,IUD,2.1
+Migori,Family planning,Injectables,15.9
+Migori,Family planning,Implants,28
+Migori,Family planning,Pill,1.2
+Migori,Family planning,Male_condom,4.1
+Migori,Family planning,Female_condom,0.4
+Migori,Family planning,Emergency_contraception,0
+Migori,Family planning,SDM,0
+Migori,Family planning,LAM,0.3
+Migori,Family planning,Other,0
+Kisii,Family planning,Contraceptive_use_any_method,68.1
+Kisii,Family planning,Contraceptive_use_modern_method,63.5
+Kisii,Family planning,Female_sterilization,3.2
+Kisii,Family planning,Male_sterilization,0
+Kisii,Family planning,IUD,3.5
+Kisii,Family planning,Injectables,26.4
+Kisii,Family planning,Implants,19.9
+Kisii,Family planning,Pill,5.8
+Kisii,Family planning,Male_condom,1.4
+Kisii,Family planning,Female_condom,0
+Kisii,Family planning,Emergency_contraception,0.2
+Kisii,Family planning,SDM,2.1
+Kisii,Family planning,LAM,1.1
+Kisii,Family planning,Other,0
+Nyamira,Family planning,Contraceptive_use_any_method,67.9
+Nyamira,Family planning,Contraceptive_use_modern_method,64.8
+Nyamira,Family planning,Female_sterilization,5.3
+Nyamira,Family planning,Male_sterilization,0
+Nyamira,Family planning,IUD,1.8
+Nyamira,Family planning,Injectables,33.7
+Nyamira,Family planning,Implants,18.3
+Nyamira,Family planning,Pill,2.7
+Nyamira,Family planning,Male_condom,1.3
+Nyamira,Family planning,Female_condom,0
+Nyamira,Family planning,Emergency_contraception,0.3
+Nyamira,Family planning,SDM,0.6
+Nyamira,Family planning,LAM,0.7
+Nyamira,Family planning,Other,0
+Nairobi,Family planning,Contraceptive_use_any_method,62.5
+Nairobi,Family planning,Contraceptive_use_modern_method,56.2
+Nairobi,Family planning,Female_sterilization,1.3
+Nairobi,Family planning,Male_sterilization,0
+Nairobi,Family planning,IUD,6.3
+Nairobi,Family planning,Injectables,14.4
+Nairobi,Family planning,Implants,12.9
+Nairobi,Family planning,Pill,16.4
+Nairobi,Family planning,Male_condom,3.1
+Nairobi,Family planning,Female_condom,0
+Nairobi,Family planning,Emergency_contraception,1
+Nairobi,Family planning,SDM,0
+Nairobi,Family planning,LAM,0.8
+Nairobi,Family planning,Other,0
+Mombasa,Teenage Pregnancy,Live birth,5.4
+Mombasa,Teenage Pregnancy,Pregnancy loss,1
+Mombasa,Teenage Pregnancy,Currently pregnant,2.9
+Mombasa,Teenage Pregnancy,Ever pregnant,10.8
+Kwale,Teenage Pregnancy,Live birth,11.5
+Kwale,Teenage Pregnancy,Pregnancy loss,2.9
+Kwale,Teenage Pregnancy,Currently pregnant,3.7
+Kwale,Teenage Pregnancy,Ever pregnant,14.8
+Kilifi,Teenage Pregnancy,Live birth,10.3
+Kilifi,Teenage Pregnancy,Pregnancy loss,1.3
+Kilifi,Teenage Pregnancy,Currently pregnant,3.8
+Kilifi,Teenage Pregnancy,Ever pregnant,12.5
+Tana River,Teenage Pregnancy,Live birth,12.4
+Tana River,Teenage Pregnancy,Pregnancy loss,1.4
+Tana River,Teenage Pregnancy,Currently pregnant,5.2
+Tana River,Teenage Pregnancy,Ever pregnant,17.6
+Lamu,Teenage Pregnancy,Live birth,11.5
+Lamu,Teenage Pregnancy,Pregnancy loss,0.8
+Lamu,Teenage Pregnancy,Currently pregnant,1.9
+Lamu,Teenage Pregnancy,Ever pregnant,13.7
+Taita Taveta,Teenage Pregnancy,Live birth,18.4
+Taita Taveta,Teenage Pregnancy,Pregnancy loss,1.8
+Taita Taveta,Teenage Pregnancy,Currently pregnant,1.8
+Taita Taveta,Teenage Pregnancy,Ever pregnant,18.4
+Garissa,Teenage Pregnancy,Live birth,11.6
+Garissa,Teenage Pregnancy,Pregnancy loss,0.2
+Garissa,Teenage Pregnancy,Currently pregnant,4.2
+Garissa,Teenage Pregnancy,Ever pregnant,14.8
+Wajir,Teenage Pregnancy,Live birth,7.5
+Wajir,Teenage Pregnancy,Pregnancy loss,0.5
+Wajir,Teenage Pregnancy,Currently pregnant,5.9
+Wajir,Teenage Pregnancy,Ever pregnant,10.8
+Mandera,Teenage Pregnancy,Live birth,11.4
+Mandera,Teenage Pregnancy,Pregnancy loss,0.4
+Mandera,Teenage Pregnancy,Currently pregnant,3
+Mandera,Teenage Pregnancy,Ever pregnant,14.6
+Marsabit,Teenage Pregnancy,Live birth,20.6
+Marsabit,Teenage Pregnancy,Pregnancy loss,5.2
+Marsabit,Teenage Pregnancy,Currently pregnant,9
+Marsabit,Teenage Pregnancy,Ever pregnant,29.4
+Isiolo,Teenage Pregnancy,Live birth,13.6
+Isiolo,Teenage Pregnancy,Pregnancy loss,0.4
+Isiolo,Teenage Pregnancy,Currently pregnant,3.1
+Isiolo,Teenage Pregnancy,Ever pregnant,16.7
+Meru,Teenage Pregnancy,Live birth,16.9
+Meru,Teenage Pregnancy,Pregnancy loss,1
+Meru,Teenage Pregnancy,Currently pregnant,7.6
+Meru,Teenage Pregnancy,Ever pregnant,23.6
+Tharaka Nithi,Teenage Pregnancy,Live birth,9.1
+Tharaka Nithi,Teenage Pregnancy,Pregnancy loss,0
+Tharaka Nithi,Teenage Pregnancy,Currently pregnant,0.8
+Tharaka Nithi,Teenage Pregnancy,Ever pregnant,9.9
+Embu,Teenage Pregnancy,Live birth,9.1
+Embu,Teenage Pregnancy,Pregnancy loss,0.4
+Embu,Teenage Pregnancy,Currently pregnant,4.9
+Embu,Teenage Pregnancy,Ever pregnant,14.4
+Kitui,Teenage Pregnancy,Live birth,9.2
+Kitui,Teenage Pregnancy,Pregnancy loss,0
+Kitui,Teenage Pregnancy,Currently pregnant,0
+Kitui,Teenage Pregnancy,Ever pregnant,9.2
+Machakos,Teenage Pregnancy,Live birth,9.5
+Machakos,Teenage Pregnancy,Pregnancy loss,0
+Machakos,Teenage Pregnancy,Currently pregnant,1.7
+Machakos,Teenage Pregnancy,Ever pregnant,11.3
+Makueni,Teenage Pregnancy,Live birth,8.2
+Makueni,Teenage Pregnancy,Pregnancy loss,0
+Makueni,Teenage Pregnancy,Currently pregnant,2.9
+Makueni,Teenage Pregnancy,Ever pregnant,11.1
+Nyandarua,Teenage Pregnancy,Live birth,4.3
+Nyandarua,Teenage Pregnancy,Pregnancy loss,0.2
+Nyandarua,Teenage Pregnancy,Currently pregnant,1.5
+Nyandarua,Teenage Pregnancy,Ever pregnant,5.2
+Nyeri,Teenage Pregnancy,Live birth,4.5
+Nyeri,Teenage Pregnancy,Pregnancy loss,0
+Nyeri,Teenage Pregnancy,Currently pregnant,0
+Nyeri,Teenage Pregnancy,Ever pregnant,4.5
+Kirinyaga,Teenage Pregnancy,Live birth,7.3
+Kirinyaga,Teenage Pregnancy,Pregnancy loss,0
+Kirinyaga,Teenage Pregnancy,Currently pregnant,0
+Kirinyaga,Teenage Pregnancy,Ever pregnant,7.3
+Muranga,Teenage Pregnancy,Live birth,3.8
+Muranga,Teenage Pregnancy,Pregnancy loss,0
+Muranga,Teenage Pregnancy,Currently pregnant,3.6
+Muranga,Teenage Pregnancy,Ever pregnant,7.4
+Kiambu,Teenage Pregnancy,Live birth,8.3
+Kiambu,Teenage Pregnancy,Pregnancy loss,0
+Kiambu,Teenage Pregnancy,Currently pregnant,3.6
+Kiambu,Teenage Pregnancy,Ever pregnant,11.9
+Turkana,Teenage Pregnancy,Live birth,15
+Turkana,Teenage Pregnancy,Pregnancy loss,0
+Turkana,Teenage Pregnancy,Currently pregnant,4.4
+Turkana,Teenage Pregnancy,Ever pregnant,18.5
+West Pokot,Teenage Pregnancy,Live birth,32.2
+West Pokot,Teenage Pregnancy,Pregnancy loss,2.7
+West Pokot,Teenage Pregnancy,Currently pregnant,6.1
+West Pokot,Teenage Pregnancy,Ever pregnant,36.3
+Samburu,Teenage Pregnancy,Live birth,41.5
+Samburu,Teenage Pregnancy,Pregnancy loss,5.2
+Samburu,Teenage Pregnancy,Currently pregnant,8.7
+Samburu,Teenage Pregnancy,Ever pregnant,50.1
+Trans Nzoia,Teenage Pregnancy,Live birth,14.8
+Trans Nzoia,Teenage Pregnancy,Pregnancy loss,1.9
+Trans Nzoia,Teenage Pregnancy,Currently pregnant,2.6
+Trans Nzoia,Teenage Pregnancy,Ever pregnant,17.8
+Uasin Gishu,Teenage Pregnancy,Live birth,7.9
+Uasin Gishu,Teenage Pregnancy,Pregnancy loss,1.9
+Uasin Gishu,Teenage Pregnancy,Currently pregnant,5.3
+Uasin Gishu,Teenage Pregnancy,Ever pregnant,10.7
+Elgeyo Marakwet,Teenage Pregnancy,Live birth,9.6
+Elgeyo Marakwet,Teenage Pregnancy,Pregnancy loss,1.4
+Elgeyo Marakwet,Teenage Pregnancy,Currently pregnant,2.5
+Elgeyo Marakwet,Teenage Pregnancy,Ever pregnant,12.1
+Nandi,Teenage Pregnancy,Live birth,9.7
+Nandi,Teenage Pregnancy,Pregnancy loss,0.8
+Nandi,Teenage Pregnancy,Currently pregnant,0
+Nandi,Teenage Pregnancy,Ever pregnant,10.5
+Baringo,Teenage Pregnancy,Live birth,14
+Baringo,Teenage Pregnancy,Pregnancy loss,1.5
+Baringo,Teenage Pregnancy,Currently pregnant,6.3
+Baringo,Teenage Pregnancy,Ever pregnant,20.3
+Laikipia,Teenage Pregnancy,Live birth,8.6
+Laikipia,Teenage Pregnancy,Pregnancy loss,0.6
+Laikipia,Teenage Pregnancy,Currently pregnant,1.3
+Laikipia,Teenage Pregnancy,Ever pregnant,9.1
+Nakuru,Teenage Pregnancy,Live birth,13.6
+Nakuru,Teenage Pregnancy,Pregnancy loss,0.8
+Nakuru,Teenage Pregnancy,Currently pregnant,3.7
+Nakuru,Teenage Pregnancy,Ever pregnant,17.3
+Narok,Teenage Pregnancy,Live birth,25.9
+Narok,Teenage Pregnancy,Pregnancy loss,2.5
+Narok,Teenage Pregnancy,Currently pregnant,3
+Narok,Teenage Pregnancy,Ever pregnant,28.1
+Kajiado,Teenage Pregnancy,Live birth,20.3
+Kajiado,Teenage Pregnancy,Pregnancy loss,0
+Kajiado,Teenage Pregnancy,Currently pregnant,3
+Kajiado,Teenage Pregnancy,Ever pregnant,21.8
+Kericho,Teenage Pregnancy,Live birth,14.5
+Kericho,Teenage Pregnancy,Pregnancy loss,0
+Kericho,Teenage Pregnancy,Currently pregnant,0
+Kericho,Teenage Pregnancy,Ever pregnant,14.5
+Bomet,Teenage Pregnancy,Live birth,7.2
+Bomet,Teenage Pregnancy,Pregnancy loss,1.2
+Bomet,Teenage Pregnancy,Currently pregnant,1.2
+Bomet,Teenage Pregnancy,Ever pregnant,9
+Kakamega,Teenage Pregnancy,Live birth,12.3
+Kakamega,Teenage Pregnancy,Pregnancy loss,0.5
+Kakamega,Teenage Pregnancy,Currently pregnant,2.8
+Kakamega,Teenage Pregnancy,Ever pregnant,15.1
+Vihiga,Teenage Pregnancy,Live birth,3.9
+Vihiga,Teenage Pregnancy,Pregnancy loss,0
+Vihiga,Teenage Pregnancy,Currently pregnant,4.6
+Vihiga,Teenage Pregnancy,Ever pregnant,7.7
+Bungoma,Teenage Pregnancy,Live birth,14.8
+Bungoma,Teenage Pregnancy,Pregnancy loss,1.8
+Bungoma,Teenage Pregnancy,Currently pregnant,4.2
+Bungoma,Teenage Pregnancy,Ever pregnant,18.6
+Busia,Teenage Pregnancy,Live birth,13.1
+Busia,Teenage Pregnancy,Pregnancy loss,2.9
+Busia,Teenage Pregnancy,Currently pregnant,3
+Busia,Teenage Pregnancy,Ever pregnant,18.3
+Siaya,Teenage Pregnancy,Live birth,18.4
+Siaya,Teenage Pregnancy,Pregnancy loss,0.5
+Siaya,Teenage Pregnancy,Currently pregnant,3.3
+Siaya,Teenage Pregnancy,Ever pregnant,20.9
+Kisumu,Teenage Pregnancy,Live birth,9.2
+Kisumu,Teenage Pregnancy,Pregnancy loss,0
+Kisumu,Teenage Pregnancy,Currently pregnant,3.8
+Kisumu,Teenage Pregnancy,Ever pregnant,11.1
+Homa Bay,Teenage Pregnancy,Live birth,18.7
+Homa Bay,Teenage Pregnancy,Pregnancy loss,2.6
+Homa Bay,Teenage Pregnancy,Currently pregnant,2.9
+Homa Bay,Teenage Pregnancy,Ever pregnant,23.2
+Migori,Teenage Pregnancy,Live birth,20.4
+Migori,Teenage Pregnancy,Pregnancy loss,0.6
+Migori,Teenage Pregnancy,Currently pregnant,4
+Migori,Teenage Pregnancy,Ever pregnant,23
+Kisii,Teenage Pregnancy,Live birth,13.7
+Kisii,Teenage Pregnancy,Pregnancy loss,0.4
+Kisii,Teenage Pregnancy,Currently pregnant,1.5
+Kisii,Teenage Pregnancy,Ever pregnant,14.2
+Nyamira,Teenage Pregnancy,Live birth,14.7
+Nyamira,Teenage Pregnancy,Pregnancy loss,0
+Nyamira,Teenage Pregnancy,Currently pregnant,1.5
+Nyamira,Teenage Pregnancy,Ever pregnant,15.5
+Nairobi,Teenage Pregnancy,Live birth,8
+Nairobi,Teenage Pregnancy,Pregnancy loss,0
+Nairobi,Teenage Pregnancy,Currently pregnant,0.4
+Nairobi,Teenage Pregnancy,Ever pregnant,8.4
+Mombasa,Violence,Percentage who have experienced physical violence since age 15,24.5
+Mombasa,Violence,Often,2.1
+Mombasa,Violence,Sometimes,9.4
+Mombasa,Violence,Often or sometimes,11.5
+Kwale,Violence,Percentage who have experienced physical violence since age 15,13.1
+Kwale,Violence,Often,3
+Kwale,Violence,Sometimes,8.3
+Kwale,Violence,Often or sometimes,11.3
+Kilifi,Violence,Percentage who have experienced physical violence since age 15,20.1
+Kilifi,Violence,Often,1.6
+Kilifi,Violence,Sometimes,5.9
+Kilifi,Violence,Often or sometimes,8.3
+Tana River,Violence,Percentage who have experienced physical violence since age 15,35.8
+Tana River,Violence,Often,1.5
+Tana River,Violence,Sometimes,21.8
+Tana River,Violence,Often or sometimes,23.2
+Lamu,Violence,Percentage who have experienced physical violence since age 15,33.9
+Lamu,Violence,Often,4.3
+Lamu,Violence,Sometimes,7.7
+Lamu,Violence,Often or sometimes,12
+Taita Taveta,Violence,Percentage who have experienced physical violence since age 15,29.5
+Taita Taveta,Violence,Often,2.1
+Taita Taveta,Violence,Sometimes,5.4
+Taita Taveta,Violence,Often or sometimes,7.4
+Garissa,Violence,Percentage who have experienced physical violence since age 15,21
+Garissa,Violence,Often,6.4
+Garissa,Violence,Sometimes,6.4
+Garissa,Violence,Often or sometimes,12.8
+Wajir,Violence,Percentage who have experienced physical violence since age 15,13.2
+Wajir,Violence,Often,1.4
+Wajir,Violence,Sometimes,4.1
+Wajir,Violence,Often or sometimes,5.5
+Mandera,Violence,Percentage who have experienced physical violence since age 15,8.6
+Mandera,Violence,Often,0.7
+Mandera,Violence,Sometimes,2.6
+Mandera,Violence,Often or sometimes,3.3
+Marsabit,Violence,Percentage who have experienced physical violence since age 15,16.4
+Marsabit,Violence,Often,1.7
+Marsabit,Violence,Sometimes,12.3
+Marsabit,Violence,Often or sometimes,14.2
+Isiolo,Violence,Percentage who have experienced physical violence since age 15,45.6
+Isiolo,Violence,Often,9.8
+Isiolo,Violence,Sometimes,19.5
+Isiolo,Violence,Often or sometimes,29.3
+Meru,Violence,Percentage who have experienced physical violence since age 15,35.8
+Meru,Violence,Often,4.9
+Meru,Violence,Sometimes,10.2
+Meru,Violence,Often or sometimes,15.1
+Tharaka Nithi,Violence,Percentage who have experienced physical violence since age 15,34.6
+Tharaka Nithi,Violence,Often,2.8
+Tharaka Nithi,Violence,Sometimes,11
+Tharaka Nithi,Violence,Often or sometimes,13.9
+Embu,Violence,Percentage who have experienced physical violence since age 15,40.3
+Embu,Violence,Often,5.6
+Embu,Violence,Sometimes,22.1
+Embu,Violence,Often or sometimes,27.7
+Kitui,Violence,Percentage who have experienced physical violence since age 15,11.5
+Kitui,Violence,Often,0.5
+Kitui,Violence,Sometimes,4.1
+Kitui,Violence,Often or sometimes,4.7
+Machakos,Violence,Percentage who have experienced physical violence since age 15,25.7
+Machakos,Violence,Often,2.8
+Machakos,Violence,Sometimes,7.4
+Machakos,Violence,Often or sometimes,10.1
+Makueni,Violence,Percentage who have experienced physical violence since age 15,22.7
+Makueni,Violence,Often,2.2
+Makueni,Violence,Sometimes,9.7
+Makueni,Violence,Often or sometimes,11.9
+Nyandarua,Violence,Percentage who have experienced physical violence since age 15,24.3
+Nyandarua,Violence,Often,1.4
+Nyandarua,Violence,Sometimes,3.6
+Nyandarua,Violence,Often or sometimes,5
+Nyeri,Violence,Percentage who have experienced physical violence since age 15,36.9
+Nyeri,Violence,Often,3.1
+Nyeri,Violence,Sometimes,11.7
+Nyeri,Violence,Often or sometimes,15.4
+Kirinyaga,Violence,Percentage who have experienced physical violence since age 15,39.6
+Kirinyaga,Violence,Often,1.2
+Kirinyaga,Violence,Sometimes,10.4
+Kirinyaga,Violence,Often or sometimes,12.5
+Muranga,Violence,Percentage who have experienced physical violence since age 15,53.7
+Muranga,Violence,Often,6.3
+Muranga,Violence,Sometimes,15.7
+Muranga,Violence,Often or sometimes,22
+Kiambu,Violence,Percentage who have experienced physical violence since age 15,41.7
+Kiambu,Violence,Often,5.6
+Kiambu,Violence,Sometimes,12.2
+Kiambu,Violence,Often or sometimes,17.9
+Turkana,Violence,Percentage who have experienced physical violence since age 15,42.4
+Turkana,Violence,Often,5
+Turkana,Violence,Sometimes,14.9
+Turkana,Violence,Often or sometimes,19.9
+West Pokot,Violence,Percentage who have experienced physical violence since age 15,27.1
+West Pokot,Violence,Often,4.2
+West Pokot,Violence,Sometimes,14.8
+West Pokot,Violence,Often or sometimes,19.1
+Samburu,Violence,Percentage who have experienced physical violence since age 15,48.6
+Samburu,Violence,Often,9.7
+Samburu,Violence,Sometimes,18.7
+Samburu,Violence,Often or sometimes,28.5
+Trans Nzoia,Violence,Percentage who have experienced physical violence since age 15,40.8
+Trans Nzoia,Violence,Often,5
+Trans Nzoia,Violence,Sometimes,12.2
+Trans Nzoia,Violence,Often or sometimes,17.2
+Uasin Gishu,Violence,Percentage who have experienced physical violence since age 15,41.9
+Uasin Gishu,Violence,Often,2.3
+Uasin Gishu,Violence,Sometimes,9.7
+Uasin Gishu,Violence,Often or sometimes,12.4
+Elgeyo Marakwet,Violence,Percentage who have experienced physical violence since age 15,30.2
+Elgeyo Marakwet,Violence,Often,1.7
+Elgeyo Marakwet,Violence,Sometimes,14.2
+Elgeyo Marakwet,Violence,Often or sometimes,15.9
+Nandi,Violence,Percentage who have experienced physical violence since age 15,39.4
+Nandi,Violence,Often,2.5
+Nandi,Violence,Sometimes,12.5
+Nandi,Violence,Often or sometimes,15
+Baringo,Violence,Percentage who have experienced physical violence since age 15,37.9
+Baringo,Violence,Often,8.5
+Baringo,Violence,Sometimes,10.3
+Baringo,Violence,Often or sometimes,19.6
+Laikipia,Violence,Percentage who have experienced physical violence since age 15,34.5
+Laikipia,Violence,Often,2.9
+Laikipia,Violence,Sometimes,8.8
+Laikipia,Violence,Often or sometimes,11.7
+Nakuru,Violence,Percentage who have experienced physical violence since age 15,23.5
+Nakuru,Violence,Often,1.2
+Nakuru,Violence,Sometimes,8.2
+Nakuru,Violence,Often or sometimes,9.4
+Narok,Violence,Percentage who have experienced physical violence since age 15,40.5
+Narok,Violence,Often,3.6
+Narok,Violence,Sometimes,12.6
+Narok,Violence,Often or sometimes,16.3
+Kajiado,Violence,Percentage who have experienced physical violence since age 15,36.1
+Kajiado,Violence,Often,5.6
+Kajiado,Violence,Sometimes,11
+Kajiado,Violence,Often or sometimes,17
+Kericho,Violence,Percentage who have experienced physical violence since age 15,16.3
+Kericho,Violence,Often,2.1
+Kericho,Violence,Sometimes,8
+Kericho,Violence,Often or sometimes,10.2
+Bomet,Violence,Percentage who have experienced physical violence since age 15,32.8
+Bomet,Violence,Often,1.6
+Bomet,Violence,Sometimes,9.1
+Bomet,Violence,Often or sometimes,10.7
+Kakamega,Violence,Percentage who have experienced physical violence since age 15,40.1
+Kakamega,Violence,Often,3.5
+Kakamega,Violence,Sometimes,15.5
+Kakamega,Violence,Often or sometimes,19.1
+Vihiga,Violence,Percentage who have experienced physical violence since age 15,33.8
+Vihiga,Violence,Often,3.1
+Vihiga,Violence,Sometimes,13.9
+Vihiga,Violence,Often or sometimes,17.1
+Bungoma,Violence,Percentage who have experienced physical violence since age 15,62.2
+Bungoma,Violence,Often,4
+Bungoma,Violence,Sometimes,24.8
+Bungoma,Violence,Often or sometimes,29.4
+Busia,Violence,Percentage who have experienced physical violence since age 15,38.4
+Busia,Violence,Often,6.5
+Busia,Violence,Sometimes,14.6
+Busia,Violence,Often or sometimes,21.1
+Siaya,Violence,Percentage who have experienced physical violence since age 15,23.6
+Siaya,Violence,Often,2.1
+Siaya,Violence,Sometimes,14.8
+Siaya,Violence,Often or sometimes,16.9
+Kisumu,Violence,Percentage who have experienced physical violence since age 15,36
+Kisumu,Violence,Often,1.7
+Kisumu,Violence,Sometimes,24.1
+Kisumu,Violence,Often or sometimes,26
+Homa Bay,Violence,Percentage who have experienced physical violence since age 15,53.5
+Homa Bay,Violence,Often,6.9
+Homa Bay,Violence,Sometimes,19.7
+Homa Bay,Violence,Often or sometimes,26.6
+Migori,Violence,Percentage who have experienced physical violence since age 15,51.1
+Migori,Violence,Often,4.7
+Migori,Violence,Sometimes,24.7
+Migori,Violence,Often or sometimes,29.5
+Kisii,Violence,Percentage who have experienced physical violence since age 15,35.7
+Kisii,Violence,Often,4.9
+Kisii,Violence,Sometimes,14.8
+Kisii,Violence,Often or sometimes,19.8
+Nyamira,Violence,Percentage who have experienced physical violence since age 15,33.3
+Nyamira,Violence,Often,1.8
+Nyamira,Violence,Sometimes,7.1
+Nyamira,Violence,Often or sometimes,11.3
+Nairobi,Violence,Percentage who have experienced physical violence since age 15,29.7
+Nairobi,Violence,Often,3.6
+Nairobi,Violence,Sometimes,9.9
+Nairobi,Violence,Often or sometimes,13.5
+Mombasa,Maternal Care,ANC from a skilled provider,99.4
+Mombasa,Maternal Care,At least four ANC visits,65.3
+Mombasa,Maternal Care,Took iron supplements,94.1
+Mombasa,Maternal Care,Neonatal tetanus,62.3
+Mombasa,Maternal Care,Skilled delivery,95.5
+Mombasa,Maternal Care,Health facility delivery,94.1
+Mombasa,Maternal Care,Postnatal check,75
+Kwale,Maternal Care,ANC from a skilled provider,99.3
+Kwale,Maternal Care,At least four ANC visits,71.9
+Kwale,Maternal Care,Took iron supplements,96.2
+Kwale,Maternal Care,Neonatal tetanus,75.2
+Kwale,Maternal Care,Skilled delivery,89.3
+Kwale,Maternal Care,Health facility delivery,84.1
+Kwale,Maternal Care,Postnatal check,89.7
+Kilifi,Maternal Care,ANC from a skilled provider,99.3
+Kilifi,Maternal Care,At least four ANC visits,77.3
+Kilifi,Maternal Care,Took iron supplements,95.1
+Kilifi,Maternal Care,Neonatal tetanus,71
+Kilifi,Maternal Care,Skilled delivery,84.5
+Kilifi,Maternal Care,Health facility delivery,83.8
+Kilifi,Maternal Care,Postnatal check,82.5
+Tana River,Maternal Care,ANC from a skilled provider,95.3
+Tana River,Maternal Care,At least four ANC visits,61.2
+Tana River,Maternal Care,Took iron supplements,86.6
+Tana River,Maternal Care,Neonatal tetanus,62.2
+Tana River,Maternal Care,Skilled delivery,59.2
+Tana River,Maternal Care,Health facility delivery,51.1
+Tana River,Maternal Care,Postnatal check,59.4
+Lamu,Maternal Care,ANC from a skilled provider,97.9
+Lamu,Maternal Care,At least four ANC visits,70.5
+Lamu,Maternal Care,Took iron supplements,87.1
+Lamu,Maternal Care,Neonatal tetanus,81.8
+Lamu,Maternal Care,Skilled delivery,92.5
+Lamu,Maternal Care,Health facility delivery,90.3
+Lamu,Maternal Care,Postnatal check,87.5
+Taita Taveta,Maternal Care,ANC from a skilled provider,100
+Taita Taveta,Maternal Care,At least four ANC visits,64.9
+Taita Taveta,Maternal Care,Took iron supplements,92.8
+Taita Taveta,Maternal Care,Neonatal tetanus,91.3
+Taita Taveta,Maternal Care,Skilled delivery,95.7
+Taita Taveta,Maternal Care,Health facility delivery,93.3
+Taita Taveta,Maternal Care,Postnatal check,86.7
+Garissa,Maternal Care,ANC from a skilled provider,77.5
+Garissa,Maternal Care,At least four ANC visits,31.2
+Garissa,Maternal Care,Took iron supplements,48
+Garissa,Maternal Care,Neonatal tetanus,57.2
+Garissa,Maternal Care,Skilled delivery,68.1
+Garissa,Maternal Care,Health facility delivery,61.4
+Garissa,Maternal Care,Postnatal check,45.4
+Wajir,Maternal Care,ANC from a skilled provider,84
+Wajir,Maternal Care,At least four ANC visits,44.9
+Wajir,Maternal Care,Took iron supplements,72
+Wajir,Maternal Care,Neonatal tetanus,60.7
+Wajir,Maternal Care,Skilled delivery,56.6
+Wajir,Maternal Care,Health facility delivery,53.6
+Wajir,Maternal Care,Postnatal check,37
+Mandera,Maternal Care,ANC from a skilled provider,76.4
+Mandera,Maternal Care,At least four ANC visits,40.4
+Mandera,Maternal Care,Took iron supplements,61.4
+Mandera,Maternal Care,Neonatal tetanus,53.6
+Mandera,Maternal Care,Skilled delivery,54.7
+Mandera,Maternal Care,Health facility delivery,50.4
+Mandera,Maternal Care,Postnatal check,45.7
+Marsabit,Maternal Care,ANC from a skilled provider,93.8
+Marsabit,Maternal Care,At least four ANC visits,67.1
+Marsabit,Maternal Care,Took iron supplements,87
+Marsabit,Maternal Care,Neonatal tetanus,67
+Marsabit,Maternal Care,Skilled delivery,68.7
+Marsabit,Maternal Care,Health facility delivery,59.3
+Marsabit,Maternal Care,Postnatal check,40.6
+Isiolo,Maternal Care,ANC from a skilled provider,99.3
+Isiolo,Maternal Care,At least four ANC visits,52.9
+Isiolo,Maternal Care,Took iron supplements,84.7
+Isiolo,Maternal Care,Neonatal tetanus,77.8
+Isiolo,Maternal Care,Skilled delivery,85
+Isiolo,Maternal Care,Health facility delivery,83.7
+Isiolo,Maternal Care,Postnatal check,75.1
+Meru,Maternal Care,ANC from a skilled provider,99.2
+Meru,Maternal Care,At least four ANC visits,45
+Meru,Maternal Care,Took iron supplements,83.7
+Meru,Maternal Care,Neonatal tetanus,69.4
+Meru,Maternal Care,Skilled delivery,90.9
+Meru,Maternal Care,Health facility delivery,71.6
+Meru,Maternal Care,Postnatal check,41.3
+Tharaka Nithi,Maternal Care,ANC from a skilled provider,98
+Tharaka Nithi,Maternal Care,At least four ANC visits,63.2
+Tharaka Nithi,Maternal Care,Took iron supplements,93.3
+Tharaka Nithi,Maternal Care,Neonatal tetanus,79.9
+Tharaka Nithi,Maternal Care,Skilled delivery,95.1
+Tharaka Nithi,Maternal Care,Health facility delivery,74.9
+Tharaka Nithi,Maternal Care,Postnatal check,66
+Embu,Maternal Care,ANC from a skilled provider,100
+Embu,Maternal Care,At least four ANC visits,62
+Embu,Maternal Care,Took iron supplements,88.2
+Embu,Maternal Care,Neonatal tetanus,89.6
+Embu,Maternal Care,Skilled delivery,96.3
+Embu,Maternal Care,Health facility delivery,86.3
+Embu,Maternal Care,Postnatal check,85.9
+Kitui,Maternal Care,ANC from a skilled provider,94.1
+Kitui,Maternal Care,At least four ANC visits,68.2
+Kitui,Maternal Care,Took iron supplements,88.6
+Kitui,Maternal Care,Neonatal tetanus,65.7
+Kitui,Maternal Care,Skilled delivery,86
+Kitui,Maternal Care,Health facility delivery,76.2
+Kitui,Maternal Care,Postnatal check,75.4
+Machakos,Maternal Care,ANC from a skilled provider,98
+Machakos,Maternal Care,At least four ANC visits,76.9
+Machakos,Maternal Care,Took iron supplements,92.5
+Machakos,Maternal Care,Neonatal tetanus,64.2
+Machakos,Maternal Care,Skilled delivery,95.3
+Machakos,Maternal Care,Health facility delivery,93.1
+Machakos,Maternal Care,Postnatal check,90.1
+Makueni,Maternal Care,ANC from a skilled provider,99.1
+Makueni,Maternal Care,At least four ANC visits,75.7
+Makueni,Maternal Care,Took iron supplements,93.1
+Makueni,Maternal Care,Neonatal tetanus,83.5
+Makueni,Maternal Care,Skilled delivery,92.1
+Makueni,Maternal Care,Health facility delivery,88.1
+Makueni,Maternal Care,Postnatal check,83.8
+Nyandarua,Maternal Care,ANC from a skilled provider,98.3
+Nyandarua,Maternal Care,At least four ANC visits,60.6
+Nyandarua,Maternal Care,Took iron supplements,92.2
+Nyandarua,Maternal Care,Neonatal tetanus,75.8
+Nyandarua,Maternal Care,Skilled delivery,98
+Nyandarua,Maternal Care,Health facility delivery,95.3
+Nyandarua,Maternal Care,Postnatal check,80.1
+Nyeri,Maternal Care,ANC from a skilled provider,97.3
+Nyeri,Maternal Care,At least four ANC visits,82.2
+Nyeri,Maternal Care,Took iron supplements,90.6
+Nyeri,Maternal Care,Neonatal tetanus,73.7
+Nyeri,Maternal Care,Skilled delivery,99.1
+Nyeri,Maternal Care,Health facility delivery,99.1
+Nyeri,Maternal Care,Postnatal check,80.4
+Kirinyaga,Maternal Care,ANC from a skilled provider,100
+Kirinyaga,Maternal Care,At least four ANC visits,67.6
+Kirinyaga,Maternal Care,Took iron supplements,92.7
+Kirinyaga,Maternal Care,Neonatal tetanus,64.6
+Kirinyaga,Maternal Care,Skilled delivery,97.3
+Kirinyaga,Maternal Care,Health facility delivery,91.6
+Kirinyaga,Maternal Care,Postnatal check,88.3
+Muranga,Maternal Care,ANC from a skilled provider,100
+Muranga,Maternal Care,At least four ANC visits,58.3
+Muranga,Maternal Care,Took iron supplements,90.9
+Muranga,Maternal Care,Neonatal tetanus,86
+Muranga,Maternal Care,Skilled delivery,96.2
+Muranga,Maternal Care,Health facility delivery,83.9
+Muranga,Maternal Care,Postnatal check,77.6
+Kiambu,Maternal Care,ANC from a skilled provider,98.4
+Kiambu,Maternal Care,At least four ANC visits,66.8
+Kiambu,Maternal Care,Took iron supplements,93.2
+Kiambu,Maternal Care,Neonatal tetanus,86.1
+Kiambu,Maternal Care,Skilled delivery,98.2
+Kiambu,Maternal Care,Health facility delivery,89.2
+Kiambu,Maternal Care,Postnatal check,83.1
+Turkana,Maternal Care,ANC from a skilled provider,99.5
+Turkana,Maternal Care,At least four ANC visits,57.7
+Turkana,Maternal Care,Took iron supplements,96.9
+Turkana,Maternal Care,Neonatal tetanus,86.4
+Turkana,Maternal Care,Skilled delivery,52.6
+Turkana,Maternal Care,Health facility delivery,43.2
+Turkana,Maternal Care,Postnatal check,52.1
+West Pokot,Maternal Care,ANC from a skilled provider,97.9
+West Pokot,Maternal Care,At least four ANC visits,35
+West Pokot,Maternal Care,Took iron supplements,87.2
+West Pokot,Maternal Care,Neonatal tetanus,70.6
+West Pokot,Maternal Care,Skilled delivery,65.3
+West Pokot,Maternal Care,Health facility delivery,55.5
+West Pokot,Maternal Care,Postnatal check,65.9
+Samburu,Maternal Care,ANC from a skilled provider,92.9
+Samburu,Maternal Care,At least four ANC visits,56.3
+Samburu,Maternal Care,Took iron supplements,84.5
+Samburu,Maternal Care,Neonatal tetanus,62.1
+Samburu,Maternal Care,Skilled delivery,56.6
+Samburu,Maternal Care,Health facility delivery,49.1
+Samburu,Maternal Care,Postnatal check,54.1
+Trans Nzoia,Maternal Care,ANC from a skilled provider,98.8
+Trans Nzoia,Maternal Care,At least four ANC visits,68.1
+Trans Nzoia,Maternal Care,Took iron supplements,92.9
+Trans Nzoia,Maternal Care,Neonatal tetanus,62.3
+Trans Nzoia,Maternal Care,Skilled delivery,93.3
+Trans Nzoia,Maternal Care,Health facility delivery,85.2
+Trans Nzoia,Maternal Care,Postnatal check,74.4
+Uasin Gishu,Maternal Care,ANC from a skilled provider,98.9
+Uasin Gishu,Maternal Care,At least four ANC visits,71.9
+Uasin Gishu,Maternal Care,Took iron supplements,93.5
+Uasin Gishu,Maternal Care,Neonatal tetanus,67.4
+Uasin Gishu,Maternal Care,Skilled delivery,95.3
+Uasin Gishu,Maternal Care,Health facility delivery,91
+Uasin Gishu,Maternal Care,Postnatal check,71.2
+Elgeyo Marakwet,Maternal Care,ANC from a skilled provider,99.3
+Elgeyo Marakwet,Maternal Care,At least four ANC visits,51.5
+Elgeyo Marakwet,Maternal Care,Took iron supplements,86
+Elgeyo Marakwet,Maternal Care,Neonatal tetanus,69.3
+Elgeyo Marakwet,Maternal Care,Skilled delivery,97.5
+Elgeyo Marakwet,Maternal Care,Health facility delivery,85.4
+Elgeyo Marakwet,Maternal Care,Postnatal check,78.2
+Nandi,Maternal Care,ANC from a skilled provider,97.6
+Nandi,Maternal Care,At least four ANC visits,62.1
+Nandi,Maternal Care,Took iron supplements,80.7
+Nandi,Maternal Care,Neonatal tetanus,75.7
+Nandi,Maternal Care,Skilled delivery,87.1
+Nandi,Maternal Care,Health facility delivery,80.9
+Nandi,Maternal Care,Postnatal check,63
+Baringo,Maternal Care,ANC from a skilled provider,99.3
+Baringo,Maternal Care,At least four ANC visits,49.4
+Baringo,Maternal Care,Took iron supplements,84.2
+Baringo,Maternal Care,Neonatal tetanus,76
+Baringo,Maternal Care,Skilled delivery,83
+Baringo,Maternal Care,Health facility delivery,58.1
+Baringo,Maternal Care,Postnatal check,61.7
+Laikipia,Maternal Care,ANC from a skilled provider,99
+Laikipia,Maternal Care,At least four ANC visits,65.5
+Laikipia,Maternal Care,Took iron supplements,91.7
+Laikipia,Maternal Care,Neonatal tetanus,84.2
+Laikipia,Maternal Care,Skilled delivery,92.6
+Laikipia,Maternal Care,Health facility delivery,87.1
+Laikipia,Maternal Care,Postnatal check,66.8
+Nakuru,Maternal Care,ANC from a skilled provider,97.7
+Nakuru,Maternal Care,At least four ANC visits,73.4
+Nakuru,Maternal Care,Took iron supplements,93.5
+Nakuru,Maternal Care,Neonatal tetanus,90.7
+Nakuru,Maternal Care,Skilled delivery,93.4
+Nakuru,Maternal Care,Health facility delivery,93.5
+Nakuru,Maternal Care,Postnatal check,82
+Narok,Maternal Care,ANC from a skilled provider,96.5
+Narok,Maternal Care,At least four ANC visits,55.3
+Narok,Maternal Care,Took iron supplements,83.8
+Narok,Maternal Care,Neonatal tetanus,75.1
+Narok,Maternal Care,Skilled delivery,70.1
+Narok,Maternal Care,Health facility delivery,64.2
+Narok,Maternal Care,Postnatal check,65.6
+Kajiado,Maternal Care,ANC from a skilled provider,100
+Kajiado,Maternal Care,At least four ANC visits,81.2
+Kajiado,Maternal Care,Took iron supplements,94.8
+Kajiado,Maternal Care,Neonatal tetanus,78.3
+Kajiado,Maternal Care,Skilled delivery,85.3
+Kajiado,Maternal Care,Health facility delivery,82.7
+Kajiado,Maternal Care,Postnatal check,80.8
+Kericho,Maternal Care,ANC from a skilled provider,95.7
+Kericho,Maternal Care,At least four ANC visits,58.6
+Kericho,Maternal Care,Took iron supplements,90.4
+Kericho,Maternal Care,Neonatal tetanus,87.7
+Kericho,Maternal Care,Skilled delivery,92.3
+Kericho,Maternal Care,Health facility delivery,89.7
+Kericho,Maternal Care,Postnatal check,65.3
+Bomet,Maternal Care,ANC from a skilled provider,96.6
+Bomet,Maternal Care,At least four ANC visits,53.3
+Bomet,Maternal Care,Took iron supplements,90.8
+Bomet,Maternal Care,Neonatal tetanus,82.8
+Bomet,Maternal Care,Skilled delivery,88.2
+Bomet,Maternal Care,Health facility delivery,56.5
+Bomet,Maternal Care,Postnatal check,52.3
+Kakamega,Maternal Care,ANC from a skilled provider,100
+Kakamega,Maternal Care,At least four ANC visits,73.3
+Kakamega,Maternal Care,Took iron supplements,92.7
+Kakamega,Maternal Care,Neonatal tetanus,79.4
+Kakamega,Maternal Care,Skilled delivery,95.7
+Kakamega,Maternal Care,Health facility delivery,90
+Kakamega,Maternal Care,Postnatal check,60.5
+Vihiga,Maternal Care,ANC from a skilled provider,99.1
+Vihiga,Maternal Care,At least four ANC visits,79.4
+Vihiga,Maternal Care,Took iron supplements,98.2
+Vihiga,Maternal Care,Neonatal tetanus,84.8
+Vihiga,Maternal Care,Skilled delivery,97.2
+Vihiga,Maternal Care,Health facility delivery,90.9
+Vihiga,Maternal Care,Postnatal check,86.8
+Bungoma,Maternal Care,ANC from a skilled provider,98.6
+Bungoma,Maternal Care,At least four ANC visits,72.5
+Bungoma,Maternal Care,Took iron supplements,90.3
+Bungoma,Maternal Care,Neonatal tetanus,74.2
+Bungoma,Maternal Care,Skilled delivery,87.2
+Bungoma,Maternal Care,Health facility delivery,79.3
+Bungoma,Maternal Care,Postnatal check,51.6
+Busia,Maternal Care,ANC from a skilled provider,99.4
+Busia,Maternal Care,At least four ANC visits,70.7
+Busia,Maternal Care,Took iron supplements,94.5
+Busia,Maternal Care,Neonatal tetanus,91.5
+Busia,Maternal Care,Skilled delivery,87.6
+Busia,Maternal Care,Health facility delivery,83.7
+Busia,Maternal Care,Postnatal check,90.5
+Siaya,Maternal Care,ANC from a skilled provider,99.1
+Siaya,Maternal Care,At least four ANC visits,65.1
+Siaya,Maternal Care,Took iron supplements,89.3
+Siaya,Maternal Care,Neonatal tetanus,64.9
+Siaya,Maternal Care,Skilled delivery,94.9
+Siaya,Maternal Care,Health facility delivery,84.4
+Siaya,Maternal Care,Postnatal check,80.1
+Kisumu,Maternal Care,ANC from a skilled provider,98
+Kisumu,Maternal Care,At least four ANC visits,63.3
+Kisumu,Maternal Care,Took iron supplements,94.8
+Kisumu,Maternal Care,Neonatal tetanus,73.5
+Kisumu,Maternal Care,Skilled delivery,97.9
+Kisumu,Maternal Care,Health facility delivery,94.4
+Kisumu,Maternal Care,Postnatal check,87.9
+Homa Bay,Maternal Care,ANC from a skilled provider,95.1
+Homa Bay,Maternal Care,At least four ANC visits,68.8
+Homa Bay,Maternal Care,Took iron supplements,89.1
+Homa Bay,Maternal Care,Neonatal tetanus,57.3
+Homa Bay,Maternal Care,Skilled delivery,91.2
+Homa Bay,Maternal Care,Health facility delivery,86.4
+Homa Bay,Maternal Care,Postnatal check,72.2
+Migori,Maternal Care,ANC from a skilled provider,100
+Migori,Maternal Care,At least four ANC visits,58.5
+Migori,Maternal Care,Took iron supplements,92.2
+Migori,Maternal Care,Neonatal tetanus,59.2
+Migori,Maternal Care,Skilled delivery,92.6
+Migori,Maternal Care,Health facility delivery,89.2
+Migori,Maternal Care,Postnatal check,70.5
+Kisii,Maternal Care,ANC from a skilled provider,98.5
+Kisii,Maternal Care,At least four ANC visits,62.7
+Kisii,Maternal Care,Took iron supplements,94.7
+Kisii,Maternal Care,Neonatal tetanus,84.4
+Kisii,Maternal Care,Skilled delivery,93.5
+Kisii,Maternal Care,Health facility delivery,76
+Kisii,Maternal Care,Postnatal check,71.5
+Nyamira,Maternal Care,ANC from a skilled provider,100
+Nyamira,Maternal Care,At least four ANC visits,65.8
+Nyamira,Maternal Care,Took iron supplements,93.6
+Nyamira,Maternal Care,Neonatal tetanus,76.9
+Nyamira,Maternal Care,Skilled delivery,92.6
+Nyamira,Maternal Care,Health facility delivery,91.5
+Nyamira,Maternal Care,Postnatal check,85.2
+Nairobi,Maternal Care,ANC from a skilled provider,100
+Nairobi,Maternal Care,At least four ANC visits,80.5
+Nairobi,Maternal Care,Took iron supplements,91.2
+Nairobi,Maternal Care,Neonatal tetanus,74.5
+Nairobi,Maternal Care,Skilled delivery,99.4
+Nairobi,Maternal Care,Health facility delivery,93.4
+Nairobi,Maternal Care,Postnatal check,80.1
+Kisii,Child Vaccinations,CountyFullyVaccinated12,81.6
+Kisii,Child Vaccinations,CountyFullyVaccinated24,50.9
+Nyamira,Child Vaccinations,CountyFullyVaccinated12,55.8
+Nyamira,Child Vaccinations,CountyFullyVaccinated24,48.5
+Nairobi,Child Vaccinations,CountyFullyVaccinated12,45.8
+Nairobi,Child Vaccinations,CountyFullyVaccinated24,30.5
+Mombasa,Child Vaccinations,CountyFullyVaccinated12,70.4
+Mombasa,Child Vaccinations,CountyFullyVaccinated24,24.8
+Kwale,Child Vaccinations,CountyFullyVaccinated12,50.1
+Kwale,Child Vaccinations,CountyFullyVaccinated24,39.3
+Kilifi,Child Vaccinations,CountyFullyVaccinated12,62.5
+Kilifi,Child Vaccinations,CountyFullyVaccinated24,47.6
+Tana River,Child Vaccinations,CountyFullyVaccinated12,39.2
+Tana River,Child Vaccinations,CountyFullyVaccinated24,28.1
+Lamu,Child Vaccinations,CountyFullyVaccinated12,54.2
+Lamu,Child Vaccinations,CountyFullyVaccinated24,36.6
+Taita Taveta,Child Vaccinations,CountyFullyVaccinated12,65.4
+Taita Taveta,Child Vaccinations,CountyFullyVaccinated24,44.3
+Garissa,Child Vaccinations,CountyFullyVaccinated12,16.9
+Garissa,Child Vaccinations,CountyFullyVaccinated24,3.6
+Wajir,Child Vaccinations,CountyFullyVaccinated12,19.2
+Wajir,Child Vaccinations,CountyFullyVaccinated24,5.5
+Mandera,Child Vaccinations,CountyFullyVaccinated12,5.6
+Mandera,Child Vaccinations,CountyFullyVaccinated24,3.5
+Marsabit,Child Vaccinations,CountyFullyVaccinated12,19.3
+Marsabit,Child Vaccinations,CountyFullyVaccinated24,8.4
+Isiolo,Child Vaccinations,CountyFullyVaccinated12,37.1
+Isiolo,Child Vaccinations,CountyFullyVaccinated24,25.3
+Meru,Child Vaccinations,CountyFullyVaccinated12,57.9
+Meru,Child Vaccinations,CountyFullyVaccinated24,49.1
+Tharaka Nithi,Child Vaccinations,CountyFullyVaccinated12,82.1
+Tharaka Nithi,Child Vaccinations,CountyFullyVaccinated24,48.5
+Embu,Child Vaccinations,CountyFullyVaccinated12,75.6
+Embu,Child Vaccinations,CountyFullyVaccinated24,52.6
+Kitui,Child Vaccinations,CountyFullyVaccinated12,49.4
+Kitui,Child Vaccinations,CountyFullyVaccinated24,24.7
+Machakos,Child Vaccinations,CountyFullyVaccinated12,70.8
+Machakos,Child Vaccinations,CountyFullyVaccinated24,60.9
+Makueni,Child Vaccinations,CountyFullyVaccinated12,65.5
+Makueni,Child Vaccinations,CountyFullyVaccinated24,48.4
+Nyandarua,Child Vaccinations,CountyFullyVaccinated12,70.6
+Nyandarua,Child Vaccinations,CountyFullyVaccinated24,63.5
+Nyeri,Child Vaccinations,CountyFullyVaccinated12,56.6
+Nyeri,Child Vaccinations,CountyFullyVaccinated24,45.1
+Kirinyaga,Child Vaccinations,CountyFullyVaccinated12,70.9
+Kirinyaga,Child Vaccinations,CountyFullyVaccinated24,43.8
+Muranga,Child Vaccinations,CountyFullyVaccinated12,66.2
+Muranga,Child Vaccinations,CountyFullyVaccinated24,62.5
+Kiambu,Child Vaccinations,CountyFullyVaccinated12,65.5
+Kiambu,Child Vaccinations,CountyFullyVaccinated24,39.6
+Turkana,Child Vaccinations,CountyFullyVaccinated12,29.3
+Turkana,Child Vaccinations,CountyFullyVaccinated24,25.3
+West Pokot,Child Vaccinations,CountyFullyVaccinated12,10.7
+West Pokot,Child Vaccinations,CountyFullyVaccinated24,5.2
+Samburu,Child Vaccinations,CountyFullyVaccinated12,27.8
+Samburu,Child Vaccinations,CountyFullyVaccinated24,14.9
+Trans Nzoia,Child Vaccinations,CountyFullyVaccinated12,70.6
+Trans Nzoia,Child Vaccinations,CountyFullyVaccinated24,64.8
+Uasin Gishu,Child Vaccinations,CountyFullyVaccinated12,49.3
+Uasin Gishu,Child Vaccinations,CountyFullyVaccinated24,37.5
+Elgeyo Marakwet,Child Vaccinations,CountyFullyVaccinated12,43.2
+Elgeyo Marakwet,Child Vaccinations,CountyFullyVaccinated24,30.2
+Nandi,Child Vaccinations,CountyFullyVaccinated12,65
+Nandi,Child Vaccinations,CountyFullyVaccinated24,51.6
+Baringo,Child Vaccinations,CountyFullyVaccinated12,43.3
+Baringo,Child Vaccinations,CountyFullyVaccinated24,32.4
+Laikipia,Child Vaccinations,CountyFullyVaccinated12,55.5
+Laikipia,Child Vaccinations,CountyFullyVaccinated24,33.2
+Nakuru,Child Vaccinations,CountyFullyVaccinated12,69.2
+Nakuru,Child Vaccinations,CountyFullyVaccinated24,57.6
+Narok,Child Vaccinations,CountyFullyVaccinated12,30.8
+Narok,Child Vaccinations,CountyFullyVaccinated24,16.2
+Kajiado,Child Vaccinations,CountyFullyVaccinated12,43.5
+Kajiado,Child Vaccinations,CountyFullyVaccinated24,27.9
+Kericho,Child Vaccinations,CountyFullyVaccinated12,47.6
+Kericho,Child Vaccinations,CountyFullyVaccinated24,45.6
+Bomet,Child Vaccinations,CountyFullyVaccinated12,63.9
+Bomet,Child Vaccinations,CountyFullyVaccinated24,45.1
+Kakamega,Child Vaccinations,CountyFullyVaccinated12,72.8
+Kakamega,Child Vaccinations,CountyFullyVaccinated24,53.2
+Vihiga,Child Vaccinations,CountyFullyVaccinated12,70.1
+Vihiga,Child Vaccinations,CountyFullyVaccinated24,58.1
+Bungoma,Child Vaccinations,CountyFullyVaccinated12,65.9
+Bungoma,Child Vaccinations,CountyFullyVaccinated24,29
+Busia,Child Vaccinations,CountyFullyVaccinated12,55.8
+Busia,Child Vaccinations,CountyFullyVaccinated24,60.2
+Siaya,Child Vaccinations,CountyFullyVaccinated12,69.9
+Siaya,Child Vaccinations,CountyFullyVaccinated24,26.6
+Kisumu,Child Vaccinations,CountyFullyVaccinated12,62.6
+Kisumu,Child Vaccinations,CountyFullyVaccinated24,30.1
+Homa Bay,Child Vaccinations,CountyFullyVaccinated12,52.6
+Homa Bay,Child Vaccinations,CountyFullyVaccinated24,28.5
+Migori,Child Vaccinations,CountyFullyVaccinated12,71.4
+Migori,Child Vaccinations,CountyFullyVaccinated24,37.9
+Mombasa,limit_sex,HIV knowledge: Women (15-24),83.5
+Mombasa,using_condoms,HIV knowledge: Women (15-24),75.6
+Mombasa,hivprevention_knowledge,HIV knowledge: Women (15-24),45.3
+Kwale,limit_sex,HIV knowledge: Women (15-24),87.4
+Kwale,using_condoms,HIV knowledge: Women (15-24),86.2
+Kwale,hivprevention_knowledge,HIV knowledge: Women (15-24),63.4
+Kilifi,limit_sex,HIV knowledge: Women (15-24),90.8
+Kilifi,using_condoms,HIV knowledge: Women (15-24),75.7
+Kilifi,hivprevention_knowledge,HIV knowledge: Women (15-24),57.1
+Tana River,limit_sex,HIV knowledge: Women (15-24),71.8
+Tana River,using_condoms,HIV knowledge: Women (15-24),49.9
+Tana River,hivprevention_knowledge,HIV knowledge: Women (15-24),35.2
+Lamu,limit_sex,HIV knowledge: Women (15-24),81.6
+Lamu,using_condoms,HIV knowledge: Women (15-24),49.7
+Lamu,hivprevention_knowledge,HIV knowledge: Women (15-24),34.7
+Taita Taveta,limit_sex,HIV knowledge: Women (15-24),85.3
+Taita Taveta,using_condoms,HIV knowledge: Women (15-24),82.3
+Taita Taveta,hivprevention_knowledge,HIV knowledge: Women (15-24),61
+Garissa,limit_sex,HIV knowledge: Women (15-24),55.3
+Garissa,using_condoms,HIV knowledge: Women (15-24),27.7
+Garissa,hivprevention_knowledge,HIV knowledge: Women (15-24),15
+Wajir,limit_sex,HIV knowledge: Women (15-24),76.3
+Wajir,using_condoms,HIV knowledge: Women (15-24),45.9
+Wajir,hivprevention_knowledge,HIV knowledge: Women (15-24),26.9
+Mandera,limit_sex,HIV knowledge: Women (15-24),26.2
+Mandera,using_condoms,HIV knowledge: Women (15-24),15
+Mandera,hivprevention_knowledge,HIV knowledge: Women (15-24),4.5
+Marsabit,limit_sex,HIV knowledge: Women (15-24),58.6
+Marsabit,using_condoms,HIV knowledge: Women (15-24),58.2
+Marsabit,hivprevention_knowledge,HIV knowledge: Women (15-24),26
+Isiolo,limit_sex,HIV knowledge: Women (15-24),75.7
+Isiolo,using_condoms,HIV knowledge: Women (15-24),68
+Isiolo,hivprevention_knowledge,HIV knowledge: Women (15-24),35.7
+Meru,limit_sex,HIV knowledge: Women (15-24),84.8
+Meru,using_condoms,HIV knowledge: Women (15-24),66.2
+Meru,hivprevention_knowledge,HIV knowledge: Women (15-24),41.1
+Tharaka Nithi,limit_sex,HIV knowledge: Women (15-24),90.1
+Tharaka Nithi,using_condoms,HIV knowledge: Women (15-24),74.4
+Tharaka Nithi,hivprevention_knowledge,HIV knowledge: Women (15-24),51.5
+Embu,limit_sex,HIV knowledge: Women (15-24),84.5
+Embu,using_condoms,HIV knowledge: Women (15-24),79.6
+Embu,hivprevention_knowledge,HIV knowledge: Women (15-24),49.4
+Kitui,limit_sex,HIV knowledge: Women (15-24),86.5
+Kitui,using_condoms,HIV knowledge: Women (15-24),75.4
+Kitui,hivprevention_knowledge,HIV knowledge: Women (15-24),65.6
+Machakos,limit_sex,HIV knowledge: Women (15-24),98.1
+Machakos,using_condoms,HIV knowledge: Women (15-24),88.1
+Machakos,hivprevention_knowledge,HIV knowledge: Women (15-24),68.1
+Makueni,limit_sex,HIV knowledge: Women (15-24),88.2
+Makueni,using_condoms,HIV knowledge: Women (15-24),76.3
+Makueni,hivprevention_knowledge,HIV knowledge: Women (15-24),55
+Nyandarua,limit_sex,HIV knowledge: Women (15-24),96.2
+Nyandarua,using_condoms,HIV knowledge: Women (15-24),80.2
+Nyandarua,hivprevention_knowledge,HIV knowledge: Women (15-24),59.1
+Nyeri,limit_sex,HIV knowledge: Women (15-24),86.8
+Nyeri,using_condoms,HIV knowledge: Women (15-24),88.2
+Nyeri,hivprevention_knowledge,HIV knowledge: Women (15-24),62
+Kirinyaga,limit_sex,HIV knowledge: Women (15-24),92.9
+Kirinyaga,using_condoms,HIV knowledge: Women (15-24),82.2
+Kirinyaga,hivprevention_knowledge,HIV knowledge: Women (15-24),65
+Muranga,limit_sex,HIV knowledge: Women (15-24),89.5
+Muranga,using_condoms,HIV knowledge: Women (15-24),81.7
+Muranga,hivprevention_knowledge,HIV knowledge: Women (15-24),47.3
+Kiambu,limit_sex,HIV knowledge: Women (15-24),85.3
+Kiambu,using_condoms,HIV knowledge: Women (15-24),80.3
+Kiambu,hivprevention_knowledge,HIV knowledge: Women (15-24),50.8
+Turkana,limit_sex,HIV knowledge: Women (15-24),75.6
+Turkana,using_condoms,HIV knowledge: Women (15-24),67
+Turkana,hivprevention_knowledge,HIV knowledge: Women (15-24),23.2
+West Pokot,limit_sex,HIV knowledge: Women (15-24),79.6
+West Pokot,using_condoms,HIV knowledge: Women (15-24),74.7
+West Pokot,hivprevention_knowledge,HIV knowledge: Women (15-24),43.7
+Samburu,limit_sex,HIV knowledge: Women (15-24),84.8
+Samburu,using_condoms,HIV knowledge: Women (15-24),67.3
+Samburu,hivprevention_knowledge,HIV knowledge: Women (15-24),31.8
+Trans Nzoia,limit_sex,HIV knowledge: Women (15-24),98.6
+Trans Nzoia,using_condoms,HIV knowledge: Women (15-24),91.1
+Trans Nzoia,hivprevention_knowledge,HIV knowledge: Women (15-24),74
+Uasin Gishu,limit_sex,HIV knowledge: Women (15-24),90.5
+Uasin Gishu,using_condoms,HIV knowledge: Women (15-24),79.5
+Uasin Gishu,hivprevention_knowledge,HIV knowledge: Women (15-24),56.6
+Elgeyo Marakwet,limit_sex,HIV knowledge: Women (15-24),92.4
+Elgeyo Marakwet,using_condoms,HIV knowledge: Women (15-24),82.1
+Elgeyo Marakwet,hivprevention_knowledge,HIV knowledge: Women (15-24),53.6
+Nandi,limit_sex,HIV knowledge: Women (15-24),87
+Nandi,using_condoms,HIV knowledge: Women (15-24),76.6
+Nandi,hivprevention_knowledge,HIV knowledge: Women (15-24),43
+Baringo,limit_sex,HIV knowledge: Women (15-24),88.4
+Baringo,using_condoms,HIV knowledge: Women (15-24),69.5
+Baringo,hivprevention_knowledge,HIV knowledge: Women (15-24),46.8
+Laikipia,limit_sex,HIV knowledge: Women (15-24),88
+Laikipia,using_condoms,HIV knowledge: Women (15-24),81.1
+Laikipia,hivprevention_knowledge,HIV knowledge: Women (15-24),50
+Nakuru,limit_sex,HIV knowledge: Women (15-24),89.1
+Nakuru,using_condoms,HIV knowledge: Women (15-24),84.2
+Nakuru,hivprevention_knowledge,HIV knowledge: Women (15-24),54.3
+Narok,limit_sex,HIV knowledge: Women (15-24),87.8
+Narok,using_condoms,HIV knowledge: Women (15-24),76.2
+Narok,hivprevention_knowledge,HIV knowledge: Women (15-24),49.7
+Kajiado,limit_sex,HIV knowledge: Women (15-24),90.6
+Kajiado,using_condoms,HIV knowledge: Women (15-24),80.2
+Kajiado,hivprevention_knowledge,HIV knowledge: Women (15-24),60
+Kericho,limit_sex,HIV knowledge: Women (15-24),87.4
+Kericho,using_condoms,HIV knowledge: Women (15-24),88.6
+Kericho,hivprevention_knowledge,HIV knowledge: Women (15-24),49
+Bomet,limit_sex,HIV knowledge: Women (15-24),94.5
+Bomet,using_condoms,HIV knowledge: Women (15-24),82.3
+Bomet,hivprevention_knowledge,HIV knowledge: Women (15-24),58.2
+Kakamega,limit_sex,HIV knowledge: Women (15-24),88.8
+Kakamega,using_condoms,HIV knowledge: Women (15-24),75.1
+Kakamega,hivprevention_knowledge,HIV knowledge: Women (15-24),50.6
+Vihiga,limit_sex,HIV knowledge: Women (15-24),83.7
+Vihiga,using_condoms,HIV knowledge: Women (15-24),75.5
+Vihiga,hivprevention_knowledge,HIV knowledge: Women (15-24),58.5
+Bungoma,limit_sex,HIV knowledge: Women (15-24),85.3
+Bungoma,using_condoms,HIV knowledge: Women (15-24),68.7
+Bungoma,hivprevention_knowledge,HIV knowledge: Women (15-24),32.4
+Busia,limit_sex,HIV knowledge: Women (15-24),93.3
+Busia,using_condoms,HIV knowledge: Women (15-24),83.1
+Busia,hivprevention_knowledge,HIV knowledge: Women (15-24),63.3
+Siaya,limit_sex,HIV knowledge: Women (15-24),90.8
+Siaya,using_condoms,HIV knowledge: Women (15-24),90.4
+Siaya,hivprevention_knowledge,HIV knowledge: Women (15-24),71.5
+Kisumu,limit_sex,HIV knowledge: Women (15-24),95.6
+Kisumu,using_condoms,HIV knowledge: Women (15-24),95.8
+Kisumu,hivprevention_knowledge,HIV knowledge: Women (15-24),73.5
+Homa Bay,limit_sex,HIV knowledge: Women (15-24),90.8
+Homa Bay,using_condoms,HIV knowledge: Women (15-24),86.7
+Homa Bay,hivprevention_knowledge,HIV knowledge: Women (15-24),58.4
+Migori,limit_sex,HIV knowledge: Women (15-24),82.8
+Migori,using_condoms,HIV knowledge: Women (15-24),71.9
+Migori,hivprevention_knowledge,HIV knowledge: Women (15-24),44.8
+Kisii,limit_sex,HIV knowledge: Women (15-24),97.3
+Kisii,using_condoms,HIV knowledge: Women (15-24),92.1
+Kisii,hivprevention_knowledge,HIV knowledge: Women (15-24),78.8
+Nyamira,limit_sex,HIV knowledge: Women (15-24),96.6
+Nyamira,using_condoms,HIV knowledge: Women (15-24),86.9
+Nyamira,hivprevention_knowledge,HIV knowledge: Women (15-24),78.2
+Nairobi,limit_sex,HIV knowledge: Women (15-24),89.7
+Nairobi,using_condoms,HIV knowledge: Women (15-24),87.8
+Nairobi,hivprevention_knowledge,HIV knowledge: Women (15-24),58
+Mombasa,limit_sex,HIV knowledge: Men (15-24),97.2
+Mombasa,using_condoms,HIV knowledge: Men (15-24),70
+Mombasa,hivprevention_knowledge,HIV knowledge: Men (15-24),60.9
+Kwale,limit_sex,HIV knowledge: Men (15-24),95.1
+Kwale,using_condoms,HIV knowledge: Men (15-24),63.5
+Kwale,hivprevention_knowledge,HIV knowledge: Men (15-24),42.8
+Kilifi,limit_sex,HIV knowledge: Men (15-24),84.5
+Kilifi,using_condoms,HIV knowledge: Men (15-24),74.1
+Kilifi,hivprevention_knowledge,HIV knowledge: Men (15-24),51
+Tana River,limit_sex,HIV knowledge: Men (15-24),53.7
+Tana River,using_condoms,HIV knowledge: Men (15-24),57.3
+Tana River,hivprevention_knowledge,HIV knowledge: Men (15-24),32.3
+Lamu,limit_sex,HIV knowledge: Men (15-24),95.5
+Lamu,using_condoms,HIV knowledge: Men (15-24),97.9
+Lamu,hivprevention_knowledge,HIV knowledge: Men (15-24),84.7
+Taita Taveta,limit_sex,HIV knowledge: Men (15-24),89.5
+Taita Taveta,using_condoms,HIV knowledge: Men (15-24),82.4
+Taita Taveta,hivprevention_knowledge,HIV knowledge: Men (15-24),49
+Garissa,limit_sex,HIV knowledge: Men (15-24),99.8
+Garissa,using_condoms,HIV knowledge: Men (15-24),95.4
+Garissa,hivprevention_knowledge,HIV knowledge: Men (15-24),88.7
+Wajir,limit_sex,HIV knowledge: Men (15-24),87.1
+Wajir,using_condoms,HIV knowledge: Men (15-24),73.9
+Wajir,hivprevention_knowledge,HIV knowledge: Men (15-24),43.1
+Mandera,limit_sex,HIV knowledge: Men (15-24),61.5
+Mandera,using_condoms,HIV knowledge: Men (15-24),57.3
+Mandera,hivprevention_knowledge,HIV knowledge: Men (15-24),16.8
+Marsabit,limit_sex,HIV knowledge: Men (15-24),89.5
+Marsabit,using_condoms,HIV knowledge: Men (15-24),58.4
+Marsabit,hivprevention_knowledge,HIV knowledge: Men (15-24),34.7
+Isiolo,limit_sex,HIV knowledge: Men (15-24),95.9
+Isiolo,using_condoms,HIV knowledge: Men (15-24),83.7
+Isiolo,hivprevention_knowledge,HIV knowledge: Men (15-24),58.6
+Meru,limit_sex,HIV knowledge: Men (15-24),86.8
+Meru,using_condoms,HIV knowledge: Men (15-24),81.6
+Meru,hivprevention_knowledge,HIV knowledge: Men (15-24),50.2
+Tharaka Nithi,limit_sex,HIV knowledge: Men (15-24),92.5
+Tharaka Nithi,using_condoms,HIV knowledge: Men (15-24),80.9
+Tharaka Nithi,hivprevention_knowledge,HIV knowledge: Men (15-24),51.8
+Embu,limit_sex,HIV knowledge: Men (15-24),75.5
+Embu,using_condoms,HIV knowledge: Men (15-24),75
+Embu,hivprevention_knowledge,HIV knowledge: Men (15-24),56.5
+Kitui,limit_sex,HIV knowledge: Men (15-24),94.4
+Kitui,using_condoms,HIV knowledge: Men (15-24),96.7
+Kitui,hivprevention_knowledge,HIV knowledge: Men (15-24),80.9
+Machakos,limit_sex,HIV knowledge: Men (15-24),86.8
+Machakos,using_condoms,HIV knowledge: Men (15-24),84.9
+Machakos,hivprevention_knowledge,HIV knowledge: Men (15-24),54.5
+Makueni,limit_sex,HIV knowledge: Men (15-24),98.4
+Makueni,using_condoms,HIV knowledge: Men (15-24),86.9
+Makueni,hivprevention_knowledge,HIV knowledge: Men (15-24),52.5
+Nyandarua,limit_sex,HIV knowledge: Men (15-24),79.7
+Nyandarua,using_condoms,HIV knowledge: Men (15-24),85.3
+Nyandarua,hivprevention_knowledge,HIV knowledge: Men (15-24),47
+Nyeri,limit_sex,HIV knowledge: Men (15-24),80.2
+Nyeri,using_condoms,HIV knowledge: Men (15-24),88
+Nyeri,hivprevention_knowledge,HIV knowledge: Men (15-24),53.7
+Kirinyaga,limit_sex,HIV knowledge: Men (15-24),90.6
+Kirinyaga,using_condoms,HIV knowledge: Men (15-24),93.3
+Kirinyaga,hivprevention_knowledge,HIV knowledge: Men (15-24),74
+Muranga,limit_sex,HIV knowledge: Men (15-24),97.4
+Muranga,using_condoms,HIV knowledge: Men (15-24),96
+Muranga,hivprevention_knowledge,HIV knowledge: Men (15-24),64
+Kiambu,limit_sex,HIV knowledge: Men (15-24),80.7
+Kiambu,using_condoms,HIV knowledge: Men (15-24),72.2
+Kiambu,hivprevention_knowledge,HIV knowledge: Men (15-24),37.5
+Turkana,limit_sex,HIV knowledge: Men (15-24),73.8
+Turkana,using_condoms,HIV knowledge: Men (15-24),70.1
+Turkana,hivprevention_knowledge,HIV knowledge: Men (15-24),49.4
+West Pokot,limit_sex,HIV knowledge: Men (15-24),94.9
+West Pokot,using_condoms,HIV knowledge: Men (15-24),90.8
+West Pokot,hivprevention_knowledge,HIV knowledge: Men (15-24),77.2
+Samburu,limit_sex,HIV knowledge: Men (15-24),88.5
+Samburu,using_condoms,HIV knowledge: Men (15-24),73.5
+Samburu,hivprevention_knowledge,HIV knowledge: Men (15-24),30.6
+Trans Nzoia,limit_sex,HIV knowledge: Men (15-24),93.7
+Trans Nzoia,using_condoms,HIV knowledge: Men (15-24),82.9
+Trans Nzoia,hivprevention_knowledge,HIV knowledge: Men (15-24),64.3
+Uasin Gishu,limit_sex,HIV knowledge: Men (15-24),82.6
+Uasin Gishu,using_condoms,HIV knowledge: Men (15-24),85.5
+Uasin Gishu,hivprevention_knowledge,HIV knowledge: Men (15-24),63
+Elgeyo Marakwet,limit_sex,HIV knowledge: Men (15-24),69.6
+Elgeyo Marakwet,using_condoms,HIV knowledge: Men (15-24),77.8
+Elgeyo Marakwet,hivprevention_knowledge,HIV knowledge: Men (15-24),43.7
+Nandi,limit_sex,HIV knowledge: Men (15-24),77
+Nandi,using_condoms,HIV knowledge: Men (15-24),85
+Nandi,hivprevention_knowledge,HIV knowledge: Men (15-24),61.9
+Baringo,limit_sex,HIV knowledge: Men (15-24),69.9
+Baringo,using_condoms,HIV knowledge: Men (15-24),78.6
+Baringo,hivprevention_knowledge,HIV knowledge: Men (15-24),45.2
+Laikipia,limit_sex,HIV knowledge: Men (15-24),90.2
+Laikipia,using_condoms,HIV knowledge: Men (15-24),75.9
+Laikipia,hivprevention_knowledge,HIV knowledge: Men (15-24),44.4
+Nakuru,limit_sex,HIV knowledge: Men (15-24),76.5
+Nakuru,using_condoms,HIV knowledge: Men (15-24),75.9
+Nakuru,hivprevention_knowledge,HIV knowledge: Men (15-24),35.1
+Narok,limit_sex,HIV knowledge: Men (15-24),87.3
+Narok,using_condoms,HIV knowledge: Men (15-24),69.5
+Narok,hivprevention_knowledge,HIV knowledge: Men (15-24),35.6
+Kajiado,limit_sex,HIV knowledge: Men (15-24),92.3
+Kajiado,using_condoms,HIV knowledge: Men (15-24),88.5
+Kajiado,hivprevention_knowledge,HIV knowledge: Men (15-24),50.4
+Kericho,limit_sex,HIV knowledge: Men (15-24),98.5
+Kericho,using_condoms,HIV knowledge: Men (15-24),97
+Kericho,hivprevention_knowledge,HIV knowledge: Men (15-24),85.4
+Bomet,limit_sex,HIV knowledge: Men (15-24),91.7
+Bomet,using_condoms,HIV knowledge: Men (15-24),94.1
+Bomet,hivprevention_knowledge,HIV knowledge: Men (15-24),54.2
+Kakamega,limit_sex,HIV knowledge: Men (15-24),97.3
+Kakamega,using_condoms,HIV knowledge: Men (15-24),86
+Kakamega,hivprevention_knowledge,HIV knowledge: Men (15-24),44.3
+Vihiga,limit_sex,HIV knowledge: Men (15-24),81.6
+Vihiga,using_condoms,HIV knowledge: Men (15-24),76.5
+Vihiga,hivprevention_knowledge,HIV knowledge: Men (15-24),50.1
+Bungoma,limit_sex,HIV knowledge: Men (15-24),80
+Bungoma,using_condoms,HIV knowledge: Men (15-24),69.4
+Bungoma,hivprevention_knowledge,HIV knowledge: Men (15-24),36.1
+Busia,limit_sex,HIV knowledge: Men (15-24),82.9
+Busia,using_condoms,HIV knowledge: Men (15-24),75.9
+Busia,hivprevention_knowledge,HIV knowledge: Men (15-24),38.3
+Siaya,limit_sex,HIV knowledge: Men (15-24),91.5
+Siaya,using_condoms,HIV knowledge: Men (15-24),83
+Siaya,hivprevention_knowledge,HIV knowledge: Men (15-24),39.9
+Kisumu,limit_sex,HIV knowledge: Men (15-24),99.4
+Kisumu,using_condoms,HIV knowledge: Men (15-24),97
+Kisumu,hivprevention_knowledge,HIV knowledge: Men (15-24),78.9
+Homa Bay,limit_sex,HIV knowledge: Men (15-24),77
+Homa Bay,using_condoms,HIV knowledge: Men (15-24),82.3
+Homa Bay,hivprevention_knowledge,HIV knowledge: Men (15-24),49.4
+Migori,limit_sex,HIV knowledge: Men (15-24),99.1
+Migori,using_condoms,HIV knowledge: Men (15-24),94.5
+Migori,hivprevention_knowledge,HIV knowledge: Men (15-24),62.7
+Kisii,limit_sex,HIV knowledge: Men (15-24),99.2
+Kisii,using_condoms,HIV knowledge: Men (15-24),97.7
+Kisii,hivprevention_knowledge,HIV knowledge: Men (15-24),95
+Nyamira,limit_sex,HIV knowledge: Men (15-24),84.6
+Nyamira,using_condoms,HIV knowledge: Men (15-24),75.6
+Nyamira,hivprevention_knowledge,HIV knowledge: Men (15-24),51.9
+Nairobi,limit_sex,HIV knowledge: Men (15-24),98.9
+Nairobi,using_condoms,HIV knowledge: Men (15-24),95.6
+Nairobi,hivprevention_knowledge,HIV knowledge: Men (15-24),74.2
+Mombasa,ever_tested,HIV testing: Women,90.3
+Mombasa,recieved_results,HIV testing: Women,89.9
+Mombasa,received_results_last_test,HIV testing: Women,49
+Mombasa,never_tested,HIV testing: Women,9.7
+Mombasa,not_recieve_results,HIV testing: Women,0.4
+Kwale,ever_tested,HIV testing: Women,73.5
+Kwale,recieved_results,HIV testing: Women,73.5
+Kwale,received_results_last_test,HIV testing: Women,38.5
+Kwale,never_tested,HIV testing: Women,26.5
+Kwale,not_recieve_results,HIV testing: Women,0
+Kilifi,ever_tested,HIV testing: Women,83
+Kilifi,recieved_results,HIV testing: Women,82.7
+Kilifi,received_results_last_test,HIV testing: Women,39.8
+Kilifi,never_tested,HIV testing: Women,17
+Kilifi,not_recieve_results,HIV testing: Women,0.4
+Tana River,ever_tested,HIV testing: Women,73.6
+Tana River,recieved_results,HIV testing: Women,73.2
+Tana River,received_results_last_test,HIV testing: Women,29.3
+Tana River,never_tested,HIV testing: Women,26.4
+Tana River,not_recieve_results,HIV testing: Women,0.4
+Lamu,ever_tested,HIV testing: Women,80.8
+Lamu,recieved_results,HIV testing: Women,80.2
+Lamu,received_results_last_test,HIV testing: Women,35.5
+Lamu,never_tested,HIV testing: Women,19.2
+Lamu,not_recieve_results,HIV testing: Women,0.6
+Taita Taveta,ever_tested,HIV testing: Women,92.3
+Taita Taveta,recieved_results,HIV testing: Women,91.9
+Taita Taveta,received_results_last_test,HIV testing: Women,45.3
+Taita Taveta,never_tested,HIV testing: Women,7.7
+Taita Taveta,not_recieve_results,HIV testing: Women,0.5
+Garissa,ever_tested,HIV testing: Women,52.4
+Garissa,recieved_results,HIV testing: Women,52.4
+Garissa,received_results_last_test,HIV testing: Women,18.6
+Garissa,never_tested,HIV testing: Women,47.6
+Garissa,not_recieve_results,HIV testing: Women,0
+Wajir,ever_tested,HIV testing: Women,49.2
+Wajir,recieved_results,HIV testing: Women,49.2
+Wajir,received_results_last_test,HIV testing: Women,16.7
+Wajir,never_tested,HIV testing: Women,50.8
+Wajir,not_recieve_results,HIV testing: Women,0
+Mandera,ever_tested,HIV testing: Women,21
+Mandera,recieved_results,HIV testing: Women,16.5
+Mandera,received_results_last_test,HIV testing: Women,4.9
+Mandera,never_tested,HIV testing: Women,79
+Mandera,not_recieve_results,HIV testing: Women,4.5
+Marsabit,ever_tested,HIV testing: Women,55.1
+Marsabit,recieved_results,HIV testing: Women,53.1
+Marsabit,received_results_last_test,HIV testing: Women,17.4
+Marsabit,never_tested,HIV testing: Women,44.9
+Marsabit,not_recieve_results,HIV testing: Women,2
+Isiolo,ever_tested,HIV testing: Women,76.1
+Isiolo,recieved_results,HIV testing: Women,75.9
+Isiolo,received_results_last_test,HIV testing: Women,28.8
+Isiolo,never_tested,HIV testing: Women,23.9
+Isiolo,not_recieve_results,HIV testing: Women,0.2
+Meru,ever_tested,HIV testing: Women,87.4
+Meru,recieved_results,HIV testing: Women,85.3
+Meru,received_results_last_test,HIV testing: Women,38.8
+Meru,never_tested,HIV testing: Women,12.6
+Meru,not_recieve_results,HIV testing: Women,2.1
+Tharaka Nithi,ever_tested,HIV testing: Women,92.2
+Tharaka Nithi,recieved_results,HIV testing: Women,91.6
+Tharaka Nithi,received_results_last_test,HIV testing: Women,49.6
+Tharaka Nithi,never_tested,HIV testing: Women,7.8
+Tharaka Nithi,not_recieve_results,HIV testing: Women,0.6
+Embu,ever_tested,HIV testing: Women,86.6
+Embu,recieved_results,HIV testing: Women,86.4
+Embu,received_results_last_test,HIV testing: Women,39
+Embu,never_tested,HIV testing: Women,13.4
+Embu,not_recieve_results,HIV testing: Women,0.2
+Kitui,ever_tested,HIV testing: Women,76.6
+Kitui,recieved_results,HIV testing: Women,76.6
+Kitui,received_results_last_test,HIV testing: Women,25.2
+Kitui,never_tested,HIV testing: Women,23.4
+Kitui,not_recieve_results,HIV testing: Women,0
+Machakos,ever_tested,HIV testing: Women,87.9
+Machakos,recieved_results,HIV testing: Women,86.5
+Machakos,received_results_last_test,HIV testing: Women,46.2
+Machakos,never_tested,HIV testing: Women,12.1
+Machakos,not_recieve_results,HIV testing: Women,1.4
+Makueni,ever_tested,HIV testing: Women,85.5
+Makueni,recieved_results,HIV testing: Women,85
+Makueni,received_results_last_test,HIV testing: Women,53.5
+Makueni,never_tested,HIV testing: Women,14.5
+Makueni,not_recieve_results,HIV testing: Women,0.5
+Nyandarua,ever_tested,HIV testing: Women,84.1
+Nyandarua,recieved_results,HIV testing: Women,82.7
+Nyandarua,received_results_last_test,HIV testing: Women,46.8
+Nyandarua,never_tested,HIV testing: Women,15.9
+Nyandarua,not_recieve_results,HIV testing: Women,1.4
+Nyeri,ever_tested,HIV testing: Women,90.5
+Nyeri,recieved_results,HIV testing: Women,90
+Nyeri,received_results_last_test,HIV testing: Women,55.6
+Nyeri,never_tested,HIV testing: Women,9.5
+Nyeri,not_recieve_results,HIV testing: Women,0.5
+Kirinyaga,ever_tested,HIV testing: Women,92.2
+Kirinyaga,recieved_results,HIV testing: Women,91.6
+Kirinyaga,received_results_last_test,HIV testing: Women,48.8
+Kirinyaga,never_tested,HIV testing: Women,7.8
+Kirinyaga,not_recieve_results,HIV testing: Women,0.6
+Muranga,ever_tested,HIV testing: Women,93.3
+Muranga,recieved_results,HIV testing: Women,92.2
+Muranga,received_results_last_test,HIV testing: Women,51.7
+Muranga,never_tested,HIV testing: Women,6.7
+Muranga,not_recieve_results,HIV testing: Women,1.1
+Kiambu,ever_tested,HIV testing: Women,91.1
+Kiambu,recieved_results,HIV testing: Women,90.1
+Kiambu,received_results_last_test,HIV testing: Women,49.9
+Kiambu,never_tested,HIV testing: Women,8.9
+Kiambu,not_recieve_results,HIV testing: Women,1
+Turkana,ever_tested,HIV testing: Women,92
+Turkana,recieved_results,HIV testing: Women,92
+Turkana,received_results_last_test,HIV testing: Women,71.7
+Turkana,never_tested,HIV testing: Women,8
+Turkana,not_recieve_results,HIV testing: Women,0
+West Pokot,ever_tested,HIV testing: Women,80.2
+West Pokot,recieved_results,HIV testing: Women,79
+West Pokot,received_results_last_test,HIV testing: Women,37.6
+West Pokot,never_tested,HIV testing: Women,19.8
+West Pokot,not_recieve_results,HIV testing: Women,1.3
+Samburu,ever_tested,HIV testing: Women,80.8
+Samburu,recieved_results,HIV testing: Women,80.7
+Samburu,received_results_last_test,HIV testing: Women,38.1
+Samburu,never_tested,HIV testing: Women,19.2
+Samburu,not_recieve_results,HIV testing: Women,0.2
+Trans Nzoia,ever_tested,HIV testing: Women,81.5
+Trans Nzoia,recieved_results,HIV testing: Women,81.5
+Trans Nzoia,received_results_last_test,HIV testing: Women,48
+Trans Nzoia,never_tested,HIV testing: Women,18.5
+Trans Nzoia,not_recieve_results,HIV testing: Women,0
+Uasin Gishu,ever_tested,HIV testing: Women,86
+Uasin Gishu,recieved_results,HIV testing: Women,84.9
+Uasin Gishu,received_results_last_test,HIV testing: Women,46.8
+Uasin Gishu,never_tested,HIV testing: Women,14
+Uasin Gishu,not_recieve_results,HIV testing: Women,1.1
+Elgeyo Marakwet,ever_tested,HIV testing: Women,89.1
+Elgeyo Marakwet,recieved_results,HIV testing: Women,88.4
+Elgeyo Marakwet,received_results_last_test,HIV testing: Women,45.2
+Elgeyo Marakwet,never_tested,HIV testing: Women,10.9
+Elgeyo Marakwet,not_recieve_results,HIV testing: Women,0.7
+Nandi,ever_tested,HIV testing: Women,80.2
+Nandi,recieved_results,HIV testing: Women,79.9
+Nandi,received_results_last_test,HIV testing: Women,42.4
+Nandi,never_tested,HIV testing: Women,19.8
+Nandi,not_recieve_results,HIV testing: Women,0.3
+Baringo,ever_tested,HIV testing: Women,81.4
+Baringo,recieved_results,HIV testing: Women,80.3
+Baringo,received_results_last_test,HIV testing: Women,37.1
+Baringo,never_tested,HIV testing: Women,18.6
+Baringo,not_recieve_results,HIV testing: Women,1.1
+Laikipia,ever_tested,HIV testing: Women,88.2
+Laikipia,recieved_results,HIV testing: Women,88.2
+Laikipia,received_results_last_test,HIV testing: Women,46.8
+Laikipia,never_tested,HIV testing: Women,11.8
+Laikipia,not_recieve_results,HIV testing: Women,0
+Nakuru,ever_tested,HIV testing: Women,87
+Nakuru,recieved_results,HIV testing: Women,86.3
+Nakuru,received_results_last_test,HIV testing: Women,42.7
+Nakuru,never_tested,HIV testing: Women,13
+Nakuru,not_recieve_results,HIV testing: Women,0.7
+Narok,ever_tested,HIV testing: Women,85
+Narok,recieved_results,HIV testing: Women,84.1
+Narok,received_results_last_test,HIV testing: Women,48.5
+Narok,never_tested,HIV testing: Women,15
+Narok,not_recieve_results,HIV testing: Women,0.9
+Kajiado,ever_tested,HIV testing: Women,86.9
+Kajiado,recieved_results,HIV testing: Women,86.1
+Kajiado,received_results_last_test,HIV testing: Women,48.4
+Kajiado,never_tested,HIV testing: Women,13.1
+Kajiado,not_recieve_results,HIV testing: Women,0.7
+Kericho,ever_tested,HIV testing: Women,84.8
+Kericho,recieved_results,HIV testing: Women,81.8
+Kericho,received_results_last_test,HIV testing: Women,36.8
+Kericho,never_tested,HIV testing: Women,15.2
+Kericho,not_recieve_results,HIV testing: Women,3
+Bomet,ever_tested,HIV testing: Women,82.5
+Bomet,recieved_results,HIV testing: Women,81.9
+Bomet,received_results_last_test,HIV testing: Women,43.8
+Bomet,never_tested,HIV testing: Women,17.5
+Bomet,not_recieve_results,HIV testing: Women,0.6
+Kakamega,ever_tested,HIV testing: Women,82.8
+Kakamega,recieved_results,HIV testing: Women,82.8
+Kakamega,received_results_last_test,HIV testing: Women,45
+Kakamega,never_tested,HIV testing: Women,17.2
+Kakamega,not_recieve_results,HIV testing: Women,0
+Vihiga,ever_tested,HIV testing: Women,76.9
+Vihiga,recieved_results,HIV testing: Women,76.5
+Vihiga,received_results_last_test,HIV testing: Women,44.4
+Vihiga,never_tested,HIV testing: Women,23.1
+Vihiga,not_recieve_results,HIV testing: Women,0.3
+Bungoma,ever_tested,HIV testing: Women,75.5
+Bungoma,recieved_results,HIV testing: Women,74.3
+Bungoma,received_results_last_test,HIV testing: Women,39.3
+Bungoma,never_tested,HIV testing: Women,24.5
+Bungoma,not_recieve_results,HIV testing: Women,1.3
+Busia,ever_tested,HIV testing: Women,78.2
+Busia,recieved_results,HIV testing: Women,77.9
+Busia,received_results_last_test,HIV testing: Women,46.2
+Busia,never_tested,HIV testing: Women,21.8
+Busia,not_recieve_results,HIV testing: Women,0.3
+Siaya,ever_tested,HIV testing: Women,88.1
+Siaya,recieved_results,HIV testing: Women,87.7
+Siaya,received_results_last_test,HIV testing: Women,59.2
+Siaya,never_tested,HIV testing: Women,11.9
+Siaya,not_recieve_results,HIV testing: Women,0.4
+Kisumu,ever_tested,HIV testing: Women,95.1
+Kisumu,recieved_results,HIV testing: Women,95.1
+Kisumu,received_results_last_test,HIV testing: Women,66.5
+Kisumu,never_tested,HIV testing: Women,4.9
+Kisumu,not_recieve_results,HIV testing: Women,0
+Homa Bay,ever_tested,HIV testing: Women,93.8
+Homa Bay,recieved_results,HIV testing: Women,93.1
+Homa Bay,received_results_last_test,HIV testing: Women,66.3
+Homa Bay,never_tested,HIV testing: Women,6.2
+Homa Bay,not_recieve_results,HIV testing: Women,0.7
+Migori,ever_tested,HIV testing: Women,91.8
+Migori,recieved_results,HIV testing: Women,91.3
+Migori,received_results_last_test,HIV testing: Women,59.1
+Migori,never_tested,HIV testing: Women,8.2
+Migori,not_recieve_results,HIV testing: Women,0.5
+Kisii,ever_tested,HIV testing: Women,91.7
+Kisii,recieved_results,HIV testing: Women,91.5
+Kisii,received_results_last_test,HIV testing: Women,63.5
+Kisii,never_tested,HIV testing: Women,8.3
+Kisii,not_recieve_results,HIV testing: Women,0.3
+Nyamira,ever_tested,HIV testing: Women,88.6
+Nyamira,recieved_results,HIV testing: Women,88.3
+Nyamira,received_results_last_test,HIV testing: Women,56.2
+Nyamira,never_tested,HIV testing: Women,11.4
+Nyamira,not_recieve_results,HIV testing: Women,0.4
+Nairobi,ever_tested,HIV testing: Women,90.2
+Nairobi,recieved_results,HIV testing: Women,90.1
+Nairobi,received_results_last_test,HIV testing: Women,50.3
+Nairobi,never_tested,HIV testing: Women,9.8
+Nairobi,not_recieve_results,HIV testing: Women,0.1
+Mombasa,ever_tested,HIV testing: Men,80.6
+Mombasa,recieved_results,HIV testing: Men,80.2
+Mombasa,received_results_last_test,HIV testing: Men,44.3
+Mombasa,never_tested,HIV testing: Men,19.4
+Mombasa,not_recieve_results,HIV testing: Men,0.4
+Kwale,ever_tested,HIV testing: Men,65.7
+Kwale,recieved_results,HIV testing: Men,65.2
+Kwale,received_results_last_test,HIV testing: Men,40
+Kwale,never_tested,HIV testing: Men,34.3
+Kwale,not_recieve_results,HIV testing: Men,0.5
+Kilifi,ever_tested,HIV testing: Men,65.5
+Kilifi,recieved_results,HIV testing: Men,64.8
+Kilifi,received_results_last_test,HIV testing: Men,34.3
+Kilifi,never_tested,HIV testing: Men,34.5
+Kilifi,not_recieve_results,HIV testing: Men,0.7
+Tana River,ever_tested,HIV testing: Men,53.4
+Tana River,recieved_results,HIV testing: Men,53.3
+Tana River,received_results_last_test,HIV testing: Men,14.6
+Tana River,never_tested,HIV testing: Men,46.6
+Tana River,not_recieve_results,HIV testing: Men,0.1
+Lamu,ever_tested,HIV testing: Men,68.1
+Lamu,recieved_results,HIV testing: Men,68.1
+Lamu,received_results_last_test,HIV testing: Men,37.5
+Lamu,never_tested,HIV testing: Men,31.9
+Lamu,not_recieve_results,HIV testing: Men,0
+Taita Taveta,ever_tested,HIV testing: Men,76
+Taita Taveta,recieved_results,HIV testing: Men,76
+Taita Taveta,received_results_last_test,HIV testing: Men,45.6
+Taita Taveta,never_tested,HIV testing: Men,24
+Taita Taveta,not_recieve_results,HIV testing: Men,0
+Garissa,ever_tested,HIV testing: Men,51.6
+Garissa,recieved_results,HIV testing: Men,51.6
+Garissa,received_results_last_test,HIV testing: Men,24.4
+Garissa,never_tested,HIV testing: Men,48.4
+Garissa,not_recieve_results,HIV testing: Men,0
+Wajir,ever_tested,HIV testing: Men,39.5
+Wajir,recieved_results,HIV testing: Men,38.8
+Wajir,received_results_last_test,HIV testing: Men,14.9
+Wajir,never_tested,HIV testing: Men,60.5
+Wajir,not_recieve_results,HIV testing: Men,0.7
+Mandera,ever_tested,HIV testing: Men,46.1
+Mandera,recieved_results,HIV testing: Men,45.9
+Mandera,received_results_last_test,HIV testing: Men,24.3
+Mandera,never_tested,HIV testing: Men,53.9
+Mandera,not_recieve_results,HIV testing: Men,0.2
+Marsabit,ever_tested,HIV testing: Men,62.1
+Marsabit,recieved_results,HIV testing: Men,61.8
+Marsabit,received_results_last_test,HIV testing: Men,25.3
+Marsabit,never_tested,HIV testing: Men,37.9
+Marsabit,not_recieve_results,HIV testing: Men,0.3
+Isiolo,ever_tested,HIV testing: Men,73.7
+Isiolo,recieved_results,HIV testing: Men,73
+Isiolo,received_results_last_test,HIV testing: Men,39.6
+Isiolo,never_tested,HIV testing: Men,26.3
+Isiolo,not_recieve_results,HIV testing: Men,0.7
+Meru,ever_tested,HIV testing: Men,69.5
+Meru,recieved_results,HIV testing: Men,69.5
+Meru,received_results_last_test,HIV testing: Men,31.1
+Meru,never_tested,HIV testing: Men,30.5
+Meru,not_recieve_results,HIV testing: Men,0
+Tharaka Nithi,ever_tested,HIV testing: Men,70.2
+Tharaka Nithi,recieved_results,HIV testing: Men,69.9
+Tharaka Nithi,received_results_last_test,HIV testing: Men,33.9
+Tharaka Nithi,never_tested,HIV testing: Men,29.8
+Tharaka Nithi,not_recieve_results,HIV testing: Men,0.3
+Embu,ever_tested,HIV testing: Men,69.1
+Embu,recieved_results,HIV testing: Men,68.7
+Embu,received_results_last_test,HIV testing: Men,35.1
+Embu,never_tested,HIV testing: Men,30.9
+Embu,not_recieve_results,HIV testing: Men,0.3
+Kitui,ever_tested,HIV testing: Men,59.6
+Kitui,recieved_results,HIV testing: Men,59.6
+Kitui,received_results_last_test,HIV testing: Men,29.6
+Kitui,never_tested,HIV testing: Men,40.4
+Kitui,not_recieve_results,HIV testing: Men,0
+Machakos,ever_tested,HIV testing: Men,76.9
+Machakos,recieved_results,HIV testing: Men,76.9
+Machakos,received_results_last_test,HIV testing: Men,34.8
+Machakos,never_tested,HIV testing: Men,23.1
+Machakos,not_recieve_results,HIV testing: Men,0
+Makueni,ever_tested,HIV testing: Men,77.7
+Makueni,recieved_results,HIV testing: Men,76.7
+Makueni,received_results_last_test,HIV testing: Men,41
+Makueni,never_tested,HIV testing: Men,22.3
+Makueni,not_recieve_results,HIV testing: Men,1
+Nyandarua,ever_tested,HIV testing: Men,69.4
+Nyandarua,recieved_results,HIV testing: Men,68
+Nyandarua,received_results_last_test,HIV testing: Men,34.8
+Nyandarua,never_tested,HIV testing: Men,30.6
+Nyandarua,not_recieve_results,HIV testing: Men,1.3
+Nyeri,ever_tested,HIV testing: Men,78.5
+Nyeri,recieved_results,HIV testing: Men,77.7
+Nyeri,received_results_last_test,HIV testing: Men,40.2
+Nyeri,never_tested,HIV testing: Men,21.5
+Nyeri,not_recieve_results,HIV testing: Men,0.8
+Kirinyaga,ever_tested,HIV testing: Men,75.4
+Kirinyaga,recieved_results,HIV testing: Men,75.4
+Kirinyaga,received_results_last_test,HIV testing: Men,35.7
+Kirinyaga,never_tested,HIV testing: Men,24.6
+Kirinyaga,not_recieve_results,HIV testing: Men,0
+Muranga,ever_tested,HIV testing: Men,80.5
+Muranga,recieved_results,HIV testing: Men,78
+Muranga,received_results_last_test,HIV testing: Men,42
+Muranga,never_tested,HIV testing: Men,19.5
+Muranga,not_recieve_results,HIV testing: Men,2.6
+Kiambu,ever_tested,HIV testing: Men,76.7
+Kiambu,recieved_results,HIV testing: Men,76.1
+Kiambu,received_results_last_test,HIV testing: Men,31.7
+Kiambu,never_tested,HIV testing: Men,23.3
+Kiambu,not_recieve_results,HIV testing: Men,0.6
+Turkana,ever_tested,HIV testing: Men,72.7
+Turkana,recieved_results,HIV testing: Men,72.7
+Turkana,received_results_last_test,HIV testing: Men,49.6
+Turkana,never_tested,HIV testing: Men,27.3
+Turkana,not_recieve_results,HIV testing: Men,0
+West Pokot,ever_tested,HIV testing: Men,61.4
+West Pokot,recieved_results,HIV testing: Men,61.4
+West Pokot,received_results_last_test,HIV testing: Men,34.1
+West Pokot,never_tested,HIV testing: Men,38.6
+West Pokot,not_recieve_results,HIV testing: Men,0.1
+Samburu,ever_tested,HIV testing: Men,68.6
+Samburu,recieved_results,HIV testing: Men,68.6
+Samburu,received_results_last_test,HIV testing: Men,41.4
+Samburu,never_tested,HIV testing: Men,31.4
+Samburu,not_recieve_results,HIV testing: Men,0
+Trans Nzoia,ever_tested,HIV testing: Men,66.2
+Trans Nzoia,recieved_results,HIV testing: Men,65.8
+Trans Nzoia,received_results_last_test,HIV testing: Men,33.4
+Trans Nzoia,never_tested,HIV testing: Men,33.8
+Trans Nzoia,not_recieve_results,HIV testing: Men,0.3
+Uasin Gishu,ever_tested,HIV testing: Men,79.2
+Uasin Gishu,recieved_results,HIV testing: Men,79
+Uasin Gishu,received_results_last_test,HIV testing: Men,44.9
+Uasin Gishu,never_tested,HIV testing: Men,20.8
+Uasin Gishu,not_recieve_results,HIV testing: Men,0.2
+Elgeyo Marakwet,ever_tested,HIV testing: Men,66.9
+Elgeyo Marakwet,recieved_results,HIV testing: Men,65.6
+Elgeyo Marakwet,received_results_last_test,HIV testing: Men,38.8
+Elgeyo Marakwet,never_tested,HIV testing: Men,33.1
+Elgeyo Marakwet,not_recieve_results,HIV testing: Men,1.2
+Nandi,ever_tested,HIV testing: Men,53.8
+Nandi,recieved_results,HIV testing: Men,51.2
+Nandi,received_results_last_test,HIV testing: Men,28.1
+Nandi,never_tested,HIV testing: Men,46.2
+Nandi,not_recieve_results,HIV testing: Men,2.6
+Baringo,ever_tested,HIV testing: Men,52.6
+Baringo,recieved_results,HIV testing: Men,52.1
+Baringo,received_results_last_test,HIV testing: Men,26.3
+Baringo,never_tested,HIV testing: Men,47.4
+Baringo,not_recieve_results,HIV testing: Men,0.5
+Laikipia,ever_tested,HIV testing: Men,74.2
+Laikipia,recieved_results,HIV testing: Men,73.5
+Laikipia,received_results_last_test,HIV testing: Men,33.7
+Laikipia,never_tested,HIV testing: Men,25.8
+Laikipia,not_recieve_results,HIV testing: Men,0.7
+Nakuru,ever_tested,HIV testing: Men,60.3
+Nakuru,recieved_results,HIV testing: Men,60.1
+Nakuru,received_results_last_test,HIV testing: Men,30.5
+Nakuru,never_tested,HIV testing: Men,39.7
+Nakuru,not_recieve_results,HIV testing: Men,0.3
+Narok,ever_tested,HIV testing: Men,74.9
+Narok,recieved_results,HIV testing: Men,74.9
+Narok,received_results_last_test,HIV testing: Men,55.3
+Narok,never_tested,HIV testing: Men,25.1
+Narok,not_recieve_results,HIV testing: Men,0
+Kajiado,ever_tested,HIV testing: Men,75.5
+Kajiado,recieved_results,HIV testing: Men,75.5
+Kajiado,received_results_last_test,HIV testing: Men,35.7
+Kajiado,never_tested,HIV testing: Men,24.5
+Kajiado,not_recieve_results,HIV testing: Men,0
+Kericho,ever_tested,HIV testing: Men,70.7
+Kericho,recieved_results,HIV testing: Men,69.7
+Kericho,received_results_last_test,HIV testing: Men,38.3
+Kericho,never_tested,HIV testing: Men,29.3
+Kericho,not_recieve_results,HIV testing: Men,0.9
+Bomet,ever_tested,HIV testing: Men,73.1
+Bomet,recieved_results,HIV testing: Men,72.6
+Bomet,received_results_last_test,HIV testing: Men,35.6
+Bomet,never_tested,HIV testing: Men,26.9
+Bomet,not_recieve_results,HIV testing: Men,0.5
+Kakamega,ever_tested,HIV testing: Men,55.4
+Kakamega,recieved_results,HIV testing: Men,55.4
+Kakamega,received_results_last_test,HIV testing: Men,32.2
+Kakamega,never_tested,HIV testing: Men,44.6
+Kakamega,not_recieve_results,HIV testing: Men,0
+Vihiga,ever_tested,HIV testing: Men,60
+Vihiga,recieved_results,HIV testing: Men,60
+Vihiga,received_results_last_test,HIV testing: Men,26.7
+Vihiga,never_tested,HIV testing: Men,40
+Vihiga,not_recieve_results,HIV testing: Men,0
+Bungoma,ever_tested,HIV testing: Men,57.2
+Bungoma,recieved_results,HIV testing: Men,56.9
+Bungoma,received_results_last_test,HIV testing: Men,30.8
+Bungoma,never_tested,HIV testing: Men,42.8
+Bungoma,not_recieve_results,HIV testing: Men,0.3
+Busia,ever_tested,HIV testing: Men,63.4
+Busia,recieved_results,HIV testing: Men,62.2
+Busia,received_results_last_test,HIV testing: Men,30.2
+Busia,never_tested,HIV testing: Men,36.6
+Busia,not_recieve_results,HIV testing: Men,1.2
+Siaya,ever_tested,HIV testing: Men,78.1
+Siaya,recieved_results,HIV testing: Men,78.1
+Siaya,received_results_last_test,HIV testing: Men,42.7
+Siaya,never_tested,HIV testing: Men,21.9
+Siaya,not_recieve_results,HIV testing: Men,0
+Kisumu,ever_tested,HIV testing: Men,84.3
+Kisumu,recieved_results,HIV testing: Men,84
+Kisumu,received_results_last_test,HIV testing: Men,59
+Kisumu,never_tested,HIV testing: Men,15.7
+Kisumu,not_recieve_results,HIV testing: Men,0.3
+Homa Bay,ever_tested,HIV testing: Men,86.6
+Homa Bay,recieved_results,HIV testing: Men,85.1
+Homa Bay,received_results_last_test,HIV testing: Men,53.5
+Homa Bay,never_tested,HIV testing: Men,13.4
+Homa Bay,not_recieve_results,HIV testing: Men,1.5
+Migori,ever_tested,HIV testing: Men,82.9
+Migori,recieved_results,HIV testing: Men,82.4
+Migori,received_results_last_test,HIV testing: Men,53.7
+Migori,never_tested,HIV testing: Men,17.1
+Migori,not_recieve_results,HIV testing: Men,0.5
+Kisii,ever_tested,HIV testing: Men,81
+Kisii,recieved_results,HIV testing: Men,80.7
+Kisii,received_results_last_test,HIV testing: Men,47.2
+Kisii,never_tested,HIV testing: Men,19
+Kisii,not_recieve_results,HIV testing: Men,0.3
+Nyamira,ever_tested,HIV testing: Men,73.6
+Nyamira,recieved_results,HIV testing: Men,73.6
+Nyamira,received_results_last_test,HIV testing: Men,44
+Nyamira,never_tested,HIV testing: Men,26.4
+Nyamira,not_recieve_results,HIV testing: Men,0
+Nairobi,ever_tested,HIV testing: Men,89.2
+Nairobi,recieved_results,HIV testing: Men,89.1
+Nairobi,received_results_last_test,HIV testing: Men,50.3
+Nairobi,never_tested,HIV testing: Men,10.8
+Nairobi,not_recieve_results,HIV testing: Men,0.2

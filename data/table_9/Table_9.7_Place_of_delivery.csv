@@ -1,0 +1,127 @@
+Characteristic,Variable,category,proportion
+<20,Mother's age,Public sector,65
+<20,Mother's age,Private non NGO,14.6
+<20,Mother's age,Private NGO,0.6
+<20,Mother's age,Faith based organization,7.5
+<20,Mother's age,Home,11.4
+<20,Mother's age,Percentage in facility,87.7
+20-34,Mother's age,Public sector,63.4
+20-34,Mother's age,Private non NGO,19.2
+20-34,Mother's age,Private NGO,0.2
+20-34,Mother's age,Faith based organization,5.4
+20-34,Mother's age,Home,11.2
+20-34,Mother's age,Percentage in facility,88.3
+35-49,Mother's age,Public sector,64.4
+35-49,Mother's age,Private non NGO,16.5
+35-49,Mother's age,Private NGO,0.5
+35-49,Mother's age,Faith based organization,6.2
+35-49,Mother's age,Home,12.1
+35-49,Mother's age,Percentage in facility,87.6
+1,Birth order,Public sector,68
+1,Birth order,Private non NGO,19.6
+1,Birth order,Private NGO,0.5
+1,Birth order,Faith based organization,6
+1,Birth order,Home,5.8
+1,Birth order,Percentage in facility,94.1
+2-3,Birth order,Public sector,65.5
+2-3,Birth order,Private non NGO,20.3
+2-3,Birth order,Private NGO,0.2
+2-3,Birth order,Faith based organization,6.1
+2-3,Birth order,Home,7.6
+2-3,Birth order,Percentage in facility,92
+4-5,Birth order,Public sector,59
+4-5,Birth order,Private non NGO,16.3
+4-5,Birth order,Private NGO,0.1
+4-5,Birth order,Faith based organization,6.1
+4-5,Birth order,Home,17.6
+4-5,Birth order,Percentage in facility,81.4
+6+,Birth order,Public sector,52.3
+6+,Birth order,Private non NGO,9.5
+6+,Birth order,Private NGO,0.6
+6+,Birth order,Faith based organization,3.7
+6+,Birth order,Home,32.4
+6+,Birth order,Percentage in facility,66.1
+None,Antenatal care visits,Public sector,27.6
+None,Antenatal care visits,Private non NGO,5.7
+None,Antenatal care visits,Private NGO,0
+None,Antenatal care visits,Faith based organization,0.1
+None,Antenatal care visits,Home,66.6
+None,Antenatal care visits,Percentage in facility,33.4
+1-3,Antenatal care visits,Public sector,64.7
+1-3,Antenatal care visits,Private non NGO,12.9
+1-3,Antenatal care visits,Private NGO,0.4
+1-3,Antenatal care visits,Faith based organization,4.7
+1-3,Antenatal care visits,Home,16.6
+1-3,Antenatal care visits,Percentage in facility,82.6
+4+,Antenatal care visits,Public sector,64.3
+4+,Antenatal care visits,Private non NGO,21.3
+4+,Antenatal care visits,Private NGO,0.2
+4+,Antenatal care visits,Faith based organization,6.6
+4+,Antenatal care visits,Home,7.1
+4+,Antenatal care visits,Percentage in facility,92.5
+Urban,Residence,Public sector,61.8
+Urban,Residence,Private non NGO,29.4
+Urban,Residence,Private NGO,0.4
+Urban,Residence,Faith based organization,5.4
+Urban,Residence,Home,3
+Urban,Residence,Percentage in facility,97
+Rural,Residence,Public sector,64.8
+Rural,Residence,Private non NGO,12
+Rural,Residence,Private NGO,0.2
+Rural,Residence,Faith based organization,6
+Rural,Residence,Home,16.1
+Rural,Residence,Percentage in facility,83.1
+No education,Education,Public sector,43.1
+No education,Education,Private non NGO,4.6
+No education,Education,Private NGO,0.2
+No education,Education,Faith based organization,1.7
+No education,Education,Home,48.8
+No education,Education,Percentage in facility,49.6
+Primary,Education,Public sector,68.5
+Primary,Education,Private non NGO,12.2
+Primary,Education,Private NGO,0.3
+Primary,Education,Faith based organization,4.5
+Primary,Education,Home,13.8
+Primary,Education,Percentage in facility,85.5
+Secondary,Education,Public sector,70.6
+Secondary,Education,Private non NGO,18.6
+Secondary,Education,Private NGO,0.1
+Secondary,Education,Faith based organization,5.7
+Secondary,Education,Home,4.6
+Secondary,Education,Percentage in facility,95
+More than secondary,Education,Public sector,51.1
+More than secondary,Education,Private non NGO,36.5
+More than secondary,Education,Private NGO,0.5
+More than secondary,Education,Faith based organization,10.7
+More than secondary,Education,Home,1.2
+More than secondary,Education,Percentage in facility,98.8
+Lowest,Wealth,Public sector,56.7
+Lowest,Wealth,Private non NGO,5.5
+Lowest,Wealth,Private NGO,0.3
+Lowest,Wealth,Faith based organization,3.2
+Lowest,Wealth,Home,32.7
+Lowest,Wealth,Percentage in facility,65.8
+Second,Wealth,Public sector,69.9
+Second,Wealth,Private non NGO,12
+Second,Wealth,Private NGO,0.1
+Second,Wealth,Faith based organization,6.1
+Second,Wealth,Home,11.4
+Second,Wealth,Percentage in facility,87.9
+Middle,Wealth,Public sector,73.1
+Middle,Wealth,Private non NGO,13.8
+Middle,Wealth,Private NGO,0.1
+Middle,Wealth,Faith based organization,6.6
+Middle,Wealth,Home,6.2
+Middle,Wealth,Percentage in facility,93.5
+Fourth,Wealth,Public sector,71.7
+Fourth,Wealth,Private non NGO,19
+Fourth,Wealth,Private NGO,0.4
+Fourth,Wealth,Faith based organization,6.3
+Fourth,Wealth,Home,2.6
+Fourth,Wealth,Percentage in facility,97.4
+Highest,Wealth,Public sector,49.9
+Highest,Wealth,Private non NGO,41
+Highest,Wealth,Private NGO,0.5
+Highest,Wealth,Faith based organization,7.2
+Highest,Wealth,Home,1.5
+Highest,Wealth,Percentage in facility,98.5

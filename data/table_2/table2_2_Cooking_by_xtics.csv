@@ -1,0 +1,125 @@
+Value,Category,Proportion,Participants,Characteristics
+In the house,Urban,84.9,Household,Cooking place
+In the house,Rural,26,Household,Cooking place
+Separate room/kitchen,Urban,31.9,Household,Cooking place
+Separate room/kitchen,Rural,11.4,Household,Cooking place
+No separate room/kitchen,Urban,52.9,Household,Cooking place
+No separate room/kitchen,Rural,14.6,Household,Cooking place
+In a separate building,Urban,7.7,Household,Cooking place
+In a separate building,Rural,63.1,Household,Cooking place
+Outdoors,Urban,5.5,Household,Cooking place
+Outdoors,Rural,9.6,Household,Cooking place
+No food cooked in household,Urban,1.9,Household,Cooking place
+No food cooked in household,Rural,1.3,Household,Cooking place
+In the house,Urban,80,Population,Cooking place
+In the house,Rural,20.4,Population,Cooking place
+Separate room/kitchen,Urban,38,Population,Cooking place
+Separate room/kitchen,Rural,10,Population,Cooking place
+No separate room/kitchen,Urban,42,Population,Cooking place
+No separate room/kitchen,Rural,10.4,Population,Cooking place
+In a separate building,Urban,12.4,Population,Cooking place
+In a separate building,Rural,69.4,Population,Cooking place
+Outdoors,Urban,6.9,Population,Cooking place
+Outdoors,Rural,9.7,Population,Cooking place
+No food cooked in household,Urban,0.7,Population,Cooking place
+No food cooked in household,Rural,0.4,Population,Cooking place
+Clean fuels and technologies,Urban,63.3,Household,Cooking technology
+Clean fuels and technologies,Rural,9.6,Household,Cooking technology
+Electric stove,Urban,0.4,Household,Cooking technology
+Electric stove,Rural,0.1,Household,Cooking technology
+LPG/natural gas stove,Urban,59.9,Household,Cooking technology
+LPG/natural gas stove,Rural,8.8,Household,Cooking technology
+Piped natural gas stove,Urban,2.1,Household,Cooking technology
+Piped natural gas stove,Rural,0.4,Household,Cooking technology
+Biogas stove,Urban,0.3,Household,Cooking technology
+Biogas stove,Rural,0.2,Household,Cooking technology
+Liquid fuel stove using alcohol/ethanol,Urban,0.6,Household,Cooking technology
+Liquid fuel stove using alcohol/ethanol,Rural,0,Household,Cooking technology
+Liquid fuel stove not using alcohol/ethanol,Urban,8.4,Household,Cooking technology
+Liquid fuel stove not using alcohol/ethanol,Rural,0.6,Household,Cooking technology
+Manufactured solid fuel stove,Urban,16.9,Household,Cooking technology
+Manufactured solid fuel stove,Rural,7.4,Household,Cooking technology
+With a chimney,Urban,2.4,Household,Cooking technology
+With a chimney,Rural,1.3,Household,Cooking technology
+Without a chimney,Urban,14.5,Household,Cooking technology
+Without a chimney,Rural,6.2,Household,Cooking technology
+Traditional solid fuel stove,Urban,0.7,Household,Cooking technology
+Traditional solid fuel stove,Rural,4.7,Household,Cooking technology
+With a chimney,Urban,0.2,Household,Cooking technology
+With a chimney,Rural,1.5,Household,Cooking technology
+Without a chimney,Urban,0.5,Household,Cooking technology
+Without a chimney,Rural,3.2,Household,Cooking technology
+Three stone stove/open fire,Urban,8.8,Household,Cooking technology
+Three stone stove/open fire,Rural,76.3,Household,Cooking technology
+No food cooked in household,Urban,1.9,Household,Cooking technology
+No food cooked in household,Rural,1.3,Household,Cooking technology
+Clean fuels and technologies,Urban,58.7,Population,Cooking technology
+Clean fuels and technologies,Rural,6,Population,Cooking technology
+Electric stove,Urban,0.3,Population,Cooking technology
+Electric stove,Rural,0.1,Population,Cooking technology
+LPG/natural gas stove,Urban,55.6,Population,Cooking technology
+LPG/natural gas stove,Rural,5.5,Population,Cooking technology
+Piped natural gas stove,Urban,1.9,Population,Cooking technology
+Piped natural gas stove,Rural,0.2,Population,Cooking technology
+Biogas stove,Urban,0.3,Population,Cooking technology
+Biogas stove,Rural,0.1,Population,Cooking technology
+Liquid fuel stove using alcohol/ethanol,Urban,0.5,Population,Cooking technology
+Liquid fuel stove using alcohol/ethanol,Rural,0,Population,Cooking technology
+Liquid fuel stove not using alcohol/ethanol,Urban,6.5,Population,Cooking technology
+Liquid fuel stove not using alcohol/ethanol,Rural,0.2,Population,Cooking technology
+Manufactured solid fuel stove,Urban,20.2,Population,Cooking technology
+Manufactured solid fuel stove,Rural,6.2,Population,Cooking technology
+With a chimney,Urban,3.1,Population,Cooking technology
+With a chimney,Rural,1.1,Population,Cooking technology
+Without a chimney,Urban,17.1,Population,Cooking technology
+Without a chimney,Rural,5.1,Population,Cooking technology
+Traditional solid fuel stove,Urban,0.8,Population,Cooking technology
+Traditional solid fuel stove,Rural,5.5,Population,Cooking technology
+With a chimney,Urban,0.2,Population,Cooking technology
+With a chimney,Rural,1.8,Population,Cooking technology
+Without a chimney,Urban,0.6,Population,Cooking technology
+Without a chimney,Rural,3.7,Population,Cooking technology
+Three stone stove/open fire,Urban,13.1,Population,Cooking technology
+Three stone stove/open fire,Rural,81.7,Population,Cooking technology
+No food cooked in household,Urban,0.7,Population,Cooking technology
+No food cooked in household,Rural,0.4,Population,Cooking technology
+Clean fuels and technologies,Urban,63.3,Household,Cooking fuel
+Clean fuels and technologies,Rural,9.6,Household,Cooking fuel
+Solid fuels for cooking,Urban,26.2,Household,Cooking fuel
+Solid fuels for cooking,Rural,88.4,Household,Cooking fuel
+Charcoal,Urban,16.9,Household,Cooking fuel
+Charcoal,Rural,7.7,Household,Cooking fuel
+Wood,Urban,9.2,Household,Cooking fuel
+Wood,Rural,80.1,Household,Cooking fuel
+Straw/shrubs/grass,Urban,0.1,Household,Cooking fuel
+Straw/shrubs/grass,Rural,0.3,Household,Cooking fuel
+Agricultural crop,Urban,0,Household,Cooking fuel
+Agricultural crop,Rural,0.1,Household,Cooking fuel
+Sawdust,Urban,0,Household,Cooking fuel
+Sawdust,Rural,0.1,Household,Cooking fuel
+Gasoline/diesel,Urban,0.1,Household,Cooking fuel
+Gasoline/diesel,Rural,0,Household,Cooking fuel
+Kerosene/paraffin,Urban,8.4,Household,Cooking fuel
+Kerosene/paraffin,Rural,0.7,Household,Cooking fuel
+No food cooked in household,Urban,1.9,Household,Cooking fuel
+No food cooked in household,Rural,1.3,Household,Cooking fuel
+Clean fuels and technologies,Urban,58.7,Population,Cooking fuel
+Clean fuels and technologies,Rural,6,Population,Cooking fuel
+Solid fuels for cooking,Urban,34,Population,Cooking fuel
+Solid fuels for cooking,Rural,93.3,Population,Cooking fuel
+Charcoal,Urban,20.1,Population,Cooking fuel
+Charcoal,Rural,6.5,Population,Cooking fuel
+Wood,Urban,13.8,Population,Cooking fuel
+Wood,Rural,86.3,Population,Cooking fuel
+Straw/shrubs/grass,Urban,0.1,Population,Cooking fuel
+Straw/shrubs/grass,Rural,0.3,Population,Cooking fuel
+Agricultural crop,Urban,0,Population,Cooking fuel
+Agricultural crop,Rural,0.1,Population,Cooking fuel
+Sawdust,Urban,0.1,Population,Cooking fuel
+Sawdust,Rural,0.1,Population,Cooking fuel
+Gasoline/diesel,Urban,0.1,Population,Cooking fuel
+Gasoline/diesel,Rural,0,Population,Cooking fuel
+Kerosene/paraffin,Urban,6.5,Population,Cooking fuel
+Kerosene/paraffin,Rural,0.3,Population,Cooking fuel
+No food cooked in household,Urban,0.7,Population,Cooking fuel
+No food cooked in household,Rural,0.4,Population,Cooking fuel

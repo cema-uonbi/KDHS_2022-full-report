@@ -1,0 +1,133 @@
+Value,Category,Proportion,Background characteristics
+Urban,Mass distribution campaign,50.1,Residence
+Urban,ANC visit,13.4,Residence
+Urban,Immunization visit,3.6,Residence
+Urban,Govt Health Facility,1.6,Residence
+Urban,Private Health Facility,0.2,Residence
+Urban,Pharmacy,0.3,Residence
+Urban,Shop/market,26.7,Residence
+Urban,Community Health Worker,0,Residence
+Urban,Religious institution,0.1,Residence
+Urban,School,0.1,Residence
+Urban,Other,3.5,Residence
+Rural,Mass distribution campaign,79.4,Residence
+Rural,ANC visit,8.8,Residence
+Rural,Immunization visit,2.5,Residence
+Rural,Govt Health Facility,1.2,Residence
+Rural,Private Health Facility,0.1,Residence
+Rural,Pharmacy,0.3,Residence
+Rural,Shop/market,5.9,Residence
+Rural,Community Health Worker,0,Residence
+Rural,Religious institution,0,Residence
+Rural,School,0.1,Residence
+Rural,Other,1.5,Residence
+Highland epidemic prone,Mass distribution campaign,91.5,Endemicity zone
+Highland epidemic prone,ANC visit,4.1,Endemicity zone
+Highland epidemic prone,Immunization visit,0.9,Endemicity zone
+Highland epidemic prone,Govt Health Facility,0.4,Endemicity zone
+Highland epidemic prone,Private Health Facility,0,Endemicity zone
+Highland epidemic prone,Pharmacy,0.1,Endemicity zone
+Highland epidemic prone,Shop/market,1.8,Endemicity zone
+Highland epidemic prone,Community Health Worker,0,Endemicity zone
+Highland epidemic prone,Religious institution,0,Endemicity zone
+Highland epidemic prone,School,0.1,Endemicity zone
+Highland epidemic prone,Other,1,Endemicity zone
+Lake endemic,Mass distribution campaign,88.6,Endemicity zone
+Lake endemic,ANC visit,6.2,Endemicity zone
+Lake endemic,Immunization visit,1.6,Endemicity zone
+Lake endemic,Govt Health Facility,0.3,Endemicity zone
+Lake endemic,Private Health Facility,0.1,Endemicity zone
+Lake endemic,Pharmacy,0,Endemicity zone
+Lake endemic,Shop/market,2.5,Endemicity zone
+Lake endemic,Community Health Worker,0,Endemicity zone
+Lake endemic,Religious institution,0,Endemicity zone
+Lake endemic,School,0,Endemicity zone
+Lake endemic,Other,0.6,Endemicity zone
+Coast endemic,Mass distribution campaign,87.1,Endemicity zone
+Coast endemic,ANC visit,6.7,Endemicity zone
+Coast endemic,Immunization visit,0.9,Endemicity zone
+Coast endemic,Govt Health Facility,0.6,Endemicity zone
+Coast endemic,Private Health Facility,0,Endemicity zone
+Coast endemic,Pharmacy,0.1,Endemicity zone
+Coast endemic,Shop/market,3.5,Endemicity zone
+Coast endemic,Community Health Worker,0,Endemicity zone
+Coast endemic,Religious institution,0.1,Endemicity zone
+Coast endemic,School,0,Endemicity zone
+Coast endemic,Other,0.9,Endemicity zone
+Seasonal,Mass distribution campaign,31.1,Endemicity zone
+Seasonal,ANC visit,25.7,Endemicity zone
+Seasonal,Immunization visit,6.5,Endemicity zone
+Seasonal,Govt Health Facility,4.2,Endemicity zone
+Seasonal,Private Health Facility,0.5,Endemicity zone
+Seasonal,Pharmacy,1.3,Endemicity zone
+Seasonal,Shop/market,26.2,Endemicity zone
+Seasonal,Community Health Worker,0.1,Endemicity zone
+Seasonal,Religious institution,0.2,Endemicity zone
+Seasonal,School,0.1,Endemicity zone
+Seasonal,Other,3.9,Endemicity zone
+Low risk,Mass distribution campaign,17.6,Endemicity zone
+Low risk,ANC visit,22.3,Endemicity zone
+Low risk,Immunization visit,7.5,Endemicity zone
+Low risk,Govt Health Facility,3.8,Endemicity zone
+Low risk,Private Health Facility,0.5,Endemicity zone
+Low risk,Pharmacy,0.8,Endemicity zone
+Low risk,Shop/market,40.1,Endemicity zone
+Low risk,Community Health Worker,0,Endemicity zone
+Low risk,Religious institution,0.1,Endemicity zone
+Low risk,School,0.2,Endemicity zone
+Low risk,Other,6.1,Endemicity zone
+Lowest,Mass distribution campaign,82.1,Wealth quintile
+Lowest,ANC visit,9.9,Wealth quintile
+Lowest,Immunization visit,2.5,Wealth quintile
+Lowest,Govt Health Facility,0.9,Wealth quintile
+Lowest,Private Health Facility,0,Wealth quintile
+Lowest,Pharmacy,0.1,Wealth quintile
+Lowest,Shop/market,3,Wealth quintile
+Lowest,Community Health Worker,0,Wealth quintile
+Lowest,Religious institution,0.1,Wealth quintile
+Lowest,School,0.1,Wealth quintile
+Lowest,Other,1.3,Wealth quintile
+Second,Mass distribution campaign,84.6,Wealth quintile
+Second,ANC visit,7.8,Wealth quintile
+Second,Immunization visit,2,Wealth quintile
+Second,Govt Health Facility,0.6,Wealth quintile
+Second,Private Health Facility,0.1,Wealth quintile
+Second,Pharmacy,0.1,Wealth quintile
+Second,Shop/market,3.1,Wealth quintile
+Second,Community Health Worker,0,Wealth quintile
+Second,Religious institution,0,Wealth quintile
+Second,School,0,Wealth quintile
+Second,Other,1.5,Wealth quintile
+Middle,Mass distribution campaign,77.4,Wealth quintile
+Middle,ANC visit,9,Wealth quintile
+Middle,Immunization visit,2.5,Wealth quintile
+Middle,Govt Health Facility,1.4,Wealth quintile
+Middle,Private Health Facility,0.3,Wealth quintile
+Middle,Pharmacy,0.3,Wealth quintile
+Middle,Shop/market,7,Wealth quintile
+Middle,Community Health Worker,0,Wealth quintile
+Middle,Religious institution,0,Wealth quintile
+Middle,School,0.1,Wealth quintile
+Middle,Other,1.8,Wealth quintile
+Fourth,Mass distribution campaign,66.3,Wealth quintile
+Fourth,ANC visit,11,Wealth quintile
+Fourth,Immunization visit,3.6,Wealth quintile
+Fourth,Govt Health Facility,1.8,Wealth quintile
+Fourth,Private Health Facility,0.1,Wealth quintile
+Fourth,Pharmacy,0.4,Wealth quintile
+Fourth,Shop/market,13.1,Wealth quintile
+Fourth,Community Health Worker,0,Wealth quintile
+Fourth,Religious institution,0.1,Wealth quintile
+Fourth,School,0.1,Wealth quintile
+Fourth,Other,2.9,Wealth quintile
+Highest,Mass distribution campaign,41.5,Wealth quintile
+Highest,ANC visit,13.5,Wealth quintile
+Highest,Immunization visit,3.4,Wealth quintile
+Highest,Govt Health Facility,1.9,Wealth quintile
+Highest,Private Health Facility,0.3,Wealth quintile
+Highest,Pharmacy,0.6,Wealth quintile
+Highest,Shop/market,35.4,Wealth quintile
+Highest,Community Health Worker,0,Wealth quintile
+Highest,Religious institution,0,Wealth quintile
+Highest,School,0.1,Wealth quintile
+Highest,Other,2.9,Wealth quintile

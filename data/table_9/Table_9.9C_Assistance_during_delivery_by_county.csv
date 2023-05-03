@@ -1,0 +1,283 @@
+County,category,proportion
+Mombasa,Doctor,66.9
+Mombasa,Nurse/midwife,28.6
+Mombasa,TBA,4.1
+Mombasa,relative/friend/other,0.4
+Mombasa,None,0
+Mombasa,Total percentage delivered by skilled provider,95.5
+Kwale,Doctor,29.1
+Kwale,Nurse/midwife,60.1
+Kwale,TBA,7.9
+Kwale,relative/friend/other,0.7
+Kwale,None,2.2
+Kwale,Total percentage delivered by skilled provider,89.3
+Kilifi,Doctor,46.1
+Kilifi,Nurse/midwife,38.4
+Kilifi,TBA,9
+Kilifi,relative/friend/other,4.5
+Kilifi,None,1.9
+Kilifi,Total percentage delivered by skilled provider,84.5
+Tana River,Doctor,8.7
+Tana River,Nurse/midwife,50.5
+Tana River,TBA,40.5
+Tana River,relative/friend/other,0.3
+Tana River,None,0
+Tana River,Total percentage delivered by skilled provider,59.2
+Lamu,Doctor,41.2
+Lamu,Nurse/midwife,51.3
+Lamu,TBA,5.6
+Lamu,relative/friend/other,1.9
+Lamu,None,0
+Lamu,Total percentage delivered by skilled provider,92.5
+Taita Taveta,Doctor,37.7
+Taita Taveta,Nurse/midwife,58
+Taita Taveta,TBA,0
+Taita Taveta,relative/friend/other,1.9
+Taita Taveta,None,2.5
+Taita Taveta,Total percentage delivered by skilled provider,95.7
+Garissa,Doctor,19.8
+Garissa,Nurse/midwife,48.3
+Garissa,TBA,18.4
+Garissa,relative/friend/other,13.5
+Garissa,None,0
+Garissa,Total percentage delivered by skilled provider,68.1
+Wajir,Doctor,3.4
+Wajir,Nurse/midwife,53.2
+Wajir,TBA,42.9
+Wajir,relative/friend/other,0
+Wajir,None,0.5
+Wajir,Total percentage delivered by skilled provider,56.6
+Mandera,Doctor,32.7
+Mandera,Nurse/midwife,22
+Mandera,TBA,28.6
+Mandera,relative/friend/other,16.7
+Mandera,None,0
+Mandera,Total percentage delivered by skilled provider,54.7
+Marsabit,Doctor,22
+Marsabit,Nurse/midwife,46.7
+Marsabit,TBA,29
+Marsabit,relative/friend/other,2.3
+Marsabit,None,0
+Marsabit,Total percentage delivered by skilled provider,68.7
+Isiolo,Doctor,60
+Isiolo,Nurse/midwife,25
+Isiolo,TBA,12.9
+Isiolo,relative/friend/other,1.3
+Isiolo,None,0.7
+Isiolo,Total percentage delivered by skilled provider,85
+Meru,Doctor,63.2
+Meru,Nurse/midwife,27.7
+Meru,TBA,0
+Meru,relative/friend/other,8
+Meru,None,1.1
+Meru,Total percentage delivered by skilled provider,90.9
+Tharaka Nithi,Doctor,65.9
+Tharaka Nithi,Nurse/midwife,29.2
+Tharaka Nithi,TBA,1
+Tharaka Nithi,relative/friend/other,3.9
+Tharaka Nithi,None,0
+Tharaka Nithi,Total percentage delivered by skilled provider,95.1
+Embu,Doctor,56.6
+Embu,Nurse/midwife,39.7
+Embu,TBA,1
+Embu,relative/friend/other,0
+Embu,None,2.6
+Embu,Total percentage delivered by skilled provider,96.3
+Kitui,Doctor,63.6
+Kitui,Nurse/midwife,22.3
+Kitui,TBA,9.9
+Kitui,relative/friend/other,4.2
+Kitui,None,0
+Kitui,Total percentage delivered by skilled provider,86
+Machakos,Doctor,42.6
+Machakos,Nurse/midwife,52.8
+Machakos,TBA,2.1
+Machakos,relative/friend/other,1.7
+Machakos,None,0.9
+Machakos,Total percentage delivered by skilled provider,95.3
+Makueni,Doctor,24.8
+Makueni,Nurse/midwife,67.3
+Makueni,TBA,2.9
+Makueni,relative/friend/other,4.6
+Makueni,None,0.5
+Makueni,Total percentage delivered by skilled provider,92.1
+Nyandarua,Doctor,69.7
+Nyandarua,Nurse/midwife,28.2
+Nyandarua,TBA,0.4
+Nyandarua,relative/friend/other,1.6
+Nyandarua,None,0
+Nyandarua,Total percentage delivered by skilled provider,98
+Nyeri,Doctor,53.7
+Nyeri,Nurse/midwife,45.4
+Nyeri,TBA,0
+Nyeri,relative/friend/other,0
+Nyeri,None,0.9
+Nyeri,Total percentage delivered by skilled provider,99.1
+Kirinyaga,Doctor,64.2
+Kirinyaga,Nurse/midwife,33.1
+Kirinyaga,TBA,2.1
+Kirinyaga,relative/friend/other,0
+Kirinyaga,None,0.7
+Kirinyaga,Total percentage delivered by skilled provider,97.3
+Murang'a,Doctor,60.8
+Murang'a,Nurse/midwife,35.4
+Murang'a,TBA,0.4
+Murang'a,relative/friend/other,2.1
+Murang'a,None,1.3
+Murang'a,Total percentage delivered by skilled provider,96.2
+Kiambu,Doctor,68.7
+Kiambu,Nurse/midwife,29.4
+Kiambu,TBA,0.8
+Kiambu,relative/friend/other,0.5
+Kiambu,None,0.5
+Kiambu,Total percentage delivered by skilled provider,98.2
+Turkana,Doctor,9.7
+Turkana,Nurse/midwife,43
+Turkana,TBA,12.1
+Turkana,relative/friend/other,14.8
+Turkana,None,20.4
+Turkana,Total percentage delivered by skilled provider,52.6
+West Pokot,Doctor,32.9
+West Pokot,Nurse/midwife,32.4
+West Pokot,TBA,32.3
+West Pokot,relative/friend/other,2.4
+West Pokot,None,0
+West Pokot,Total percentage delivered by skilled provider,65.3
+Samburu,Doctor,10.2
+Samburu,Nurse/midwife,46.4
+Samburu,TBA,12.1
+Samburu,relative/friend/other,26.5
+Samburu,None,4.8
+Samburu,Total percentage delivered by skilled provider,56.6
+Trans Nzoia,Doctor,48
+Trans Nzoia,Nurse/midwife,45.3
+Trans Nzoia,TBA,4.5
+Trans Nzoia,relative/friend/other,1.4
+Trans Nzoia,None,0.7
+Trans Nzoia,Total percentage delivered by skilled provider,93.3
+Uasin Gishu,Doctor,46.9
+Uasin Gishu,Nurse/midwife,48.4
+Uasin Gishu,TBA,3.7
+Uasin Gishu,relative/friend/other,0.6
+Uasin Gishu,None,0.4
+Uasin Gishu,Total percentage delivered by skilled provider,95.3
+Elgeyo-Marakwet,Doctor,29.7
+Elgeyo-Marakwet,Nurse/midwife,67.9
+Elgeyo-Marakwet,TBA,2.2
+Elgeyo-Marakwet,relative/friend/other,0.3
+Elgeyo-Marakwet,None,0
+Elgeyo-Marakwet,Total percentage delivered by skilled provider,97.5
+Nandi,Doctor,73.5
+Nandi,Nurse/midwife,13.6
+Nandi,TBA,9.2
+Nandi,relative/friend/other,3.5
+Nandi,None,0.2
+Nandi,Total percentage delivered by skilled provider,87.1
+Baringo,Doctor,32.3
+Baringo,Nurse/midwife,50.8
+Baringo,TBA,12
+Baringo,relative/friend/other,4.8
+Baringo,None,0.1
+Baringo,Total percentage delivered by skilled provider,83
+Laikipia,Doctor,64.5
+Laikipia,Nurse/midwife,28.1
+Laikipia,TBA,3.5
+Laikipia,relative/friend/other,1.4
+Laikipia,None,2.5
+Laikipia,Total percentage delivered by skilled provider,92.6
+Nakuru,Doctor,67.6
+Nakuru,Nurse/midwife,25.8
+Nakuru,TBA,0.6
+Nakuru,relative/friend/other,3.8
+Nakuru,None,2.3
+Nakuru,Total percentage delivered by skilled provider,93.4
+Narok,Doctor,25.6
+Narok,Nurse/midwife,44.5
+Narok,TBA,20.7
+Narok,relative/friend/other,7.3
+Narok,None,1.9
+Narok,Total percentage delivered by skilled provider,70.1
+Kajiado,Doctor,58.4
+Kajiado,Nurse/midwife,26.8
+Kajiado,TBA,7.2
+Kajiado,relative/friend/other,7.6
+Kajiado,None,0
+Kajiado,Total percentage delivered by skilled provider,85.3
+Kericho,Doctor,54.1
+Kericho,Nurse/midwife,38.2
+Kericho,TBA,4.2
+Kericho,relative/friend/other,1.3
+Kericho,None,2.2
+Kericho,Total percentage delivered by skilled provider,92.3
+Bomet,Doctor,57.5
+Bomet,Nurse/midwife,30.7
+Bomet,TBA,1.6
+Bomet,relative/friend/other,6.9
+Bomet,None,3.4
+Bomet,Total percentage delivered by skilled provider,88.2
+Kakamega,Doctor,63.4
+Kakamega,Nurse/midwife,32.3
+Kakamega,TBA,1.9
+Kakamega,relative/friend/other,0.6
+Kakamega,None,1.8
+Kakamega,Total percentage delivered by skilled provider,95.7
+Vihiga,Doctor,40.8
+Vihiga,Nurse/midwife,56.4
+Vihiga,TBA,0.9
+Vihiga,relative/friend/other,0.9
+Vihiga,None,1
+Vihiga,Total percentage delivered by skilled provider,97.2
+Bungoma,Doctor,57.9
+Bungoma,Nurse/midwife,29.3
+Bungoma,TBA,8.3
+Bungoma,relative/friend/other,2.5
+Bungoma,None,2
+Bungoma,Total percentage delivered by skilled provider,87.2
+Busia,Doctor,36.6
+Busia,Nurse/midwife,50.9
+Busia,TBA,7.6
+Busia,relative/friend/other,3.5
+Busia,None,1.3
+Busia,Total percentage delivered by skilled provider,87.6
+Siaya,Doctor,34.5
+Siaya,Nurse/midwife,60.3
+Siaya,TBA,1.5
+Siaya,relative/friend/other,1.5
+Siaya,None,2.2
+Siaya,Total percentage delivered by skilled provider,94.9
+Kisumu,Doctor,32
+Kisumu,Nurse/midwife,65.8
+Kisumu,TBA,1.7
+Kisumu,relative/friend/other,0
+Kisumu,None,0.4
+Kisumu,Total percentage delivered by skilled provider,97.9
+Homa Bay,Doctor,41.2
+Homa Bay,Nurse/midwife,50
+Homa Bay,TBA,2.1
+Homa Bay,relative/friend/other,3.3
+Homa Bay,None,3.4
+Homa Bay,Total percentage delivered by skilled provider,91.2
+Migori,Doctor,55.3
+Migori,Nurse/midwife,37.3
+Migori,TBA,3
+Migori,relative/friend/other,3.5
+Migori,None,1
+Migori,Total percentage delivered by skilled provider,92.6
+Kisii,Doctor,35.5
+Kisii,Nurse/midwife,58
+Kisii,TBA,1.5
+Kisii,relative/friend/other,3.3
+Kisii,None,1.6
+Kisii,Total percentage delivered by skilled provider,93.5
+Nyamira,Doctor,38.4
+Nyamira,Nurse/midwife,54.1
+Nyamira,TBA,0
+Nyamira,relative/friend/other,3.3
+Nyamira,None,4.1
+Nyamira,Total percentage delivered by skilled provider,92.6
+Nairobi,Doctor,74.9
+Nairobi,Nurse/midwife,24.6
+Nairobi,TBA,0.6
+Nairobi,relative/friend/other,0
+Nairobi,None,0
+Nairobi,Total percentage delivered by skilled provider,99.4

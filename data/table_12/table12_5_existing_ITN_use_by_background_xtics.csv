@@ -1,0 +1,13 @@
+Value,Proportion,Background characteristics
+Urban,72.1,Residence
+Rural,71.2,Residence
+Highland epidemic prone,66.9,Endemicity zone
+Lake endemic,72.2,Endemicity zone
+Coast endemic,76.7,Endemicity zone
+Seasonal,75.8,Endemicity zone
+Low risk,73.7,Endemicity zone
+Lowest,70.7,Wealth quintile
+Second,72.3,Wealth quintile
+Middle,73.4,Wealth quintile
+Fourth,71.1,Wealth quintile
+Highest,68.3,Wealth quintile

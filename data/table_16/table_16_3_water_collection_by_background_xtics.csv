@@ -1,0 +1,61 @@
+Value,Category,Proportion,Background characteristics
+Urban,Population w/o water on premises,30.1,Residence
+Urban,Adult female,55.6,Residence
+Urban,Adult male,22.5,Residence
+Urban,Female child,2.3,Residence
+Urban,Male child,3.2,Residence
+Urban,Person not in household,16.4,Residence
+Rural,Population w/o water on premises,65.4,Residence
+Rural,Adult female,71.5,Residence
+Rural,Adult male,13.3,Residence
+Rural,Female child,6.0,Residence
+Rural,Male child,2.8,Residence
+Rural,Person not in household,6.4,Residence
+Improved,Population w/o water on premises,40.8,Water source
+Improved,Adult female,64.9,Water source
+Improved,Adult male,16.1,Water source
+Improved,Female child,5.3,Water source
+Improved,Male child,3.0,Water source
+Improved,Person not in household,10.7,Water source
+Unimproved,Population w/o water on premises,89.3,Water source
+Unimproved,Adult female,71.8,Water source
+Unimproved,Adult male,13.5,Water source
+Unimproved,Female child,5.9,Water source
+Unimproved,Male child,3.5,Water source
+Unimproved,Person not in household,5.3,Water source
+Surface,Population w/o water on premises,97.9,Water source
+Surface,Adult female,74.3,Water source
+Surface,Adult male,13.8,Water source
+Surface,Female child,5.0,Water source
+Surface,Male child,2.2,Water source
+Surface,Person not in household,4.6,Water source
+Lowest,Population w/o water on premises,85.6,Wealth quintile
+Lowest,Adult female,75.2,Wealth quintile
+Lowest,Adult male,10.2,Wealth quintile
+Lowest,Female child,7.7,Wealth quintile
+Lowest,Male child,2.9,Wealth quintile
+Lowest,Person not in household,4.1,Wealth quintile
+Second,Population w/o water on premises,74.3,Wealth quintile
+Second,Adult female,73.3,Wealth quintile
+Second,Adult male,13.6,Wealth quintile
+Second,Female child,5.9,Wealth quintile
+Second,Male child,2.8,Wealth quintile
+Second,Person not in household,4.3,Wealth quintile
+Middle,Population w/o water on premises,56.0,Wealth quintile
+Middle,Adult female,67.1,Wealth quintile
+Middle,Adult male,17.5,Wealth quintile
+Middle,Female child,3.8,Wealth quintile
+Middle,Male child,3.0,Wealth quintile
+Middle,Person not in household,8.7,Wealth quintile
+Fourth,Population w/o water on premises,35.4,Wealth quintile
+Fourth,Adult female,55.1,Wealth quintile
+Fourth,Adult male,23.0,Wealth quintile
+Fourth,Female child,2.5,Wealth quintile
+Fourth,Male child,3.1,Wealth quintile
+Fourth,Person not in household,16.3,Wealth quintile
+Highest,Population w/o water on premises,16.4,Wealth quintile
+Highest,Adult female,46.2,Wealth quintile
+Highest,Adult male,21.6,Wealth quintile
+Highest,Female child,1.0,Wealth quintile
+Highest,Male child,1.7,Wealth quintile
+Highest,Person not in household,29.4,Wealth quintile

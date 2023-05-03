@@ -5,17 +5,9 @@ account: cema
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7915828
-<<<<<<< HEAD
-bundleId: 7128292
+bundleId: 7074872
 url: https://cema.shinyapps.io/KNBS_DHS2022/
-when: 1682345670.31842
-lastSyncTime: 1682345670.31843
-=======
-bundleId: 7132434
-url: https://cema.shinyapps.io/KNBS_DHS2022/
-when: 1682420407.30942
-lastSyncTime: 1682420407.30945
->>>>>>> 024f48d3e21cc47cd00358a9014f7ac1525afd40
+when: 1681208321.45432
+lastSyncTime: 1681208321.45434
 asMultiple: TRUE
 asStatic: FALSE
-ignoredFiles: AM_Shiny_KNBS_DHS2022.Rmd|dhs2022datatables_AM.Rmd|dhs2022datatables.Rmd|Nutrition plots.png|Nutrition dots.png|Nutrition maps.png|ITN plots2.png|ITN dots.png|ITN maps.png|dhs2022visualizations_AM.Rmd|Shiny_KNBS_DHS2022.Rmd

@@ -1,0 +1,61 @@
+Value,Health Insurance Type,Proportion,Background characteristics
+0-14,NHIF,18.8,Age
+0-14,Private/commercial,3.2,Age
+0-14,Community-based,0.5,Age
+0-14,Other,0,Age
+0-14,None/Don't know,79.1,Age
+0-14,Any,20.9,Age
+15-64,NHIF,27.1,Age
+15-64,Private/commercial,4.7,Age
+15-64,Community-based,0.5,Age
+15-64,Other,0,Age
+15-64,None/Don't know,70.1,Age
+15-64,Any,29.9,Age
+65+,NHIF,26.1,Age
+65+,Private/commercial,2.8,Age
+65+,Community-based,1.5,Age
+65+,Other,0.1,Age
+65+,None/Don't know,70.9,Age
+65+,Any,29.1,Age
+Urban,NHIF,36.4,Residence
+Urban,Private/commercial,7.4,Residence
+Urban,Community-based,0.2,Residence
+Urban,Other,0,Residence
+Urban,None/Don't know,60,Residence
+Urban,Any,40,Residence
+Rural,NHIF,17.5,Residence
+Rural,Private/commercial,2.3,Residence
+Rural,Community-based,0.8,Residence
+Rural,Other,0.1,Residence
+Rural,None/Don't know,80.6,Residence
+Rural,Any,19.4,Residence
+Lowest,NHIF,3.6,Wealth quintile
+Lowest,Private/commercial,0.3,Wealth quintile
+Lowest,Community-based,1,Wealth quintile
+Lowest,Other,0,Wealth quintile
+Lowest,None/Don't know,95.1,Wealth quintile
+Lowest,Any,4.9,Wealth quintile
+Second,NHIF,10.9,Wealth quintile
+Second,Private/commercial,0.7,Wealth quintile
+Second,Community-based,0.6,Wealth quintile
+Second,Other,0.1,Wealth quintile
+Second,None/Don't know,87.9,Wealth quintile
+Second,Any,12.1,Wealth quintile
+Middle,NHIF,20,Wealth quintile
+Middle,Private/commercial,1.6,Wealth quintile
+Middle,Community-based,0.8,Wealth quintile
+Middle,Other,0.1,Wealth quintile
+Middle,None/Don't know,78.3,Wealth quintile
+Middle,Any,21.7,Wealth quintile
+Fourth,NHIF,32.3,Wealth quintile
+Fourth,Private/commercial,4.3,Wealth quintile
+Fourth,Community-based,0.5,Wealth quintile
+Fourth,Other,0,Wealth quintile
+Fourth,None/Don't know,65.1,Wealth quintile
+Fourth,Any,34.9,Wealth quintile
+Highest,NHIF,52.1,Wealth quintile
+Highest,Private/commercial,13.1,Wealth quintile
+Highest,Community-based,0.1,Wealth quintile
+Highest,Other,0,Wealth quintile
+Highest,None/Don't know,42.1,Wealth quintile
+Highest,Any,57.9,Wealth quintile

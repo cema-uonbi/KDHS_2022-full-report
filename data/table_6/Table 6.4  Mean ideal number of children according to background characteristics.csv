@@ -1,0 +1,19 @@
+Variable,mean,characteristic
+15-19,3.3,Age
+20-24,3.3,Age
+25-29,3.6,Age
+30-34,3.9,Age
+35-39,4,Age
+40-44,4.2,Age
+45-49,4.4,Age
+Urban,3.5,Residence
+Rural,3.9,Residence
+No education,7.3,Education
+Primary,4,Education
+Secondary,3.3,Education
+More than secondary,3.1,Education
+Lowest,4.9,Wealth quintile
+Second,3.8,Wealth quintile
+Middle,3.6,Wealth quintile
+Fourth,3.5,Wealth quintile
+Highest,3.2,Wealth quintile

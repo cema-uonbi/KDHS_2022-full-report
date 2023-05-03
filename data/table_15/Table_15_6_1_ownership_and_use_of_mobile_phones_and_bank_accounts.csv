@@ -1,0 +1,469 @@
+Background characteristics,Category,Gender,variable,value
+Age,15-19,Female,Own any mobile phone,32.3
+Age,20-24,Female,Own any mobile phone,82.6
+Age,25-29,Female,Own any mobile phone,88.7
+Age,30-34,Female,Own any mobile phone,89.5
+Age,35-39,Female,Own any mobile phone,90
+Age,40-44,Female,Own any mobile phone,90.8
+Age,45-49,Female,Own any mobile phone,89
+Residence,Urban,Female,Own any mobile phone,88.9
+Residence,Rural,Female,Own any mobile phone,69.6
+Education,No education,Female,Own any mobile phone,64.2
+Education,Primary,Female,Own any mobile phone,71.4
+Education,Secondary,Female,Own any mobile phone,74.6
+Education,More than secondary,Female,Own any mobile phone,98.8
+Wealth quintile,Lowest,Female,Own any mobile phone,52
+Wealth quintile,Second,Female,Own any mobile phone,66.1
+Wealth quintile,Middle,Female,Own any mobile phone,76.6
+Wealth quintile,Fourth,Female,Own any mobile phone,86.8
+Wealth quintile,Highest,Female,Own any mobile phone,93.6
+Age,15-19,Male,Own any mobile phone,44
+Age,20-24,Male,Own any mobile phone,89.6
+Age,25-29,Male,Own any mobile phone,94
+Age,30-34,Male,Own any mobile phone,91.9
+Age,35-39,Male,Own any mobile phone,91.8
+Age,40-44,Male,Own any mobile phone,90.5
+Age,45-49,Male,Own any mobile phone,90.4
+Residence,Urban,Male,Own any mobile phone,90.2
+Residence,Rural,Male,Own any mobile phone,74.1
+Education,No education,Male,Own any mobile phone,77
+Education,Primary,Male,Own any mobile phone,69
+Education,Secondary,Male,Own any mobile phone,81.4
+Education,More than secondary,Male,Own any mobile phone,99
+Wealth quintile,Lowest,Male,Own any mobile phone,63.6
+Wealth quintile,Second,Male,Own any mobile phone,69.7
+Wealth quintile,Middle,Male,Own any mobile phone,79.1
+Wealth quintile,Fourth,Male,Own any mobile phone,88.4
+Wealth quintile,Highest,Male,Own any mobile phone,94
+Age,15-19,Female,Own a smartphone,20
+Age,20-24,Female,Own a smartphone,53.8
+Age,25-29,Female,Own a smartphone,53.6
+Age,30-34,Female,Own a smartphone,48.8
+Age,35-39,Female,Own a smartphone,44.1
+Age,40-44,Female,Own a smartphone,41.1
+Age,45-49,Female,Own a smartphone,34.6
+Residence,Urban,Female,Own a smartphone,64.7
+Residence,Rural,Female,Own a smartphone,27.5
+Education,No education,Female,Own a smartphone,10.1
+Education,Primary,Female,Own a smartphone,22
+Education,Secondary,Female,Own a smartphone,43.7
+Education,More than secondary,Female,Own a smartphone,89.5
+Wealth quintile,Lowest,Female,Own a smartphone,5.9
+Wealth quintile,Second,Female,Own a smartphone,16.3
+Wealth quintile,Middle,Female,Own a smartphone,33.8
+Wealth quintile,Fourth,Female,Own a smartphone,54.5
+Wealth quintile,Highest,Female,Own a smartphone,79.7
+Age,15-19,Male,Own a smartphone,27.3
+Age,20-24,Male,Own a smartphone,62.8
+Age,25-29,Male,Own a smartphone,65.7
+Age,30-34,Male,Own a smartphone,57
+Age,35-39,Male,Own a smartphone,49.6
+Age,40-44,Male,Own a smartphone,45.2
+Age,45-49,Male,Own a smartphone,39.3
+Residence,Urban,Male,Own a smartphone,70.2
+Residence,Rural,Male,Own a smartphone,35.3
+Education,No education,Male,Own a smartphone,14.2
+Education,Primary,Male,Own a smartphone,24.5
+Education,Secondary,Male,Own a smartphone,52.3
+Education,More than secondary,Male,Own a smartphone,90.4
+Wealth quintile,Lowest,Male,Own a smartphone,15.8
+Wealth quintile,Second,Male,Own a smartphone,25.3
+Wealth quintile,Middle,Male,Own a smartphone,42.7
+Wealth quintile,Fourth,Male,Own a smartphone,62.1
+Wealth quintile,Highest,Male,Own a smartphone,84.8
+Age,15-19,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",35.8
+Age,20-24,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",84.5
+Age,25-29,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",89.8
+Age,30-34,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",89.1
+Age,35-39,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",90
+Age,40-44,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",90.8
+Age,45-49,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",89.7
+Residence,Urban,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",87.7
+Residence,Rural,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",72.5
+Education,No education,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",53.9
+Education,Primary,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",74.6
+Education,Secondary,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",76.2
+Education,More than secondary,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",98.9
+Wealth quintile,Lowest,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",54.4
+Wealth quintile,Second,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",71.2
+Wealth quintile,Middle,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",79.3
+Wealth quintile,Fourth,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",86.9
+Wealth quintile,Highest,Female,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",91.2
+Age,15-19,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",44
+Age,20-24,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",89.3
+Age,25-29,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",95
+Age,30-34,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",93.9
+Age,35-39,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",93.9
+Age,40-44,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",91.6
+Age,45-49,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",92.6
+Residence,Urban,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",92
+Residence,Rural,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",74.4
+Education,No education,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",72
+Education,Primary,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",72.3
+Education,Secondary,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",81
+Education,More than secondary,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",99.1
+Wealth quintile,Lowest,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",65.1
+Wealth quintile,Second,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",71.4
+Wealth quintile,Middle,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",78.5
+Wealth quintile,Fourth,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",90.1
+Wealth quintile,Highest,Male,"Used a mobile phone for 
+financial transactions 
+(last 12 months)",94.3
+Age,15-19,Female,Have & use a bank account,2.8
+Age,20-24,Female,Have & use a bank account,25
+Age,25-29,Female,Have & use a bank account,36.5
+Age,30-34,Female,Have & use a bank account,37.5
+Age,35-39,Female,Have & use a bank account,37.8
+Age,40-44,Female,Have & use a bank account,38.2
+Age,45-49,Female,Have & use a bank account,35.7
+Residence,Urban,Female,Have & use a bank account,41.9
+Residence,Rural,Female,Have & use a bank account,19.2
+Education,No education,Female,Have & use a bank account,8.1
+Education,Primary,Female,Have & use a bank account,13.8
+Education,Secondary,Female,Have & use a bank account,22.6
+Education,More than secondary,Female,Have & use a bank account,74.1
+Wealth quintile,Lowest,Female,Have & use a bank account,5.2
+Wealth quintile,Second,Female,Have & use a bank account,9.7
+Wealth quintile,Middle,Female,Have & use a bank account,20.7
+Wealth quintile,Fourth,Female,Have & use a bank account,34.4
+Wealth quintile,Highest,Female,Have & use a bank account,56.2
+Age,15-19,Male,Have & use a bank account,3.7
+Age,20-24,Male,Have & use a bank account,34.3
+Age,25-29,Male,Have & use a bank account,54.8
+Age,30-34,Male,Have & use a bank account,55.2
+Age,35-39,Male,Have & use a bank account,55.3
+Age,40-44,Male,Have & use a bank account,53.9
+Age,45-49,Male,Have & use a bank account,51.7
+Residence,Urban,Male,Have & use a bank account,56.5
+Residence,Rural,Male,Have & use a bank account,27.7
+Education,No education,Male,Have & use a bank account,13
+Education,Primary,Male,Have & use a bank account,22
+Education,Secondary,Male,Have & use a bank account,32.4
+Education,More than secondary,Male,Have & use a bank account,85.8
+Wealth quintile,Lowest,Male,Have & use a bank account,8.7
+Wealth quintile,Second,Male,Have & use a bank account,19.8
+Wealth quintile,Middle,Male,Have & use a bank account,31.2
+Wealth quintile,Fourth,Male,Have & use a bank account,50.2
+Wealth quintile,Highest,Male,Have & use a bank account,72.3
+Age,15-19,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",2.1
+Age,20-24,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",19.2
+Age,25-29,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",28.8
+Age,30-34,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",28.4
+Age,35-39,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",28.8
+Age,40-44,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",29.8
+Age,45-49,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",27.4
+Residence,Urban,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",33.5
+Residence,Rural,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",14
+Education,No education,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",4.4
+Education,Primary,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",9.2
+Education,Secondary,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",16.4
+Education,More than secondary,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",62.5
+Wealth quintile,Lowest,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",2.5
+Wealth quintile,Second,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",6.3
+Wealth quintile,Middle,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",13.8
+Wealth quintile,Fourth,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",26
+Wealth quintile,Highest,Female,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",47.2
+Age,15-19,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",2.7
+Age,20-24,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",30.2
+Age,25-29,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",45.2
+Age,30-34,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",45.6
+Age,35-39,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",43.6
+Age,40-44,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",42.8
+Age,45-49,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",41.3
+Residence,Urban,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",49.6
+Residence,Rural,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",20.5
+Education,No education,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",8.9
+Education,Primary,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",14.9
+Education,Secondary,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",25.5
+Education,More than secondary,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",77.9
+Wealth quintile,Lowest,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",4.8
+Wealth quintile,Second,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",12.4
+Wealth quintile,Middle,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",23.2
+Wealth quintile,Fourth,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",41.4
+Wealth quintile,Highest,Male,"Deposited/ withdrew money 
+from own account 
+(last 12 months)",65.9
+Age,15-19,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",36.3
+Age,20-24,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",84.8
+Age,25-29,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",90.4
+Age,30-34,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",89.6
+Age,35-39,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",90.7
+Age,40-44,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",91.5
+Age,45-49,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",90.8
+Residence,Urban,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",88.1
+Residence,Rural,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",73.2
+Education,No education,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",57.1
+Education,Primary,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",75.1
+Education,Secondary,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",76.6
+Education,More than secondary,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",99.2
+Wealth quintile,Lowest,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",55.8
+Wealth quintile,Second,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",71.5
+Wealth quintile,Middle,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",79.8
+Wealth quintile,Fourth,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",87.5
+Wealth quintile,Highest,Female,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",91.6
+Age,15-19,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",44.4
+Age,20-24,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",89.7
+Age,25-29,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",95.8
+Age,30-34,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",94.6
+Age,35-39,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",94.6
+Age,40-44,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",92.4
+Age,45-49,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",93.6
+Residence,Urban,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",92.5
+Residence,Rural,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",75.1
+Education,No education,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",72.1
+Education,Primary,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",72.9
+Education,Secondary,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",81.7
+Education,More than secondary,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",99.6
+Wealth quintile,Lowest,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",65.6
+Wealth quintile,Second,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",72.4
+Wealth quintile,Middle,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",79.4
+Wealth quintile,Fourth,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",90.4
+Wealth quintile,Highest,Male,"Have & use a bank account
+or used a mobile phone 
+for financial transactions 
+(last 12 months)",94.9

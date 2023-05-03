@@ -1,0 +1,189 @@
+County,Category,Proportion
+Mombasa,had a live birth,5.4
+Mombasa,pregnancy loss,1.0
+Mombasa,currently pregnant,2.9
+Mombasa,begun child bearing,10.8
+Kwale,had a live birth,11.5
+Kwale,pregnancy loss,2.9
+Kwale,currently pregnant,3.7
+Kwale,begun child bearing,14.8
+Kilifi,had a live birth,10.3
+Kilifi,pregnancy loss,1.3
+Kilifi,currently pregnant,3.8
+Kilifi,begun child bearing,12.5
+Tana River,had a live birth,12.4
+Tana River,pregnancy loss,1.4
+Tana River,currently pregnant,5.2
+Tana River,begun child bearing,17.6
+Lamu,had a live birth,11.5
+Lamu,pregnancy loss,0.8
+Lamu,currently pregnant,1.9
+Lamu,begun child bearing,13.7
+Taita/Taveta,had a live birth,18.4
+Taita/Taveta,pregnancy loss,1.8
+Taita/Taveta,currently pregnant,1.8
+Taita/Taveta,begun child bearing,18.4
+Garissa,had a live birth,11.6
+Garissa,pregnancy loss,0.2
+Garissa,currently pregnant,4.2
+Garissa,begun child bearing,14.8
+Wajir,had a live birth,7.5
+Wajir,pregnancy loss,0.5
+Wajir,currently pregnant,5.9
+Wajir,begun child bearing,10.8
+Mandera,had a live birth,11.4
+Mandera,pregnancy loss,0.4
+Mandera,currently pregnant,3.0
+Mandera,begun child bearing,14.6
+Marsabit,had a live birth,20.6
+Marsabit,pregnancy loss,5.2
+Marsabit,currently pregnant,9.0
+Marsabit,begun child bearing,29.4
+Isiolo,had a live birth,13.6
+Isiolo,pregnancy loss,0.4
+Isiolo,currently pregnant,3.1
+Isiolo,begun child bearing,16.7
+Meru,had a live birth,16.9
+Meru,pregnancy loss,1.0
+Meru,currently pregnant,7.6
+Meru,begun child bearing,23.6
+Tharaka-Nithi,had a live birth,9.1
+Tharaka-Nithi,pregnancy loss,0.0
+Tharaka-Nithi,currently pregnant,0.8
+Tharaka-Nithi,begun child bearing,9.9
+Embu,had a live birth,9.1
+Embu,pregnancy loss,0.4
+Embu,currently pregnant,4.9
+Embu,begun child bearing,14.4
+Kitui,had a live birth,9.2
+Kitui,pregnancy loss,0.0
+Kitui,currently pregnant,0.0
+Kitui,begun child bearing,9.2
+Machakos,had a live birth,9.5
+Machakos,pregnancy loss,0.0
+Machakos,currently pregnant,1.7
+Machakos,begun child bearing,11.3
+Makueni,had a live birth,8.2
+Makueni,pregnancy loss,0.0
+Makueni,currently pregnant,2.9
+Makueni,begun child bearing,11.1
+Nyandarua,had a live birth,4.3
+Nyandarua,pregnancy loss,0.2
+Nyandarua,currently pregnant,1.5
+Nyandarua,begun child bearing,5.2
+Nyeri,had a live birth,4.5
+Nyeri,pregnancy loss,0.0
+Nyeri,currently pregnant,0.0
+Nyeri,begun child bearing,4.5
+Kirinyaga,had a live birth,7.3
+Kirinyaga,pregnancy loss,0.0
+Kirinyaga,currently pregnant,0.0
+Kirinyaga,begun child bearing,7.3
+Murang’a,had a live birth,3.8
+Murang’a,pregnancy loss,0.0
+Murang’a,currently pregnant,3.6
+Murang’a,begun child bearing,7.4
+Kiambu,had a live birth,8.3
+Kiambu,pregnancy loss,0.0
+Kiambu,currently pregnant,3.6
+Kiambu,begun child bearing,11.9
+Turkana,had a live birth,15.0
+Turkana,pregnancy loss,0.0
+Turkana,currently pregnant,4.4
+Turkana,begun child bearing,18.5
+West Pokot,had a live birth,32.2
+West Pokot,pregnancy loss,2.7
+West Pokot,currently pregnant,6.1
+West Pokot,begun child bearing,36.3
+Samburu,had a live birth,41.5
+Samburu,pregnancy loss,5.2
+Samburu,currently pregnant,8.7
+Samburu,begun child bearing,50.1
+Trans Nzoia,had a live birth,14.8
+Trans Nzoia,pregnancy loss,1.9
+Trans Nzoia,currently pregnant,2.6
+Trans Nzoia,begun child bearing,17.8
+Uasin Gishu,had a live birth,7.9
+Uasin Gishu,pregnancy loss,1.9
+Uasin Gishu,currently pregnant,5.3
+Uasin Gishu,begun child bearing,10.7
+Elgeyo/Marakwet,had a live birth,9.6
+Elgeyo/Marakwet,pregnancy loss,1.4
+Elgeyo/Marakwet,currently pregnant,2.5
+Elgeyo/Marakwet,begun child bearing,12.1
+Nandi,had a live birth,9.7
+Nandi,pregnancy loss,0.8
+Nandi,currently pregnant,0.0
+Nandi,begun child bearing,10.5
+Baringo,had a live birth,14.0
+Baringo,pregnancy loss,1.5
+Baringo,currently pregnant,6.3
+Baringo,begun child bearing,20.3
+Laikipia,had a live birth,8.6
+Laikipia,pregnancy loss,0.6
+Laikipia,currently pregnant,1.3
+Laikipia,begun child bearing,9.1
+Nakuru,had a live birth,13.6
+Nakuru,pregnancy loss,0.8
+Nakuru,currently pregnant,3.7
+Nakuru,begun child bearing,17.3
+Narok,had a live birth,25.9
+Narok,pregnancy loss,2.5
+Narok,currently pregnant,3.0
+Narok,begun child bearing,28.1
+Kajiado,had a live birth,20.3
+Kajiado,pregnancy loss,0.0
+Kajiado,currently pregnant,3.0
+Kajiado,begun child bearing,21.8
+Kericho,had a live birth,14.5
+Kericho,pregnancy loss,0.0
+Kericho,currently pregnant,0.0
+Kericho,begun child bearing,14.5
+Bomet,had a live birth,7.2
+Bomet,pregnancy loss,1.2
+Bomet,currently pregnant,1.2
+Bomet,begun child bearing,9.0
+Kakamega,had a live birth,12.3
+Kakamega,pregnancy loss,0.5
+Kakamega,currently pregnant,2.8
+Kakamega,begun child bearing,15.1
+Vihiga,had a live birth,3.9
+Vihiga,pregnancy loss,0.0
+Vihiga,currently pregnant,4.6
+Vihiga,begun child bearing,7.7
+Bungoma,had a live birth,14.8
+Bungoma,pregnancy loss,1.8
+Bungoma,currently pregnant,4.2
+Bungoma,begun child bearing,18.6
+Busia,had a live birth,13.1
+Busia,pregnancy loss,2.9
+Busia,currently pregnant,3.0
+Busia,begun child bearing,18.3
+Siaya,had a live birth,18.4
+Siaya,pregnancy loss,0.5
+Siaya,currently pregnant,3.3
+Siaya,begun child bearing,20.9
+Kisumu,had a live birth,9.2
+Kisumu,pregnancy loss,0.0
+Kisumu,currently pregnant,3.8
+Kisumu,begun child bearing,11.1
+Homa Bay,had a live birth,18.7
+Homa Bay,pregnancy loss,2.6
+Homa Bay,currently pregnant,2.9
+Homa Bay,begun child bearing,23.2
+Migori,had a live birth,20.4
+Migori,pregnancy loss,0.6
+Migori,currently pregnant,4.0
+Migori,begun child bearing,23.0
+Kisii,had a live birth,13.7
+Kisii,pregnancy loss,0.4
+Kisii,currently pregnant,1.5
+Kisii,begun child bearing,14.2
+Nyamira,had a live birth,14.7
+Nyamira,pregnancy loss,0.0
+Nyamira,currently pregnant,1.5
+Nyamira,begun child bearing,15.5
+Nairobi City,had a live birth,8.0
+Nairobi City,pregnancy loss,0.0
+Nairobi City,currently pregnant,0.4
+Nairobi City,begun child bearing,8.4

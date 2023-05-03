@@ -1,0 +1,21 @@
+Endemicity zone,Category,Proportion,Participants
+Highland epidemic prone,All households,67.2,Children
+Highland epidemic prone,Households with 1+ ITN,76.4,Children
+Lake endemic,All households,74.6,Children
+Lake endemic,Households with 1+ ITN,80.1,Children
+Coastal endemic,All households,66.4,Children
+Coastal endemic,Households with 1+ ITN,81.8,Children
+Seasonal,All households,35.3,Children
+Seasonal,Households with 1+ ITN,71.4,Children
+Low risk,All households,32.6,Children
+Low risk,Households with 1+ ITN,74.1,Children
+Highland epidemic prone,All households,64.3,Mothers
+Highland epidemic prone,Households with 1+ ITN,78.2,Mothers
+Lake endemic,All households,75.3,Mothers
+Lake endemic,Households with 1+ ITN,82.2,Mothers
+Coastal endemic,All households,61.1,Mothers
+Coastal endemic,Households with 1+ ITN,82.3,Mothers
+Seasonal,All households,35.2,Mothers
+Seasonal,Households with 1+ ITN,69.8,Mothers
+Low risk,All households,20.2,Mothers
+Low risk,Households with 1+ ITN,60.7,Mothers

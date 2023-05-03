@@ -1,0 +1,13 @@
+education,For_spacing,For_limiting,Total,need
+No education,11.4,7.5,18.9,unmet_need
+Primary,5.5,5.7,11.2,unmet_need
+Secondary,5.4,2.8,8.3,unmet_need
+More than secondary,5.5,2.2,7.7,unmet_need
+No education,10.3,11.0,21.3,met_need
+Primary,19.1,32.8,51.9,met_need
+Secondary,26.0,16.6,42.6,met_need
+More than secondary,36.0,17.5,53.5,met_need
+No education,21.6,18.5,40.2,total_demand
+Primary,24.5,38.5,63.1,total_demand
+Secondary,31.4,19.4,50.8,total_demand
+More than secondary,41.6,19.6,61.2,total_demand

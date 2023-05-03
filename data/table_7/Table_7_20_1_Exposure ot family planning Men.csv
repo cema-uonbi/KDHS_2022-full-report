@@ -1,0 +1,181 @@
+Characteristic,variable,category,proportion,Gender
+15-19,Age,Radio,50.4,Male
+15-19,Age,Television,37.3,Male
+15-19,Age,Newspaper,14.8,Male
+15-19,Age,Mobile,5.7,Male
+15-19,Age,Social media,22.3,Male
+15-19,Age,Poster,25,Male
+15-19,Age,Billboard,23,Male
+15-19,Age,Friends,48.9,Male
+15-19,Age,Internet,19.5,Male
+15-19,Age,None,22.6,Male
+20-24,Age,Radio,67.6,Male
+20-24,Age,Television,56.5,Male
+20-24,Age,Newspaper,28,Male
+20-24,Age,Mobile,16.1,Male
+20-24,Age,Social media,52.3,Male
+20-24,Age,Poster,48.7,Male
+20-24,Age,Billboard,41.2,Male
+20-24,Age,Friends,70.5,Male
+20-24,Age,Internet,49.1,Male
+20-24,Age,None,6.9,Male
+25-29,Age,Radio,74.5,Male
+25-29,Age,Television,62.2,Male
+25-29,Age,Newspaper,36.4,Male
+25-29,Age,Mobile,22.2,Male
+25-29,Age,Social media,56.9,Male
+25-29,Age,Poster,53.6,Male
+25-29,Age,Billboard,49.8,Male
+25-29,Age,Friends,75.6,Male
+25-29,Age,Internet,56.4,Male
+25-29,Age,None,4.3,Male
+30-34,Age,Radio,76.3,Male
+30-34,Age,Television,63.2,Male
+30-34,Age,Newspaper,35.4,Male
+30-34,Age,Mobile,18.8,Male
+30-34,Age,Social media,48.1,Male
+30-34,Age,Poster,54.5,Male
+30-34,Age,Billboard,48.8,Male
+30-34,Age,Friends,74.6,Male
+30-34,Age,Internet,47.5,Male
+30-34,Age,None,5.8,Male
+35-39,Age,Radio,76.3,Male
+35-39,Age,Television,62.5,Male
+35-39,Age,Newspaper,34.6,Male
+35-39,Age,Mobile,15,Male
+35-39,Age,Social media,39.4,Male
+35-39,Age,Poster,52,Male
+35-39,Age,Billboard,49.3,Male
+35-39,Age,Friends,71.8,Male
+35-39,Age,Internet,39.4,Male
+35-39,Age,None,7.5,Male
+40-44,Age,Radio,77.3,Male
+40-44,Age,Television,58.3,Male
+40-44,Age,Newspaper,29.4,Male
+40-44,Age,Mobile,14.1,Male
+40-44,Age,Social media,32.7,Male
+40-44,Age,Poster,50.2,Male
+40-44,Age,Billboard,47.5,Male
+40-44,Age,Friends,66.2,Male
+40-44,Age,Internet,30.9,Male
+40-44,Age,None,6.6,Male
+45-49,Age,Radio,76.3,Male
+45-49,Age,Television,58.8,Male
+45-49,Age,Newspaper,29.6,Male
+45-49,Age,Mobile,14.8,Male
+45-49,Age,Social media,26.5,Male
+45-49,Age,Poster,51.2,Male
+45-49,Age,Billboard,48.7,Male
+45-49,Age,Friends,64.3,Male
+45-49,Age,Internet,26.4,Male
+45-49,Age,None,7.5,Male
+Urban,Residence,Radio,68.4,Male
+Urban,Residence,Television,64.9,Male
+Urban,Residence,Newspaper,39.2,Male
+Urban,Residence,Mobile,21.8,Male
+Urban,Residence,Social media,58.3,Male
+Urban,Residence,Poster,55.4,Male
+Urban,Residence,Billboard,48.1,Male
+Urban,Residence,Friends,72,Male
+Urban,Residence,Internet,56.6,Male
+Urban,Residence,None,7.2,Male
+Rural,Residence,Radio,68.6,Male
+Rural,Residence,Television,48.4,Male
+Rural,Residence,Newspaper,21.2,Male
+Rural,Residence,Mobile,10,Male
+Rural,Residence,Social media,28.2,Male
+Rural,Residence,Poster,39.1,Male
+Rural,Residence,Billboard,37.3,Male
+Rural,Residence,Friends,62.2,Male
+Rural,Residence,Internet,26.7,Male
+Rural,Residence,None,11.9,Male
+No education,Education,Radio,51.2,Male
+No education,Education,Television,19.6,Male
+No education,Education,Newspaper,0.3,Male
+No education,Education,Mobile,2.1,Male
+No education,Education,Social media,4.3,Male
+No education,Education,Poster,17.4,Male
+No education,Education,Billboard,29.2,Male
+No education,Education,Friends,42.5,Male
+No education,Education,Internet,3,Male
+No education,Education,None,32.7,Male
+Primary,Education,Radio,66.3,Male
+Primary,Education,Television,43,Male
+Primary,Education,Newspaper,15.8,Male
+Primary,Education,Mobile,9.5,Male
+Primary,Education,Social media,18.1,Male
+Primary,Education,Poster,34,Male
+Primary,Education,Billboard,35.7,Male
+Primary,Education,Friends,58,Male
+Primary,Education,Internet,15.7,Male
+Primary,Education,None,14.6,Male
+Secondary,Education,Radio,69.2,Male
+Secondary,Education,Television,58.1,Male
+Secondary,Education,Newspaper,28.4,Male
+Secondary,Education,Mobile,14.3,Male
+Secondary,Education,Social media,43.6,Male
+Secondary,Education,Poster,44.9,Male
+Secondary,Education,Billboard,39.9,Male
+Secondary,Education,Friends,68,Male
+Secondary,Education,Internet,40.9,Male
+Secondary,Education,None,8.4,Male
+More than secondary,Education,Radio,73.4,Male
+More than secondary,Education,Television,74,Male
+More than secondary,Education,Newspaper,53.7,Male
+More than secondary,Education,Mobile,25.9,Male
+More than secondary,Education,Social media,76,Male
+More than secondary,Education,Poster,70.5,Male
+More than secondary,Education,Billboard,56.6,Male
+More than secondary,Education,Friends,79.4,Male
+More than secondary,Education,Internet,78.3,Male
+More than secondary,Education,None,2.5,Male
+Lowest,Wealth,Radio,59.1,Male
+Lowest,Wealth,Television,26.3,Male
+Lowest,Wealth,Newspaper,11.9,Male
+Lowest,Wealth,Mobile,6.9,Male
+Lowest,Wealth,Social media,14.2,Male
+Lowest,Wealth,Poster,28.5,Male
+Lowest,Wealth,Billboard,33.1,Male
+Lowest,Wealth,Friends,54.8,Male
+Lowest,Wealth,Internet,12.6,Male
+Lowest,Wealth,None,20.3,Male
+Second,Wealth,Radio,68.7,Male
+Second,Wealth,Television,42.8,Male
+Second,Wealth,Newspaper,17.2,Male
+Second,Wealth,Mobile,9.2,Male
+Second,Wealth,Social media,21.7,Male
+Second,Wealth,Poster,37.5,Male
+Second,Wealth,Billboard,36.9,Male
+Second,Wealth,Friends,61.9,Male
+Second,Wealth,Internet,19.9,Male
+Second,Wealth,None,12.4,Male
+Middle,Wealth,Radio,71.8,Male
+Middle,Wealth,Television,54.8,Male
+Middle,Wealth,Newspaper,24.1,Male
+Middle,Wealth,Mobile,10.7,Male
+Middle,Wealth,Social media,31.3,Male
+Middle,Wealth,Poster,41.9,Male
+Middle,Wealth,Billboard,39.8,Male
+Middle,Wealth,Friends,64.6,Male
+Middle,Wealth,Internet,31,Male
+Middle,Wealth,None,9.4,Male
+Fourth,Wealth,Radio,71.3,Male
+Fourth,Wealth,Television,65.6,Male
+Fourth,Wealth,Newspaper,32.9,Male
+Fourth,Wealth,Mobile,17.5,Male
+Fourth,Wealth,Social media,51.8,Male
+Fourth,Wealth,Poster,49.1,Male
+Fourth,Wealth,Billboard,42.5,Male
+Fourth,Wealth,Friends,69.3,Male
+Fourth,Wealth,Internet,48.2,Male
+Fourth,Wealth,None,6.8,Male
+Highest,Wealth,Radio,68.8,Male
+Highest,Wealth,Television,73.6,Male
+Highest,Wealth,Newspaper,48.5,Male
+Highest,Wealth,Mobile,25.2,Male
+Highest,Wealth,Social media,69.1,Male
+Highest,Wealth,Poster,63.9,Male
+Highest,Wealth,Billboard,52.2,Male
+Highest,Wealth,Friends,75.4,Male
+Highest,Wealth,Internet,69.1,Male
+Highest,Wealth,None,5.2,Male

@@ -1,0 +1,25 @@
+Value,Category,Proportion,Background characteristics
+Urban,Households with 1/+ ITN,40.5,Residence
+Urban,Households with 1/+ ITN per 2 persons,27.7,Residence
+Rural,Households with 1/+ ITN,63.5,Residence
+Rural,Households with 1/+ ITN per 2 persons,43.4,Residence
+Highland epidemic prone,Households with 1/+ ITN,80.7,Endemicity zone
+Highland epidemic prone,Households with 1/+ ITN per 2 persons,63.3,Endemicity zone
+Lake endemic,Households with 1/+ ITN,87.7,Endemicity zone
+Lake endemic,Households with 1/+ ITN per 2 persons,62.5,Endemicity zone
+Coast endemic,Households with 1/+ ITN,71.5,Endemicity zone
+Coast endemic,Households with 1/+ ITN per 2 persons,49.8,Endemicity zone
+Seasonal,Households with 1/+ ITN,39.4,Endemicity zone
+Seasonal,Households with 1/+ ITN per 2 persons,18.4,Endemicity zone
+Low risk,Households with 1/+ ITN,31.1,Endemicity zone
+Low risk,Households with 1/+ ITN per 2 persons,19.2,Endemicity zone
+Lowest,Households with 1/+ ITN,58.4,Wealth quintile
+Lowest,Households with 1/+ ITN per 2 persons,31.6,Wealth quintile
+Second,Households with 1/+ ITN,67.5,Wealth quintile
+Second,Households with 1/+ ITN per 2 persons,45.9,Wealth quintile
+Middle,Households with 1/+ ITN,61.6,Wealth quintile
+Middle,Households with 1/+ ITN per 2 persons,44.9,Wealth quintile
+Fourth,Households with 1/+ ITN,49.2,Wealth quintile
+Fourth,Households with 1/+ ITN per 2 persons,36.4,Wealth quintile
+Highest,Households with 1/+ ITN,40.0,Wealth quintile
+Highest,Households with 1/+ ITN per 2 persons,28.3,Wealth quintile

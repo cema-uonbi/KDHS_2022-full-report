@@ -1,0 +1,65 @@
+indicator,classification,proportion,lab,group
+15,Ever pregnant,2.8,3%,Age
+15,Live birth,2.1,2%,Age
+15,Pregnancy loss,0,0%,Age
+15,Currently pregnant,0.8,1%,Age
+16,Ever pregnant,5.9,6%,Age
+16,Live birth,4.2,4%,Age
+16,Pregnancy loss,0.3,0%,Age
+16,Currently pregnant,1.2,1%,Age
+17,Ever pregnant,12.8,13%,Age
+17,Live birth,10,10%,Age
+17,Pregnancy loss,1.2,1%,Age
+17,Currently pregnant,2.4,2%,Age
+18,Ever pregnant,20.9,21%,Age
+18,Live birth,16.4,16%,Age
+18,Pregnancy loss,1.1,1%,Age
+18,Currently pregnant,5.3,5%,Age
+19,Ever pregnant,31.1,31%,Age
+19,Live birth,27.4,27%,Age
+19,Pregnancy loss,1.6,2%,Age
+19,Currently pregnant,5,5%,Age
+No education,Ever pregnant,37.9,38%,Education
+No education,Live birth,30.8,31%,Education
+No education,Pregnancy loss,3.9,4%,Education
+No education,Currently pregnant,9.6,10%,Education
+Primary,Ever pregnant,19.9,20%,Education
+Primary,Live birth,16.3,16%,Education
+Primary,Pregnancy loss,1.4,1%,Education
+Primary,Currently pregnant,4.4,4%,Education
+Secondary,Ever pregnant,12,12%,Education
+Secondary,Live birth,9.9,10%,Education
+Secondary,Pregnancy loss,0.5,0%,Education
+Secondary,Currently pregnant,2,2%,Education
+More than secondary,Ever pregnant,4.8,5%,Education
+More than secondary,Live birth,4,4%,Education
+More than secondary,Pregnancy loss,0,0%,Education
+More than secondary,Currently pregnant,0.8,1%,Education
+Urban,Ever pregnant,12.3,12%,Residence
+Urban,Live birth,9.7,10%,Residence
+Urban,Pregnancy loss,0.7,1%,Residence
+Urban,Currently pregnant,2.9,3%,Residence
+Rural,Ever pregnant,16,16%,Residence
+Rural,Live birth,13.3,13%,Residence
+Rural,Pregnancy loss,0.9,1%,Residence
+Rural,Currently pregnant,3,3%,Residence
+Lowest,Ever pregnant,21.1,21%,Wealth quintile
+Lowest,Live birth,17.8,18%,Wealth quintile
+Lowest,Pregnancy loss,1.6,2%,Wealth quintile
+Lowest,Currently pregnant,4,4%,Wealth quintile
+Second,Ever pregnant,17.5,18%,Wealth quintile
+Second,Live birth,14.9,15%,Wealth quintile
+Second,Pregnancy loss,0.6,1%,Wealth quintile
+Second,Currently pregnant,3.4,3%,Wealth quintile
+Middle,Ever pregnant,13.6,14%,Wealth quintile
+Middle,Live birth,10.6,11%,Wealth quintile
+Middle,Pregnancy loss,1.1,1%,Wealth quintile
+Middle,Currently pregnant,2.6,3%,Wealth quintile
+Fourth,Ever pregnant,12.9,13%,Wealth quintile
+Fourth,Live birth,10,10%,Wealth quintile
+Fourth,Pregnancy loss,0.4,0%,Wealth quintile
+Fourth,Currently pregnant,3,3%,Wealth quintile
+Highest,Ever pregnant,7.5,8%,Wealth quintile
+Highest,Live birth,6,6%,Wealth quintile
+Highest,Pregnancy loss,0.4,0%,Wealth quintile
+Highest,Currently pregnant,1.6,2%,Wealth quintile

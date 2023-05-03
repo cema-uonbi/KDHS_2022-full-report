@@ -1,0 +1,189 @@
+County,Gender,variable,value
+Mombasa,Female,Ever,9.8
+Kwale,Female,Ever,4.3
+Kilifi,Female,Ever,12.2
+Tana River,Female,Ever,2.3
+Lamu,Female,Ever,14.5
+Taita Taveta,Female,Ever,14
+Garissa,Female,Ever,5.8
+Wajir,Female,Ever,1.5
+Mandera,Female,Ever,0.8
+Marsabit,Female,Ever,1
+Isiolo,Female,Ever,9.2
+Meru,Female,Ever,16
+Tharaka Nithi,Female,Ever,12.5
+Embu,Female,Ever,21.5
+Kitui,Female,Ever,0.9
+Machakos,Female,Ever,6.3
+Makueni,Female,Ever,4.7
+Nyandarua,Female,Ever,17.5
+Nyeri,Female,Ever,15.1
+Kirinyaga,Female,Ever,12.9
+Muranga,Female,Ever,24.3
+Kiambu,Female,Ever,16.6
+Turkana,Female,Ever,10.8
+West Pokot,Female,Ever,7.5
+Samburu,Female,Ever,6.9
+Trans Nzoia,Female,Ever,13.1
+Uasin Gishu,Female,Ever,9.9
+Elgeyo Marakwet,Female,Ever,6.9
+Nandi,Female,Ever,6
+Baringo,Female,Ever,8.4
+Laikipia,Female,Ever,10.9
+Nakuru,Female,Ever,13.8
+Narok,Female,Ever,17.5
+Kajiado,Female,Ever,16.9
+Kericho,Female,Ever,3.2
+Bomet,Female,Ever,12.9
+Kakamega,Female,Ever,16.8
+Vihiga,Female,Ever,11.9
+Bungoma,Female,Ever,30.3
+Busia,Female,Ever,14.7
+Siaya,Female,Ever,5.7
+Kisumu,Female,Ever,10.8
+Homa Bay,Female,Ever,23.1
+Migori,Female,Ever,16.7
+Kisii,Female,Ever,16
+Nyamira,Female,Ever,14.5
+Nairobi,Female,Ever,12.2
+Mombasa,Male,Ever,17.5
+Kwale,Male,Ever,9.6
+Kilifi,Male,Ever,2
+Tana River,Male,Ever,0
+Lamu,Male,Ever,0
+Taita Taveta,Male,Ever,5.6
+Garissa,Male,Ever,0
+Wajir,Male,Ever,2.4
+Mandera,Male,Ever,0
+Marsabit,Male,Ever,0
+Isiolo,Male,Ever,21.1
+Meru,Male,Ever,9.8
+Tharaka Nithi,Male,Ever,11.6
+Embu,Male,Ever,1.8
+Kitui,Male,Ever,2.7
+Machakos,Male,Ever,1.8
+Makueni,Male,Ever,3.2
+Nyandarua,Male,Ever,13.5
+Nyeri,Male,Ever,1.3
+Kirinyaga,Male,Ever,0
+Muranga,Male,Ever,20.9
+Kiambu,Male,Ever,17.7
+Turkana,Male,Ever,3.8
+West Pokot,Male,Ever,4.6
+Samburu,Male,Ever,23.3
+Trans Nzoia,Male,Ever,12.6
+Uasin Gishu,Male,Ever,5.7
+Elgeyo Marakwet,Male,Ever,3.3
+Nandi,Male,Ever,6
+Baringo,Male,Ever,3.5
+Laikipia,Male,Ever,15.3
+Nakuru,Male,Ever,9.4
+Narok,Male,Ever,2
+Kajiado,Male,Ever,0.3
+Kericho,Male,Ever,1.2
+Bomet,Male,Ever,4.7
+Kakamega,Male,Ever,0
+Vihiga,Male,Ever,7.1
+Bungoma,Male,Ever,19.6
+Busia,Male,Ever,8.2
+Siaya,Male,Ever,0.3
+Kisumu,Male,Ever,1.1
+Homa Bay,Male,Ever,8.1
+Migori,Male,Ever,20.5
+Kisii,Male,Ever,0
+Nyamira,Male,Ever,1.6
+Nairobi,Male,Ever,4.4
+Mombasa,Female,In the last 12 months,3.8
+Kwale,Female,In the last 12 months,3.3
+Kilifi,Female,In the last 12 months,6.5
+Tana River,Female,In the last 12 months,1.5
+Lamu,Female,In the last 12 months,6.3
+Taita Taveta,Female,In the last 12 months,3
+Garissa,Female,In the last 12 months,3.5
+Wajir,Female,In the last 12 months,1
+Mandera,Female,In the last 12 months,0.8
+Marsabit,Female,In the last 12 months,1
+Isiolo,Female,In the last 12 months,5.3
+Meru,Female,In the last 12 months,8.2
+Tharaka Nithi,Female,In the last 12 months,6.9
+Embu,Female,In the last 12 months,13
+Kitui,Female,In the last 12 months,0.4
+Machakos,Female,In the last 12 months,3
+Makueni,Female,In the last 12 months,3.2
+Nyandarua,Female,In the last 12 months,6.9
+Nyeri,Female,In the last 12 months,5.6
+Kirinyaga,Female,In the last 12 months,3.2
+Muranga,Female,In the last 12 months,13.6
+Kiambu,Female,In the last 12 months,9.8
+Turkana,Female,In the last 12 months,6.7
+West Pokot,Female,In the last 12 months,6.3
+Samburu,Female,In the last 12 months,4.2
+Trans Nzoia,Female,In the last 12 months,5.6
+Uasin Gishu,Female,In the last 12 months,4.6
+Elgeyo Marakwet,Female,In the last 12 months,4
+Nandi,Female,In the last 12 months,2.6
+Baringo,Female,In the last 12 months,5.7
+Laikipia,Female,In the last 12 months,3.1
+Nakuru,Female,In the last 12 months,3.6
+Narok,Female,In the last 12 months,8.7
+Kajiado,Female,In the last 12 months,8.6
+Kericho,Female,In the last 12 months,1.5
+Bomet,Female,In the last 12 months,7.4
+Kakamega,Female,In the last 12 months,8.9
+Vihiga,Female,In the last 12 months,5.6
+Bungoma,Female,In the last 12 months,16.6
+Busia,Female,In the last 12 months,8.9
+Siaya,Female,In the last 12 months,4.3
+Kisumu,Female,In the last 12 months,6.6
+Homa Bay,Female,In the last 12 months,10.8
+Migori,Female,In the last 12 months,7.4
+Kisii,Female,In the last 12 months,10.1
+Nyamira,Female,In the last 12 months,6.3
+Nairobi,Female,In the last 12 months,5.8
+Mombasa,Male,In the last 12 months,10.2
+Kwale,Male,In the last 12 months,2.8
+Kilifi,Male,In the last 12 months,2
+Tana River,Male,In the last 12 months,0
+Lamu,Male,In the last 12 months,0
+Taita Taveta,Male,In the last 12 months,0.8
+Garissa,Male,In the last 12 months,0
+Wajir,Male,In the last 12 months,2.4
+Mandera,Male,In the last 12 months,0
+Marsabit,Male,In the last 12 months,0
+Isiolo,Male,In the last 12 months,12
+Meru,Male,In the last 12 months,3
+Tharaka Nithi,Male,In the last 12 months,5.9
+Embu,Male,In the last 12 months,1.8
+Kitui,Male,In the last 12 months,2.7
+Machakos,Male,In the last 12 months,0.5
+Makueni,Male,In the last 12 months,2
+Nyandarua,Male,In the last 12 months,4.1
+Nyeri,Male,In the last 12 months,0
+Kirinyaga,Male,In the last 12 months,0
+Muranga,Male,In the last 12 months,10.1
+Kiambu,Male,In the last 12 months,12.9
+Turkana,Male,In the last 12 months,3.2
+West Pokot,Male,In the last 12 months,3.6
+Samburu,Male,In the last 12 months,7.4
+Trans Nzoia,Male,In the last 12 months,0.4
+Uasin Gishu,Male,In the last 12 months,4
+Elgeyo Marakwet,Male,In the last 12 months,2.7
+Nandi,Male,In the last 12 months,3.6
+Baringo,Male,In the last 12 months,3.2
+Laikipia,Male,In the last 12 months,8.1
+Nakuru,Male,In the last 12 months,2.6
+Narok,Male,In the last 12 months,2
+Kajiado,Male,In the last 12 months,0.3
+Kericho,Male,In the last 12 months,0
+Bomet,Male,In the last 12 months,3.1
+Kakamega,Male,In the last 12 months,0
+Vihiga,Male,In the last 12 months,3.3
+Bungoma,Male,In the last 12 months,15.7
+Busia,Male,In the last 12 months,7.8
+Siaya,Male,In the last 12 months,0.3
+Kisumu,Male,In the last 12 months,0.6
+Homa Bay,Male,In the last 12 months,4
+Migori,Male,In the last 12 months,11.2
+Kisii,Male,In the last 12 months,0
+Nyamira,Male,In the last 12 months,1.6
+Nairobi,Male,In the last 12 months,2.3

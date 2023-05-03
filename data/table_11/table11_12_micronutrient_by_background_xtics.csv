@@ -1,0 +1,131 @@
+Value,Age_category,Category,Proportion,Background characteristics
+6-8,6-59 months,Iron tablets/syrups last 12 months,14.8,Age
+6-8,6-59 months,Micronutrient powders last 12 months,9.2,Age
+6-8,6-59 months,Iron supplements last 6 months,16,Age
+6-8,6-59 months,Vit. A last 6 months,69.2,Age
+6-8,12-59 months,Deworming last 6 months,NA,Age
+9-11,6-59 months,Iron tablets/syrups last 12 months,13.7,Age
+9-11,6-59 months,Micronutrient powders last 12 months,11,Age
+9-11,6-59 months,Iron supplements last 6 months,16.8,Age
+9-11,6-59 months,Vit. A last 6 months,81.6,Age
+9-11,12-59 months,Deworming last 6 months,NA,Age
+12-17,6-59 months,Iron tablets/syrups last 12 months,22,Age
+12-17,6-59 months,Micronutrient powders last 12 months,15.3,Age
+12-17,6-59 months,Iron supplements last 6 months,25.5,Age
+12-17,6-59 months,Vit. A last 6 months,79.6,Age
+12-17,12-59 months,Deworming last 6 months,50.3,Age
+18-23,6-59 months,Iron tablets/syrups last 12 months,23.8,Age
+18-23,6-59 months,Micronutrient powders last 12 months,15.8,Age
+18-23,6-59 months,Iron supplements last 6 months,27.6,Age
+18-23,6-59 months,Vit. A last 6 months,79,Age
+18-23,12-59 months,Deworming last 6 months,68.1,Age
+24-35,6-59 months,Iron tablets/syrups last 12 months,22.2,Age
+24-35,6-59 months,Micronutrient powders last 12 months,16.7,Age
+24-35,6-59 months,Iron supplements last 6 months,25.9,Age
+24-35,6-59 months,Vit. A last 6 months,67.7,Age
+24-35,12-59 months,Deworming last 6 months,68.4,Age
+36-47,6-59 months,Iron tablets/syrups last 12 months,20.7,Age
+36-47,6-59 months,Micronutrient powders last 12 months,14.4,Age
+36-47,6-59 months,Iron supplements last 6 months,23.9,Age
+36-47,6-59 months,Vit. A last 6 months,55.8,Age
+36-47,12-59 months,Deworming last 6 months,70.1,Age
+48-59,6-59 months,Iron tablets/syrups last 12 months,17.2,Age
+48-59,6-59 months,Micronutrient powders last 12 months,11.7,Age
+48-59,6-59 months,Iron supplements last 6 months,19.2,Age
+48-59,6-59 months,Vit. A last 6 months,45.6,Age
+48-59,12-59 months,Deworming last 6 months,64.4,Age
+Male,6-59 months,Iron tablets/syrups last 12 months,19.9,Sex
+Male,6-59 months,Micronutrient powders last 12 months,13.9,Sex
+Male,6-59 months,Iron supplements last 6 months,22.9,Sex
+Male,6-59 months,Vit. A last 6 months,63.9,Sex
+Male,12-59 months,Deworming last 6 months,65.4,Sex
+Female,6-59 months,Iron tablets/syrups last 12 months,20,Sex
+Female,6-59 months,Micronutrient powders last 12 months,14.2,Sex
+Female,6-59 months,Iron supplements last 6 months,23.1,Sex
+Female,6-59 months,Vit. A last 6 months,63.2,Sex
+Female,12-59 months,Deworming last 6 months,65.5,Sex
+Breastfeeding,6-59 months,Iron tablets/syrups last 12 months,18.3,Breastfeeding status
+Breastfeeding,6-59 months,Micronutrient powders last 12 months,12.6,Breastfeeding status
+Breastfeeding,6-59 months,Iron supplements last 6 months,20.9,Breastfeeding status
+Breastfeeding,6-59 months,Vit. A last 6 months,77.3,Breastfeeding status
+Breastfeeding,12-59 months,Deworming last 6 months,57.2,Breastfeeding status
+Not breastfeeding,6-59 months,Iron tablets/syrups last 12 months,23,Breastfeeding status
+Not breastfeeding,6-59 months,Micronutrient powders last 12 months,16.9,Breastfeeding status
+Not breastfeeding,6-59 months,Iron supplements last 6 months,27,Breastfeeding status
+Not breastfeeding,6-59 months,Vit. A last 6 months,69.1,Breastfeeding status
+Not breastfeeding,12-59 months,Deworming last 6 months,67.6,Breastfeeding status
+15-19,6-59 months,Iron tablets/syrups last 12 months,18.4,Mother's age
+15-19,6-59 months,Micronutrient powders last 12 months,14.8,Mother's age
+15-19,6-59 months,Iron supplements last 6 months,21.4,Mother's age
+15-19,6-59 months,Vit. A last 6 months,68.9,Mother's age
+15-19,12-59 months,Deworming last 6 months,51.3,Mother's age
+20-29,6-59 months,Iron tablets/syrups last 12 months,19.8,Mother's age
+20-29,6-59 months,Micronutrient powders last 12 months,14.5,Mother's age
+20-29,6-59 months,Iron supplements last 6 months,23.3,Mother's age
+20-29,6-59 months,Vit. A last 6 months,65,Mother's age
+20-29,12-59 months,Deworming last 6 months,66.3,Mother's age
+30-39,6-59 months,Iron tablets/syrups last 12 months,20.4,Mother's age
+30-39,6-59 months,Micronutrient powders last 12 months,13.1,Mother's age
+30-39,6-59 months,Iron supplements last 6 months,22.7,Mother's age
+30-39,6-59 months,Vit. A last 6 months,61.8,Mother's age
+30-39,12-59 months,Deworming last 6 months,65.4,Mother's age
+40-49,6-59 months,Iron tablets/syrups last 12 months,19.7,Mother's age
+40-49,6-59 months,Micronutrient powders last 12 months,15.1,Mother's age
+40-49,6-59 months,Iron supplements last 6 months,22.7,Mother's age
+40-49,6-59 months,Vit. A last 6 months,59,Mother's age
+40-49,12-59 months,Deworming last 6 months,65.7,Mother's age
+Urban,6-59 months,Iron tablets/syrups last 12 months,21.2,Residence
+Urban,6-59 months,Micronutrient powders last 12 months,14.9,Residence
+Urban,6-59 months,Iron supplements last 6 months,24.7,Residence
+Urban,6-59 months,Vit. A last 6 months,67.9,Residence
+Urban,12-59 months,Deworming last 6 months,72.4,Residence
+Rural,6-59 months,Iron tablets/syrups last 12 months,19.2,Residence
+Rural,6-59 months,Micronutrient powders last 12 months,13.5,Residence
+Rural,6-59 months,Iron supplements last 6 months,21.9,Residence
+Rural,6-59 months,Vit. A last 6 months,61,Residence
+Rural,12-59 months,Deworming last 6 months,61.2,Residence
+No education,6-59 months,Iron tablets/syrups last 12 months,19.4,Mother's education
+No education,6-59 months,Micronutrient powders last 12 months,17.2,Mother's education
+No education,6-59 months,Iron supplements last 6 months,22.4,Mother's education
+No education,6-59 months,Vit. A last 6 months,45.3,Mother's education
+No education,12-59 months,Deworming last 6 months,35.8,Mother's education
+Primary,6-59 months,Iron tablets/syrups last 12 months,19.5,Mother's education
+Primary,6-59 months,Micronutrient powders last 12 months,14,Mother's education
+Primary,6-59 months,Iron supplements last 6 months,22.3,Mother's education
+Primary,6-59 months,Vit. A last 6 months,61.9,Mother's education
+Primary,12-59 months,Deworming last 6 months,60.8,Mother's education
+Secondary,6-59 months,Iron tablets/syrups last 12 months,20.9,Mother's education
+Secondary,6-59 months,Micronutrient powders last 12 months,13.9,Mother's education
+Secondary,6-59 months,Iron supplements last 6 months,24.3,Mother's education
+Secondary,6-59 months,Vit. A last 6 months,67.8,Mother's education
+Secondary,12-59 months,Deworming last 6 months,71.8,Mother's education
+More than secondary,6-59 months,Iron tablets/syrups last 12 months,19.5,Mother's education
+More than secondary,6-59 months,Micronutrient powders last 12 months,12.6,Mother's education
+More than secondary,6-59 months,Iron supplements last 6 months,22.3,Mother's education
+More than secondary,6-59 months,Vit. A last 6 months,69.9,Mother's education
+More than secondary,12-59 months,Deworming last 6 months,81.8,Mother's education
+Lowest,6-59 months,Iron tablets/syrups last 12 months,17.9,Wealth quintile
+Lowest,6-59 months,Micronutrient powders last 12 months,14.5,Wealth quintile
+Lowest,6-59 months,Iron supplements last 6 months,20.5,Wealth quintile
+Lowest,6-59 months,Vit. A last 6 months,53.4,Wealth quintile
+Lowest,12-59 months,Deworming last 6 months,48.1,Wealth quintile
+Second,6-59 months,Iron tablets/syrups last 12 months,19.2,Wealth quintile
+Second,6-59 months,Micronutrient powders last 12 months,12.8,Wealth quintile
+Second,6-59 months,Iron supplements last 6 months,21.9,Wealth quintile
+Second,6-59 months,Vit. A last 6 months,62.3,Wealth quintile
+Second,12-59 months,Deworming last 6 months,62.2,Wealth quintile
+Middle,6-59 months,Iron tablets/syrups last 12 months,20.2,Wealth quintile
+Middle,6-59 months,Micronutrient powders last 12 months,13.3,Wealth quintile
+Middle,6-59 months,Iron supplements last 6 months,22.7,Wealth quintile
+Middle,6-59 months,Vit. A last 6 months,66.8,Wealth quintile
+Middle,12-59 months,Deworming last 6 months,67.1,Wealth quintile
+Fourth,6-59 months,Iron tablets/syrups last 12 months,21,Wealth quintile
+Fourth,6-59 months,Micronutrient powders last 12 months,14.4,Wealth quintile
+Fourth,6-59 months,Iron supplements last 6 months,24.2,Wealth quintile
+Fourth,6-59 months,Vit. A last 6 months,67,Wealth quintile
+Fourth,12-59 months,Deworming last 6 months,71.8,Wealth quintile
+Highest,6-59 months,Iron tablets/syrups last 12 months,21.5,Wealth quintile
+Highest,6-59 months,Micronutrient powders last 12 months,14.9,Wealth quintile
+Highest,6-59 months,Iron supplements last 6 months,25.5,Wealth quintile
+Highest,6-59 months,Vit. A last 6 months,69.3,Wealth quintile
+Highest,12-59 months,Deworming last 6 months,78.6,Wealth quintile

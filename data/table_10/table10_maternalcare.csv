@@ -1,0 +1,99 @@
+indicator,category,proportion,lab,group
+<20,ANC from a skilled provider,97,97%,Age at birth
+<20,At least four ANC visits,57.1,57%,Age at birth
+<20,Took iron supplements,86.3,86%,Age at birth
+<20,Neonatal tetanus,67.9,68%,Age at birth
+<20,Skilled delivery,88.1,88%,Age at birth
+<20,Health facility delivery,83.8,84%,Age at birth
+<20,Postnatal check,71.9,72%,Age at birth
+20–34,ANC from a skilled provider,98.4,98%,Age at birth
+20–34,At least four ANC visits,68.7,69%,Age at birth
+20–34,Took iron supplements,91.4,91%,Age at birth
+20–34,Neonatal tetanus,77.2,77%,Age at birth
+20–34,Skilled delivery,90.2,90%,Age at birth
+20–34,Health facility delivery,83.1,83%,Age at birth
+20–34,Postnatal check,73.5,74%,Age at birth
+35–49,ANC from a skilled provider,95.8,96%,Age at birth
+35–49,At least four ANC visits,59.9,60%,Age at birth
+35–49,Took iron supplements,86.8,87%,Age at birth
+35–49,Neonatal tetanus,69.7,70%,Age at birth
+35–49,Skilled delivery,85.2,85%,Age at birth
+35–49,Health facility delivery,76,76%,Age at birth
+35–49,Postnatal check,67.4,67%,Age at birth
+Urban,ANC from a skilled provider,98.9,99%,Residence
+Urban,At least four ANC visits,74.1,74%,Residence
+Urban,Took iron supplements,91.1,91%,Residence
+Urban,Neonatal tetanus,77,77%,Residence
+Urban,Skilled delivery,97.3,97%,Residence
+Urban,Health facility delivery,91.7,92%,Residence
+Urban,Postnatal check,79,79%,Residence
+Rural,ANC from a skilled provider,97.3,97%,Residence
+Rural,At least four ANC visits,61.5,62%,Residence
+Rural,Took iron supplements,89.7,90%,Residence
+Rural,Neonatal tetanus,73.9,74%,Residence
+Rural,Skilled delivery,84.8,85%,Residence
+Rural,Health facility delivery,77,77%,Residence
+Rural,Postnatal check,68.8,69%,Residence
+No education,ANC from a skilled provider,90.2,90%,Education
+No education,At least four ANC visits,49.1,49%,Education
+No education,Took iron supplements,79,79%,Education
+No education,Neonatal tetanus,66.1,66%,Education
+No education,Skilled delivery,54.6,55%,Education
+No education,Health facility delivery,47.9,48%,Education
+No education,Postnatal check,50.2,50%,Education
+Primary,ANC from a skilled provider,97.7,98%,Education
+Primary,At least four ANC visits,59.6,60%,Education
+Primary,Took iron supplements,88.7,89%,Education
+Primary,Neonatal tetanus,71.8,72%,Education
+Primary,Skilled delivery,87.2,87%,Education
+Primary,Health facility delivery,81,81%,Education
+Primary,Postnatal check,70.7,71%,Education
+Secondary,ANC from a skilled provider,99.1,99%,Education
+Secondary,At least four ANC visits,67.8,68%,Education
+Secondary,Took iron supplements,92.5,92%,Education
+Secondary,Neonatal tetanus,77,77%,Education
+Secondary,Skilled delivery,95.2,95%,Education
+Secondary,Health facility delivery,89.5,90%,Education
+Secondary,Postnatal check,77,77%,Education
+More than secondary,ANC from a skilled provider,99.6,100%,Education
+More than secondary,At least four ANC visits,83.2,83%,Education
+More than secondary,Took iron supplements,93.6,94%,Education
+More than secondary,Neonatal tetanus,81.4,81%,Education
+More than secondary,Skilled delivery,99.1,99%,Education
+More than secondary,Health facility delivery,88.1,88%,Education
+More than secondary,Postnatal check,78.5,78%,Education
+Lowest,ANC from a skilled provider,95.1,95%,Wealth quintile
+Lowest,At least four ANC visits,53.9,54%,Wealth quintile
+Lowest,Took iron supplements,86.2,86%,Wealth quintile
+Lowest,Neonatal tetanus,68.4,68%,Wealth quintile
+Lowest,Skilled delivery,69.3,69%,Wealth quintile
+Lowest,Health facility delivery,62.6,63%,Wealth quintile
+Lowest,Postnatal check,58.9,59%,Wealth quintile
+Second,ANC from a skilled provider,97.8,98%,Wealth quintile
+Second,At least four ANC visits,59.5,60%,Wealth quintile
+Second,Took iron supplements,89.1,89%,Wealth quintile
+Second,Neonatal tetanus,73.3,73%,Wealth quintile
+Second,Skilled delivery,89,89%,Wealth quintile
+Second,Health facility delivery,81.9,82%,Wealth quintile
+Second,Postnatal check,72.2,72%,Wealth quintile
+Middle,ANC from a skilled provider,98.3,98%,Wealth quintile
+Middle,At least four ANC visits,65.3,65%,Wealth quintile
+Middle,Took iron supplements,89.8,90%,Wealth quintile
+Middle,Neonatal tetanus,74.8,75%,Wealth quintile
+Middle,Skilled delivery,94,94%,Wealth quintile
+Middle,Health facility delivery,87,87%,Wealth quintile
+Middle,Postnatal check,73.8,74%,Wealth quintile
+Fourth,ANC from a skilled provider,98.8,99%,Wealth quintile
+Fourth,At least four ANC visits,69.6,70%,Wealth quintile
+Fourth,Took iron supplements,92,92%,Wealth quintile
+Fourth,Neonatal tetanus,77.8,78%,Wealth quintile
+Fourth,Skilled delivery,97.8,98%,Wealth quintile
+Fourth,Health facility delivery,91,91%,Wealth quintile
+Fourth,Postnatal check,76,76%,Wealth quintile
+Highest,ANC from a skilled provider,99.7,100%,Wealth quintile
+Highest,At least four ANC visits,82,82%,Wealth quintile
+Highest,Took iron supplements,93.8,94%,Wealth quintile
+Highest,Neonatal tetanus,81.2,81%,Wealth quintile
+Highest,Skilled delivery,98.8,99%,Wealth quintile
+Highest,Health facility delivery,91.3,91%,Wealth quintile
+Highest,Postnatal check,82.8,83%,Wealth quintile

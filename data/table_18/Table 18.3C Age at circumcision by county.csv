@@ -1,0 +1,236 @@
+County,variable,value
+Mombasa,<5,NA
+Kwale,<5,NA
+Kilifi,<5,NA
+Tana River,<5,1.5
+Lamu,<5,-11.2
+Taita Taveta,<5,-77
+Garissa,<5,0.2
+Wajir,<5,1.1
+Mandera,<5,0
+Marsabit,<5,0.2
+Isiolo,<5,1.4
+Meru,<5,1.6
+Tharaka Nithi,<5,0
+Embu,<5,0
+Kitui,<5,-3.2
+Machakos,<5,NA
+Makueni,<5,NA
+Nyandarua,<5,NA
+Nyeri,<5,NA
+Kirinyaga,<5,0
+Muranga,<5,0
+Kiambu,<5,NA
+Turkana,<5,NA
+West Pokot,<5,0
+Samburu,<5,0
+Trans Nzoia,<5,-5.6
+Uasin Gishu,<5,NA
+Elgeyo Marakwet,<5,0
+Nandi,<5,NA
+Baringo,<5,0
+Laikipia,<5,-2.5
+Nakuru,<5,2.2
+Narok,<5,0
+Kajiado,<5,1.8
+Kericho,<5,-1.5
+Bomet,<5,0
+Kakamega,<5,NA
+Vihiga,<5,NA
+Bungoma,<5,NA
+Busia,<5,NA
+Siaya,<5,NA
+Kisumu,<5,NA
+Homa Bay,<5,NA
+Migori,<5,0
+Kisii,<5,0.9
+Nyamira,<5,0.4
+Nairobi,<5,-11.9
+Mombasa,5-9,NA
+Kwale,5-9,NA
+Kilifi,5-9,NA
+Tana River,5-9,59
+Lamu,5-9,-44.6
+Taita Taveta,5-9,-13.2
+Garissa,5-9,71.1
+Wajir,5-9,81
+Mandera,5-9,66.7
+Marsabit,5-9,16.2
+Isiolo,5-9,40.6
+Meru,5-9,5.7
+Tharaka Nithi,5-9,1.3
+Embu,5-9,9.4
+Kitui,5-9,-43.7
+Machakos,5-9,NA
+Makueni,5-9,NA
+Nyandarua,5-9,NA
+Nyeri,5-9,NA
+Kirinyaga,5-9,-4.6
+Muranga,5-9,-24.9
+Kiambu,5-9,NA
+Turkana,5-9,NA
+West Pokot,5-9,2
+Samburu,5-9,7.1
+Trans Nzoia,5-9,-27.5
+Uasin Gishu,5-9,NA
+Elgeyo Marakwet,5-9,4.3
+Nandi,5-9,NA
+Baringo,5-9,1.6
+Laikipia,5-9,-17
+Nakuru,5-9,26.7
+Narok,5-9,3.8
+Kajiado,5-9,8.6
+Kericho,5-9,-3
+Bomet,5-9,4.1
+Kakamega,5-9,NA
+Vihiga,5-9,NA
+Bungoma,5-9,NA
+Busia,5-9,NA
+Siaya,5-9,NA
+Kisumu,5-9,NA
+Homa Bay,5-9,NA
+Migori,5-9,13.5
+Kisii,5-9,46
+Nyamira,5-9,44.8
+Nairobi,5-9,-34.2
+Mombasa,10-14,NA
+Kwale,10-14,NA
+Kilifi,10-14,NA
+Tana River,10-14,38.1
+Lamu,10-14,-33.3
+Taita Taveta,10-14,-7.5
+Garissa,10-14,28.6
+Wajir,10-14,10.3
+Mandera,10-14,32.6
+Marsabit,10-14,53.7
+Isiolo,10-14,49.2
+Meru,10-14,40.6
+Tharaka Nithi,10-14,73.8
+Embu,10-14,67.7
+Kitui,10-14,-49.9
+Machakos,10-14,NA
+Makueni,10-14,NA
+Nyandarua,10-14,NA
+Nyeri,10-14,NA
+Kirinyaga,10-14,-46.5
+Muranga,10-14,-63.6
+Kiambu,10-14,NA
+Turkana,10-14,NA
+West Pokot,10-14,37.8
+Samburu,10-14,64.6
+Trans Nzoia,10-14,-40.9
+Uasin Gishu,10-14,NA
+Elgeyo Marakwet,10-14,68.2
+Nandi,10-14,NA
+Baringo,10-14,42.7
+Laikipia,10-14,-54
+Nakuru,10-14,32.3
+Narok,10-14,50.3
+Kajiado,10-14,62.4
+Kericho,10-14,-29.2
+Bomet,10-14,15.7
+Kakamega,10-14,NA
+Vihiga,10-14,NA
+Bungoma,10-14,NA
+Busia,10-14,NA
+Siaya,10-14,NA
+Kisumu,10-14,NA
+Homa Bay,10-14,NA
+Migori,10-14,69
+Kisii,10-14,50.9
+Nyamira,10-14,52.8
+Nairobi,10-14,-40.7
+Mombasa,15+,NA
+Kwale,15+,NA
+Kilifi,15+,NA
+Tana River,15+,0.2
+Lamu,15+,-8.6
+Taita Taveta,15+,-2.3
+Garissa,15+,0.1
+Wajir,15+,0
+Mandera,15+,0.4
+Marsabit,15+,27.2
+Isiolo,15+,6.8
+Meru,15+,49.7
+Tharaka Nithi,15+,24.8
+Embu,15+,22.9
+Kitui,15+,-3.2
+Machakos,15+,NA
+Makueni,15+,NA
+Nyandarua,15+,NA
+Nyeri,15+,NA
+Kirinyaga,15+,-42.3
+Muranga,15+,-9.2
+Kiambu,15+,NA
+Turkana,15+,NA
+West Pokot,15+,60.2
+Samburu,15+,24.8
+Trans Nzoia,15+,-26
+Uasin Gishu,15+,NA
+Elgeyo Marakwet,15+,25.7
+Nandi,15+,NA
+Baringo,15+,55.8
+Laikipia,15+,-26.6
+Nakuru,15+,36.7
+Narok,15+,44.8
+Kajiado,15+,22.5
+Kericho,15+,-66.4
+Bomet,15+,77.8
+Kakamega,15+,NA
+Vihiga,15+,NA
+Bungoma,15+,NA
+Busia,15+,NA
+Siaya,15+,NA
+Kisumu,15+,NA
+Homa Bay,15+,NA
+Migori,15+,17.5
+Kisii,15+,1
+Nyamira,15+,0.4
+Nairobi,15+,-11.4
+Mombasa,Don't know,NA
+Kwale,Don't know,NA
+Kilifi,Don't know,NA
+Tana River,Don't know,1.2
+Lamu,Don't know,-2.3
+Taita Taveta,Don't know,0
+Garissa,Don't know,0
+Wajir,Don't know,7.6
+Mandera,Don't know,0.2
+Marsabit,Don't know,2.7
+Isiolo,Don't know,2
+Meru,Don't know,2.5
+Tharaka Nithi,Don't know,0
+Embu,Don't know,0
+Kitui,Don't know,0
+Machakos,Don't know,NA
+Makueni,Don't know,NA
+Nyandarua,Don't know,NA
+Nyeri,Don't know,NA
+Kirinyaga,Don't know,-6.5
+Muranga,Don't know,-2.2
+Kiambu,Don't know,NA
+Turkana,Don't know,NA
+West Pokot,Don't know,0
+Samburu,Don't know,3.4
+Trans Nzoia,Don't know,0
+Uasin Gishu,Don't know,NA
+Elgeyo Marakwet,Don't know,1.8
+Nandi,Don't know,NA
+Baringo,Don't know,0
+Laikipia,Don't know,0
+Nakuru,Don't know,2.1
+Narok,Don't know,1.1
+Kajiado,Don't know,4.7
+Kericho,Don't know,0
+Bomet,Don't know,2.3
+Kakamega,Don't know,NA
+Vihiga,Don't know,NA
+Bungoma,Don't know,NA
+Busia,Don't know,NA
+Siaya,Don't know,NA
+Kisumu,Don't know,NA
+Homa Bay,Don't know,NA
+Migori,Don't know,0
+Kisii,Don't know,1.1
+Nyamira,Don't know,1.6
+Nairobi,Don't know,-1.8

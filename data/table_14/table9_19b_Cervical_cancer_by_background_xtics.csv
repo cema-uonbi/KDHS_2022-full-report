@@ -1,0 +1,69 @@
+Value,Category,Proportion,Background characteristics
+15-29,"Tested for
+ cervical cancer",8.3,Age
+15-29,"Diagnosed with
+ cervical cancer",0.1,Age
+30-49,"Tested for
+ cervical cancer",27.0,Age
+30-49,"Diagnosed with
+ cervical cancer",0.3,Age
+30-34,"Tested for
+ cervical cancer",22.3,Age
+30-34,"Diagnosed with
+ cervical cancer",0.2,Age
+35-39,"Tested for
+ cervical cancer",25.5,Age
+35-39,"Diagnosed with
+ cervical cancer",0.2,Age
+40-44,"Tested for
+ cervical cancer",32.9,Age
+40-44,"Diagnosed with
+ cervical cancer",0.2,Age
+45-49,"Tested for
+ cervical cancer",30.7,Age
+45-49,"Diagnosed with
+ cervical cancer",0.6,Age
+Urban,"Tested for
+ cervical cancer",20.4,Residence
+Urban,"Diagnosed with
+ cervical cancer",0.2,Residence
+Rural,"Tested for
+ cervical cancer",14.3,Residence
+Rural,"Diagnosed with
+ cervical cancer",0.2,Residence
+No education,"Tested for
+ cervical cancer",5.5,Education
+No education,"Diagnosed with
+ cervical cancer",0.1,Education
+Primary,"Tested for
+ cervical cancer",16.5,Education
+Primary,"Diagnosed with
+ cervical cancer",0.3,Education
+Secondary,"Tested for
+ cervical cancer",14.6,Education
+Secondary,"Diagnosed with
+ cervical cancer",0.1,Education
+More than secondary,"Tested for
+ cervical cancer",25.0,Education
+More than secondary,"Diagnosed with
+ cervical cancer",0.3,Education
+Lowest,"Tested for
+ cervical cancer",7.8,Wealth quintile
+Lowest,"Diagnosed with
+ cervical cancer",0.1,Wealth quintile
+Second,"Tested for
+ cervical cancer",13.1,Wealth quintile
+Second,"Diagnosed with
+ cervical cancer",0.2,Wealth quintile
+Middle,"Tested for
+ cervical cancer",16.1,Wealth quintile
+Middle,"Diagnosed with
+ cervical cancer",0.2,Wealth quintile
+Fourth,"Tested for
+ cervical cancer",18.6,Wealth quintile
+Fourth,"Diagnosed with
+ cervical cancer",0.1,Wealth quintile
+Highest,"Tested for
+ cervical cancer",23.8,Wealth quintile
+Highest,"Diagnosed with
+ cervical cancer",0.3,Wealth quintile

@@ -1,0 +1,73 @@
+Value,Category,Proportion,Participants,Background characteristics
+15-19,Diagnosed with HBS/Diabetes,0.1,Women,Age
+15-19,Taking meds to control BS,NA,Women,Age
+20-24,Diagnosed with HBS/Diabetes,0.3,Women,Age
+20-24,Taking meds to control BS,NA,Women,Age
+25-29,Diagnosed with HBS/Diabetes,0.4,Women,Age
+25-29,Taking meds to control BS,NA,Women,Age
+30-34,Diagnosed with HBS/Diabetes,1.2,Women,Age
+30-34,Taking meds to control BS,NA,Women,Age
+35-39,Diagnosed with HBS/Diabetes,1.3,Women,Age
+35-39,Taking meds to control BS,55,Women,Age
+40-44,Diagnosed with HBS/Diabetes,0.9,Women,Age
+40-44,Taking meds to control BS,NA,Women,Age
+45-49,Diagnosed with HBS/Diabetes,3.1,Women,Age
+45-49,Taking meds to control BS,72.7,Women,Age
+15-19,Diagnosed with HBS/Diabetes,0.1,Men,Age
+15-19,Taking meds to control BS,NA,Men,Age
+20-24,Diagnosed with HBS/Diabetes,0.2,Men,Age
+20-24,Taking meds to control BS,NA,Men,Age
+25-29,Diagnosed with HBS/Diabetes,0.5,Men,Age
+25-29,Taking meds to control BS,NA,Men,Age
+30-34,Diagnosed with HBS/Diabetes,0.4,Men,Age
+30-34,Taking meds to control BS,NA,Men,Age
+35-39,Diagnosed with HBS/Diabetes,1.4,Men,Age
+35-39,Taking meds to control BS,NA,Men,Age
+40-44,Diagnosed with HBS/Diabetes,3.1,Men,Age
+40-44,Taking meds to control BS,84,Men,Age
+45-49,Diagnosed with HBS/Diabetes,2.3,Men,Age
+45-49,Taking meds to control BS,NA,Men,Age
+Urban,Diagnosed with HBS/Diabetes,1,Women,Residence
+Urban,Taking meds to control BS,83.3,Women,Residence
+Rural,Diagnosed with HBS/Diabetes,0.7,Women,Residence
+Rural,Taking meds to control BS,42.7,Women,Residence
+Urban,Diagnosed with HBS/Diabetes,1,Men,Residence
+Urban,Taking meds to control BS,82.8,Men,Residence
+Rural,Diagnosed with HBS/Diabetes,0.7,Men,Residence
+Rural,Taking meds to control BS,63.9,Men,Residence
+No education,Diagnosed with HBS/Diabetes,1.3,Women,Education
+No education,Taking meds to control BS,NA,Women,Education
+Primary,Diagnosed with HBS/Diabetes,0.9,Women,Education
+Primary,Taking meds to control BS,63,Women,Education
+Secondary,Diagnosed with HBS/Diabetes,0.8,Women,Education
+Secondary,Taking meds to control BS,70.5,Women,Education
+More than secondary,Diagnosed with HBS/Diabetes,0.7,Women,Education
+More than secondary,Taking meds to control BS,NA,Women,Education
+No education,Diagnosed with HBS/Diabetes,0.6,Men,Education
+No education,Taking meds to control BS,NA,Men,Education
+Primary,Diagnosed with HBS/Diabetes,0.7,Men,Education
+Primary,Taking meds to control BS,64,Men,Education
+Secondary,Diagnosed with HBS/Diabetes,0.6,Men,Education
+Secondary,Taking meds to control BS,77.5,Men,Education
+More than secondary,Diagnosed with HBS/Diabetes,1.7,Men,Education
+More than secondary,Taking meds to control BS,76.7,Men,Education
+Lowest,Diagnosed with HBS/Diabetes,0.5,Women,Wealth quintile
+Lowest,Taking meds to control BS,NA,Women,Wealth quintile
+Second,Diagnosed with HBS/Diabetes,0.6,Women,Wealth quintile
+Second,Taking meds to control BS,NA,Women,Wealth quintile
+Middle,Diagnosed with HBS/Diabetes,0.5,Women,Wealth quintile
+Middle,Taking meds to control BS,NA,Women,Wealth quintile
+Fourth,Diagnosed with HBS/Diabetes,0.7,Women,Wealth quintile
+Fourth,Taking meds to control BS,43.1,Women,Wealth quintile
+Highest,Diagnosed with HBS/Diabetes,1.6,Women,Wealth quintile
+Highest,Taking meds to control BS,83.6,Women,Wealth quintile
+Lowest,Diagnosed with HBS/Diabetes,0.3,Men,Wealth quintile
+Lowest,Taking meds to control BS,NA,Men,Wealth quintile
+Second,Diagnosed with HBS/Diabetes,0.4,Men,Wealth quintile
+Second,Taking meds to control BS,NA,Men,Wealth quintile
+Middle,Diagnosed with HBS/Diabetes,0.8,Men,Wealth quintile
+Middle,Taking meds to control BS,NA,Men,Wealth quintile
+Fourth,Diagnosed with HBS/Diabetes,0.7,Men,Wealth quintile
+Fourth,Taking meds to control BS,72.4,Men,Wealth quintile
+Highest,Diagnosed with HBS/Diabetes,1.8,Men,Wealth quintile
+Highest,Taking meds to control BS,80,Men,Wealth quintile

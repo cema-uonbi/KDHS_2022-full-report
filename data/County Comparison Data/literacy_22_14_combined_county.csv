@@ -1,0 +1,1129 @@
+County,Gender,variable,value,Year
+Mombasa,Female,Higher than secondary schooling,48.5,2014
+Kwale,Female,Higher than secondary schooling,19.8,2014
+Kilifi,Female,Higher than secondary schooling,26.3,2014
+Tana River,Female,Higher than secondary schooling,11.5,2014
+Lamu,Female,Higher than secondary schooling,22.9,2014
+Taita Taveta,Female,Higher than secondary schooling,40.6,2014
+Garissa,Female,Higher than secondary schooling,12,2014
+Wajir,Female,Higher than secondary schooling,8.5,2014
+Mandera,Female,Higher than secondary schooling,10,2014
+Marsabit,Female,Higher than secondary schooling,11.8,2014
+Isiolo,Female,Higher than secondary schooling,19.7,2014
+Meru,Female,Higher than secondary schooling,31.1,2014
+Tharaka Nithi,Female,Higher than secondary schooling,33.7,2014
+Embu,Female,Higher than secondary schooling,40.9,2014
+Kitui,Female,Higher than secondary schooling,26.2,2014
+Machakos,Female,Higher than secondary schooling,47,2014
+Makueni,Female,Higher than secondary schooling,42.9,2014
+Nyandarua,Female,Higher than secondary schooling,43,2014
+Nyeri,Female,Higher than secondary schooling,59.7,2014
+Kirinyaga,Female,Higher than secondary schooling,41.5,2014
+Muranga,Female,Higher than secondary schooling,49.1,2014
+Kiambu,Female,Higher than secondary schooling,61.7,2014
+Turkana,Female,Higher than secondary schooling,8.6,2014
+West Pokot,Female,Higher than secondary schooling,13.3,2014
+Samburu,Female,Higher than secondary schooling,16,2014
+Trans Nzoia,Female,Higher than secondary schooling,35.2,2014
+Uasin Gishu,Female,Higher than secondary schooling,51.5,2014
+Elgeyo Marakwet,Female,Higher than secondary schooling,42.5,2014
+Nandi,Female,Higher than secondary schooling,37.5,2014
+Baringo,Female,Higher than secondary schooling,36.1,2014
+Laikipia,Female,Higher than secondary schooling,42,2014
+Nakuru,Female,Higher than secondary schooling,53.4,2014
+Narok,Female,Higher than secondary schooling,29,2014
+Kajiado,Female,Higher than secondary schooling,51.3,2014
+Kericho,Female,Higher than secondary schooling,42.7,2014
+Bomet,Female,Higher than secondary schooling,34,2014
+Kakamega,Female,Higher than secondary schooling,38.8,2014
+Vihiga,Female,Higher than secondary schooling,43,2014
+Bungoma,Female,Higher than secondary schooling,38.1,2014
+Busia,Female,Higher than secondary schooling,25.6,2014
+Siaya,Female,Higher than secondary schooling,33.7,2014
+Kisumu,Female,Higher than secondary schooling,50.3,2014
+Homa Bay,Female,Higher than secondary schooling,31.1,2014
+Migori,Female,Higher than secondary schooling,23.5,2014
+Kisii,Female,Higher than secondary schooling,48.3,2014
+Nyamira,Female,Higher than secondary schooling,55.8,2014
+Nairobi,Female,Higher than secondary schooling,66.1,2014
+Mombasa,Male,Higher than secondary schooling,56.1,2014
+Kwale,Male,Higher than secondary schooling,33.9,2014
+Kilifi,Male,Higher than secondary schooling,38.1,2014
+Tana River,Male,Higher than secondary schooling,23.3,2014
+Lamu,Male,Higher than secondary schooling,34.5,2014
+Taita Taveta,Male,Higher than secondary schooling,45.3,2014
+Garissa,Male,Higher than secondary schooling,32.9,2014
+Wajir,Male,Higher than secondary schooling,28.1,2014
+Mandera,Male,Higher than secondary schooling,21.6,2014
+Marsabit,Male,Higher than secondary schooling,35.7,2014
+Isiolo,Male,Higher than secondary schooling,37.9,2014
+Meru,Male,Higher than secondary schooling,34.3,2014
+Tharaka Nithi,Male,Higher than secondary schooling,41.1,2014
+Embu,Male,Higher than secondary schooling,38,2014
+Kitui,Male,Higher than secondary schooling,29.1,2014
+Machakos,Male,Higher than secondary schooling,46.8,2014
+Makueni,Male,Higher than secondary schooling,46.8,2014
+Nyandarua,Male,Higher than secondary schooling,50.1,2014
+Nyeri,Male,Higher than secondary schooling,60.5,2014
+Kirinyaga,Male,Higher than secondary schooling,42.9,2014
+Muranga,Male,Higher than secondary schooling,49.1,2014
+Kiambu,Male,Higher than secondary schooling,68.5,2014
+Turkana,Male,Higher than secondary schooling,21.8,2014
+West Pokot,Male,Higher than secondary schooling,15.6,2014
+Samburu,Male,Higher than secondary schooling,35.5,2014
+Trans Nzoia,Male,Higher than secondary schooling,38.8,2014
+Uasin Gishu,Male,Higher than secondary schooling,53.3,2014
+Elgeyo Marakwet,Male,Higher than secondary schooling,48.7,2014
+Nandi,Male,Higher than secondary schooling,40.1,2014
+Baringo,Male,Higher than secondary schooling,44.1,2014
+Laikipia,Male,Higher than secondary schooling,56.8,2014
+Nakuru,Male,Higher than secondary schooling,55.6,2014
+Narok,Male,Higher than secondary schooling,32.7,2014
+Kajiado,Male,Higher than secondary schooling,62.1,2014
+Kericho,Male,Higher than secondary schooling,44.9,2014
+Bomet,Male,Higher than secondary schooling,39.7,2014
+Kakamega,Male,Higher than secondary schooling,41.4,2014
+Vihiga,Male,Higher than secondary schooling,39,2014
+Bungoma,Male,Higher than secondary schooling,37.5,2014
+Busia,Male,Higher than secondary schooling,36.3,2014
+Siaya,Male,Higher than secondary schooling,42.3,2014
+Kisumu,Male,Higher than secondary schooling,55.8,2014
+Homa Bay,Male,Higher than secondary schooling,37.9,2014
+Migori,Male,Higher than secondary schooling,32.5,2014
+Kisii,Male,Higher than secondary schooling,58.7,2014
+Nyamira,Male,Higher than secondary schooling,64.7,2014
+Nairobi,Male,Higher than secondary schooling,72.9,2014
+Mombasa,Female,Can read a whole sentence,39.2,2014
+Kwale,Female,Can read a whole sentence,45.3,2014
+Kilifi,Female,Can read a whole sentence,43.4,2014
+Tana River,Female,Can read a whole sentence,34.9,2014
+Lamu,Female,Can read a whole sentence,51.5,2014
+Taita Taveta,Female,Can read a whole sentence,52.4,2014
+Garissa,Female,Can read a whole sentence,7.3,2014
+Wajir,Female,Can read a whole sentence,7,2014
+Mandera,Female,Can read a whole sentence,6.7,2014
+Marsabit,Female,Can read a whole sentence,13.3,2014
+Isiolo,Female,Can read a whole sentence,23.8,2014
+Meru,Female,Can read a whole sentence,41.8,2014
+Tharaka Nithi,Female,Can read a whole sentence,40.2,2014
+Embu,Female,Can read a whole sentence,47.5,2014
+Kitui,Female,Can read a whole sentence,47.6,2014
+Machakos,Female,Can read a whole sentence,40.8,2014
+Makueni,Female,Can read a whole sentence,49.3,2014
+Nyandarua,Female,Can read a whole sentence,47.6,2014
+Nyeri,Female,Can read a whole sentence,31.9,2014
+Kirinyaga,Female,Can read a whole sentence,46.6,2014
+Muranga,Female,Can read a whole sentence,38.9,2014
+Kiambu,Female,Can read a whole sentence,26.5,2014
+Turkana,Female,Can read a whole sentence,12.6,2014
+West Pokot,Female,Can read a whole sentence,15.8,2014
+Samburu,Female,Can read a whole sentence,12.9,2014
+Trans Nzoia,Female,Can read a whole sentence,43.9,2014
+Uasin Gishu,Female,Can read a whole sentence,36.8,2014
+Elgeyo Marakwet,Female,Can read a whole sentence,48.5,2014
+Nandi,Female,Can read a whole sentence,47.3,2014
+Baringo,Female,Can read a whole sentence,37.9,2014
+Laikipia,Female,Can read a whole sentence,33.4,2014
+Nakuru,Female,Can read a whole sentence,34.6,2014
+Narok,Female,Can read a whole sentence,40.4,2014
+Kajiado,Female,Can read a whole sentence,28,2014
+Kericho,Female,Can read a whole sentence,34.3,2014
+Bomet,Female,Can read a whole sentence,41.1,2014
+Kakamega,Female,Can read a whole sentence,48.5,2014
+Vihiga,Female,Can read a whole sentence,43.6,2014
+Bungoma,Female,Can read a whole sentence,38.4,2014
+Busia,Female,Can read a whole sentence,44.2,2014
+Siaya,Female,Can read a whole sentence,46.5,2014
+Kisumu,Female,Can read a whole sentence,35.7,2014
+Homa Bay,Female,Can read a whole sentence,45.1,2014
+Migori,Female,Can read a whole sentence,51.8,2014
+Kisii,Female,Can read a whole sentence,32.2,2014
+Nyamira,Female,Can read a whole sentence,26.9,2014
+Nairobi,Female,Can read a whole sentence,24.8,2014
+Mombasa,Male,Can read a whole sentence,40.4,2014
+Kwale,Male,Can read a whole sentence,42.1,2014
+Kilifi,Male,Can read a whole sentence,54.1,2014
+Tana River,Male,Can read a whole sentence,50.8,2014
+Lamu,Male,Can read a whole sentence,48.3,2014
+Taita Taveta,Male,Can read a whole sentence,46.3,2014
+Garissa,Male,Can read a whole sentence,28.2,2014
+Wajir,Male,Can read a whole sentence,27.7,2014
+Mandera,Male,Can read a whole sentence,32.7,2014
+Marsabit,Male,Can read a whole sentence,7.1,2014
+Isiolo,Male,Can read a whole sentence,27.7,2014
+Meru,Male,Can read a whole sentence,52.1,2014
+Tharaka Nithi,Male,Can read a whole sentence,47.1,2014
+Embu,Male,Can read a whole sentence,44.3,2014
+Kitui,Male,Can read a whole sentence,43.7,2014
+Machakos,Male,Can read a whole sentence,47.3,2014
+Makueni,Male,Can read a whole sentence,45.4,2014
+Nyandarua,Male,Can read a whole sentence,36.9,2014
+Nyeri,Male,Can read a whole sentence,29.4,2014
+Kirinyaga,Male,Can read a whole sentence,45,2014
+Muranga,Male,Can read a whole sentence,37.5,2014
+Kiambu,Male,Can read a whole sentence,26.2,2014
+Turkana,Male,Can read a whole sentence,6.8,2014
+West Pokot,Male,Can read a whole sentence,47,2014
+Samburu,Male,Can read a whole sentence,22,2014
+Trans Nzoia,Male,Can read a whole sentence,45.3,2014
+Uasin Gishu,Male,Can read a whole sentence,38.2,2014
+Elgeyo Marakwet,Male,Can read a whole sentence,41.8,2014
+Nandi,Male,Can read a whole sentence,39.2,2014
+Baringo,Male,Can read a whole sentence,35.7,2014
+Laikipia,Male,Can read a whole sentence,29.7,2014
+Nakuru,Male,Can read a whole sentence,31.2,2014
+Narok,Male,Can read a whole sentence,22.6,2014
+Kajiado,Male,Can read a whole sentence,21.3,2014
+Kericho,Male,Can read a whole sentence,44.7,2014
+Bomet,Male,Can read a whole sentence,35.8,2014
+Kakamega,Male,Can read a whole sentence,47,2014
+Vihiga,Male,Can read a whole sentence,28.8,2014
+Bungoma,Male,Can read a whole sentence,39.3,2014
+Busia,Male,Can read a whole sentence,43.7,2014
+Siaya,Male,Can read a whole sentence,46.6,2014
+Kisumu,Male,Can read a whole sentence,28,2014
+Homa Bay,Male,Can read a whole sentence,49.4,2014
+Migori,Male,Can read a whole sentence,51.9,2014
+Kisii,Male,Can read a whole sentence,27.8,2014
+Nyamira,Male,Can read a whole sentence,13.6,2014
+Nairobi,Male,Can read a whole sentence,22.4,2014
+Mombasa,Female,Can read part of a sentence,4.9,2014
+Kwale,Female,Can read part of a sentence,7.6,2014
+Kilifi,Female,Can read part of a sentence,5.4,2014
+Tana River,Female,Can read part of a sentence,7,2014
+Lamu,Female,Can read part of a sentence,9.9,2014
+Taita Taveta,Female,Can read part of a sentence,3,2014
+Garissa,Female,Can read part of a sentence,7.1,2014
+Wajir,Female,Can read part of a sentence,5.2,2014
+Mandera,Female,Can read part of a sentence,7.4,2014
+Marsabit,Female,Can read part of a sentence,10.5,2014
+Isiolo,Female,Can read part of a sentence,14.4,2014
+Meru,Female,Can read part of a sentence,13.3,2014
+Tharaka Nithi,Female,Can read part of a sentence,10.1,2014
+Embu,Female,Can read part of a sentence,7,2014
+Kitui,Female,Can read part of a sentence,17.9,2014
+Machakos,Female,Can read part of a sentence,7.5,2014
+Makueni,Female,Can read part of a sentence,4.7,2014
+Nyandarua,Female,Can read part of a sentence,3.7,2014
+Nyeri,Female,Can read part of a sentence,4.7,2014
+Kirinyaga,Female,Can read part of a sentence,3.5,2014
+Muranga,Female,Can read part of a sentence,5.9,2014
+Kiambu,Female,Can read part of a sentence,7.6,2014
+Turkana,Female,Can read part of a sentence,3.4,2014
+West Pokot,Female,Can read part of a sentence,20.9,2014
+Samburu,Female,Can read part of a sentence,11.2,2014
+Trans Nzoia,Female,Can read part of a sentence,6.5,2014
+Uasin Gishu,Female,Can read part of a sentence,5.6,2014
+Elgeyo Marakwet,Female,Can read part of a sentence,5.9,2014
+Nandi,Female,Can read part of a sentence,13.6,2014
+Baringo,Female,Can read part of a sentence,12.3,2014
+Laikipia,Female,Can read part of a sentence,7.5,2014
+Nakuru,Female,Can read part of a sentence,6.1,2014
+Narok,Female,Can read part of a sentence,4.6,2014
+Kajiado,Female,Can read part of a sentence,3.9,2014
+Kericho,Female,Can read part of a sentence,12.3,2014
+Bomet,Female,Can read part of a sentence,14.2,2014
+Kakamega,Female,Can read part of a sentence,4.8,2014
+Vihiga,Female,Can read part of a sentence,6.5,2014
+Bungoma,Female,Can read part of a sentence,12.2,2014
+Busia,Female,Can read part of a sentence,17.2,2014
+Siaya,Female,Can read part of a sentence,11.3,2014
+Kisumu,Female,Can read part of a sentence,6.5,2014
+Homa Bay,Female,Can read part of a sentence,17.6,2014
+Migori,Female,Can read part of a sentence,10.3,2014
+Kisii,Female,Can read part of a sentence,10.7,2014
+Nyamira,Female,Can read part of a sentence,15.5,2014
+Nairobi,Female,Can read part of a sentence,5.6,2014
+Mombasa,Male,Can read part of a sentence,2.4,2014
+Kwale,Male,Can read part of a sentence,11.6,2014
+Kilifi,Male,Can read part of a sentence,1.9,2014
+Tana River,Male,Can read part of a sentence,6.6,2014
+Lamu,Male,Can read part of a sentence,4.2,2014
+Taita Taveta,Male,Can read part of a sentence,3.2,2014
+Garissa,Male,Can read part of a sentence,11.1,2014
+Wajir,Male,Can read part of a sentence,8.9,2014
+Mandera,Male,Can read part of a sentence,7.9,2014
+Marsabit,Male,Can read part of a sentence,20.8,2014
+Isiolo,Male,Can read part of a sentence,22.3,2014
+Meru,Male,Can read part of a sentence,3.9,2014
+Tharaka Nithi,Male,Can read part of a sentence,2.3,2014
+Embu,Male,Can read part of a sentence,9.8,2014
+Kitui,Male,Can read part of a sentence,11.9,2014
+Machakos,Male,Can read part of a sentence,4.6,2014
+Makueni,Male,Can read part of a sentence,3.3,2014
+Nyandarua,Male,Can read part of a sentence,10.1,2014
+Nyeri,Male,Can read part of a sentence,5.6,2014
+Kirinyaga,Male,Can read part of a sentence,5.8,2014
+Muranga,Male,Can read part of a sentence,4.1,2014
+Kiambu,Male,Can read part of a sentence,3.5,2014
+Turkana,Male,Can read part of a sentence,24.2,2014
+West Pokot,Male,Can read part of a sentence,8.7,2014
+Samburu,Male,Can read part of a sentence,13.3,2014
+Trans Nzoia,Male,Can read part of a sentence,3.9,2014
+Uasin Gishu,Male,Can read part of a sentence,5.9,2014
+Elgeyo Marakwet,Male,Can read part of a sentence,5,2014
+Nandi,Male,Can read part of a sentence,14.8,2014
+Baringo,Male,Can read part of a sentence,5.1,2014
+Laikipia,Male,Can read part of a sentence,2.2,2014
+Nakuru,Male,Can read part of a sentence,8.6,2014
+Narok,Male,Can read part of a sentence,25.9,2014
+Kajiado,Male,Can read part of a sentence,5.9,2014
+Kericho,Male,Can read part of a sentence,7.6,2014
+Bomet,Male,Can read part of a sentence,17.5,2014
+Kakamega,Male,Can read part of a sentence,5.7,2014
+Vihiga,Male,Can read part of a sentence,27.7,2014
+Bungoma,Male,Can read part of a sentence,2.7,2014
+Busia,Male,Can read part of a sentence,1.4,2014
+Siaya,Male,Can read part of a sentence,6.5,2014
+Kisumu,Male,Can read part of a sentence,14,2014
+Homa Bay,Male,Can read part of a sentence,1.5,2014
+Migori,Male,Can read part of a sentence,8.5,2014
+Kisii,Male,Can read part of a sentence,10.1,2014
+Nyamira,Male,Can read part of a sentence,21.4,2014
+Nairobi,Male,Can read part of a sentence,3.3,2014
+Mombasa,Female,Cannot read at all,6.5,2014
+Kwale,Female,Cannot read at all,26.4,2014
+Kilifi,Female,Cannot read at all,24.9,2014
+Tana River,Female,Cannot read at all,45,2014
+Lamu,Female,Cannot read at all,15.6,2014
+Taita Taveta,Female,Cannot read at all,3.7,2014
+Garissa,Female,Cannot read at all,73.2,2014
+Wajir,Female,Cannot read at all,79.3,2014
+Mandera,Female,Cannot read at all,75.7,2014
+Marsabit,Female,Cannot read at all,64.5,2014
+Isiolo,Female,Cannot read at all,42,2014
+Meru,Female,Cannot read at all,13.9,2014
+Tharaka Nithi,Female,Cannot read at all,15.2,2014
+Embu,Female,Cannot read at all,4.4,2014
+Kitui,Female,Cannot read at all,8.3,2014
+Machakos,Female,Cannot read at all,3.9,2014
+Makueni,Female,Cannot read at all,3,2014
+Nyandarua,Female,Cannot read at all,5.1,2014
+Nyeri,Female,Cannot read at all,3.7,2014
+Kirinyaga,Female,Cannot read at all,7.6,2014
+Muranga,Female,Cannot read at all,5.8,2014
+Kiambu,Female,Cannot read at all,3.2,2014
+Turkana,Female,Cannot read at all,75.2,2014
+West Pokot,Female,Cannot read at all,49.9,2014
+Samburu,Female,Cannot read at all,59.3,2014
+Trans Nzoia,Female,Cannot read at all,14.2,2014
+Uasin Gishu,Female,Cannot read at all,5.9,2014
+Elgeyo Marakwet,Female,Cannot read at all,3,2014
+Nandi,Female,Cannot read at all,1.4,2014
+Baringo,Female,Cannot read at all,12.3,2014
+Laikipia,Female,Cannot read at all,16.7,2014
+Nakuru,Female,Cannot read at all,5.6,2014
+Narok,Female,Cannot read at all,25.9,2014
+Kajiado,Female,Cannot read at all,16.7,2014
+Kericho,Female,Cannot read at all,9.8,2014
+Bomet,Female,Cannot read at all,10.4,2014
+Kakamega,Female,Cannot read at all,6.8,2014
+Vihiga,Female,Cannot read at all,6.7,2014
+Bungoma,Female,Cannot read at all,10.5,2014
+Busia,Female,Cannot read at all,12.3,2014
+Siaya,Female,Cannot read at all,8.1,2014
+Kisumu,Female,Cannot read at all,6.8,2014
+Homa Bay,Female,Cannot read at all,5.6,2014
+Migori,Female,Cannot read at all,13.2,2014
+Kisii,Female,Cannot read at all,8.4,2014
+Nyamira,Female,Cannot read at all,1.5,2014
+Nairobi,Female,Cannot read at all,3,2014
+Mombasa,Male,Cannot read at all,1.1,2014
+Kwale,Male,Cannot read at all,12.4,2014
+Kilifi,Male,Cannot read at all,5.5,2014
+Tana River,Male,Cannot read at all,18.8,2014
+Lamu,Male,Cannot read at all,12.4,2014
+Taita Taveta,Male,Cannot read at all,4.3,2014
+Garissa,Male,Cannot read at all,27.8,2014
+Wajir,Male,Cannot read at all,33.9,2014
+Mandera,Male,Cannot read at all,37.4,2014
+Marsabit,Male,Cannot read at all,36.4,2014
+Isiolo,Male,Cannot read at all,12.1,2014
+Meru,Male,Cannot read at all,9.6,2014
+Tharaka Nithi,Male,Cannot read at all,9.5,2014
+Embu,Male,Cannot read at all,7.8,2014
+Kitui,Male,Cannot read at all,15.3,2014
+Machakos,Male,Cannot read at all,1.4,2014
+Makueni,Male,Cannot read at all,4.5,2014
+Nyandarua,Male,Cannot read at all,2.9,2014
+Nyeri,Male,Cannot read at all,4,2014
+Kirinyaga,Male,Cannot read at all,6.3,2014
+Muranga,Male,Cannot read at all,9.3,2014
+Kiambu,Male,Cannot read at all,1.8,2014
+Turkana,Male,Cannot read at all,47.2,2014
+West Pokot,Male,Cannot read at all,28.7,2014
+Samburu,Male,Cannot read at all,29.2,2014
+Trans Nzoia,Male,Cannot read at all,12.1,2014
+Uasin Gishu,Male,Cannot read at all,2.7,2014
+Elgeyo Marakwet,Male,Cannot read at all,4.1,2014
+Nandi,Male,Cannot read at all,5.9,2014
+Baringo,Male,Cannot read at all,14.5,2014
+Laikipia,Male,Cannot read at all,11.4,2014
+Nakuru,Male,Cannot read at all,4.7,2014
+Narok,Male,Cannot read at all,17.9,2014
+Kajiado,Male,Cannot read at all,10.7,2014
+Kericho,Male,Cannot read at all,2.6,2014
+Bomet,Male,Cannot read at all,7.1,2014
+Kakamega,Male,Cannot read at all,5.9,2014
+Vihiga,Male,Cannot read at all,3.7,2014
+Bungoma,Male,Cannot read at all,19.8,2014
+Busia,Male,Cannot read at all,18.7,2014
+Siaya,Male,Cannot read at all,4.4,2014
+Kisumu,Male,Cannot read at all,1.9,2014
+Homa Bay,Male,Cannot read at all,9.8,2014
+Migori,Male,Cannot read at all,7.1,2014
+Kisii,Male,Cannot read at all,3.4,2014
+Nyamira,Male,Cannot read at all,0,2014
+Nairobi,Male,Cannot read at all,1.4,2014
+Mombasa,Female,Blind/visually impaired,0.2,2014
+Kwale,Female,Blind/visually impaired,0.2,2014
+Kilifi,Female,Blind/visually impaired,0,2014
+Tana River,Female,Blind/visually impaired,1.4,2014
+Lamu,Female,Blind/visually impaired,0.1,2014
+Taita Taveta,Female,Blind/visually impaired,0,2014
+Garissa,Female,Blind/visually impaired,0.2,2014
+Wajir,Female,Blind/visually impaired,0,2014
+Mandera,Female,Blind/visually impaired,0,2014
+Marsabit,Female,Blind/visually impaired,0,2014
+Isiolo,Female,Blind/visually impaired,0,2014
+Meru,Female,Blind/visually impaired,0,2014
+Tharaka Nithi,Female,Blind/visually impaired,0.2,2014
+Embu,Female,Blind/visually impaired,0,2014
+Kitui,Female,Blind/visually impaired,0,2014
+Machakos,Female,Blind/visually impaired,0.8,2014
+Makueni,Female,Blind/visually impaired,0,2014
+Nyandarua,Female,Blind/visually impaired,0.2,2014
+Nyeri,Female,Blind/visually impaired,0,2014
+Kirinyaga,Female,Blind/visually impaired,0,2014
+Muranga,Female,Blind/visually impaired,0.3,2014
+Kiambu,Female,Blind/visually impaired,0,2014
+Turkana,Female,Blind/visually impaired,0.3,2014
+West Pokot,Female,Blind/visually impaired,0.1,2014
+Samburu,Female,Blind/visually impaired,0,2014
+Trans Nzoia,Female,Blind/visually impaired,0.1,2014
+Uasin Gishu,Female,Blind/visually impaired,0,2014
+Elgeyo Marakwet,Female,Blind/visually impaired,0.1,2014
+Nandi,Female,Blind/visually impaired,0.2,2014
+Baringo,Female,Blind/visually impaired,0.3,2014
+Laikipia,Female,Blind/visually impaired,0,2014
+Nakuru,Female,Blind/visually impaired,0,2014
+Narok,Female,Blind/visually impaired,0.1,2014
+Kajiado,Female,Blind/visually impaired,0,2014
+Kericho,Female,Blind/visually impaired,0.7,2014
+Bomet,Female,Blind/visually impaired,0.1,2014
+Kakamega,Female,Blind/visually impaired,1.1,2014
+Vihiga,Female,Blind/visually impaired,0,2014
+Bungoma,Female,Blind/visually impaired,0.3,2014
+Busia,Female,Blind/visually impaired,0.7,2014
+Siaya,Female,Blind/visually impaired,0,2014
+Kisumu,Female,Blind/visually impaired,0.4,2014
+Homa Bay,Female,Blind/visually impaired,0.6,2014
+Migori,Female,Blind/visually impaired,0.8,2014
+Kisii,Female,Blind/visually impaired,0.3,2014
+Nyamira,Female,Blind/visually impaired,0,2014
+Nairobi,Female,Blind/visually impaired,0.2,2014
+Mombasa,Male,Blind/visually impaired,0,2014
+Kwale,Male,Blind/visually impaired,0,2014
+Kilifi,Male,Blind/visually impaired,0,2014
+Tana River,Male,Blind/visually impaired,0.4,2014
+Lamu,Male,Blind/visually impaired,0.6,2014
+Taita Taveta,Male,Blind/visually impaired,0.4,2014
+Garissa,Male,Blind/visually impaired,0,2014
+Wajir,Male,Blind/visually impaired,0,2014
+Mandera,Male,Blind/visually impaired,0,2014
+Marsabit,Male,Blind/visually impaired,0,2014
+Isiolo,Male,Blind/visually impaired,0,2014
+Meru,Male,Blind/visually impaired,0,2014
+Tharaka Nithi,Male,Blind/visually impaired,0,2014
+Embu,Male,Blind/visually impaired,0,2014
+Kitui,Male,Blind/visually impaired,0,2014
+Machakos,Male,Blind/visually impaired,0,2014
+Makueni,Male,Blind/visually impaired,0,2014
+Nyandarua,Male,Blind/visually impaired,0,2014
+Nyeri,Male,Blind/visually impaired,0.4,2014
+Kirinyaga,Male,Blind/visually impaired,0,2014
+Muranga,Male,Blind/visually impaired,0,2014
+Kiambu,Male,Blind/visually impaired,0,2014
+Turkana,Male,Blind/visually impaired,0,2014
+West Pokot,Male,Blind/visually impaired,0,2014
+Samburu,Male,Blind/visually impaired,0,2014
+Trans Nzoia,Male,Blind/visually impaired,0,2014
+Uasin Gishu,Male,Blind/visually impaired,0,2014
+Elgeyo Marakwet,Male,Blind/visually impaired,0,2014
+Nandi,Male,Blind/visually impaired,0,2014
+Baringo,Male,Blind/visually impaired,0.7,2014
+Laikipia,Male,Blind/visually impaired,0,2014
+Nakuru,Male,Blind/visually impaired,0,2014
+Narok,Male,Blind/visually impaired,0,2014
+Kajiado,Male,Blind/visually impaired,0,2014
+Kericho,Male,Blind/visually impaired,0,2014
+Bomet,Male,Blind/visually impaired,0,2014
+Kakamega,Male,Blind/visually impaired,0,2014
+Vihiga,Male,Blind/visually impaired,0,2014
+Bungoma,Male,Blind/visually impaired,0,2014
+Busia,Male,Blind/visually impaired,0,2014
+Siaya,Male,Blind/visually impaired,0,2014
+Kisumu,Male,Blind/visually impaired,0.2,2014
+Homa Bay,Male,Blind/visually impaired,1,2014
+Migori,Male,Blind/visually impaired,0,2014
+Kisii,Male,Blind/visually impaired,0,2014
+Nyamira,Male,Blind/visually impaired,0.3,2014
+Nairobi,Male,Blind/visually impaired,0,2014
+Mombasa,Female,Percentage literate,92.6,2014
+Kwale,Female,Percentage literate,72.7,2014
+Kilifi,Female,Percentage literate,75.1,2014
+Tana River,Female,Percentage literate,53.5,2014
+Lamu,Female,Percentage literate,84.2,2014
+Taita Taveta,Female,Percentage literate,96.1,2014
+Garissa,Female,Percentage literate,26.3,2014
+Wajir,Female,Percentage literate,20.7,2014
+Mandera,Female,Percentage literate,24,2014
+Marsabit,Female,Percentage literate,35.5,2014
+Isiolo,Female,Percentage literate,58,2014
+Meru,Female,Percentage literate,86.1,2014
+Tharaka Nithi,Female,Percentage literate,84.1,2014
+Embu,Female,Percentage literate,95.4,2014
+Kitui,Female,Percentage literate,91.7,2014
+Machakos,Female,Percentage literate,95.3,2014
+Makueni,Female,Percentage literate,96.9,2014
+Nyandarua,Female,Percentage literate,94.3,2014
+Nyeri,Female,Percentage literate,96.3,2014
+Kirinyaga,Female,Percentage literate,91.5,2014
+Muranga,Female,Percentage literate,93.9,2014
+Kiambu,Female,Percentage literate,95.8,2014
+Turkana,Female,Percentage literate,24.5,2014
+West Pokot,Female,Percentage literate,50,2014
+Samburu,Female,Percentage literate,40.1,2014
+Trans Nzoia,Female,Percentage literate,85.6,2014
+Uasin Gishu,Female,Percentage literate,93.9,2014
+Elgeyo Marakwet,Female,Percentage literate,96.8,2014
+Nandi,Female,Percentage literate,98.4,2014
+Baringo,Female,Percentage literate,86.3,2014
+Laikipia,Female,Percentage literate,83,2014
+Nakuru,Female,Percentage literate,94,2014
+Narok,Female,Percentage literate,74,2014
+Kajiado,Female,Percentage literate,83.1,2014
+Kericho,Female,Percentage literate,89.3,2014
+Bomet,Female,Percentage literate,89.4,2014
+Kakamega,Female,Percentage literate,92.1,2014
+Vihiga,Female,Percentage literate,93.1,2014
+Bungoma,Female,Percentage literate,88.7,2014
+Busia,Female,Percentage literate,87,2014
+Siaya,Female,Percentage literate,91.5,2014
+Kisumu,Female,Percentage literate,92.6,2014
+Homa Bay,Female,Percentage literate,93.8,2014
+Migori,Female,Percentage literate,85.7,2014
+Kisii,Female,Percentage literate,91.2,2014
+Nyamira,Female,Percentage literate,98.2,2014
+Nairobi,Female,Percentage literate,96.5,2014
+Mombasa,Male,Percentage literate,98.9,2014
+Kwale,Male,Percentage literate,87.6,2014
+Kilifi,Male,Percentage literate,94.1,2014
+Tana River,Male,Percentage literate,80.8,2014
+Lamu,Male,Percentage literate,87.1,2014
+Taita Taveta,Male,Percentage literate,94.8,2014
+Garissa,Male,Percentage literate,72.2,2014
+Wajir,Male,Percentage literate,64.7,2014
+Mandera,Male,Percentage literate,62.2,2014
+Marsabit,Male,Percentage literate,63.6,2014
+Isiolo,Male,Percentage literate,87.9,2014
+Meru,Male,Percentage literate,90.4,2014
+Tharaka Nithi,Male,Percentage literate,90.5,2014
+Embu,Male,Percentage literate,92.2,2014
+Kitui,Male,Percentage literate,84.7,2014
+Machakos,Male,Percentage literate,98.6,2014
+Makueni,Male,Percentage literate,95.5,2014
+Nyandarua,Male,Percentage literate,97,2014
+Nyeri,Male,Percentage literate,95.6,2014
+Kirinyaga,Male,Percentage literate,93.7,2014
+Muranga,Male,Percentage literate,90.7,2014
+Kiambu,Male,Percentage literate,98.2,2014
+Turkana,Male,Percentage literate,52.8,2014
+West Pokot,Male,Percentage literate,71.3,2014
+Samburu,Male,Percentage literate,70.8,2014
+Trans Nzoia,Male,Percentage literate,87.9,2014
+Uasin Gishu,Male,Percentage literate,97.3,2014
+Elgeyo Marakwet,Male,Percentage literate,95.5,2014
+Nandi,Male,Percentage literate,94.1,2014
+Baringo,Male,Percentage literate,84.9,2014
+Laikipia,Male,Percentage literate,88.6,2014
+Nakuru,Male,Percentage literate,95.3,2014
+Narok,Male,Percentage literate,81.1,2014
+Kajiado,Male,Percentage literate,89.3,2014
+Kericho,Male,Percentage literate,97.1,2014
+Bomet,Male,Percentage literate,92.9,2014
+Kakamega,Male,Percentage literate,94.1,2014
+Vihiga,Male,Percentage literate,95.5,2014
+Bungoma,Male,Percentage literate,79.5,2014
+Busia,Male,Percentage literate,81.3,2014
+Siaya,Male,Percentage literate,95.4,2014
+Kisumu,Male,Percentage literate,97.9,2014
+Homa Bay,Male,Percentage literate,88.8,2014
+Migori,Male,Percentage literate,92.9,2014
+Kisii,Male,Percentage literate,96.6,2014
+Nyamira,Male,Percentage literate,99.7,2014
+Nairobi,Male,Percentage literate,98.6,2014
+Mombasa,Female,Higher than secondary schooling,20.7,2022
+Kwale,Female,Higher than secondary schooling,6.8,2022
+Kilifi,Female,Higher than secondary schooling,7.6,2022
+Tana River,Female,Higher than secondary schooling,3,2022
+Lamu,Female,Higher than secondary schooling,7.4,2022
+Taita Taveta,Female,Higher than secondary schooling,11.9,2022
+Garissa,Female,Higher than secondary schooling,6.1,2022
+Wajir,Female,Higher than secondary schooling,2.6,2022
+Mandera,Female,Higher than secondary schooling,1.5,2022
+Marsabit,Female,Higher than secondary schooling,2.9,2022
+Isiolo,Female,Higher than secondary schooling,14.3,2022
+Meru,Female,Higher than secondary schooling,13.5,2022
+Tharaka Nithi,Female,Higher than secondary schooling,18.9,2022
+Embu,Female,Higher than secondary schooling,18.1,2022
+Kitui,Female,Higher than secondary schooling,15.4,2022
+Machakos,Female,Higher than secondary schooling,24.1,2022
+Makueni,Female,Higher than secondary schooling,15.5,2022
+Nyandarua,Female,Higher than secondary schooling,12,2022
+Nyeri,Female,Higher than secondary schooling,27.6,2022
+Kirinyaga,Female,Higher than secondary schooling,17.1,2022
+Muranga,Female,Higher than secondary schooling,14,2022
+Kiambu,Female,Higher than secondary schooling,31.4,2022
+Turkana,Female,Higher than secondary schooling,5.8,2022
+West Pokot,Female,Higher than secondary schooling,9.8,2022
+Samburu,Female,Higher than secondary schooling,8.9,2022
+Trans Nzoia,Female,Higher than secondary schooling,15.8,2022
+Uasin Gishu,Female,Higher than secondary schooling,31.9,2022
+Elgeyo Marakwet,Female,Higher than secondary schooling,19.4,2022
+Nandi,Female,Higher than secondary schooling,19,2022
+Baringo,Female,Higher than secondary schooling,15.8,2022
+Laikipia,Female,Higher than secondary schooling,15.9,2022
+Nakuru,Female,Higher than secondary schooling,20.6,2022
+Narok,Female,Higher than secondary schooling,13.1,2022
+Kajiado,Female,Higher than secondary schooling,28.4,2022
+Kericho,Female,Higher than secondary schooling,19.5,2022
+Bomet,Female,Higher than secondary schooling,11.8,2022
+Kakamega,Female,Higher than secondary schooling,14.3,2022
+Vihiga,Female,Higher than secondary schooling,8.3,2022
+Bungoma,Female,Higher than secondary schooling,16,2022
+Busia,Female,Higher than secondary schooling,8.5,2022
+Siaya,Female,Higher than secondary schooling,8.1,2022
+Kisumu,Female,Higher than secondary schooling,14.6,2022
+Homa Bay,Female,Higher than secondary schooling,11.2,2022
+Migori,Female,Higher than secondary schooling,7,2022
+Kisii,Female,Higher than secondary schooling,14.2,2022
+Nyamira,Female,Higher than secondary schooling,10.3,2022
+Nairobi,Female,Higher than secondary schooling,35,2022
+Mombasa,Male,Higher than secondary schooling,21.6,2022
+Kwale,Male,Higher than secondary schooling,6.6,2022
+Kilifi,Male,Higher than secondary schooling,13,2022
+Tana River,Male,Higher than secondary schooling,4.6,2022
+Lamu,Male,Higher than secondary schooling,12.4,2022
+Taita Taveta,Male,Higher than secondary schooling,12.5,2022
+Garissa,Male,Higher than secondary schooling,16.5,2022
+Wajir,Male,Higher than secondary schooling,10.3,2022
+Mandera,Male,Higher than secondary schooling,6.1,2022
+Marsabit,Male,Higher than secondary schooling,7.1,2022
+Isiolo,Male,Higher than secondary schooling,24,2022
+Meru,Male,Higher than secondary schooling,12.2,2022
+Tharaka Nithi,Male,Higher than secondary schooling,15.5,2022
+Embu,Male,Higher than secondary schooling,19.5,2022
+Kitui,Male,Higher than secondary schooling,16.3,2022
+Machakos,Male,Higher than secondary schooling,20.9,2022
+Makueni,Male,Higher than secondary schooling,12,2022
+Nyandarua,Male,Higher than secondary schooling,12.5,2022
+Nyeri,Male,Higher than secondary schooling,22.5,2022
+Kirinyaga,Male,Higher than secondary schooling,18.8,2022
+Muranga,Male,Higher than secondary schooling,13.3,2022
+Kiambu,Male,Higher than secondary schooling,26.2,2022
+Turkana,Male,Higher than secondary schooling,9.6,2022
+West Pokot,Male,Higher than secondary schooling,10.2,2022
+Samburu,Male,Higher than secondary schooling,19,2022
+Trans Nzoia,Male,Higher than secondary schooling,18.4,2022
+Uasin Gishu,Male,Higher than secondary schooling,32.2,2022
+Elgeyo Marakwet,Male,Higher than secondary schooling,16.7,2022
+Nandi,Male,Higher than secondary schooling,19.6,2022
+Baringo,Male,Higher than secondary schooling,16.8,2022
+Laikipia,Male,Higher than secondary schooling,19.3,2022
+Nakuru,Male,Higher than secondary schooling,17.1,2022
+Narok,Male,Higher than secondary schooling,14.5,2022
+Kajiado,Male,Higher than secondary schooling,27.5,2022
+Kericho,Male,Higher than secondary schooling,19.8,2022
+Bomet,Male,Higher than secondary schooling,15.7,2022
+Kakamega,Male,Higher than secondary schooling,11.5,2022
+Vihiga,Male,Higher than secondary schooling,11.5,2022
+Bungoma,Male,Higher than secondary schooling,18,2022
+Busia,Male,Higher than secondary schooling,12.9,2022
+Siaya,Male,Higher than secondary schooling,11.3,2022
+Kisumu,Male,Higher than secondary schooling,16.1,2022
+Homa Bay,Male,Higher than secondary schooling,17.1,2022
+Migori,Male,Higher than secondary schooling,12.2,2022
+Kisii,Male,Higher than secondary schooling,21.8,2022
+Nyamira,Male,Higher than secondary schooling,16.9,2022
+Nairobi,Male,Higher than secondary schooling,40.4,2022
+Mombasa,Female,Can read a whole sentence,65.3,2022
+Kwale,Female,Can read a whole sentence,55,2022
+Kilifi,Female,Can read a whole sentence,68.7,2022
+Tana River,Female,Can read a whole sentence,39.2,2022
+Lamu,Female,Can read a whole sentence,71.8,2022
+Taita Taveta,Female,Can read a whole sentence,74.1,2022
+Garissa,Female,Can read a whole sentence,25.1,2022
+Wajir,Female,Can read a whole sentence,23.8,2022
+Mandera,Female,Can read a whole sentence,19.1,2022
+Marsabit,Female,Can read a whole sentence,18.6,2022
+Isiolo,Female,Can read a whole sentence,40.8,2022
+Meru,Female,Can read a whole sentence,66.5,2022
+Tharaka Nithi,Female,Can read a whole sentence,69.1,2022
+Embu,Female,Can read a whole sentence,70,2022
+Kitui,Female,Can read a whole sentence,65.8,2022
+Machakos,Female,Can read a whole sentence,69.3,2022
+Makueni,Female,Can read a whole sentence,74.8,2022
+Nyandarua,Female,Can read a whole sentence,78.3,2022
+Nyeri,Female,Can read a whole sentence,67.9,2022
+Kirinyaga,Female,Can read a whole sentence,67.5,2022
+Muranga,Female,Can read a whole sentence,73.8,2022
+Kiambu,Female,Can read a whole sentence,62.7,2022
+Turkana,Female,Can read a whole sentence,22.2,2022
+West Pokot,Female,Can read a whole sentence,33.3,2022
+Samburu,Female,Can read a whole sentence,28.7,2022
+Trans Nzoia,Female,Can read a whole sentence,68,2022
+Uasin Gishu,Female,Can read a whole sentence,60.4,2022
+Elgeyo Marakwet,Female,Can read a whole sentence,54.5,2022
+Nandi,Female,Can read a whole sentence,67.6,2022
+Baringo,Female,Can read a whole sentence,54.5,2022
+Laikipia,Female,Can read a whole sentence,64.7,2022
+Nakuru,Female,Can read a whole sentence,72.2,2022
+Narok,Female,Can read a whole sentence,57.7,2022
+Kajiado,Female,Can read a whole sentence,50.3,2022
+Kericho,Female,Can read a whole sentence,54,2022
+Bomet,Female,Can read a whole sentence,75.2,2022
+Kakamega,Female,Can read a whole sentence,71,2022
+Vihiga,Female,Can read a whole sentence,80.3,2022
+Bungoma,Female,Can read a whole sentence,71.1,2022
+Busia,Female,Can read a whole sentence,60.1,2022
+Siaya,Female,Can read a whole sentence,62.4,2022
+Kisumu,Female,Can read a whole sentence,74.1,2022
+Homa Bay,Female,Can read a whole sentence,78,2022
+Migori,Female,Can read a whole sentence,66.5,2022
+Kisii,Female,Can read a whole sentence,71.3,2022
+Nyamira,Female,Can read a whole sentence,86.6,2022
+Nairobi,Female,Can read a whole sentence,57.1,2022
+Mombasa,Male,Can read a whole sentence,55.9,2022
+Kwale,Male,Can read a whole sentence,72.2,2022
+Kilifi,Male,Can read a whole sentence,78.4,2022
+Tana River,Male,Can read a whole sentence,37.7,2022
+Lamu,Male,Can read a whole sentence,74.9,2022
+Taita Taveta,Male,Can read a whole sentence,80.9,2022
+Garissa,Male,Can read a whole sentence,57.4,2022
+Wajir,Male,Can read a whole sentence,58.4,2022
+Mandera,Male,Can read a whole sentence,39.1,2022
+Marsabit,Male,Can read a whole sentence,56,2022
+Isiolo,Male,Can read a whole sentence,55,2022
+Meru,Male,Can read a whole sentence,69.3,2022
+Tharaka Nithi,Male,Can read a whole sentence,69.8,2022
+Embu,Male,Can read a whole sentence,76.1,2022
+Kitui,Male,Can read a whole sentence,73,2022
+Machakos,Male,Can read a whole sentence,76.9,2022
+Makueni,Male,Can read a whole sentence,76.7,2022
+Nyandarua,Male,Can read a whole sentence,73.7,2022
+Nyeri,Male,Can read a whole sentence,68.3,2022
+Kirinyaga,Male,Can read a whole sentence,57.5,2022
+Muranga,Male,Can read a whole sentence,77.6,2022
+Kiambu,Male,Can read a whole sentence,58.5,2022
+Turkana,Male,Can read a whole sentence,33.8,2022
+West Pokot,Male,Can read a whole sentence,50.5,2022
+Samburu,Male,Can read a whole sentence,51.5,2022
+Trans Nzoia,Male,Can read a whole sentence,60.1,2022
+Uasin Gishu,Male,Can read a whole sentence,60.2,2022
+Elgeyo Marakwet,Male,Can read a whole sentence,64.7,2022
+Nandi,Male,Can read a whole sentence,36.7,2022
+Baringo,Male,Can read a whole sentence,59.8,2022
+Laikipia,Male,Can read a whole sentence,71.7,2022
+Nakuru,Male,Can read a whole sentence,58.5,2022
+Narok,Male,Can read a whole sentence,36.9,2022
+Kajiado,Male,Can read a whole sentence,57.4,2022
+Kericho,Male,Can read a whole sentence,61.7,2022
+Bomet,Male,Can read a whole sentence,73.3,2022
+Kakamega,Male,Can read a whole sentence,79.7,2022
+Vihiga,Male,Can read a whole sentence,64.6,2022
+Bungoma,Male,Can read a whole sentence,66,2022
+Busia,Male,Can read a whole sentence,67,2022
+Siaya,Male,Can read a whole sentence,57.2,2022
+Kisumu,Male,Can read a whole sentence,52.9,2022
+Homa Bay,Male,Can read a whole sentence,72.2,2022
+Migori,Male,Can read a whole sentence,71.2,2022
+Kisii,Male,Can read a whole sentence,57.2,2022
+Nyamira,Male,Can read a whole sentence,60.4,2022
+Nairobi,Male,Can read a whole sentence,50.3,2022
+Mombasa,Female,Can read part of a sentence,4.3,2022
+Kwale,Female,Can read part of a sentence,19.9,2022
+Kilifi,Female,Can read part of a sentence,4.7,2022
+Tana River,Female,Can read part of a sentence,8.3,2022
+Lamu,Female,Can read part of a sentence,4.9,2022
+Taita Taveta,Female,Can read part of a sentence,9.6,2022
+Garissa,Female,Can read part of a sentence,15.3,2022
+Wajir,Female,Can read part of a sentence,8.6,2022
+Mandera,Female,Can read part of a sentence,6.4,2022
+Marsabit,Female,Can read part of a sentence,12.7,2022
+Isiolo,Female,Can read part of a sentence,17.3,2022
+Meru,Female,Can read part of a sentence,6.1,2022
+Tharaka Nithi,Female,Can read part of a sentence,5.2,2022
+Embu,Female,Can read part of a sentence,10.2,2022
+Kitui,Female,Can read part of a sentence,13.6,2022
+Machakos,Female,Can read part of a sentence,5.7,2022
+Makueni,Female,Can read part of a sentence,7.7,2022
+Nyandarua,Female,Can read part of a sentence,7.2,2022
+Nyeri,Female,Can read part of a sentence,2.6,2022
+Kirinyaga,Female,Can read part of a sentence,12.5,2022
+Muranga,Female,Can read part of a sentence,9.8,2022
+Kiambu,Female,Can read part of a sentence,4.1,2022
+Turkana,Female,Can read part of a sentence,7.8,2022
+West Pokot,Female,Can read part of a sentence,22,2022
+Samburu,Female,Can read part of a sentence,7.7,2022
+Trans Nzoia,Female,Can read part of a sentence,8.3,2022
+Uasin Gishu,Female,Can read part of a sentence,3.7,2022
+Elgeyo Marakwet,Female,Can read part of a sentence,22.7,2022
+Nandi,Female,Can read part of a sentence,10.9,2022
+Baringo,Female,Can read part of a sentence,17.3,2022
+Laikipia,Female,Can read part of a sentence,10.9,2022
+Nakuru,Female,Can read part of a sentence,3.9,2022
+Narok,Female,Can read part of a sentence,9.6,2022
+Kajiado,Female,Can read part of a sentence,8.6,2022
+Kericho,Female,Can read part of a sentence,25,2022
+Bomet,Female,Can read part of a sentence,9,2022
+Kakamega,Female,Can read part of a sentence,8.3,2022
+Vihiga,Female,Can read part of a sentence,7.8,2022
+Bungoma,Female,Can read part of a sentence,3.5,2022
+Busia,Female,Can read part of a sentence,17.9,2022
+Siaya,Female,Can read part of a sentence,20.3,2022
+Kisumu,Female,Can read part of a sentence,9.3,2022
+Homa Bay,Female,Can read part of a sentence,4.6,2022
+Migori,Female,Can read part of a sentence,13.1,2022
+Kisii,Female,Can read part of a sentence,11,2022
+Nyamira,Female,Can read part of a sentence,2.1,2022
+Nairobi,Female,Can read part of a sentence,4.8,2022
+Mombasa,Male,Can read part of a sentence,18.3,2022
+Kwale,Male,Can read part of a sentence,6,2022
+Kilifi,Male,Can read part of a sentence,7.5,2022
+Tana River,Male,Can read part of a sentence,25,2022
+Lamu,Male,Can read part of a sentence,6.9,2022
+Taita Taveta,Male,Can read part of a sentence,1.2,2022
+Garissa,Male,Can read part of a sentence,5.3,2022
+Wajir,Male,Can read part of a sentence,9.7,2022
+Mandera,Male,Can read part of a sentence,17.4,2022
+Marsabit,Male,Can read part of a sentence,7.3,2022
+Isiolo,Male,Can read part of a sentence,11.8,2022
+Meru,Male,Can read part of a sentence,4,2022
+Tharaka Nithi,Male,Can read part of a sentence,6.8,2022
+Embu,Male,Can read part of a sentence,4,2022
+Kitui,Male,Can read part of a sentence,10,2022
+Machakos,Male,Can read part of a sentence,1.9,2022
+Makueni,Male,Can read part of a sentence,4.2,2022
+Nyandarua,Male,Can read part of a sentence,6.4,2022
+Nyeri,Male,Can read part of a sentence,6.7,2022
+Kirinyaga,Male,Can read part of a sentence,21.2,2022
+Muranga,Male,Can read part of a sentence,6.2,2022
+Kiambu,Male,Can read part of a sentence,11.6,2022
+Turkana,Male,Can read part of a sentence,13,2022
+West Pokot,Male,Can read part of a sentence,22.3,2022
+Samburu,Male,Can read part of a sentence,2,2022
+Trans Nzoia,Male,Can read part of a sentence,20.5,2022
+Uasin Gishu,Male,Can read part of a sentence,7.2,2022
+Elgeyo Marakwet,Male,Can read part of a sentence,15.8,2022
+Nandi,Male,Can read part of a sentence,37.5,2022
+Baringo,Male,Can read part of a sentence,17.7,2022
+Laikipia,Male,Can read part of a sentence,5,2022
+Nakuru,Male,Can read part of a sentence,19.7,2022
+Narok,Male,Can read part of a sentence,27.6,2022
+Kajiado,Male,Can read part of a sentence,6.4,2022
+Kericho,Male,Can read part of a sentence,17.1,2022
+Bomet,Male,Can read part of a sentence,10.3,2022
+Kakamega,Male,Can read part of a sentence,2.4,2022
+Vihiga,Male,Can read part of a sentence,19.3,2022
+Bungoma,Male,Can read part of a sentence,3.7,2022
+Busia,Male,Can read part of a sentence,3.9,2022
+Siaya,Male,Can read part of a sentence,19.9,2022
+Kisumu,Male,Can read part of a sentence,30.4,2022
+Homa Bay,Male,Can read part of a sentence,6,2022
+Migori,Male,Can read part of a sentence,5.6,2022
+Kisii,Male,Can read part of a sentence,19.4,2022
+Nyamira,Male,Can read part of a sentence,18.3,2022
+Nairobi,Male,Can read part of a sentence,7.9,2022
+Mombasa,Female,Cannot read at all,9.8,2022
+Kwale,Female,Cannot read at all,18,2022
+Kilifi,Female,Cannot read at all,19,2022
+Tana River,Female,Cannot read at all,49.4,2022
+Lamu,Female,Cannot read at all,15.9,2022
+Taita Taveta,Female,Cannot read at all,4.5,2022
+Garissa,Female,Cannot read at all,53.5,2022
+Wajir,Female,Cannot read at all,65.1,2022
+Mandera,Female,Cannot read at all,73.1,2022
+Marsabit,Female,Cannot read at all,65.8,2022
+Isiolo,Female,Cannot read at all,27.6,2022
+Meru,Female,Cannot read at all,13.3,2022
+Tharaka Nithi,Female,Cannot read at all,6.7,2022
+Embu,Female,Cannot read at all,1.7,2022
+Kitui,Female,Cannot read at all,5.2,2022
+Machakos,Female,Cannot read at all,0.9,2022
+Makueni,Female,Cannot read at all,1.9,2022
+Nyandarua,Female,Cannot read at all,2.5,2022
+Nyeri,Female,Cannot read at all,1,2022
+Kirinyaga,Female,Cannot read at all,2.8,2022
+Muranga,Female,Cannot read at all,2.4,2022
+Kiambu,Female,Cannot read at all,1.8,2022
+Turkana,Female,Cannot read at all,64.2,2022
+West Pokot,Female,Cannot read at all,34.8,2022
+Samburu,Female,Cannot read at all,54.5,2022
+Trans Nzoia,Female,Cannot read at all,7.7,2022
+Uasin Gishu,Female,Cannot read at all,3.8,2022
+Elgeyo Marakwet,Female,Cannot read at all,3.4,2022
+Nandi,Female,Cannot read at all,2.3,2022
+Baringo,Female,Cannot read at all,12.2,2022
+Laikipia,Female,Cannot read at all,8.5,2022
+Nakuru,Female,Cannot read at all,3.1,2022
+Narok,Female,Cannot read at all,19.5,2022
+Kajiado,Female,Cannot read at all,12.6,2022
+Kericho,Female,Cannot read at all,1.4,2022
+Bomet,Female,Cannot read at all,4.1,2022
+Kakamega,Female,Cannot read at all,5.8,2022
+Vihiga,Female,Cannot read at all,3.4,2022
+Bungoma,Female,Cannot read at all,8.8,2022
+Busia,Female,Cannot read at all,13.2,2022
+Siaya,Female,Cannot read at all,9.2,2022
+Kisumu,Female,Cannot read at all,2,2022
+Homa Bay,Female,Cannot read at all,6.2,2022
+Migori,Female,Cannot read at all,13.4,2022
+Kisii,Female,Cannot read at all,3.5,2022
+Nyamira,Female,Cannot read at all,1,2022
+Nairobi,Female,Cannot read at all,3,2022
+Mombasa,Male,Cannot read at all,4.2,2022
+Kwale,Male,Cannot read at all,15.1,2022
+Kilifi,Male,Cannot read at all,1.1,2022
+Tana River,Male,Cannot read at all,32.6,2022
+Lamu,Male,Cannot read at all,5.8,2022
+Taita Taveta,Male,Cannot read at all,5.4,2022
+Garissa,Male,Cannot read at all,20.7,2022
+Wajir,Male,Cannot read at all,21.6,2022
+Mandera,Male,Cannot read at all,37.4,2022
+Marsabit,Male,Cannot read at all,29.6,2022
+Isiolo,Male,Cannot read at all,9.2,2022
+Meru,Male,Cannot read at all,14,2022
+Tharaka Nithi,Male,Cannot read at all,7.1,2022
+Embu,Male,Cannot read at all,0.5,2022
+Kitui,Male,Cannot read at all,0.7,2022
+Machakos,Male,Cannot read at all,0.3,2022
+Makueni,Male,Cannot read at all,7.1,2022
+Nyandarua,Male,Cannot read at all,7.2,2022
+Nyeri,Male,Cannot read at all,1.9,2022
+Kirinyaga,Male,Cannot read at all,2.6,2022
+Muranga,Male,Cannot read at all,2.9,2022
+Kiambu,Male,Cannot read at all,3.6,2022
+Turkana,Male,Cannot read at all,43.6,2022
+West Pokot,Male,Cannot read at all,17,2022
+Samburu,Male,Cannot read at all,26.9,2022
+Trans Nzoia,Male,Cannot read at all,1,2022
+Uasin Gishu,Male,Cannot read at all,0.4,2022
+Elgeyo Marakwet,Male,Cannot read at all,2.9,2022
+Nandi,Male,Cannot read at all,6.2,2022
+Baringo,Male,Cannot read at all,5.7,2022
+Laikipia,Male,Cannot read at all,4,2022
+Nakuru,Male,Cannot read at all,4.8,2022
+Narok,Male,Cannot read at all,21,2022
+Kajiado,Male,Cannot read at all,8.8,2022
+Kericho,Male,Cannot read at all,1.4,2022
+Bomet,Male,Cannot read at all,0.7,2022
+Kakamega,Male,Cannot read at all,6.4,2022
+Vihiga,Male,Cannot read at all,4.6,2022
+Bungoma,Male,Cannot read at all,11.9,2022
+Busia,Male,Cannot read at all,15.8,2022
+Siaya,Male,Cannot read at all,11.6,2022
+Kisumu,Male,Cannot read at all,0.6,2022
+Homa Bay,Male,Cannot read at all,4.7,2022
+Migori,Male,Cannot read at all,10.9,2022
+Kisii,Male,Cannot read at all,1.6,2022
+Nyamira,Male,Cannot read at all,4.4,2022
+Nairobi,Male,Cannot read at all,1.4,2022
+Mombasa,Female,Blind/visually impaired,0,2022
+Kwale,Female,Blind/visually impaired,0.1,2022
+Kilifi,Female,Blind/visually impaired,0,2022
+Tana River,Female,Blind/visually impaired,0,2022
+Lamu,Female,Blind/visually impaired,0,2022
+Taita Taveta,Female,Blind/visually impaired,0,2022
+Garissa,Female,Blind/visually impaired,0,2022
+Wajir,Female,Blind/visually impaired,0,2022
+Mandera,Female,Blind/visually impaired,0,2022
+Marsabit,Female,Blind/visually impaired,0,2022
+Isiolo,Female,Blind/visually impaired,0,2022
+Meru,Female,Blind/visually impaired,0.5,2022
+Tharaka Nithi,Female,Blind/visually impaired,0,2022
+Embu,Female,Blind/visually impaired,0,2022
+Kitui,Female,Blind/visually impaired,0,2022
+Machakos,Female,Blind/visually impaired,0,2022
+Makueni,Female,Blind/visually impaired,0,2022
+Nyandarua,Female,Blind/visually impaired,0,2022
+Nyeri,Female,Blind/visually impaired,0.8,2022
+Kirinyaga,Female,Blind/visually impaired,0.1,2022
+Muranga,Female,Blind/visually impaired,0,2022
+Kiambu,Female,Blind/visually impaired,0,2022
+Turkana,Female,Blind/visually impaired,0,2022
+West Pokot,Female,Blind/visually impaired,0,2022
+Samburu,Female,Blind/visually impaired,0.1,2022
+Trans Nzoia,Female,Blind/visually impaired,0.2,2022
+Uasin Gishu,Female,Blind/visually impaired,0,2022
+Elgeyo Marakwet,Female,Blind/visually impaired,0,2022
+Nandi,Female,Blind/visually impaired,0.2,2022
+Baringo,Female,Blind/visually impaired,0,2022
+Laikipia,Female,Blind/visually impaired,0,2022
+Nakuru,Female,Blind/visually impaired,0.2,2022
+Narok,Female,Blind/visually impaired,0,2022
+Kajiado,Female,Blind/visually impaired,0.1,2022
+Kericho,Female,Blind/visually impaired,0,2022
+Bomet,Female,Blind/visually impaired,0,2022
+Kakamega,Female,Blind/visually impaired,0.5,2022
+Vihiga,Female,Blind/visually impaired,0.1,2022
+Bungoma,Female,Blind/visually impaired,0.7,2022
+Busia,Female,Blind/visually impaired,0.3,2022
+Siaya,Female,Blind/visually impaired,0,2022
+Kisumu,Female,Blind/visually impaired,0,2022
+Homa Bay,Female,Blind/visually impaired,0,2022
+Migori,Female,Blind/visually impaired,0,2022
+Kisii,Female,Blind/visually impaired,0,2022
+Nyamira,Female,Blind/visually impaired,0,2022
+Nairobi,Female,Blind/visually impaired,0.1,2022
+Mombasa,Male,Blind/visually impaired,0,2022
+Kwale,Male,Blind/visually impaired,0,2022
+Kilifi,Male,Blind/visually impaired,0,2022
+Tana River,Male,Blind/visually impaired,0,2022
+Lamu,Male,Blind/visually impaired,0,2022
+Taita Taveta,Male,Blind/visually impaired,0,2022
+Garissa,Male,Blind/visually impaired,0,2022
+Wajir,Male,Blind/visually impaired,0,2022
+Mandera,Male,Blind/visually impaired,0,2022
+Marsabit,Male,Blind/visually impaired,0,2022
+Isiolo,Male,Blind/visually impaired,0,2022
+Meru,Male,Blind/visually impaired,0.5,2022
+Tharaka Nithi,Male,Blind/visually impaired,0.9,2022
+Embu,Male,Blind/visually impaired,0,2022
+Kitui,Male,Blind/visually impaired,0,2022
+Machakos,Male,Blind/visually impaired,0,2022
+Makueni,Male,Blind/visually impaired,0,2022
+Nyandarua,Male,Blind/visually impaired,0,2022
+Nyeri,Male,Blind/visually impaired,0,2022
+Kirinyaga,Male,Blind/visually impaired,0,2022
+Muranga,Male,Blind/visually impaired,0,2022
+Kiambu,Male,Blind/visually impaired,0,2022
+Turkana,Male,Blind/visually impaired,0,2022
+West Pokot,Male,Blind/visually impaired,0,2022
+Samburu,Male,Blind/visually impaired,0.7,2022
+Trans Nzoia,Male,Blind/visually impaired,0,2022
+Uasin Gishu,Male,Blind/visually impaired,0,2022
+Elgeyo Marakwet,Male,Blind/visually impaired,0,2022
+Nandi,Male,Blind/visually impaired,0,2022
+Baringo,Male,Blind/visually impaired,0,2022
+Laikipia,Male,Blind/visually impaired,0,2022
+Nakuru,Male,Blind/visually impaired,0,2022
+Narok,Male,Blind/visually impaired,0,2022
+Kajiado,Male,Blind/visually impaired,0,2022
+Kericho,Male,Blind/visually impaired,0,2022
+Bomet,Male,Blind/visually impaired,0,2022
+Kakamega,Male,Blind/visually impaired,0,2022
+Vihiga,Male,Blind/visually impaired,0,2022
+Bungoma,Male,Blind/visually impaired,0.3,2022
+Busia,Male,Blind/visually impaired,0,2022
+Siaya,Male,Blind/visually impaired,0,2022
+Kisumu,Male,Blind/visually impaired,0,2022
+Homa Bay,Male,Blind/visually impaired,0,2022
+Migori,Male,Blind/visually impaired,0,2022
+Kisii,Male,Blind/visually impaired,0,2022
+Nyamira,Male,Blind/visually impaired,0,2022
+Nairobi,Male,Blind/visually impaired,0,2022
+Mombasa,Female,Percentage literate,90.2,2022
+Kwale,Female,Percentage literate,81.7,2022
+Kilifi,Female,Percentage literate,81,2022
+Tana River,Female,Percentage literate,50.6,2022
+Lamu,Female,Percentage literate,84.1,2022
+Taita Taveta,Female,Percentage literate,95.5,2022
+Garissa,Female,Percentage literate,46.5,2022
+Wajir,Female,Percentage literate,34.9,2022
+Mandera,Female,Percentage literate,26.9,2022
+Marsabit,Female,Percentage literate,34.2,2022
+Isiolo,Female,Percentage literate,72.4,2022
+Meru,Female,Percentage literate,86.2,2022
+Tharaka Nithi,Female,Percentage literate,93.3,2022
+Embu,Female,Percentage literate,98.3,2022
+Kitui,Female,Percentage literate,94.8,2022
+Machakos,Female,Percentage literate,99.1,2022
+Makueni,Female,Percentage literate,98.1,2022
+Nyandarua,Female,Percentage literate,97.5,2022
+Nyeri,Female,Percentage literate,98.2,2022
+Kirinyaga,Female,Percentage literate,97.1,2022
+Muranga,Female,Percentage literate,97.6,2022
+Kiambu,Female,Percentage literate,98.2,2022
+Turkana,Female,Percentage literate,35.8,2022
+West Pokot,Female,Percentage literate,65.2,2022
+Samburu,Female,Percentage literate,45.3,2022
+Trans Nzoia,Female,Percentage literate,92.1,2022
+Uasin Gishu,Female,Percentage literate,95.9,2022
+Elgeyo Marakwet,Female,Percentage literate,96.6,2022
+Nandi,Female,Percentage literate,97.5,2022
+Baringo,Female,Percentage literate,87.6,2022
+Laikipia,Female,Percentage literate,91.5,2022
+Nakuru,Female,Percentage literate,96.8,2022
+Narok,Female,Percentage literate,80.5,2022
+Kajiado,Female,Percentage literate,87.2,2022
+Kericho,Female,Percentage literate,98.6,2022
+Bomet,Female,Percentage literate,95.9,2022
+Kakamega,Female,Percentage literate,93.6,2022
+Vihiga,Female,Percentage literate,96.4,2022
+Bungoma,Female,Percentage literate,90.6,2022
+Busia,Female,Percentage literate,86.5,2022
+Siaya,Female,Percentage literate,90.8,2022
+Kisumu,Female,Percentage literate,98,2022
+Homa Bay,Female,Percentage literate,93.8,2022
+Migori,Female,Percentage literate,86.6,2022
+Kisii,Female,Percentage literate,96.5,2022
+Nyamira,Female,Percentage literate,99,2022
+Nairobi,Female,Percentage literate,96.9,2022
+Mombasa,Male,Percentage literate,95.8,2022
+Kwale,Male,Percentage literate,84.9,2022
+Kilifi,Male,Percentage literate,98.9,2022
+Tana River,Male,Percentage literate,67.4,2022
+Lamu,Male,Percentage literate,94.2,2022
+Taita Taveta,Male,Percentage literate,94.6,2022
+Garissa,Male,Percentage literate,79.3,2022
+Wajir,Male,Percentage literate,78.4,2022
+Mandera,Male,Percentage literate,62.6,2022
+Marsabit,Male,Percentage literate,70.4,2022
+Isiolo,Male,Percentage literate,90.8,2022
+Meru,Male,Percentage literate,85.5,2022
+Tharaka Nithi,Male,Percentage literate,92.1,2022
+Embu,Male,Percentage literate,99.5,2022
+Kitui,Male,Percentage literate,99.3,2022
+Machakos,Male,Percentage literate,99.7,2022
+Makueni,Male,Percentage literate,92.9,2022
+Nyandarua,Male,Percentage literate,92.6,2022
+Nyeri,Male,Percentage literate,97.4,2022
+Kirinyaga,Male,Percentage literate,97.4,2022
+Muranga,Male,Percentage literate,97.1,2022
+Kiambu,Male,Percentage literate,96.4,2022
+Turkana,Male,Percentage literate,56.4,2022
+West Pokot,Male,Percentage literate,83,2022
+Samburu,Male,Percentage literate,72.5,2022
+Trans Nzoia,Male,Percentage literate,99,2022
+Uasin Gishu,Male,Percentage literate,99.6,2022
+Elgeyo Marakwet,Male,Percentage literate,97.1,2022
+Nandi,Male,Percentage literate,93.8,2022
+Baringo,Male,Percentage literate,94.3,2022
+Laikipia,Male,Percentage literate,96,2022
+Nakuru,Male,Percentage literate,95.2,2022
+Narok,Male,Percentage literate,79,2022
+Kajiado,Male,Percentage literate,91.2,2022
+Kericho,Male,Percentage literate,98.6,2022
+Bomet,Male,Percentage literate,99.3,2022
+Kakamega,Male,Percentage literate,93.6,2022
+Vihiga,Male,Percentage literate,95.4,2022
+Bungoma,Male,Percentage literate,87.7,2022
+Busia,Male,Percentage literate,83.8,2022
+Siaya,Male,Percentage literate,88.4,2022
+Kisumu,Male,Percentage literate,99.4,2022
+Homa Bay,Male,Percentage literate,95.3,2022
+Migori,Male,Percentage literate,89.1,2022
+Kisii,Male,Percentage literate,98.4,2022
+Nyamira,Male,Percentage literate,95.6,2022
+Nairobi,Male,Percentage literate,98.6,2022

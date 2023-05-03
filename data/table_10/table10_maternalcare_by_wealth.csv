@@ -1,0 +1,36 @@
+Wealth quintile,category,proportion
+Lowest,ANC from skilled provider,95.1
+Lowest,At least 4 ANC visits,53.9
+Lowest,Took iron supplements,86.2
+Lowest,Protected against neonatal tetanus,68.4
+Lowest,Delivered by skilled provider,69.3
+Lowest,Delivered in health facility,62.6
+Lowest,PNC 2 days after birth,58.9
+Second,ANC from skilled provider,97.8
+Second,At least 4 ANC visits,59.5
+Second,Took iron supplements,89.1
+Second,Protected against neonatal tetanus,73.3
+Second,Delivered by skilled provider,89.0
+Second,Delivered in health facility,81.9
+Second,PNC 2 days after birth,72.2
+Middle,ANC from skilled provider,98.3
+Middle,At least 4 ANC visits,65.3
+Middle,Took iron supplements,89.8
+Middle,Protected against neonatal tetanus,74.8
+Middle,Delivered by skilled provider,94.0
+Middle,Delivered in health facility,87.0
+Middle,PNC 2 days after birth,73.8
+Fourth,ANC from skilled provider,98.8
+Fourth,At least 4 ANC visits,69.6
+Fourth,Took iron supplements,92.0
+Fourth,Protected against neonatal tetanus,77.8
+Fourth,Delivered by skilled provider,97.8
+Fourth,Delivered in health facility,91.0
+Fourth,PNC 2 days after birth,76.0
+Highest,ANC from skilled provider,99.7
+Highest,At least 4 ANC visits,82.0
+Highest,Took iron supplements,93.8
+Highest,Protected against neonatal tetanus,81.2
+Highest,Delivered by skilled provider,98.8
+Highest,Delivered in health facility,91.3
+Highest,PNC 2 days after birth,82.8

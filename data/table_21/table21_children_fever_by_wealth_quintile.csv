@@ -1,0 +1,21 @@
+Wealth quintile,Category,Proportion
+Lowest,Had a fever,17.0
+Lowest,Treatment was sought,64.2
+Lowest,Had blood taken for testing,33.5
+Lowest,Received any ACT,83.6
+Second,Had a fever,17.6
+Second,Treatment was sought,69.5
+Second,Had blood taken for testing,36.1
+Second,Received any ACT,91.2
+Middle,Had a fever,17.2
+Middle,Treatment was sought,74.2
+Middle,Had blood taken for testing,33.9
+Middle,Received any ACT,84.1
+Fourth,Had a fever,18.7
+Fourth,Treatment was sought,70.2
+Fourth,Had blood taken for testing,29.9
+Fourth,Received any ACT,78.9
+Highest,Had a fever,15.3
+Highest,Treatment was sought,70.4
+Highest,Had blood taken for testing,34.2
+Highest,Received any ACT,70.6

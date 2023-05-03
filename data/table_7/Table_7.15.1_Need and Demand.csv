@@ -1,0 +1,37 @@
+characteristic,For_spacing,For_limiting,need,variable
+15-19,21.1,0.5,unmet_need,age
+20-24,15.0,1.6,unmet_need,age
+25-29,9.2,2.6,unmet_need,age
+30-34,6.7,6.3,unmet_need,age
+35-39,5.1,9.1,unmet_need,age
+40-44,2.5,11.5,unmet_need,age
+45-49,1.6,11.6,unmet_need,age
+15-19,40.8,3.1,met_need,age
+20-24,48.5,9.2,met_need,age
+25-29,47.1,17.9,met_need,age
+30-34,34.4,31.2,met_need,age
+35-39,19.7,47.3,met_need,age
+40-44,7.6,56.1,met_need,age
+45-49,2.1,47.7,met_need,age
+Urban,6.8,4.8,unmet_need,residence
+Rural,7.9,7.3,unmet_need,residence
+Urban,35.4,27.1,met_need,residence
+Rural,26.8,35.1,met_need,residence
+No education,13.5,9.2,unmet_need,education
+Primary,6.9,8.2,unmet_need,education
+Secondary,7.6,5.0,unmet_need,education
+More than secondary,6.2,3.5,unmet_need,education
+No education,11.8,10.8,met_need,education
+Primary,23.4,40.8,met_need,education
+Secondary,37.4,28.5,met_need,education
+More than secondary,40.1,27.3,met_need,education
+Lowest,12.1,9.4,unmet_need,wealth
+Second,7.9,6.5,unmet_need,wealth
+Middle,7.4,6.4,unmet_need,wealth
+Fourth,6.6,5.4,unmet_need,wealth
+Highest,5.2,4.9,unmet_need,wealth
+Lowest,22.9,23.0,met_need,wealth
+Second,28.1,38.5,met_need,wealth
+Middle,27.3,37.6,met_need,wealth
+Fourth,34.0,31.1,met_need,wealth
+Highest,35.1,30.1,met_need,wealth

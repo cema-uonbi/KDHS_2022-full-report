@@ -1,0 +1,16 @@
+Wealth quintile,sought_treatment,condition
+Lowest,78.5,ARI
+Second,73.0,ARI
+Middle,82.6,ARI
+Fourth,88.6,ARI
+Highest,96.3,ARI
+Lowest,64.2,Fever
+Second,69.5,Fever
+Middle,74.2,Fever
+Fourth,70.2,Fever
+Highest,70.4,Fever
+Lowest,59.7,Diarrhea
+Second,53.1,Diarrhea
+Middle,53.6,Diarrhea
+Fourth,55.1,Diarrhea
+Highest,61.1,Diarrhea

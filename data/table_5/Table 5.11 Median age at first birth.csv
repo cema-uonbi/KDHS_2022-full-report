@@ -1,0 +1,23 @@
+Variable,characteristic,category,proportion
+Urban,Residence,Women aged 20-49,NA
+Urban,Residence,Women aged 25-49,22
+Rural,Residence,Women aged 20-49,NA
+Rural,Residence,Women aged 25-49,19.9
+No education,Education,Women aged 20-49,19.1
+No education,Education,Women aged 25-49,19
+Primary,Education,Women aged 20-49,18.9
+Primary,Education,Women aged 25-49,19
+Secondary,Education,Women aged 20-49,NA
+Secondary,Education,Women aged 25-49,21.3
+More than secondary,Education,Women aged 20-49,NA
+More than secondary,Education,Women aged 25-49,24.8
+Lowest,Wealth quintile,Women aged 20-49,19.2
+Lowest,Wealth quintile,Women aged 25-49,19.1
+Second,Wealth quintile,Women aged 20-49,19.5
+Second,Wealth quintile,Women aged 25-49,19.3
+Middle,Wealth quintile,Women aged 20-49,NA
+Middle,Wealth quintile,Women aged 25-49,20.1
+Fourth,Wealth quintile,Women aged 20-49,NA
+Fourth,Wealth quintile,Women aged 25-49,21.3
+Highest,Wealth quintile,Women aged 20-49,NA
+Highest,Wealth quintile,Women aged 25-49,23

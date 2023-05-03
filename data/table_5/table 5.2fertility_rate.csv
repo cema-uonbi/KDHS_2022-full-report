@@ -1,0 +1,34 @@
+category,Variable,proportion,characteristic
+No education,TFR,6.3,Education
+No education,women.aged.15_25.pregnant,9.4,Education
+No education,mean.number.children.born.women.age.40_49,6.5,Education
+Primary,TFR,3.9,Education
+Primary,women.aged.15_25.pregnant,5.2,Education
+Primary,mean.number.children.born.women.age.40_49,4.9,Education
+Secondary,TFR,3.1,Education
+Secondary,women.aged.15_25.pregnant,5.4,Education
+Secondary,mean.number.children.born.women.age.40_49,3.6,Education
+More than secondary,TFR,2.8,Education
+More than secondary,women.aged.15_25.pregnant,5.1,Education
+More than secondary,mean.number.children.born.women.age.40_49,2.8,Education
+Urban,TFR,2.8,Residence
+Urban,women.aged.15_25.pregnant,5.8,Residence
+Urban,mean.number.children.born.women.age.40_49,3.4,Residence
+Rural,TFR,3.9,Residence
+Rural,women.aged.15_25.pregnant,5.3,Residence
+Rural,mean.number.children.born.women.age.40_49,4.8,Residence
+Lowest,TFR,5.3,Wealth quintile
+Lowest,women.aged.15_25.pregnant,7.1,Wealth quintile
+Lowest,mean.number.children.born.women.age.40_49,6.2,Wealth quintile
+Second,TFR,3.8,Wealth quintile
+Second,women.aged.15_25.pregnant,4.9,Wealth quintile
+Second,mean.number.children.born.women.age.40_49,5.2,Wealth quintile
+Middle,TFR,3.4,Wealth quintile
+Middle,women.aged.15_25.pregnant,5,Wealth quintile
+Middle,mean.number.children.born.women.age.40_49,4.4,Wealth quintile
+Fourth,TFR,3,Wealth quintile
+Fourth,women.aged.15_25.pregnant,5.4,Wealth quintile
+Fourth,mean.number.children.born.women.age.40_49,3.6,Wealth quintile
+Highest,TFR,2.7,Wealth quintile
+Highest,women.aged.15_25.pregnant,5.3,Wealth quintile
+Highest,mean.number.children.born.women.age.40_49,3.1,Wealth quintile

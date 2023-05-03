@@ -1,0 +1,29 @@
+Value,Category,Proportion,Participants,Background characteristics
+Urban,Tested,38.2,Households,Residence
+Urban,Vaccinated,63.1,Households,Residence
+Rural,Tested,19.2,Households,Residence
+Rural,Vaccinated,62.8,Households,Residence
+Urban,Tested,21.1,Population,Residence
+Urban,Vaccinated,35.8,Population,Residence
+Rural,Tested,8.1,Population,Residence
+Rural,Vaccinated,28.7,Population,Residence
+Lowest,Tested,11.1,Households,Wealth quintile
+Lowest,Vaccinated,43.9,Households,Wealth quintile
+Second,Tested,17.1,Households,Wealth quintile
+Second,Vaccinated,61.1,Households,Wealth quintile
+Middle,Tested,22.6,Households,Wealth quintile
+Middle,Vaccinated,65.7,Households,Wealth quintile
+Fourth,Tested,30,Households,Wealth quintile
+Fourth,Vaccinated,64.2,Households,Wealth quintile
+Highest,Tested,46,Households,Wealth quintile
+Highest,Vaccinated,74.4,Households,Wealth quintile
+Lowest,Tested,4.4,Population,Wealth quintile
+Lowest,Vaccinated,16.6,Population,Wealth quintile
+Second,Tested,7.1,Population,Wealth quintile
+Second,Vaccinated,26.9,Population,Wealth quintile
+Middle,Tested,10.1,Population,Wealth quintile
+Middle,Vaccinated,32.7,Population,Wealth quintile
+Fourth,Tested,15.1,Population,Wealth quintile
+Fourth,Vaccinated,36.1,Population,Wealth quintile
+Highest,Tested,25.7,Population,Wealth quintile
+Highest,Vaccinated,43.3,Population,Wealth quintile

@@ -1,0 +1,20 @@
+characteristics,proportion,lab,indicator
+24–35,82.8,83%,Age
+36–47,77.4,77%,Age
+48–59,73.8,74%,Age
+Male,76.3,76%,Sex
+Female,79.7,80%,Sex
+Urban,87.4,87%,Residence
+Rural,72.7,73%,Residence
+Attending,85.1,85%,Early childhood education attendance
+Not attending,71,71%,Early childhood education attendance
+Information not available,81.6,82%,Early childhood education attendance
+No education,51.4,51%,Mother's education
+Primary,75.7,76%,Mother's education
+Secondary,84.7,85%,Mother's education
+More than secondary,91,91%,Mother's education
+Lowest,61,61%,Wealth quintile
+Second,74.2,74%,Wealth quintile
+Middle,79.8,80%,Wealth quintile
+Fourth,84,84%,Wealth quintile
+Highest,92.8,93%,Wealth quintile

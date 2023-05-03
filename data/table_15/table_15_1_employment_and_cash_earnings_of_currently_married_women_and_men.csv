@@ -1,0 +1,71 @@
+Age,Gender,variable,value
+15-19,Female,% employed (last 12 months),31.7
+20-24,Female,% employed (last 12 months),51.9
+25-29,Female,% employed (last 12 months),64.9
+30-34,Female,% employed (last 12 months),68.9
+35-39,Female,% employed (last 12 months),74.7
+40-44,Female,% employed (last 12 months),77.1
+45-49,Female,% employed (last 12 months),74.2
+15-19,Male,% employed (last 12 months),NA
+20-24,Male,% employed (last 12 months),94.9
+25-29,Male,% employed (last 12 months),98.3
+30-34,Male,% employed (last 12 months),98.4
+35-39,Male,% employed (last 12 months),97.6
+40-44,Male,% employed (last 12 months),97.9
+45-49,Male,% employed (last 12 months),97.7
+15-19,Female,Cash only,72.4
+20-24,Female,Cash only,80
+25-29,Female,Cash only,80.3
+30-34,Female,Cash only,78.2
+35-39,Female,Cash only,76.3
+40-44,Female,Cash only,71.4
+45-49,Female,Cash only,69.9
+15-19,Male,Cash only,NA
+20-24,Male,Cash only,93.9
+25-29,Male,Cash only,94.5
+30-34,Male,Cash only,94.2
+35-39,Male,Cash only,92.6
+40-44,Male,Cash only,92.1
+45-49,Male,Cash only,92.5
+15-19,Female,Cash and in-kind,4
+20-24,Female,Cash and in-kind,3.3
+25-29,Female,Cash and in-kind,2.9
+30-34,Female,Cash and in-kind,3.6
+35-39,Female,Cash and in-kind,4.1
+40-44,Female,Cash and in-kind,5.9
+45-49,Female,Cash and in-kind,6.6
+15-19,Male,Cash and in-kind,NA
+20-24,Male,Cash and in-kind,2.9
+25-29,Male,Cash and in-kind,2.4
+30-34,Male,Cash and in-kind,2.3
+35-39,Male,Cash and in-kind,3
+40-44,Male,Cash and in-kind,3.6
+45-49,Male,Cash and in-kind,2.9
+15-19,Female,In-kind only,0
+20-24,Female,In-kind only,0.4
+25-29,Female,In-kind only,0.3
+30-34,Female,In-kind only,0.3
+35-39,Female,In-kind only,0.8
+40-44,Female,In-kind only,1.2
+45-49,Female,In-kind only,0.5
+15-19,Male,In-kind only,NA
+20-24,Male,In-kind only,0.2
+25-29,Male,In-kind only,0
+30-34,Male,In-kind only,0
+35-39,Male,In-kind only,0.1
+40-44,Male,In-kind only,0.3
+45-49,Male,In-kind only,0.2
+15-19,Female,Not paid,23.6
+20-24,Female,Not paid,16.4
+25-29,Female,Not paid,16.4
+30-34,Female,Not paid,17.9
+35-39,Female,Not paid,18.9
+40-44,Female,Not paid,21.5
+45-49,Female,Not paid,23.1
+15-19,Male,Not paid,NA
+20-24,Male,Not paid,3
+25-29,Male,Not paid,3
+30-34,Male,Not paid,3.5
+35-39,Male,Not paid,4.3
+40-44,Male,Not paid,3.9
+45-49,Male,Not paid,4.4

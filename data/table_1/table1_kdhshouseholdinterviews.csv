@@ -1,0 +1,23 @@
+Respondents,selection,residence,numbers,Gender,Participant
+Selected,All households,Rural,"25,411",All,All
+Occupied,All households,Rural,"23,861",All,All
+Interviewed,All households,Rural,"23,581",All,All
+Selected,All households,Urban,"16,611",All,All
+Occupied,All households,Urban,"14,870",All,All
+Interviewed,All households,Urban,"14,330",All,All
+Selected,Full questionnaire,Rural,"13,312",All,All
+Occupied,Full questionnaire,Rural,"12,469",All,All
+Interviewed,Full questionnaire,Rural,"12,318",All,All
+Household response rate1,Full questionnaire,Rural,98.8,All,All
+Selected,Full questionnaire,Urban,"8,657",All,All
+Occupied,Full questionnaire,Urban,"7,725",All,All
+Interviewed,Full questionnaire,Urban,"7,429",All,All
+Household response rate1,Full questionnaire,Urban,96.2,All,All
+Selected,Short questionanaire,Rural,"12,099",All,All
+Occupied,Short questionanaire,Rural,"11,392",All,All
+Interviewed,Short questionanaire,Rural,"11,263",All,All
+Household response rate1,Short questionanaire,Rural,98.9,All,All
+Selected,Short questionanaire,Urban,"7,954",All,All
+Occupied,Short questionanaire,Urban,"7,145",All,All
+Interviewed,Short questionanaire,Urban,"6,901",All,All
+Household response rate1,Short questionanaire,Urban,96.6,All,All

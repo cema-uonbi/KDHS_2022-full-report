@@ -1,0 +1,29 @@
+Mother's education,category,proportion
+No education,ANC from skilled provider,90.2
+No education,At least 4 ANC visits,49.1
+No education,Took iron supplements,79.0
+No education,Protected against neonatal tetanus,66.1
+No education,Delivered by skilled provider,54.6
+No education,Delivered in health facility,47.9
+No education,PNC 2 days after birth,50.2
+Primary,ANC from skilled provider,97.7
+Primary,At least 4 ANC visits,59.6
+Primary,Took iron supplements,88.7
+Primary,Protected against neonatal tetanus,71.8
+Primary,Delivered by skilled provider,87.2
+Primary,Delivered in health facility,81.0
+Primary,PNC 2 days after birth,70.7
+Secondary,ANC from skilled provider,99.1
+Secondary,At least 4 ANC visits,67.8
+Secondary,Took iron supplements,92.5
+Secondary,Protected against neonatal tetanus,77.0
+Secondary,Delivered by skilled provider,95.2
+Secondary,Delivered in health facility,89.5
+Secondary,PNC 2 days after birth,77.0
+More than secondary,ANC from skilled provider,99.6
+More than secondary,At least 4 ANC visits,83.2
+More than secondary,Took iron supplements,93.6
+More than secondary,Protected against neonatal tetanus,81.4
+More than secondary,Delivered by skilled provider,99.1
+More than secondary,Delivered in health facility,88.1
+More than secondary,PNC 2 days after birth,78.5

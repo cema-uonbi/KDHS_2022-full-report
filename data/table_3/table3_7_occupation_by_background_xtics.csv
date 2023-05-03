@@ -1,0 +1,460 @@
+Value,Category,Proportion,Participants,Background characteristics
+15-19,"Legislators, Administrators & Managers",5.5,Women,Age
+15-19,Professionals,2.7,Women,Age
+15-19,Technicians & Associate Professionals,1.4,Women,Age
+15-19,Secretarial & Clerical Services,0.6,Women,Age
+15-19,Service Workers,17.4,Women,Age
+15-19,Skilled Farm & Wildlife Related Workers,36.4,Women,Age
+15-19,Craft & Related Trades Workers,1.1,Women,Age
+15-19,Plant & Machine Operators,0.4,Women,Age
+15-19,Elementary Occupations,33.1,Women,Age
+20-24,"Legislators, Administrators & Managers",8.7,Women,Age
+20-24,Professionals,5,Women,Age
+20-24,Technicians & Associate Professionals,6.1,Women,Age
+20-24,Secretarial & Clerical Services,3.8,Women,Age
+20-24,Service Workers,26.4,Women,Age
+20-24,Skilled Farm & Wildlife Related Workers,14.8,Women,Age
+20-24,Craft & Related Trades Workers,1.3,Women,Age
+20-24,Plant & Machine Operators,0.8,Women,Age
+20-24,Elementary Occupations,28.3,Women,Age
+25-29,"Legislators, Administrators & Managers",11.1,Women,Age
+25-29,Professionals,6.3,Women,Age
+25-29,Technicians & Associate Professionals,11.8,Women,Age
+25-29,Secretarial & Clerical Services,2.5,Women,Age
+25-29,Service Workers,23.8,Women,Age
+25-29,Skilled Farm & Wildlife Related Workers,15.6,Women,Age
+25-29,Craft & Related Trades Workers,1.2,Women,Age
+25-29,Plant & Machine Operators,0.6,Women,Age
+25-29,Elementary Occupations,23.8,Women,Age
+30-34,"Legislators, Administrators & Managers",12.7,Women,Age
+30-34,Professionals,5.9,Women,Age
+30-34,Technicians & Associate Professionals,8.9,Women,Age
+30-34,Secretarial & Clerical Services,1.9,Women,Age
+30-34,Service Workers,21.6,Women,Age
+30-34,Skilled Farm & Wildlife Related Workers,20.7,Women,Age
+30-34,Craft & Related Trades Workers,1,Women,Age
+30-34,Plant & Machine Operators,0.7,Women,Age
+30-34,Elementary Occupations,24.3,Women,Age
+35-39,"Legislators, Administrators & Managers",10,Women,Age
+35-39,Professionals,6.9,Women,Age
+35-39,Technicians & Associate Professionals,8.1,Women,Age
+35-39,Secretarial & Clerical Services,1.6,Women,Age
+35-39,Service Workers,21.8,Women,Age
+35-39,Skilled Farm & Wildlife Related Workers,22.4,Women,Age
+35-39,Craft & Related Trades Workers,1.5,Women,Age
+35-39,Plant & Machine Operators,1.2,Women,Age
+35-39,Elementary Occupations,24.6,Women,Age
+40-44,"Legislators, Administrators & Managers",11,Women,Age
+40-44,Professionals,4.8,Women,Age
+40-44,Technicians & Associate Professionals,8.6,Women,Age
+40-44,Secretarial & Clerical Services,1.6,Women,Age
+40-44,Service Workers,16.5,Women,Age
+40-44,Skilled Farm & Wildlife Related Workers,28.2,Women,Age
+40-44,Craft & Related Trades Workers,1.6,Women,Age
+40-44,Plant & Machine Operators,1.3,Women,Age
+40-44,Elementary Occupations,24.9,Women,Age
+45-49,"Legislators, Administrators & Managers",9,Women,Age
+45-49,Professionals,6.3,Women,Age
+45-49,Technicians & Associate Professionals,8.1,Women,Age
+45-49,Secretarial & Clerical Services,1.2,Women,Age
+45-49,Service Workers,14,Women,Age
+45-49,Skilled Farm & Wildlife Related Workers,32.9,Women,Age
+45-49,Craft & Related Trades Workers,1,Women,Age
+45-49,Plant & Machine Operators,0.4,Women,Age
+45-49,Elementary Occupations,25.3,Women,Age
+Never married,"Legislators, Administrators & Managers",8.9,Women,Marital Status
+Never married,Professionals,6.7,Women,Marital Status
+Never married,Technicians & Associate Professionals,8.7,Women,Marital Status
+Never married,Secretarial & Clerical Services,3.3,Women,Marital Status
+Never married,Service Workers,20.9,Women,Marital Status
+Never married,Skilled Farm & Wildlife Related Workers,16.4,Women,Marital Status
+Never married,Craft & Related Trades Workers,1.3,Women,Marital Status
+Never married,Plant & Machine Operators,0.8,Women,Marital Status
+Never married,Elementary Occupations,28.2,Women,Marital Status
+Married or living together,"Legislators, Administrators & Managers",11.1,Women,Marital Status
+Married or living together,Professionals,5.7,Women,Marital Status
+Married or living together,Technicians & Associate Professionals,9.1,Women,Marital Status
+Married or living together,Secretarial & Clerical Services,1.9,Women,Marital Status
+Married or living together,Service Workers,20.9,Women,Marital Status
+Married or living together,Skilled Farm & Wildlife Related Workers,25.4,Women,Marital Status
+Married or living together,Craft & Related Trades Workers,1.2,Women,Marital Status
+Married or living together,Plant & Machine Operators,0.7,Women,Marital Status
+Married or living together,Elementary Occupations,21.9,Women,Marital Status
+Divorced/separated/widowed,"Legislators, Administrators & Managers",8.7,Women,Marital Status
+Divorced/separated/widowed,Professionals,4.5,Women,Marital Status
+Divorced/separated/widowed,Technicians & Associate Professionals,5.2,Women,Marital Status
+Divorced/separated/widowed,Secretarial & Clerical Services,1.6,Women,Marital Status
+Divorced/separated/widowed,Service Workers,22.9,Women,Marital Status
+Divorced/separated/widowed,Skilled Farm & Wildlife Related Workers,16.5,Women,Marital Status
+Divorced/separated/widowed,Craft & Related Trades Workers,1.5,Women,Marital Status
+Divorced/separated/widowed,Plant & Machine Operators,1.4,Women,Marital Status
+Divorced/separated/widowed,Elementary Occupations,35.8,Women,Marital Status
+0,"Legislators, Administrators & Managers",9.6,Women,No. of living children
+0,Professionals,7.9,Women,No. of living children
+0,Technicians & Associate Professionals,9,Women,No. of living children
+0,Secretarial & Clerical Services,4,Women,No. of living children
+0,Service Workers,21,Women,No. of living children
+0,Skilled Farm & Wildlife Related Workers,16.2,Women,No. of living children
+0,Craft & Related Trades Workers,1.4,Women,No. of living children
+0,Plant & Machine Operators,0.6,Women,No. of living children
+0,Elementary Occupations,24.8,Women,No. of living children
+1-2,"Legislators, Administrators & Managers",11.1,Women,No. of living children
+1-2,Professionals,6.2,Women,No. of living children
+1-2,Technicians & Associate Professionals,11,Women,No. of living children
+1-2,Secretarial & Clerical Services,2.6,Women,No. of living children
+1-2,Service Workers,25.3,Women,No. of living children
+1-2,Skilled Farm & Wildlife Related Workers,15.3,Women,No. of living children
+1-2,Craft & Related Trades Workers,1.1,Women,No. of living children
+1-2,Plant & Machine Operators,0.7,Women,No. of living children
+1-2,Elementary Occupations,24,Women,No. of living children
+3-4,"Legislators, Administrators & Managers",10.7,Women,No. of living children
+3-4,Professionals,4.9,Women,No. of living children
+3-4,Technicians & Associate Professionals,6.8,Women,No. of living children
+3-4,Secretarial & Clerical Services,1,Women,No. of living children
+3-4,Service Workers,19.6,Women,No. of living children
+3-4,Skilled Farm & Wildlife Related Workers,27.3,Women,No. of living children
+3-4,Craft & Related Trades Workers,1.2,Women,No. of living children
+3-4,Plant & Machine Operators,1.1,Women,No. of living children
+3-4,Elementary Occupations,25.7,Women,No. of living children
+5+,"Legislators, Administrators & Managers",7.7,Women,No. of living children
+5+,Professionals,3.3,Women,No. of living children
+5+,Technicians & Associate Professionals,2.9,Women,No. of living children
+5+,Secretarial & Clerical Services,0.6,Women,No. of living children
+5+,Service Workers,12.6,Women,No. of living children
+5+,Skilled Farm & Wildlife Related Workers,38.3,Women,No. of living children
+5+,Craft & Related Trades Workers,1.9,Women,No. of living children
+5+,Plant & Machine Operators,0.9,Women,No. of living children
+5+,Elementary Occupations,30.7,Women,No. of living children
+Urban,"Legislators, Administrators & Managers",12,Women,Residence
+Urban,Professionals,6.9,Women,Residence
+Urban,Technicians & Associate Professionals,9.9,Women,Residence
+Urban,Secretarial & Clerical Services,3.1,Women,Residence
+Urban,Service Workers,29,Women,Residence
+Urban,Skilled Farm & Wildlife Related Workers,4.1,Women,Residence
+Urban,Craft & Related Trades Workers,1.4,Women,Residence
+Urban,Plant & Machine Operators,1.2,Women,Residence
+Urban,Elementary Occupations,28.1,Women,Residence
+Rural,"Legislators, Administrators & Managers",8.9,Women,Residence
+Rural,Professionals,4.8,Women,Residence
+Rural,Technicians & Associate Professionals,7.1,Women,Residence
+Rural,Secretarial & Clerical Services,1.3,Women,Residence
+Rural,Service Workers,15,Women,Residence
+Rural,Skilled Farm & Wildlife Related Workers,36.5,Women,Residence
+Rural,Craft & Related Trades Workers,1.1,Women,Residence
+Rural,Plant & Machine Operators,0.5,Women,Residence
+Rural,Elementary Occupations,23.5,Women,Residence
+No education,"Legislators, Administrators & Managers",13.7,Women,Education
+No education,Professionals,1.3,Women,Education
+No education,Technicians & Associate Professionals,1.1,Women,Education
+No education,Secretarial & Clerical Services,0.7,Women,Education
+No education,Service Workers,22.2,Women,Education
+No education,Skilled Farm & Wildlife Related Workers,24,Women,Education
+No education,Craft & Related Trades Workers,1.9,Women,Education
+No education,Plant & Machine Operators,2.1,Women,Education
+No education,Elementary Occupations,32.4,Women,Education
+Primary,"Legislators, Administrators & Managers",7.8,Women,Education
+Primary,Professionals,3.9,Women,Education
+Primary,Technicians & Associate Professionals,0.6,Women,Education
+Primary,Secretarial & Clerical Services,0.6,Women,Education
+Primary,Service Workers,16.6,Women,Education
+Primary,Skilled Farm & Wildlife Related Workers,32.8,Women,Education
+Primary,Craft & Related Trades Workers,1.6,Women,Education
+Primary,Plant & Machine Operators,0.8,Women,Education
+Primary,Elementary Occupations,34.3,Women,Education
+Secondary,"Legislators, Administrators & Managers",11.6,Women,Education
+Secondary,Professionals,3.6,Women,Education
+Secondary,Technicians & Associate Professionals,3.7,Women,Education
+Secondary,Secretarial & Clerical Services,2,Women,Education
+Secondary,Service Workers,26.6,Women,Education
+Secondary,Skilled Farm & Wildlife Related Workers,22,Women,Education
+Secondary,Craft & Related Trades Workers,1,Women,Education
+Secondary,Plant & Machine Operators,0.9,Women,Education
+Secondary,Elementary Occupations,26.5,Women,Education
+More than secondary,"Legislators, Administrators & Managers",11.9,Women,Education
+More than secondary,Professionals,12.1,Women,Education
+More than secondary,Technicians & Associate Professionals,27.6,Women,Education
+More than secondary,Secretarial & Clerical Services,4.9,Women,Education
+More than secondary,Service Workers,21.1,Women,Education
+More than secondary,Skilled Farm & Wildlife Related Workers,5.2,Women,Education
+More than secondary,Craft & Related Trades Workers,1,Women,Education
+More than secondary,Plant & Machine Operators,0.6,Women,Education
+More than secondary,Elementary Occupations,9.9,Women,Education
+Lowest,"Legislators, Administrators & Managers",6.4,Women,Wealth Quintile
+Lowest,Professionals,2.8,Women,Wealth Quintile
+Lowest,Technicians & Associate Professionals,1.5,Women,Wealth Quintile
+Lowest,Secretarial & Clerical Services,0.6,Women,Wealth Quintile
+Lowest,Service Workers,12.9,Women,Wealth Quintile
+Lowest,Skilled Farm & Wildlife Related Workers,40.3,Women,Wealth Quintile
+Lowest,Craft & Related Trades Workers,2,Women,Wealth Quintile
+Lowest,Plant & Machine Operators,0.7,Women,Wealth Quintile
+Lowest,Elementary Occupations,32.1,Women,Wealth Quintile
+Second,"Legislators, Administrators & Managers",6.7,Women,Wealth Quintile
+Second,Professionals,3.7,Women,Wealth Quintile
+Second,Technicians & Associate Professionals,3.6,Women,Wealth Quintile
+Second,Secretarial & Clerical Services,0.6,Women,Wealth Quintile
+Second,Service Workers,12.2,Women,Wealth Quintile
+Second,Skilled Farm & Wildlife Related Workers,44.1,Women,Wealth Quintile
+Second,Craft & Related Trades Workers,1,Women,Wealth Quintile
+Second,Plant & Machine Operators,1,Women,Wealth Quintile
+Second,Elementary Occupations,26.1,Women,Wealth Quintile
+Middle,"Legislators, Administrators & Managers",9.8,Women,Wealth Quintile
+Middle,Professionals,5,Women,Wealth Quintile
+Middle,Technicians & Associate Professionals,6,Women,Wealth Quintile
+Middle,Secretarial & Clerical Services,1.3,Women,Wealth Quintile
+Middle,Service Workers,18.2,Women,Wealth Quintile
+Middle,Skilled Farm & Wildlife Related Workers,33,Women,Wealth Quintile
+Middle,Craft & Related Trades Workers,1.3,Women,Wealth Quintile
+Middle,Plant & Machine Operators,0.8,Women,Wealth Quintile
+Middle,Elementary Occupations,23.1,Women,Wealth Quintile
+Fourth,"Legislators, Administrators & Managers",12.2,Women,Wealth Quintile
+Fourth,Professionals,5.4,Women,Wealth Quintile
+Fourth,Technicians & Associate Professionals,10.2,Women,Wealth Quintile
+Fourth,Secretarial & Clerical Services,2.2,Women,Wealth Quintile
+Fourth,Service Workers,25.1,Women,Wealth Quintile
+Fourth,Skilled Farm & Wildlife Related Workers,12.8,Women,Wealth Quintile
+Fourth,Craft & Related Trades Workers,1.1,Women,Wealth Quintile
+Fourth,Plant & Machine Operators,0.9,Women,Wealth Quintile
+Fourth,Elementary Occupations,27.3,Women,Wealth Quintile
+Highest,"Legislators, Administrators & Managers",12.4,Women,Wealth Quintile
+Highest,Professionals,8.7,Women,Wealth Quintile
+Highest,Technicians & Associate Professionals,13.6,Women,Wealth Quintile
+Highest,Secretarial & Clerical Services,4,Women,Wealth Quintile
+Highest,Service Workers,28.1,Women,Wealth Quintile
+Highest,Skilled Farm & Wildlife Related Workers,3.5,Women,Wealth Quintile
+Highest,Craft & Related Trades Workers,1.2,Women,Wealth Quintile
+Highest,Plant & Machine Operators,0.8,Women,Wealth Quintile
+Highest,Elementary Occupations,22.9,Women,Wealth Quintile
+15-19,"Legislators, Administrators & Managers",2.6,Men,Age
+15-19,Professionals,1,Men,Age
+15-19,Technicians & Associate Professionals,1.5,Men,Age
+15-19,Secretarial & Clerical Services,0.4,Men,Age
+15-19,Service Workers,4.7,Men,Age
+15-19,Skilled Farm & Wildlife Related Workers,27.6,Men,Age
+15-19,Craft & Related Trades Workers,8.3,Men,Age
+15-19,Plant & Machine Operators,8.6,Men,Age
+15-19,Elementary Occupations,42.8,Men,Age
+20-24,"Legislators, Administrators & Managers",6.7,Men,Age
+20-24,Professionals,2.5,Men,Age
+20-24,Technicians & Associate Professionals,6,Men,Age
+20-24,Secretarial & Clerical Services,1.2,Men,Age
+20-24,Service Workers,8.2,Men,Age
+20-24,Skilled Farm & Wildlife Related Workers,16,Men,Age
+20-24,Craft & Related Trades Workers,12.8,Men,Age
+20-24,Plant & Machine Operators,10.9,Men,Age
+20-24,Elementary Occupations,30.3,Men,Age
+25-29,"Legislators, Administrators & Managers",5.5,Men,Age
+25-29,Professionals,7.2,Men,Age
+25-29,Technicians & Associate Professionals,9.7,Men,Age
+25-29,Secretarial & Clerical Services,1.1,Men,Age
+25-29,Service Workers,12.8,Men,Age
+25-29,Skilled Farm & Wildlife Related Workers,11.6,Men,Age
+25-29,Craft & Related Trades Workers,11.2,Men,Age
+25-29,Plant & Machine Operators,13.4,Men,Age
+25-29,Elementary Occupations,23.1,Men,Age
+30-34,"Legislators, Administrators & Managers",4.5,Men,Age
+30-34,Professionals,6.5,Men,Age
+30-34,Technicians & Associate Professionals,8,Men,Age
+30-34,Secretarial & Clerical Services,1.6,Men,Age
+30-34,Service Workers,12.7,Men,Age
+30-34,Skilled Farm & Wildlife Related Workers,13.2,Men,Age
+30-34,Craft & Related Trades Workers,13,Men,Age
+30-34,Plant & Machine Operators,12,Men,Age
+30-34,Elementary Occupations,23.9,Men,Age
+35-39,"Legislators, Administrators & Managers",4.8,Men,Age
+35-39,Professionals,5.1,Men,Age
+35-39,Technicians & Associate Professionals,7.7,Men,Age
+35-39,Secretarial & Clerical Services,1.4,Men,Age
+35-39,Service Workers,11.7,Men,Age
+35-39,Skilled Farm & Wildlife Related Workers,19.5,Men,Age
+35-39,Craft & Related Trades Workers,10.9,Men,Age
+35-39,Plant & Machine Operators,13.7,Men,Age
+35-39,Elementary Occupations,22.8,Men,Age
+40-44,"Legislators, Administrators & Managers",5.1,Men,Age
+40-44,Professionals,3.5,Men,Age
+40-44,Technicians & Associate Professionals,6.3,Men,Age
+40-44,Secretarial & Clerical Services,1.1,Men,Age
+40-44,Service Workers,12.4,Men,Age
+40-44,Skilled Farm & Wildlife Related Workers,22.4,Men,Age
+40-44,Craft & Related Trades Workers,12.1,Men,Age
+40-44,Plant & Machine Operators,10.4,Men,Age
+40-44,Elementary Occupations,24.4,Men,Age
+45-49,"Legislators, Administrators & Managers",4,Men,Age
+45-49,Professionals,4,Men,Age
+45-49,Technicians & Associate Professionals,8.8,Men,Age
+45-49,Secretarial & Clerical Services,1,Men,Age
+45-49,Service Workers,9.9,Men,Age
+45-49,Skilled Farm & Wildlife Related Workers,27.5,Men,Age
+45-49,Craft & Related Trades Workers,11.2,Men,Age
+45-49,Plant & Machine Operators,6.6,Men,Age
+45-49,Elementary Occupations,23.8,Men,Age
+50-54,"Legislators, Administrators & Managers",5.6,Men,Age
+50-54,Professionals,6.3,Men,Age
+50-54,Technicians & Associate Professionals,8.4,Men,Age
+50-54,Secretarial & Clerical Services,1.8,Men,Age
+50-54,Service Workers,12,Men,Age
+50-54,Skilled Farm & Wildlife Related Workers,26.4,Men,Age
+50-54,Craft & Related Trades Workers,11.1,Men,Age
+50-54,Plant & Machine Operators,3.3,Men,Age
+50-54,Elementary Occupations,22.9,Men,Age
+Never married,"Legislators, Administrators & Managers",5.3,Men,Marital Status
+Never married,Professionals,4.1,Men,Marital Status
+Never married,Technicians & Associate Professionals,5.5,Men,Marital Status
+Never married,Secretarial & Clerical Services,0.8,Men,Marital Status
+Never married,Service Workers,8.1,Men,Marital Status
+Never married,Skilled Farm & Wildlife Related Workers,19.1,Men,Marital Status
+Never married,Craft & Related Trades Workers,10,Men,Marital Status
+Never married,Plant & Machine Operators,8.6,Men,Marital Status
+Never married,Elementary Occupations,33.6,Men,Marital Status
+Married or living together,"Legislators, Administrators & Managers",4.8,Men,Marital Status
+Married or living together,Professionals,5.1,Men,Marital Status
+Married or living together,Technicians & Associate Professionals,8.5,Men,Marital Status
+Married or living together,Secretarial & Clerical Services,1.5,Men,Marital Status
+Married or living together,Service Workers,11.9,Men,Marital Status
+Married or living together,Skilled Farm & Wildlife Related Workers,18.1,Men,Marital Status
+Married or living together,Craft & Related Trades Workers,12.2,Men,Marital Status
+Married or living together,Plant & Machine Operators,12.6,Men,Marital Status
+Married or living together,Elementary Occupations,21.9,Men,Marital Status
+Divorced/separated/widowed,"Legislators, Administrators & Managers",2.9,Men,Marital Status
+Divorced/separated/widowed,Professionals,2.2,Men,Marital Status
+Divorced/separated/widowed,Technicians & Associate Professionals,4,Men,Marital Status
+Divorced/separated/widowed,Secretarial & Clerical Services,0.3,Men,Marital Status
+Divorced/separated/widowed,Service Workers,11.9,Men,Marital Status
+Divorced/separated/widowed,Skilled Farm & Wildlife Related Workers,18.1,Men,Marital Status
+Divorced/separated/widowed,Craft & Related Trades Workers,13.2,Men,Marital Status
+Divorced/separated/widowed,Plant & Machine Operators,13.4,Men,Marital Status
+Divorced/separated/widowed,Elementary Occupations,33.2,Men,Marital Status
+0,"Legislators, Administrators & Managers",5,Men,No. of living children
+0,Professionals,4.4,Men,No. of living children
+0,Technicians & Associate Professionals,5.7,Men,No. of living children
+0,Secretarial & Clerical Services,1,Men,No. of living children
+0,Service Workers,8,Men,No. of living children
+0,Skilled Farm & Wildlife Related Workers,18.8,Men,No. of living children
+0,Craft & Related Trades Workers,9.9,Men,No. of living children
+0,Plant & Machine Operators,8.7,Men,No. of living children
+0,Elementary Occupations,33.1,Men,No. of living children
+1-2,"Legislators, Administrators & Managers",5.3,Men,No. of living children
+1-2,Professionals,6.1,Men,No. of living children
+1-2,Technicians & Associate Professionals,9.3,Men,No. of living children
+1-2,Secretarial & Clerical Services,1.6,Men,No. of living children
+1-2,Service Workers,13.2,Men,No. of living children
+1-2,Skilled Farm & Wildlife Related Workers,13.2,Men,No. of living children
+1-2,Craft & Related Trades Workers,12.1,Men,No. of living children
+1-2,Plant & Machine Operators,13.1,Men,No. of living children
+1-2,Elementary Occupations,23.4,Men,No. of living children
+3-4,"Legislators, Administrators & Managers",4.2,Men,No. of living children
+3-4,Professionals,3.2,Men,No. of living children
+3-4,Technicians & Associate Professionals,6.7,Men,No. of living children
+3-4,Secretarial & Clerical Services,1,Men,No. of living children
+3-4,Service Workers,11.5,Men,No. of living children
+3-4,Skilled Farm & Wildlife Related Workers,21.5,Men,No. of living children
+3-4,Craft & Related Trades Workers,13.2,Men,No. of living children
+3-4,Plant & Machine Operators,13.6,Men,No. of living children
+3-4,Elementary Occupations,22.6,Men,No. of living children
+5+,"Legislators, Administrators & Managers",4.5,Men,No. of living children
+5+,Professionals,2.5,Men,No. of living children
+5+,Technicians & Associate Professionals,5.8,Men,No. of living children
+5+,Secretarial & Clerical Services,0.6,Men,No. of living children
+5+,Service Workers,10,Men,No. of living children
+5+,Skilled Farm & Wildlife Related Workers,27.8,Men,No. of living children
+5+,Craft & Related Trades Workers,12.2,Men,No. of living children
+5+,Plant & Machine Operators,10,Men,No. of living children
+5+,Elementary Occupations,24.2,Men,No. of living children
+Urban,"Legislators, Administrators & Managers",6.8,Men,Residence
+Urban,Professionals,7.9,Men,Residence
+Urban,Technicians & Associate Professionals,9.4,Men,Residence
+Urban,Secretarial & Clerical Services,2.1,Men,Residence
+Urban,Service Workers,16.3,Men,Residence
+Urban,Skilled Farm & Wildlife Related Workers,5,Men,Residence
+Urban,Craft & Related Trades Workers,12.2,Men,Residence
+Urban,Plant & Machine Operators,11.6,Men,Residence
+Urban,Elementary Occupations,22.6,Men,Residence
+Rural,"Legislators, Administrators & Managers",3.6,Men,Residence
+Rural,Professionals,2.2,Men,Residence
+Rural,Technicians & Associate Professionals,5.4,Men,Residence
+Rural,Secretarial & Clerical Services,0.5,Men,Residence
+Rural,Service Workers,6.6,Men,Residence
+Rural,Skilled Farm & Wildlife Related Workers,27.7,Men,Residence
+Rural,Craft & Related Trades Workers,10.9,Men,Residence
+Rural,Plant & Machine Operators,10.9,Men,Residence
+Rural,Elementary Occupations,30.1,Men,Residence
+No education,"Legislators, Administrators & Managers",2.8,Men,Education
+No education,Professionals,1.8,Men,Education
+No education,Technicians & Associate Professionals,2,Men,Education
+No education,Secretarial & Clerical Services,0.1,Men,Education
+No education,Service Workers,8.5,Men,Education
+No education,Skilled Farm & Wildlife Related Workers,25.4,Men,Education
+No education,Craft & Related Trades Workers,7.4,Men,Education
+No education,Plant & Machine Operators,7.9,Men,Education
+No education,Elementary Occupations,42.7,Men,Education
+Primary,"Legislators, Administrators & Managers",3.2,Men,Education
+Primary,Professionals,1.1,Men,Education
+Primary,Technicians & Associate Professionals,2.2,Men,Education
+Primary,Secretarial & Clerical Services,0.4,Men,Education
+Primary,Service Workers,7.4,Men,Education
+Primary,Skilled Farm & Wildlife Related Workers,23.9,Men,Education
+Primary,Craft & Related Trades Workers,13.4,Men,Education
+Primary,Plant & Machine Operators,11.6,Men,Education
+Primary,Elementary Occupations,35.1,Men,Education
+Secondary,"Legislators, Administrators & Managers",5.1,Men,Education
+Secondary,Professionals,2.3,Men,Education
+Secondary,Technicians & Associate Professionals,3.2,Men,Education
+Secondary,Secretarial & Clerical Services,1.1,Men,Education
+Secondary,Service Workers,12.5,Men,Education
+Secondary,Skilled Farm & Wildlife Related Workers,19.6,Men,Education
+Secondary,Craft & Related Trades Workers,12.3,Men,Education
+Secondary,Plant & Machine Operators,13.7,Men,Education
+Secondary,Elementary Occupations,27.2,Men,Education
+More than secondary,"Legislators, Administrators & Managers",7.4,Men,Education
+More than secondary,Professionals,13.4,Men,Education
+More than secondary,Technicians & Associate Professionals,20.6,Men,Education
+More than secondary,Secretarial & Clerical Services,2.5,Men,Education
+More than secondary,Service Workers,12.7,Men,Education
+More than secondary,Skilled Farm & Wildlife Related Workers,7.8,Men,Education
+More than secondary,Craft & Related Trades Workers,7.7,Men,Education
+More than secondary,Plant & Machine Operators,7.1,Men,Education
+More than secondary,Elementary Occupations,12.6,Men,Education
+Lowest,"Legislators, Administrators & Managers",2.4,Men,Wealth Quintile
+Lowest,Professionals,1,Men,Wealth Quintile
+Lowest,Technicians & Associate Professionals,2.3,Men,Wealth Quintile
+Lowest,Secretarial & Clerical Services,0.1,Men,Wealth Quintile
+Lowest,Service Workers,4.7,Men,Wealth Quintile
+Lowest,Skilled Farm & Wildlife Related Workers,30.2,Men,Wealth Quintile
+Lowest,Craft & Related Trades Workers,8.7,Men,Wealth Quintile
+Lowest,Plant & Machine Operators,8.9,Men,Wealth Quintile
+Lowest,Elementary Occupations,40.2,Men,Wealth Quintile
+Second,"Legislators, Administrators & Managers",2.4,Men,Wealth Quintile
+Second,Professionals,1.1,Men,Wealth Quintile
+Second,Technicians & Associate Professionals,3.4,Men,Wealth Quintile
+Second,Secretarial & Clerical Services,0.5,Men,Wealth Quintile
+Second,Service Workers,6.6,Men,Wealth Quintile
+Second,Skilled Farm & Wildlife Related Workers,28.5,Men,Wealth Quintile
+Second,Craft & Related Trades Workers,11.3,Men,Wealth Quintile
+Second,Plant & Machine Operators,12.2,Men,Wealth Quintile
+Second,Elementary Occupations,32.4,Men,Wealth Quintile
+Middle,"Legislators, Administrators & Managers",4.5,Men,Wealth Quintile
+Middle,Professionals,1.9,Men,Wealth Quintile
+Middle,Technicians & Associate Professionals,4.9,Men,Wealth Quintile
+Middle,Secretarial & Clerical Services,1.1,Men,Wealth Quintile
+Middle,Service Workers,7.8,Men,Wealth Quintile
+Middle,Skilled Farm & Wildlife Related Workers,22.8,Men,Wealth Quintile
+Middle,Craft & Related Trades Workers,14,Men,Wealth Quintile
+Middle,Plant & Machine Operators,11,Men,Wealth Quintile
+Middle,Elementary Occupations,29.5,Men,Wealth Quintile
+Fourth,"Legislators, Administrators & Managers",5.8,Men,Wealth Quintile
+Fourth,Professionals,4.7,Men,Wealth Quintile
+Fourth,Technicians & Associate Professionals,9,Men,Wealth Quintile
+Fourth,Secretarial & Clerical Services,1.2,Men,Wealth Quintile
+Fourth,Service Workers,11.9,Men,Wealth Quintile
+Fourth,Skilled Farm & Wildlife Related Workers,13.5,Men,Wealth Quintile
+Fourth,Craft & Related Trades Workers,13.9,Men,Wealth Quintile
+Fourth,Plant & Machine Operators,12.5,Men,Wealth Quintile
+Fourth,Elementary Occupations,24.7,Men,Wealth Quintile
+Highest,"Legislators, Administrators & Managers",7.8,Men,Wealth Quintile
+Highest,Professionals,11.7,Men,Wealth Quintile
+Highest,Technicians & Associate Professionals,12.9,Men,Wealth Quintile
+Highest,Secretarial & Clerical Services,2.4,Men,Wealth Quintile
+Highest,Service Workers,18.5,Men,Wealth Quintile
+Highest,Skilled Farm & Wildlife Related Workers,4.3,Men,Wealth Quintile
+Highest,Craft & Related Trades Workers,8.2,Men,Wealth Quintile
+Highest,Plant & Machine Operators,10.6,Men,Wealth Quintile
+Highest,Elementary Occupations,14.6,Men,Wealth Quintile

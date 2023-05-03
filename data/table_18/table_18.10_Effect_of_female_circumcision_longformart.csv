@@ -1,0 +1,211 @@
+Characteristic,Category,variable,value
+Current Age,15-19,Percentage of circumcised women who experienced side effects,22.2
+Current Age,20-24,Percentage of circumcised women who experienced side effects,23.2
+Current Age,25-29,Percentage of circumcised women who experienced side effects,29.9
+Current Age,30-39,Percentage of circumcised women who experienced side effects,32.9
+Current Age,40-49,Percentage of circumcised women who experienced side effects,37
+Age at circumcision,<5,Percentage of circumcised women who experienced side effects,38.3
+Age at circumcision,5-9,Percentage of circumcised women who experienced side effects,22.1
+Age at circumcision,10-14,Percentage of circumcised women who experienced side effects,34.7
+Age at circumcision,15+,Percentage of circumcised women who experienced side effects,36.3
+Age at circumcision,Don't know,Percentage of circumcised women who experienced side effects,20.6
+Type of circumcision,"Cut/nicked, no flesh removed",Percentage of circumcised women who experienced side effects,36.8
+Type of circumcision,Cut/flesh removed,Percentage of circumcised women who experienced side effects,30.3
+Type of circumcision,Sewn closed,Percentage of circumcised women who experienced side effects,34
+Type of circumcision,Don't know,Percentage of circumcised women who experienced side effects,24.7
+Current Age,15-19,Heavy bleeding,37.6
+Current Age,20-24,Heavy bleeding,39
+Current Age,25-29,Heavy bleeding,54.9
+Current Age,30-39,Heavy bleeding,47.2
+Current Age,40-49,Heavy bleeding,44.6
+Age at circumcision,<5,Heavy bleeding,NA
+Age at circumcision,5-9,Heavy bleeding,35.5
+Age at circumcision,10-14,Heavy bleeding,50.6
+Age at circumcision,15+,Heavy bleeding,48.4
+Age at circumcision,Don't know,Heavy bleeding,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Heavy bleeding,33
+Type of circumcision,Cut/flesh removed,Heavy bleeding,46.4
+Type of circumcision,Sewn closed,Heavy bleeding,45.2
+Type of circumcision,Don't know,Heavy bleeding,76.7
+Current Age,15-19,Severe pain,68.3
+Current Age,20-24,Severe pain,77.2
+Current Age,25-29,Severe pain,72.1
+Current Age,30-39,Severe pain,68.5
+Current Age,40-49,Severe pain,70
+Age at circumcision,<5,Severe pain,NA
+Age at circumcision,5-9,Severe pain,62.4
+Age at circumcision,10-14,Severe pain,72.7
+Age at circumcision,15+,Severe pain,76.8
+Age at circumcision,Don't know,Severe pain,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Severe pain,68.9
+Type of circumcision,Cut/flesh removed,Severe pain,71.8
+Type of circumcision,Sewn closed,Severe pain,60.9
+Type of circumcision,Don't know,Severe pain,77.3
+Current Age,15-19,Infection,3.6
+Current Age,20-24,Infection,7.2
+Current Age,25-29,Infection,7.5
+Current Age,30-39,Infection,4.2
+Current Age,40-49,Infection,2.5
+Age at circumcision,<5,Infection,NA
+Age at circumcision,5-9,Infection,4
+Age at circumcision,10-14,Infection,5.2
+Age at circumcision,15+,Infection,3.1
+Age at circumcision,Don't know,Infection,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Infection,6.4
+Type of circumcision,Cut/flesh removed,Infection,3
+Type of circumcision,Sewn closed,Infection,10.8
+Type of circumcision,Don't know,Infection,0.7
+Current Age,15-19,Urine retention,8.3
+Current Age,20-24,Urine retention,5.4
+Current Age,25-29,Urine retention,7.1
+Current Age,30-39,Urine retention,6.3
+Current Age,40-49,Urine retention,6.2
+Age at circumcision,<5,Urine retention,NA
+Age at circumcision,5-9,Urine retention,11.9
+Age at circumcision,10-14,Urine retention,5.6
+Age at circumcision,15+,Urine retention,4
+Age at circumcision,Don't know,Urine retention,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Urine retention,6.5
+Type of circumcision,Cut/flesh removed,Urine retention,6.5
+Type of circumcision,Sewn closed,Urine retention,8.2
+Type of circumcision,Don't know,Urine retention,1
+Current Age,15-19,Anaemia,1
+Current Age,20-24,Anaemia,2.8
+Current Age,25-29,Anaemia,1.3
+Current Age,30-39,Anaemia,0.5
+Current Age,40-49,Anaemia,0.9
+Age at circumcision,<5,Anaemia,NA
+Age at circumcision,5-9,Anaemia,1.2
+Age at circumcision,10-14,Anaemia,0.9
+Age at circumcision,15+,Anaemia,1.3
+Age at circumcision,Don't know,Anaemia,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Anaemia,0.4
+Type of circumcision,Cut/flesh removed,Anaemia,1.3
+Type of circumcision,Sewn closed,Anaemia,0.6
+Type of circumcision,Don't know,Anaemia,0
+Current Age,15-19,Fever,1.8
+Current Age,20-24,Fever,1.5
+Current Age,25-29,Fever,3
+Current Age,30-39,Fever,3.2
+Current Age,40-49,Fever,5.6
+Age at circumcision,<5,Fever,NA
+Age at circumcision,5-9,Fever,3.2
+Age at circumcision,10-14,Fever,3.6
+Age at circumcision,15+,Fever,4.1
+Age at circumcision,Don't know,Fever,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Fever,2.5
+Type of circumcision,Cut/flesh removed,Fever,3.5
+Type of circumcision,Sewn closed,Fever,7
+Type of circumcision,Don't know,Fever,1.1
+Current Age,15-19,Complications with menstrual periods,8.3
+Current Age,20-24,Complications with menstrual periods,5.5
+Current Age,25-29,Complications with menstrual periods,2.2
+Current Age,30-39,Complications with menstrual periods,1.9
+Current Age,40-49,Complications with menstrual periods,2.7
+Age at circumcision,<5,Complications with menstrual periods,NA
+Age at circumcision,5-9,Complications with menstrual periods,10.1
+Age at circumcision,10-14,Complications with menstrual periods,1.4
+Age at circumcision,15+,Complications with menstrual periods,0.6
+Age at circumcision,Don't know,Complications with menstrual periods,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Complications with menstrual periods,2
+Type of circumcision,Cut/flesh removed,Complications with menstrual periods,2.5
+Type of circumcision,Sewn closed,Complications with menstrual periods,8.4
+Type of circumcision,Don't know,Complications with menstrual periods,0.9
+Current Age,15-19,Complications during sexual intercourse,4
+Current Age,20-24,Complications during sexual intercourse,3.7
+Current Age,25-29,Complications during sexual intercourse,5.4
+Current Age,30-39,Complications during sexual intercourse,5
+Current Age,40-49,Complications during sexual intercourse,3.4
+Age at circumcision,<5,Complications during sexual intercourse,NA
+Age at circumcision,5-9,Complications during sexual intercourse,6.4
+Age at circumcision,10-14,Complications during sexual intercourse,4
+Age at circumcision,15+,Complications during sexual intercourse,2.6
+Age at circumcision,Don't know,Complications during sexual intercourse,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Complications during sexual intercourse,1.1
+Type of circumcision,Cut/flesh removed,Complications during sexual intercourse,3.8
+Type of circumcision,Sewn closed,Complications during sexual intercourse,9.8
+Type of circumcision,Don't know,Complications during sexual intercourse,6.8
+Current Age,15-19,Complications during childbirth,5.2
+Current Age,20-24,Complications during childbirth,11.5
+Current Age,25-29,Complications during childbirth,10
+Current Age,30-39,Complications during childbirth,7.6
+Current Age,40-49,Complications during childbirth,5.9
+Age at circumcision,<5,Complications during childbirth,NA
+Age at circumcision,5-9,Complications during childbirth,12.1
+Age at circumcision,10-14,Complications during childbirth,6.5
+Age at circumcision,15+,Complications during childbirth,6
+Age at circumcision,Don't know,Complications during childbirth,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Complications during childbirth,4.1
+Type of circumcision,Cut/flesh removed,Complications during childbirth,8.1
+Type of circumcision,Sewn closed,Complications during childbirth,9.8
+Type of circumcision,Don't know,Complications during childbirth,3.7
+Current Age,15-19,Fistula,0
+Current Age,20-24,Fistula,0
+Current Age,25-29,Fistula,0.2
+Current Age,30-39,Fistula,0
+Current Age,40-49,Fistula,0.5
+Age at circumcision,<5,Fistula,NA
+Age at circumcision,5-9,Fistula,0
+Age at circumcision,10-14,Fistula,0.4
+Age at circumcision,15+,Fistula,0
+Age at circumcision,Don't know,Fistula,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Fistula,0
+Type of circumcision,Cut/flesh removed,Fistula,0.3
+Type of circumcision,Sewn closed,Fistula,0
+Type of circumcision,Don't know,Fistula,0
+Current Age,15-19,Social acceptability,4.1
+Current Age,20-24,Social acceptability,4.2
+Current Age,25-29,Social acceptability,2.7
+Current Age,30-39,Social acceptability,5.9
+Current Age,40-49,Social acceptability,4.5
+Age at circumcision,<5,Social acceptability,NA
+Age at circumcision,5-9,Social acceptability,7.2
+Age at circumcision,10-14,Social acceptability,5.1
+Age at circumcision,15+,Social acceptability,1.4
+Age at circumcision,Don't know,Social acceptability,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Social acceptability,20.8
+Type of circumcision,Cut/flesh removed,Social acceptability,1.8
+Type of circumcision,Sewn closed,Social acceptability,1.1
+Type of circumcision,Don't know,Social acceptability,6.7
+Current Age,15-19,Stigma,3.9
+Current Age,20-24,Stigma,0.8
+Current Age,25-29,Stigma,0.2
+Current Age,30-39,Stigma,2
+Current Age,40-49,Stigma,6.5
+Age at circumcision,<5,Stigma,NA
+Age at circumcision,5-9,Stigma,2.1
+Age at circumcision,10-14,Stigma,5.3
+Age at circumcision,15+,Stigma,0.8
+Age at circumcision,Don't know,Stigma,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Stigma,0.9
+Type of circumcision,Cut/flesh removed,Stigma,3.2
+Type of circumcision,Sewn closed,Stigma,7.6
+Type of circumcision,Don't know,Stigma,0
+Current Age,15-19,Depression/stress/mental health,4.8
+Current Age,20-24,Depression/stress/mental health,4.6
+Current Age,25-29,Depression/stress/mental health,3.5
+Current Age,30-39,Depression/stress/mental health,4.4
+Current Age,40-49,Depression/stress/mental health,8.3
+Age at circumcision,<5,Depression/stress/mental health,NA
+Age at circumcision,5-9,Depression/stress/mental health,0.6
+Age at circumcision,10-14,Depression/stress/mental health,9.3
+Age at circumcision,15+,Depression/stress/mental health,2.4
+Age at circumcision,Don't know,Depression/stress/mental health,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Depression/stress/mental health,1.6
+Type of circumcision,Cut/flesh removed,Depression/stress/mental health,6.7
+Type of circumcision,Sewn closed,Depression/stress/mental health,4.5
+Type of circumcision,Don't know,Depression/stress/mental health,5.5
+Current Age,15-19,Other,9.4
+Current Age,20-24,Other,0.2
+Current Age,25-29,Other,1.6
+Current Age,30-39,Other,2.5
+Current Age,40-49,Other,2.1
+Age at circumcision,<5,Other,NA
+Age at circumcision,5-9,Other,0.1
+Age at circumcision,10-14,Other,1
+Age at circumcision,15+,Other,2.9
+Age at circumcision,Don't know,Other,NA
+Type of circumcision,"Cut/nicked, no flesh removed",Other,0
+Type of circumcision,Cut/flesh removed,Other,2.4
+Type of circumcision,Sewn closed,Other,7.6
+Type of circumcision,Don't know,Other,0

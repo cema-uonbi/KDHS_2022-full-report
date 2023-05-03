@@ -1,0 +1,21 @@
+Endemicity zone,Category,Proportion
+Highland epidemic prone,Had a fever,14.3
+Highland epidemic prone,Treatment was sought,71.1
+Highland epidemic prone,Had blood taken for testing,30.4
+Highland epidemic prone,Received any ACT,85.7
+Lake endemic,Had a fever,25.6
+Lake endemic,Treatment was sought,74.1
+Lake endemic,Had blood taken for testing,49.4
+Lake endemic,Received any ACT,91.4
+Coastal endemic,Had a fever,15.5
+Coastal endemic,Treatment was sought,54.2
+Coastal endemic,Had blood taken for testing,34.5
+Coastal endemic,Received any ACT,NA
+Seasonal,Had a fever,15.9
+Seasonal,Treatment was sought,62.9
+Seasonal,Had blood taken for testing,29.3
+Seasonal,Received any ACT,76.8
+Low risk,Had a fever,15.5
+Low risk,Treatment was sought,71.7
+Low risk,Had blood taken for testing,23.8
+Low risk,Received any ACT,46.6

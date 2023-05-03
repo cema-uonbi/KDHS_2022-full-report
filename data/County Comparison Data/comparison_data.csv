@@ -1,0 +1,2116 @@
+County,Category,year,type,Prop,Proportion
+Mombasa,Stunting,2022,Child nutritional status,Proportion (2022),13.5
+Mombasa,Stunting,2022,Child nutritional status,Percentage change,-36
+Kwale,Stunting,2022,Child nutritional status,Proportion (2022),22.7
+Kwale,Stunting,2022,Child nutritional status,Percentage change,-23.6
+Kilifi,Stunting,2022,Child nutritional status,Proportion (2022),37
+Kilifi,Stunting,2022,Child nutritional status,Percentage change,-5.4
+Tana River,Stunting,2022,Child nutritional status,Proportion (2022),21.1
+Tana River,Stunting,2022,Child nutritional status,Percentage change,-24.9
+Lamu,Stunting,2022,Child nutritional status,Proportion (2022),16.1
+Lamu,Stunting,2022,Child nutritional status,Percentage change,-44.9
+Taita Taveta,Stunting,2022,Child nutritional status,Proportion (2022),19.2
+Taita Taveta,Stunting,2022,Child nutritional status,Percentage change,-19.3
+Garissa,Stunting,2022,Child nutritional status,Proportion (2022),9
+Garissa,Stunting,2022,Child nutritional status,Percentage change,-42.3
+Wajir,Stunting,2022,Child nutritional status,Proportion (2022),12.4
+Wajir,Stunting,2022,Child nutritional status,Percentage change,-53
+Mandera,Stunting,2022,Child nutritional status,Proportion (2022),20.5
+Mandera,Stunting,2022,Child nutritional status,Percentage change,-43.2
+Marsabit,Stunting,2022,Child nutritional status,Proportion (2022),18.9
+Marsabit,Stunting,2022,Child nutritional status,Percentage change,-28.7
+Isiolo,Stunting,2022,Child nutritional status,Proportion (2022),14.1
+Isiolo,Stunting,2022,Child nutritional status,Percentage change,-26.2
+Meru,Stunting,2022,Child nutritional status,Proportion (2022),25.2
+Meru,Stunting,2022,Child nutritional status,Percentage change,0
+Tharaka Nithi,Stunting,2022,Child nutritional status,Proportion (2022),20.5
+Tharaka Nithi,Stunting,2022,Child nutritional status,Percentage change,-37.7
+Embu,Stunting,2022,Child nutritional status,Proportion (2022),19.9
+Embu,Stunting,2022,Child nutritional status,Percentage change,-25.7
+Kitui,Stunting,2022,Child nutritional status,Proportion (2022),25.1
+Kitui,Stunting,2022,Child nutritional status,Percentage change,-45.2
+Machakos,Stunting,2022,Child nutritional status,Proportion (2022),16.2
+Machakos,Stunting,2022,Child nutritional status,Percentage change,-38.9
+Makueni,Stunting,2022,Child nutritional status,Proportion (2022),19.8
+Makueni,Stunting,2022,Child nutritional status,Percentage change,-21.1
+Nyandarua,Stunting,2022,Child nutritional status,Proportion (2022),17.8
+Nyandarua,Stunting,2022,Child nutritional status,Percentage change,-39.5
+Nyeri,Stunting,2022,Child nutritional status,Proportion (2022),12.5
+Nyeri,Stunting,2022,Child nutritional status,Percentage change,-17.2
+Kirinyaga,Stunting,2022,Child nutritional status,Proportion (2022),11.2
+Kirinyaga,Stunting,2022,Child nutritional status,Percentage change,-34.9
+Muranga,Stunting,2022,Child nutritional status,Proportion (2022),10.1
+Muranga,Stunting,2022,Child nutritional status,Percentage change,-47.7
+Kiambu,Stunting,2022,Child nutritional status,Proportion (2022),15.3
+Kiambu,Stunting,2022,Child nutritional status,Percentage change,-2.5
+Turkana,Stunting,2022,Child nutritional status,Proportion (2022),23
+Turkana,Stunting,2022,Child nutritional status,Percentage change,-3.8
+West Pokot,Stunting,2022,Child nutritional status,Proportion (2022),33.5
+West Pokot,Stunting,2022,Child nutritional status,Percentage change,-27
+Samburu,Stunting,2022,Child nutritional status,Proportion (2022),31.4
+Samburu,Stunting,2022,Child nutritional status,Percentage change,4.3
+Trans Nzoia,Stunting,2022,Child nutritional status,Proportion (2022),21.3
+Trans Nzoia,Stunting,2022,Child nutritional status,Percentage change,-27.1
+Uasin Gishu,Stunting,2022,Child nutritional status,Proportion (2022),14.2
+Uasin Gishu,Stunting,2022,Child nutritional status,Percentage change,-54.5
+Elgeyo Marakwet,Stunting,2022,Child nutritional status,Proportion (2022),21.8
+Elgeyo Marakwet,Stunting,2022,Child nutritional status,Percentage change,-27.1
+Nandi,Stunting,2022,Child nutritional status,Proportion (2022),15.1
+Nandi,Stunting,2022,Child nutritional status,Percentage change,-49.5
+Baringo,Stunting,2022,Child nutritional status,Proportion (2022),21.2
+Baringo,Stunting,2022,Child nutritional status,Percentage change,-28.1
+Laikipia,Stunting,2022,Child nutritional status,Proportion (2022),12.6
+Laikipia,Stunting,2022,Child nutritional status,Percentage change,-53.2
+Nakuru,Stunting,2022,Child nutritional status,Proportion (2022),18.5
+Nakuru,Stunting,2022,Child nutritional status,Percentage change,-33
+Narok,Stunting,2022,Child nutritional status,Proportion (2022),21.5
+Narok,Stunting,2022,Child nutritional status,Percentage change,-34.7
+Kajiado,Stunting,2022,Child nutritional status,Proportion (2022),14
+Kajiado,Stunting,2022,Child nutritional status,Percentage change,-23.1
+Kericho,Stunting,2022,Child nutritional status,Proportion (2022),19.3
+Kericho,Stunting,2022,Child nutritional status,Percentage change,-32.8
+Bomet,Stunting,2022,Child nutritional status,Proportion (2022),22.1
+Bomet,Stunting,2022,Child nutritional status,Percentage change,-37.7
+Kakamega,Stunting,2022,Child nutritional status,Proportion (2022),11.5
+Kakamega,Stunting,2022,Child nutritional status,Percentage change,-59.5
+Vihiga,Stunting,2022,Child nutritional status,Proportion (2022),16.6
+Vihiga,Stunting,2022,Child nutritional status,Percentage change,-29.4
+Bungoma,Stunting,2022,Child nutritional status,Proportion (2022),19
+Bungoma,Stunting,2022,Child nutritional status,Percentage change,-22.1
+Busia,Stunting,2022,Child nutritional status,Proportion (2022),15
+Busia,Stunting,2022,Child nutritional status,Percentage change,-31.8
+Siaya,Stunting,2022,Child nutritional status,Proportion (2022),19.2
+Siaya,Stunting,2022,Child nutritional status,Percentage change,-22.3
+Kisumu,Stunting,2022,Child nutritional status,Proportion (2022),9.1
+Kisumu,Stunting,2022,Child nutritional status,Percentage change,-49.4
+Homa Bay,Stunting,2022,Child nutritional status,Proportion (2022),12.5
+Homa Bay,Stunting,2022,Child nutritional status,Percentage change,-33.2
+Migori,Stunting,2022,Child nutritional status,Proportion (2022),14.8
+Migori,Stunting,2022,Child nutritional status,Percentage change,-43.9
+Kisii,Stunting,2022,Child nutritional status,Proportion (2022),16.3
+Kisii,Stunting,2022,Child nutritional status,Percentage change,-36.1
+Nyamira,Stunting,2022,Child nutritional status,Proportion (2022),13.5
+Nyamira,Stunting,2022,Child nutritional status,Percentage change,-47.1
+Nairobi,Stunting,2022,Child nutritional status,Proportion (2022),11.1
+Nairobi,Stunting,2022,Child nutritional status,Percentage change,-35.5
+Mombasa,Wasting,2022,Child nutritional status,Proportion (2022),4.6
+Mombasa,Wasting,2022,Child nutritional status,Percentage change,12.2
+Kwale,Wasting,2022,Child nutritional status,Proportion (2022),6.2
+Kwale,Wasting,2022,Child nutritional status,Percentage change,40.9
+Kilifi,Wasting,2022,Child nutritional status,Proportion (2022),7.2
+Kilifi,Wasting,2022,Child nutritional status,Percentage change,75.6
+Tana River,Wasting,2022,Child nutritional status,Proportion (2022),11.3
+Tana River,Wasting,2022,Child nutritional status,Percentage change,98.2
+Lamu,Wasting,2022,Child nutritional status,Proportion (2022),3.5
+Lamu,Wasting,2022,Child nutritional status,Percentage change,-16.7
+Taita Taveta,Wasting,2022,Child nutritional status,Proportion (2022),4.1
+Taita Taveta,Wasting,2022,Child nutritional status,Percentage change,-43.1
+Garissa,Wasting,2022,Child nutritional status,Proportion (2022),15.3
+Garissa,Wasting,2022,Child nutritional status,Percentage change,34.2
+Wajir,Wasting,2022,Child nutritional status,Proportion (2022),22.8
+Wajir,Wasting,2022,Child nutritional status,Percentage change,60.6
+Mandera,Wasting,2022,Child nutritional status,Proportion (2022),17.3
+Mandera,Wasting,2022,Child nutritional status,Percentage change,16.9
+Marsabit,Wasting,2022,Child nutritional status,Proportion (2022),20.4
+Marsabit,Wasting,2022,Child nutritional status,Percentage change,25.2
+Isiolo,Wasting,2022,Child nutritional status,Proportion (2022),7.2
+Isiolo,Wasting,2022,Child nutritional status,Percentage change,-20.9
+Meru,Wasting,2022,Child nutritional status,Proportion (2022),6
+Meru,Wasting,2022,Child nutritional status,Percentage change,106.9
+Tharaka Nithi,Wasting,2022,Child nutritional status,Proportion (2022),3.1
+Tharaka Nithi,Wasting,2022,Child nutritional status,Percentage change,-6.1
+Embu,Wasting,2022,Child nutritional status,Proportion (2022),5.3
+Embu,Wasting,2022,Child nutritional status,Percentage change,76.7
+Kitui,Wasting,2022,Child nutritional status,Proportion (2022),4.9
+Kitui,Wasting,2022,Child nutritional status,Percentage change,44.1
+Machakos,Wasting,2022,Child nutritional status,Proportion (2022),3.5
+Machakos,Wasting,2022,Child nutritional status,Percentage change,-46.2
+Makueni,Wasting,2022,Child nutritional status,Proportion (2022),4
+Makueni,Wasting,2022,Child nutritional status,Percentage change,90.5
+Nyandarua,Wasting,2022,Child nutritional status,Proportion (2022),1.9
+Nyandarua,Wasting,2022,Child nutritional status,Percentage change,-5
+Nyeri,Wasting,2022,Child nutritional status,Proportion (2022),2.7
+Nyeri,Wasting,2022,Child nutritional status,Percentage change,12.5
+Kirinyaga,Wasting,2022,Child nutritional status,Proportion (2022),2.2
+Kirinyaga,Wasting,2022,Child nutritional status,Percentage change,-43.6
+Muranga,Wasting,2022,Child nutritional status,Proportion (2022),1.7
+Muranga,Wasting,2022,Child nutritional status,Percentage change,21.4
+Kiambu,Wasting,2022,Child nutritional status,Proportion (2022),3.2
+Kiambu,Wasting,2022,Child nutritional status,Percentage change,39.1
+Turkana,Wasting,2022,Child nutritional status,Proportion (2022),22.6
+Turkana,Wasting,2022,Child nutritional status,Percentage change,-1.3
+West Pokot,Wasting,2022,Child nutritional status,Proportion (2022),11
+West Pokot,Wasting,2022,Child nutritional status,Percentage change,-23.1
+Samburu,Wasting,2022,Child nutritional status,Proportion (2022),15.4
+Samburu,Wasting,2022,Child nutritional status,Percentage change,13.2
+Trans Nzoia,Wasting,2022,Child nutritional status,Proportion (2022),3.2
+Trans Nzoia,Wasting,2022,Child nutritional status,Percentage change,-17.9
+Uasin Gishu,Wasting,2022,Child nutritional status,Proportion (2022),4
+Uasin Gishu,Wasting,2022,Child nutritional status,Percentage change,33.3
+Elgeyo Marakwet,Wasting,2022,Child nutritional status,Proportion (2022),4.8
+Elgeyo Marakwet,Wasting,2022,Child nutritional status,Percentage change,11.6
+Nandi,Wasting,2022,Child nutritional status,Proportion (2022),4
+Nandi,Wasting,2022,Child nutritional status,Percentage change,2.6
+Baringo,Wasting,2022,Child nutritional status,Proportion (2022),13.6
+Baringo,Wasting,2022,Child nutritional status,Percentage change,97.1
+Laikipia,Wasting,2022,Child nutritional status,Proportion (2022),2.6
+Laikipia,Wasting,2022,Child nutritional status,Percentage change,-40.9
+Nakuru,Wasting,2022,Child nutritional status,Proportion (2022),3
+Nakuru,Wasting,2022,Child nutritional status,Percentage change,-33.3
+Narok,Wasting,2022,Child nutritional status,Proportion (2022),2.1
+Narok,Wasting,2022,Child nutritional status,Percentage change,-12.5
+Kajiado,Wasting,2022,Child nutritional status,Proportion (2022),7.6
+Kajiado,Wasting,2022,Child nutritional status,Percentage change,153.3
+Kericho,Wasting,2022,Child nutritional status,Proportion (2022),2.5
+Kericho,Wasting,2022,Child nutritional status,Percentage change,-55.4
+Bomet,Wasting,2022,Child nutritional status,Proportion (2022),3.3
+Bomet,Wasting,2022,Child nutritional status,Percentage change,83.3
+Kakamega,Wasting,2022,Child nutritional status,Proportion (2022),1.5
+Kakamega,Wasting,2022,Child nutritional status,Percentage change,-16.7
+Vihiga,Wasting,2022,Child nutritional status,Proportion (2022),2.4
+Vihiga,Wasting,2022,Child nutritional status,Percentage change,-7.7
+Bungoma,Wasting,2022,Child nutritional status,Proportion (2022),2.3
+Bungoma,Wasting,2022,Child nutritional status,Percentage change,27.8
+Busia,Wasting,2022,Child nutritional status,Proportion (2022),2.8
+Busia,Wasting,2022,Child nutritional status,Percentage change,27.3
+Siaya,Wasting,2022,Child nutritional status,Proportion (2022),1.7
+Siaya,Wasting,2022,Child nutritional status,Percentage change,750
+Kisumu,Wasting,2022,Child nutritional status,Proportion (2022),3
+Kisumu,Wasting,2022,Child nutritional status,Percentage change,275
+Homa Bay,Wasting,2022,Child nutritional status,Proportion (2022),1.8
+Homa Bay,Wasting,2022,Child nutritional status,Percentage change,-21.7
+Migori,Wasting,2022,Child nutritional status,Proportion (2022),2.4
+Migori,Wasting,2022,Child nutritional status,Percentage change,-40
+Kisii,Wasting,2022,Child nutritional status,Proportion (2022),2.9
+Kisii,Wasting,2022,Child nutritional status,Percentage change,70.6
+Nyamira,Wasting,2022,Child nutritional status,Proportion (2022),1.2
+Nyamira,Wasting,2022,Child nutritional status,Percentage change,-70.7
+Nairobi,Wasting,2022,Child nutritional status,Proportion (2022),2.5
+Nairobi,Wasting,2022,Child nutritional status,Percentage change,0
+Mombasa,Underweight,2022,Child nutritional status,Proportion (2022),9.8
+Mombasa,Underweight,2022,Child nutritional status,Percentage change,2.1
+Kwale,Underweight,2022,Child nutritional status,Proportion (2022),13.7
+Kwale,Underweight,2022,Child nutritional status,Percentage change,16.1
+Kilifi,Underweight,2022,Child nutritional status,Proportion (2022),19.5
+Kilifi,Underweight,2022,Child nutritional status,Percentage change,15.4
+Tana River,Underweight,2022,Child nutritional status,Proportion (2022),16.8
+Tana River,Underweight,2022,Child nutritional status,Percentage change,-9.7
+Lamu,Underweight,2022,Child nutritional status,Proportion (2022),12.5
+Lamu,Underweight,2022,Child nutritional status,Percentage change,5.9
+Taita Taveta,Underweight,2022,Child nutritional status,Proportion (2022),12.6
+Taita Taveta,Underweight,2022,Child nutritional status,Percentage change,61.5
+Garissa,Underweight,2022,Child nutritional status,Proportion (2022),14.1
+Garissa,Underweight,2022,Child nutritional status,Percentage change,7.6
+Wajir,Underweight,2022,Child nutritional status,Proportion (2022),16.2
+Wajir,Underweight,2022,Child nutritional status,Percentage change,-23.2
+Mandera,Underweight,2022,Child nutritional status,Proportion (2022),23.2
+Mandera,Underweight,2022,Child nutritional status,Percentage change,-6.8
+Marsabit,Underweight,2022,Child nutritional status,Proportion (2022),25.9
+Marsabit,Underweight,2022,Child nutritional status,Percentage change,-14
+Isiolo,Underweight,2022,Child nutritional status,Proportion (2022),11.5
+Isiolo,Underweight,2022,Child nutritional status,Percentage change,-10.9
+Meru,Underweight,2022,Child nutritional status,Proportion (2022),10.8
+Meru,Underweight,2022,Child nutritional status,Percentage change,33.3
+Tharaka Nithi,Underweight,2022,Child nutritional status,Proportion (2022),7.7
+Tharaka Nithi,Underweight,2022,Child nutritional status,Percentage change,-28.7
+Embu,Underweight,2022,Child nutritional status,Proportion (2022),11.3
+Embu,Underweight,2022,Child nutritional status,Percentage change,1.8
+Kitui,Underweight,2022,Child nutritional status,Proportion (2022),13.9
+Kitui,Underweight,2022,Child nutritional status,Percentage change,-29.4
+Machakos,Underweight,2022,Child nutritional status,Proportion (2022),8.1
+Machakos,Underweight,2022,Child nutritional status,Percentage change,0
+Makueni,Underweight,2022,Child nutritional status,Proportion (2022),8.7
+Makueni,Underweight,2022,Child nutritional status,Percentage change,-14.7
+Nyandarua,Underweight,2022,Child nutritional status,Proportion (2022),4
+Nyandarua,Underweight,2022,Child nutritional status,Percentage change,-41.2
+Nyeri,Underweight,2022,Child nutritional status,Proportion (2022),4
+Nyeri,Underweight,2022,Child nutritional status,Percentage change,60
+Kirinyaga,Underweight,2022,Child nutritional status,Proportion (2022),5.7
+Kirinyaga,Underweight,2022,Child nutritional status,Percentage change,-26
+Muranga,Underweight,2022,Child nutritional status,Proportion (2022),5.9
+Muranga,Underweight,2022,Child nutritional status,Percentage change,5.4
+Kiambu,Underweight,2022,Child nutritional status,Proportion (2022),6
+Kiambu,Underweight,2022,Child nutritional status,Percentage change,17.6
+Turkana,Underweight,2022,Child nutritional status,Proportion (2022),31.7
+Turkana,Underweight,2022,Child nutritional status,Percentage change,-6.8
+West Pokot,Underweight,2022,Child nutritional status,Proportion (2022),27.1
+West Pokot,Underweight,2022,Child nutritional status,Percentage change,-29.6
+Samburu,Underweight,2022,Child nutritional status,Proportion (2022),30.2
+Samburu,Underweight,2022,Child nutritional status,Percentage change,4.5
+Trans Nzoia,Underweight,2022,Child nutritional status,Proportion (2022),11.1
+Trans Nzoia,Underweight,2022,Child nutritional status,Percentage change,-27.5
+Uasin Gishu,Underweight,2022,Child nutritional status,Proportion (2022),6.4
+Uasin Gishu,Underweight,2022,Child nutritional status,Percentage change,-44.3
+Elgeyo Marakwet,Underweight,2022,Child nutritional status,Proportion (2022),13.9
+Elgeyo Marakwet,Underweight,2022,Child nutritional status,Percentage change,10.3
+Nandi,Underweight,2022,Child nutritional status,Proportion (2022),9
+Nandi,Underweight,2022,Child nutritional status,Percentage change,-18.9
+Baringo,Underweight,2022,Child nutritional status,Proportion (2022),19.9
+Baringo,Underweight,2022,Child nutritional status,Percentage change,-1.5
+Laikipia,Underweight,2022,Child nutritional status,Proportion (2022),6.6
+Laikipia,Underweight,2022,Child nutritional status,Percentage change,-52.5
+Nakuru,Underweight,2022,Child nutritional status,Proportion (2022),9.2
+Nakuru,Underweight,2022,Child nutritional status,Percentage change,-9.8
+Narok,Underweight,2022,Child nutritional status,Proportion (2022),10.7
+Narok,Underweight,2022,Child nutritional status,Percentage change,-7.8
+Kajiado,Underweight,2022,Child nutritional status,Proportion (2022),9.6
+Kajiado,Underweight,2022,Child nutritional status,Percentage change,18.5
+Kericho,Underweight,2022,Child nutritional status,Proportion (2022),9.2
+Kericho,Underweight,2022,Child nutritional status,Percentage change,-25.8
+Bomet,Underweight,2022,Child nutritional status,Proportion (2022),9.8
+Bomet,Underweight,2022,Child nutritional status,Percentage change,-18.3
+Kakamega,Underweight,2022,Child nutritional status,Proportion (2022),6.4
+Kakamega,Underweight,2022,Child nutritional status,Percentage change,-36.6
+Vihiga,Underweight,2022,Child nutritional status,Proportion (2022),9.2
+Vihiga,Underweight,2022,Child nutritional status,Percentage change,55.9
+Bungoma,Underweight,2022,Child nutritional status,Proportion (2022),9.6
+Bungoma,Underweight,2022,Child nutritional status,Percentage change,6.7
+Busia,Underweight,2022,Child nutritional status,Proportion (2022),6.3
+Busia,Underweight,2022,Child nutritional status,Percentage change,-30
+Siaya,Underweight,2022,Child nutritional status,Proportion (2022),7
+Siaya,Underweight,2022,Child nutritional status,Percentage change,-10.3
+Kisumu,Underweight,2022,Child nutritional status,Proportion (2022),3.5
+Kisumu,Underweight,2022,Child nutritional status,Percentage change,-47
+Homa Bay,Underweight,2022,Child nutritional status,Proportion (2022),6.1
+Homa Bay,Underweight,2022,Child nutritional status,Percentage change,13
+Migori,Underweight,2022,Child nutritional status,Proportion (2022),5
+Migori,Underweight,2022,Child nutritional status,Percentage change,-41.9
+Kisii,Underweight,2022,Child nutritional status,Proportion (2022),7.8
+Kisii,Underweight,2022,Child nutritional status,Percentage change,-7.1
+Nyamira,Underweight,2022,Child nutritional status,Proportion (2022),3.4
+Nyamira,Underweight,2022,Child nutritional status,Percentage change,-64.6
+Nairobi,Underweight,2022,Child nutritional status,Proportion (2022),5.3
+Nairobi,Underweight,2022,Child nutritional status,Percentage change,39.5
+Mombasa,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),63.3
+Mombasa,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,11.2
+Mombasa,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),45.5
+Mombasa,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,17
+Kwale,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),74
+Kwale,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-8.6
+Kwale,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),47.5
+Kwale,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-0.6
+Kilifi,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),74.4
+Kilifi,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,1.8
+Kilifi,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),48.2
+Kilifi,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,16.1
+Tana River,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),71.3
+Tana River,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,9.2
+Tana River,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),34.3
+Tana River,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,3.9
+Lamu,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),65.9
+Lamu,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-7.3
+Lamu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),43.3
+Lamu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-15.4
+Taita Taveta,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),87.3
+Taita Taveta,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,8.6
+Taita Taveta,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),74.3
+Taita Taveta,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,22.6
+Garissa,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),19.7
+Garissa,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-67.8
+Garissa,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),6.8
+Garissa,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-80.2
+Wajir,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),43.6
+Wajir,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-18.7
+Wajir,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),15.5
+Wajir,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-14.4
+Mandera,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),15.7
+Mandera,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-45.3
+Mandera,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),4.8
+Mandera,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-56
+Marsabit,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),27.1
+Marsabit,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,9.7
+Marsabit,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),7.4
+Marsabit,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,5.7
+Isiolo,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),51.7
+Isiolo,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-17.5
+Isiolo,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),23.4
+Isiolo,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-25.7
+Meru,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),36.2
+Meru,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-32.3
+Meru,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),16.8
+Meru,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-45.1
+Tharaka Nithi,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),52.8
+Tharaka Nithi,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-21.4
+Tharaka Nithi,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),34.7
+Tharaka Nithi,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-24.2
+Embu,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),40.1
+Embu,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-28.3
+Embu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),24.1
+Embu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-31.7
+Kitui,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),33
+Kitui,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-46
+Kitui,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),15.1
+Kitui,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-48.5
+Machakos,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),55.9
+Machakos,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-0.2
+Machakos,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),38.8
+Machakos,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,23.2
+Makueni,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),48.1
+Makueni,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-13
+Makueni,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),25.8
+Makueni,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-6.9
+Nyandarua,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),9.9
+Nyandarua,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-20.8
+Nyandarua,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),5.8
+Nyandarua,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-18.3
+Nyeri,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),18.1
+Nyeri,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-8.1
+Nyeri,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),12.1
+Nyeri,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,1.7
+Kirinyaga,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),57.3
+Kirinyaga,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-16.4
+Kirinyaga,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),47.4
+Kirinyaga,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-12.7
+Muranga,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),35.9
+Muranga,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-17.8
+Muranga,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),22
+Muranga,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-18.8
+Kiambu,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),27.8
+Kiambu,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-30.3
+Kiambu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),16
+Kiambu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-36.5
+Turkana,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),49.4
+Turkana,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,6.9
+Turkana,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),18.8
+Turkana,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,15.3
+West Pokot,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),78.8
+West Pokot,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,30.9
+West Pokot,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),41.5
+West Pokot,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,95.8
+Samburu,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),19.9
+Samburu,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,5.9
+Samburu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),7.4
+Samburu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-14.9
+Trans Nzoia,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),86
+Trans Nzoia,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,21.8
+Trans Nzoia,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),69.3
+Trans Nzoia,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,80.5
+Uasin Gishu,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),69.3
+Uasin Gishu,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-3.8
+Uasin Gishu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),56.8
+Uasin Gishu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,14.3
+Elgeyo Marakwet,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),25.3
+Elgeyo Marakwet,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,15.5
+Elgeyo Marakwet,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),10.1
+Elgeyo Marakwet,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,0
+Nandi,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),84
+Nandi,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,6.6
+Nandi,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),69
+Nandi,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,64.7
+Baringo,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),63.8
+Baringo,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,6.7
+Baringo,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),37.6
+Baringo,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,14.6
+Laikipia,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),24.9
+Laikipia,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,42.3
+Laikipia,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),15.9
+Laikipia,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,50
+Nakuru,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),27.5
+Nakuru,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-27.1
+Nakuru,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),15.3
+Nakuru,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-32.6
+Narok,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),76
+Narok,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,45.6
+Narok,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),54
+Narok,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,112.6
+Kajiado,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),38.8
+Kajiado,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-22.1
+Kajiado,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),20.9
+Kajiado,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-37.2
+Kericho,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),84.1
+Kericho,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,5.8
+Kericho,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),65.9
+Kericho,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,45.2
+Bomet,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),92.3
+Bomet,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,18.9
+Bomet,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),77.3
+Bomet,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,65.2
+Kakamega,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),89.1
+Kakamega,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,13.1
+Kakamega,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),66.9
+Kakamega,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,42.3
+Vihiga,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),92.5
+Vihiga,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,11.6
+Vihiga,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),75.8
+Vihiga,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,68.8
+Bungoma,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),89.4
+Bungoma,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,7.8
+Bungoma,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),70.6
+Bungoma,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,69.3
+Busia,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),93.5
+Busia,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,11.4
+Busia,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),67.4
+Busia,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,38.1
+Siaya,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),86.7
+Siaya,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,10
+Siaya,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),58.6
+Siaya,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,40.9
+Kisumu,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),76
+Kisumu,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-13.2
+Kisumu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),47
+Kisumu,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-10.6
+Homa Bay,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),89.2
+Homa Bay,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,20.1
+Homa Bay,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),60.2
+Homa Bay,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,60.5
+Migori,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),87.7
+Migori,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,17.6
+Migori,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),54.2
+Migori,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,78.9
+Kisii,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),85
+Kisii,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-1.3
+Kisii,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),67.4
+Kisii,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,23.9
+Nyamira,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),93.6
+Nyamira,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,10.8
+Nyamira,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),80
+Nyamira,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,40.1
+Nairobi,Households with >=1 ITN,2022,Household possession of ITNs,Proportion (2022),23.4
+Nairobi,Households with >=1 ITN,2022,Household possession of ITNs,Percentage change,-46
+Nairobi,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Proportion (2022),14.3
+Nairobi,"Households with >=1 ITN
+per 2 people",2022,Household possession of ITNs,Percentage change,-49.8
+Mombasa,Stunting,2014,Child nutritional status,Proportion (2014),21.1
+Kwale,Stunting,2014,Child nutritional status,Proportion (2014),29.7
+Kilifi,Stunting,2014,Child nutritional status,Proportion (2014),39.1
+Tana River,Stunting,2014,Child nutritional status,Proportion (2014),28.1
+Lamu,Stunting,2014,Child nutritional status,Proportion (2014),29.2
+Taita Taveta,Stunting,2014,Child nutritional status,Proportion (2014),23.8
+Garissa,Stunting,2014,Child nutritional status,Proportion (2014),15.6
+Wajir,Stunting,2014,Child nutritional status,Proportion (2014),26.4
+Mandera,Stunting,2014,Child nutritional status,Proportion (2014),36.1
+Marsabit,Stunting,2014,Child nutritional status,Proportion (2014),26.5
+Isiolo,Stunting,2014,Child nutritional status,Proportion (2014),19.1
+Meru,Stunting,2014,Child nutritional status,Proportion (2014),25.2
+Tharaka Nithi,Stunting,2014,Child nutritional status,Proportion (2014),32.9
+Embu,Stunting,2014,Child nutritional status,Proportion (2014),26.8
+Kitui,Stunting,2014,Child nutritional status,Proportion (2014),45.8
+Machakos,Stunting,2014,Child nutritional status,Proportion (2014),26.5
+Makueni,Stunting,2014,Child nutritional status,Proportion (2014),25.1
+Nyandarua,Stunting,2014,Child nutritional status,Proportion (2014),29.4
+Nyeri,Stunting,2014,Child nutritional status,Proportion (2014),15.1
+Kirinyaga,Stunting,2014,Child nutritional status,Proportion (2014),17.2
+Muranga,Stunting,2014,Child nutritional status,Proportion (2014),19.3
+Kiambu,Stunting,2014,Child nutritional status,Proportion (2014),15.7
+Turkana,Stunting,2014,Child nutritional status,Proportion (2014),23.9
+West Pokot,Stunting,2014,Child nutritional status,Proportion (2014),45.9
+Samburu,Stunting,2014,Child nutritional status,Proportion (2014),30.1
+Trans Nzoia,Stunting,2014,Child nutritional status,Proportion (2014),29.2
+Uasin Gishu,Stunting,2014,Child nutritional status,Proportion (2014),31.2
+Elgeyo Marakwet,Stunting,2014,Child nutritional status,Proportion (2014),29.9
+Nandi,Stunting,2014,Child nutritional status,Proportion (2014),29.9
+Baringo,Stunting,2014,Child nutritional status,Proportion (2014),29.5
+Laikipia,Stunting,2014,Child nutritional status,Proportion (2014),26.9
+Nakuru,Stunting,2014,Child nutritional status,Proportion (2014),27.6
+Narok,Stunting,2014,Child nutritional status,Proportion (2014),32.9
+Kajiado,Stunting,2014,Child nutritional status,Proportion (2014),18.2
+Kericho,Stunting,2014,Child nutritional status,Proportion (2014),28.7
+Bomet,Stunting,2014,Child nutritional status,Proportion (2014),35.5
+Kakamega,Stunting,2014,Child nutritional status,Proportion (2014),28.4
+Vihiga,Stunting,2014,Child nutritional status,Proportion (2014),23.5
+Bungoma,Stunting,2014,Child nutritional status,Proportion (2014),24.4
+Busia,Stunting,2014,Child nutritional status,Proportion (2014),22
+Siaya,Stunting,2014,Child nutritional status,Proportion (2014),24.7
+Kisumu,Stunting,2014,Child nutritional status,Proportion (2014),18
+Homa Bay,Stunting,2014,Child nutritional status,Proportion (2014),18.7
+Migori,Stunting,2014,Child nutritional status,Proportion (2014),26.4
+Kisii,Stunting,2014,Child nutritional status,Proportion (2014),25.5
+Nyamira,Stunting,2014,Child nutritional status,Proportion (2014),25.5
+Nairobi,Stunting,2014,Child nutritional status,Proportion (2014),17.2
+Mombasa,Wasting,2014,Child nutritional status,Proportion (2014),4.1
+Kwale,Wasting,2014,Child nutritional status,Proportion (2014),4.4
+Kilifi,Wasting,2014,Child nutritional status,Proportion (2014),4.1
+Tana River,Wasting,2014,Child nutritional status,Proportion (2014),5.7
+Lamu,Wasting,2014,Child nutritional status,Proportion (2014),4.2
+Taita Taveta,Wasting,2014,Child nutritional status,Proportion (2014),7.2
+Garissa,Wasting,2014,Child nutritional status,Proportion (2014),11.4
+Wajir,Wasting,2014,Child nutritional status,Proportion (2014),14.2
+Mandera,Wasting,2014,Child nutritional status,Proportion (2014),14.8
+Marsabit,Wasting,2014,Child nutritional status,Proportion (2014),16.3
+Isiolo,Wasting,2014,Child nutritional status,Proportion (2014),9.1
+Meru,Wasting,2014,Child nutritional status,Proportion (2014),2.9
+Tharaka Nithi,Wasting,2014,Child nutritional status,Proportion (2014),3.3
+Embu,Wasting,2014,Child nutritional status,Proportion (2014),3
+Kitui,Wasting,2014,Child nutritional status,Proportion (2014),3.4
+Machakos,Wasting,2014,Child nutritional status,Proportion (2014),6.5
+Makueni,Wasting,2014,Child nutritional status,Proportion (2014),2.1
+Nyandarua,Wasting,2014,Child nutritional status,Proportion (2014),2
+Nyeri,Wasting,2014,Child nutritional status,Proportion (2014),2.4
+Kirinyaga,Wasting,2014,Child nutritional status,Proportion (2014),3.9
+Muranga,Wasting,2014,Child nutritional status,Proportion (2014),1.4
+Kiambu,Wasting,2014,Child nutritional status,Proportion (2014),2.3
+Turkana,Wasting,2014,Child nutritional status,Proportion (2014),22.9
+West Pokot,Wasting,2014,Child nutritional status,Proportion (2014),14.3
+Samburu,Wasting,2014,Child nutritional status,Proportion (2014),13.6
+Trans Nzoia,Wasting,2014,Child nutritional status,Proportion (2014),3.9
+Uasin Gishu,Wasting,2014,Child nutritional status,Proportion (2014),3
+Elgeyo Marakwet,Wasting,2014,Child nutritional status,Proportion (2014),4.3
+Nandi,Wasting,2014,Child nutritional status,Proportion (2014),3.9
+Baringo,Wasting,2014,Child nutritional status,Proportion (2014),6.9
+Laikipia,Wasting,2014,Child nutritional status,Proportion (2014),4.4
+Nakuru,Wasting,2014,Child nutritional status,Proportion (2014),4.5
+Narok,Wasting,2014,Child nutritional status,Proportion (2014),2.4
+Kajiado,Wasting,2014,Child nutritional status,Proportion (2014),3
+Kericho,Wasting,2014,Child nutritional status,Proportion (2014),5.6
+Bomet,Wasting,2014,Child nutritional status,Proportion (2014),1.8
+Kakamega,Wasting,2014,Child nutritional status,Proportion (2014),1.8
+Vihiga,Wasting,2014,Child nutritional status,Proportion (2014),2.6
+Bungoma,Wasting,2014,Child nutritional status,Proportion (2014),1.8
+Busia,Wasting,2014,Child nutritional status,Proportion (2014),2.2
+Siaya,Wasting,2014,Child nutritional status,Proportion (2014),0.2
+Kisumu,Wasting,2014,Child nutritional status,Proportion (2014),0.8
+Homa Bay,Wasting,2014,Child nutritional status,Proportion (2014),2.3
+Migori,Wasting,2014,Child nutritional status,Proportion (2014),4
+Kisii,Wasting,2014,Child nutritional status,Proportion (2014),1.7
+Nyamira,Wasting,2014,Child nutritional status,Proportion (2014),4.1
+Nairobi,Wasting,2014,Child nutritional status,Proportion (2014),2.5
+Mombasa,Underweight,2014,Child nutritional status,Proportion (2014),9.6
+Kwale,Underweight,2014,Child nutritional status,Proportion (2014),11.8
+Kilifi,Underweight,2014,Child nutritional status,Proportion (2014),16.9
+Tana River,Underweight,2014,Child nutritional status,Proportion (2014),18.6
+Lamu,Underweight,2014,Child nutritional status,Proportion (2014),11.8
+Taita Taveta,Underweight,2014,Child nutritional status,Proportion (2014),7.8
+Garissa,Underweight,2014,Child nutritional status,Proportion (2014),13.1
+Wajir,Underweight,2014,Child nutritional status,Proportion (2014),21.1
+Mandera,Underweight,2014,Child nutritional status,Proportion (2014),24.9
+Marsabit,Underweight,2014,Child nutritional status,Proportion (2014),30.1
+Isiolo,Underweight,2014,Child nutritional status,Proportion (2014),12.9
+Meru,Underweight,2014,Child nutritional status,Proportion (2014),8.1
+Tharaka Nithi,Underweight,2014,Child nutritional status,Proportion (2014),10.8
+Embu,Underweight,2014,Child nutritional status,Proportion (2014),11.1
+Kitui,Underweight,2014,Child nutritional status,Proportion (2014),19.7
+Machakos,Underweight,2014,Child nutritional status,Proportion (2014),8.1
+Makueni,Underweight,2014,Child nutritional status,Proportion (2014),10.2
+Nyandarua,Underweight,2014,Child nutritional status,Proportion (2014),6.8
+Nyeri,Underweight,2014,Child nutritional status,Proportion (2014),2.5
+Kirinyaga,Underweight,2014,Child nutritional status,Proportion (2014),7.7
+Muranga,Underweight,2014,Child nutritional status,Proportion (2014),5.6
+Kiambu,Underweight,2014,Child nutritional status,Proportion (2014),5.1
+Turkana,Underweight,2014,Child nutritional status,Proportion (2014),34
+West Pokot,Underweight,2014,Child nutritional status,Proportion (2014),38.5
+Samburu,Underweight,2014,Child nutritional status,Proportion (2014),28.9
+Trans Nzoia,Underweight,2014,Child nutritional status,Proportion (2014),15.3
+Uasin Gishu,Underweight,2014,Child nutritional status,Proportion (2014),11.5
+Elgeyo Marakwet,Underweight,2014,Child nutritional status,Proportion (2014),12.6
+Nandi,Underweight,2014,Child nutritional status,Proportion (2014),11.1
+Baringo,Underweight,2014,Child nutritional status,Proportion (2014),20.2
+Laikipia,Underweight,2014,Child nutritional status,Proportion (2014),13.9
+Nakuru,Underweight,2014,Child nutritional status,Proportion (2014),10.2
+Narok,Underweight,2014,Child nutritional status,Proportion (2014),11.6
+Kajiado,Underweight,2014,Child nutritional status,Proportion (2014),8.1
+Kericho,Underweight,2014,Child nutritional status,Proportion (2014),12.4
+Bomet,Underweight,2014,Child nutritional status,Proportion (2014),12
+Kakamega,Underweight,2014,Child nutritional status,Proportion (2014),10.1
+Vihiga,Underweight,2014,Child nutritional status,Proportion (2014),5.9
+Bungoma,Underweight,2014,Child nutritional status,Proportion (2014),9
+Busia,Underweight,2014,Child nutritional status,Proportion (2014),9
+Siaya,Underweight,2014,Child nutritional status,Proportion (2014),7.8
+Kisumu,Underweight,2014,Child nutritional status,Proportion (2014),6.6
+Homa Bay,Underweight,2014,Child nutritional status,Proportion (2014),5.4
+Migori,Underweight,2014,Child nutritional status,Proportion (2014),8.6
+Kisii,Underweight,2014,Child nutritional status,Proportion (2014),8.4
+Nyamira,Underweight,2014,Child nutritional status,Proportion (2014),9.6
+Nairobi,Underweight,2014,Child nutritional status,Proportion (2014),3.8
+Mombasa,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),56.9
+Mombasa,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),38.9
+Kwale,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),81
+Kwale,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),47.8
+Kilifi,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),73.1
+Kilifi,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),41.5
+Tana River,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),65.3
+Tana River,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),33
+Lamu,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),71.1
+Lamu,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),51.2
+Taita Taveta,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),80.4
+Taita Taveta,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),60.6
+Garissa,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),61.1
+Garissa,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),34.4
+Wajir,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),53.6
+Wajir,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),18.1
+Mandera,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),28.7
+Mandera,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),10.9
+Marsabit,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),24.7
+Marsabit,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),7
+Isiolo,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),62.7
+Isiolo,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),31.5
+Meru,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),53.5
+Meru,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),30.6
+Tharaka Nithi,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),67.2
+Tharaka Nithi,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),45.8
+Embu,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),55.9
+Embu,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),35.3
+Kitui,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),61.1
+Kitui,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),29.3
+Machakos,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),56
+Machakos,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),31.5
+Makueni,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),55.3
+Makueni,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),27.7
+Nyandarua,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),12.5
+Nyandarua,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),7.1
+Nyeri,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),19.7
+Nyeri,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),11.9
+Kirinyaga,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),68.5
+Kirinyaga,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),54.3
+Muranga,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),43.7
+Muranga,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),27.1
+Kiambu,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),39.9
+Kiambu,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),25.2
+Turkana,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),46.2
+Turkana,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),16.3
+West Pokot,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),60.2
+West Pokot,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),21.2
+Samburu,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),18.8
+Samburu,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),8.7
+Trans Nzoia,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),70.6
+Trans Nzoia,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),38.4
+Uasin Gishu,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),72
+Uasin Gishu,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),49.7
+Elgeyo Marakwet,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),21.9
+Elgeyo Marakwet,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),10.1
+Nandi,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),78.8
+Nandi,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),41.9
+Baringo,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),59.8
+Baringo,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),32.8
+Laikipia,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),17.5
+Laikipia,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),10.6
+Nakuru,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),37.7
+Nakuru,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),22.7
+Narok,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),52.2
+Narok,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),25.4
+Kajiado,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),49.8
+Kajiado,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),33.3
+Kericho,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),79.5
+Kericho,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),45.4
+Bomet,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),77.6
+Bomet,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),46.8
+Kakamega,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),78.8
+Kakamega,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),47
+Vihiga,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),82.9
+Vihiga,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),44.9
+Bungoma,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),82.9
+Bungoma,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),41.7
+Busia,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),83.9
+Busia,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),48.8
+Siaya,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),78.8
+Siaya,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),41.6
+Kisumu,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),87.6
+Kisumu,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),52.6
+Homa Bay,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),74.3
+Homa Bay,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),37.5
+Migori,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),74.6
+Migori,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),30.3
+Kisii,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),86.1
+Kisii,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),54.4
+Nyamira,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),84.5
+Nyamira,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),57.1
+Nairobi,Households with >=1 ITN,2014,Household possession of ITNs,Proportion (2014),43.3
+Nairobi,"Households with >=1 ITN
+per 2 people",2014,Household possession of ITNs,Proportion (2014),28.5
+Mombasa,BCG,2014,Vaccination,Proportion (2014),100
+Mombasa,DPT1,2014,Vaccination,Proportion (2014),100
+Mombasa,DPT2,2014,Vaccination,Proportion (2014),98.3
+Mombasa,DPT3,2014,Vaccination,Proportion (2014),95.6
+Mombasa,OPV,2014,Vaccination,Proportion (2014),78.9
+Mombasa,OPV1,2014,Vaccination,Proportion (2014),100
+Mombasa,OPV2,2014,Vaccination,Proportion (2014),98.3
+Mombasa,OPV3,2014,Vaccination,Proportion (2014),93.8
+Mombasa,FULL_VACCINATION,2014,Vaccination,Proportion (2014),78.6
+Kwale,BCG,2014,Vaccination,Proportion (2014),98.6
+Kwale,DPT1,2014,Vaccination,Proportion (2014),96.7
+Kwale,DPT2,2014,Vaccination,Proportion (2014),96.7
+Kwale,DPT3,2014,Vaccination,Proportion (2014),95.1
+Kwale,OPV,2014,Vaccination,Proportion (2014),73.5
+Kwale,OPV1,2014,Vaccination,Proportion (2014),99.4
+Kwale,OPV2,2014,Vaccination,Proportion (2014),95.9
+Kwale,OPV3,2014,Vaccination,Proportion (2014),94.6
+Kwale,FULL_VACCINATION,2014,Vaccination,Proportion (2014),84.5
+Kilifi,BCG,2014,Vaccination,Proportion (2014),94.3
+Kilifi,DPT1,2014,Vaccination,Proportion (2014),95.3
+Kilifi,DPT2,2014,Vaccination,Proportion (2014),95.3
+Kilifi,DPT3,2014,Vaccination,Proportion (2014),87.5
+Kilifi,OPV,2014,Vaccination,Proportion (2014),81.9
+Kilifi,OPV1,2014,Vaccination,Proportion (2014),96.2
+Kilifi,OPV2,2014,Vaccination,Proportion (2014),95.8
+Kilifi,OPV3,2014,Vaccination,Proportion (2014),88.8
+Kilifi,FULL_VACCINATION,2014,Vaccination,Proportion (2014),74.1
+Tana River,BCG,2014,Vaccination,Proportion (2014),97.1
+Tana River,DPT1,2014,Vaccination,Proportion (2014),97.1
+Tana River,DPT2,2014,Vaccination,Proportion (2014),95
+Tana River,DPT3,2014,Vaccination,Proportion (2014),89.9
+Tana River,OPV,2014,Vaccination,Proportion (2014),41.8
+Tana River,OPV1,2014,Vaccination,Proportion (2014),97.1
+Tana River,OPV2,2014,Vaccination,Proportion (2014),93.8
+Tana River,OPV3,2014,Vaccination,Proportion (2014),89.4
+Tana River,FULL_VACCINATION,2014,Vaccination,Proportion (2014),70.2
+Lamu,BCG,2014,Vaccination,Proportion (2014),94.2
+Lamu,DPT1,2014,Vaccination,Proportion (2014),99.3
+Lamu,DPT2,2014,Vaccination,Proportion (2014),97
+Lamu,DPT3,2014,Vaccination,Proportion (2014),84.7
+Lamu,OPV,2014,Vaccination,Proportion (2014),62.1
+Lamu,OPV1,2014,Vaccination,Proportion (2014),100
+Lamu,OPV2,2014,Vaccination,Proportion (2014),97.7
+Lamu,OPV3,2014,Vaccination,Proportion (2014),94.2
+Lamu,FULL_VACCINATION,2014,Vaccination,Proportion (2014),67.4
+Taita Taveta,BCG,2014,Vaccination,Proportion (2014),98.4
+Taita Taveta,DPT1,2014,Vaccination,Proportion (2014),98.4
+Taita Taveta,DPT2,2014,Vaccination,Proportion (2014),98.4
+Taita Taveta,DPT3,2014,Vaccination,Proportion (2014),97.5
+Taita Taveta,OPV,2014,Vaccination,Proportion (2014),87.1
+Taita Taveta,OPV1,2014,Vaccination,Proportion (2014),100
+Taita Taveta,OPV2,2014,Vaccination,Proportion (2014),100
+Taita Taveta,OPV3,2014,Vaccination,Proportion (2014),97.5
+Taita Taveta,FULL_VACCINATION,2014,Vaccination,Proportion (2014),88.8
+Garissa,BCG,2014,Vaccination,Proportion (2014),80.3
+Garissa,DPT1,2014,Vaccination,Proportion (2014),94.4
+Garissa,DPT2,2014,Vaccination,Proportion (2014),93.9
+Garissa,DPT3,2014,Vaccination,Proportion (2014),91.6
+Garissa,OPV,2014,Vaccination,Proportion (2014),49.8
+Garissa,OPV1,2014,Vaccination,Proportion (2014),94.4
+Garissa,OPV2,2014,Vaccination,Proportion (2014),88.2
+Garissa,OPV3,2014,Vaccination,Proportion (2014),84.1
+Garissa,FULL_VACCINATION,2014,Vaccination,Proportion (2014),57.9
+Wajir,BCG,2014,Vaccination,Proportion (2014),91
+Wajir,DPT1,2014,Vaccination,Proportion (2014),90.8
+Wajir,DPT2,2014,Vaccination,Proportion (2014),86.2
+Wajir,DPT3,2014,Vaccination,Proportion (2014),79.1
+Wajir,OPV,2014,Vaccination,Proportion (2014),39.2
+Wajir,OPV1,2014,Vaccination,Proportion (2014),91.7
+Wajir,OPV2,2014,Vaccination,Proportion (2014),87.4
+Wajir,OPV3,2014,Vaccination,Proportion (2014),77
+Wajir,FULL_VACCINATION,2014,Vaccination,Proportion (2014),49.5
+Mandera,BCG,2014,Vaccination,Proportion (2014),71.8
+Mandera,DPT1,2014,Vaccination,Proportion (2014),68.3
+Mandera,DPT2,2014,Vaccination,Proportion (2014),56.5
+Mandera,DPT3,2014,Vaccination,Proportion (2014),48.8
+Mandera,OPV,2014,Vaccination,Proportion (2014),31.3
+Mandera,OPV1,2014,Vaccination,Proportion (2014),71.8
+Mandera,OPV2,2014,Vaccination,Proportion (2014),60.1
+Mandera,OPV3,2014,Vaccination,Proportion (2014),52.3
+Mandera,FULL_VACCINATION,2014,Vaccination,Proportion (2014),42.7
+Marsabit,BCG,2014,Vaccination,Proportion (2014),92.6
+Marsabit,DPT1,2014,Vaccination,Proportion (2014),96.4
+Marsabit,DPT2,2014,Vaccination,Proportion (2014),93.4
+Marsabit,DPT3,2014,Vaccination,Proportion (2014),85.7
+Marsabit,OPV,2014,Vaccination,Proportion (2014),41.2
+Marsabit,OPV1,2014,Vaccination,Proportion (2014),99
+Marsabit,OPV2,2014,Vaccination,Proportion (2014),95.6
+Marsabit,OPV3,2014,Vaccination,Proportion (2014),88.3
+Marsabit,FULL_VACCINATION,2014,Vaccination,Proportion (2014),67.5
+Isiolo,BCG,2014,Vaccination,Proportion (2014),96.4
+Isiolo,DPT1,2014,Vaccination,Proportion (2014),98.6
+Isiolo,DPT2,2014,Vaccination,Proportion (2014),96.5
+Isiolo,DPT3,2014,Vaccination,Proportion (2014),94.4
+Isiolo,OPV,2014,Vaccination,Proportion (2014),72
+Isiolo,OPV1,2014,Vaccination,Proportion (2014),98.6
+Isiolo,OPV2,2014,Vaccination,Proportion (2014),95.9
+Isiolo,OPV3,2014,Vaccination,Proportion (2014),93.7
+Isiolo,FULL_VACCINATION,2014,Vaccination,Proportion (2014),82.3
+Meru,BCG,2014,Vaccination,Proportion (2014),99.2
+Meru,DPT1,2014,Vaccination,Proportion (2014),100
+Meru,DPT2,2014,Vaccination,Proportion (2014),100
+Meru,DPT3,2014,Vaccination,Proportion (2014),93.6
+Meru,OPV,2014,Vaccination,Proportion (2014),69
+Meru,OPV1,2014,Vaccination,Proportion (2014),100
+Meru,OPV2,2014,Vaccination,Proportion (2014),100
+Meru,OPV3,2014,Vaccination,Proportion (2014),92.4
+Meru,FULL_VACCINATION,2014,Vaccination,Proportion (2014),83.9
+Tharaka Nithi,BCG,2014,Vaccination,Proportion (2014),100
+Tharaka Nithi,DPT1,2014,Vaccination,Proportion (2014),98.3
+Tharaka Nithi,DPT2,2014,Vaccination,Proportion (2014),98.3
+Tharaka Nithi,DPT3,2014,Vaccination,Proportion (2014),96.8
+Tharaka Nithi,OPV,2014,Vaccination,Proportion (2014),95.3
+Tharaka Nithi,OPV1,2014,Vaccination,Proportion (2014),100
+Tharaka Nithi,OPV2,2014,Vaccination,Proportion (2014),100
+Tharaka Nithi,OPV3,2014,Vaccination,Proportion (2014),98.3
+Tharaka Nithi,FULL_VACCINATION,2014,Vaccination,Proportion (2014),95.3
+Embu,BCG,2014,Vaccination,Proportion (2014),100
+Embu,DPT1,2014,Vaccination,Proportion (2014),100
+Embu,DPT2,2014,Vaccination,Proportion (2014),100
+Embu,DPT3,2014,Vaccination,Proportion (2014),99.2
+Embu,OPV,2014,Vaccination,Proportion (2014),89.9
+Embu,OPV1,2014,Vaccination,Proportion (2014),100
+Embu,OPV2,2014,Vaccination,Proportion (2014),100
+Embu,OPV3,2014,Vaccination,Proportion (2014),92.7
+Embu,FULL_VACCINATION,2014,Vaccination,Proportion (2014),85.5
+Kitui,BCG,2014,Vaccination,Proportion (2014),96.1
+Kitui,DPT1,2014,Vaccination,Proportion (2014),96.1
+Kitui,DPT2,2014,Vaccination,Proportion (2014),93.1
+Kitui,DPT3,2014,Vaccination,Proportion (2014),81.5
+Kitui,OPV,2014,Vaccination,Proportion (2014),42.7
+Kitui,OPV1,2014,Vaccination,Proportion (2014),97.7
+Kitui,OPV2,2014,Vaccination,Proportion (2014),93.1
+Kitui,OPV3,2014,Vaccination,Proportion (2014),81.9
+Kitui,FULL_VACCINATION,2014,Vaccination,Proportion (2014),56.8
+Machakos,BCG,2014,Vaccination,Proportion (2014),100
+Machakos,DPT1,2014,Vaccination,Proportion (2014),100
+Machakos,DPT2,2014,Vaccination,Proportion (2014),100
+Machakos,DPT3,2014,Vaccination,Proportion (2014),97.8
+Machakos,OPV,2014,Vaccination,Proportion (2014),86
+Machakos,OPV1,2014,Vaccination,Proportion (2014),98.4
+Machakos,OPV2,2014,Vaccination,Proportion (2014),98.4
+Machakos,OPV3,2014,Vaccination,Proportion (2014),96.2
+Machakos,FULL_VACCINATION,2014,Vaccination,Proportion (2014),90
+Makueni,BCG,2014,Vaccination,Proportion (2014),100
+Makueni,DPT1,2014,Vaccination,Proportion (2014),100
+Makueni,DPT2,2014,Vaccination,Proportion (2014),100
+Makueni,DPT3,2014,Vaccination,Proportion (2014),99.1
+Makueni,OPV,2014,Vaccination,Proportion (2014),75.6
+Makueni,OPV1,2014,Vaccination,Proportion (2014),100
+Makueni,OPV2,2014,Vaccination,Proportion (2014),96.2
+Makueni,OPV3,2014,Vaccination,Proportion (2014),95.3
+Makueni,FULL_VACCINATION,2014,Vaccination,Proportion (2014),89.7
+Nyandarua,BCG,2014,Vaccination,Proportion (2014),100
+Nyandarua,DPT1,2014,Vaccination,Proportion (2014),100
+Nyandarua,DPT2,2014,Vaccination,Proportion (2014),98.1
+Nyandarua,DPT3,2014,Vaccination,Proportion (2014),90.8
+Nyandarua,OPV,2014,Vaccination,Proportion (2014),84.9
+Nyandarua,OPV1,2014,Vaccination,Proportion (2014),100
+Nyandarua,OPV2,2014,Vaccination,Proportion (2014),98.1
+Nyandarua,OPV3,2014,Vaccination,Proportion (2014),94.6
+Nyandarua,FULL_VACCINATION,2014,Vaccination,Proportion (2014),81.4
+Nyeri,BCG,2014,Vaccination,Proportion (2014),98.7
+Nyeri,DPT1,2014,Vaccination,Proportion (2014),97.2
+Nyeri,DPT2,2014,Vaccination,Proportion (2014),97.2
+Nyeri,DPT3,2014,Vaccination,Proportion (2014),94.9
+Nyeri,OPV,2014,Vaccination,Proportion (2014),84.4
+Nyeri,OPV1,2014,Vaccination,Proportion (2014),100
+Nyeri,OPV2,2014,Vaccination,Proportion (2014),100
+Nyeri,OPV3,2014,Vaccination,Proportion (2014),95.1
+Nyeri,FULL_VACCINATION,2014,Vaccination,Proportion (2014),84.3
+Kirinyaga,BCG,2014,Vaccination,Proportion (2014),100
+Kirinyaga,DPT1,2014,Vaccination,Proportion (2014),100
+Kirinyaga,DPT2,2014,Vaccination,Proportion (2014),100
+Kirinyaga,DPT3,2014,Vaccination,Proportion (2014),100
+Kirinyaga,OPV,2014,Vaccination,Proportion (2014),60.3
+Kirinyaga,OPV1,2014,Vaccination,Proportion (2014),100
+Kirinyaga,OPV2,2014,Vaccination,Proportion (2014),100
+Kirinyaga,OPV3,2014,Vaccination,Proportion (2014),100
+Kirinyaga,FULL_VACCINATION,2014,Vaccination,Proportion (2014),92.3
+Muranga,BCG,2014,Vaccination,Proportion (2014),99
+Muranga,DPT1,2014,Vaccination,Proportion (2014),99
+Muranga,DPT2,2014,Vaccination,Proportion (2014),95.7
+Muranga,DPT3,2014,Vaccination,Proportion (2014),89.9
+Muranga,OPV,2014,Vaccination,Proportion (2014),78
+Muranga,OPV1,2014,Vaccination,Proportion (2014),99
+Muranga,OPV2,2014,Vaccination,Proportion (2014),95.7
+Muranga,OPV3,2014,Vaccination,Proportion (2014),89.9
+Muranga,FULL_VACCINATION,2014,Vaccination,Proportion (2014),86.4
+Kiambu,BCG,2014,Vaccination,Proportion (2014),100
+Kiambu,DPT1,2014,Vaccination,Proportion (2014),100
+Kiambu,DPT2,2014,Vaccination,Proportion (2014),100
+Kiambu,DPT3,2014,Vaccination,Proportion (2014),99
+Kiambu,OPV,2014,Vaccination,Proportion (2014),81.8
+Kiambu,OPV1,2014,Vaccination,Proportion (2014),100
+Kiambu,OPV2,2014,Vaccination,Proportion (2014),100
+Kiambu,OPV3,2014,Vaccination,Proportion (2014),99
+Kiambu,FULL_VACCINATION,2014,Vaccination,Proportion (2014),97.2
+Turkana,BCG,2014,Vaccination,Proportion (2014),94.5
+Turkana,DPT1,2014,Vaccination,Proportion (2014),94.4
+Turkana,DPT2,2014,Vaccination,Proportion (2014),91.5
+Turkana,DPT3,2014,Vaccination,Proportion (2014),86.2
+Turkana,OPV,2014,Vaccination,Proportion (2014),63.7
+Turkana,OPV1,2014,Vaccination,Proportion (2014),94.4
+Turkana,OPV2,2014,Vaccination,Proportion (2014),90.8
+Turkana,OPV3,2014,Vaccination,Proportion (2014),83.9
+Turkana,FULL_VACCINATION,2014,Vaccination,Proportion (2014),61.8
+West Pokot,BCG,2014,Vaccination,Proportion (2014),78.9
+West Pokot,DPT1,2014,Vaccination,Proportion (2014),86.4
+West Pokot,DPT2,2014,Vaccination,Proportion (2014),80.6
+West Pokot,DPT3,2014,Vaccination,Proportion (2014),68.3
+West Pokot,OPV,2014,Vaccination,Proportion (2014),35.3
+West Pokot,OPV1,2014,Vaccination,Proportion (2014),87.3
+West Pokot,OPV2,2014,Vaccination,Proportion (2014),78.6
+West Pokot,OPV3,2014,Vaccination,Proportion (2014),60.5
+West Pokot,FULL_VACCINATION,2014,Vaccination,Proportion (2014),31.2
+Samburu,BCG,2014,Vaccination,Proportion (2014),96.8
+Samburu,DPT1,2014,Vaccination,Proportion (2014),93.2
+Samburu,DPT2,2014,Vaccination,Proportion (2014),89.7
+Samburu,DPT3,2014,Vaccination,Proportion (2014),86.9
+Samburu,OPV,2014,Vaccination,Proportion (2014),48.4
+Samburu,OPV1,2014,Vaccination,Proportion (2014),96.6
+Samburu,OPV2,2014,Vaccination,Proportion (2014),92.6
+Samburu,OPV3,2014,Vaccination,Proportion (2014),87.9
+Samburu,FULL_VACCINATION,2014,Vaccination,Proportion (2014),64.1
+Trans Nzoia,BCG,2014,Vaccination,Proportion (2014),100
+Trans Nzoia,DPT1,2014,Vaccination,Proportion (2014),100
+Trans Nzoia,DPT2,2014,Vaccination,Proportion (2014),98.1
+Trans Nzoia,DPT3,2014,Vaccination,Proportion (2014),77.8
+Trans Nzoia,OPV,2014,Vaccination,Proportion (2014),56.8
+Trans Nzoia,OPV1,2014,Vaccination,Proportion (2014),100
+Trans Nzoia,OPV2,2014,Vaccination,Proportion (2014),98.3
+Trans Nzoia,OPV3,2014,Vaccination,Proportion (2014),89.8
+Trans Nzoia,FULL_VACCINATION,2014,Vaccination,Proportion (2014),63.9
+Uasin Gishu,BCG,2014,Vaccination,Proportion (2014),95.9
+Uasin Gishu,DPT1,2014,Vaccination,Proportion (2014),97.3
+Uasin Gishu,DPT2,2014,Vaccination,Proportion (2014),95.9
+Uasin Gishu,DPT3,2014,Vaccination,Proportion (2014),91.5
+Uasin Gishu,OPV,2014,Vaccination,Proportion (2014),54.3
+Uasin Gishu,OPV1,2014,Vaccination,Proportion (2014),95.9
+Uasin Gishu,OPV2,2014,Vaccination,Proportion (2014),94.6
+Uasin Gishu,OPV3,2014,Vaccination,Proportion (2014),90.2
+Uasin Gishu,FULL_VACCINATION,2014,Vaccination,Proportion (2014),72.3
+Elgeyo Marakwet,BCG,2014,Vaccination,Proportion (2014),100
+Elgeyo Marakwet,DPT1,2014,Vaccination,Proportion (2014),100
+Elgeyo Marakwet,DPT2,2014,Vaccination,Proportion (2014),97.9
+Elgeyo Marakwet,DPT3,2014,Vaccination,Proportion (2014),97.9
+Elgeyo Marakwet,OPV,2014,Vaccination,Proportion (2014),78.4
+Elgeyo Marakwet,OPV1,2014,Vaccination,Proportion (2014),99.4
+Elgeyo Marakwet,OPV2,2014,Vaccination,Proportion (2014),97.9
+Elgeyo Marakwet,OPV3,2014,Vaccination,Proportion (2014),95.3
+Elgeyo Marakwet,FULL_VACCINATION,2014,Vaccination,Proportion (2014),85.2
+Nandi,BCG,2014,Vaccination,Proportion (2014),99.4
+Nandi,DPT1,2014,Vaccination,Proportion (2014),100
+Nandi,DPT2,2014,Vaccination,Proportion (2014),100
+Nandi,DPT3,2014,Vaccination,Proportion (2014),99.4
+Nandi,OPV,2014,Vaccination,Proportion (2014),69.1
+Nandi,OPV1,2014,Vaccination,Proportion (2014),100
+Nandi,OPV2,2014,Vaccination,Proportion (2014),100
+Nandi,OPV3,2014,Vaccination,Proportion (2014),99.4
+Nandi,FULL_VACCINATION,2014,Vaccination,Proportion (2014),96.3
+Baringo,BCG,2014,Vaccination,Proportion (2014),100
+Baringo,DPT1,2014,Vaccination,Proportion (2014),100
+Baringo,DPT2,2014,Vaccination,Proportion (2014),98.3
+Baringo,DPT3,2014,Vaccination,Proportion (2014),94.5
+Baringo,OPV,2014,Vaccination,Proportion (2014),60.5
+Baringo,OPV1,2014,Vaccination,Proportion (2014),100
+Baringo,OPV2,2014,Vaccination,Proportion (2014),99
+Baringo,OPV3,2014,Vaccination,Proportion (2014),94.1
+Baringo,FULL_VACCINATION,2014,Vaccination,Proportion (2014),69.4
+Laikipia,BCG,2014,Vaccination,Proportion (2014),98.7
+Laikipia,DPT1,2014,Vaccination,Proportion (2014),98.7
+Laikipia,DPT2,2014,Vaccination,Proportion (2014),98.7
+Laikipia,DPT3,2014,Vaccination,Proportion (2014),89.7
+Laikipia,OPV,2014,Vaccination,Proportion (2014),72
+Laikipia,OPV1,2014,Vaccination,Proportion (2014),98.7
+Laikipia,OPV2,2014,Vaccination,Proportion (2014),96.3
+Laikipia,OPV3,2014,Vaccination,Proportion (2014),91.1
+Laikipia,FULL_VACCINATION,2014,Vaccination,Proportion (2014),79.3
+Nakuru,BCG,2014,Vaccination,Proportion (2014),97.2
+Nakuru,DPT1,2014,Vaccination,Proportion (2014),97.9
+Nakuru,DPT2,2014,Vaccination,Proportion (2014),96.1
+Nakuru,DPT3,2014,Vaccination,Proportion (2014),90.9
+Nakuru,OPV,2014,Vaccination,Proportion (2014),74.6
+Nakuru,OPV1,2014,Vaccination,Proportion (2014),97.9
+Nakuru,OPV2,2014,Vaccination,Proportion (2014),95.1
+Nakuru,OPV3,2014,Vaccination,Proportion (2014),90.4
+Nakuru,FULL_VACCINATION,2014,Vaccination,Proportion (2014),74.7
+Narok,BCG,2014,Vaccination,Proportion (2014),95
+Narok,DPT1,2014,Vaccination,Proportion (2014),96.3
+Narok,DPT2,2014,Vaccination,Proportion (2014),91.2
+Narok,DPT3,2014,Vaccination,Proportion (2014),83
+Narok,OPV,2014,Vaccination,Proportion (2014),37.6
+Narok,OPV1,2014,Vaccination,Proportion (2014),98.4
+Narok,OPV2,2014,Vaccination,Proportion (2014),95
+Narok,OPV3,2014,Vaccination,Proportion (2014),82.1
+Narok,FULL_VACCINATION,2014,Vaccination,Proportion (2014),58.5
+Kajiado,BCG,2014,Vaccination,Proportion (2014),97.7
+Kajiado,DPT1,2014,Vaccination,Proportion (2014),97
+Kajiado,DPT2,2014,Vaccination,Proportion (2014),92.4
+Kajiado,DPT3,2014,Vaccination,Proportion (2014),79.1
+Kajiado,OPV,2014,Vaccination,Proportion (2014),51.9
+Kajiado,OPV1,2014,Vaccination,Proportion (2014),96.2
+Kajiado,OPV2,2014,Vaccination,Proportion (2014),87.6
+Kajiado,OPV3,2014,Vaccination,Proportion (2014),68.5
+Kajiado,FULL_VACCINATION,2014,Vaccination,Proportion (2014),56.4
+Kericho,BCG,2014,Vaccination,Proportion (2014),100
+Kericho,DPT1,2014,Vaccination,Proportion (2014),100
+Kericho,DPT2,2014,Vaccination,Proportion (2014),100
+Kericho,DPT3,2014,Vaccination,Proportion (2014),95.7
+Kericho,OPV,2014,Vaccination,Proportion (2014),81
+Kericho,OPV1,2014,Vaccination,Proportion (2014),100
+Kericho,OPV2,2014,Vaccination,Proportion (2014),100
+Kericho,OPV3,2014,Vaccination,Proportion (2014),93
+Kericho,FULL_VACCINATION,2014,Vaccination,Proportion (2014),71.8
+Bomet,BCG,2014,Vaccination,Proportion (2014),100
+Bomet,DPT1,2014,Vaccination,Proportion (2014),100
+Bomet,DPT2,2014,Vaccination,Proportion (2014),99.2
+Bomet,DPT3,2014,Vaccination,Proportion (2014),98
+Bomet,OPV,2014,Vaccination,Proportion (2014),62.4
+Bomet,OPV1,2014,Vaccination,Proportion (2014),100
+Bomet,OPV2,2014,Vaccination,Proportion (2014),100
+Bomet,OPV3,2014,Vaccination,Proportion (2014),95.6
+Bomet,FULL_VACCINATION,2014,Vaccination,Proportion (2014),81.3
+Kakamega,BCG,2014,Vaccination,Proportion (2014),94.9
+Kakamega,DPT1,2014,Vaccination,Proportion (2014),98.9
+Kakamega,DPT2,2014,Vaccination,Proportion (2014),94.9
+Kakamega,DPT3,2014,Vaccination,Proportion (2014),89.5
+Kakamega,OPV,2014,Vaccination,Proportion (2014),43.4
+Kakamega,OPV1,2014,Vaccination,Proportion (2014),98.9
+Kakamega,OPV2,2014,Vaccination,Proportion (2014),94.9
+Kakamega,OPV3,2014,Vaccination,Proportion (2014),89.5
+Kakamega,FULL_VACCINATION,2014,Vaccination,Proportion (2014),73.1
+Vihiga,BCG,2014,Vaccination,Proportion (2014),98.3
+Vihiga,DPT1,2014,Vaccination,Proportion (2014),98.3
+Vihiga,DPT2,2014,Vaccination,Proportion (2014),98.3
+Vihiga,DPT3,2014,Vaccination,Proportion (2014),97
+Vihiga,OPV,2014,Vaccination,Proportion (2014),75
+Vihiga,OPV1,2014,Vaccination,Proportion (2014),98.3
+Vihiga,OPV2,2014,Vaccination,Proportion (2014),98.3
+Vihiga,OPV3,2014,Vaccination,Proportion (2014),94.4
+Vihiga,FULL_VACCINATION,2014,Vaccination,Proportion (2014),94.4
+Bungoma,BCG,2014,Vaccination,Proportion (2014),95.3
+Bungoma,DPT1,2014,Vaccination,Proportion (2014),95
+Bungoma,DPT2,2014,Vaccination,Proportion (2014),95
+Bungoma,DPT3,2014,Vaccination,Proportion (2014),88.9
+Bungoma,OPV,2014,Vaccination,Proportion (2014),51.3
+Bungoma,OPV1,2014,Vaccination,Proportion (2014),96.2
+Bungoma,OPV2,2014,Vaccination,Proportion (2014),95.7
+Bungoma,OPV3,2014,Vaccination,Proportion (2014),90.5
+Bungoma,FULL_VACCINATION,2014,Vaccination,Proportion (2014),75.9
+Busia,BCG,2014,Vaccination,Proportion (2014),98
+Busia,DPT1,2014,Vaccination,Proportion (2014),96.9
+Busia,DPT2,2014,Vaccination,Proportion (2014),95.3
+Busia,DPT3,2014,Vaccination,Proportion (2014),90.4
+Busia,OPV,2014,Vaccination,Proportion (2014),54.1
+Busia,OPV1,2014,Vaccination,Proportion (2014),100
+Busia,OPV2,2014,Vaccination,Proportion (2014),98.4
+Busia,OPV3,2014,Vaccination,Proportion (2014),94.1
+Busia,FULL_VACCINATION,2014,Vaccination,Proportion (2014),80.4
+Siaya,BCG,2014,Vaccination,Proportion (2014),98.4
+Siaya,DPT1,2014,Vaccination,Proportion (2014),100
+Siaya,DPT2,2014,Vaccination,Proportion (2014),100
+Siaya,DPT3,2014,Vaccination,Proportion (2014),93.9
+Siaya,OPV,2014,Vaccination,Proportion (2014),78.6
+Siaya,OPV1,2014,Vaccination,Proportion (2014),100
+Siaya,OPV2,2014,Vaccination,Proportion (2014),100
+Siaya,OPV3,2014,Vaccination,Proportion (2014),91.9
+Siaya,FULL_VACCINATION,2014,Vaccination,Proportion (2014),78
+Kisumu,BCG,2014,Vaccination,Proportion (2014),97.2
+Kisumu,DPT1,2014,Vaccination,Proportion (2014),97.6
+Kisumu,DPT2,2014,Vaccination,Proportion (2014),97.6
+Kisumu,DPT3,2014,Vaccination,Proportion (2014),87
+Kisumu,OPV,2014,Vaccination,Proportion (2014),76.3
+Kisumu,OPV1,2014,Vaccination,Proportion (2014),97.6
+Kisumu,OPV2,2014,Vaccination,Proportion (2014),96.4
+Kisumu,OPV3,2014,Vaccination,Proportion (2014),87.7
+Kisumu,FULL_VACCINATION,2014,Vaccination,Proportion (2014),78.9
+Homa Bay,BCG,2014,Vaccination,Proportion (2014),94.5
+Homa Bay,DPT1,2014,Vaccination,Proportion (2014),97.9
+Homa Bay,DPT2,2014,Vaccination,Proportion (2014),97.2
+Homa Bay,DPT3,2014,Vaccination,Proportion (2014),82.3
+Homa Bay,OPV,2014,Vaccination,Proportion (2014),64.8
+Homa Bay,OPV1,2014,Vaccination,Proportion (2014),97.9
+Homa Bay,OPV2,2014,Vaccination,Proportion (2014),95.3
+Homa Bay,OPV3,2014,Vaccination,Proportion (2014),84.7
+Homa Bay,FULL_VACCINATION,2014,Vaccination,Proportion (2014),64.4
+Migori,BCG,2014,Vaccination,Proportion (2014),87.6
+Migori,DPT1,2014,Vaccination,Proportion (2014),99.6
+Migori,DPT2,2014,Vaccination,Proportion (2014),97.7
+Migori,DPT3,2014,Vaccination,Proportion (2014),89.9
+Migori,OPV,2014,Vaccination,Proportion (2014),39.9
+Migori,OPV1,2014,Vaccination,Proportion (2014),98.9
+Migori,OPV2,2014,Vaccination,Proportion (2014),96.9
+Migori,OPV3,2014,Vaccination,Proportion (2014),92.4
+Migori,FULL_VACCINATION,2014,Vaccination,Proportion (2014),57.2
+Kisii,BCG,2014,Vaccination,Proportion (2014),100
+Kisii,DPT1,2014,Vaccination,Proportion (2014),97.8
+Kisii,DPT2,2014,Vaccination,Proportion (2014),97.8
+Kisii,DPT3,2014,Vaccination,Proportion (2014),95.3
+Kisii,OPV,2014,Vaccination,Proportion (2014),90.5
+Kisii,OPV1,2014,Vaccination,Proportion (2014),99.1
+Kisii,OPV2,2014,Vaccination,Proportion (2014),99.1
+Kisii,OPV3,2014,Vaccination,Proportion (2014),97.2
+Kisii,FULL_VACCINATION,2014,Vaccination,Proportion (2014),82.2
+Nyamira,BCG,2014,Vaccination,Proportion (2014),99
+Nyamira,DPT1,2014,Vaccination,Proportion (2014),99
+Nyamira,DPT2,2014,Vaccination,Proportion (2014),99
+Nyamira,DPT3,2014,Vaccination,Proportion (2014),97.6
+Nyamira,OPV,2014,Vaccination,Proportion (2014),88
+Nyamira,OPV1,2014,Vaccination,Proportion (2014),100
+Nyamira,OPV2,2014,Vaccination,Proportion (2014),100
+Nyamira,OPV3,2014,Vaccination,Proportion (2014),97
+Nyamira,FULL_VACCINATION,2014,Vaccination,Proportion (2014),92.1
+Nairobi,BCG,2014,Vaccination,Proportion (2014),97.6
+Nairobi,DPT1,2014,Vaccination,Proportion (2014),97.3
+Nairobi,DPT2,2014,Vaccination,Proportion (2014),93.6
+Nairobi,DPT3,2014,Vaccination,Proportion (2014),88
+Nairobi,OPV,2014,Vaccination,Proportion (2014),71.4
+Nairobi,OPV1,2014,Vaccination,Proportion (2014),98.3
+Nairobi,OPV2,2014,Vaccination,Proportion (2014),96.9
+Nairobi,OPV3,2014,Vaccination,Proportion (2014),91.3
+Nairobi,FULL_VACCINATION,2014,Vaccination,Proportion (2014),74.4
+Mombasa,BCG,2022,Vaccination,Proportion (2022),98.6
+Mombasa,BCG,2022,Vaccination,Percentage change,-1.4
+Mombasa,DPT1,2022,Vaccination,Proportion (2022),100
+Mombasa,DPT1,2022,Vaccination,Percentage change,0
+Mombasa,DPT2,2022,Vaccination,Proportion (2022),99.1
+Mombasa,DPT2,2022,Vaccination,Percentage change,0.8
+Mombasa,DPT3,2022,Vaccination,Proportion (2022),97.4
+Mombasa,DPT3,2022,Vaccination,Percentage change,1.8
+Mombasa,OPV,2022,Vaccination,Proportion (2022),94.5
+Mombasa,OPV,2022,Vaccination,Percentage change,16.5
+Mombasa,OPV1,2022,Vaccination,Proportion (2022),100
+Mombasa,OPV1,2022,Vaccination,Percentage change,0
+Mombasa,OPV2,2022,Vaccination,Proportion (2022),99.1
+Mombasa,OPV2,2022,Vaccination,Percentage change,0.8
+Mombasa,OPV3,2022,Vaccination,Proportion (2022),85.9
+Mombasa,OPV3,2022,Vaccination,Percentage change,-9.2
+Mombasa,FULL_VACCINATION,2022,Vaccination,Proportion (2022),70.4
+Mombasa,FULL_VACCINATION,2022,Vaccination,Percentage change,-11.6
+Kwale,BCG,2022,Vaccination,Proportion (2022),96.1
+Kwale,BCG,2022,Vaccination,Percentage change,-2.6
+Kwale,DPT1,2022,Vaccination,Proportion (2022),96.7
+Kwale,DPT1,2022,Vaccination,Percentage change,0
+Kwale,DPT2,2022,Vaccination,Proportion (2022),94
+Kwale,DPT2,2022,Vaccination,Percentage change,-2.9
+Kwale,DPT3,2022,Vaccination,Proportion (2022),82.5
+Kwale,DPT3,2022,Vaccination,Percentage change,-15.3
+Kwale,OPV,2022,Vaccination,Proportion (2022),85.9
+Kwale,OPV,2022,Vaccination,Percentage change,14.4
+Kwale,OPV1,2022,Vaccination,Proportion (2022),96.7
+Kwale,OPV1,2022,Vaccination,Percentage change,-2.8
+Kwale,OPV2,2022,Vaccination,Proportion (2022),96.7
+Kwale,OPV2,2022,Vaccination,Percentage change,0.8
+Kwale,OPV3,2022,Vaccination,Proportion (2022),77.4
+Kwale,OPV3,2022,Vaccination,Percentage change,-22.2
+Kwale,FULL_VACCINATION,2022,Vaccination,Proportion (2022),50.1
+Kwale,FULL_VACCINATION,2022,Vaccination,Percentage change,-68.7
+Kilifi,BCG,2022,Vaccination,Proportion (2022),100
+Kilifi,BCG,2022,Vaccination,Percentage change,5.7
+Kilifi,DPT1,2022,Vaccination,Proportion (2022),100
+Kilifi,DPT1,2022,Vaccination,Percentage change,4.7
+Kilifi,DPT2,2022,Vaccination,Proportion (2022),98.2
+Kilifi,DPT2,2022,Vaccination,Percentage change,3
+Kilifi,DPT3,2022,Vaccination,Proportion (2022),93.7
+Kilifi,DPT3,2022,Vaccination,Percentage change,6.6
+Kilifi,OPV,2022,Vaccination,Proportion (2022),92.9
+Kilifi,OPV,2022,Vaccination,Percentage change,11.8
+Kilifi,OPV1,2022,Vaccination,Proportion (2022),99.3
+Kilifi,OPV1,2022,Vaccination,Percentage change,3.1
+Kilifi,OPV2,2022,Vaccination,Proportion (2022),97.5
+Kilifi,OPV2,2022,Vaccination,Percentage change,1.7
+Kilifi,OPV3,2022,Vaccination,Proportion (2022),78.6
+Kilifi,OPV3,2022,Vaccination,Percentage change,-13
+Kilifi,FULL_VACCINATION,2022,Vaccination,Proportion (2022),62.5
+Kilifi,FULL_VACCINATION,2022,Vaccination,Percentage change,-18.6
+Tana River,BCG,2022,Vaccination,Proportion (2022),94.6
+Tana River,BCG,2022,Vaccination,Percentage change,-2.6
+Tana River,DPT1,2022,Vaccination,Proportion (2022),93.5
+Tana River,DPT1,2022,Vaccination,Percentage change,-3.9
+Tana River,DPT2,2022,Vaccination,Proportion (2022),88.7
+Tana River,DPT2,2022,Vaccination,Percentage change,-7.1
+Tana River,DPT3,2022,Vaccination,Proportion (2022),80.8
+Tana River,DPT3,2022,Vaccination,Percentage change,-11.3
+Tana River,OPV,2022,Vaccination,Proportion (2022),80.1
+Tana River,OPV,2022,Vaccination,Percentage change,47.8
+Tana River,OPV1,2022,Vaccination,Proportion (2022),93.4
+Tana River,OPV1,2022,Vaccination,Percentage change,-4
+Tana River,OPV2,2022,Vaccination,Proportion (2022),85.8
+Tana River,OPV2,2022,Vaccination,Percentage change,-9.3
+Tana River,OPV3,2022,Vaccination,Proportion (2022),68.5
+Tana River,OPV3,2022,Vaccination,Percentage change,-30.5
+Tana River,FULL_VACCINATION,2022,Vaccination,Proportion (2022),39.2
+Tana River,FULL_VACCINATION,2022,Vaccination,Percentage change,-79.1
+Lamu,BCG,2022,Vaccination,Proportion (2022),98.6
+Lamu,BCG,2022,Vaccination,Percentage change,4.5
+Lamu,DPT1,2022,Vaccination,Proportion (2022),100
+Lamu,DPT1,2022,Vaccination,Percentage change,0.7
+Lamu,DPT2,2022,Vaccination,Proportion (2022),97.2
+Lamu,DPT2,2022,Vaccination,Percentage change,0.2
+Lamu,DPT3,2022,Vaccination,Proportion (2022),85.1
+Lamu,DPT3,2022,Vaccination,Percentage change,0.5
+Lamu,OPV,2022,Vaccination,Proportion (2022),93.7
+Lamu,OPV,2022,Vaccination,Percentage change,33.7
+Lamu,OPV1,2022,Vaccination,Proportion (2022),99
+Lamu,OPV1,2022,Vaccination,Percentage change,-1
+Lamu,OPV2,2022,Vaccination,Proportion (2022),98.2
+Lamu,OPV2,2022,Vaccination,Percentage change,0.5
+Lamu,OPV3,2022,Vaccination,Proportion (2022),76.5
+Lamu,OPV3,2022,Vaccination,Percentage change,-23.1
+Lamu,FULL_VACCINATION,2022,Vaccination,Proportion (2022),54.2
+Lamu,FULL_VACCINATION,2022,Vaccination,Percentage change,-24.4
+Taita Taveta,BCG,2022,Vaccination,Proportion (2022),98.4
+Taita Taveta,BCG,2022,Vaccination,Percentage change,0
+Taita Taveta,DPT1,2022,Vaccination,Proportion (2022),98.4
+Taita Taveta,DPT1,2022,Vaccination,Percentage change,0
+Taita Taveta,DPT2,2022,Vaccination,Proportion (2022),95.5
+Taita Taveta,DPT2,2022,Vaccination,Percentage change,-3
+Taita Taveta,DPT3,2022,Vaccination,Proportion (2022),85.8
+Taita Taveta,DPT3,2022,Vaccination,Percentage change,-13.6
+Taita Taveta,OPV,2022,Vaccination,Proportion (2022),94.9
+Taita Taveta,OPV,2022,Vaccination,Percentage change,8.2
+Taita Taveta,OPV1,2022,Vaccination,Proportion (2022),97.4
+Taita Taveta,OPV1,2022,Vaccination,Percentage change,-2.7
+Taita Taveta,OPV2,2022,Vaccination,Proportion (2022),95.4
+Taita Taveta,OPV2,2022,Vaccination,Percentage change,-4.8
+Taita Taveta,OPV3,2022,Vaccination,Proportion (2022),81.3
+Taita Taveta,OPV3,2022,Vaccination,Percentage change,-19.9
+Taita Taveta,FULL_VACCINATION,2022,Vaccination,Proportion (2022),65.4
+Taita Taveta,FULL_VACCINATION,2022,Vaccination,Percentage change,-35.8
+Garissa,BCG,2022,Vaccination,Proportion (2022),63.2
+Garissa,BCG,2022,Vaccination,Percentage change,-27.1
+Garissa,DPT1,2022,Vaccination,Proportion (2022),63.3
+Garissa,DPT1,2022,Vaccination,Percentage change,-49.1
+Garissa,DPT2,2022,Vaccination,Proportion (2022),40.8
+Garissa,DPT2,2022,Vaccination,Percentage change,-130.1
+Garissa,DPT3,2022,Vaccination,Proportion (2022),36.4
+Garissa,DPT3,2022,Vaccination,Percentage change,-151.6
+Garissa,OPV,2022,Vaccination,Proportion (2022),51.5
+Garissa,OPV,2022,Vaccination,Percentage change,3.3
+Garissa,OPV1,2022,Vaccination,Proportion (2022),63
+Garissa,OPV1,2022,Vaccination,Percentage change,-49.8
+Garissa,OPV2,2022,Vaccination,Proportion (2022),56
+Garissa,OPV2,2022,Vaccination,Percentage change,-57.5
+Garissa,OPV3,2022,Vaccination,Proportion (2022),35.2
+Garissa,OPV3,2022,Vaccination,Percentage change,-138.9
+Garissa,FULL_VACCINATION,2022,Vaccination,Proportion (2022),16.9
+Garissa,FULL_VACCINATION,2022,Vaccination,Percentage change,-242.6
+Wajir,BCG,2022,Vaccination,Proportion (2022),94.7
+Wajir,BCG,2022,Vaccination,Percentage change,3.9
+Wajir,DPT1,2022,Vaccination,Proportion (2022),94.6
+Wajir,DPT1,2022,Vaccination,Percentage change,4
+Wajir,DPT2,2022,Vaccination,Proportion (2022),83.3
+Wajir,DPT2,2022,Vaccination,Percentage change,-3.5
+Wajir,DPT3,2022,Vaccination,Proportion (2022),66.5
+Wajir,DPT3,2022,Vaccination,Percentage change,-18.9
+Wajir,OPV,2022,Vaccination,Proportion (2022),47.9
+Wajir,OPV,2022,Vaccination,Percentage change,18.2
+Wajir,OPV1,2022,Vaccination,Proportion (2022),93.7
+Wajir,OPV1,2022,Vaccination,Percentage change,2.1
+Wajir,OPV2,2022,Vaccination,Proportion (2022),81.1
+Wajir,OPV2,2022,Vaccination,Percentage change,-7.8
+Wajir,OPV3,2022,Vaccination,Proportion (2022),58
+Wajir,OPV3,2022,Vaccination,Percentage change,-32.8
+Wajir,FULL_VACCINATION,2022,Vaccination,Proportion (2022),19.2
+Wajir,FULL_VACCINATION,2022,Vaccination,Percentage change,-157.8
+Mandera,BCG,2022,Vaccination,Proportion (2022),63.2
+Mandera,BCG,2022,Vaccination,Percentage change,-13.6
+Mandera,DPT1,2022,Vaccination,Proportion (2022),63.8
+Mandera,DPT1,2022,Vaccination,Percentage change,-7.1
+Mandera,DPT2,2022,Vaccination,Proportion (2022),52.2
+Mandera,DPT2,2022,Vaccination,Percentage change,-8.2
+Mandera,DPT3,2022,Vaccination,Proportion (2022),43.8
+Mandera,DPT3,2022,Vaccination,Percentage change,-11.4
+Mandera,OPV,2022,Vaccination,Proportion (2022),35.1
+Mandera,OPV,2022,Vaccination,Percentage change,10.8
+Mandera,OPV1,2022,Vaccination,Proportion (2022),62
+Mandera,OPV1,2022,Vaccination,Percentage change,-15.8
+Mandera,OPV2,2022,Vaccination,Proportion (2022),59.2
+Mandera,OPV2,2022,Vaccination,Percentage change,-1.5
+Mandera,OPV3,2022,Vaccination,Proportion (2022),38.9
+Mandera,OPV3,2022,Vaccination,Percentage change,-34.4
+Mandera,FULL_VACCINATION,2022,Vaccination,Proportion (2022),5.6
+Mandera,FULL_VACCINATION,2022,Vaccination,Percentage change,-662.5
+Marsabit,BCG,2022,Vaccination,Proportion (2022),94.8
+Marsabit,BCG,2022,Vaccination,Percentage change,2.3
+Marsabit,DPT1,2022,Vaccination,Proportion (2022),93.2
+Marsabit,DPT1,2022,Vaccination,Percentage change,-3.4
+Marsabit,DPT2,2022,Vaccination,Proportion (2022),89.7
+Marsabit,DPT2,2022,Vaccination,Percentage change,-4.1
+Marsabit,DPT3,2022,Vaccination,Proportion (2022),84.7
+Marsabit,DPT3,2022,Vaccination,Percentage change,-1.2
+Marsabit,OPV,2022,Vaccination,Proportion (2022),75.9
+Marsabit,OPV,2022,Vaccination,Percentage change,45.7
+Marsabit,OPV1,2022,Vaccination,Proportion (2022),92.1
+Marsabit,OPV1,2022,Vaccination,Percentage change,-7.5
+Marsabit,OPV2,2022,Vaccination,Proportion (2022),86.3
+Marsabit,OPV2,2022,Vaccination,Percentage change,-10.8
+Marsabit,OPV3,2022,Vaccination,Proportion (2022),52.9
+Marsabit,OPV3,2022,Vaccination,Percentage change,-66.9
+Marsabit,FULL_VACCINATION,2022,Vaccination,Proportion (2022),19.3
+Marsabit,FULL_VACCINATION,2022,Vaccination,Percentage change,-249.7
+Isiolo,BCG,2022,Vaccination,Proportion (2022),97.1
+Isiolo,BCG,2022,Vaccination,Percentage change,0.7
+Isiolo,DPT1,2022,Vaccination,Proportion (2022),96.8
+Isiolo,DPT1,2022,Vaccination,Percentage change,-1.9
+Isiolo,DPT2,2022,Vaccination,Proportion (2022),94.2
+Isiolo,DPT2,2022,Vaccination,Percentage change,-2.4
+Isiolo,DPT3,2022,Vaccination,Proportion (2022),88.7
+Isiolo,DPT3,2022,Vaccination,Percentage change,-6.4
+Isiolo,OPV,2022,Vaccination,Proportion (2022),84.3
+Isiolo,OPV,2022,Vaccination,Percentage change,14.6
+Isiolo,OPV1,2022,Vaccination,Proportion (2022),86.7
+Isiolo,OPV1,2022,Vaccination,Percentage change,-13.7
+Isiolo,OPV2,2022,Vaccination,Proportion (2022),81.4
+Isiolo,OPV2,2022,Vaccination,Percentage change,-17.8
+Isiolo,OPV3,2022,Vaccination,Proportion (2022),59.4
+Isiolo,OPV3,2022,Vaccination,Percentage change,-57.7
+Isiolo,FULL_VACCINATION,2022,Vaccination,Proportion (2022),37.1
+Isiolo,FULL_VACCINATION,2022,Vaccination,Percentage change,-121.8
+Meru,BCG,2022,Vaccination,Proportion (2022),100
+Meru,BCG,2022,Vaccination,Percentage change,0.8
+Meru,DPT1,2022,Vaccination,Proportion (2022),98.3
+Meru,DPT1,2022,Vaccination,Percentage change,-1.7
+Meru,DPT2,2022,Vaccination,Proportion (2022),96.3
+Meru,DPT2,2022,Vaccination,Percentage change,-3.8
+Meru,DPT3,2022,Vaccination,Proportion (2022),92.3
+Meru,DPT3,2022,Vaccination,Percentage change,-1.4
+Meru,OPV,2022,Vaccination,Proportion (2022),90.8
+Meru,OPV,2022,Vaccination,Percentage change,24
+Meru,OPV1,2022,Vaccination,Proportion (2022),96.9
+Meru,OPV1,2022,Vaccination,Percentage change,-3.2
+Meru,OPV2,2022,Vaccination,Proportion (2022),89.5
+Meru,OPV2,2022,Vaccination,Percentage change,-11.7
+Meru,OPV3,2022,Vaccination,Proportion (2022),79.1
+Meru,OPV3,2022,Vaccination,Percentage change,-16.8
+Meru,FULL_VACCINATION,2022,Vaccination,Proportion (2022),57.9
+Meru,FULL_VACCINATION,2022,Vaccination,Percentage change,-44.9
+Tharaka Nithi,BCG,2022,Vaccination,Proportion (2022),100
+Tharaka Nithi,BCG,2022,Vaccination,Percentage change,0
+Tharaka Nithi,DPT1,2022,Vaccination,Proportion (2022),100
+Tharaka Nithi,DPT1,2022,Vaccination,Percentage change,1.7
+Tharaka Nithi,DPT2,2022,Vaccination,Proportion (2022),98
+Tharaka Nithi,DPT2,2022,Vaccination,Percentage change,-0.3
+Tharaka Nithi,DPT3,2022,Vaccination,Proportion (2022),96.3
+Tharaka Nithi,DPT3,2022,Vaccination,Percentage change,-0.5
+Tharaka Nithi,OPV,2022,Vaccination,Proportion (2022),95.6
+Tharaka Nithi,OPV,2022,Vaccination,Percentage change,0.3
+Tharaka Nithi,OPV1,2022,Vaccination,Proportion (2022),100
+Tharaka Nithi,OPV1,2022,Vaccination,Percentage change,0
+Tharaka Nithi,OPV2,2022,Vaccination,Proportion (2022),98
+Tharaka Nithi,OPV2,2022,Vaccination,Percentage change,-2
+Tharaka Nithi,OPV3,2022,Vaccination,Proportion (2022),91.9
+Tharaka Nithi,OPV3,2022,Vaccination,Percentage change,-7
+Tharaka Nithi,FULL_VACCINATION,2022,Vaccination,Proportion (2022),82.1
+Tharaka Nithi,FULL_VACCINATION,2022,Vaccination,Percentage change,-16.1
+Embu,BCG,2022,Vaccination,Proportion (2022),100
+Embu,BCG,2022,Vaccination,Percentage change,0
+Embu,DPT1,2022,Vaccination,Proportion (2022),100
+Embu,DPT1,2022,Vaccination,Percentage change,0
+Embu,DPT2,2022,Vaccination,Proportion (2022),100
+Embu,DPT2,2022,Vaccination,Percentage change,0
+Embu,DPT3,2022,Vaccination,Proportion (2022),97.2
+Embu,DPT3,2022,Vaccination,Percentage change,-2.1
+Embu,OPV,2022,Vaccination,Proportion (2022),100
+Embu,OPV,2022,Vaccination,Percentage change,10.1
+Embu,OPV1,2022,Vaccination,Proportion (2022),100
+Embu,OPV1,2022,Vaccination,Percentage change,0
+Embu,OPV2,2022,Vaccination,Proportion (2022),98.1
+Embu,OPV2,2022,Vaccination,Percentage change,-1.9
+Embu,OPV3,2022,Vaccination,Proportion (2022),88.9
+Embu,OPV3,2022,Vaccination,Percentage change,-4.3
+Embu,FULL_VACCINATION,2022,Vaccination,Proportion (2022),75.6
+Embu,FULL_VACCINATION,2022,Vaccination,Percentage change,-13.1
+Kitui,BCG,2022,Vaccination,Proportion (2022),86.6
+Kitui,BCG,2022,Vaccination,Percentage change,-11
+Kitui,DPT1,2022,Vaccination,Proportion (2022),91
+Kitui,DPT1,2022,Vaccination,Percentage change,-5.6
+Kitui,DPT2,2022,Vaccination,Proportion (2022),86.7
+Kitui,DPT2,2022,Vaccination,Percentage change,-7.4
+Kitui,DPT3,2022,Vaccination,Proportion (2022),83.9
+Kitui,DPT3,2022,Vaccination,Percentage change,2.9
+Kitui,OPV,2022,Vaccination,Proportion (2022),73.5
+Kitui,OPV,2022,Vaccination,Percentage change,41.9
+Kitui,OPV1,2022,Vaccination,Proportion (2022),90.8
+Kitui,OPV1,2022,Vaccination,Percentage change,-7.6
+Kitui,OPV2,2022,Vaccination,Proportion (2022),90.8
+Kitui,OPV2,2022,Vaccination,Percentage change,-2.5
+Kitui,OPV3,2022,Vaccination,Proportion (2022),78.7
+Kitui,OPV3,2022,Vaccination,Percentage change,-4.1
+Kitui,FULL_VACCINATION,2022,Vaccination,Proportion (2022),49.4
+Kitui,FULL_VACCINATION,2022,Vaccination,Percentage change,-15
+Machakos,BCG,2022,Vaccination,Proportion (2022),95.2
+Machakos,BCG,2022,Vaccination,Percentage change,-5
+Machakos,DPT1,2022,Vaccination,Proportion (2022),97.6
+Machakos,DPT1,2022,Vaccination,Percentage change,-2.5
+Machakos,DPT2,2022,Vaccination,Proportion (2022),93.8
+Machakos,DPT2,2022,Vaccination,Percentage change,-6.6
+Machakos,DPT3,2022,Vaccination,Proportion (2022),92.3
+Machakos,DPT3,2022,Vaccination,Percentage change,-6
+Machakos,OPV,2022,Vaccination,Proportion (2022),90.9
+Machakos,OPV,2022,Vaccination,Percentage change,5.4
+Machakos,OPV1,2022,Vaccination,Proportion (2022),97.6
+Machakos,OPV1,2022,Vaccination,Percentage change,-0.8
+Machakos,OPV2,2022,Vaccination,Proportion (2022),97.6
+Machakos,OPV2,2022,Vaccination,Percentage change,-0.8
+Machakos,OPV3,2022,Vaccination,Proportion (2022),91.3
+Machakos,OPV3,2022,Vaccination,Percentage change,-5.4
+Machakos,FULL_VACCINATION,2022,Vaccination,Proportion (2022),70.8
+Machakos,FULL_VACCINATION,2022,Vaccination,Percentage change,-27.1
+Makueni,BCG,2022,Vaccination,Proportion (2022),97.8
+Makueni,BCG,2022,Vaccination,Percentage change,-2.2
+Makueni,DPT1,2022,Vaccination,Proportion (2022),97.8
+Makueni,DPT1,2022,Vaccination,Percentage change,-2.2
+Makueni,DPT2,2022,Vaccination,Proportion (2022),89.6
+Makueni,DPT2,2022,Vaccination,Percentage change,-11.6
+Makueni,DPT3,2022,Vaccination,Proportion (2022),85.5
+Makueni,DPT3,2022,Vaccination,Percentage change,-15.9
+Makueni,OPV,2022,Vaccination,Proportion (2022),95.5
+Makueni,OPV,2022,Vaccination,Percentage change,20.8
+Makueni,OPV1,2022,Vaccination,Proportion (2022),97.8
+Makueni,OPV1,2022,Vaccination,Percentage change,-2.2
+Makueni,OPV2,2022,Vaccination,Proportion (2022),96.2
+Makueni,OPV2,2022,Vaccination,Percentage change,0
+Makueni,OPV3,2022,Vaccination,Proportion (2022),84.9
+Makueni,OPV3,2022,Vaccination,Percentage change,-12.2
+Makueni,FULL_VACCINATION,2022,Vaccination,Proportion (2022),65.5
+Makueni,FULL_VACCINATION,2022,Vaccination,Percentage change,-36.9
+Nyandarua,BCG,2022,Vaccination,Proportion (2022),100
+Nyandarua,BCG,2022,Vaccination,Percentage change,0
+Nyandarua,DPT1,2022,Vaccination,Proportion (2022),100
+Nyandarua,DPT1,2022,Vaccination,Percentage change,0
+Nyandarua,DPT2,2022,Vaccination,Proportion (2022),100
+Nyandarua,DPT2,2022,Vaccination,Percentage change,1.9
+Nyandarua,DPT3,2022,Vaccination,Proportion (2022),98
+Nyandarua,DPT3,2022,Vaccination,Percentage change,7.3
+Nyandarua,OPV,2022,Vaccination,Proportion (2022),98.4
+Nyandarua,OPV,2022,Vaccination,Percentage change,13.7
+Nyandarua,OPV1,2022,Vaccination,Proportion (2022),99.2
+Nyandarua,OPV1,2022,Vaccination,Percentage change,-0.8
+Nyandarua,OPV2,2022,Vaccination,Proportion (2022),95.7
+Nyandarua,OPV2,2022,Vaccination,Percentage change,-2.5
+Nyandarua,OPV3,2022,Vaccination,Proportion (2022),83.1
+Nyandarua,OPV3,2022,Vaccination,Percentage change,-13.8
+Nyandarua,FULL_VACCINATION,2022,Vaccination,Proportion (2022),70.6
+Nyandarua,FULL_VACCINATION,2022,Vaccination,Percentage change,-15.3
+Nyeri,BCG,2022,Vaccination,Proportion (2022),91.5
+Nyeri,BCG,2022,Vaccination,Percentage change,-7.9
+Nyeri,DPT1,2022,Vaccination,Proportion (2022),94.7
+Nyeri,DPT1,2022,Vaccination,Percentage change,-2.6
+Nyeri,DPT2,2022,Vaccination,Proportion (2022),92.9
+Nyeri,DPT2,2022,Vaccination,Percentage change,-4.6
+Nyeri,DPT3,2022,Vaccination,Proportion (2022),85.9
+Nyeri,DPT3,2022,Vaccination,Percentage change,-10.5
+Nyeri,OPV,2022,Vaccination,Proportion (2022),88.4
+Nyeri,OPV,2022,Vaccination,Percentage change,4.5
+Nyeri,OPV1,2022,Vaccination,Proportion (2022),92.9
+Nyeri,OPV1,2022,Vaccination,Percentage change,-7.6
+Nyeri,OPV2,2022,Vaccination,Proportion (2022),92.9
+Nyeri,OPV2,2022,Vaccination,Percentage change,-7.6
+Nyeri,OPV3,2022,Vaccination,Proportion (2022),82
+Nyeri,OPV3,2022,Vaccination,Percentage change,-16
+Nyeri,FULL_VACCINATION,2022,Vaccination,Proportion (2022),56.6
+Nyeri,FULL_VACCINATION,2022,Vaccination,Percentage change,-48.9
+Kirinyaga,BCG,2022,Vaccination,Proportion (2022),98.1
+Kirinyaga,BCG,2022,Vaccination,Percentage change,-1.9
+Kirinyaga,DPT1,2022,Vaccination,Proportion (2022),100
+Kirinyaga,DPT1,2022,Vaccination,Percentage change,0
+Kirinyaga,DPT2,2022,Vaccination,Proportion (2022),98.2
+Kirinyaga,DPT2,2022,Vaccination,Percentage change,-1.8
+Kirinyaga,DPT3,2022,Vaccination,Proportion (2022),92.1
+Kirinyaga,DPT3,2022,Vaccination,Percentage change,-8.6
+Kirinyaga,OPV,2022,Vaccination,Proportion (2022),95.1
+Kirinyaga,OPV,2022,Vaccination,Percentage change,36.6
+Kirinyaga,OPV1,2022,Vaccination,Proportion (2022),100
+Kirinyaga,OPV1,2022,Vaccination,Percentage change,0
+Kirinyaga,OPV2,2022,Vaccination,Proportion (2022),98
+Kirinyaga,OPV2,2022,Vaccination,Percentage change,-2
+Kirinyaga,OPV3,2022,Vaccination,Proportion (2022),81.8
+Kirinyaga,OPV3,2022,Vaccination,Percentage change,-22.2
+Kirinyaga,FULL_VACCINATION,2022,Vaccination,Proportion (2022),70.9
+Kirinyaga,FULL_VACCINATION,2022,Vaccination,Percentage change,-30.2
+Muranga,BCG,2022,Vaccination,Proportion (2022),96.7
+Muranga,BCG,2022,Vaccination,Percentage change,-2.4
+Muranga,DPT1,2022,Vaccination,Proportion (2022),96.7
+Muranga,DPT1,2022,Vaccination,Percentage change,-2.4
+Muranga,DPT2,2022,Vaccination,Proportion (2022),96.7
+Muranga,DPT2,2022,Vaccination,Percentage change,1
+Muranga,DPT3,2022,Vaccination,Proportion (2022),96.7
+Muranga,DPT3,2022,Vaccination,Percentage change,7
+Muranga,OPV,2022,Vaccination,Proportion (2022),96.7
+Muranga,OPV,2022,Vaccination,Percentage change,19.3
+Muranga,OPV1,2022,Vaccination,Proportion (2022),96.7
+Muranga,OPV1,2022,Vaccination,Percentage change,-2.4
+Muranga,OPV2,2022,Vaccination,Proportion (2022),96.7
+Muranga,OPV2,2022,Vaccination,Percentage change,1
+Muranga,OPV3,2022,Vaccination,Proportion (2022),74.7
+Muranga,OPV3,2022,Vaccination,Percentage change,-20.3
+Muranga,FULL_VACCINATION,2022,Vaccination,Proportion (2022),66.2
+Muranga,FULL_VACCINATION,2022,Vaccination,Percentage change,-30.5
+Kiambu,BCG,2022,Vaccination,Proportion (2022),100
+Kiambu,BCG,2022,Vaccination,Percentage change,0
+Kiambu,DPT1,2022,Vaccination,Proportion (2022),100
+Kiambu,DPT1,2022,Vaccination,Percentage change,0
+Kiambu,DPT2,2022,Vaccination,Proportion (2022),100
+Kiambu,DPT2,2022,Vaccination,Percentage change,0
+Kiambu,DPT3,2022,Vaccination,Proportion (2022),91.8
+Kiambu,DPT3,2022,Vaccination,Percentage change,-7.8
+Kiambu,OPV,2022,Vaccination,Proportion (2022),95.4
+Kiambu,OPV,2022,Vaccination,Percentage change,14.3
+Kiambu,OPV1,2022,Vaccination,Proportion (2022),98.2
+Kiambu,OPV1,2022,Vaccination,Percentage change,-1.8
+Kiambu,OPV2,2022,Vaccination,Proportion (2022),95.3
+Kiambu,OPV2,2022,Vaccination,Percentage change,-4.9
+Kiambu,OPV3,2022,Vaccination,Proportion (2022),80.4
+Kiambu,OPV3,2022,Vaccination,Percentage change,-23.1
+Kiambu,FULL_VACCINATION,2022,Vaccination,Proportion (2022),65.5
+Kiambu,FULL_VACCINATION,2022,Vaccination,Percentage change,-48.4
+Turkana,BCG,2022,Vaccination,Proportion (2022),96.7
+Turkana,BCG,2022,Vaccination,Percentage change,2.3
+Turkana,DPT1,2022,Vaccination,Proportion (2022),96.6
+Turkana,DPT1,2022,Vaccination,Percentage change,2.3
+Turkana,DPT2,2022,Vaccination,Proportion (2022),91.7
+Turkana,DPT2,2022,Vaccination,Percentage change,0.2
+Turkana,DPT3,2022,Vaccination,Proportion (2022),84.1
+Turkana,DPT3,2022,Vaccination,Percentage change,-2.5
+Turkana,OPV,2022,Vaccination,Proportion (2022),56.7
+Turkana,OPV,2022,Vaccination,Percentage change,-12.3
+Turkana,OPV1,2022,Vaccination,Proportion (2022),95.7
+Turkana,OPV1,2022,Vaccination,Percentage change,1.4
+Turkana,OPV2,2022,Vaccination,Proportion (2022),90.3
+Turkana,OPV2,2022,Vaccination,Percentage change,-0.6
+Turkana,OPV3,2022,Vaccination,Proportion (2022),73.3
+Turkana,OPV3,2022,Vaccination,Percentage change,-14.5
+Turkana,FULL_VACCINATION,2022,Vaccination,Proportion (2022),29.3
+Turkana,FULL_VACCINATION,2022,Vaccination,Percentage change,-110.9
+West Pokot,BCG,2022,Vaccination,Proportion (2022),97.3
+West Pokot,BCG,2022,Vaccination,Percentage change,18.9
+West Pokot,DPT1,2022,Vaccination,Proportion (2022),98.1
+West Pokot,DPT1,2022,Vaccination,Percentage change,11.9
+West Pokot,DPT2,2022,Vaccination,Proportion (2022),85.5
+West Pokot,DPT2,2022,Vaccination,Percentage change,5.7
+West Pokot,DPT3,2022,Vaccination,Proportion (2022),73.9
+West Pokot,DPT3,2022,Vaccination,Percentage change,7.6
+West Pokot,OPV,2022,Vaccination,Proportion (2022),45.2
+West Pokot,OPV,2022,Vaccination,Percentage change,21.9
+West Pokot,OPV1,2022,Vaccination,Proportion (2022),96.7
+West Pokot,OPV1,2022,Vaccination,Percentage change,9.7
+West Pokot,OPV2,2022,Vaccination,Proportion (2022),89.7
+West Pokot,OPV2,2022,Vaccination,Percentage change,12.4
+West Pokot,OPV3,2022,Vaccination,Proportion (2022),51.6
+West Pokot,OPV3,2022,Vaccination,Percentage change,-17.2
+West Pokot,FULL_VACCINATION,2022,Vaccination,Proportion (2022),10.7
+West Pokot,FULL_VACCINATION,2022,Vaccination,Percentage change,-191.6
+Samburu,BCG,2022,Vaccination,Proportion (2022),93.1
+Samburu,BCG,2022,Vaccination,Percentage change,-4
+Samburu,DPT1,2022,Vaccination,Proportion (2022),90.8
+Samburu,DPT1,2022,Vaccination,Percentage change,-2.6
+Samburu,DPT2,2022,Vaccination,Proportion (2022),89
+Samburu,DPT2,2022,Vaccination,Percentage change,-0.8
+Samburu,DPT3,2022,Vaccination,Proportion (2022),87.2
+Samburu,DPT3,2022,Vaccination,Percentage change,0.3
+Samburu,OPV,2022,Vaccination,Proportion (2022),59.3
+Samburu,OPV,2022,Vaccination,Percentage change,18.4
+Samburu,OPV1,2022,Vaccination,Proportion (2022),91.2
+Samburu,OPV1,2022,Vaccination,Percentage change,-5.9
+Samburu,OPV2,2022,Vaccination,Proportion (2022),85
+Samburu,OPV2,2022,Vaccination,Percentage change,-8.9
+Samburu,OPV3,2022,Vaccination,Proportion (2022),69.5
+Samburu,OPV3,2022,Vaccination,Percentage change,-26.5
+Samburu,FULL_VACCINATION,2022,Vaccination,Proportion (2022),27.8
+Samburu,FULL_VACCINATION,2022,Vaccination,Percentage change,-130.6
+Trans Nzoia,BCG,2022,Vaccination,Proportion (2022),98
+Trans Nzoia,BCG,2022,Vaccination,Percentage change,-2
+Trans Nzoia,DPT1,2022,Vaccination,Proportion (2022),100
+Trans Nzoia,DPT1,2022,Vaccination,Percentage change,0
+Trans Nzoia,DPT2,2022,Vaccination,Proportion (2022),98
+Trans Nzoia,DPT2,2022,Vaccination,Percentage change,-0.1
+Trans Nzoia,DPT3,2022,Vaccination,Proportion (2022),87.4
+Trans Nzoia,DPT3,2022,Vaccination,Percentage change,11
+Trans Nzoia,OPV,2022,Vaccination,Proportion (2022),87.5
+Trans Nzoia,OPV,2022,Vaccination,Percentage change,35.1
+Trans Nzoia,OPV1,2022,Vaccination,Proportion (2022),98.2
+Trans Nzoia,OPV1,2022,Vaccination,Percentage change,-1.8
+Trans Nzoia,OPV2,2022,Vaccination,Proportion (2022),96.5
+Trans Nzoia,OPV2,2022,Vaccination,Percentage change,-1.9
+Trans Nzoia,OPV3,2022,Vaccination,Proportion (2022),91.1
+Trans Nzoia,OPV3,2022,Vaccination,Percentage change,1.4
+Trans Nzoia,FULL_VACCINATION,2022,Vaccination,Proportion (2022),70.6
+Trans Nzoia,FULL_VACCINATION,2022,Vaccination,Percentage change,9.5
+Uasin Gishu,BCG,2022,Vaccination,Proportion (2022),98.6
+Uasin Gishu,BCG,2022,Vaccination,Percentage change,2.7
+Uasin Gishu,DPT1,2022,Vaccination,Proportion (2022),98.6
+Uasin Gishu,DPT1,2022,Vaccination,Percentage change,1.3
+Uasin Gishu,DPT2,2022,Vaccination,Proportion (2022),95.4
+Uasin Gishu,DPT2,2022,Vaccination,Percentage change,-0.5
+Uasin Gishu,DPT3,2022,Vaccination,Proportion (2022),94.6
+Uasin Gishu,DPT3,2022,Vaccination,Percentage change,3.3
+Uasin Gishu,OPV,2022,Vaccination,Proportion (2022),90.2
+Uasin Gishu,OPV,2022,Vaccination,Percentage change,39.8
+Uasin Gishu,OPV1,2022,Vaccination,Proportion (2022),98.6
+Uasin Gishu,OPV1,2022,Vaccination,Percentage change,2.7
+Uasin Gishu,OPV2,2022,Vaccination,Proportion (2022),94.6
+Uasin Gishu,OPV2,2022,Vaccination,Percentage change,0
+Uasin Gishu,OPV3,2022,Vaccination,Proportion (2022),78
+Uasin Gishu,OPV3,2022,Vaccination,Percentage change,-15.6
+Uasin Gishu,FULL_VACCINATION,2022,Vaccination,Proportion (2022),49.3
+Uasin Gishu,FULL_VACCINATION,2022,Vaccination,Percentage change,-46.7
+Elgeyo Marakwet,BCG,2022,Vaccination,Proportion (2022),97.6
+Elgeyo Marakwet,BCG,2022,Vaccination,Percentage change,-2.5
+Elgeyo Marakwet,DPT1,2022,Vaccination,Proportion (2022),94.9
+Elgeyo Marakwet,DPT1,2022,Vaccination,Percentage change,-5.4
+Elgeyo Marakwet,DPT2,2022,Vaccination,Proportion (2022),88.8
+Elgeyo Marakwet,DPT2,2022,Vaccination,Percentage change,-10.2
+Elgeyo Marakwet,DPT3,2022,Vaccination,Proportion (2022),83.4
+Elgeyo Marakwet,DPT3,2022,Vaccination,Percentage change,-17.4
+Elgeyo Marakwet,OPV,2022,Vaccination,Proportion (2022),79
+Elgeyo Marakwet,OPV,2022,Vaccination,Percentage change,0.8
+Elgeyo Marakwet,OPV1,2022,Vaccination,Proportion (2022),98.2
+Elgeyo Marakwet,OPV1,2022,Vaccination,Percentage change,-1.2
+Elgeyo Marakwet,OPV2,2022,Vaccination,Proportion (2022),91.9
+Elgeyo Marakwet,OPV2,2022,Vaccination,Percentage change,-6.5
+Elgeyo Marakwet,OPV3,2022,Vaccination,Proportion (2022),74.3
+Elgeyo Marakwet,OPV3,2022,Vaccination,Percentage change,-28.3
+Elgeyo Marakwet,FULL_VACCINATION,2022,Vaccination,Proportion (2022),43.2
+Elgeyo Marakwet,FULL_VACCINATION,2022,Vaccination,Percentage change,-97.2
+Nandi,BCG,2022,Vaccination,Proportion (2022),100
+Nandi,BCG,2022,Vaccination,Percentage change,0.6
+Nandi,DPT1,2022,Vaccination,Proportion (2022),100
+Nandi,DPT1,2022,Vaccination,Percentage change,0
+Nandi,DPT2,2022,Vaccination,Proportion (2022),96.4
+Nandi,DPT2,2022,Vaccination,Percentage change,-3.7
+Nandi,DPT3,2022,Vaccination,Proportion (2022),95.8
+Nandi,DPT3,2022,Vaccination,Percentage change,-3.8
+Nandi,OPV,2022,Vaccination,Proportion (2022),100
+Nandi,OPV,2022,Vaccination,Percentage change,30.9
+Nandi,OPV1,2022,Vaccination,Proportion (2022),100
+Nandi,OPV1,2022,Vaccination,Percentage change,0
+Nandi,OPV2,2022,Vaccination,Proportion (2022),99.5
+Nandi,OPV2,2022,Vaccination,Percentage change,-0.5
+Nandi,OPV3,2022,Vaccination,Proportion (2022),87.9
+Nandi,OPV3,2022,Vaccination,Percentage change,-13.1
+Nandi,FULL_VACCINATION,2022,Vaccination,Proportion (2022),65
+Nandi,FULL_VACCINATION,2022,Vaccination,Percentage change,-48.2
+Baringo,BCG,2022,Vaccination,Proportion (2022),98.3
+Baringo,BCG,2022,Vaccination,Percentage change,-1.7
+Baringo,DPT1,2022,Vaccination,Proportion (2022),98
+Baringo,DPT1,2022,Vaccination,Percentage change,-2
+Baringo,DPT2,2022,Vaccination,Proportion (2022),98
+Baringo,DPT2,2022,Vaccination,Percentage change,-0.3
+Baringo,DPT3,2022,Vaccination,Proportion (2022),96.2
+Baringo,DPT3,2022,Vaccination,Percentage change,1.8
+Baringo,OPV,2022,Vaccination,Proportion (2022),76.6
+Baringo,OPV,2022,Vaccination,Percentage change,21
+Baringo,OPV1,2022,Vaccination,Proportion (2022),98
+Baringo,OPV1,2022,Vaccination,Percentage change,-2
+Baringo,OPV2,2022,Vaccination,Proportion (2022),98
+Baringo,OPV2,2022,Vaccination,Percentage change,-1
+Baringo,OPV3,2022,Vaccination,Proportion (2022),82.8
+Baringo,OPV3,2022,Vaccination,Percentage change,-13.6
+Baringo,FULL_VACCINATION,2022,Vaccination,Proportion (2022),43.3
+Baringo,FULL_VACCINATION,2022,Vaccination,Percentage change,-60.3
+Laikipia,BCG,2022,Vaccination,Proportion (2022),93.9
+Laikipia,BCG,2022,Vaccination,Percentage change,-5.1
+Laikipia,DPT1,2022,Vaccination,Proportion (2022),97.1
+Laikipia,DPT1,2022,Vaccination,Percentage change,-1.6
+Laikipia,DPT2,2022,Vaccination,Proportion (2022),97.1
+Laikipia,DPT2,2022,Vaccination,Percentage change,-1.6
+Laikipia,DPT3,2022,Vaccination,Proportion (2022),91.9
+Laikipia,DPT3,2022,Vaccination,Percentage change,2.4
+Laikipia,OPV,2022,Vaccination,Proportion (2022),88.2
+Laikipia,OPV,2022,Vaccination,Percentage change,18.4
+Laikipia,OPV1,2022,Vaccination,Proportion (2022),97.1
+Laikipia,OPV1,2022,Vaccination,Percentage change,-1.6
+Laikipia,OPV2,2022,Vaccination,Proportion (2022),95.3
+Laikipia,OPV2,2022,Vaccination,Percentage change,-1
+Laikipia,OPV3,2022,Vaccination,Proportion (2022),76.9
+Laikipia,OPV3,2022,Vaccination,Percentage change,-18.5
+Laikipia,FULL_VACCINATION,2022,Vaccination,Proportion (2022),55.5
+Laikipia,FULL_VACCINATION,2022,Vaccination,Percentage change,-42.9
+Nakuru,BCG,2022,Vaccination,Proportion (2022),99.1
+Nakuru,BCG,2022,Vaccination,Percentage change,1.9
+Nakuru,DPT1,2022,Vaccination,Proportion (2022),99.1
+Nakuru,DPT1,2022,Vaccination,Percentage change,1.2
+Nakuru,DPT2,2022,Vaccination,Proportion (2022),99.1
+Nakuru,DPT2,2022,Vaccination,Percentage change,3
+Nakuru,DPT3,2022,Vaccination,Proportion (2022),99.1
+Nakuru,DPT3,2022,Vaccination,Percentage change,8.3
+Nakuru,OPV,2022,Vaccination,Proportion (2022),92.9
+Nakuru,OPV,2022,Vaccination,Percentage change,19.7
+Nakuru,OPV1,2022,Vaccination,Proportion (2022),99.1
+Nakuru,OPV1,2022,Vaccination,Percentage change,1.2
+Nakuru,OPV2,2022,Vaccination,Proportion (2022),99.1
+Nakuru,OPV2,2022,Vaccination,Percentage change,4
+Nakuru,OPV3,2022,Vaccination,Proportion (2022),91.1
+Nakuru,OPV3,2022,Vaccination,Percentage change,0.8
+Nakuru,FULL_VACCINATION,2022,Vaccination,Proportion (2022),69.2
+Nakuru,FULL_VACCINATION,2022,Vaccination,Percentage change,-7.9
+Narok,BCG,2022,Vaccination,Proportion (2022),98.7
+Narok,BCG,2022,Vaccination,Percentage change,3.7
+Narok,DPT1,2022,Vaccination,Proportion (2022),97.5
+Narok,DPT1,2022,Vaccination,Percentage change,1.2
+Narok,DPT2,2022,Vaccination,Proportion (2022),97.5
+Narok,DPT2,2022,Vaccination,Percentage change,6.5
+Narok,DPT3,2022,Vaccination,Proportion (2022),90.8
+Narok,DPT3,2022,Vaccination,Percentage change,8.6
+Narok,OPV,2022,Vaccination,Proportion (2022),53.9
+Narok,OPV,2022,Vaccination,Percentage change,30.2
+Narok,OPV1,2022,Vaccination,Proportion (2022),97
+Narok,OPV1,2022,Vaccination,Percentage change,-1.4
+Narok,OPV2,2022,Vaccination,Proportion (2022),94.2
+Narok,OPV2,2022,Vaccination,Percentage change,-0.8
+Narok,OPV3,2022,Vaccination,Proportion (2022),75.9
+Narok,OPV3,2022,Vaccination,Percentage change,-8.2
+Narok,FULL_VACCINATION,2022,Vaccination,Proportion (2022),30.8
+Narok,FULL_VACCINATION,2022,Vaccination,Percentage change,-89.9
+Kajiado,BCG,2022,Vaccination,Proportion (2022),96.9
+Kajiado,BCG,2022,Vaccination,Percentage change,-0.8
+Kajiado,DPT1,2022,Vaccination,Proportion (2022),91.9
+Kajiado,DPT1,2022,Vaccination,Percentage change,-5.5
+Kajiado,DPT2,2022,Vaccination,Proportion (2022),85.6
+Kajiado,DPT2,2022,Vaccination,Percentage change,-7.9
+Kajiado,DPT3,2022,Vaccination,Proportion (2022),73.6
+Kajiado,DPT3,2022,Vaccination,Percentage change,-7.5
+Kajiado,OPV,2022,Vaccination,Proportion (2022),81.4
+Kajiado,OPV,2022,Vaccination,Percentage change,36.2
+Kajiado,OPV1,2022,Vaccination,Proportion (2022),96.9
+Kajiado,OPV1,2022,Vaccination,Percentage change,0.7
+Kajiado,OPV2,2022,Vaccination,Proportion (2022),88.9
+Kajiado,OPV2,2022,Vaccination,Percentage change,1.5
+Kajiado,OPV3,2022,Vaccination,Proportion (2022),71
+Kajiado,OPV3,2022,Vaccination,Percentage change,3.5
+Kajiado,FULL_VACCINATION,2022,Vaccination,Proportion (2022),43.5
+Kajiado,FULL_VACCINATION,2022,Vaccination,Percentage change,-29.7
+Kericho,BCG,2022,Vaccination,Proportion (2022),94.1
+Kericho,BCG,2022,Vaccination,Percentage change,-6.3
+Kericho,DPT1,2022,Vaccination,Proportion (2022),95.4
+Kericho,DPT1,2022,Vaccination,Percentage change,-4.8
+Kericho,DPT2,2022,Vaccination,Proportion (2022),95.4
+Kericho,DPT2,2022,Vaccination,Percentage change,-4.8
+Kericho,DPT3,2022,Vaccination,Proportion (2022),93
+Kericho,DPT3,2022,Vaccination,Percentage change,-2.9
+Kericho,OPV,2022,Vaccination,Proportion (2022),82.4
+Kericho,OPV,2022,Vaccination,Percentage change,1.7
+Kericho,OPV1,2022,Vaccination,Proportion (2022),95.4
+Kericho,OPV1,2022,Vaccination,Percentage change,-4.8
+Kericho,OPV2,2022,Vaccination,Proportion (2022),94.3
+Kericho,OPV2,2022,Vaccination,Percentage change,-6
+Kericho,OPV3,2022,Vaccination,Proportion (2022),71.6
+Kericho,OPV3,2022,Vaccination,Percentage change,-29.9
+Kericho,FULL_VACCINATION,2022,Vaccination,Proportion (2022),47.6
+Kericho,FULL_VACCINATION,2022,Vaccination,Percentage change,-50.8
+Bomet,BCG,2022,Vaccination,Proportion (2022),98.5
+Bomet,BCG,2022,Vaccination,Percentage change,-1.5
+Bomet,DPT1,2022,Vaccination,Proportion (2022),98.5
+Bomet,DPT1,2022,Vaccination,Percentage change,-1.5
+Bomet,DPT2,2022,Vaccination,Proportion (2022),95.7
+Bomet,DPT2,2022,Vaccination,Percentage change,-3.7
+Bomet,DPT3,2022,Vaccination,Proportion (2022),89.8
+Bomet,DPT3,2022,Vaccination,Percentage change,-9.1
+Bomet,OPV,2022,Vaccination,Proportion (2022),87.7
+Bomet,OPV,2022,Vaccination,Percentage change,28.8
+Bomet,OPV1,2022,Vaccination,Proportion (2022),98.5
+Bomet,OPV1,2022,Vaccination,Percentage change,-1.5
+Bomet,OPV2,2022,Vaccination,Proportion (2022),98.5
+Bomet,OPV2,2022,Vaccination,Percentage change,-1.5
+Bomet,OPV3,2022,Vaccination,Proportion (2022),91.2
+Bomet,OPV3,2022,Vaccination,Percentage change,-4.8
+Bomet,FULL_VACCINATION,2022,Vaccination,Proportion (2022),63.9
+Bomet,FULL_VACCINATION,2022,Vaccination,Percentage change,-27.2
+Kakamega,BCG,2022,Vaccination,Proportion (2022),100
+Kakamega,BCG,2022,Vaccination,Percentage change,5.1
+Kakamega,DPT1,2022,Vaccination,Proportion (2022),100
+Kakamega,DPT1,2022,Vaccination,Percentage change,1.1
+Kakamega,DPT2,2022,Vaccination,Proportion (2022),100
+Kakamega,DPT2,2022,Vaccination,Percentage change,5.1
+Kakamega,DPT3,2022,Vaccination,Proportion (2022),97.1
+Kakamega,DPT3,2022,Vaccination,Percentage change,7.8
+Kakamega,OPV,2022,Vaccination,Proportion (2022),93.2
+Kakamega,OPV,2022,Vaccination,Percentage change,53.4
+Kakamega,OPV1,2022,Vaccination,Proportion (2022),99.6
+Kakamega,OPV1,2022,Vaccination,Percentage change,0.7
+Kakamega,OPV2,2022,Vaccination,Proportion (2022),98.2
+Kakamega,OPV2,2022,Vaccination,Percentage change,3.4
+Kakamega,OPV3,2022,Vaccination,Proportion (2022),91.8
+Kakamega,OPV3,2022,Vaccination,Percentage change,2.5
+Kakamega,FULL_VACCINATION,2022,Vaccination,Proportion (2022),72.8
+Kakamega,FULL_VACCINATION,2022,Vaccination,Percentage change,-0.4
+Vihiga,BCG,2022,Vaccination,Proportion (2022),100
+Vihiga,BCG,2022,Vaccination,Percentage change,1.7
+Vihiga,DPT1,2022,Vaccination,Proportion (2022),100
+Vihiga,DPT1,2022,Vaccination,Percentage change,1.7
+Vihiga,DPT2,2022,Vaccination,Proportion (2022),100
+Vihiga,DPT2,2022,Vaccination,Percentage change,1.7
+Vihiga,DPT3,2022,Vaccination,Proportion (2022),95.9
+Vihiga,DPT3,2022,Vaccination,Percentage change,-1.1
+Vihiga,OPV,2022,Vaccination,Proportion (2022),93.6
+Vihiga,OPV,2022,Vaccination,Percentage change,19.9
+Vihiga,OPV1,2022,Vaccination,Proportion (2022),100
+Vihiga,OPV1,2022,Vaccination,Percentage change,1.7
+Vihiga,OPV2,2022,Vaccination,Proportion (2022),100
+Vihiga,OPV2,2022,Vaccination,Percentage change,1.7
+Vihiga,OPV3,2022,Vaccination,Proportion (2022),88.6
+Vihiga,OPV3,2022,Vaccination,Percentage change,-6.5
+Vihiga,FULL_VACCINATION,2022,Vaccination,Proportion (2022),70.1
+Vihiga,FULL_VACCINATION,2022,Vaccination,Percentage change,-34.7
+Bungoma,BCG,2022,Vaccination,Proportion (2022),100
+Bungoma,BCG,2022,Vaccination,Percentage change,4.7
+Bungoma,DPT1,2022,Vaccination,Proportion (2022),98.7
+Bungoma,DPT1,2022,Vaccination,Percentage change,3.7
+Bungoma,DPT2,2022,Vaccination,Proportion (2022),97.3
+Bungoma,DPT2,2022,Vaccination,Percentage change,2.4
+Bungoma,DPT3,2022,Vaccination,Proportion (2022),97.3
+Bungoma,DPT3,2022,Vaccination,Percentage change,8.6
+Bungoma,OPV,2022,Vaccination,Proportion (2022),82.9
+Bungoma,OPV,2022,Vaccination,Percentage change,38.1
+Bungoma,OPV1,2022,Vaccination,Proportion (2022),97.7
+Bungoma,OPV1,2022,Vaccination,Percentage change,1.5
+Bungoma,OPV2,2022,Vaccination,Proportion (2022),97.7
+Bungoma,OPV2,2022,Vaccination,Percentage change,2
+Bungoma,OPV3,2022,Vaccination,Proportion (2022),89.3
+Bungoma,OPV3,2022,Vaccination,Percentage change,-1.3
+Bungoma,FULL_VACCINATION,2022,Vaccination,Proportion (2022),65.9
+Bungoma,FULL_VACCINATION,2022,Vaccination,Percentage change,-15.2
+Busia,BCG,2022,Vaccination,Proportion (2022),98.2
+Busia,BCG,2022,Vaccination,Percentage change,0.2
+Busia,DPT1,2022,Vaccination,Proportion (2022),100
+Busia,DPT1,2022,Vaccination,Percentage change,3.1
+Busia,DPT2,2022,Vaccination,Proportion (2022),100
+Busia,DPT2,2022,Vaccination,Percentage change,4.7
+Busia,DPT3,2022,Vaccination,Proportion (2022),96.5
+Busia,DPT3,2022,Vaccination,Percentage change,6.3
+Busia,OPV,2022,Vaccination,Proportion (2022),89.5
+Busia,OPV,2022,Vaccination,Percentage change,39.6
+Busia,OPV1,2022,Vaccination,Proportion (2022),100
+Busia,OPV1,2022,Vaccination,Percentage change,0
+Busia,OPV2,2022,Vaccination,Proportion (2022),97.3
+Busia,OPV2,2022,Vaccination,Percentage change,-1.1
+Busia,OPV3,2022,Vaccination,Proportion (2022),73.4
+Busia,OPV3,2022,Vaccination,Percentage change,-28.2
+Busia,FULL_VACCINATION,2022,Vaccination,Proportion (2022),55.8
+Busia,FULL_VACCINATION,2022,Vaccination,Percentage change,-44.1
+Siaya,BCG,2022,Vaccination,Proportion (2022),99.3
+Siaya,BCG,2022,Vaccination,Percentage change,0.9
+Siaya,DPT1,2022,Vaccination,Proportion (2022),99.3
+Siaya,DPT1,2022,Vaccination,Percentage change,-0.7
+Siaya,DPT2,2022,Vaccination,Proportion (2022),97.5
+Siaya,DPT2,2022,Vaccination,Percentage change,-2.6
+Siaya,DPT3,2022,Vaccination,Proportion (2022),93.9
+Siaya,DPT3,2022,Vaccination,Percentage change,0
+Siaya,OPV,2022,Vaccination,Proportion (2022),95.1
+Siaya,OPV,2022,Vaccination,Percentage change,17.4
+Siaya,OPV1,2022,Vaccination,Proportion (2022),99.3
+Siaya,OPV1,2022,Vaccination,Percentage change,-0.7
+Siaya,OPV2,2022,Vaccination,Proportion (2022),95.6
+Siaya,OPV2,2022,Vaccination,Percentage change,-4.6
+Siaya,OPV3,2022,Vaccination,Proportion (2022),84.4
+Siaya,OPV3,2022,Vaccination,Percentage change,-8.9
+Siaya,FULL_VACCINATION,2022,Vaccination,Proportion (2022),69.9
+Siaya,FULL_VACCINATION,2022,Vaccination,Percentage change,-11.6
+Kisumu,BCG,2022,Vaccination,Proportion (2022),97.7
+Kisumu,BCG,2022,Vaccination,Percentage change,0.5
+Kisumu,DPT1,2022,Vaccination,Proportion (2022),100
+Kisumu,DPT1,2022,Vaccination,Percentage change,2.4
+Kisumu,DPT2,2022,Vaccination,Proportion (2022),87.6
+Kisumu,DPT2,2022,Vaccination,Percentage change,-11.4
+Kisumu,DPT3,2022,Vaccination,Proportion (2022),87.6
+Kisumu,DPT3,2022,Vaccination,Percentage change,0.7
+Kisumu,OPV,2022,Vaccination,Proportion (2022),91.4
+Kisumu,OPV,2022,Vaccination,Percentage change,16.5
+Kisumu,OPV1,2022,Vaccination,Proportion (2022),98.7
+Kisumu,OPV1,2022,Vaccination,Percentage change,1.1
+Kisumu,OPV2,2022,Vaccination,Proportion (2022),98.7
+Kisumu,OPV2,2022,Vaccination,Percentage change,2.3
+Kisumu,OPV3,2022,Vaccination,Proportion (2022),85.2
+Kisumu,OPV3,2022,Vaccination,Percentage change,-2.9
+Kisumu,FULL_VACCINATION,2022,Vaccination,Proportion (2022),62.6
+Kisumu,FULL_VACCINATION,2022,Vaccination,Percentage change,-26
+Homa Bay,BCG,2022,Vaccination,Proportion (2022),98.3
+Homa Bay,BCG,2022,Vaccination,Percentage change,3.9
+Homa Bay,DPT1,2022,Vaccination,Proportion (2022),97.5
+Homa Bay,DPT1,2022,Vaccination,Percentage change,-0.4
+Homa Bay,DPT2,2022,Vaccination,Proportion (2022),94.7
+Homa Bay,DPT2,2022,Vaccination,Percentage change,-2.6
+Homa Bay,DPT3,2022,Vaccination,Proportion (2022),86.2
+Homa Bay,DPT3,2022,Vaccination,Percentage change,4.5
+Homa Bay,OPV,2022,Vaccination,Proportion (2022),94.1
+Homa Bay,OPV,2022,Vaccination,Percentage change,31.1
+Homa Bay,OPV1,2022,Vaccination,Proportion (2022),97.6
+Homa Bay,OPV1,2022,Vaccination,Percentage change,-0.3
+Homa Bay,OPV2,2022,Vaccination,Proportion (2022),91.4
+Homa Bay,OPV2,2022,Vaccination,Percentage change,-4.3
+Homa Bay,OPV3,2022,Vaccination,Proportion (2022),74.8
+Homa Bay,OPV3,2022,Vaccination,Percentage change,-13.2
+Homa Bay,FULL_VACCINATION,2022,Vaccination,Proportion (2022),52.6
+Homa Bay,FULL_VACCINATION,2022,Vaccination,Percentage change,-22.4
+Migori,BCG,2022,Vaccination,Proportion (2022),99.6
+Migori,BCG,2022,Vaccination,Percentage change,12
+Migori,DPT1,2022,Vaccination,Proportion (2022),99.6
+Migori,DPT1,2022,Vaccination,Percentage change,0
+Migori,DPT2,2022,Vaccination,Proportion (2022),98.3
+Migori,DPT2,2022,Vaccination,Percentage change,0.6
+Migori,DPT3,2022,Vaccination,Proportion (2022),91.3
+Migori,DPT3,2022,Vaccination,Percentage change,1.5
+Migori,OPV,2022,Vaccination,Proportion (2022),91.8
+Migori,OPV,2022,Vaccination,Percentage change,56.5
+Migori,OPV1,2022,Vaccination,Proportion (2022),98
+Migori,OPV1,2022,Vaccination,Percentage change,-0.9
+Migori,OPV2,2022,Vaccination,Proportion (2022),95.7
+Migori,OPV2,2022,Vaccination,Percentage change,-1.3
+Migori,OPV3,2022,Vaccination,Proportion (2022),84.9
+Migori,OPV3,2022,Vaccination,Percentage change,-8.8
+Migori,FULL_VACCINATION,2022,Vaccination,Proportion (2022),71.4
+Migori,FULL_VACCINATION,2022,Vaccination,Percentage change,19.9
+Kisii,BCG,2022,Vaccination,Proportion (2022),99.1
+Kisii,BCG,2022,Vaccination,Percentage change,-0.9
+Kisii,DPT1,2022,Vaccination,Proportion (2022),99.1
+Kisii,DPT1,2022,Vaccination,Percentage change,1.3
+Kisii,DPT2,2022,Vaccination,Proportion (2022),95.7
+Kisii,DPT2,2022,Vaccination,Percentage change,-2.2
+Kisii,DPT3,2022,Vaccination,Proportion (2022),95.7
+Kisii,DPT3,2022,Vaccination,Percentage change,0.4
+Kisii,OPV,2022,Vaccination,Proportion (2022),98.5
+Kisii,OPV,2022,Vaccination,Percentage change,8.1
+Kisii,OPV1,2022,Vaccination,Proportion (2022),99.1
+Kisii,OPV1,2022,Vaccination,Percentage change,0
+Kisii,OPV2,2022,Vaccination,Proportion (2022),95.6
+Kisii,OPV2,2022,Vaccination,Percentage change,-3.7
+Kisii,OPV3,2022,Vaccination,Proportion (2022),88.5
+Kisii,OPV3,2022,Vaccination,Percentage change,-9.8
+Kisii,FULL_VACCINATION,2022,Vaccination,Proportion (2022),81.6
+Kisii,FULL_VACCINATION,2022,Vaccination,Percentage change,-0.7
+Nyamira,BCG,2022,Vaccination,Proportion (2022),100
+Nyamira,BCG,2022,Vaccination,Percentage change,1
+Nyamira,DPT1,2022,Vaccination,Proportion (2022),100
+Nyamira,DPT1,2022,Vaccination,Percentage change,1
+Nyamira,DPT2,2022,Vaccination,Proportion (2022),96
+Nyamira,DPT2,2022,Vaccination,Percentage change,-3.1
+Nyamira,DPT3,2022,Vaccination,Proportion (2022),95.5
+Nyamira,DPT3,2022,Vaccination,Percentage change,-2.2
+Nyamira,OPV,2022,Vaccination,Proportion (2022),94.8
+Nyamira,OPV,2022,Vaccination,Percentage change,7.2
+Nyamira,OPV1,2022,Vaccination,Proportion (2022),97.4
+Nyamira,OPV1,2022,Vaccination,Percentage change,-2.7
+Nyamira,OPV2,2022,Vaccination,Proportion (2022),94.8
+Nyamira,OPV2,2022,Vaccination,Percentage change,-5.5
+Nyamira,OPV3,2022,Vaccination,Proportion (2022),88.8
+Nyamira,OPV3,2022,Vaccination,Percentage change,-9.2
+Nyamira,FULL_VACCINATION,2022,Vaccination,Proportion (2022),55.8
+Nyamira,FULL_VACCINATION,2022,Vaccination,Percentage change,-65.1
+Nairobi,BCG,2022,Vaccination,Proportion (2022),96.8
+Nairobi,BCG,2022,Vaccination,Percentage change,-0.8
+Nairobi,DPT1,2022,Vaccination,Proportion (2022),97.4
+Nairobi,DPT1,2022,Vaccination,Percentage change,0.1
+Nairobi,DPT2,2022,Vaccination,Proportion (2022),93.4
+Nairobi,DPT2,2022,Vaccination,Percentage change,-0.2
+Nairobi,DPT3,2022,Vaccination,Proportion (2022),87.7
+Nairobi,DPT3,2022,Vaccination,Percentage change,-0.3
+Nairobi,OPV,2022,Vaccination,Proportion (2022),93.4
+Nairobi,OPV,2022,Vaccination,Percentage change,23.6
+Nairobi,OPV1,2022,Vaccination,Proportion (2022),95.3
+Nairobi,OPV1,2022,Vaccination,Percentage change,-3.1
+Nairobi,OPV2,2022,Vaccination,Proportion (2022),95.3
+Nairobi,OPV2,2022,Vaccination,Percentage change,-1.7
+Nairobi,OPV3,2022,Vaccination,Proportion (2022),67.8
+Nairobi,OPV3,2022,Vaccination,Percentage change,-34.7
+Nairobi,FULL_VACCINATION,2022,Vaccination,Proportion (2022),45.8
+Nairobi,FULL_VACCINATION,2022,Vaccination,Percentage change,-62.4

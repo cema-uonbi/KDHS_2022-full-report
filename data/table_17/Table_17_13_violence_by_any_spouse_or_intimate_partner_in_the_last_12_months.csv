@@ -1,0 +1,441 @@
+Background characteristics,Category,Gender,variable,value
+Age,-19,Female,Psychological/emotional violence,13
+Age,-24,Female,Psychological/emotional violence,19.6
+Age,-29,Female,Psychological/emotional violence,23.8
+Age,-39,Female,Psychological/emotional violence,25
+Age,-49,Female,Psychological/emotional violence,22.5
+Residence,ban,Female,Psychological/emotional violence,19
+Residence,ral,Female,Psychological/emotional violence,24.3
+Marital status,ver married,Female,Psychological/emotional violence,11.5
+Marital status,Currently has intimate partner,Female,Psychological/emotional violence,11.5
+Marital status,Had intimate partner,Female,Psychological/emotional violence,11.5
+Marital status,er married,Female,Psychological/emotional violence,25
+Marital status,Married/living together,Female,Psychological/emotional violence,25.8
+Marital status,Divorced/separated/widowed,Female,Psychological/emotional violence,21.6
+Education, education,Female,Psychological/emotional violence,19
+Education,imary,Female,Psychological/emotional violence,27.9
+Education,condary,Female,Psychological/emotional violence,20.6
+Education,re than secondary,Female,Psychological/emotional violence,15.2
+Wealth quintile,west,Female,Psychological/emotional violence,24.8
+Wealth quintile,cond,Female,Psychological/emotional violence,25.5
+Wealth quintile,ddle,Female,Psychological/emotional violence,24.7
+Wealth quintile,urth,Female,Psychological/emotional violence,21.5
+Wealth quintile,ghest,Female,Psychological/emotional violence,16.8
+Age,-19,Male,Psychological/emotional violence,16
+Age,-24,Male,Psychological/emotional violence,24.3
+Age,-29,Male,Psychological/emotional violence,21.3
+Age,-39,Male,Psychological/emotional violence,19.3
+Age,-49,Male,Psychological/emotional violence,15.8
+Residence,ban,Male,Psychological/emotional violence,22.7
+Residence,ral,Male,Psychological/emotional violence,17.2
+Marital status,ver married,Male,Psychological/emotional violence,18.4
+Marital status,Currently has intimate partner,Male,Psychological/emotional violence,21.1
+Marital status,Had intimate partner,Male,Psychological/emotional violence,12.4
+Marital status,er married,Male,Psychological/emotional violence,19
+Marital status,Married/living together,Male,Psychological/emotional violence,18.1
+Marital status,Divorced/separated/widowed,Male,Psychological/emotional violence,26
+Education, education,Male,Psychological/emotional violence,11.6
+Education,imary,Male,Psychological/emotional violence,19.8
+Education,condary,Male,Psychological/emotional violence,20.1
+Education,re than secondary,Male,Psychological/emotional violence,18.2
+Wealth quintile,west,Male,Psychological/emotional violence,17.3
+Wealth quintile,cond,Male,Psychological/emotional violence,18.9
+Wealth quintile,ddle,Male,Psychological/emotional violence,17.4
+Wealth quintile,urth,Male,Psychological/emotional violence,23.3
+Wealth quintile,ghest,Male,Psychological/emotional violence,18.4
+Age,-19,Female,Physical violence,9.6
+Age,-24,Female,Physical violence,16
+Age,-29,Female,Physical violence,18.2
+Age,-39,Female,Physical violence,17.9
+Age,-49,Female,Physical violence,13.6
+Residence,ban,Female,Physical violence,13.8
+Residence,ral,Female,Physical violence,17.5
+Marital status,ver married,Female,Physical violence,7.1
+Marital status,Currently has intimate partner,Female,Physical violence,7.5
+Marital status,Had intimate partner,Female,Physical violence,6.4
+Marital status,er married,Female,Physical violence,18.4
+Marital status,Married/living together,Female,Physical violence,18.4
+Marital status,Divorced/separated/widowed,Female,Physical violence,18.6
+Education, education,Female,Physical violence,17.3
+Education,imary,Female,Physical violence,21.8
+Education,condary,Female,Physical violence,15.4
+Education,re than secondary,Female,Physical violence,6.3
+Wealth quintile,west,Female,Physical violence,22.1
+Wealth quintile,cond,Female,Physical violence,19.8
+Wealth quintile,ddle,Female,Physical violence,17.6
+Wealth quintile,urth,Female,Physical violence,14
+Wealth quintile,ghest,Female,Physical violence,10.1
+Age,-19,Male,Physical violence,6.4
+Age,-24,Male,Physical violence,8.5
+Age,-29,Male,Physical violence,5.3
+Age,-39,Male,Physical violence,4.3
+Age,-49,Male,Physical violence,4.4
+Residence,ban,Male,Physical violence,6.4
+Residence,ral,Male,Physical violence,4.8
+Marital status,ver married,Male,Physical violence,6
+Marital status,Currently has intimate partner,Male,Physical violence,6.7
+Marital status,Had intimate partner,Male,Physical violence,4.3
+Marital status,er married,Male,Physical violence,5.1
+Marital status,Married/living together,Male,Physical violence,4.3
+Marital status,Divorced/separated/widowed,Male,Physical violence,11.3
+Education, education,Male,Physical violence,3.5
+Education,imary,Male,Physical violence,5.7
+Education,condary,Male,Physical violence,6.8
+Education,re than secondary,Male,Physical violence,2.8
+Wealth quintile,west,Male,Physical violence,5
+Wealth quintile,cond,Male,Physical violence,6.3
+Wealth quintile,ddle,Male,Physical violence,5.7
+Wealth quintile,urth,Male,Physical violence,4.8
+Wealth quintile,ghest,Male,Physical violence,5.3
+Age,-19,Female,Sexual violence,6.1
+Age,-24,Female,Sexual violence,6.3
+Age,-29,Female,Sexual violence,7.5
+Age,-39,Female,Sexual violence,7.7
+Age,-49,Female,Sexual violence,6.7
+Residence,ban,Female,Sexual violence,5.7
+Residence,ral,Female,Sexual violence,8
+Marital status,ver married,Female,Sexual violence,4.3
+Marital status,Currently has intimate partner,Female,Sexual violence,4.1
+Marital status,Had intimate partner,Female,Sexual violence,4.8
+Marital status,er married,Female,Sexual violence,7.8
+Marital status,Married/living together,Female,Sexual violence,7.8
+Marital status,Divorced/separated/widowed,Female,Sexual violence,7.7
+Education, education,Female,Sexual violence,5
+Education,imary,Female,Sexual violence,9
+Education,condary,Female,Sexual violence,7.3
+Education,re than secondary,Female,Sexual violence,3.7
+Wealth quintile,west,Female,Sexual violence,8.4
+Wealth quintile,cond,Female,Sexual violence,9.2
+Wealth quintile,ddle,Female,Sexual violence,7.9
+Wealth quintile,urth,Female,Sexual violence,6.3
+Wealth quintile,ghest,Female,Sexual violence,4.8
+Age,-19,Male,Sexual violence,8.1
+Age,-24,Male,Sexual violence,6.7
+Age,-29,Male,Sexual violence,5.5
+Age,-39,Male,Sexual violence,3.7
+Age,-49,Male,Sexual violence,2.2
+Residence,ban,Male,Sexual violence,6.1
+Residence,ral,Male,Sexual violence,3.8
+Marital status,ver married,Male,Sexual violence,5.4
+Marital status,Currently has intimate partner,Male,Sexual violence,5
+Marital status,Had intimate partner,Male,Sexual violence,6.4
+Marital status,er married,Male,Sexual violence,3.9
+Marital status,Married/living together,Male,Sexual violence,3.3
+Marital status,Divorced/separated/widowed,Male,Sexual violence,8.1
+Education, education,Male,Sexual violence,2
+Education,imary,Male,Sexual violence,4.7
+Education,condary,Male,Sexual violence,5.6
+Education,re than secondary,Male,Sexual violence,3.4
+Wealth quintile,west,Male,Sexual violence,4.6
+Wealth quintile,cond,Male,Sexual violence,4.3
+Wealth quintile,ddle,Male,Sexual violence,5.1
+Wealth quintile,urth,Male,Sexual violence,5.2
+Wealth quintile,ghest,Male,Sexual violence,4
+Age,-19,Female,Economic violence,2.6
+Age,-24,Female,Economic violence,7.1
+Age,-29,Female,Economic violence,8.4
+Age,-39,Female,Economic violence,8.5
+Age,-49,Female,Economic violence,7.7
+Residence,ban,Female,Economic violence,6.8
+Residence,ral,Female,Economic violence,8
+Marital status,ver married,Female,Economic violence,2.6
+Marital status,Currently has intimate partner,Female,Economic violence,2.4
+Marital status,Had intimate partner,Female,Economic violence,2.9
+Marital status,er married,Female,Economic violence,8.9
+Marital status,Married/living together,Female,Economic violence,9.1
+Marital status,Divorced/separated/widowed,Female,Economic violence,7.9
+Education, education,Female,Economic violence,5.8
+Education,imary,Female,Economic violence,9.6
+Education,condary,Female,Economic violence,7.6
+Education,re than secondary,Female,Economic violence,4.2
+Wealth quintile,west,Female,Economic violence,8.3
+Wealth quintile,cond,Female,Economic violence,8.2
+Wealth quintile,ddle,Female,Economic violence,8.9
+Wealth quintile,urth,Female,Economic violence,7.9
+Wealth quintile,ghest,Female,Economic violence,5.2
+Age,-19,Male,Economic violence,8.7
+Age,-24,Male,Economic violence,6.1
+Age,-29,Male,Economic violence,7.9
+Age,-39,Male,Economic violence,7.4
+Age,-49,Male,Economic violence,8.1
+Residence,ban,Male,Economic violence,7.6
+Residence,ral,Male,Economic violence,7.6
+Marital status,ver married,Male,Economic violence,7
+Marital status,Currently has intimate partner,Male,Economic violence,7.7
+Marital status,Had intimate partner,Male,Economic violence,5.4
+Marital status,er married,Male,Economic violence,7.7
+Marital status,Married/living together,Male,Economic violence,7.8
+Marital status,Divorced/separated/widowed,Male,Economic violence,6.8
+Education, education,Male,Economic violence,7.4
+Education,imary,Male,Economic violence,7.8
+Education,condary,Male,Economic violence,8.7
+Education,re than secondary,Male,Economic violence,5.6
+Wealth quintile,west,Male,Economic violence,8
+Wealth quintile,cond,Male,Economic violence,7.2
+Wealth quintile,ddle,Male,Economic violence,8.1
+Wealth quintile,urth,Male,Economic violence,8.6
+Wealth quintile,ghest,Male,Economic violence,6
+Age,-19,Female,Physical and sexual,1.9
+Age,-24,Female,Physical and sexual,3.7
+Age,-29,Female,Physical and sexual,4.9
+Age,-39,Female,Physical and sexual,5.1
+Age,-49,Female,Physical and sexual,3.7
+Residence,ban,Female,Physical and sexual,3.6
+Residence,ral,Female,Physical and sexual,4.6
+Marital status,ver married,Female,Physical and sexual,1.3
+Marital status,Currently has intimate partner,Female,Physical and sexual,1.2
+Marital status,Had intimate partner,Female,Physical and sexual,1.3
+Marital status,er married,Female,Physical and sexual,5
+Marital status,Married/living together,Female,Physical and sexual,4.7
+Marital status,Divorced/separated/widowed,Female,Physical and sexual,6.6
+Education, education,Female,Physical and sexual,3
+Education,imary,Female,Physical and sexual,6
+Education,condary,Female,Physical and sexual,4.2
+Education,re than secondary,Female,Physical and sexual,1.4
+Wealth quintile,west,Female,Physical and sexual,5.6
+Wealth quintile,cond,Female,Physical and sexual,5.5
+Wealth quintile,ddle,Female,Physical and sexual,4.4
+Wealth quintile,urth,Female,Physical and sexual,3.9
+Wealth quintile,ghest,Female,Physical and sexual,2.6
+Age,-19,Male,Physical and sexual,3.4
+Age,-24,Male,Physical and sexual,3
+Age,-29,Male,Physical and sexual,1.9
+Age,-39,Male,Physical and sexual,1.5
+Age,-49,Male,Physical and sexual,0
+Residence,ban,Male,Physical and sexual,2.6
+Residence,ral,Male,Physical and sexual,1.1
+Marital status,ver married,Male,Physical and sexual,1.8
+Marital status,Currently has intimate partner,Male,Physical and sexual,1.4
+Marital status,Had intimate partner,Male,Physical and sexual,2.9
+Marital status,er married,Male,Physical and sexual,1.4
+Marital status,Married/living together,Male,Physical and sexual,0.9
+Marital status,Divorced/separated/widowed,Male,Physical and sexual,5.1
+Education, education,Male,Physical and sexual,1.5
+Education,imary,Male,Physical and sexual,1.2
+Education,condary,Male,Physical and sexual,2.4
+Education,re than secondary,Male,Physical and sexual,1.2
+Wealth quintile,west,Male,Physical and sexual,0.5
+Wealth quintile,cond,Male,Physical and sexual,1.9
+Wealth quintile,ddle,Male,Physical and sexual,1.8
+Wealth quintile,urth,Male,Physical and sexual,2.4
+Wealth quintile,ghest,Male,Physical and sexual,1.3
+Age,-19,Female,Physical and sexual and psychological/emotional,1.7
+Age,-24,Female,Physical and sexual and psychological/emotional,2.8
+Age,-29,Female,Physical and sexual and psychological/emotional,4.3
+Age,-39,Female,Physical and sexual and psychological/emotional,4.4
+Age,-49,Female,Physical and sexual and psychological/emotional,3.4
+Residence,ban,Female,Physical and sexual and psychological/emotional,3.1
+Residence,ral,Female,Physical and sexual and psychological/emotional,4
+Marital status,ver married,Female,Physical and sexual and psychological/emotional,1
+Marital status,Currently has intimate partner,Female,Physical and sexual and psychological/emotional,0.8
+Marital status,Had intimate partner,Female,Physical and sexual and psychological/emotional,1.3
+Marital status,er married,Female,Physical and sexual and psychological/emotional,4.4
+Marital status,Married/living together,Female,Physical and sexual and psychological/emotional,4
+Marital status,Divorced/separated/widowed,Female,Physical and sexual and psychological/emotional,5.9
+Education, education,Female,Physical and sexual and psychological/emotional,2.6
+Education,imary,Female,Physical and sexual and psychological/emotional,5.2
+Education,condary,Female,Physical and sexual and psychological/emotional,3.5
+Education,re than secondary,Female,Physical and sexual and psychological/emotional,1.3
+Wealth quintile,west,Female,Physical and sexual and psychological/emotional,4.7
+Wealth quintile,cond,Female,Physical and sexual and psychological/emotional,4.8
+Wealth quintile,ddle,Female,Physical and sexual and psychological/emotional,3.8
+Wealth quintile,urth,Female,Physical and sexual and psychological/emotional,3.1
+Wealth quintile,ghest,Female,Physical and sexual and psychological/emotional,2.5
+Age,-19,Male,Physical and sexual and psychological/emotional,1.4
+Age,-24,Male,Physical and sexual and psychological/emotional,2.7
+Age,-29,Male,Physical and sexual and psychological/emotional,1.6
+Age,-39,Male,Physical and sexual and psychological/emotional,1.1
+Age,-49,Male,Physical and sexual and psychological/emotional,0
+Residence,ban,Male,Physical and sexual and psychological/emotional,2.1
+Residence,ral,Male,Physical and sexual and psychological/emotional,0.7
+Marital status,ver married,Male,Physical and sexual and psychological/emotional,1.1
+Marital status,Currently has intimate partner,Male,Physical and sexual and psychological/emotional,0.3
+Marital status,Had intimate partner,Male,Physical and sexual and psychological/emotional,2.7
+Marital status,er married,Male,Physical and sexual and psychological/emotional,1.2
+Marital status,Married/living together,Male,Physical and sexual and psychological/emotional,0.7
+Marital status,Divorced/separated/widowed,Male,Physical and sexual and psychological/emotional,5.1
+Education, education,Male,Physical and sexual and psychological/emotional,0.8
+Education,imary,Male,Physical and sexual and psychological/emotional,1.1
+Education,condary,Male,Physical and sexual and psychological/emotional,1.7
+Education,re than secondary,Male,Physical and sexual and psychological/emotional,0.7
+Wealth quintile,west,Male,Physical and sexual and psychological/emotional,0.4
+Wealth quintile,cond,Male,Physical and sexual and psychological/emotional,1
+Wealth quintile,ddle,Male,Physical and sexual and psychological/emotional,1.6
+Wealth quintile,urth,Male,Physical and sexual and psychological/emotional,2
+Wealth quintile,ghest,Male,Physical and sexual and psychological/emotional,0.8
+Age,-19,Female,Physical and sexual and psychological/emotional and economic,0.8
+Age,-24,Female,Physical and sexual and psychological/emotional and economic,1.4
+Age,-29,Female,Physical and sexual and psychological/emotional and economic,2.1
+Age,-39,Female,Physical and sexual and psychological/emotional and economic,2.4
+Age,-49,Female,Physical and sexual and psychological/emotional and economic,1.9
+Residence,ban,Female,Physical and sexual and psychological/emotional and economic,1.6
+Residence,ral,Female,Physical and sexual and psychological/emotional and economic,2.1
+Marital status,ver married,Female,Physical and sexual and psychological/emotional and economic,0.3
+Marital status,Currently has intimate partner,Female,Physical and sexual and psychological/emotional and economic,0.1
+Marital status,Had intimate partner,Female,Physical and sexual and psychological/emotional and economic,0.8
+Marital status,er married,Female,Physical and sexual and psychological/emotional and economic,2.3
+Marital status,Married/living together,Female,Physical and sexual and psychological/emotional and economic,2.1
+Marital status,Divorced/separated/widowed,Female,Physical and sexual and psychological/emotional and economic,3.1
+Education, education,Female,Physical and sexual and psychological/emotional and economic,1.2
+Education,imary,Female,Physical and sexual and psychological/emotional and economic,2.9
+Education,condary,Female,Physical and sexual and psychological/emotional and economic,1.8
+Education,re than secondary,Female,Physical and sexual and psychological/emotional and economic,0.5
+Wealth quintile,west,Female,Physical and sexual and psychological/emotional and economic,2.6
+Wealth quintile,cond,Female,Physical and sexual and psychological/emotional and economic,2.2
+Wealth quintile,ddle,Female,Physical and sexual and psychological/emotional and economic,2.3
+Wealth quintile,urth,Female,Physical and sexual and psychological/emotional and economic,1.5
+Wealth quintile,ghest,Female,Physical and sexual and psychological/emotional and economic,1.2
+Age,-19,Male,Physical and sexual and psychological/emotional and economic,0
+Age,-24,Male,Physical and sexual and psychological/emotional and economic,0.2
+Age,-29,Male,Physical and sexual and psychological/emotional and economic,0
+Age,-39,Male,Physical and sexual and psychological/emotional and economic,0.1
+Age,-49,Male,Physical and sexual and psychological/emotional and economic,0
+Residence,ban,Male,Physical and sexual and psychological/emotional and economic,0
+Residence,ral,Male,Physical and sexual and psychological/emotional and economic,0.1
+Marital status,ver married,Male,Physical and sexual and psychological/emotional and economic,0
+Marital status,Currently has intimate partner,Male,Physical and sexual and psychological/emotional and economic,0
+Marital status,Had intimate partner,Male,Physical and sexual and psychological/emotional and economic,0
+Marital status,er married,Male,Physical and sexual and psychological/emotional and economic,0.1
+Marital status,Married/living together,Male,Physical and sexual and psychological/emotional and economic,0
+Marital status,Divorced/separated/widowed,Male,Physical and sexual and psychological/emotional and economic,0.5
+Education, education,Male,Physical and sexual and psychological/emotional and economic,0
+Education,imary,Male,Physical and sexual and psychological/emotional and economic,0.2
+Education,condary,Male,Physical and sexual and psychological/emotional and economic,0
+Education,re than secondary,Male,Physical and sexual and psychological/emotional and economic,0
+Wealth quintile,west,Male,Physical and sexual and psychological/emotional and economic,0
+Wealth quintile,cond,Male,Physical and sexual and psychological/emotional and economic,0.2
+Wealth quintile,ddle,Male,Physical and sexual and psychological/emotional and economic,0
+Wealth quintile,urth,Male,Physical and sexual and psychological/emotional and economic,0.1
+Wealth quintile,ghest,Male,Physical and sexual and psychological/emotional and economic,0
+Age,-19,Female,Physical or sexual,13.8
+Age,-24,Female,Physical or sexual,18.6
+Age,-29,Female,Physical or sexual,20.8
+Age,-39,Female,Physical or sexual,20.6
+Age,-49,Female,Physical or sexual,16.6
+Residence,ban,Female,Physical or sexual,16
+Residence,ral,Female,Physical or sexual,20.8
+Marital status,ver married,Female,Physical or sexual,10.2
+Marital status,Currently has intimate partner,Female,Physical or sexual,10.3
+Marital status,Had intimate partner,Female,Physical or sexual,9.9
+Marital status,er married,Female,Physical or sexual,21.2
+Marital status,Married/living together,Female,Physical or sexual,21.5
+Marital status,Divorced/separated/widowed,Female,Physical or sexual,19.7
+Education, education,Female,Physical or sexual,19.3
+Education,imary,Female,Physical or sexual,24.8
+Education,condary,Female,Physical or sexual,18.5
+Education,re than secondary,Female,Physical or sexual,8.6
+Wealth quintile,west,Female,Physical or sexual,24.9
+Wealth quintile,cond,Female,Physical or sexual,23.4
+Wealth quintile,ddle,Female,Physical or sexual,21.1
+Wealth quintile,urth,Female,Physical or sexual,16.3
+Wealth quintile,ghest,Female,Physical or sexual,12.4
+Age,-19,Male,Physical or sexual,11.1
+Age,-24,Male,Physical or sexual,12.3
+Age,-29,Male,Physical or sexual,9
+Age,-39,Male,Physical or sexual,6.5
+Age,-49,Male,Physical or sexual,6.7
+Residence,ban,Male,Physical or sexual,9.9
+Residence,ral,Male,Physical or sexual,7.5
+Marital status,ver married,Male,Physical or sexual,9.6
+Marital status,Currently has intimate partner,Male,Physical or sexual,10.3
+Marital status,Had intimate partner,Male,Physical or sexual,7.8
+Marital status,er married,Male,Physical or sexual,7.6
+Marital status,Married/living together,Male,Physical or sexual,6.7
+Marital status,Divorced/separated/widowed,Male,Physical or sexual,14.2
+Education, education,Male,Physical or sexual,4.1
+Education,imary,Male,Physical or sexual,9.2
+Education,condary,Male,Physical or sexual,10.1
+Education,re than secondary,Male,Physical or sexual,5.1
+Wealth quintile,west,Male,Physical or sexual,9.1
+Wealth quintile,cond,Male,Physical or sexual,8.7
+Wealth quintile,ddle,Male,Physical or sexual,9.1
+Wealth quintile,urth,Male,Physical or sexual,7.6
+Wealth quintile,ghest,Male,Physical or sexual,8
+Age,-19,Female,Physical or sexual or psychological/emotional,21.3
+Age,-24,Female,Physical or sexual or psychological/emotional,26.7
+Age,-29,Female,Physical or sexual or psychological/emotional,30.5
+Age,-39,Female,Physical or sexual or psychological/emotional,30.3
+Age,-49,Female,Physical or sexual or psychological/emotional,26.7
+Residence,ban,Female,Physical or sexual or psychological/emotional,24.1
+Residence,ral,Female,Physical or sexual or psychological/emotional,30.9
+Marital status,ver married,Female,Physical or sexual or psychological/emotional,16.4
+Marital status,Currently has intimate partner,Female,Physical or sexual or psychological/emotional,17.2
+Marital status,Had intimate partner,Female,Physical or sexual or psychological/emotional,15
+Marital status,er married,Female,Physical or sexual or psychological/emotional,31.4
+Marital status,Married/living together,Female,Physical or sexual or psychological/emotional,32.4
+Marital status,Divorced/separated/widowed,Female,Physical or sexual or psychological/emotional,26.1
+Education, education,Female,Physical or sexual or psychological/emotional,26.6
+Education,imary,Female,Physical or sexual or psychological/emotional,34.7
+Education,condary,Female,Physical or sexual or psychological/emotional,27.2
+Education,re than secondary,Female,Physical or sexual or psychological/emotional,18.4
+Wealth quintile,west,Female,Physical or sexual or psychological/emotional,32.8
+Wealth quintile,cond,Female,Physical or sexual or psychological/emotional,33.1
+Wealth quintile,ddle,Female,Physical or sexual or psychological/emotional,31
+Wealth quintile,urth,Female,Physical or sexual or psychological/emotional,27
+Wealth quintile,ghest,Female,Physical or sexual or psychological/emotional,20.7
+Age,-19,Male,Physical or sexual or psychological/emotional,22.2
+Age,-24,Male,Physical or sexual or psychological/emotional,29.3
+Age,-29,Male,Physical or sexual or psychological/emotional,25.4
+Age,-39,Male,Physical or sexual or psychological/emotional,20.8
+Age,-49,Male,Physical or sexual or psychological/emotional,17.6
+Residence,ban,Male,Physical or sexual or psychological/emotional,26.6
+Residence,ral,Male,Physical or sexual or psychological/emotional,19.9
+Marital status,ver married,Male,Physical or sexual or psychological/emotional,23.3
+Marital status,Currently has intimate partner,Male,Physical or sexual or psychological/emotional,26.7
+Marital status,Had intimate partner,Male,Physical or sexual or psychological/emotional,15.5
+Marital status,er married,Male,Physical or sexual or psychological/emotional,21.3
+Marital status,Married/living together,Male,Physical or sexual or psychological/emotional,20.4
+Marital status,Divorced/separated/widowed,Male,Physical or sexual or psychological/emotional,27.9
+Education, education,Male,Physical or sexual or psychological/emotional,13.4
+Education,imary,Male,Physical or sexual or psychological/emotional,22.5
+Education,condary,Male,Physical or sexual or psychological/emotional,24.6
+Education,re than secondary,Male,Physical or sexual or psychological/emotional,20
+Wealth quintile,west,Male,Physical or sexual or psychological/emotional,20.9
+Wealth quintile,cond,Male,Physical or sexual or psychological/emotional,21.8
+Wealth quintile,ddle,Male,Physical or sexual or psychological/emotional,20.6
+Wealth quintile,urth,Male,Physical or sexual or psychological/emotional,24.9
+Wealth quintile,ghest,Male,Physical or sexual or psychological/emotional,23
+Age,-19,Female,Physical or sexual or psychological/emotional or economic,22.3
+Age,-24,Female,Physical or sexual or psychological/emotional or economic,30.1
+Age,-29,Female,Physical or sexual or psychological/emotional or economic,34.3
+Age,-39,Female,Physical or sexual or psychological/emotional or economic,34.6
+Age,-49,Female,Physical or sexual or psychological/emotional or economic,34.2
+Residence,ban,Female,Physical or sexual or psychological/emotional or economic,29
+Residence,ral,Female,Physical or sexual or psychological/emotional or economic,34.9
+Marital status,ver married,Female,Physical or sexual or psychological/emotional or economic,18.3
+Marital status,Currently has intimate partner,Female,Physical or sexual or psychological/emotional or economic,18.7
+Marital status,Had intimate partner,Female,Physical or sexual or psychological/emotional or economic,17.4
+Marital status,er married,Female,Physical or sexual or psychological/emotional or economic,36.4
+Marital status,Married/living together,Female,Physical or sexual or psychological/emotional or economic,34.9
+Marital status,Divorced/separated/widowed,Female,Physical or sexual or psychological/emotional or economic,43.7
+Education, education,Female,Physical or sexual or psychological/emotional or economic,28.7
+Education,imary,Female,Physical or sexual or psychological/emotional or economic,39.1
+Education,condary,Female,Physical or sexual or psychological/emotional or economic,32.2
+Education,re than secondary,Female,Physical or sexual or psychological/emotional or economic,22.2
+Wealth quintile,west,Female,Physical or sexual or psychological/emotional or economic,36.1
+Wealth quintile,cond,Female,Physical or sexual or psychological/emotional or economic,36.9
+Wealth quintile,ddle,Female,Physical or sexual or psychological/emotional or economic,35.4
+Wealth quintile,urth,Female,Physical or sexual or psychological/emotional or economic,32.4
+Wealth quintile,ghest,Female,Physical or sexual or psychological/emotional or economic,24.9
+Age,-19,Male,Physical or sexual or psychological/emotional or economic,31.9
+Age,-24,Male,Physical or sexual or psychological/emotional or economic,34.3
+Age,-29,Male,Physical or sexual or psychological/emotional or economic,32.6
+Age,-39,Male,Physical or sexual or psychological/emotional or economic,30.2
+Age,-49,Male,Physical or sexual or psychological/emotional or economic,27.7
+Residence,ban,Male,Physical or sexual or psychological/emotional or economic,35.2
+Residence,ral,Male,Physical or sexual or psychological/emotional or economic,28.2
+Marital status,ver married,Male,Physical or sexual or psychological/emotional or economic,30.9
+Marital status,Currently has intimate partner,Male,Physical or sexual or psychological/emotional or economic,34.5
+Marital status,Had intimate partner,Male,Physical or sexual or psychological/emotional or economic,22.6
+Marital status,er married,Male,Physical or sexual or psychological/emotional or economic,30.1
+Marital status,Married/living together,Male,Physical or sexual or psychological/emotional or economic,29.6
+Marital status,Divorced/separated/widowed,Male,Physical or sexual or psychological/emotional or economic,34.1
+Education, education,Male,Physical or sexual or psychological/emotional or economic,22.3
+Education,imary,Male,Physical or sexual or psychological/emotional or economic,30.4
+Education,condary,Male,Physical or sexual or psychological/emotional or economic,33.9
+Education,re than secondary,Male,Physical or sexual or psychological/emotional or economic,27.8
+Wealth quintile,west,Male,Physical or sexual or psychological/emotional or economic,29.3
+Wealth quintile,cond,Male,Physical or sexual or psychological/emotional or economic,29
+Wealth quintile,ddle,Male,Physical or sexual or psychological/emotional or economic,29
+Wealth quintile,urth,Male,Physical or sexual or psychological/emotional or economic,34.5
+Wealth quintile,ghest,Male,Physical or sexual or psychological/emotional or economic,31.4

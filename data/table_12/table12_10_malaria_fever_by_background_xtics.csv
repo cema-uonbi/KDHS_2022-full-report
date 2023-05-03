@@ -1,0 +1,65 @@
+Value,Category,Proportion,Background characteristics
+Urban,Advice/treatment sought,68.9,Residence
+Urban,Advice/treatment sought same/next day,44.6,Residence
+Urban,Blood taken from finger/heel for testing,33.5,Residence
+Urban,Diagnosed by healthcare provider,13.1,Residence
+Rural,Advice/treatment sought,69.8,Residence
+Rural,Advice/treatment sought same/next day,40.3,Residence
+Rural,Blood taken from finger/heel for testing,33.3,Residence
+Rural,Diagnosed by healthcare provider,27.5,Residence
+Highland epidemic prone,Advice/treatment sought,71.3,Endemicity zone
+Highland epidemic prone,Advice/treatment sought same/next day,40.8,Endemicity zone
+Highland epidemic prone,Blood taken from finger/heel for testing,30.5,Endemicity zone
+Highland epidemic prone,Diagnosed by healthcare provider,21.2,Endemicity zone
+Lake endemic,Advice/treatment sought,74.1,Endemicity zone
+Lake endemic,Advice/treatment sought same/next day,42.1,Endemicity zone
+Lake endemic,Blood taken from finger/heel for testing,49.4,Endemicity zone
+Lake endemic,Diagnosed by healthcare provider,45.8,Endemicity zone
+Coast endemic,Advice/treatment sought,54.2,Endemicity zone
+Coast endemic,Advice/treatment sought same/next day,35.2,Endemicity zone
+Coast endemic,Blood taken from finger/heel for testing,34.5,Endemicity zone
+Coast endemic,Diagnosed by healthcare provider,13.4,Endemicity zone
+Seasonal,Advice/treatment sought,62.9,Endemicity zone
+Seasonal,Advice/treatment sought same/next day,32.8,Endemicity zone
+Seasonal,Blood taken from finger/heel for testing,29.3,Endemicity zone
+Seasonal,Diagnosed by healthcare provider,16.3,Endemicity zone
+Low risk,Advice/treatment sought,71.7,Endemicity zone
+Low risk,Advice/treatment sought same/next day,48.4,Endemicity zone
+Low risk,Blood taken from finger/heel for testing,23.8,Endemicity zone
+Low risk,Diagnosed by healthcare provider,8.5,Endemicity zone
+No education,Advice/treatment sought,57,Mother's education
+No education,Advice/treatment sought same/next day,31,Mother's education
+No education,Blood taken from finger/heel for testing,34,Mother's education
+No education,Diagnosed by healthcare provider,22,Mother's education
+Primary,Advice/treatment sought,67.5,Mother's education
+Primary,Advice/treatment sought same/next day,37.3,Mother's education
+Primary,Blood taken from finger/heel for testing,34.6,Mother's education
+Primary,Diagnosed by healthcare provider,28.1,Mother's education
+Secondary,Advice/treatment sought,73.7,Mother's education
+Secondary,Advice/treatment sought same/next day,47.4,Mother's education
+Secondary,Blood taken from finger/heel for testing,31.7,Mother's education
+Secondary,Diagnosed by healthcare provider,19.8,Mother's education
+More than secondary,Advice/treatment sought,71.9,Mother's education
+More than secondary,Advice/treatment sought same/next day,47,Mother's education
+More than secondary,Blood taken from finger/heel for testing,33.9,Mother's education
+More than secondary,Diagnosed by healthcare provider,12.9,Mother's education
+Lowest,Advice/treatment sought,64.3,Wealth quintile
+Lowest,Advice/treatment sought same/next day,36.1,Wealth quintile
+Lowest,Blood taken from finger/heel for testing,33.5,Wealth quintile
+Lowest,Diagnosed by healthcare provider,27.4,Wealth quintile
+Second,Advice/treatment sought,69.5,Wealth quintile
+Second,Advice/treatment sought same/next day,35.8,Wealth quintile
+Second,Blood taken from finger/heel for testing,36.1,Wealth quintile
+Second,Diagnosed by healthcare provider,30.2,Wealth quintile
+Middle,Advice/treatment sought,74.2,Wealth quintile
+Middle,Advice/treatment sought same/next day,44.5,Wealth quintile
+Middle,Blood taken from finger/heel for testing,33.9,Wealth quintile
+Middle,Diagnosed by healthcare provider,28.1,Wealth quintile
+Fourth,Advice/treatment sought,70.2,Wealth quintile
+Fourth,Advice/treatment sought same/next day,45.3,Wealth quintile
+Fourth,Blood taken from finger/heel for testing,29.9,Wealth quintile
+Fourth,Diagnosed by healthcare provider,16.8,Wealth quintile
+Highest,Advice/treatment sought,70.4,Wealth quintile
+Highest,Advice/treatment sought same/next day,47.9,Wealth quintile
+Highest,Blood taken from finger/heel for testing,34.2,Wealth quintile
+Highest,Diagnosed by healthcare provider,9.4,Wealth quintile

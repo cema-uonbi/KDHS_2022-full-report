@@ -1,0 +1,189 @@
+County,Category,Proportion
+Mombasa,Had a fever,20.6
+Mombasa,Treatment was sought,41.7
+Mombasa,Had blood taken for testing,43.6
+Mombasa,Received any ACT,NA
+Kwale,Had a fever,5.9
+Kwale,Treatment was sought,NA
+Kwale,Had blood taken for testing,NA
+Kwale,Received any ACT,NA
+Kilifi,Had a fever,16.4
+Kilifi,Treatment was sought,61.0
+Kilifi,Had blood taken for testing,30.7
+Kilifi,Received any ACT,NA
+Tana River,Had a fever,17.7
+Tana River,Treatment was sought,54.0
+Tana River,Had blood taken for testing,27.8
+Tana River,Received any ACT,NA
+Lamu,Had a fever,28.8
+Lamu,Treatment was sought,78.6
+Lamu,Had blood taken for testing,19.5
+Lamu,Received any ACT,NA
+Taita Taveta,Had a fever,10.8
+Taita Taveta,Treatment was sought,57.6
+Taita Taveta,Had blood taken for testing,25.0
+Taita Taveta,Received any ACT,NA
+Garissa,Had a fever,6.5
+Garissa,Treatment was sought,55.0
+Garissa,Had blood taken for testing,54.1
+Garissa,Received any ACT,NA
+Wajir,Had a fever,24.0
+Wajir,Treatment was sought,56.9
+Wajir,Had blood taken for testing,14.7
+Wajir,Received any ACT,NA
+Mandera,Had a fever,13.1
+Mandera,Treatment was sought,37.5
+Mandera,Had blood taken for testing,24.7
+Mandera,Received any ACT,NA
+Marsabit,Had a fever,6.9
+Marsabit,Treatment was sought,46.1
+Marsabit,Had blood taken for testing,32.3
+Marsabit,Received any ACT,NA
+Isiolo,Had a fever,17.3
+Isiolo,Treatment was sought,59.9
+Isiolo,Had blood taken for testing,34.3
+Isiolo,Received any ACT,NA
+Meru,Had a fever,21.3
+Meru,Treatment was sought,66.5
+Meru,Had blood taken for testing,17.8
+Meru,Received any ACT,NA
+Tharaka Nithi,Had a fever,31.4
+Tharaka Nithi,Treatment was sought,74.4
+Tharaka Nithi,Had blood taken for testing,34.2
+Tharaka Nithi,Received any ACT,NA
+Embu,Had a fever,11.4
+Embu,Treatment was sought,79.5
+Embu,Had blood taken for testing,6.4
+Embu,Received any ACT,NA
+Kitui,Had a fever,10.0
+Kitui,Treatment was sought,54.4
+Kitui,Had blood taken for testing,12.4
+Kitui,Received any ACT,NA
+Machakos,Had a fever,16.5
+Machakos,Treatment was sought,78.0
+Machakos,Had blood taken for testing,24.3
+Machakos,Received any ACT,NA
+Makueni,Had a fever,4.0
+Makueni,Treatment was sought,NA
+Makueni,Had blood taken for testing,NA
+Makueni,Received any ACT,NA
+Nyandarua,Had a fever,9.4
+Nyandarua,Treatment was sought,73.3
+Nyandarua,Had blood taken for testing,23.2
+Nyandarua,Received any ACT,NA
+Nyeri,Had a fever,15.2
+Nyeri,Treatment was sought,97.6
+Nyeri,Had blood taken for testing,23.0
+Nyeri,Received any ACT,NA
+Kirinyaga,Had a fever,5.6
+Kirinyaga,Treatment was sought,NA
+Kirinyaga,Had blood taken for testing,NA
+Kirinyaga,Received any ACT,NA
+Muranga,Had a fever,16.1
+Muranga,Treatment was sought,71.3
+Muranga,Had blood taken for testing,11.3
+Muranga,Received any ACT,NA
+Kiambu,Had a fever,17.1
+Kiambu,Treatment was sought,68.0
+Kiambu,Had blood taken for testing,28.8
+Kiambu,Received any ACT,NA
+Turkana,Had a fever,23.1
+Turkana,Treatment was sought,76.2
+Turkana,Had blood taken for testing,56.0
+Turkana,Received any ACT,78.3
+West Pokot,Had a fever,8.3
+West Pokot,Treatment was sought,72.0
+West Pokot,Had blood taken for testing,52.6
+West Pokot,Received any ACT,NA
+Samburu,Had a fever,13.6
+Samburu,Treatment was sought,51.0
+Samburu,Had blood taken for testing,23.7
+Samburu,Received any ACT,NA
+Trans Nzoia,Had a fever,17.8
+Trans Nzoia,Treatment was sought,74.0
+Trans Nzoia,Had blood taken for testing,41.9
+Trans Nzoia,Received any ACT,NA
+Uasin Gishu,Had a fever,24.7
+Uasin Gishu,Treatment was sought,77.9
+Uasin Gishu,Had blood taken for testing,29.6
+Uasin Gishu,Received any ACT,NA
+Elgeyo Marakwet,Had a fever,8.7
+Elgeyo Marakwet,Treatment was sought,64.6
+Elgeyo Marakwet,Had blood taken for testing,15.1
+Elgeyo Marakwet,Received any ACT,NA
+Nandi,Had a fever,13.2
+Nandi,Treatment was sought,72.5
+Nandi,Had blood taken for testing,34.6
+Nandi,Received any ACT,NA
+Baringo,Had a fever,17.4
+Baringo,Treatment was sought,85.3
+Baringo,Had blood taken for testing,35.4
+Baringo,Received any ACT,NA
+Laikipia,Had a fever,9.0
+Laikipia,Treatment was sought,77.9
+Laikipia,Had blood taken for testing,13.8
+Laikipia,Received any ACT,NA
+Nakuru,Had a fever,19.6
+Nakuru,Treatment was sought,66.2
+Nakuru,Had blood taken for testing,18.6
+Nakuru,Received any ACT,NA
+Narok,Had a fever,10.8
+Narok,Treatment was sought,58.0
+Narok,Had blood taken for testing,29.5
+Narok,Received any ACT,NA
+Kajiado,Had a fever,21.1
+Kajiado,Treatment was sought,60.1
+Kajiado,Had blood taken for testing,21.5
+Kajiado,Received any ACT,NA
+Kericho,Had a fever,4.7
+Kericho,Treatment was sought,NA
+Kericho,Had blood taken for testing,NA
+Kericho,Received any ACT,NA
+Bomet,Had a fever,20.9
+Bomet,Treatment was sought,67.0
+Bomet,Had blood taken for testing,9.6
+Bomet,Received any ACT,NA
+Kakamega,Had a fever,23.6
+Kakamega,Treatment was sought,72.2
+Kakamega,Had blood taken for testing,38.4
+Kakamega,Received any ACT,80.2
+Vihiga,Had a fever,16.2
+Vihiga,Treatment was sought,64.2
+Vihiga,Had blood taken for testing,23.8
+Vihiga,Received any ACT,NA
+Bungoma,Had a fever,19.6
+Bungoma,Treatment was sought,71.4
+Bungoma,Had blood taken for testing,50.5
+Bungoma,Received any ACT,99.0
+Busia,Had a fever,29.3
+Busia,Treatment was sought,85.0
+Busia,Had blood taken for testing,79.7
+Busia,Received any ACT,95.2
+Siaya,Had a fever,13.6
+Siaya,Treatment was sought,84.1
+Siaya,Had blood taken for testing,65.6
+Siaya,Received any ACT,95.9
+Kisumu,Had a fever,19.4
+Kisumu,Treatment was sought,66.3
+Kisumu,Had blood taken for testing,49.6
+Kisumu,Received any ACT,66.9
+Homa Bay,Had a fever,36.4
+Homa Bay,Treatment was sought,78.2
+Homa Bay,Had blood taken for testing,43.6
+Homa Bay,Received any ACT,97.7
+Migori,Had a fever,39.4
+Migori,Treatment was sought,73.7
+Migori,Had blood taken for testing,44.5
+Migori,Received any ACT,93.1
+Kisii,Had a fever,11.3
+Kisii,Treatment was sought,69.2
+Kisii,Had blood taken for testing,30.4
+Kisii,Received any ACT,NA
+Nyamira,Had a fever,15.7
+Nyamira,Treatment was sought,67.2
+Nyamira,Had blood taken for testing,26.8
+Nyamira,Received any ACT,NA
+Nairobi,Had a fever,15.0
+Nairobi,Treatment was sought,72.3
+Nairobi,Had blood taken for testing,27.5
+Nairobi,Received any ACT,NA
