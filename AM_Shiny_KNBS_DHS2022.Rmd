@@ -1,0 +1,959 @@
+---
+title: "KNBS DHS2022"
+output: 
+  flexdashboard::flex_dashboard:
+    #theme:
+    #  navbar-bg: "#A6674A"
+    orientation: rows
+    vertical_layout: scroll
+  runtime: shiny
+    
+---
+<!-- <style>                      -->
+<!-- .navbar { -->
+<!--   background-color:#A6674A; -->
+<!-- } -->
+
+
+<!-- </style>    -->
+
+
+```{r setup, include=FALSE}
+
+# load all the required packages
+library(pacman)
+p_load(docxtractr)
+p_load(flexdashboard)
+p_load(tidyverse)
+p_load(ggiraph)
+p_load(scales)
+
+# import all the tables
+dhs2022report <- read_docx("2022KDHSKIR_KNBS.docx") 
+
+# number of tables in the report
+docx_tbl_count(dhs2022report)
+tbls <- docx_extract_all_tbls(dhs2022report, trim = T, guess_header = T)
+
+```
+
+ {.tabset}
+-----------------------------------------------------------------------
+
+# Summary 
+
+## Row {data-width="200"}
+
+<br>
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("37,911"),
+  caption = "All Households Interviewed",
+  color = "black"
+)
+```
+
+### {.value-box}
+
+```{r}
+valueBox(
+  value = paste("19,747"),
+  caption = "Full questionnaires",
+  color = "red"
+)
+```
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("18,164"),
+  caption = "Short questionnaires",
+  color = "darkgreen"
+)
+```
+
+<br>
+
+<br>
+
+Row
+-------------------------------------
+
+```{r, fig.height=10,fig.height=22}
+
+selectInput("quest", "Choose type of questionnaire to see the number of women and men interviewed:",
+             c("Households interviewed"="All",
+               "Participants: Men"="Male",
+               "Participants: Women"="Female"))
+
+
+
+kdhshouseholdinterviews <- read_csv("table1_dhshhinterviews.csv") %>%
+  dplyr::mutate(Households = recode(Households, "Households selected" = "Selected","Households occupied" = "Occupied", "Households interviewed" = "Interviewed"))
+
+# include redundant columns in the household data to combine with the participant data
+interviewvisuals <- kdhshouseholdinterviews %>%
+  mutate(Gender="All") %>% 
+  mutate(Participant="All") %>%
+  rename(Respondents=Households)
+
+
+
+## import data for participant interviews 
+participantsinterviews <- read_csv("table1_participantsinterviews.csv") %>%
+  dplyr::mutate(Participant = recode(Respondents, "Number of eligible women" = "Eligible women","Number of eligible women interviewed" = "Women interviewed", "Number of eligible men" = "Eligible men","Number of eligible men interviewed" = "Men interviewed"))
+
+# join the two datasets
+totalinterviewvisuals <- rbind(interviewvisuals ,participantsinterviews) %>%
+  mutate(selection=recode(selection, "Long questionnaire"="Full questionnaires", "Long_questionnaire"="Full questionnaires"))
+
+renderPlot({
+ ggplot(totalinterviewvisuals[totalinterviewvisuals$Gender%in%input$quest,], aes(x=Respondents, y=numbers)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="#53A7DC") +
+  theme_bw() +
+  geom_text(aes(label=numbers), size=5,hjust=2, color="white")+
+  coord_flip() + labs(x="Households", y="", fill="Residence")+
+  facet_grid(residence~selection) +
+  theme(text= element_text(size = 20, colour = "black", face = "bold")) +
+  theme(strip.background =element_rect(fill="grey80"))
+        }, width = 1500, height=800) 
+  
+
+
+```
+
+
+
+
+Indicators
+================================
+
+Inputs {.sidebar}
+-----------------------------------
+<br>
+
+[Characteristics of Respondents](#respondents_characteristics)</br>
+
+[Health Insurance Coverage](#health_insurance)</br>
+
+[Disability among the household population](#disability_pop)</br>
+
+[Household population](#household_pop)</br>
+
+[Teenage pregnancy](#teenage_pregnancy)</br>
+
+[Current use of contraception](#contraception_use)</br>
+
+[Family planning need and demand among married women](#family_planning)</br>
+
+[Maternal care](#maternal_care)</br>
+
+[Vaccinations](#vaccinations)</br>
+
+[Nutritional status](#nutr_status)</br>
+
+[Insecticide treated nets](#treated_nets)</br>
+
+[Knowledge about HIV prevention methods among youth](#HIV_prevention)</br>
+
+[Coverage of prior HIV testing](#HIV_testing)</br>
+
+[Agricultural land ownership](#agric_land_ownership)</br>
+
+[Non-agricultural land ownership](#nonagric_land_ownership)</br>
+
+[Physical violence](#physical_violence)</br>
+
+
+respondents_characteristics {.hidden}
+==================
+
+Inputs {.sidebar}
+-----------------------------------
+<br>
+
+[Characteristics of Respondents](#respondents_characteristics)</br>
+
+[Health Insurance Coverage](#health_insurance)</br>
+
+[Disability among the household population](#disability_pop)</br>
+
+[Household population](#household_pop)</br>
+
+[Teenage pregnancy](#teenage_pregnancy)</br>
+
+[Current use of contraception](#contraception_use)</br>
+
+[Family planning need and demand among married women](#family_planning)</br>
+
+[Maternal care](#maternal_care)</br>
+
+[Vaccinations](#vaccinations)</br>
+
+[Nutritional status](#nutr_status)</br>
+
+[Insecticide treated nets](#treated_nets)</br>
+
+[Knowledge about HIV prevention methods among youth](#HIV_prevention)</br>
+
+[Coverage of prior HIV testing](#HIV_testing)</br>
+
+[Agricultural land ownership](#agric_land_ownership)</br>
+
+[Non-agricultural land ownership](#nonagric_land_ownership)</br>
+
+[Physical violence](#physical_violence)</br>
+
+## Row {data-width="200"}
+
+<br>
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("32,156"),
+  caption = "Number of women interviewed",
+  color = "red",
+  icon='fa-female,'
+)
+```
+
+### {.value-box}
+
+```{r}
+valueBox(
+  value = paste("14,453"),
+  caption = "Number of men interviewed",
+  color = "darkgreen",
+  icon='fa-male'
+)
+```
+
+Row
+---------------------------------
+
+```{r}
+
+selectInput("char", "Choose type of characteristics to make comparisons between women and men interviewed:",
+             c("Age"="Age",
+               "Reported health status"="Health_Status",
+               "Religion"="Religion",
+               "Marital status"="Marital_Status",
+               "Residence"="Residence",
+               "Education Status"="Education_Status",
+               "Wealth Quintile"="Wealth_Quintile",
+               "By County"="County"))
+
+
+
+respondentsbyage <- read_csv("table2_ageparticipants.csv")%>%
+  mutate(Indicator="Age")%>%
+  rename(Grouping=Age)
+
+# reported health status data
+healthstatus <- read_csv("table2_selfreport_healthstatus.csv") %>%
+  mutate(Health_status = fct_relevel(Health_status, 
+            "Very bad","Bad","Moderate","Good","Very good"))%>%
+  mutate(Indicator="Health_Status")%>%
+  rename(Grouping=Health_status)
+
+# religion
+religionrespondents <- read_csv("table2_religionparticipants.csv") %>%
+  mutate(Religion = fct_relevel(Religion, "Other","No religion", "Muslim","Catholic","Protestant/other Christian")) %>%
+  mutate(Indicator="Religion") %>%
+  rename(Grouping=Religion)
+
+# Marital status
+maritalstatusrespondents <- read_csv("table2_maritalstatusparticipants.csv") %>%
+  mutate(Marital_status = fct_relevel(Marital_status, "Widowed","Living together", "Divorced/separated","Never married","Married")) %>% 
+  mutate(Indicator="Marital_Status") %>%
+  rename(Grouping=Marital_status)
+
+# Place of residence 
+residentrespondents <- read_csv("table2_residenceparticipants.csv") %>%
+  mutate(Residence = fct_relevel(Residence, "Urban", "Rural")) %>%
+  mutate(Indicator="Residence") %>%
+  rename(Grouping=Residence)
+
+# Education status
+educationrespondents <- read_csv("table2_educationstatusparticipants.csv")  %>%
+  mutate(Education_status = fct_relevel(Education_status, "Vocational", "More than secondary","Secondary", "Primary", "No education")) %>%
+  mutate(Indicator="Education_Status") %>%
+  rename(Grouping=Education_status)
+
+# Wealth quintile
+economicstatusrespondents <- read_csv("table2_economicstatus15_49.csv")  %>%
+  mutate(Wealth_quintile = fct_relevel(Wealth_quintile, "Lowest", "Second","Middle", "Fourth", "Highest")) %>%
+  mutate(Indicator="Wealth_Quintile") %>%
+  rename(Grouping=Wealth_quintile)
+
+# By county
+countyrespondents <- read_csv("table2_participantsbycounty.csv") %>%
+  arrange(desc(Weighted_percent)) %>%
+  mutate(Indicator="County") %>%
+  rename(Grouping=County)
+  
+# join the datasets with participants characteristics
+
+respondentsdata <- rbind(respondentsbyage, healthstatus, religionrespondents, maritalstatusrespondents, residentrespondents, educationrespondents, economicstatusrespondents, countyrespondents) %>%
+  mutate(Indicator1=Indicator) %>%
+  mutate(Indicator1=recode(Indicator1, "Education_Status"="Education Status", "Health_Status"="Health Status", "Marital_Status"="Marital Status", "Wealth_Quintile"="Wealth Quintile"))
+
+respondentsdata$Grouping <- fct_relevel(respondentsdata$Grouping, "Lowest", "Fourth", "Middle", "Second", "Highest")
+# visualize the data
+renderPlot({
+  if (input$char%in%c("Wealth_Quintile", "Age")){
+   respondentsdata%>%
+    filter(Indicator==input$char)%>%
+    ggplot(aes(x=Grouping, y=Weighted_percent, color = Participants)) + 
+  geom_point(stat = "identity", size= 20) + 
+  theme_bw() +
+  geom_text(aes(label=paste0(Weighted_percent,"%")), hjust=-1.0, size=4, color="black")+
+  labs(y="Weighted percent (%)",x=paste0(unique(respondentsdata[respondentsdata$Indicator==input$char,]$Indicator1), " of respondents"), fill="Gender") +scale_color_manual(values=c("darkgreen", "red"))+
+  theme(text=element_text(size=18, face="bold"))}
+    else {
+     respondentsdata%>%
+    filter(Indicator==input$char)%>%
+    ggplot(aes(x=Grouping, y=Weighted_percent, fill = Participants)) + 
+  geom_col(stat = "identity", size= 10) + 
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), vjust=-1.5, size=4, fill="black")+
+  labs(y="Weighted percent (%)",x=paste0(unique(respondentsdata[respondentsdata$Indicator==input$char,]$Indicator1), " of respondents"), fill="Gender") +scale_fill_manual(values=c("darkgreen", "red"))+
+  theme(text=element_text(size=20, face="bold")) 
+    }
+  }, width = 1300, height=800)
+  
+
+
+```
+
+health_insurance {.hidden}
+==================
+
+Inputs {.sidebar}
+-----------------------------------
+<br>
+
+[Characteristics of Respondents](#respondents_characteristics)</br>
+
+[Health Insurance Coverage](#health_insurance)</br>
+
+[Disability among the household population](#disability_pop)</br>
+
+[Household population](#household_pop)</br>
+
+[Teenage pregnancy](#teenage_pregnancy)</br>
+
+[Current use of contraception](#contraception_use)</br>
+
+[Family planning need and demand among married women](#family_planning)</br>
+
+[Maternal care](#maternal_care)</br>
+
+[Vaccinations](#vaccinations)</br>
+
+[Nutritional status](#nutr_status)</br>
+
+[Insecticide treated nets](#treated_nets)</br>
+
+[Knowledge about HIV prevention methods among youth](#HIV_prevention)</br>
+
+[Coverage of prior HIV testing](#HIV_testing)</br>
+
+[Agricultural land ownership](#agric_land_ownership)</br>
+
+[Non-agricultural land ownership](#nonagric_land_ownership)</br>
+
+[Physical violence](#physical_violence)</br>
+
+## Row {data-width="200"} 
+
+<br>
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+value = paste("32,156"),
+   caption = "Number of women interviewed",
+   color = "red", 
+   icon='fa-female,' 
+ ) 
+``` 
+
+### {.value-box}
+
+```{r}
+ valueBox( 
+   value = paste("14,453"), 
+   caption = "Number of men interviewed", 
+   color = "darkgreen", 
+   icon='fa-male' 
+ )
+ 
+```
+
+Row
+------------------------------- 
+
+```{r}
+
+selectInput("health", "Choose sub-indicators to make comparisons between women and men interviewed:",
+              c("Age"="Age_category", 
+                "Residence"="Residence", 
+                "Wealth quintile"="Wealth_quintile"))
+
+# health insurance data by age
+healthinsurancebyage <- read_csv("table3_healthinsurancebyage.csv") %>%
+  select(Age_category, Any_health_insurance, None_DontKnow) %>%
+  pivot_longer(c(Any_health_insurance, None_DontKnow), names_to = "Insurance", values_to="Proportion") %>%
+  mutate(Insurance=recode(Insurance,"Any_health_insurance"="Form of health insurance", "None_DontKnow"="None/ Don't Know")) %>%
+  rename(Indicator=Age_category) %>%
+  mutate(Indicator1="Age_category")
+
+# health insurance data by residence
+healthinsurancebyresidence <-read_csv("table3_healthinsurancebyresidence.csv") %>%
+  select(Residence, Any_health_insurance, None_DontKnow) %>%
+  pivot_longer(c(Any_health_insurance, None_DontKnow), names_to = "Insurance", values_to="Proportion") %>%
+  mutate(Insurance=recode(Insurance,"Any_health_insurance"="Form of health insurance", "None_DontKnow"="None/ Don't Know")) %>%
+  rename(Indicator=Residence) %>%
+  mutate(Indicator1="Residence")
+
+# Wealth quintile
+healthinsurancebywealthquintile <- read_csv( "table3_healthinsurancebywealthquintile.csv") %>%
+  select(Wealth_quintile, Any_health_insurance, None_DontKnow) %>%
+  pivot_longer(c(Any_health_insurance, None_DontKnow), names_to = "Insurance", values_to="Proportion") %>%
+  mutate(Insurance=recode(Insurance,"Any_health_insurance"="Form of health insurance", "None_DontKnow"="None/ Don't Know")) %>%
+  rename(Indicator=Wealth_quintile) %>%
+  mutate(Indicator1="Wealth_quintile")
+  
+# total health insurance data
+healthinsurance <- rbind(healthinsurancebyage,healthinsurancebyresidence,healthinsurancebywealthquintile) 
+
+healthinsurance$Indicator <- fct_relevel(healthinsurance$Indicator, "Lowest", "Fourth", "Middle", "Second", "Highest")
+
+renderPlot({
+  ggplot(healthinsurance[healthinsurance$Indicator1%in%input$health,], aes(x=Indicator, y=Proportion, fill=Insurance))+geom_bar(stat = 'identity', position = position_fill(reverse = TRUE)) +
+  coord_flip()+
+    scale_y_continuous(labels = scales::percent)+
+    scale_fill_brewer(palette = "Set1")+
+    theme_bw()+theme(text=element_text(size=20, face = "bold"))
+},width = 1500, height=800)
+
+
+```
+
+disability_pop {.hidden}
+==================
+
+Inputs {.sidebar}
+-----------------------------------
+<br>
+
+[Characteristics of Respondents](#respondents_characteristics)</br>
+
+[Health Insurance Coverage](#health_insurance)</br>
+
+[Disability among the household population](#disability_pop)</br>
+
+[Household population](#household_pop)</br>
+
+[Teenage pregnancy](#teenage_pregnancy)</br>
+
+[Current use of contraception](#contraception_use)</br>
+
+[Family planning need and demand among married women](#family_planning)</br>
+
+[Maternal care](#maternal_care)</br>
+
+[Vaccinations](#vaccinations)</br>
+
+[Nutritional status](#nutr_status)</br>
+
+[Insecticide treated nets](#treated_nets)</br>
+
+[Knowledge about HIV prevention methods among youth](#HIV_prevention)</br>
+
+[Coverage of prior HIV testing](#HIV_testing)</br>
+
+[Agricultural land ownership](#agric_land_ownership)</br>
+
+[Non-agricultural land ownership](#nonagric_land_ownership)</br>
+
+[Physical violence](#physical_violence)</br>
+
+## Row {data-width="200"}
+
+<br>
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("16%"),
+  caption = "Some difficulty",
+  color = "black"
+)
+```
+
+### {.value-box}
+
+```{r}
+valueBox(
+  value = paste("5.2%"),
+  caption = "Alot of difficulty",
+  color = "red"
+)
+```
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("0.5%"),
+  caption = "Cannot do at all",
+  color = "darkgreen"
+)
+```
+
+<br>
+
+<br>
+
+
+## Row {data-height="200"}
+
+### Choose indicators to dispaly
+
+```{r}
+
+selectInput("disability", "Choose sub-indicators to make comparisons between women and men interviewed:",
+              c("Age"="Age_category", 
+                "Marital Status"="Marital_status", 
+                "Residence"="Residence",
+                "Education"="Education_status",
+                "Wealth quintile"="Wealth_quintile"))
+
+selectInput("disability1", "Choose  a sub-indicator:",
+              c("Some difficulty"="SomeDifficulty", 
+                "Alot of difficulty"="A_lot_of_difficulty", 
+                "Cannot do at all"="Cannot_do_at_all", "More than one domain"="A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain"))
+
+selectInput("disability_domain", "Choose  a sub-indicator:",
+              c("Seeing"="Seeing", 
+                "Hearing"="Hearing", 
+                "Communicating"="Communicating",
+                "Remembering/Concentrating"="Remembering_concentrating","Walking/ClimbingSteps"="Walking_ClimbingSteps",
+                "Washing all over/Dressing"="washingAllOver_dressing"))
+```
+
+Row
+-----------------------
+
+## Disability by characteristics
+
+```{r}
+
+
+# disability by age
+disabilitybyage <- read_csv( "table4_disabilitybyage.csv") %>%
+  mutate(Indicator1 ="Age_category") %>%
+  rename(Indicator=Age_category)
+
+# disability by marital status
+disabilitybymaritalstatus <- read_csv( "table4_disabilitybymaritalstatus.csv") %>%
+  mutate(Indicator1="Marital_status") %>%
+  rename(Indicator=Marital_status)
+
+# disability by residence
+disabilitybyresidence <- read_csv( "table4_disabilitybyresidence.csv") %>%
+  mutate(Indicator1 = "Residence") %>%
+  rename(Indicator=Residence)
+
+# disability by education status
+disabilitybyeducationstatus <- read_csv( "table4_disabilitybyeducationstatus.csv") %>%
+  mutate(Indicator1 ="Education_status") %>%
+  rename(Indicator=Education_status)
+ 
+#disability by wealth quintile
+disabilitybywealthquintile <- read_csv( "table4_disabilitybywealthquintile.csv") %>%
+  mutate(Indicator1="Wealth_quintile") %>%
+  rename(Indicator=Wealth_quintile)
+  
+disabilitydata <- rbind(disabilitybyage, disabilitybymaritalstatus, disabilitybyresidence, disabilitybyeducationstatus, disabilitybywealthquintile) %>%
+  pivot_longer(c(No_difficulty, SomeDifficulty, A_lot_of_difficulty, Cannot_do_at_all, A_lot_of_difficulty_cannot_do_at_all, A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain), names_to="difficulty", values_to="difficultyprop") %>%
+  pivot_longer(c(Seeing, Hearing,Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing), names_to="impairment", values_to="impairmentvalues")%>%
+  filter(difficulty%in%c("A_lot_of_difficulty","SomeDifficulty", "Cannot_do_at_all"))%>%
+  mutate(difficulty=recode(difficulty, "A_lot_of_difficulty"="Alot of difficulty", "SomeDifficulty"="Some Difficulty","Cannot_do_at_all"="Cannot do at all"  ))%>%
+  mutate(difficulty=fct_relevel(difficulty, "Some Difficulty", "Alot of difficulty", "Cannot do at all"))
+
+disabilitydata$Indicator <- fct_relevel(disabilitydata$Indicator, "Lowest", "Fourth", "Middle", "Second", "Highest")
+
+ renderPlot({
+   ggplot(disabilitydata[disabilitydata$Indicator1==input$disability,], aes(x=Indicator, y=difficultyprop, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) +
+  scale_fill_manual("Disability", values = c("SomeDifficulty" = "darkorange", "A_lot_of_difficulty" = "cyan3", "Cannot_do_at_all" = "red")) +
+  theme_bw() +
+  ylab("Percent (%)") + xlab(paste0(unique(Indicator2) ," of respondents")) +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=20, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+},width = 1500, height=800)
+```
+
+
+
+nutr_status {.hidden}
+==================
+
+Inputs {.sidebar}
+-----------------------------------
+<br>
+
+[Characteristics of Respondents](#respondents_characteristics)</br>
+
+[Health Insurance Coverage](#health_insurance)</br>
+
+[Disability among the household population](#disability_pop)</br>
+
+[Household population](#household_pop)</br>
+
+[Teenage pregnancy](#teenage_pregnancy)</br>
+
+[Current use of contraception](#contraception_use)</br>
+
+[Family planning need and demand among married women](#family_planning)</br>
+
+[Maternal care](#maternal_care)</br>
+
+[Vaccinations](#vaccinations)</br>
+
+[Nutritional status](#nutr_status)</br>
+
+[Insecticide treated nets](#treated_nets)</br>
+
+[Knowledge about HIV prevention methods among youth](#HIV_prevention)</br>
+
+[Coverage of prior HIV testing](#HIV_testing)</br>
+
+[Agricultural land ownership](#agric_land_ownership)</br>
+
+[Non-agricultural land ownership](#nonagric_land_ownership)</br>
+
+[Physical violence](#physical_violence)</br>
+
+## Row {data-width="200"}
+
+<br>
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("17.6%"),
+  caption = "Moderate stunting",
+  color = "black"
+)
+```
+
+### {.value-box}
+
+```{r}
+valueBox(
+  value = paste("4.9%"),
+  caption = "Moderate wasting",
+  color = "red"
+)
+```
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("10.1%"),
+  caption = "Moderately underweight",
+  color = "darkgreen"
+)
+```
+
+<br>
+
+<br>
+
+
+## Row {data-height="200"}
+
+```{r}
+selectInput("nutr", "Choose background indicators to display:",
+              c("Sex"="Sex", 
+                "Residence"="Residence", 
+                "Wealth quintile"="Wealth_quintile",
+                "Mother's education"="Mother_education"))
+
+nut_age <- read_csv("table14_nutr_status_by_age.csv")
+nut_sex <- read_csv("table14_nutr_status_by_sex.csv")%>%
+  mutate(measure=ifelse(indicator%in%"HFA","Stunting", ifelse(indicator%in%"WFH","Wasting","Underweight")))%>%
+  mutate(lab = str_c(perc_below2sd,"%"))
+nut_res <- read_csv("table14_nutr_status_by_residence.csv")%>%
+  mutate(measure=ifelse(indicator%in%"HFA","Stunting", ifelse(indicator%in%"WFH","Wasting","Underweight")))%>%
+  mutate(lab = str_c(perc_below2sd,"%"))
+nut_motedu <- read_csv("table14_nutr_status_by_mother_edu.csv")%>%
+  mutate(`Mother's education`=as.factor(fct_relevel(`Mother's education`, c("No education", "Primary", "Secondary", "More than secondary"))))%>%
+  mutate(measure=ifelse(indicator%in%"HFA","Stunting", ifelse(indicator%in%"WFH","Wasting","Underweight")))%>%
+  mutate(lab = str_c(perc_below2sd,"%"))
+nut_wealth <- read_csv("table14_nutr_status_by_wealth.csv")%>%
+  mutate(`Wealth quintile`=as.factor(fct_relevel(`Wealth quintile`, c("Lowest", "Second", "Middle", "Fourth", "Highest"))))%>%
+  mutate(measure=ifelse(indicator%in%"HFA","Stunting", ifelse(indicator%in%"WFH","Wasting","Underweight")))%>%
+  mutate(lab = str_c(perc_below2sd,"%"))
+nutc <- read_csv("table14C_nutr_status_by_county.csv")%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga",
+                       "Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))
+
+county <- st_read("./Kenya County shapefiles/County.shp")%>%
+  mutate(region=ifelse(Name%in%c("Kilifi","Kwale","Lamu", "Mombasa", "Taita Taveta", "Tana River"),"Coast", ifelse(Name%in%c("Garissa", "Mandera", "Wajir"),"North Eastern", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni"),"Eastern", ifelse(Name%in%c("Kiambu", "Kirinyaga","Muranga","Nyandarua", "Nyeri"),"Central", ifelse(Name%in%c("Bungoma",
+ "Busia","Kakamega","Vihiga"),"Western", ifelse(Name%in%c("Kisumu", "Siaya","Homa Bay","Kisii", "Migori","Nyamira"),"Nyanza", ifelse(Name%in%"Nairobi","Nairobi", "Rift Valley"))))))))%>%
+  rename(County=Name)
+
+renderPlot({
+  ggplot(healthinsurance[healthinsurance$Indicator1%in%input$health,], aes(x=Indicator, y=Proportion, fill=Insurance))+geom_bar(stat = 'identity', position = position_fill(reverse = TRUE)) +
+  coord_flip()+
+    scale_y_continuous(labels = scales::percent)+
+    scale_fill_brewer(palette = "Set1")+
+    theme_bw()+theme(text=element_text(size=20, face = "bold"))
+},width = 1500, height=800)
+
+
+```
+
+
+
+treated_nets {.hidden}
+==================
+
+Inputs {.sidebar}
+-----------------------------------
+<br>
+
+[Characteristics of Respondents](#respondents_characteristics)</br>
+
+[Health Insurance Coverage](#health_insurance)</br>
+
+[Disability among the household population](#disability_pop)</br>
+
+[Household population](#household_pop)</br>
+
+[Teenage pregnancy](#teenage_pregnancy)</br>
+
+[Current use of contraception](#contraception_use)</br>
+
+[Family planning need and demand among married women](#family_planning)</br>
+
+[Maternal care](#maternal_care)</br>
+
+[Vaccinations](#vaccinations)</br>
+
+[Nutritional status](#nutr_status)</br>
+
+[Insecticide treated nets](#treated_nets)</br>
+
+[Knowledge about HIV prevention methods among youth](#HIV_prevention)</br>
+
+[Coverage of prior HIV testing](#HIV_testing)</br>
+
+[Agricultural land ownership](#agric_land_ownership)</br>
+
+[Non-agricultural land ownership](#nonagric_land_ownership)</br>
+
+[Physical violence](#physical_violence)</br>
+
+## Row {data-width="200"}
+
+<br>
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("54.2%"),
+  caption = "Households with at least 1 ITN",
+  color = "black"
+)
+```
+
+### {.value-box}
+
+```{r}
+valueBox(
+  value = paste("1.2"),
+  caption = "Average number of ITNs per household",
+  color = "red"
+)
+```
+
+### {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("37.1%"),
+  caption = "Households with at least 1 ITN\n per 2 persons who stayed last night",
+  color = "darkgreen"
+)
+```
+
+<br>
+
+<br>
+
+
+## Row {data-height="200"}
+
+### Choose indicators to display
+
+
+Compare indicators by county
+============
+
+Inputs {.sidebar}
+-----------------------------------
+<br>
+
+[Coverage of prior HIV testing](#hiv_test_county_comp)</br>
+
+[Knowledge about HIV prevention methods among young people](#hiv_prevent_conty_comp)</br>
+
+[Current contraceptive use](#contraceptive_county_comp)</br>
+
+[Maternal care indicators](#maternal_county_comp)</br>
+
+[Childhood vaccination coverage](#vaccine_county_comp)</br>
+
+[Children nutritional status](#nutrition_county_comp)</br>
+
+[Family planning need and demand](#fp_county_comp)</br>
+
+[Teenage pregnancy](#teen_preg_county_comp)</br>
+
+[Household possession of ITNs](#itn_county_comp)</br>
+
+[Experience of physical violence](#violence_county_comp)</br>
+
+
+```{r}
+
+# selectInput("char", "Choose type of characteristics to make comparisons between women and men interviewed:",
+#              c("Age"="Age",
+#                "Reported health status"="Health_Status",
+#                "Religion"="Religion",
+#                "Marital status"="Marital_Status",
+#                "Residence"="Residence",
+#                "Education Status"="Education_Status",
+#                "Wealth Quintile"="Wealth_Quintile",
+#                "By County"="County"))
+### datasets
+
+#nutrition
+nutc <- read_csv("table14C_nutr_status_by_county.csv")%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))
+
+#ITN
+itnc <- read_csv("table18C_ITN_by_county.csv")%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))
+
+#family planning
+fpc <- read_csv("table8c_fpusemarriedbycounty.csv")%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))
+
+#teenage pregnancy
+teenpregc <- read_csv("table6_teenpregnancybycounty.csv")%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))
+
+#violence
+violencec <- read_csv("./table_29C-Experience_of_physical_violence_by_county/table_29C_Women.csv")%>% 
+  rename(County=`Background characteristic`)%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))%>%
+  filter(!County%in%c("Total",NA))
+
+#maternal care  
+matcarec <- read_csv("./Edwin Tables/table10Cmaternalcarecounty.csv")%>% 
+  rename(County=`NAME_1`)%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))
+
+#vaccination 
+vacc <- read_csv("./Edwin Tables/table11C_vaccinationbycounty.csv")%>% 
+  rename(County=`NAME_1`)%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))%>%
+  mutate(CountyFullyVaccinated24=round(as.numeric(CountyFullyVaccinated24)))
+
+#hiv knowledge
+hivc <- read_csv("./Edwin Tables/table23_hiv_count_data.csv")%>% 
+  #rename(County=`NAME_1`)%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))
+
+#hiv testing
+hiv_testc <- read_csv("./Edwin Tables/table25C .1 and .2_HIV_test_bind.csv")%>% 
+  #rename(County=`NAME_1`)%>%
+  mutate(County=recode(County,"Tharaka-Nithi"="Tharaka Nithi", "Elgeyo/Marakwet"="Elgeyo Marakwet","Murang’a"="Muranga","Nairobi City"="Nairobi","Taita/Taveta"="Taita Taveta"))
+
+## combine datasets
+comb <- nutc%>%left_join(itnc, by="County")%>%
+  left_join(fpc, by="County")%>%
+  left_join(teenpregc, by="County")%>%
+  left_join(violencec, by="County")%>%
+  left_join(matcarec, by="County")%>%
+  left_join(vacc, by="County")%>%
+  left_join(hivc, by="County")%>%
+  left_join(hiv_testc, by="County")%>%
+  mutate(lab=County)
+```
+
+hiv_test_county_comp {.hidden}
+==================
+
+Inputs {.sidebar}
+-----------------------------------
+<br>
+
+[Coverage of prior HIV testing](#hiv_test_county_comp)</br>
+
+[Knowledge about HIV prevention methods among young people](#hiv_prevent_conty_comp)</br>
+
+[Current contraceptive use](#contraceptive_county_comp)</br>
+
+[Maternal care indicators](#maternal_county_comp)</br>
+
+[Childhood vaccination coverage](#vaccine_county_comp)</br>
+
+[Children nutritional status](#nutrition_county_comp)</br>
+
+[Family planning need and demand](#fp_county_comp)</br>
+
+[Teenage pregnancy](#teen_preg_county_comp)</br>
+
+[Household possession of ITNs](#itn_county_comp)</br>
+
+[Experience of physical violence](#violence_county_comp)</br>
+
+## Row {data-width="200"}
+
+<br>
+
+```{r}
+
+```
+

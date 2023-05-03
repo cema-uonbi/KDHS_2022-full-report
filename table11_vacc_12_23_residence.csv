@@ -1,0 +1,37 @@
+residence,Vaccines,Percent
+Urban,BCG,97.1
+Urban,DTP1,97.3
+Urban,DTP2,93.2
+Urban,DTP3,87.9
+Urban,OPV,92.0
+Urban,OPV1,95.9
+Urban,OPV2,93.5
+Urban,OPV3,74.5
+Urban,IPV,89.0
+Urban,Pneumococcal1,96.4
+Urban,Pneumococcal2,95.9
+Urban,Pneumococcal3,92.0
+Urban,Rotavirus1,96.2
+Urban,Rotavirus2,93.7
+Urban,MR 1,90.9
+Urban,Fully.vaccinated ,79.6
+Urban,Fully.vaccinated.national schedule ,55.7
+Urban,No.vaccinations,2.2
+Rural,BCG,96.8
+Rural,DTP1,97.0
+Rural,DTP2,94.4
+Rural,DTP3,89.9
+Rural,OPV,82.7
+Rural,OPV1,96.8
+Rural,OPV2,94.6
+Rural,OPV3,80.4
+Rural,IPV,86.4
+Rural,Pneumococcal1,96.5
+Rural,Pneumococcal2,95.2
+Rural,Pneumococcal3,90.7
+Rural,Rotavirus1,95.9
+Rural,Rotavirus2,91.5
+Rural,MR 1,87.9
+Rural,Fully.vaccinated ,80.3
+Rural,Fully.vaccinated.national schedule ,55.0
+Rural,No.vaccinations,2.1

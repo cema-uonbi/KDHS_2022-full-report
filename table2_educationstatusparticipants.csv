@@ -1,0 +1,11 @@
+Education_status,Weighted_percent,Weighted_number,Unweighted_number,Participants
+No education,5.5,"1,770","3,836",Women
+Primary,36.3,"11,687","11,807",Women
+Secondary,38.0,"12,204","11,311",Women
+Vocational,1.1,345,323,Women
+More than secondary,19.1,"6,150","4,879",Women
+No education,2.7,369,774,Men
+Primary,35.9,"4,894","5,150",Men
+Secondary,39.5,"5,386","5,195",Men
+Vocational,1.5,206,204,Men
+More than secondary,20.5,"2,797","2,346",Men

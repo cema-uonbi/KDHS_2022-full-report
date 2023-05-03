@@ -1,0 +1,189 @@
+County,Family_planning,Percent
+Mombasa,Unmet need,19.1
+Mombasa,Met need (all methods),46.8
+Mombasa,Total demand,65.9
+Mombasa,Demand satisfied (all methods),71.0
+Kwale,Unmet need,24.4
+Kwale,Met need (all methods),32.5
+Kwale,Total demand,56.9
+Kwale,Demand satisfied (all methods),57.1
+Kilifi,Unmet need,17.9
+Kilifi,Met need (all methods),51.0
+Kilifi,Total demand,68.9
+Kilifi,Demand satisfied (all methods),74.0
+Tana River,Unmet need,33.6
+Tana River,Met need (all methods),24.5
+Tana River,Total demand,58.1
+Tana River,Demand satisfied (all methods),42.2
+Lamu,Unmet need,16.8
+Lamu,Met need (all methods),46.5
+Lamu,Total demand,63.3
+Lamu,Demand satisfied (all methods),73.4
+Taita/Taveta,Unmet need,12.8
+Taita/Taveta,Met need (all methods),67.1
+Taita/Taveta,Total demand,80.0
+Taita/Taveta,Demand satisfied (all methods),84.0
+Garissa,Unmet need,10.8
+Garissa,Met need (all methods),15.2
+Garissa,Total demand,26.1
+Garissa,Demand satisfied (all methods),58.5
+Wajir,Unmet need,12.7
+Wajir,Met need (all methods),4.2
+Wajir,Total demand,16.9
+Wajir,Demand satisfied (all methods),24.9
+Mandera,Unmet need,17.3
+Mandera,Met need (all methods),0.7
+Mandera,Total demand,18.0
+Mandera,Demand satisfied (all methods),4.1
+Marsabit,Unmet need,37.6
+Marsabit,Met need (all methods),4.8
+Marsabit,Total demand,42.4
+Marsabit,Demand satisfied (all methods),11.4
+Isiolo,Unmet need,27.3
+Isiolo,Met need (all methods),33.0
+Isiolo,Total demand,60.2
+Isiolo,Demand satisfied (all methods),54.8
+Meru,Unmet need,7.8
+Meru,Met need (all methods),77.7
+Meru,Total demand,85.5
+Meru,Demand satisfied (all methods),90.9
+Tharaka-Nithi,Unmet need,9.7
+Tharaka-Nithi,Met need (all methods),72.9
+Tharaka-Nithi,Total demand,82.6
+Tharaka-Nithi,Demand satisfied (all methods),88.2
+Embu,Unmet need,2.2
+Embu,Met need (all methods),81.7
+Embu,Total demand,83.9
+Embu,Demand satisfied (all methods),97.4
+Kitui,Unmet need,17.7
+Kitui,Met need (all methods),67.4
+Kitui,Total demand,85.1
+Kitui,Demand satisfied (all methods),79.2
+Machakos,Unmet need,6.7
+Machakos,Met need (all methods),77.2
+Machakos,Total demand,84.0
+Machakos,Demand satisfied (all methods),92.0
+Makueni,Unmet need,10.8
+Makueni,Met need (all methods),69.3
+Makueni,Total demand,80.1
+Makueni,Demand satisfied (all methods),86.5
+Nyandarua,Unmet need,8.6
+Nyandarua,Met need (all methods),75.9
+Nyandarua,Total demand,84.4
+Nyandarua,Demand satisfied (all methods),89.9
+Nyeri,Unmet need,4.9
+Nyeri,Met need (all methods),79.7
+Nyeri,Total demand,84.6
+Nyeri,Demand satisfied (all methods),94.2
+Kirinyaga,Unmet need,6.7
+Kirinyaga,Met need (all methods),73.7
+Kirinyaga,Total demand,80.4
+Kirinyaga,Demand satisfied (all methods),91.7
+Murang’a,Unmet need,5.3
+Murang’a,Met need (all methods),73.0
+Murang’a,Total demand,78.4
+Murang’a,Demand satisfied (all methods),93.2
+Kiambu,Unmet need,8.0
+Kiambu,Met need (all methods),74.5
+Kiambu,Total demand,82.4
+Kiambu,Demand satisfied (all methods),90.3
+Turkana,Unmet need,15.6
+Turkana,Met need (all methods),39.4
+Turkana,Total demand,55.1
+Turkana,Demand satisfied (all methods),71.6
+West Pokot,Unmet need,30.3
+West Pokot,Met need (all methods),23.2
+West Pokot,Total demand,53.5
+West Pokot,Demand satisfied (all methods),43.3
+Samburu,Unmet need,29.4
+Samburu,Met need (all methods),33.1
+Samburu,Total demand,62.5
+Samburu,Demand satisfied (all methods),52.9
+Trans Nzoia,Unmet need,13.6
+Trans Nzoia,Met need (all methods),69.2
+Trans Nzoia,Total demand,82.8
+Trans Nzoia,Demand satisfied (all methods),83.6
+Uasin Gishu,Unmet need,13.3
+Uasin Gishu,Met need (all methods),67.4
+Uasin Gishu,Total demand,80.6
+Uasin Gishu,Demand satisfied (all methods),83.6
+Elgeyo/Marakwet,Unmet need,13.5
+Elgeyo/Marakwet,Met need (all methods),71.1
+Elgeyo/Marakwet,Total demand,84.6
+Elgeyo/Marakwet,Demand satisfied (all methods),84.0
+Nandi,Unmet need,17.7
+Nandi,Met need (all methods),63.8
+Nandi,Total demand,81.6
+Nandi,Demand satisfied (all methods),78.3
+Baringo,Unmet need,16.6
+Baringo,Met need (all methods),55.4
+Baringo,Total demand,72.0
+Baringo,Demand satisfied (all methods),77.0
+Laikipia,Unmet need,4.7
+Laikipia,Met need (all methods),75.7
+Laikipia,Total demand,80.4
+Laikipia,Demand satisfied (all methods),94.1
+Nakuru,Unmet need,8.3
+Nakuru,Met need (all methods),72.1
+Nakuru,Total demand,80.4
+Nakuru,Demand satisfied (all methods),89.7
+Narok,Unmet need,14.8
+Narok,Met need (all methods),65.9
+Narok,Total demand,80.7
+Narok,Demand satisfied (all methods),81.7
+Kajiado,Unmet need,12.5
+Kajiado,Met need (all methods),59.9
+Kajiado,Total demand,72.4
+Kajiado,Demand satisfied (all methods),82.7
+Kericho,Unmet need,17.1
+Kericho,Met need (all methods),60.0
+Kericho,Total demand,77.1
+Kericho,Demand satisfied (all methods),77.8
+Bomet,Unmet need,16.7
+Bomet,Met need (all methods),63.3
+Bomet,Total demand,80.0
+Bomet,Demand satisfied (all methods),79.1
+Kakamega,Unmet need,13.4
+Kakamega,Met need (all methods),68.7
+Kakamega,Total demand,82.2
+Kakamega,Demand satisfied (all methods),83.6
+Vihiga,Unmet need,18.3
+Vihiga,Met need (all methods),60.0
+Vihiga,Total demand,78.3
+Vihiga,Demand satisfied (all methods),76.6
+Bungoma,Unmet need,14.6
+Bungoma,Met need (all methods),65.0
+Bungoma,Total demand,79.7
+Bungoma,Demand satisfied (all methods),81.6
+Busia,Unmet need,18.6
+Busia,Met need (all methods),57.7
+Busia,Total demand,76.3
+Busia,Demand satisfied (all methods),75.6
+Siaya,Unmet need,27.3
+Siaya,Met need (all methods),42.2
+Siaya,Total demand,69.5
+Siaya,Demand satisfied (all methods),60.8
+Kisumu,Unmet need,16.4
+Kisumu,Met need (all methods),60.5
+Kisumu,Total demand,76.9
+Kisumu,Demand satisfied (all methods),78.7
+Homa Bay,Unmet need,17.0
+Homa Bay,Met need (all methods),64.9
+Homa Bay,Total demand,81.9
+Homa Bay,Demand satisfied (all methods),79.2
+Migori,Unmet need,20.1
+Migori,Met need (all methods),60.3
+Migori,Total demand,80.4
+Migori,Demand satisfied (all methods),74.9
+Kisii,Unmet need,14.9
+Kisii,Met need (all methods),68.7
+Kisii,Total demand,83.6
+Kisii,Demand satisfied (all methods),82.1
+Nyamira,Unmet need,15.9
+Nyamira,Met need (all methods),62.1
+Nyamira,Total demand,78.0
+Nyamira,Demand satisfied (all methods),79.6
+Nairobi City,Unmet need,12.5
+Nairobi City,Met need (all methods),62.5
+Nairobi City,Total demand,75.1
+Nairobi City,Demand satisfied (all methods),83.3

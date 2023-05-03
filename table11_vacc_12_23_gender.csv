@@ -1,0 +1,55 @@
+Sex,Vaccines,Percent
+Male,BCG,96.4
+Male,DTP1,96.9
+Male,DTP2,93.8
+Male,DTP3,88.8
+Male,OPV,86.0
+Male,OPV1,95.9
+Male,OPV2,93.6
+Male,OPV3,77.5
+Male,IPV,88.2
+Male,Pneumococcal1,96.2
+Male,Pneumococcal2,95.2
+Male,Pneumococcal3,91.2
+Male,Rotavirus1,95.8
+Male,Rotavirus2,92.1
+Male,MR 1,89.5
+Male,Fully.vaccinated ,80.2
+Male,Fully.vaccinated.national schedule ,56.0
+Male,No.vaccinations,2.5
+Female,BCG,97.4
+Female,DTP1,97.3
+Female,DTP2,94.1
+Female,DTP3,89.5
+Female,OPV,86.2
+Female,OPV1,97.0
+Female,OPV2,94.8
+Female,OPV3,78.9
+Female,IPV,86.5
+Female,Pneumococcal1,96.8
+Female,Pneumococcal2,95.6
+Female,Pneumococcal3,91.1
+Female,Rotavirus1,96.2
+Female,Rotavirus2,92.5
+Female,MR 1,88.6
+Female,Fully.vaccinated ,80.0
+Female,Fully.vaccinated.national schedule ,54.4
+Female,No.vaccinations,1.8
+,BCG,
+,DTP1,
+,DTP2,
+,DTP3,
+,OPV,
+,OPV1,
+,OPV2,
+,OPV3,
+,IPV,
+,Pneumococcal1,
+,Pneumococcal2,
+,Pneumococcal3,
+,Rotavirus1,
+,Rotavirus2,
+,MR 1,
+,Fully.vaccinated ,
+,Fully.vaccinated.national schedule ,
+,No.vaccinations,

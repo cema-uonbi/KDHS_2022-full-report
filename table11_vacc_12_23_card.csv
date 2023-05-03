@@ -1,0 +1,73 @@
+vacciantion.card,Vaccines,Percent
+Seen,BCG,99.2
+Seen,DTP1,99.4
+Seen,DTP2,98.6
+Seen,DTP3,96.0
+Seen,OPV,88.3
+Seen,OPV1,99.5
+Seen,OPV2,98.8
+Seen,OPV3,95.6
+Seen,IPV,86.9
+Seen,Pneumococcal1,98.7
+Seen,Pneumococcal2,97.9
+Seen,Pneumococcal3,95.0
+Seen,Rotavirus1,98.8
+Seen,Rotavirus2,95.5
+Seen,MR 1,90.9
+Seen,Fully.vaccinated ,87.4
+Seen,Fully.vaccinated.national schedule ,69.1
+Seen,No.vaccinations,0.0
+Not seen or no longer has card,BCG,94.6
+Not seen or no longer has card,DTP1,94.3
+Not seen or no longer has card,DTP2,83.6
+Not seen or no longer has card,DTP3,72.0
+Not seen or no longer has card,OPV,84.2
+Not seen or no longer has card,OPV1,90.8
+Not seen or no longer has card,OPV2,83.8
+Not seen or no longer has card,OPV3,25.9
+Not seen or no longer has card,IPV,93.7
+Not seen or no longer has card,Pneumococcal1,94.2
+Not seen or no longer has card,Pneumococcal2,92.3
+Not seen or no longer has card,Pneumococcal3,83.7
+Not seen or no longer has card,Rotavirus1,91.5
+Not seen or no longer has card,Rotavirus2,86.6
+Not seen or no longer has card,MR 1,88.1
+Not seen or no longer has card,Fully.vaccinated ,60.9
+Not seen or no longer has card,Fully.vaccinated.national schedule ,13.4
+Not seen or no longer has card,No.vaccinations,4.3
+Never had card,BCG,33.9
+Never had card,DTP1,37.6
+Never had card,DTP2,29.5
+Never had card,DTP3,23.3
+Never had card,OPV,19.0
+Never had card,OPV1,40.4
+Never had card,OPV2,33.4
+Never had card,OPV3,5.5
+Never had card,IPV,31.0
+Never had card,Pneumococcal1,36.4
+Never had card,Pneumococcal2,32.4
+Never had card,Pneumococcal3,28.7
+Never had card,Rotavirus1,35.8
+Never had card,Rotavirus2,30.8
+Never had card,MR 1,26.3
+Never had card,Fully.vaccinated ,17.4
+Never had card,Fully.vaccinated.national schedule ,0.2
+Never had card,No.vaccinations,59.6
+,BCG,
+,DTP1,
+,DTP2,
+,DTP3,
+,OPV,
+,OPV1,
+,OPV2,
+,OPV3,
+,IPV,
+,Pneumococcal1,
+,Pneumococcal2,
+,Pneumococcal3,
+,Rotavirus1,
+,Rotavirus2,
+,MR 1,
+,Fully.vaccinated ,
+,Fully.vaccinated.national schedule ,
+,No.vaccinations,

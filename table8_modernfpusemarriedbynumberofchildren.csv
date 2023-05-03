@@ -1,0 +1,49 @@
+Number_of_children,Marital_status,Contraceptive_use,Percent
+0,Married,Female sterilization,0.2
+0,Married,Male sterilization,0.0
+0,Married,IUD,0.1
+0,Married,Injectables,2.4
+0,Married,Implants,1.6
+0,Married,Pill,4.6
+0,Married,Male condom,4.5
+0,Married,Female condom,0.0
+0,Married,Emergency contraception,2.1
+0,Married,SDM,0.3
+0,Married,LAM,0.0
+0,Married,Other,0.0
+1–2,Married,Female sterilization,0.4
+1–2,Married,Male sterilization,0.0
+1–2,Married,IUD,4.9
+1–2,Married,Injectables,20.5
+1–2,Married,Implants,20.4
+1–2,Married,Pill,9.6
+1–2,Married,Male condom,1.6
+1–2,Married,Female condom,0.0
+1–2,Married,Emergency contraception,0.4
+1–2,Married,SDM,0.4
+1–2,Married,LAM,0.8
+1–2,Married,Other,0.0
+3–4,Married,Female sterilization,3.3
+3–4,Married,Male sterilization,0.0
+3–4,Married,IUD,5.7
+3–4,Married,Injectables,23.4
+3–4,Married,Implants,19.6
+3–4,Married,Pill,9.3
+3–4,Married,Male condom,1.8
+3–4,Married,Female condom,0.0
+3–4,Married,Emergency contraception,0.2
+3–4,Married,SDM,0.6
+3–4,Married,LAM,1.0
+3–4,Married,Other,0.1
+5+,Married,Female sterilization,5.4
+5+,Married,Male sterilization,0.0
+5+,Married,IUD,2.5
+5+,Married,Injectables,17.5
+5+,Married,Implants,17.6
+5+,Married,Pill,3.9
+5+,Married,Male condom,1.3
+5+,Married,Female condom,0.1
+5+,Married,Emergency contraception,0.1
+5+,Married,SDM,0.5
+5+,Married,LAM,1.2
+5+,Married,Other,0.1

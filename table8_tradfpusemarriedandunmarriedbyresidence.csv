@@ -1,0 +1,13 @@
+Residence,Contraceptive_use,Percent,Marital_status
+Urban,Rhythm,4.8,Married
+Urban,Withdrawal,1.5,Married
+Urban,Other,0.6,Married
+Rural,Rhythm,3.5,Married
+Rural,Withdrawal,1.0,Married
+Rural,Other,0.3,Married
+Urban,Rhythm,6.8,Unmarried
+Urban,Withdrawal,6.7,Unmarried
+Urban,Other,1.3,Unmarried
+Rural,Rhythm,5.1,Unmarried
+Rural,Withdrawal,1.5,Unmarried
+Rural,Other,0.2,Unmarried

@@ -1,0 +1,91 @@
+birth.order,Vaccines,Percent
+1,BCG,97.1
+1,DTP1,98.0
+1,DTP2,95.8
+1,DTP3,92.0
+1,OPV,89.9
+1,OPV1,96.5
+1,OPV2,94.7
+1,OPV3,79.8
+1,IPV,89.5
+1,Pneumococcal1,97.2
+1,Pneumococcal2,96.2
+1,Pneumococcal3,93.4
+1,Rotavirus1,96.6
+1,Rotavirus2,94.7
+1,MR 1,94.1
+1,Fully.vaccinated ,85.1
+1,Fully.vaccinated.national schedule ,61.2
+1,No.vaccinations,1.6
+2–3,BCG,97.6
+2–3,DTP1,97.4
+2–3,DTP2,94.3
+2–3,DTP3,89.0
+2–3,OPV,88.9
+2–3,OPV1,97.2
+2–3,OPV2,94.6
+2–3,OPV3,79.1
+2–3,IPV,88.2
+2–3,Pneumococcal1,96.7
+2–3,Pneumococcal2,95.8
+2–3,Pneumococcal3,91.2
+2–3,Rotavirus1,96.7
+2–3,Rotavirus2,92.3
+2–3,MR 1,91.2
+2–3,Fully.vaccinated ,81.9
+2–3,Fully.vaccinated.national schedule ,56.8
+2–3,No.vaccinations,1.9
+4–5,BCG,97.0
+4–5,DTP1,96.9
+4–5,DTP2,92.8
+4–5,DTP3,88.9
+4–5,OPV,82.9
+4–5,OPV1,96.9
+4–5,OPV2,95.1
+4–5,OPV3,77.9
+4–5,IPV,86.4
+4–5,Pneumococcal1,96.4
+4–5,Pneumococcal2,95.3
+4–5,Pneumococcal3,91.2
+4–5,Rotavirus1,95.1
+4–5,Rotavirus2,90.2
+4–5,MR 1,83.9
+4–5,Fully.vaccinated ,75.8
+4–5,Fully.vaccinated.national schedule ,51.0
+4–5,No.vaccinations,2.0
+6+,BCG,93.5
+6+,DTP1,93.9
+6+,DTP2,89.4
+6+,DTP3,82.5
+6+,OPV,71.1
+6+,OPV1,93.0
+6+,OPV2,89.5
+6+,OPV3,70.8
+6+,IPV,80.3
+6+,Pneumococcal1,93.9
+6+,Pneumococcal2,92.2
+6+,Pneumococcal3,84.8
+6+,Rotavirus1,93.1
+6+,Rotavirus2,89.1
+6+,MR 1,76.2
+6+,Fully.vaccinated ,67.0
+6+,Fully.vaccinated.national schedule ,40.3
+6+,No.vaccinations,4.9
+,BCG,
+,DTP1,
+,DTP2,
+,DTP3,
+,OPV,
+,OPV1,
+,OPV2,
+,OPV3,
+,IPV,
+,Pneumococcal1,
+,Pneumococcal2,
+,Pneumococcal3,
+,Rotavirus1,
+,Rotavirus2,
+,MR 1,
+,Fully.vaccinated ,
+,Fully.vaccinated.national schedule ,
+,No.vaccinations,

@@ -1,0 +1,17 @@
+Respondents,selection,residence,numbers,Gender
+Number of eligible women,All_households,Rural,"20,750",Female
+Number of eligible women interviewed,All_households,Rural,"19,770",Female
+Number of eligible women,All_households,Urban,"13,129",Female
+Number of eligible women interviewed,All_households,Urban,"12,386",Female
+Number of eligible women,Long_questionnaire,Rural,"10,914",Female
+Number of eligible women interviewed,Long_questionnaire,Rural,"10,384",Female
+Number of eligible women,Long_questionnaire,Urban,"6,911",Female
+Number of eligible women interviewed,Long_questionnaire,Urban,"6,517",Female
+Number of eligible women,Short_questionnaire,Rural,"9,836",Female
+Number of eligible women interviewed,Short_questionnaire,Rural,"9,386",Female
+Number of eligible women,Short_questionnaire,Urban,"6,218",Female
+Number of eligible women interviewed,Short_questionnaire,Urban,"5,869",Female
+Number of eligible men,Long_questionnaire,Rural,"10,418",Male
+Number of eligible men interviewed,Long_questionnaire,Rural,"9,221",Male
+Number of eligible men,Long_questionnaire,Urban,"6,134",Male
+Number of eligible men interviewed,Long_questionnaire,Urban,"5,232",Male

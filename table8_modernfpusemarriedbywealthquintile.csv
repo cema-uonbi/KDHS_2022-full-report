@@ -1,0 +1,61 @@
+Wealth_quintile,Contraceptive_use,Percent
+Lowest,Female sterilization,1.5
+Lowest,Male sterilization,0.0
+Lowest,IUD,0.9
+Lowest,Injectables,18.6
+Lowest,Implants,16.9
+Lowest,Pill,2.2
+Lowest,Male condom,1.1
+Lowest,Female condom,0.0
+Lowest,Emergency contraception,0.1
+Lowest,SDM,0.1
+Lowest,LAM,1.6
+Lowest,Other,0.0
+Second,Female sterilization,3.1
+Second,Male sterilization,0.0
+Second,IUD,1.5
+Second,Injectables,25.5
+Second,Implants,23.3
+Second,Pill,4.7
+Second,Male condom,1.6
+Second,Female condom,0.0
+Second,Emergency contraception,0.1
+Second,SDM,0.6
+Second,LAM,0.9
+Second,Other,0.1
+Middle,Female sterilization,3.2
+Middle,Male sterilization,0.1
+Middle,IUD,2.8
+Middle,Injectables,23.6
+Middle,Implants,20.5
+Middle,Pill,7.4
+Middle,Male condom,1.5
+Middle,Female condom,0.0
+Middle,Emergency contraception,0.2
+Middle,SDM,0.4
+Middle,LAM,0.6
+Middle,Other,0.1
+Fourth,Female sterilization,1.9
+Fourth,Male sterilization,0.0
+Fourth,IUD,4.5
+Fourth,Injectables,21.8
+Fourth,Implants,18.5
+Fourth,Pill,9.3
+Fourth,Male condom,1.7
+Fourth,Female condom,0.1
+Fourth,Emergency contraception,0.6
+Fourth,SDM,0.7
+Fourth,LAM,0.9
+Fourth,Other,0.1
+Highest,Female sterilization,2.0
+Highest,Male sterilization,0.0
+Highest,IUD,10.1
+Highest,Injectables,12.2
+Highest,Implants,14.8
+Highest,Pill,14.2
+Highest,Male condom,2.5
+Highest,Female condom,0.0
+Highest,Emergency contraception,0.7
+Highest,SDM,0.6
+Highest,LAM,0.6
+Highest,Other,0.0

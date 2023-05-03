@@ -1,0 +1,49 @@
+Residence,Marital_status,Contraceptive_use,Percent
+Urban,Married,Female sterilization,1.4
+Urban,Married,Male sterilization,0.0
+Urban,Married,IUD,6.8
+Urban,Married,Injectables,16.2
+Urban,Married,Implants,16.3
+Urban,Married,Pill,11.6
+Urban,Married,Male condom,2.3
+Urban,Married,Female condom,0.0
+Urban,Married,Emergency contraception,0.5
+Urban,Married,SDM,0.4
+Urban,Married,LAM,0.7
+Urban,Married,Other,0.0
+Rural,Married,Female sterilization,2.9
+Rural,Married,Male sterilization,0.0
+Rural,Married,IUD,2.9
+Rural,Married,Injectables,22.2
+Rural,Married,Implants,20.0
+Rural,Married,Pill,6.0
+Rural,Married,Male condom,1.4
+Rural,Married,Female condom,0.0
+Rural,Married,Emergency contraception,0.3
+Rural,Married,SDM,0.5
+Rural,Married,LAM,1.0
+Rural,Married,Other,0.1
+Urban,Unmarried,Female sterilization,0.1
+Urban,Unmarried,Male sterilization,0.0
+Urban,Unmarried,IUD,4.6
+Urban,Unmarried,Injectables,11.4
+Urban,Unmarried,Implants,6.9
+Urban,Unmarried,Pill,6.5
+Urban,Unmarried,Male condom,24.1
+Urban,Unmarried,Female condom,0.0
+Urban,Unmarried,Emergency contraception,4.2
+Urban,Unmarried,SDM,0.4
+Urban,Unmarried,LAM,0.0
+Urban,Unmarried,Other,0.1
+Rural,Unmarried,Female sterilization,0.9
+Rural,Unmarried,Male sterilization,0.0
+Rural,Unmarried,IUD,1.1
+Rural,Unmarried,Injectables,20.6
+Rural,Unmarried,Implants,15.5
+Rural,Unmarried,Pill,4.5
+Rural,Unmarried,Male condom,15.8
+Rural,Unmarried,Female condom,0.3
+Rural,Unmarried,Emergency contraception,1.0
+Rural,Unmarried,SDM,0.5
+Rural,Unmarried,LAM,0.0
+Rural,Unmarried,Other,0.0

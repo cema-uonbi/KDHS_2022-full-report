@@ -1,0 +1,565 @@
+County,Contraceptive_use,Percent
+Mombasa,Female sterilization,0.8
+Mombasa,Male sterilization,0.0
+Mombasa,IUD,3.7
+Mombasa,Injectables,16.6
+Mombasa,Implants,14.3
+Mombasa,Pill,3.8
+Mombasa,Male condom,1.7
+Mombasa,Female condom,0.0
+Mombasa,Emergency contraception,0.2
+Mombasa,SDM,0.6
+Mombasa,LAM,0.3
+Mombasa,Other,0.0
+Kwale,Female sterilization,0.8
+Kwale,Male sterilization,0.0
+Kwale,IUD,2.8
+Kwale,Injectables,18.2
+Kwale,Implants,9.6
+Kwale,Pill,2.3
+Kwale,Male condom,0.3
+Kwale,Female condom,0.0
+Kwale,Emergency contraception,0.0
+Kwale,SDM,0.1
+Kwale,LAM,0.5
+Kwale,Other,0.0
+Kilifi,Female sterilization,1.6
+Kilifi,Male sterilization,0.0
+Kilifi,IUD,2.1
+Kilifi,Injectables,17.4
+Kilifi,Implants,17.8
+Kilifi,Pill,3.7
+Kilifi,Male condom,0.1
+Kilifi,Female condom,0.0
+Kilifi,Emergency contraception,0.0
+Kilifi,SDM,1.6
+Kilifi,LAM,0.4
+Kilifi,Other,0.0
+Tana River,Female sterilization,0.5
+Tana River,Male sterilization,0.0
+Tana River,IUD,1.0
+Tana River,Injectables,13.1
+Tana River,Implants,5.1
+Tana River,Pill,1.1
+Tana River,Male condom,0.5
+Tana River,Female condom,0.0
+Tana River,Emergency contraception,0.8
+Tana River,SDM,0.0
+Tana River,LAM,1.2
+Tana River,Other,0.0
+Lamu,Female sterilization,0.5
+Lamu,Male sterilization,0.4
+Lamu,IUD,1.1
+Lamu,Injectables,13.7
+Lamu,Implants,10.5
+Lamu,Pill,5.6
+Lamu,Male condom,1.1
+Lamu,Female condom,0.0
+Lamu,Emergency contraception,0.0
+Lamu,SDM,2.8
+Lamu,LAM,3.4
+Lamu,Other,0.0
+Taita/Taveta,Female sterilization,2.8
+Taita/Taveta,Male sterilization,0.0
+Taita/Taveta,IUD,4.2
+Taita/Taveta,Injectables,29.3
+Taita/Taveta,Implants,15.4
+Taita/Taveta,Pill,7.3
+Taita/Taveta,Male condom,1.8
+Taita/Taveta,Female condom,0.0
+Taita/Taveta,Emergency contraception,0.2
+Taita/Taveta,SDM,2.5
+Taita/Taveta,LAM,0.8
+Taita/Taveta,Other,0.0
+Garissa,Female sterilization,1.4
+Garissa,Male sterilization,0.0
+Garissa,IUD,0.2
+Garissa,Injectables,4.3
+Garissa,Implants,3.5
+Garissa,Pill,1.1
+Garissa,Male condom,0.1
+Garissa,Female condom,0.0
+Garissa,Emergency contraception,0.0
+Garissa,SDM,0.0
+Garissa,LAM,0.5
+Garissa,Other,0.0
+Wajir,Female sterilization,0.1
+Wajir,Male sterilization,0.0
+Wajir,IUD,0.2
+Wajir,Injectables,0.9
+Wajir,Implants,0.8
+Wajir,Pill,0.8
+Wajir,Male condom,0.0
+Wajir,Female condom,0.0
+Wajir,Emergency contraception,0.0
+Wajir,SDM,0.0
+Wajir,LAM,0.0
+Wajir,Other,0.0
+Mandera,Female sterilization,0.0
+Mandera,Male sterilization,0.0
+Mandera,IUD,0.0
+Mandera,Injectables,0.6
+Mandera,Implants,0.2
+Mandera,Pill,0.3
+Mandera,Male condom,0.0
+Mandera,Female condom,0.0
+Mandera,Emergency contraception,0.0
+Mandera,SDM,0.0
+Mandera,LAM,0.8
+Mandera,Other,0.0
+Marsabit,Female sterilization,0.4
+Marsabit,Male sterilization,0.0
+Marsabit,IUD,0.0
+Marsabit,Injectables,2.5
+Marsabit,Implants,2.6
+Marsabit,Pill,0.1
+Marsabit,Male condom,0.0
+Marsabit,Female condom,0.0
+Marsabit,Emergency contraception,0.0
+Marsabit,SDM,0.0
+Marsabit,LAM,0.0
+Marsabit,Other,0.0
+Isiolo,Female sterilization,0.8
+Isiolo,Male sterilization,0.0
+Isiolo,IUD,1.4
+Isiolo,Injectables,15.8
+Isiolo,Implants,4.4
+Isiolo,Pill,5.1
+Isiolo,Male condom,0.7
+Isiolo,Female condom,0.0
+Isiolo,Emergency contraception,0.0
+Isiolo,SDM,0.0
+Isiolo,LAM,0.6
+Isiolo,Other,0.0
+Meru,Female sterilization,0.7
+Meru,Male sterilization,0.0
+Meru,IUD,3.3
+Meru,Injectables,31.3
+Meru,Implants,22.9
+Meru,Pill,9.7
+Meru,Male condom,0.1
+Meru,Female condom,0.0
+Meru,Emergency contraception,0.3
+Meru,SDM,0.0
+Meru,LAM,0.0
+Meru,Other,1.3
+Tharaka-Nithi,Female sterilization,3.0
+Tharaka-Nithi,Male sterilization,0.0
+Tharaka-Nithi,IUD,4.5
+Tharaka-Nithi,Injectables,31.3
+Tharaka-Nithi,Implants,19.5
+Tharaka-Nithi,Pill,7.3
+Tharaka-Nithi,Male condom,1.7
+Tharaka-Nithi,Female condom,0.0
+Tharaka-Nithi,Emergency contraception,0.0
+Tharaka-Nithi,SDM,0.3
+Tharaka-Nithi,LAM,0.3
+Tharaka-Nithi,Other,0.0
+Embu,Female sterilization,1.8
+Embu,Male sterilization,0.0
+Embu,IUD,7.5
+Embu,Injectables,21.1
+Embu,Implants,19.6
+Embu,Pill,22.9
+Embu,Male condom,0.5
+Embu,Female condom,0.0
+Embu,Emergency contraception,0.0
+Embu,SDM,1.7
+Embu,LAM,0.1
+Embu,Other,0.0
+Kitui,Female sterilization,1.2
+Kitui,Male sterilization,0.0
+Kitui,IUD,1.0
+Kitui,Injectables,35.2
+Kitui,Implants,16.3
+Kitui,Pill,4.8
+Kitui,Male condom,0.7
+Kitui,Female condom,0.0
+Kitui,Emergency contraception,2.4
+Kitui,SDM,0.7
+Kitui,LAM,0.0
+Kitui,Other,0.0
+Machakos,Female sterilization,3.4
+Machakos,Male sterilization,0.0
+Machakos,IUD,4.9
+Machakos,Injectables,26.5
+Machakos,Implants,13.4
+Machakos,Pill,16.0
+Machakos,Male condom,1.9
+Machakos,Female condom,0.0
+Machakos,Emergency contraception,0.2
+Machakos,SDM,0.3
+Machakos,LAM,0.0
+Machakos,Other,0.0
+Makueni,Female sterilization,4.4
+Makueni,Male sterilization,0.0
+Makueni,IUD,2.9
+Makueni,Injectables,24.8
+Makueni,Implants,19.6
+Makueni,Pill,10.2
+Makueni,Male condom,1.5
+Makueni,Female condom,0.0
+Makueni,Emergency contraception,0.0
+Makueni,SDM,0.1
+Makueni,LAM,0.7
+Makueni,Other,0.0
+Nyandarua,Female sterilization,2.3
+Nyandarua,Male sterilization,0.0
+Nyandarua,IUD,12.2
+Nyandarua,Injectables,22.9
+Nyandarua,Implants,13.1
+Nyandarua,Pill,12.0
+Nyandarua,Male condom,2.5
+Nyandarua,Female condom,0.0
+Nyandarua,Emergency contraception,0.0
+Nyandarua,SDM,0.1
+Nyandarua,LAM,1.1
+Nyandarua,Other,0.5
+Nyeri,Female sterilization,3.7
+Nyeri,Male sterilization,0.0
+Nyeri,IUD,18.8
+Nyeri,Injectables,16.9
+Nyeri,Implants,12.6
+Nyeri,Pill,15.7
+Nyeri,Male condom,1.5
+Nyeri,Female condom,0.0
+Nyeri,Emergency contraception,0.0
+Nyeri,SDM,0.0
+Nyeri,LAM,1.3
+Nyeri,Other,0.3
+Kirinyaga,Female sterilization,0.8
+Kirinyaga,Male sterilization,0.0
+Kirinyaga,IUD,15.4
+Kirinyaga,Injectables,17.5
+Kirinyaga,Implants,16.2
+Kirinyaga,Pill,19.0
+Kirinyaga,Male condom,1.4
+Kirinyaga,Female condom,0.0
+Kirinyaga,Emergency contraception,0.3
+Kirinyaga,SDM,0.0
+Kirinyaga,LAM,0.2
+Kirinyaga,Other,0.0
+Murang’a,Female sterilization,1.4
+Murang’a,Male sterilization,0.0
+Murang’a,IUD,7.0
+Murang’a,Injectables,17.4
+Murang’a,Implants,14.9
+Murang’a,Pill,20.4
+Murang’a,Male condom,1.9
+Murang’a,Female condom,0.0
+Murang’a,Emergency contraception,1.3
+Murang’a,SDM,0.7
+Murang’a,LAM,2.2
+Murang’a,Other,0.0
+Kiambu,Female sterilization,2.5
+Kiambu,Male sterilization,0.0
+Kiambu,IUD,9.7
+Kiambu,Injectables,14.7
+Kiambu,Implants,22.5
+Kiambu,Pill,16.8
+Kiambu,Male condom,0.6
+Kiambu,Female condom,0.0
+Kiambu,Emergency contraception,0.0
+Kiambu,SDM,0.6
+Kiambu,LAM,0.7
+Kiambu,Other,0.0
+Turkana,Female sterilization,1.3
+Turkana,Male sterilization,0.0
+Turkana,IUD,0.0
+Turkana,Injectables,9.3
+Turkana,Implants,5.7
+Turkana,Pill,0.3
+Turkana,Male condom,0.2
+Turkana,Female condom,0.0
+Turkana,Emergency contraception,0.2
+Turkana,SDM,0.5
+Turkana,LAM,13.2
+Turkana,Other,0.0
+West Pokot,Female sterilization,0.9
+West Pokot,Male sterilization,0.0
+West Pokot,IUD,0.2
+West Pokot,Injectables,8.3
+West Pokot,Implants,11.7
+West Pokot,Pill,1.6
+West Pokot,Male condom,0.1
+West Pokot,Female condom,0.0
+West Pokot,Emergency contraception,0.0
+West Pokot,SDM,0.0
+West Pokot,LAM,0.4
+West Pokot,Other,0.0
+Samburu,Female sterilization,0.3
+Samburu,Male sterilization,0.0
+Samburu,IUD,2.8
+Samburu,Injectables,8.3
+Samburu,Implants,10.6
+Samburu,Pill,2.3
+Samburu,Male condom,0.2
+Samburu,Female condom,0.0
+Samburu,Emergency contraception,0.0
+Samburu,SDM,0.0
+Samburu,LAM,0.9
+Samburu,Other,0.0
+Trans Nzoia,Female sterilization,3.0
+Trans Nzoia,Male sterilization,0.0
+Trans Nzoia,IUD,2.2
+Trans Nzoia,Injectables,24.4
+Trans Nzoia,Implants,27.0
+Trans Nzoia,Pill,4.9
+Trans Nzoia,Male condom,1.5
+Trans Nzoia,Female condom,0.0
+Trans Nzoia,Emergency contraception,0.1
+Trans Nzoia,SDM,1.0
+Trans Nzoia,LAM,1.2
+Trans Nzoia,Other,0.0
+Uasin Gishu,Female sterilization,1.5
+Uasin Gishu,Male sterilization,0.0
+Uasin Gishu,IUD,5.8
+Uasin Gishu,Injectables,22.9
+Uasin Gishu,Implants,23.2
+Uasin Gishu,Pill,5.7
+Uasin Gishu,Male condom,1.8
+Uasin Gishu,Female condom,0.0
+Uasin Gishu,Emergency contraception,0.5
+Uasin Gishu,SDM,0.0
+Uasin Gishu,LAM,1.2
+Uasin Gishu,Other,0.0
+Elgeyo/Marakwet,Female sterilization,3.4
+Elgeyo/Marakwet,Male sterilization,0.0
+Elgeyo/Marakwet,IUD,2.8
+Elgeyo/Marakwet,Injectables,24.4
+Elgeyo/Marakwet,Implants,20.4
+Elgeyo/Marakwet,Pill,3.0
+Elgeyo/Marakwet,Male condom,2.2
+Elgeyo/Marakwet,Female condom,0.2
+Elgeyo/Marakwet,Emergency contraception,0.8
+Elgeyo/Marakwet,SDM,0.1
+Elgeyo/Marakwet,LAM,1.7
+Elgeyo/Marakwet,Other,0.0
+Nandi,Female sterilization,1.6
+Nandi,Male sterilization,0.0
+Nandi,IUD,0.2
+Nandi,Injectables,29.8
+Nandi,Implants,21.0
+Nandi,Pill,3.4
+Nandi,Male condom,3.0
+Nandi,Female condom,0.0
+Nandi,Emergency contraception,0.3
+Nandi,SDM,0.2
+Nandi,LAM,0.5
+Nandi,Other,0.0
+Baringo,Female sterilization,0.5
+Baringo,Male sterilization,0.0
+Baringo,IUD,3.3
+Baringo,Injectables,16.6
+Baringo,Implants,17.8
+Baringo,Pill,3.8
+Baringo,Male condom,1.4
+Baringo,Female condom,0.0
+Baringo,Emergency contraception,0.3
+Baringo,SDM,0.6
+Baringo,LAM,3.5
+Baringo,Other,0.0
+Laikipia,Female sterilization,4.5
+Laikipia,Male sterilization,0.0
+Laikipia,IUD,6.9
+Laikipia,Injectables,24.0
+Laikipia,Implants,15.0
+Laikipia,Pill,12.1
+Laikipia,Male condom,1.2
+Laikipia,Female condom,0.0
+Laikipia,Emergency contraception,0.5
+Laikipia,SDM,0.0
+Laikipia,LAM,0.4
+Laikipia,Other,0.0
+Nakuru,Female sterilization,3.2
+Nakuru,Male sterilization,0.0
+Nakuru,IUD,7.4
+Nakuru,Injectables,23.5
+Nakuru,Implants,18.5
+Nakuru,Pill,8.6
+Nakuru,Male condom,2.0
+Nakuru,Female condom,0.0
+Nakuru,Emergency contraception,0.5
+Nakuru,SDM,1.2
+Nakuru,LAM,1.7
+Nakuru,Other,0.0
+Narok,Female sterilization,1.6
+Narok,Male sterilization,0.0
+Narok,IUD,1.0
+Narok,Injectables,16.5
+Narok,Implants,24.5
+Narok,Pill,1.8
+Narok,Male condom,0.8
+Narok,Female condom,0.0
+Narok,Emergency contraception,0.0
+Narok,SDM,1.5
+Narok,LAM,4.5
+Narok,Other,0.0
+Kajiado,Female sterilization,1.1
+Kajiado,Male sterilization,0.0
+Kajiado,IUD,7.6
+Kajiado,Injectables,21.9
+Kajiado,Implants,12.9
+Kajiado,Pill,10.5
+Kajiado,Male condom,2.1
+Kajiado,Female condom,0.0
+Kajiado,Emergency contraception,0.4
+Kajiado,SDM,0.0
+Kajiado,LAM,0.5
+Kajiado,Other,0.0
+Kericho,Female sterilization,2.8
+Kericho,Male sterilization,0.0
+Kericho,IUD,1.6
+Kericho,Injectables,20.8
+Kericho,Implants,29.6
+Kericho,Pill,3.5
+Kericho,Male condom,1.1
+Kericho,Female condom,0.0
+Kericho,Emergency contraception,0.0
+Kericho,SDM,0.0
+Kericho,LAM,0.6
+Kericho,Other,0.0
+Bomet,Female sterilization,8.3
+Bomet,Male sterilization,0.0
+Bomet,IUD,1.2
+Bomet,Injectables,22.6
+Bomet,Implants,21.3
+Bomet,Pill,2.2
+Bomet,Male condom,0.7
+Bomet,Female condom,0.0
+Bomet,Emergency contraception,0.6
+Bomet,SDM,0.0
+Bomet,LAM,0.8
+Bomet,Other,0.0
+Kakamega,Female sterilization,4.1
+Kakamega,Male sterilization,0.0
+Kakamega,IUD,2.9
+Kakamega,Injectables,25.0
+Kakamega,Implants,26.4
+Kakamega,Pill,2.8
+Kakamega,Male condom,1.6
+Kakamega,Female condom,0.0
+Kakamega,Emergency contraception,0.0
+Kakamega,SDM,0.3
+Kakamega,LAM,0.0
+Kakamega,Other,0.2
+Vihiga,Female sterilization,3.3
+Vihiga,Male sterilization,0.0
+Vihiga,IUD,2.1
+Vihiga,Injectables,15.1
+Vihiga,Implants,34.6
+Vihiga,Pill,4.1
+Vihiga,Male condom,0.8
+Vihiga,Female condom,0.0
+Vihiga,Emergency contraception,0.0
+Vihiga,SDM,0.0
+Vihiga,LAM,0.0
+Vihiga,Other,0.0
+Bungoma,Female sterilization,3.4
+Bungoma,Male sterilization,0.3
+Bungoma,IUD,1.7
+Bungoma,Injectables,23.4
+Bungoma,Implants,26.8
+Bungoma,Pill,4.3
+Bungoma,Male condom,1.4
+Bungoma,Female condom,0.3
+Bungoma,Emergency contraception,0.3
+Bungoma,SDM,1.6
+Bungoma,LAM,0.3
+Bungoma,Other,0.0
+Busia,Female sterilization,5.1
+Busia,Male sterilization,0.3
+Busia,IUD,3.2
+Busia,Injectables,14.1
+Busia,Implants,27.6
+Busia,Pill,1.4
+Busia,Male condom,2.4
+Busia,Female condom,0.0
+Busia,Emergency contraception,0.3
+Busia,SDM,0.4
+Busia,LAM,0.6
+Busia,Other,0.0
+Siaya,Female sterilization,2.2
+Siaya,Male sterilization,0.0
+Siaya,IUD,0.5
+Siaya,Injectables,15.6
+Siaya,Implants,17.0
+Siaya,Pill,3.7
+Siaya,Male condom,3.6
+Siaya,Female condom,0.0
+Siaya,Emergency contraception,0.3
+Siaya,SDM,0.0
+Siaya,LAM,0.0
+Siaya,Other,0.0
+Kisumu,Female sterilization,0.7
+Kisumu,Male sterilization,0.0
+Kisumu,IUD,1.7
+Kisumu,Injectables,19.1
+Kisumu,Implants,25.0
+Kisumu,Pill,4.3
+Kisumu,Male condom,4.0
+Kisumu,Female condom,0.0
+Kisumu,Emergency contraception,0.3
+Kisumu,SDM,0.8
+Kisumu,LAM,0.6
+Kisumu,Other,0.0
+Homa Bay,Female sterilization,3.6
+Homa Bay,Male sterilization,0.0
+Homa Bay,IUD,0.7
+Homa Bay,Injectables,20.7
+Homa Bay,Implants,20.9
+Homa Bay,Pill,1.8
+Homa Bay,Male condom,6.6
+Homa Bay,Female condom,0.0
+Homa Bay,Emergency contraception,0.0
+Homa Bay,SDM,0.0
+Homa Bay,LAM,0.0
+Homa Bay,Other,0.0
+Migori,Female sterilization,2.5
+Migori,Male sterilization,0.0
+Migori,IUD,2.1
+Migori,Injectables,15.9
+Migori,Implants,28.0
+Migori,Pill,1.2
+Migori,Male condom,4.1
+Migori,Female condom,0.4
+Migori,Emergency contraception,0.0
+Migori,SDM,0.0
+Migori,LAM,0.3
+Migori,Other,0.0
+Kisii,Female sterilization,3.2
+Kisii,Male sterilization,0.0
+Kisii,IUD,3.5
+Kisii,Injectables,26.4
+Kisii,Implants,19.9
+Kisii,Pill,5.8
+Kisii,Male condom,1.4
+Kisii,Female condom,0.0
+Kisii,Emergency contraception,0.2
+Kisii,SDM,2.1
+Kisii,LAM,1.1
+Kisii,Other,0.0
+Nyamira,Female sterilization,5.3
+Nyamira,Male sterilization,0.0
+Nyamira,IUD,1.8
+Nyamira,Injectables,33.7
+Nyamira,Implants,18.3
+Nyamira,Pill,2.7
+Nyamira,Male condom,1.3
+Nyamira,Female condom,0.0
+Nyamira,Emergency contraception,0.3
+Nyamira,SDM,0.6
+Nyamira,LAM,0.7
+Nyamira,Other,0.0
+Nairobi City,Female sterilization,1.3
+Nairobi City,Male sterilization,0.0
+Nairobi City,IUD,6.3
+Nairobi City,Injectables,14.4
+Nairobi City,Implants,12.9
+Nairobi City,Pill,16.4
+Nairobi City,Male condom,3.1
+Nairobi City,Female condom,0.0
+Nairobi City,Emergency contraception,1.0
+Nairobi City,SDM,0.0
+Nairobi City,LAM,0.8
+Nairobi City,Other,0.0

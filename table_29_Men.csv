@@ -1,0 +1,93 @@
+﻿Background characteristic,Indicator,Value,Category
+Age,15–19,29.2,Experienced physical violence since age 15
+Age,20–24,26.6,Experienced physical violence since age 15
+Age,25–29,28.3,Experienced physical violence since age 15
+Age,30–39,25.3,Experienced physical violence since age 15
+Age,40–49,26.1,Experienced physical violence since age 15
+Residence,Urban,29.1,Experienced physical violence since age 15
+Residence,Rural,25.8,Experienced physical violence since age 15
+Marital status,Never married,28.1,Experienced physical violence since age 15
+Marital status,Never ever had intimate partner,30,Experienced physical violence since age 15
+Marital status,Ever had intimate partner,26.3,Experienced physical violence since age 15
+Marital status,Ever married,26.1,Experienced physical violence since age 15
+Marital status,Married/living together,23.5,Experienced physical violence since age 15
+Marital status,Divorced/separated/widowed,45.5,Experienced physical violence since age 15
+Education,No education,11.5,Experienced physical violence since age 15
+Education,Primary,26.3,Experienced physical violence since age 15
+Education,Secondary,29.5,Experienced physical violence since age 15
+Education,More than secondary,25.9,Experienced physical violence since age 15
+Wealth quintile,Lowest,23,Experienced physical violence since age 15
+Wealth quintile,Second,27.2,Experienced physical violence since age 15
+Wealth quintile,Middle,28.6,Experienced physical violence since age 15
+Wealth quintile,Fourth,27.4,Experienced physical violence since age 15
+Wealth quintile,Highest,27.9,Experienced physical violence since age 15
+Total ,15–49,27,Experienced physical violence since age 15
+Age,15–19,1.7,Often
+Age,20–24,0.7,Often
+Age,25–29,0.6,Often
+Age,30–39,0.9,Often
+Age,40–49,1,Often
+Residence,Urban,0.7,Often
+Residence,Rural,1.2,Often
+Marital status,Never married,1.2,Often
+Marital status,Never ever had intimate partner,1.1,Often
+Marital status,Ever had intimate partner,1.3,Often
+Marital status,Ever married,0.9,Often
+Marital status,Married/living together,0.6,Often
+Marital status,Divorced/separated/widowed,2.6,Often
+Education,No education,0,Often
+Education,Primary,1.4,Often
+Education,Secondary,0.9,Often
+Education,More than secondary,0.8,Often
+Wealth quintile,Lowest,1.1,Often
+Wealth quintile,Second,1.2,Often
+Wealth quintile,Middle,1.7,Often
+Wealth quintile,Fourth,0.3,Often
+Wealth quintile,Highest,0.9,Often
+Total ,15–49,1,Often
+Age,15–19,15.5,Sometimes
+Age,20–24,9.7,Sometimes
+Age,25–29,7.8,Sometimes
+Age,30–39,7.5,Sometimes
+Age,40–49,4.9,Sometimes
+Residence,Urban,11.9,Sometimes
+Residence,Rural,7.8,Sometimes
+Marital status,Never married,12,Sometimes
+Marital status,Never ever had intimate partner,14.5,Sometimes
+Marital status,Ever had intimate partner,9.8,Sometimes
+Marital status,Ever married,6.9,Sometimes
+Marital status,Married/living together,5.9,Sometimes
+Marital status,Divorced/separated/widowed,14.3,Sometimes
+Education,No education,5.1,Sometimes
+Education,Primary,9.1,Sometimes
+Education,Secondary,11.1,Sometimes
+Education,More than secondary,6.8,Sometimes
+Wealth quintile,Lowest,8.1,Sometimes
+Wealth quintile,Second,9.4,Sometimes
+Wealth quintile,Middle,9.1,Sometimes
+Wealth quintile,Fourth,8.5,Sometimes
+Wealth quintile,Highest,11.3,Sometimes
+Total ,15–49,9.3,Sometimes
+Age,15–19,17.4,Often or sometimes
+Age,20–24,10.4,Often or sometimes
+Age,25–29,8.3,Often or sometimes
+Age,30–39,8.4,Often or sometimes
+Age,40–49,6,Often or sometimes
+Residence,Urban,12.7,Often or sometimes
+Residence,Rural,9.1,Often or sometimes
+Marital status,Never married,13.4,Often or sometimes
+Marital status,Never ever had intimate partner,15.6,Often or sometimes
+Marital status,Ever had intimate partner,11.3,Often or sometimes
+Marital status,Ever married,7.8,Often or sometimes
+Marital status,Married/living together,6.5,Often or sometimes
+Marital status,Divorced/separated/widowed,17.1,Often or sometimes
+Education,No education,5.1,Often or sometimes
+Education,Primary,10.6,Often or sometimes
+Education,Secondary,12.1,Often or sometimes
+Education,More than secondary,7.6,Often or sometimes
+Wealth quintile,Lowest,9.2,Often or sometimes
+Wealth quintile,Second,10.9,Often or sometimes
+Wealth quintile,Middle,10.8,Often or sometimes
+Wealth quintile,Fourth,8.8,Often or sometimes
+Wealth quintile,Highest,12.2,Often or sometimes
+Total ,15–49,10.4,Often or sometimes

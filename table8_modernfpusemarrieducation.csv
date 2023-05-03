@@ -1,0 +1,49 @@
+Education_status,Contraceptive_use,Percent
+No education,Female sterilization,1.3
+No education,Male sterilization,0.0
+No education,IUD,0.5
+No education,Injectables,8.5
+No education,Implants,6.1
+No education,Pill,1.2
+No education,Male condom,0.3
+No education,Female condom,0.0
+No education,Emergency contraception,0.0
+No education,SDM,0.0
+No education,LAM,2.5
+No education,Other,0.0
+Primary,Female sterilization,3.1
+Primary,Male sterilization,0.0
+Primary,IUD,2.7
+Primary,Injectables,23.8
+Primary,Implants,21.7
+Primary,Pill,6.0
+Primary,Male condom,1.4
+Primary,Female condom,0.0
+Primary,Emergency contraception,0.2
+Primary,SDM,0.4
+Primary,LAM,0.7
+Primary,Other,0.1
+Secondary,Female sterilization,1.7
+Secondary,Male sterilization,0.0
+Secondary,IUD,3.9
+Secondary,Injectables,20.8
+Secondary,Implants,19.5
+Secondary,Pill,11.0
+Secondary,Male condom,1.9
+Secondary,Female condom,0.0
+Secondary,Emergency contraception,0.3
+Secondary,SDM,0.5
+Secondary,LAM,0.8
+Secondary,Other,0.1
+More than secondary,Female sterilization,2.0
+More than secondary,Male sterilization,0.0
+More than secondary,IUD,10.9
+More than secondary,Injectables,13.2
+More than secondary,Implants,15.1
+More than secondary,Pill,11.1
+More than secondary,Male condom,2.9
+More than secondary,Female condom,0.0
+More than secondary,Emergency contraception,1.0
+More than secondary,SDM,1.0
+More than secondary,LAM,0.9
+More than secondary,Other,0.0

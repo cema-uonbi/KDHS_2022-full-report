@@ -1,0 +1,13 @@
+Education_status,Contraceptive_use,Percent
+No education,Any method,25.0
+No education,Modern method,20.5
+No education,Traditional method,4.5
+Primary,Any method,64.4
+Primary,Modern method,60.2
+Primary,Traditional method,4.2
+Secondary,Any method,65.5
+Secondary,Modern method,60.3
+Secondary,Traditional method,5.2
+More than secondary,Any method,68.0
+More than secondary,Modern method,58.0
+More than secondary,Traditional method,10.0

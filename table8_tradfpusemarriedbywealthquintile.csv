@@ -1,0 +1,16 @@
+Wealth_quintile,Contraceptive_use,Percent
+Lowest,Rhythm,2.7
+Lowest,Withdrawal,0.7
+Lowest,Other,0.2
+Second,Rhythm,3.4
+Second,Withdrawal,0.7
+Second,Other,0.3
+Middle,Rhythm,3.4
+Middle,Withdrawal,1.1
+Middle,Other,0.3
+Fourth,Rhythm,4.9
+Fourth,Withdrawal,1.2
+Fourth,Other,0.2
+Highest,Rhythm,5.1
+Highest,Withdrawal,2.0
+Highest,Other,0.8

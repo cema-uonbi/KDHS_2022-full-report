@@ -1,0 +1,14 @@
+name: Shiny_KNBS_DHS2022
+title: Shiny_KNBS_DHS2022
+username:
+account: cema
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8006983
+bundleId: 6718974
+url: https://cema.shinyapps.io/Shiny_KNBS_DHS2022/
+when: 1673382302.67348
+lastSyncTime: 1673382302.67349
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: 2022KDHSKIR_KNBS.docx

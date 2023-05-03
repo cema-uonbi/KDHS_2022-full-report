@@ -1,0 +1,2034 @@
+---
+title: "Demographic Health Survey 2022 Report (Data extraction from Report Tables)"
+subtitle: "Center for Epidemiological Modelling and Analysis, University of Nairobi"
+author: "Thumbi Mwangi"
+date: "2022-12-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+This documents the R codes used to extract the data in the tables and figures of the 2022 Demographic Health Survey Report.
+
+The key findings in the report are divided into 20 sections in Chapter 3 of the report, covering:
+
+- 3.1	Response Rates
+- 3.2	Characteristics of Respondents
+- 3.3	Health Insurance Coverage
+- 3.4	Disability among the Household population
+- 3.5	Fertility
+- 3.6	Teenage Fertility
+- 3.7	Fertility Preferences
+- 3.8	Family Planning
+  - 3.8.1	Contraceptive Use	
+  - 3.8.2	Need and Demand for Family Planning
+- 3.9	Maternal Care
+  - 3.9.1	Antenatal Care
+  - 3.9.2	Tetanus Toxoid
+  - 3.9.3	Delivery Care
+  - 3.9.4	Postnatal Care for the Mother
+- 3.10	Vaccination Coverage
+  - 3.10.1	Basic Antigen Coverage
+  - 3.10.2	Vaccination Coverage According to the National Schedule
+- 3.11	Care Seeking and Treatment of Child Illness
+- 3.12	Early Childhood Development
+- 3.13	Child Nutritional Status
+- 3.14	Infant and Young Child Feeding
+  - 3.14.1	Early Initiation of Breastfeeding and Exclusive Breastfeeding
+  - 3.14.2	Bottle Feeding
+  - 3.14.3	Minimum Dietary Diversity, Minimum Meal Frequency, Minimum Milk 
+Feeding Frequency, and Minimum Acceptable Diet
+  - 3.14.4	Sweet Beverage Consumption and Unhealthy Food Consumption
+- 3.15	Early Childhood Mortality
+- 3.16	Malaria
+  - 3.16.1	Ownership and Use of Insecticide-treated Nets
+  - 3.16.2	Malaria in Pregnancy
+  - 3.16.3	Case Management of Malaria in Children
+- 3.17	TB and HIV
+  - 3.17.1	Knowledge and Diagnosis of Tuberculosis
+  - 3.17.2	HIV Prevention Knowledge among Young People
+  - 3.17.3	Sexual Behavior
+  - 3.17.4	Prior HIV Testing
+- 3.18	Women’s and Men’s Ownership of a House or Land and Documentation 
+of Ownership
+  - 3.18.1	House and Land Ownership
+  - 3.18.2	House Ownership and Documentation of Ownership
+  - 3.18.3	Agricultural Land Ownership and Documentation of Ownership
+  - 3.18.4	Non agricultural Land Ownership and Documentation of Ownership
+- 3.19	Gender-based Violence
+  - 3.19.1	Measurement of Violence
+  - 3.19.2	Experience of Physical Violence	
+  - 3.19.3	Experience of Sexual Violence
+- 3.20	Female Genital Mutilation/Cutting
+  - 3.20.1	Respondents’ Knowledge of Female Genital Mutilation
+  - 3.20.2	Prevalence and Type of Female Genital Mutilation
+
+
+## 3.1 Response rates for the 2022 KDHS
+```{r}
+require(pacman)
+p_load(docxtractr)
+p_load(dplyr)
+p_load(tidyverse)
+p_load(ggiraph)
+
+# import all the tables
+dhs2022report <- read_docx("2022KDHSKIR_20230107.docx") 
+
+# number of tables in the report
+docx_tbl_count(dhs2022report)
+tbls <- docx_extract_all_tbls(dhs2022report, trim = T, guess_header = T)
+```
+
+### Households and participants interviewed (Table 1)
+- Results of the household interviews for:
+  - All the interviews, For the long and short questionnaires
+  - By or not these were in the rural or urban populations
+
+```{r}
+## Results of the household interviews
+allhhinterviews <- tbls[[3]] %>% # all household interviews
+  slice(7:9) %>%
+  dplyr::select(V1,V2,V3) %>%
+  dplyr::rename(Households = V1,
+                Urban = V2,
+                Rural = V3) %>%
+  dplyr::mutate(selection = "All households")
+
+fqhhinterviews <- tbls[[3]] %>% #full questionnaire household interviews
+  slice(20:22) %>%
+  dplyr::select(V1,V2,V3) %>%
+  dplyr::rename(Households = V1,
+                Urban = V2,
+                Rural = V3) %>%
+  dplyr::mutate(selection = "Full questionnaire")
+
+sqhhinterviews <- tbls[[3]] %>% #short questionnaire household interviews
+  slice(39:41) %>%
+  dplyr::select(V1,V2,V3) %>%
+  dplyr::rename(Households = V1,
+                Urban = V2,
+                Rural = V3)%>%
+  dplyr::mutate(selection = "Short questionanaire")
+
+interviews <- dplyr::bind_rows(allhhinterviews,fqhhinterviews,sqhhinterviews) %>%
+  tidyr::gather(residence,numbers,2:3) %>%
+  dplyr::arrange(selection, residence)
+
+interviews
+
+write_csv(interviews, "table1_dhshhinterviews.csv")
+```
+
+- Visualizing the data on households selection and participation in the 2022 KDHS survey
+
+```{r}
+kdhshouseholdinterviews <- read_csv("table1_dhshhinterviews.csv") %>%
+  dplyr::mutate(Households = recode(Households, "Households selected" = "Selected","Households occupied" = "Occupied", "Households interviewed" = "Interviewed"))
+
+
+interviewvisuals <- kdhshouseholdinterviews %>%
+  ggplot(aes(x=Households, y=numbers)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=numbers), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("") + xlab("Households") +
+  facet_grid(selection~residence) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+  
+interviewvisuals
+
+```
+
+
+- Results of the participants that answered the questionnaire surveys
+
+```{r}
+## Results of participants
+allwomen <- tbls[[3]] %>% #women age 15-49 years - from all households
+  slice(14:15) %>%
+  dplyr::select(V1,V2,V3) %>%
+  dplyr::rename(Respondents = V1,
+                Urban = V2,
+                Rural = V3) %>%
+  dplyr::mutate(selection = "All households")
+
+fqwomen <- tbls[[3]] %>% #women age 15-49 years - for the full questionnaire
+  slice(27:28) %>%
+  dplyr::select(V1,V2,V3) %>%
+  dplyr::rename(Respondents = V1,
+                Urban = V2,
+                Rural = V3) %>%
+  dplyr::mutate(selection = "Full questionnaire")
+
+sqwomen <- tbls[[3]] %>% #women age 15-49 years - for the short questionnaire
+  slice(46:47) %>%
+  dplyr::select(V1,V2,V3) %>%
+  dplyr::rename(Respondents = V1,
+                Urban = V2,
+                Rural = V3) %>%
+  dplyr::mutate(selection = "Short questionnaire")
+
+womeninterviews <- dplyr::bind_rows(allwomen,fqwomen,sqwomen) %>%
+  tidyr::gather(residence,numbers,2:3) %>%
+  dplyr::arrange(selection, residence) %>%
+  mutate(Gender = "Female")
+
+#womeninterviews
+#write_csv(womeninterviews, "table1_womeninterviewed.csv") ## saves the .csv file of the women 15-59 years interviewed
+
+
+lqmen <- tbls[[3]] %>% #men 15-54 years - for the full questionnaire
+  slice(33:34) %>%
+  dplyr::select(V1,V2,V3) %>%
+  dplyr::rename(Respondents = V1,
+                Urban = V2,
+                Rural = V3) %>%
+  dplyr::mutate(selection = "Full questionnaire")
+
+meninterviews <- lqmen %>%
+  tidyr::gather(residence,numbers,2:3) %>%
+  dplyr::arrange(selection, residence) %>%
+  mutate(Gender = "Male")
+  
+#meninterviews
+#write_csv(meninterviews, "table1_meninterviewed.csv") ## saves .csv file of the men 15-54years interviewed
+
+participantsinterviews <- bind_rows(womeninterviews, meninterviews)
+participantsinterviews
+write_csv(participantsinterviews, "table1_participantsinterviews.csv")  ## combines the data from women and men interviewed
+
+```
+
+- Visualizing information on the participant's of the 2022 KDHS 
+
+```{r}
+participantsinterviews <- read_csv("table1_participantsinterviews.csv") %>%
+  dplyr::mutate(Participant = recode(Respondents, "Number of eligible women" = "Eligible women","Number of eligible women interviewed" = "Women interviewed", "Number of eligible men" = "Eligible men","Number of eligible men interviewed" = "Men interviewed"))
+  
+
+womenparticipantsinterviewsvisuals <- participantsinterviews %>%
+  dplyr::filter(Gender == "Female") %>%
+  ggplot(aes(x=Respondents, y=numbers)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=numbers), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("") + xlab("Respondents") +
+  facet_grid(residence~selection) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+  
+womenparticipantsinterviewsvisuals
+
+menparticipantsinterviewsvisuals <- participantsinterviews %>%
+  dplyr::filter(Gender == "Male") %>%
+  ggplot(aes(x=Respondents, y=numbers)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=numbers), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("") + xlab("Respondents") +
+  facet_grid(residence~selection) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+menparticipantsinterviewsvisuals
+
+```
+
+## 3.2 Characteristics of the respondents (Table 2 data)
+
+- By age of the respondents
+
+```{r}
+## Ages of the respondents
+table2agewomen <- tbls[[4]] %>% # table 2 of the DHS2022 report
+  slice(6:12) %>% # select rows with ages
+  dplyr::select(V1:V4) %>%
+  dplyr::rename(Age = V1,
+                Weighted_percent = V2,
+                Weighted_number = V3,
+                Unweighted_number = V4) %>%
+  dplyr::mutate(Participants = "Women")
+
+table2agemen <- tbls[[4]] %>% # table 2 of the DHS2022 report
+  slice(6:12) %>% # select rows with ages
+  dplyr::select(V1,V5:V7) %>%
+  dplyr::rename(Age = V1,
+                Weighted_percent = V5,
+                Weighted_number = V6,
+                Unweighted_number = V7) %>%
+  dplyr::mutate(Participants = "Men")
+
+ageparticipants <- bind_rows(table2agewomen,table2agemen)
+
+ageparticipants
+
+write_csv(ageparticipants, "table2_ageparticipants.csv")
+
+```
+
+- Visualizations of the respondents by age
+
+```{r}
+respondentsbyage <- read_csv("table2_ageparticipants.csv")
+
+respondentsbyagevisuals <- respondentsbyage %>%
+  ggplot(aes(x=Age, y=Weighted_percent, color = Participants)) + 
+  geom_point(stat = "identity", size= 4) + 
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), hjust=-0.5, size=4, color="black")+
+  ylab("Weighted percent (%)") + xlab("Age of respondents") +
+  theme(axis.title=element_text(size=16, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5)))
+  
+respondentsbyagevisuals
+```
+
+- Data and visualizations for self reported health status by the DHS respondents
+
+```{r}
+## Self reported health status
+
+selfreport_healthstatuswomen <- tbls[[4]] %>%
+  slice(15:19) %>%
+  select(V1:V4) %>%
+  dplyr::rename(Health_status = V1,
+                Weighted_percent = V2,
+                Weighted_number = V3,
+                Unweighted_number = V4) %>%
+  dplyr::mutate(Participants = "Women")
+
+selfreport_healthstatusmen <- tbls[[4]] %>%
+  slice(15:19) %>%
+  select(V1,V5:V7) %>%
+  dplyr::rename(Health_status = V1,
+                Weighted_percent = V5,
+                Weighted_number = V6,
+                Unweighted_number = V7) %>%
+  dplyr::mutate(Participants = "Men")
+
+selfreport_healthstatus <- bind_rows(selfreport_healthstatuswomen,selfreport_healthstatusmen)
+
+selfreport_healthstatus
+
+write_csv(selfreport_healthstatus, "table2_selfreport_healthstatus.csv")
+
+```
+
+- Visualization of reported health status by the respondents
+
+```{r}
+
+healthstatus <- read_csv("table2_selfreport_healthstatus.csv") %>%
+  mutate(Health_status = fct_relevel(Health_status, 
+            "Very bad","Bad","Moderate","Good","Very good")) 
+
+healthstatusvisuals <- healthstatus %>%
+  ggplot(aes(x=Health_status, y=Weighted_percent)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("Weighted percent") + xlab("Reported Health Status") +
+  facet_wrap(~Participants) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+healthstatusvisuals
+
+```
+
+- Characteristics of the respondents by religion
+
+```{r}
+
+## Religion of the participants
+
+religionwomen <- tbls[[4]] %>%
+  slice(22:26) %>%
+  select(V1:V4) %>%
+  dplyr::rename(Religion = V1,
+                Weighted_percent = V2,
+                Weighted_number = V3,
+                Unweighted_number = V4) %>%
+  dplyr::mutate(Participants = "Women")
+
+religionmen <- tbls[[4]] %>%
+  slice(22:26) %>%
+  select(V1,V5:V7) %>%
+  dplyr::rename(Religion = V1,
+                Weighted_percent = V5,
+                Weighted_number = V6,
+                Unweighted_number = V7) %>%
+  dplyr::mutate(Participants = "Men")
+
+religion <- bind_rows(religionwomen,religionmen)
+
+religion
+
+write_csv(religion, "table2_religionparticipants.csv")
+```
+
+- Visualizations of the respondents characteristics by religion
+
+```{r}
+religionrespondents <- read_csv("table2_religionparticipants.csv") %>%
+  mutate(Religion = fct_relevel(Religion, "Other","No religion", "Muslim","Catholic","Protestant/other Christian")) 
+
+religionrespondentsvisuals <- religionrespondents %>%
+  ggplot(aes(x=Religion, y=Weighted_percent)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("Weighted percent") + xlab("Respondents religion") +
+  facet_wrap(~Participants) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+religionrespondentsvisuals
+
+```
+
+
+- Respondents characteristics based on marital status
+
+```{r}
+## Religion of the participants
+
+maritalstatuswomen <- tbls[[4]] %>%
+  slice(29:33) %>%
+  select(V1:V4) %>%
+  dplyr::rename(Marital_status = V1,
+                Weighted_percent = V2,
+                Weighted_number = V3,
+                Unweighted_number = V4) %>%
+  dplyr::mutate(Participants = "Women")
+
+maritalstatusmen <- tbls[[4]] %>%
+  slice(29:33) %>%
+  select(V1,V5:V7) %>%
+  dplyr::rename(Marital_status = V1,
+                Weighted_percent = V5,
+                Weighted_number = V6,
+                Unweighted_number = V7) %>%
+  dplyr::mutate(Participants = "Men")
+
+maritalstatus <- bind_rows(maritalstatuswomen,maritalstatusmen)
+
+maritalstatus
+
+write_csv(maritalstatus, "table2_maritalstatusparticipants.csv")
+```
+
+- Visualization of the participants marital status
+
+```{r}
+maritalstatusrespondents <- read_csv("table2_maritalstatusparticipants.csv") %>%
+  mutate(Marital_status = fct_relevel(Marital_status, "Widowed","Living together", "Divorced/separated","Never married","Married")) 
+
+maritalstatusrespondentsvisuals <- maritalstatusrespondents %>%
+  ggplot(aes(x=Marital_status, y=Weighted_percent)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("Weighted percent") + xlab("Respondents marital status") +
+  facet_wrap(~Participants) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+maritalstatusrespondentsvisuals
+
+```
+
+
+- Participants residential places
+
+```{r}
+## Residence of the participants
+
+residencewomen <- tbls[[4]] %>%
+  slice(36:37) %>%
+  select(V1:V4) %>%
+  dplyr::rename(Residence = V1,
+                Weighted_percent = V2,
+                Weighted_number = V3,
+                Unweighted_number = V4) %>%
+  dplyr::mutate(Participants = "Women")
+
+residencemen <- tbls[[4]] %>%
+  slice(36:37) %>%
+  select(V1,V5:V7) %>%
+  dplyr::rename(Residence = V1,
+                Weighted_percent = V5,
+                Weighted_number = V6,
+                Unweighted_number = V7) %>%
+  dplyr::mutate(Participants = "Men")
+
+residence <- bind_rows(residencewomen,residencemen)
+
+residence
+
+write_csv(residence, "table2_residenceparticipants.csv")
+```
+
+- Visualization of the participants characteristics - by place of resident
+
+```{r}
+residentrespondents <- read_csv("table2_residenceparticipants.csv") %>%
+  mutate(Residence = fct_relevel(Residence, "Urban", "Rural"))
+
+residentrespondentsvisuals <- residentrespondents %>%
+  ggplot(aes(x=Residence, y=Weighted_percent)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("Weighted percent") + xlab("Respondents residence") +
+  facet_wrap(~Participants) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+residentrespondentsvisuals
+
+```
+
+- Participants characteristics - by Education status
+
+```{r}
+## Education status of the participants
+
+educationstatuswomen <- tbls[[4]] %>%
+  slice(40:44) %>%
+  select(V1:V4) %>%
+  dplyr::rename(Education_status = V1,
+                Weighted_percent = V2,
+                Weighted_number = V3,
+                Unweighted_number = V4) %>%
+  dplyr::mutate(Participants = "Women")
+
+educationstatusnmen <- tbls[[4]] %>%
+  slice(40:44) %>%
+  select(V1,V5:V7) %>%
+  dplyr::rename(Education_status = V1,
+                Weighted_percent = V5,
+                Weighted_number = V6,
+                Unweighted_number = V7) %>%
+  dplyr::mutate(Participants = "Men")
+
+educationstatus <- bind_rows(educationstatuswomen,educationstatusnmen)
+
+educationstatus
+
+write_csv(educationstatus, "table2_educationstatusparticipants.csv")
+```
+
+- Visualizations by the education status of the respondents
+
+```{r}
+educationrespondents <- read_csv("table2_educationstatusparticipants.csv")  %>%
+  mutate(Education_status = fct_relevel(Education_status, "Vocational", "More than secondary","Secondary", "Primary", "No education"))
+
+educationrespondentsvisuals <- educationrespondents %>%
+  ggplot(aes(x=Education_status, y=Weighted_percent)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("Weighted percent") + xlab("Education status") +
+  facet_wrap(~Participants) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+educationrespondentsvisuals
+
+```
+
+
+
+- Respondents by their Wealth quintile
+
+```{r}
+## Economic status of the participants (wealth quintiles) for those aged 15-49 - men and women
+
+economicstatuswomen <- tbls[[5]] %>%
+  slice(5:9) %>%
+  select(V1:V4) %>%
+  dplyr::rename(Wealth_quintile = V1,
+                Weighted_percent = V2,
+                Weighted_number = V3,
+                Unweighted_number = V4) %>%
+  dplyr::mutate(Participants = "Women")
+
+economicstatusnmen <- tbls[[5]] %>%
+  slice(5:9) %>%
+  select(V1,V5:V7) %>%
+  dplyr::rename(Wealth_quintile = V1,
+                Weighted_percent = V5,
+                Weighted_number = V6,
+                Unweighted_number = V7) %>%
+  dplyr::mutate(Participants = "Men")
+
+economicstatus15_49 <- bind_rows(economicstatuswomen,economicstatusnmen)
+
+economicstatus15_49
+
+write_csv(economicstatus15_49, "table2_economicstatus15_49.csv")
+
+```
+
+
+- Visualization for participants by the wealth quintile
+
+```{r}
+economicstatusrespondents <- read_csv("table2_economicstatus15_49.csv")  %>%
+  mutate(Wealth_quintile = fct_relevel(Wealth_quintile, "Lowest", "Second","Middle", "Fourth", "Highest"))
+
+economicstatusrespondentsvisuals <- economicstatusrespondents %>%
+  ggplot(aes(x=Wealth_quintile, y=Weighted_percent)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("Weighted percent") + xlab("Wealth quintile") +
+  facet_wrap(~Participants) +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=18, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+economicstatusrespondentsvisuals
+
+```
+
+
+
+### Participants distribution by County
+
+```{r}
+## Participants distribution by county (for those aged 15-49 years)
+
+womenbycounty <- tbls[[6]] %>%
+  slice(5:51) %>%
+  select(V1:V4) %>%
+  dplyr::rename(County = V1,
+                Weighted_percent = V2,
+                Weighted_number = V3,
+                Unweighted_number = V4) %>%
+  dplyr::mutate(Participants = "Women")
+
+menbycounty <- tbls[[6]] %>%
+  slice(5:51) %>%
+  select(V1,V5:V7) %>%
+  dplyr::rename(County = V1,
+                Weighted_percent = V5,
+                Weighted_number = V6,
+                Unweighted_number = V7) %>%
+  dplyr::mutate(Participants = "Men")
+
+participantsbycounty <- bind_rows(womenbycounty,menbycounty)
+
+participantsbycounty
+
+write_csv(participantsbycounty, "table2_participantsbycounty.csv")
+
+```
+
+- Visualizations of participants by county
+
+```{r}
+countyrespondents <- read_csv("table2_participantsbycounty.csv") %>%
+  arrange(desc(Weighted_percent))
+  
+
+countyrespondentsvisuals <- countyrespondents %>%
+  arrange(desc(Weighted_percent)) %>%
+  ggplot(aes(x=reorder(County,Weighted_percent), y=Weighted_percent)) + 
+  geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() +
+  geom_text(aes(label=Weighted_percent), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("Weighted percent") + xlab("County") +
+  facet_wrap(~Participants) +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+countyrespondentsvisuals
+
+county
+
+```
+
+## Health Insurance Coverage - Table 3
+### By Age Category
+```{r}
+## Health Insurance Coverage by age category
+
+healthinsurancebyage_women <- tbls[[7]] %>%
+  slice(6:8) %>%
+  select(V1:V8) %>%
+  dplyr::rename(Age_category = V1,
+                NHIF = V2,
+                Private_commercial = V3,
+                Community_based = V4,
+                Other = V5,
+                "None/Don't Know" = V6,
+                Any_health_insurance = V7,
+                Number_of_people = V8) %>%
+  dplyr::mutate(Participants = "Women")
+
+healthinsurancebyage_men <- tbls[[7]] %>%
+  slice(6:8) %>%
+  select(V1,V9:V15) %>%
+  dplyr::rename(Age_category = V1,
+                NHIF = V9,
+                Private_commercial = V10,
+                Community_based = V11,
+                Other = V12,
+                "None/Don't Know" = V13,
+                Any_health_insurance = V14,
+                Number_of_people = V15) %>%
+  dplyr::mutate(Participants = "Men")
+
+healthinsurancebyage <- bind_rows(healthinsurancebyage_women,healthinsurancebyage_men)
+
+healthinsurancebyage
+
+
+write_csv(healthinsurancebyage, "table3_healthinsurancebyage.csv")
+```
+
+### By residence
+
+```{r}
+## Health Insurance Coverage by residence
+
+healthinsurancebyresidence_women <- tbls[[7]] %>%
+  slice(11:12) %>%
+  select(V1:V8) %>%
+  dplyr::rename(Residence = V1,
+                NHIF = V2,
+                Private_commercial = V3,
+                Community_based = V4,
+                Other = V5,
+                "None/Don't Know" = V6,
+                Any_health_insurance = V7,
+                Number_of_people = V8) %>%
+  dplyr::mutate(Participants = "Women")
+
+healthinsurancebyresidence_men <- tbls[[7]] %>%
+  slice(11:12) %>%
+  select(V1,V9:V15) %>%
+  dplyr::rename(Residence= V1,
+                NHIF = V9,
+                Private_commercial = V10,
+                Community_based = V11,
+                Other = V12,
+                "None/Don't Know" = V13,
+                Any_health_insurance = V14,
+                Number_of_people = V15) %>%
+  dplyr::mutate(Participants = "Men")
+
+healthinsurancebyresidence <- bind_rows(healthinsurancebyresidence_women,healthinsurancebyresidence_men)
+
+healthinsurancebyresidence
+
+write_csv(healthinsurancebyresidence, "table3_healthinsurancebyresidence.csv")
+```
+
+### By wealth quintile
+
+```{r}
+## Health Insurance Coverage by wealth quintile
+
+healthinsurancebywealthquintile_women <- tbls[[7]] %>%
+  slice(15:19) %>%
+  select(V1:V8) %>%
+  dplyr::rename(Wealth_quintile = V1,
+                NHIF = V2,
+                Private_commercial = V3,
+                Community_based = V4,
+                Other = V5,
+                "None/Don't Know" = V6,
+                Any_health_insurance = V7,
+                Number_of_people = V8) %>%
+  dplyr::mutate(Participants = "Women")
+
+healthinsurancebywealthquintile_men <- tbls[[7]] %>%
+  slice(15:19) %>%
+  select(V1,V9:V15) %>%
+  dplyr::rename(Wealth_quintile= V1,
+                NHIF = V9,
+                Private_commercial = V10,
+                Community_based = V11,
+                Other = V12,
+                "None/Don't Know" = V13,
+                Any_health_insurance = V14,
+                Number_of_people = V15) %>%
+  dplyr::mutate(Participants = "Men")
+
+healthinsurancebywealthquintile <- bind_rows(healthinsurancebywealthquintile_women,healthinsurancebywealthquintile_men)
+
+healthinsurancebywealthquintile
+
+write_csv(healthinsurancebywealthquintile, "table3_healthinsurancebywealthquintile.csv")
+```
+
+- Visualizations of health insurance coverage by age, Residence, Wealth quintile
+
+```{r}
+healthinsurancebyagevisual <- read_csv("table3_healthinsurancebyage.csv") %>%
+  tidyr::gather(Insurance,Coverage,2:7)
+
+respondentsbyagevisuals <- healthinsurancebyagevisual %>%
+  ggplot(aes(x=Age_category, y=Coverage, fill=Participants)) + 
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_bw() +
+  #coord_flip() +
+  facet_grid(~Insurance) +
+  #geom_text(aes(label=Coverage), hjust=0, size=4, color="black")+
+  ylab("Weighted percent (%)") + xlab("Age category of respondents") +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+  
+respondentsbyagevisuals
+
+healthinsurancebyresidencevisual <- read_csv("table3_healthinsurancebyresidence.csv") %>%
+  tidyr::gather(Insurance,Coverage,2:7)
+
+respondentsbyresidencevisuals <- healthinsurancebyresidencevisual %>%
+  ggplot(aes(x=Residence, y=Coverage, fill=Participants)) + 
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_bw() +
+  #coord_flip() +
+  facet_grid(~Insurance) +
+  #geom_text(aes(label=Coverage), hjust=0, size=4, color="black")+
+  ylab("Weighted percent (%)") + xlab("Residence of the respondents") +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+  
+respondentsbyresidencevisuals
+
+healthinsurancebywealthquintilevisual <- read_csv("table3_healthinsurancebywealthquintile.csv")%>%
+  tidyr::gather(Insurance,Coverage,2:7) %>%
+  mutate(Wealth_quintile = fct_relevel(Wealth_quintile, "Lowest", "Second","Middle", "Fourth", "Highest"))
+
+healthinsurancebywealthquintilevisuals <- healthinsurancebywealthquintilevisual %>%
+  ggplot(aes(x=Wealth_quintile, y=Coverage, fill=Participants)) + 
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_bw() +
+  coord_flip() +
+  facet_grid(~Insurance) +
+  #geom_text(aes(label=Coverage), hjust=0, size=4, color="black")+
+  ylab("Weighted percent (%)") + xlab("Wealth quintile of the respondents") +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+  
+healthinsurancebywealthquintilevisuals
+
+```
+
+
+## Disability among household populations (Table 4)
+
+### Disability by age
+
+```{r}
+disabilitywomenbyage <- tbls[[9]] %>% ## Extracted Table 9 - has information on disability by women
+  slice(6:8) %>% #Age data rows
+  dplyr::rename(Age_category = V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Women")
+
+disabilitymenbyage <- tbls[[10]] %>% ## Extracted Table 10 - has information on disability by men
+  slice(6:8) %>% # Age data rows
+  dplyr::rename(Age_category = V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Men")
+
+disabilitybyage <- bind_rows(disabilitywomenbyage,disabilitymenbyage)
+
+disabilitybyage
+
+write_csv(disabilitybyage, "table4_disabilitybyage.csv")
+  
+```
+
+### Disability by marital status
+
+```{r}
+disabilitywomenbymaritalstatus <- tbls[[9]] %>% ## Extracted Table 9 - has information on disability by women
+  slice(11:15) %>% #marital status data rows
+  dplyr::rename(Marital_status = V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Women")
+
+disabilitymenbymaritalstatus <- tbls[[10]] %>% ## Extracted Table 10 - has information on disability by men
+  slice(11:15) %>% # marital status data rows
+  dplyr::rename(Marital_status = V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Men")
+
+disabilitybymaritalstatus <- bind_rows(disabilitywomenbymaritalstatus,disabilitymenbymaritalstatus)
+
+disabilitybymaritalstatus
+
+write_csv(disabilitybymaritalstatus, "table4_disabilitybymaritalstatus.csv")
+  
+```
+
+### Disability by residence
+
+```{r}
+disabilitywomenbyresidence <- tbls[[9]] %>% ## Extracted Table 9 - has information on disability by women
+  slice(18:19) %>% # residence data rows
+  dplyr::rename(Residence = V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Women")
+
+disabilitymenbyresidence <- tbls[[10]] %>% ## Extracted Table 10 - has information on disability by men
+  slice(18:19) %>% # residence data rows
+  dplyr::rename(Residence = V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Men")
+
+disabilitybyresidence <- bind_rows(disabilitywomenbyresidence,disabilitymenbyresidence)
+
+disabilitybyresidence
+
+write_csv(disabilitybyresidence, "table4_disabilitybyresidence.csv")
+  
+```
+
+
+### Disability by Education Status
+
+```{r}
+disabilitywomenbyeducationstatus <- tbls[[9]] %>% ## Extracted Table 9 - has information on disability by women
+  slice(22:25) %>% # Education status data rows
+  dplyr::rename(Education_status = V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Women")
+
+disabilitymenbyeducationstatus <- tbls[[10]] %>% ## Extracted Table 10 - has information on disability by men
+  slice(22:25) %>% # Educcation status data rows
+  dplyr::rename(Education_status= V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Men")
+
+disabilitybyeducationstatus <- bind_rows(disabilitywomenbyeducationstatus,disabilitymenbyeducationstatus)
+
+disabilitybyeducationstatus
+
+write_csv(disabilitybyeducationstatus, "table4_disabilitybyeducationstatus.csv")
+  
+```
+
+### Disability by Wealth quintile
+
+```{r}
+disabilitywomenbywealthquintile <- tbls[[9]] %>% ## Extracted Table 9 - has information on disability by women
+  slice(28:32) %>% # wealth quintile data rows
+  dplyr::rename(Wealth_quintile = V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Women")
+
+disabilitymenbywealthquintile <- tbls[[10]] %>% ## Extracted Table 10 - has information on disability by men
+  slice(28:32) %>% # wealth quintile data rows
+  dplyr::rename(Wealth_quintile= V1,
+                No_difficulty = V2,
+                Seeing = V3,
+                Hearing = V4,
+                Communicating = V5,
+                Remembering_concentrating = V6,
+                Walking_ClimbingSteps = V7,
+                WashingAllOver_dressing = V8,
+                SomeDifficulty = V9,
+                A_lot_of_difficulty = V10,
+                Cannot_do_at_all = V11,
+                A_lot_of_difficulty_cannot_do_at_all = V12,
+                A_lot_of_difficulty_cannot_do_at_all_more_than_one_domain = V13,
+                Number = V14) %>%
+  dplyr::mutate(Participants = "Men")
+
+disabilitybywealthquintile <- bind_rows(disabilitywomenbywealthquintile,disabilitymenbywealthquintile)
+
+disabilitybywealthquintile
+
+write_csv(disabilitybywealthquintile, "table4_disabilitybywealthquintile.csv")
+  
+```
+
+- Visualizations for table 4.1 Disability according to background characteristics
+
+```{r}
+## By age
+disabilitybyagedifficultyvisual <- read_csv("table4_disabilitybyage.csv") %>%
+  select(Age_category, Participants, SomeDifficulty, A_lot_of_difficulty, Cannot_do_at_all) %>%
+  pivot_longer(cols=c(SomeDifficulty:Cannot_do_at_all), names_to= "Disability", values_to = "Percent") %>%
+  mutate(Age_category = fct_relevel(Age_category, "5–14", "15–49", "50+")) %>%
+  mutate(Disability = fct_relevel(Disability, "SomeDifficulty", "A_lot_of_difficulty", "Cannot_do_at_all")) %>%
+  ggplot(aes(x=Age_category, y=Percent, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) +
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  scale_fill_manual("Disability", values = c("SomeDifficulty" = "darkorange", "A_lot_of_difficulty" = "cyan3", "Cannot_do_at_all" = "red")) +
+  theme_bw() +
+  ylab("Percent (%)") + xlab("Age category of respondents") +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) 
+
+disabilitybyagedifficultyvisual 
+
+disabilitybyagedomainvisual <- read_csv("table4_disabilitybyage.csv") %>%
+  select(Age_category, Participants, Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing) %>%
+  pivot_longer(cols=c(Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing), names_to="Disability", values_to = "Percent") %>%
+  mutate(Age_category = fct_relevel(Age_category, "5–14", "15–49", "50+")) %>%
+  ggplot(aes(x=Age_category, y=Percent, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_bw() +
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  ylab("Percent (%)") + xlab("Age category of respondents") +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) 
+
+disabilitybyagedomainvisual
+
+## By residence
+disabilitybyresidencedifficultyvisual <- read_csv("table4_disabilitybyresidence.csv") %>%
+  select(Residence, Participants, SomeDifficulty, A_lot_of_difficulty, Cannot_do_at_all) %>%
+  pivot_longer(cols=c(SomeDifficulty:Cannot_do_at_all), names_to= "Disability", values_to = "Percent") %>%
+  mutate(Disability = fct_relevel(Disability, "SomeDifficulty", "A_lot_of_difficulty", "Cannot_do_at_all")) %>%
+  ggplot(aes(x=Residence, y=Percent, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  #scale_fill_manual("Residence", values = c("Rural" = "darkorange", "Urban" = "cyan3")) +
+  theme_bw() + 
+  #facet_wrap(~Participants) + 
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  coord_flip() +
+  ylab("Percent (%)") + xlab("Disability") +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) +
+  theme(legend.text = element_text(size=14, face = "bold"), 
+        legend.title = element_text(size=14, face = "bold"))
+  
+disabilitybyresidencedifficultyvisual
+  
+  
+
+disabilitybyresidencedomainvisual <- read_csv("table4_disabilitybyresidence.csv") %>%
+select(Residence, Participants, Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing) %>%
+  pivot_longer(cols=c(Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing), names_to="Disability", values_to = "Percent") %>%
+  #mutate(Disability, fct_relevel(Disability, c("Seeing", "Hearing", "Walking_ClimbingSteps", "Remembering_concentrating", "Communicating", "WashingAllOver_dressing"))) %>%
+  ggplot(aes(x=Residence, y=Percent, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  #scale_fill_manual("Residence", values = c("Rural" = "darkorange", "Urban" = "cyan3")) +
+  theme_bw() + 
+  #facet_wrap(~Participants) + 
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  coord_flip() +
+  ylab("Percent (%)") + xlab("Disability") +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) +
+  theme(legend.text = element_text(size=14, face = "bold"), 
+        legend.title = element_text(size=14, face = "bold"))
+disabilitybyresidencedomainvisual
+
+
+
+#disabilitybyresidencevisual <- bind_rows(disabilitybyresidencedifficultyvisual,disabilitybyresidencedomainvisual) %>%
+  #mutate(Characteristic = "Residence") %>%
+  #select(-Residence)
+
+## By Marital Status
+disabilitybymaritalstatusdifficultyvisual <- read_csv("table4_disabilitybymaritalstatus.csv") %>%
+  select(Marital_status, Participants, SomeDifficulty, A_lot_of_difficulty, Cannot_do_at_all) %>%
+  pivot_longer(cols=c(SomeDifficulty:Cannot_do_at_all), names_to= "Disability", values_to = "Percent") %>%
+  mutate(Disability = fct_relevel(Disability, "SomeDifficulty", "A_lot_of_difficulty", "Cannot_do_at_all")) %>%
+  ggplot(aes(x=Marital_status, y=Percent, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  #scale_fill_manual("Residence", values = c("Rural" = "darkorange", "Urban" = "cyan3")) +
+  theme_bw() + 
+  #facet_wrap(~Participants) + 
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  coord_flip() +
+  ylab("Percent (%)") + xlab("Marital status") +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) +
+  theme(legend.text = element_text(size=14, face = "bold"), 
+        legend.title = element_text(size=14, face = "bold"))
+disabilitybymaritalstatusdifficultyvisual
+  
+
+disabilitybymaritalstatusdomainvisual <- read_csv("table4_disabilitybymaritalstatus.csv") %>%
+  select(Marital_status, Participants, Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing) %>%
+  pivot_longer(cols=c(Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing), names_to="Disability", values_to = "Percent") %>%
+  ggplot(aes(x=Marital_status, y=Percent, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  theme_bw() + 
+  #facet_wrap(~Participants) + 
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  coord_flip() +
+  ylab("Percent (%)") + xlab("Marital_status") +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) +
+  theme(legend.text = element_text(size=14, face = "bold"), 
+        legend.title = element_text(size=14, face = "bold"))
+disabilitybymaritalstatusdomainvisual
+ 
+
+# disabilitybymaritalstatusvisual <- bind_rows(disabilitybymaritalstatusdifficultyvisual,disabilitybymaritalstatusdomainvisual) %>%
+# mutate(Characteristic = "Marital_status") %>%
+#   select(-Marital_status)
+
+## By Education
+disabilitybyeducationstatusdifficultyvisual <- read_csv("table4_disabilitybyeducationstatus.csv") %>%
+select(Education_status, Participants, SomeDifficulty, A_lot_of_difficulty, Cannot_do_at_all) %>%
+  pivot_longer(cols=c(SomeDifficulty:Cannot_do_at_all), names_to= "Disability", values_to = "Percent") %>%
+  mutate(Disability = fct_relevel(Disability, "SomeDifficulty", "A_lot_of_difficulty", "Cannot_do_at_all")) %>%
+  ggplot(aes(x=Disability, y=Percent, fill=Education_status)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  theme_bw() + 
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  coord_flip() +
+  ylab("Percent (%)") + xlab("Disability") +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) +
+  theme(legend.text = element_text(size=14, face = "bold"), 
+        legend.title = element_text(size=14, face = "bold"))
+disabilitybyeducationstatusdifficultyvisual
+
+
+disabilitybyeducationstatusdomainvisual <- read_csv("table4_disabilitybyeducationstatus.csv") %>%
+  select(Education_status, Participants, Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing) %>%
+  pivot_longer(cols=c(Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing), names_to="Disability", values_to = "Percent") %>%
+  ggplot(aes(x=Education_status, y=Percent, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  theme_bw() + 
+  #facet_wrap(~Participants) + 
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  coord_flip() +
+  ylab("Percent (%)") + xlab("Marital_status") +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) +
+  theme(legend.text = element_text(size=14, face = "bold"), 
+        legend.title = element_text(size=14, face = "bold"))
+disabilitybyeducationstatusdomainvisual
+
+# disabilitybyeducationstatusvisual <- bind_rows(disabilitybyeducationstatusdifficultyvisual,disabilitybyeducationstatusdomainvisual) %>%
+#   mutate(Characteristic = "Education_status") %>%
+#   select(-Education_status)
+
+## By Wealth quintile
+disabilitybywealthquintiledifficultyvisual <- read_csv("table4_disabilitybywealthquintile.csv") %>%
+  select(Wealth_quintile, Participants, SomeDifficulty, A_lot_of_difficulty, Cannot_do_at_all) %>%
+  pivot_longer(cols=c(SomeDifficulty:Cannot_do_at_all), names_to= "Disability", values_to = "Percent") %>%
+ mutate(Disability = fct_relevel(Disability, "SomeDifficulty", "A_lot_of_difficulty", "Cannot_do_at_all")) %>%
+  ggplot(aes(x=Wealth_quintile, y=Percent, fill=Disability)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  theme_bw() + 
+  facet_wrap(facets = ~reorder(Participants, Percent)) +
+  coord_flip() +
+  ylab("Percent (%)") + xlab("Wealth quintile") +
+  theme(strip.text.x = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 16, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="gray80")) +
+  theme(legend.text = element_text(size=14, face = "bold"), 
+        legend.title = element_text(size=14, face = "bold"))
+
+disabilitybywealthquintiledifficultyvisual
+
+# disabilitybywealthquintiledomainvisual <- read_csv("table4_disabilitybywealthquintile.csv") %>%
+#   select(Wealth_quintile, Seeing, Hearing, Communicating, Remembering_concentrating, Walking_ClimbingSteps, WashingAllOver_dressing) %>%
+#   mutate(Disability = "Domain")
+
+disabilitybywealthquintilevisual <- bind_rows(disabilitybywealthquintiledifficultyvisual,disabilitybywealthquintiledomainvisual) %>%
+  mutate(Characteristic = "Wealth_quintile") %>%
+  select(-Wealth_quintile)
+
+disabilityvisuals0 <- bind_rows(disabilitybyagevisual, disabilitybyresidencevisual) 
+disabilityvisuals1 <- bind_rows(disabilityvisuals0, disabilitybymaritalstatusvisual)
+disabilityvisuals2 <- bind_rows(disabilityvisuals1, disabilitybyeducationstatusvisual)
+disabilityvisuals <- bind_rows(disabilityvisuals2, disabilitybywealthquintilevisual)
+
+p_load(data.table)
+
+disabilityvisuals <- rbindlist(list(disabilitybyagevisual,disabilitybyresidencevisual,disabilitybymaritalstatusvisual))
+
+view(disabilityvisuals)
+
+
+
+
+
+```
+
+
+# Fertility measures
+
+### Total fertility rates over time
+- The data are from KDHS for the period 1989, 1993, 1998, 2003, 2008-09, 2014, 2022 stratified by urban, rural areas and for the country. For datasets before 2003 - some regions of the country (north-eastern and northern districts of Eastern region are not represented)
+
+```{r}
+# Figure 1 data - total fertility rate
+trendstotalfertilityrate <- tribble(~Years, ~Rural, ~Urban, ~Total,
+                                    1989, 7.1, 4.5, 6.7,
+                                    1993, 5.8, 3.4, 5.4,
+                                    1998, 5.2, 3.1, 4.7,
+                                    2003, 5.4, 3.3, 4.9,
+                                    2008-09, 5.2, 2.9, 4.6,
+                                    2014, 4.5, 3.1, 3.9,
+                                    2022, 3.9, 2.8, 3.4) %>%
+  pivot_longer(!Years, names_to= "Residence", values_to = "Total Fertility Rate")
+
+trendstotalfertilityrate
+
+write_csv(trendstotalfertilityrate, "figure1_trendstotalfertilityrate.csv")
+```
+
+### Age-specific fertility rate (Table 5 of the 2022 DHS report)
+- Expressed as fertility rate per 1,000 women for each specific age
+
+```{r}
+agespecificfertilityrate <- tbls[[13]] %>% # data from Table 5 with the age specific fertility rates for 2022
+  slice(5:12) %>% # data on the specific ages
+  dplyr::rename(Age_category = V1,
+                Urban = V2,
+                Rural = V3,
+                Total = V4)
+
+agespecificfertilityrate
+
+write_csv(agespecificfertilityrate, "table5_agespecificfertilityrate.csv")
+
+```
+
+### Total fertility rate, General fertility rate, Crude birth rate
+- TFR - expressed per woman
+- GFR - expressed per 1,000 women of age 15-44
+- CBR - expressed per 1,000 population
+
+```{r}
+fertilitybirthrates <- tbls[[13]] %>%
+  slice(14:16) %>%
+  dplyr::rename(Rate = V1,
+                Urban = V2,
+                Rural = V3,
+                Total = V4)
+
+fertilitybirthrates
+
+write_csv(fertilitybirthrates, "table5_fertilitybirthrates.csv")
+  
+```
+
+## Teenage Fertility (Section 3.6 of the 2022 DHS report)
+
+- The target population is women of 15-19 years
+- Teen pregnancy - teens who have ever had a live birth or pregnancy loss
+- Stratified by age, residence, education, and wealth quantile
+
+```{r}
+## teenage pregnancy by age
+teenpregnancybyage <- tbls[[15]] %>%
+  slice(6:10) %>%
+  dplyr::rename(Age = V1,
+                Live_birth = V2,
+                Pregnancy_loss = V3, # Stillbirth, miscarriage, or abortion
+                Currently_pregnant = V4,
+                Ever_pregnant = V5,
+                Count = V6)
+teenpregnancybyage
+
+write_csv(teenpregnancybyage, "table6_teenpregnancybyage.csv")
+
+## teenage pregnancy by residence
+teenpregnancybyresidence <- tbls[[15]] %>%
+  slice(13:14) %>%
+  dplyr::rename(Residence = V1,
+                Live_birth = V2,
+                Pregnancy_loss = V3, # Stillbirth, miscarriage, or abortion
+                Currently_pregnant = V4,
+                Ever_pregnant = V5,
+                Count = V6)
+teenpregnancybyresidence
+
+write_csv(teenpregnancybyresidence, "table6_teenpregnancybyresidence.csv")
+
+## teenage pregnancy by education
+teenpregnancybyeducationstatus <- tbls[[15]] %>%
+  slice(17:20) %>%
+  dplyr::rename(Education_status = V1,
+                Live_birth = V2,
+                Pregnancy_loss = V3, # Stillbirth, miscarriage, or abortion
+                Currently_pregnant = V4,
+                Ever_pregnant = V5,
+                Count = V6)
+teenpregnancybyeducationstatus
+
+write_csv(teenpregnancybyeducationstatus, "table6_teenpregnancybyeducationstatus.csv")
+
+## teenage pregnancy by wealth quintile
+teenpregnancybywealthquintile <- tbls[[15]] %>%
+  slice(23:27) %>%
+  dplyr::rename(Wealth_quintile = V1,
+                Live_birth = V2,
+                Pregnancy_loss = V3, # Stillbirth, miscarriage, or abortion
+                Currently_pregnant = V4,
+                Ever_pregnant = V5,
+                Count = V6)
+
+teenpregnancybywealthquintile
+
+write_csv(teenpregnancybywealthquintile, "table6_teenpregnancybywealthquintile.csv")
+
+```
+
+### Teen pregnancy by county
+
+```{r}
+teenpregnancybycounty <- tbls[[16]] %>%
+  slice(5:51) %>%
+  dplyr::rename(County = V1,
+                Live_birth = V2,
+                Pregnancy_loss = V3, # Stillbirth, miscarriage, or abortion
+                Currently_pregnant = V4,
+                Ever_pregnant = V5,
+                Count = V6)
+teenpregnancybycounty
+
+write_csv(teenpregnancybycounty, "table6_teenpregnancybycounty.csv")
+
+```
+
+## Fertility preferences for women 15-49 ## Table 7
+- Percent distribution of married women desire for children, by the number of children they already have - and whether they would want the child soon or later
+- Data collected as part of the long questionnaire
+
+```{r}
+fertilitypreferences <- tbls[[18]] %>%
+  slice(5:8,10:12) %>%
+  dplyr::rename(Desire_children = V1,
+                "0" = V2, "1" = V3, "2" = V4, "3" = V5, "4" = V6,
+                "5" = V7, "6+" = V8) %>%
+   pivot_longer(!Desire_children, names_to= "Number of children", values_to = "Percent")
+
+fertilitypreferences
+write_csv(fertilitypreferences, "table7_fertilitypreferences.csv")
+  
+```
+
+## Family planning - Section 3.8 of the 2022 report
+
+- Percentage of women who use any contraceptive method - method in use (modern or traditional), whether married
+- Stratified by
+  - Number of children
+  - Age
+  - Residence
+  - Education status
+  - Wealth quintile
+
+### Use of the modern methods for the married women + unmarried sexually active women (age and residence)
+  
+```{r}
+## By the number of children - married women
+fpusemarriedbynumberofchildren <- tbls[[20]] %>%
+  slice(7:10) %>% # by number of children
+  dplyr::select(V1:V15) %>%
+  dplyr::rename(Number_of_children = V1,
+                Contraceptive_use_any_method = V2,
+                Contraceptive_use_modern_method = V3, # Stillbirth, miscarriage, or abortion
+                Female_sterilization = V4,
+                Male_sterilization = V5,
+                IUD = V6,
+                Injectables = V7,
+                Implants = V8,
+                Pill = V9,
+                Male_condom = V10,
+                Female_condom = V11,
+                Emergency_contraception = V12,
+                SDM = V13,
+                LAM = V14,
+                Other = V15)
+fpusemarriedbynumberofchildren
+write_csv(fpusemarriedbynumberofchildren, "table8_fpusemarriedbynumberofchildren.csv")
+
+## Married women - By age
+fpusemarriedbyage <- tbls[[20]] %>%
+  slice(13:19) %>% # by age of woman
+  dplyr::select(V1:V15) %>%
+  dplyr::rename(Age = V1,
+                Contraceptive_use_any_method = V2,
+                Contraceptive_use_modern_method = V3, # Stillbirth, miscarriage, or abortion
+                Female_sterilization = V4,
+                Male_sterilization = V5,
+                IUD = V6,
+                Injectables = V7,
+                Implants = V8,
+                Pill = V9,
+                Male_condom = V10,
+                Female_condom = V11,
+                Emergency_contraception = V12,
+                SDM = V13,
+                LAM = V14,
+                Other = V15) %>%
+  dplyr::mutate(maritalstatus = "married")
+
+## Unmarried sexually active women by Age
+fpuseunmarriedbyage <- tbls[[20]] %>%
+  slice(41:47) %>% # by age of woman
+  dplyr::select(V1:V15) %>%
+  dplyr::rename(Age = V1,
+                Contraceptive_use_any_method = V2,
+                Contraceptive_use_modern_method = V3, # Stillbirth, miscarriage, or abortion
+                Female_sterilization = V4,
+                Male_sterilization = V5,
+                IUD = V6,
+                Injectables = V7,
+                Implants = V8,
+                Pill = V9,
+                Male_condom = V10,
+                Female_condom = V11,
+                Emergency_contraception = V12,
+                SDM = V13,
+                LAM = V14,
+                Other = V15) %>%
+  dplyr::mutate(maritalstatus = "unmarried")
+
+fpusemarriedandunmarriedbyage <- bind_rows(fpusemarriedbyage, fpuseunmarriedbyage)
+fpusemarriedandunmarriedbyage
+write_csv(fpusemarriedandunmarriedbyage, "table8_fpusemarriedandunmarriedbyage.csv")
+
+## By residence for married and unmarried
+fpusemarriedbyresidence <- tbls[[20]] %>%
+  slice(22:23) %>% # by residence - rural vs urban
+  dplyr::select(V1:V15) %>%
+  dplyr::rename(Residence = V1,
+                Contraceptive_use_any_method = V2,
+                Contraceptive_use_modern_method = V3, # Stillbirth, miscarriage, or abortion
+                Female_sterilization = V4,
+                Male_sterilization = V5,
+                IUD = V6,
+                Injectables = V7,
+                Implants = V8,
+                Pill = V9,
+                Male_condom = V10,
+                Female_condom = V11,
+                Emergency_contraception = V12,
+                SDM = V13,
+                LAM = V14,
+                Other = V15) %>%
+  dplyr::mutate(maritalstatus = "married")
+
+fpuseunmarriedbyresidence <- tbls[[20]] %>%
+  slice(50:51) %>% # by residence - rural vs urban
+  dplyr::select(V1:V15) %>%
+  dplyr::rename(Residence = V1,
+                Contraceptive_use_any_method = V2,
+                Contraceptive_use_modern_method = V3, # Stillbirth, miscarriage, or abortion
+                Female_sterilization = V4,
+                Male_sterilization = V5,
+                IUD = V6,
+                Injectables = V7,
+                Implants = V8,
+                Pill = V9,
+                Male_condom = V10,
+                Female_condom = V11,
+                Emergency_contraception = V12,
+                SDM = V13,
+                LAM = V14,
+                Other = V15)%>%
+  dplyr::mutate(maritalstatus = "unmarried")
+
+fpusemarriedandunmarriedbyresidence <- bind_rows(fpusemarriedbyresidence, fpuseunmarriedbyresidence)
+fpusemarriedandunmarriedbyresidence
+write_csv(fpusemarriedandunmarriedbyresidence, "table8_fpusemarriedandunmarriedbyresidence.csv")
+
+## Family planning use - for married women - by education
+fpusemarriedbyeducation <- tbls[[20]] %>%
+  slice(26:29) %>% # by education level
+  dplyr::select(V1:V15) %>%
+  dplyr::rename(Educationstatus = V1,
+                Contraceptive_use_any_method = V2,
+                Contraceptive_use_modern_method = V3, # Stillbirth, miscarriage, or abortion
+                Female_sterilization = V4,
+                Male_sterilization = V5,
+                IUD = V6,
+                Injectables = V7,
+                Implants = V8,
+                Pill = V9,
+                Male_condom = V10,
+                Female_condom = V11,
+                Emergency_contraception = V12,
+                SDM = V13,
+                LAM = V14,
+                Other = V15)
+fpusemarriedbyeducation
+write_csv(fpusemarriedbyeducation, "table8_fpusemarriedbyeducation.csv")
+
+## Family planning use - for married women - by wealthquintile
+fpusemarriedbywealthquintile <- tbls[[20]] %>%
+  slice(32:36) %>% # by wealth quintile
+  dplyr::select(V1:V15) %>%
+  dplyr::rename(Economic_status = V1,
+                Contraceptive_use_any_method = V2,
+                Contraceptive_use_modern_method = V3, # Stillbirth, miscarriage, or abortion
+                Female_sterilization = V4,
+                Male_sterilization = V5,
+                IUD = V6,
+                Injectables = V7,
+                Implants = V8,
+                Pill = V9,
+                Male_condom = V10,
+                Female_condom = V11,
+                Emergency_contraception = V12,
+                SDM = V13,
+                LAM = V14,
+                Other = V15)
+
+write_csv(fpusemarriedbywealthquintile, "table8_fpusemarriedbywealthquintile.csv")
+
+
+```
+  
+### Contraceptive use by traditional methods
+
+```{r}
+## By the number of children - married women
+fpusetradmarriedbynumberofchildren <- tbls[[20]] %>%
+  slice(7:10) %>% # by number of children
+  dplyr::select(V1,V16:V20) %>%
+  dplyr::rename(Number_of_children = V1,
+                Any_traditional_method = V16,
+                Rhythm = V17, 
+                Withdrawal = V18,
+                Other = V19,
+                Not_currently_using = V20)
+fpusetradmarriedbynumberofchildren
+write_csv(fpusetradmarriedbynumberofchildren, "table8_fpusetradmarriedbynumberofchildren.csv")
+
+## Married women - By age
+fpusetradmarriedbyage <- tbls[[20]] %>%
+  slice(13:19) %>% # by age of woman
+  dplyr::select(V1,V16:V20) %>%
+  dplyr::rename(Age = V1,
+                Any_traditional_method = V16,
+                Rhythm = V17, 
+                Withdrawal = V18,
+                Other = V19,
+                Not_currently_using = V20)%>%
+  dplyr::mutate(maritalstatus = "married")
+fpusetradmarriedbyage
+
+## Unmarried sexually active women by Age
+fpusetradunmarriedbyage <- tbls[[20]] %>%
+  slice(41:47) %>% # by age of woman
+  dplyr::select(V1,V16:V20) %>%
+  dplyr::rename(Age = V1,
+                Any_traditional_method = V16,
+                Rhythm = V17, 
+                Withdrawal = V18,
+                Other = V19,
+                Not_currently_using = V20) %>%
+  dplyr::mutate(maritalstatus = "unmarried")
+
+fpusetradmarriedandunmarriedbyage <- bind_rows(fpusetradmarriedbyage, fpusetradunmarriedbyage)
+fpusetradmarriedandunmarriedbyage
+write_csv(fpusetradmarriedandunmarriedbyage, "table8_fpusetradmarriedandunmarriedbyage.csv")
+
+## By residence for married and unmarried
+fpusetradmarriedbyresidence <- tbls[[20]] %>%
+  slice(22:23) %>% # by residence - rural vs urban
+  dplyr::select(V1,V16:V20) %>%
+  dplyr::rename(Residence = V1,
+                Any_traditional_method = V16,
+                Rhythm = V17, 
+                Withdrawal = V18,
+                Other = V19,
+                Not_currently_using = V20) %>%
+  dplyr::mutate(maritalstatus = "married")
+
+fpusetradunmarriedbyresidence <- tbls[[20]] %>%
+  slice(50:51) %>% # by residence - rural vs urban
+   dplyr::select(V1,V16:V20) %>%
+  dplyr::rename(Residence = V1,
+                Any_traditional_method = V16,
+                Rhythm = V17, 
+                Withdrawal = V18,
+                Other = V19,
+                Not_currently_using = V20) %>%
+  dplyr::mutate(maritalstatus = "unmarried")
+
+fpusetradmarriedandunmarriedbyresidence <- bind_rows(fpusetradmarriedbyresidence, fpusetradunmarriedbyresidence)
+fpusetradmarriedandunmarriedbyresidence
+write_csv(fpusetradmarriedandunmarriedbyresidence, "table8_fpusetradmarriedandunmarriedbyresidence.csv")
+
+## Family planning use - for married women - by education
+fpusetradmarriedbyeducation <- tbls[[20]] %>%
+  slice(26:29) %>% # by education level
+   dplyr::select(V1,V16:V20) %>%
+  dplyr::rename(Education = V1,
+                Any_traditional_method = V16,
+                Rhythm = V17, 
+                Withdrawal = V18,
+                Other = V19,
+                Not_currently_using = V20)
+fpusetradmarriedbyeducation
+write_csv(fpusetradmarriedbyeducation, "table8_fpusetradmarriedbyeducation.csv")
+
+## Family planning use - for married women - by wealthquintile
+fpusetradmarriedbywealthquintile <- tbls[[20]] %>%
+  slice(32:36) %>% # by wealth quintile
+  dplyr::select(V1,V16:V20) %>%
+  dplyr::rename(Economic_status = V1,
+                Any_traditional_method = V16,
+                Rhythm = V17, 
+                Withdrawal = V18,
+                Other = V19,
+                Not_currently_using = V20)
+fpusetradmarriedbywealthquintile
+write_csv(fpusetradmarriedbywealthquintile, "table8_fpusetradmarriedbywealthquintile.csv")
+
+```
+
+### Current use of contraceptives (modern methods and traditional methods) by county - Table 8C of the 2022
+
+```{r}
+## By Modern Methods
+fpusemarriedbycounty <- tbls[[21]] %>%
+  slice(5:51) %>% # by the county
+  dplyr::select(V1:V15) %>%
+  dplyr::rename(County = V1,
+                Contraceptive_use_any_method = V2,
+                Contraceptive_use_modern_method = V3, # Stillbirth, miscarriage, or abortion
+                Female_sterilization = V4,
+                Male_sterilization = V5,
+                IUD = V6,
+                Injectables = V7,
+                Implants = V8,
+                Pill = V9,
+                Male_condom = V10,
+                Female_condom = V11,
+                Emergency_contraception = V12,
+                SDM = V13,
+                LAM = V14,
+                Other = V15)
+fpusemarriedbycounty
+write_csv(fpusemarriedbycounty, "table8c_fpusemarriedbycounty.csv")
+
+## By traditional methods
+fpusetradmarriedbycounty <- tbls[[21]] %>%
+  slice(5:51) %>% # by number of children
+  dplyr::select(V1,V16:V20) %>%
+  dplyr::rename(County = V1,
+                Any_traditional_method = V16,
+                Rhythm = V17, 
+                Withdrawal = V18,
+                Other = V19,
+                Not_currently_using = V20)
+fpusetradmarriedbycounty
+write_csv(fpusetradmarriedbycounty, "table8_fpusetradmarriedbycounty.csv")
+
+```
+
+### Trends in the use of modern and traditional contraceptives - Figure 2
+
+- Trends in use of, need for, and demand for family planning 
+- For married women aged 15-49 years
+
+```{r}
+# Figure 2 data - Trends in use of, need for, and demand for family planning 
+
+trendsinfpuse <- tribble(~Years, ~Total_demand, ~Unmet_need, ~Trad_methods_met_need, ~Modern_methods_met_need,
+                                    1993, 68, 35, 6, 27,
+                                    1998, 67, 28, 8, 32,
+                                    2003, 67, 27, 8, 32,
+                                    2008-09, 71, 26, 6, 39,
+                                    2014, 76, 18, 5, 53,
+                                    2022, 76, 14, 6, 57) %>%
+  pivot_longer(!Years, names_to= "Family_planning", values_to = "Percentage_of_married_women")
+
+trendsinfpuse
+
+```
+
+### Need and demand for family planning among currently married and sexually active unmarried women
+- Age of women 15-49 years (Figure 2 and Table 9C)
+
+- Unmet need for family planning:
+  - Proportion of women who are not pregnant, not on post-partum amenorrheic, considered fecund and want to postpone their next birth for 2 or more years, or stop child-bearing all together but not using a contraceptive method
+  - Those with mistimed or unwanted pregnancy
+  - Those who are postpartum amenorrheic and the last birth in the last 2 years was mistimed or unwanted
+
+- Met need for family planning: current contraceptive use (any method)
+
+- Demand for family planning: unmet need for family planning + met need (current use of contraceptive of any method)
+
+- Proportion of demand satisfied = current contraceptive use/(unmet need + current contraceptive use any method)
+
+- Proportion of demand satisfied by modern methods = Current contraceptive use (any modern method)/
+Unmet need + current contraceptive use (any method)
+
+
+```{r}
+## Need and demand for family planning by married women
+needdemandforfpusemarriedbyage <- tbls[[27]] %>%
+  slice(7:13) %>% # by age
+  dplyr::select(V1:V8) %>%
+  dplyr::rename(Age = V1,
+                Unmet_need= V2,
+                All_methods = V3, 
+                Modern_methods = V4,
+                Total_demand = V5,
+                Number_women = V6,
+                Demand_satisfied_all_methods = V7,
+                Demand_satisfied_modern_methods = V8) %>%
+    dplyr::mutate(maritalstatus = "married")
+needdemandforfpusemarriedbyage
+
+## Need and demand for family planning by married and unmarried sexually active women
+needdemandforfpuseunmarriedbyage <- tbls[[28]] %>%
+  slice(6:12) %>% # by age
+  dplyr::select(V1:V8) %>%
+  dplyr::rename(Age = V1,
+                Unmet_need= V2,
+                All_methods = V3, 
+                Modern_methods = V4,
+                Total_demand = V5,
+                Number_women = V6,
+                Demand_satisfied_all_methods = V7,
+                Demand_satisfied_modern_methods = V8) %>%
+    dplyr::mutate(maritalstatus = "unmarried")
+needdemandforfpuseunmarriedbyage
+
+needdemandforfpusemarriedandunmarriedbyage <- bind_rows(needdemandforfpusemarriedbyage, needdemandforfpuseunmarriedbyage)
+
+needdemandforfpusemarriedandunmarriedbyage
+write_csv(needdemandforfpusemarriedandunmarriedbyage, "table9_needdemandforfpusemarriedandunmarriedbyage.csv")
+
+## Need and demand for family planning by residence - for married women
+needdemandforfpusemarriedbyresidence <- tbls[[27]] %>%
+  slice(16:17) %>% # by age
+  dplyr::select(V1:V8) %>%
+  dplyr::rename(Residence = V1,
+                Unmet_need= V2,
+                All_methods = V3, 
+                Modern_methods = V4,
+                Total_demand = V5,
+                Number_women = V6,
+                Demand_satisfied_all_methods = V7,
+                Demand_satisfied_modern_methods = V8) %>%
+    dplyr::mutate(maritalstatus = "married")
+needdemandforfpusemarriedbyresidence
+
+## Need and demand for family planning by residence - for unmarried women
+needdemandforfpuseunmarriedbyresidence <- tbls[[28]] %>%
+  slice(15:16) %>% # by age
+  dplyr::select(V1:V8) %>%
+  dplyr::rename(Residence = V1,
+                Unmet_need= V2,
+                All_methods = V3, 
+                Modern_methods = V4,
+                Total_demand = V5,
+                Number_women = V6,
+                Demand_satisfied_all_methods = V7,
+                Demand_satisfied_modern_methods = V8) %>%
+    dplyr::mutate(maritalstatus = "unmarried")
+needdemandforfpuseunmarriedbyresidence
+
+needdemandforfpusemarriedandunmarriedbyresidence <- bind_rows(needdemandforfpusemarriedbyresidence, needdemandforfpuseunmarriedbyresidence)
+
+needdemandforfpusemarriedandunmarriedbyresidence
+write_csv(needdemandforfpusemarriedandunmarriedbyresidence, "table9_needdemandforfpusemarriedandunmarriedbyresidence.csv")
+
+## Need and demand for family planning by married women by Education
+needdemandforfpusemarriedbyeducation <- tbls[[27]] %>%
+  slice(20:23) %>% # by education status
+  dplyr::select(V1:V8) %>%
+  dplyr::rename(Education = V1,
+                Unmet_need= V2,
+                All_methods = V3, 
+                Modern_methods = V4,
+                Total_demand = V5,
+                Number_women = V6,
+                Demand_satisfied_all_methods = V7,
+                Demand_satisfied_modern_methods = V8)
+needdemandforfpusemarriedbyeducation
+
+write_csv(needdemandforfpusemarriedbyeducation, "table9_needdemandforfpusemarriedbyeducation.csv")
+
+## Need and demand for family planning by married women by Wealth quintile
+needdemandforfpusemarriedbywealth <- tbls[[27]] %>%
+  slice(20:23) %>% # by wealth quintile
+  dplyr::select(V1:V8) %>%
+  dplyr::rename(Wealth_quintile = V1,
+                Unmet_need= V2,
+                All_methods = V3, 
+                Modern_methods = V4,
+                Total_demand = V5,
+                Number_women = V6,
+                Demand_satisfied_all_methods = V7,
+                Demand_satisfied_modern_methods = V8)
+needdemandforfpusemarriedbywealth
+write_csv(needdemandforfpusemarriedbywealth, "table9_needdemandforfpusemarriedbywealth.csv")
+
+```
+### Need and demand for Family planning by County
+
+```{r}
+needdemandforfpusemarriedbycounty1 <- tbls[[29]] %>%
+  slice(5:41) %>% # by county
+  dplyr::select(V1:V3,V5,V7) %>%
+  dplyr::rename(County = V1,
+                "Unmet need"= V2,
+                "Met need (all methods)" = V3, 
+                #Modern_methods = V4,
+                "Total demand" = V5,
+                #Number_women = V6,
+                "Demand satisfied (all methods)" = V7) #,
+                #Demand_satisfied_modern_methods = V8)
+
+needdemandforfpusemarriedbycounty2 <- tbls[[30]] %>%
+  slice(4:13) %>% # by county
+  dplyr::select(V1:V3,V5,V7) %>%
+  dplyr::rename(County = V1,
+                "Unmet need"= V2,
+                "Met need (all methods)" = V3, 
+                #Modern_methods = V4,
+                "Total demand" = V5,
+                #Number_women = V6,
+                "Demand satisfied (all methods)" = V7) #,
+                #Demand_satisfied_modern_methods = V8)
+#needdemandforfpusemarriedbycounty2
+
+needdemandforfpusemarriedbycounty <- bind_rows(needdemandforfpusemarriedbycounty1,needdemandforfpusemarriedbycounty2) %>%
+  pivot_longer(cols = "Unmet need":"Demand satisfied (all methods)",
+               names_to = "Family_planning",
+               values_to = "Percent")
+
+needdemandforfpusemarriedbycounty
+write_csv(needdemandforfpusemarriedbycounty, "table9c_needdemandforfpusemarriedbycounty.csv")
+
+## Visualization for the need and demand for family planning
+
+needdemandforfpusemarriedbycountyvisual <- read_csv("table9c_needdemandforfpusemarriedbycounty.csv")
+  
+ needdemandforfpusemarriedbycountyvisuals <- needdemandforfpusemarriedbycountyvisual %>%
+  #arrange(desc(Percent)) %>%
+  ggplot(aes(x=reorder(County, Percent), y=Percent)) +
+geom_bar(stat = "identity", position = position_dodge(), fill="cyan4") +
+  theme_bw() + coord_flip() +
+  geom_text(aes(label=Percent), hjust=1.3, size=5, color="white")+
+  coord_flip() + 
+  ylab("Weighted percent") + xlab("County") +
+  facet_grid(~Family_planning) +
+  theme(strip.text.x = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(strip.text.y = element_text(size = 12, colour = "black", face = "bold")) +
+  theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = rel(1.5))) +
+  theme(strip.background =element_rect(fill="darkorange")) 
+
+needdemandforfpusemarriedbycountyvisuals
+
+## maternal care
+maternalcare <- tbls[[34]] %>%
+  slice(5:51) %>% # by county
+  dplyr::select(V1:V5,V7,V8,V10) %>%
+  dplyr::rename(County = V1,
+                "ANC from a skilled provider"= V2,
+                "At least four ANC visits" = V3, 
+                "Took iron supplements" = V4,
+                "Neonatal tetanus" = V5,
+                 "Skilled delivery" = V7,
+                "Health facility delivery" = V8,
+                "Postnatal check" = V10)
+  
+maternalcarebycounty <- maternalcare %>%
+  pivot_longer(cols = "ANC from a skilled provider":"Postnatal check",
+               names_to = "Maternal care",
+               values_to = "Percent")
+
+maternalcarebycounty
+write_csv(maternalcarebycounty, "table10c_maternalcarebycounty.csv") 
+
+## gender based violence
+genderbasedviolence <- tbls[[105]] %>%
+  slice(6:40) %>% # by county
+  dplyr::select(V1:V4) %>%
+  dplyr::rename(Characteristics = V1,
+                "Ever"= V2,
+                "Last 12 months" = V3, 
+                "Number_women" = V4)
+
+write_csv(genderbasedviolence, "table31_sexualviolence.csv") 
+
+#
+genderbasedviolencecounty <- tbls[[106]] %>%
+  slice(4:50) %>% # by county
+  dplyr::select(V1:V4) %>%
+  dplyr::rename(County = V1,
+                "Ever"= V2,
+                "Last 12 months" = V3, 
+                "Number_women" = V4)
+
+write_csv(genderbasedviolencecounty, "table31C_sexualviolencecounty.csv") 
+
+```
+
+
+

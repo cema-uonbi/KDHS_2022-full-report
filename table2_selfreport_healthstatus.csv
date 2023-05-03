@@ -1,0 +1,11 @@
+Health_status,Weighted_percent,Weighted_number,Unweighted_number,Participants
+Very good,23.8,"7,638","7,867",Women
+Good,55.4,"17,823","17,988",Women
+Moderate,18.4,"5,933","5,541",Women
+Bad,2.2,696,710,Women
+Very bad,0.2,67,50,Women
+Very good,35.8,"4,883","5,098",Men
+Good,48.9,"6,677","6,607",Men
+Moderate,14.1,"1,926","1,799",Men
+Bad,1.0,141,145,Men
+Very bad,0.2,26,20,Men

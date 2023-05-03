@@ -1,0 +1,11 @@
+Religion,Weighted_percent,Weighted_number,Unweighted_number,Participants
+Catholic,18.6,"5,978","5,665",Women
+Protestant/other Christian,72.9,"23,442","21,154",Women
+Muslim,7.1,"2,275","4,852",Women
+No religion,1.1,344,357,Women
+Other,0.4,117,128,Women
+Catholic,21.6,"2,946","2,709",Men
+Protestant/other Christian,66.0,"9,006","8,137",Men
+Muslim,7.2,987,"2,148",Men
+No religion,4.4,607,557,Men
+Other,0.8,107,118,Men

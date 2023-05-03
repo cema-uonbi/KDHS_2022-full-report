@@ -1,0 +1,13 @@
+Education_status,Contraceptive_use,Percent
+No education,Rhythm,3.2
+No education,Withdrawal,1.2
+No education,Other,0.1
+Primary,Rhythm,3.1
+Primary,Withdrawal,0.8
+Primary,Other,0.3
+Secondary,Rhythm,3.8
+Secondary,Withdrawal,1.0
+Secondary,Other,0.4
+More than secondary,Rhythm,6.9
+More than secondary,Withdrawal,2.5
+More than secondary,Other,0.6

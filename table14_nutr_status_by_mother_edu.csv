@@ -1,0 +1,13 @@
+Mother's education,perc_below3sd,perc_below2sd,zscore,no,indicator
+No education,6.9,22.2,−1.0,"1,695",HFA
+Primary,5.2,22.1,−1.1,"5,898",HFA
+Secondary,3.1,14.8,−0.8,"5,037",HFA
+More than secondary,1.6,8.6,−0.4,"2,716",HFA
+No education,2.0,15.4,−0.9,"1,710",WFH
+Primary,0.6,4.3,−0.2,"5,909",WFH
+Secondary,0.3,3.1,−0.0,"5,037",WFH
+More than secondary,0.4,3.2,0.0,"2,712",WFH
+No education,5.3,22.1,−1.2,"1,703",WFA
+Primary,2.0,11.9,−0.7,"5,912",WFA
+Secondary,0.9,6.8,−0.4,"5,048",WFA
+More than secondary,0.8,5.0,−0.2,"2,716",WFA

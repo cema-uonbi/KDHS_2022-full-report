@@ -1,0 +1,11 @@
+Marital_status,Weighted_percent,Weighted_number,Unweighted_number,Participants
+Never married,32.5,"10,438","10,048",Women
+Married,48.1,"15,483","16,454",Women
+Living together,7.3,"2,339","1,858",Women
+Divorced/separated,9.3,"2,989","2,776",Women
+Widowed,2.8,908,"1,020",Women
+Never married,48.2,"6,576","6,486",Men
+Married,43.3,"5,907","5,994",Men
+Living together,2.6,351,393,Men
+Divorced/separated,5.6,771,748,Men
+Widowed,0.4,49,48,Men

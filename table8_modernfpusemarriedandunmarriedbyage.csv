@@ -1,0 +1,169 @@
+Age,Marital_status,Contraceptive_use,Percent
+15–19,Married,Female sterilization,0.0
+15–19,Married,Male sterilization,0.0
+15–19,Married,IUD,1.3
+15–19,Married,Injectables,12.8
+15–19,Married,Implants,17.1
+15–19,Married,Pill,1.3
+15–19,Married,Male condom,3.7
+15–19,Married,Female condom,0.0
+15–19,Married,Emergency contraception,0.0
+15–19,Married,SDM,0.0
+15–19,Married,LAM,0.7
+15–19,Married,Other,0.0
+20–24,Married,Female sterilization,0.1
+20–24,Married,Male sterilization,0.0
+20–24,Married,IUD,1.3
+20–24,Married,Injectables,20.1
+20–24,Married,Implants,20.6
+20–24,Married,Pill,6.9
+20–24,Married,Male condom,2.0
+20–24,Married,Female condom,0.0
+20–24,Married,Emergency contraception,0.9
+20–24,Married,SDM,0.6
+20–24,Married,LAM,0.9
+20–24,Married,Other,0.0
+25–29,Married,Female sterilization,0.2
+25–29,Married,Male sterilization,0.0
+25–29,Married,IUD,3.2
+25–29,Married,Injectables,23.1
+25–29,Married,Implants,22.2
+25–29,Married,Pill,8.4
+25–29,Married,Male condom,1.4
+25–29,Married,Female condom,0.0
+25–29,Married,Emergency contraception,0.4
+25–29,Married,SDM,0.2
+25–29,Married,LAM,1.6
+25–29,Married,Other,0.0
+30–34,Married,Female sterilization,1.3
+30–34,Married,Male sterilization,0.0
+30–34,Married,IUD,5.3
+30–34,Married,Injectables,20.4
+30–34,Married,Implants,21.2
+30–34,Married,Pill,9.3
+30–34,Married,Male condom,1.7
+30–34,Married,Female condom,0.0
+30–34,Married,Emergency contraception,0.4
+30–34,Married,SDM,0.3
+30–34,Married,LAM,0.8
+30–34,Married,Other,0.1
+35–39,Married,Female sterilization,2.4
+35–39,Married,Male sterilization,0.0
+35–39,Married,IUD,6.4
+35–39,Married,Injectables,21.2
+35–39,Married,Implants,17.5
+35–39,Married,Pill,9.5
+35–39,Married,Male condom,1.4
+35–39,Married,Female condom,0.0
+35–39,Married,Emergency contraception,0.1
+35–39,Married,SDM,0.5
+35–39,Married,LAM,0.8
+35–39,Married,Other,0.2
+40–44,Married,Female sterilization,6.0
+40–44,Married,Male sterilization,0.1
+40–44,Married,IUD,5.8
+40–44,Married,Injectables,18.4
+40–44,Married,Implants,14.6
+40–44,Married,Pill,7.8
+40–44,Married,Male condom,2.3
+40–44,Married,Female condom,0.1
+40–44,Married,Emergency contraception,0.4
+40–44,Married,SDM,1.0
+40–44,Married,LAM,0.5
+40–44,Married,Other,0.1
+45–49,Married,Female sterilization,8.5
+45–49,Married,Male sterilization,0.1
+45–49,Married,IUD,5.9
+45–49,Married,Injectables,12.3
+45–49,Married,Implants,8.9
+45–49,Married,Pill,7.0
+45–49,Married,Male condom,2.0
+45–49,Married,Female condom,0.0
+45–49,Married,Emergency contraception,0.1
+45–49,Married,SDM,0.8
+45–49,Married,LAM,0.1
+45–49,Married,Other,0.0
+15–19,Unmarried,Female sterilization,0.0
+15–19,Unmarried,Male sterilization,0.0
+15–19,Unmarried,IUD,0.0
+15–19,Unmarried,Injectables,6.0
+15–19,Unmarried,Implants,3.0
+15–19,Unmarried,Pill,3.2
+15–19,Unmarried,Male condom,27.3
+15–19,Unmarried,Female condom,1.1
+15–19,Unmarried,Emergency contraception,3.2
+15–19,Unmarried,SDM,0.0
+15–19,Unmarried,LAM,0.0
+15–19,Unmarried,Other,0.0
+20–24,Unmarried,Female sterilization,0.0
+20–24,Unmarried,Male sterilization,0.0
+20–24,Unmarried,IUD,0.0
+20–24,Unmarried,Injectables,14.1
+20–24,Unmarried,Implants,8.5
+20–24,Unmarried,Pill,3.4
+20–24,Unmarried,Male condom,30.6
+20–24,Unmarried,Female condom,0.0
+20–24,Unmarried,Emergency contraception,4.1
+20–24,Unmarried,SDM,0.1
+20–24,Unmarried,LAM,0.0
+20–24,Unmarried,Other,0.0
+25–29,Unmarried,Female sterilization,0.0
+25–29,Unmarried,Male sterilization,0.0
+25–29,Unmarried,IUD,4.2
+25–29,Unmarried,Injectables,18.6
+25–29,Unmarried,Implants,18.2
+25–29,Unmarried,Pill,3.2
+25–29,Unmarried,Male condom,13.3
+25–29,Unmarried,Female condom,0.0
+25–29,Unmarried,Emergency contraception,2.7
+25–29,Unmarried,SDM,2.4
+25–29,Unmarried,LAM,0.0
+25–29,Unmarried,Other,0.2
+30–34,Unmarried,Female sterilization,0.0
+30–34,Unmarried,Male sterilization,0.0
+30–34,Unmarried,IUD,5.8
+30–34,Unmarried,Injectables,21.5
+30–34,Unmarried,Implants,16.1
+30–34,Unmarried,Pill,13.6
+30–34,Unmarried,Male condom,7.8
+30–34,Unmarried,Female condom,0.0
+30–34,Unmarried,Emergency contraception,1.2
+30–34,Unmarried,SDM,0.0
+30–34,Unmarried,LAM,0.0
+30–34,Unmarried,Other,0.0
+35–39,Unmarried,Female sterilization,3.2
+35–39,Unmarried,Male sterilization,0.0
+35–39,Unmarried,IUD,6.0
+35–39,Unmarried,Injectables,23.6
+35–39,Unmarried,Implants,13.3
+35–39,Unmarried,Pill,10.4
+35–39,Unmarried,Male condom,8.2
+35–39,Unmarried,Female condom,0.0
+35–39,Unmarried,Emergency contraception,1.0
+35–39,Unmarried,SDM,0.0
+35–39,Unmarried,LAM,0.0
+35–39,Unmarried,Other,0.0
+40–44,Unmarried,Female sterilization,2.0
+40–44,Unmarried,Male sterilization,0.0
+40–44,Unmarried,IUD,6.8
+40–44,Unmarried,Injectables,21.9
+40–44,Unmarried,Implants,12.0
+40–44,Unmarried,Pill,5.4
+40–44,Unmarried,Male condom,14.9
+40–44,Unmarried,Female condom,0.0
+40–44,Unmarried,Emergency contraception,1.2
+40–44,Unmarried,SDM,0.0
+40–44,Unmarried,LAM,0.0
+40–44,Unmarried,Other,0.0
+45–49,Unmarried,Female sterilization,(0.4)
+45–49,Unmarried,Male sterilization,(0.0)
+45–49,Unmarried,IUD,(3.1)
+45–49,Unmarried,Injectables,(7.5)
+45–49,Unmarried,Implants,(10.0)
+45–49,Unmarried,Pill,(0.0)
+45–49,Unmarried,Male condom,(19.0)
+45–49,Unmarried,Female condom,(0.0)
+45–49,Unmarried,Emergency contraception,(0.0)
+45–49,Unmarried,SDM,(0.0)
+45–49,Unmarried,LAM,(0.0)
+45–49,Unmarried,Other,(0.0)

@@ -1,0 +1,13 @@
+Residence,Contraceptive_use,Percent,Marital_status
+Urban,Any method,63.1,Married
+Urban,Modern method,56.2,Married
+Urban,Traditional method,6.9,Married
+Rural,Any method,62.2,Married
+Rural,Modern method,57.4,Married
+Rural,Traditional method,4.8,Married
+Urban,Any method,73.1,Unmarried
+Urban,Modern method,58.3,Unmarried
+Urban,Traditional method,14.9,Unmarried
+Rural,Any method,67.0,Unmarried
+Rural,Modern method,60.2,Unmarried
+Rural,Traditional method,6.9,Unmarried

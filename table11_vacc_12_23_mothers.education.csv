@@ -1,0 +1,73 @@
+mothers.education,Vaccines,Percent
+No education,BCG,88.5
+No education,DTP1,88.3
+No education,DTP2,80.7
+No education,DTP3,73.0
+No education,OPV,54.4
+No education,OPV1,87.4
+No education,OPV2,81.8
+No education,OPV3,57.8
+No education,IPV,75.3
+No education,Pneumococcal1,88.5
+No education,Pneumococcal2,84.7
+No education,Pneumococcal3,77.9
+No education,Rotavirus1,87.1
+No education,Rotavirus2,78.9
+No education,MR 1,64.0
+No education,Fully.vaccinated ,53.6
+No education,Fully.vaccinated.national schedule ,22.7
+No education,No.vaccinations,9.6
+Primary,BCG,98.3
+Primary,DTP1,98.2
+Primary,DTP2,95.1
+Primary,DTP3,90.6
+Primary,OPV,87.5
+Primary,OPV1,98.2
+Primary,OPV2,96.0
+Primary,OPV3,80.6
+Primary,IPV,88.9
+Primary,Pneumococcal1,97.2
+Primary,Pneumococcal2,96.5
+Primary,Pneumococcal3,92.2
+Primary,Rotavirus1,97.1
+Primary,Rotavirus2,94.0
+Primary,MR 1,89.4
+Primary,Fully.vaccinated ,80.8
+Primary,Fully.vaccinated.national schedule ,55.9
+Primary,No.vaccinations,0.8
+Secondary,BCG,97.0
+Secondary,DTP1,97.8
+Secondary,DTP2,95.2
+Secondary,DTP3,90.6
+Secondary,OPV,89.9
+Secondary,OPV1,96.4
+Secondary,OPV2,94.7
+Secondary,OPV3,79.6
+Secondary,IPV,88.8
+Secondary,Pneumococcal1,97.5
+Secondary,Pneumococcal2,96.5
+Secondary,Pneumococcal3,91.6
+Secondary,Rotavirus1,96.8
+Secondary,Rotavirus2,93.2
+Secondary,MR 1,94.1
+Secondary,Fully.vaccinated ,83.8
+Secondary,Fully.vaccinated.national schedule ,60.6
+Secondary,No.vaccinations,1.8
+More than secondary,BCG,98.6
+More than secondary,DTP1,98.5
+More than secondary,DTP2,96.4
+More than secondary,DTP3,92.6
+More than secondary,OPV,93.6
+More than secondary,OPV1,98.1
+More than secondary,OPV2,96.4
+More than secondary,OPV3,81.0
+More than secondary,IPV,88.4
+More than secondary,Pneumococcal1,97.6
+More than secondary,Pneumococcal2,97.4
+More than secondary,Pneumococcal3,95.8
+More than secondary,Rotavirus1,97.0
+More than secondary,Rotavirus2,94.7
+More than secondary,MR 1,93.0
+More than secondary,Fully.vaccinated ,86.8
+More than secondary,Fully.vaccinated.national schedule ,61.7
+More than secondary,No.vaccinations,1.4
