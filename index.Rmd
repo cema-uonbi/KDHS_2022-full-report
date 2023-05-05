@@ -3345,6 +3345,7 @@ renderPlot({if(input$micronutrients%in%c("Age","Mother's age", "Mother's educati
   theme(text=element_text(size=16, face = "bold"))
   }
 },width=1600, height=700)
+
 ```
 
 ### **Women minimum dietary diversity**
