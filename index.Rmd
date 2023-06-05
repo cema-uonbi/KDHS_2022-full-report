@@ -3456,7 +3456,7 @@ valueBox(
 selectInput("itn", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 ```{r, include=F}
@@ -3467,36 +3467,55 @@ itn_possess <- fread("data/table_12/table12_1_ITN_possession_by_background_xtics
 itn_possess$Value<- fct_relevel(itn_possess$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
 
+```
+
+
+```{r}
+renderPlot({if(input$itn!="County"){ggplot(itn_possess[itn_possess$`Background characteristics`%in%input$itn,],aes(x=Value, y=Proportion, fill=Category))+
+  geom_bar(position="dodge", stat="identity")+
+  theme_bw()+
+  labs( y="Percent (%)", title="", x="", fill="Household ITN ownership")+
+  scale_fill_manual(values = c("#f46d43","#74add1"))+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
+  theme(text=element_text(size=16, face="bold"))}
+  else{}}, width=1600, height=700 )
+```
+
+### **Household possession of mosquito nets (By county)**
+
+```{r, include=F}
+
+# import data
+
 itn_possess_county <- fread("data/table_12/table12_1C_ITN_possession_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
-itn_possess_county1 <- full_join(county, itn_possess_county, by=c("Name"="County"))
+itn_possess_county1 <- full_join(county, itn_possess_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))
+itn_possess_county1$proportion_category <- as.factor(fct_relevel(itn_possess_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
 
 ```
 
 
 
 ```{r}
+renderGirafe({
 
-renderPlot({if(input$itn!="County"){ggplot(itn_possess[itn_possess$`Background characteristics`%in%input$itn,],aes(x=Value, y=Proportion, fill=Category))+
-  geom_bar(position="dodge", stat="identity")+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="Household ITN ownership")+
-  scale_fill_manual(values = c("#f46d43","#74add1"))+
-  theme(text=element_text(size=16, face="bold"))}
-  else{
-  ggplot(itn_possess_county1)+
-  geom_sf(data=itn_possess_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
+  map1<- ggplot(itn_possess_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
   theme_void()+
   facet_wrap(~Category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }}, width=1600, height=700 )
-
-
-
+  scale_fill_brewer(palette = "YlGn")+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percent")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
 ```
 
 ### **Source of mosquito nets**
@@ -3509,17 +3528,15 @@ selectInput("itn_source", "",
                 "Wealth quintile"="Wealth quintile", "By County"="County"))
 ```
 
+
 ```{r, include=F}
 # import data
 
-itn_source <- fread("data/table_12/table12_2_ITN_source_by_background_xtics.csv")
+itn_source <- fread("data/table_12/table12_2_ITN_source_by_background_xtics.csv")%>%
+  filter(Category%in%c("Mass distribution campaign","Shop/market","ANC visit","Immunization visit"))
 
 itn_source$Value <- fct_relevel(itn_source$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
-itn_source_county <- fread("data/table_12/table12_2C_ITN_source_by_county.csv")
-
-county <- st_read("shapefiles/County.shp")
-itn_source_county1 <- full_join(county, itn_source_county, by=c("Name"="County"))
 
 ```
 
@@ -3528,28 +3545,58 @@ itn_source_county1 <- full_join(county, itn_source_county, by=c("Name"="County")
 ```{r}
 
 renderPlot({
- if(input$itn_source%in%"County"){
-  ggplot(itn_source_county1)+
-  geom_sf(data=itn_source_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  facet_wrap(~Category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }
-  else{
-    ggplot(itn_source[itn_source$`Background characteristics`%in%input$itn_source,],aes(x=reorder(Category,Proportion), y=Proportion, fill=Value))+
+ if(input$itn_source!="County"){
+  ggplot(itn_source[itn_source$`Background characteristics`%in%input$itn_source,],aes(x=reorder(Category,Proportion), y=Proportion, fill=Value))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+coord_flip()+
       geom_text(aes(label=paste0(Proportion,"%")), position = position_dodge(0.6))+
   labs( y="Proportion (%)", title="", x="", fill="ITN use")+
   scale_fill_brewer(palette = "Set1")+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
   theme(text=element_text(size=16, face="bold"))
-  }}, width=1600, height=700 )
+  }
+  else{}}, width=1600, height=700 )
 
 
 
+```
+
+### **Source of mosquito nets (By county)**
+
+```{r, include=F}
+
+# import data
+
+itn_source_county <- fread("data/table_12/table12_2C_ITN_source_by_county.csv")%>%
+  filter(Category%in%c("Mass distribution campaign","Shop/market","ANC visit","Immunization visit"))
+
+county <- st_read("shapefiles/County.shp")
+itn_source_county1 <- full_join(county, itn_source_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))
+itn_source_county1$proportion_category <- as.factor(fct_relevel(itn_source_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+```
+
+
+
+```{r}
+renderGirafe({
+
+  map1<- ggplot(itn_source_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
+  theme_void()+
+  facet_wrap(~Category)+
+  scale_fill_brewer(palette = "YlGn")+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percent")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
 ```
 
 
