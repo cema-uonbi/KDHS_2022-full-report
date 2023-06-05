@@ -1634,9 +1634,7 @@ renderPlot({if(input$tfr1%in%c("2014", "2022")){
 selectInput("median_age", "",
             c("Residence"="Residence",
               "Education attainment"="Education",
-              "Wealth quintile"="Wealth quintile",
-              "By County (2014)" = "2014",
-              "By County (2022)" = "2022"
+              "Wealth quintile"="Wealth quintile"
             ))
 
 
@@ -3492,9 +3490,12 @@ itn_possess_county <- fread("data/table_12/table12_1C_ITN_possession_by_county.c
 county <- st_read("shapefiles/County.shp")
 itn_possess_county1 <- full_join(county, itn_possess_county, by=c("Name"="County"))%>%
   mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
 itn_possess_county1$proportion_category <- as.factor(fct_relevel(itn_possess_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
 
+itn_possess_county1$epi_zone <- as.factor(fct_relevel(itn_possess_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
 ```
 
 
@@ -3506,9 +3507,10 @@ renderGirafe({
   geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
   theme_void()+
   facet_wrap(~Category)+
-  scale_fill_brewer(palette = "YlGn")+
+  scale_fill_brewer(palette = "YlGn")+  
+  #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
-  labs(x="", y="",fill="Percent")+
+  labs(x="", y="",fill="Percentage of households\npossessing mosquito nets")+
   theme(text=element_text(size=16))
   x <- girafe(ggobj = map1,
                    options = list(
@@ -3525,7 +3527,7 @@ renderGirafe({
 selectInput("itn_source", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 
@@ -3550,7 +3552,7 @@ renderPlot({
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+coord_flip()+
       geom_text(aes(label=paste0(Proportion,"%")), position = position_dodge(0.6))+
-  labs( y="Proportion (%)", title="", x="", fill="ITN use")+
+  labs( y="PPercent (%)", title="", x="Source of ITN", fill="")+
   scale_fill_brewer(palette = "Set1")+
   geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
   theme(text=element_text(size=16, face="bold"))
@@ -3573,8 +3575,12 @@ itn_source_county <- fread("data/table_12/table12_2C_ITN_source_by_county.csv")%
 county <- st_read("shapefiles/County.shp")
 itn_source_county1 <- full_join(county, itn_source_county, by=c("Name"="County"))%>%
   mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
 itn_source_county1$proportion_category <- as.factor(fct_relevel(itn_source_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+itn_source_county1$epi_zone <- as.factor(fct_relevel(itn_source_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
 
 ```
 
@@ -3588,8 +3594,9 @@ renderGirafe({
   theme_void()+
   facet_wrap(~Category)+
   scale_fill_brewer(palette = "YlGn")+
+  #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
-  labs(x="", y="",fill="Percent")+
+  labs(x="", y="",fill="Percentage of households")+
   theme(text=element_text(size=16))
   x <- girafe(ggobj = map1,
                    options = list(
@@ -3607,7 +3614,7 @@ renderGirafe({
 selectInput("itn_access", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 ```{r, include=F}
@@ -3618,47 +3625,61 @@ itn_access <- fread("data/table_12/table12_3_ITN_access_by_background_xtics.csv"
 itn_access$Value<- fct_relevel(itn_access$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
 
-itn_access_county <- fread("data/table_12/table12_3C_ITN_access_by_county.csv") 
-
-county <- st_read("shapefiles/County.shp")
-itn_access_county1 <- full_join(county, itn_access_county, by=c("Name"="County"))
-
 ```
 
 
 
 ```{r}
 
-renderPlot({if(input$itn_access%in%c("Residence", "Endemicity zone")){ggplot(itn_access[itn_access$`Background characteristics`%in%input$itn_access,],aes(x=Value, y=Proportion))+
+renderPlot({if(input$itn_access%in%c("Residence", "Endemicity zone","Wealth quintile")){ggplot(itn_access[itn_access$`Background characteristics`%in%input$itn_access,],aes(x=Value, y=Proportion))+
   geom_bar(position="dodge", stat="identity", fill="#2c7bb6")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="Household ITN ownership")+
+  labs( y="Percent (%)", title="", x="", fill="")+
   #scale_fill_brewer(palette = "Set1")+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
   theme(text=element_text(size=16, face="bold"))}
-  else if(input$itn_access%in%"County"){
-  ggplot(itn_access_county1)+
-  geom_sf(data=itn_access_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }
   else{
-    ggplot(itn_access[itn_access$`Background characteristics`%in%input$itn_access,],aes(x=Value, y=Proportion))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4,fill="#2c7bb6")+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="ITN use")+
-#  scale_fill_brewer(palette = "Set1")+
-  theme(text=element_text(size=16, face="bold"))
   }}, width=1600, height=700 )
 
 
 
 ```
 
+### **Access to an ITN (By county)**
+
+```{r, include=F}
+itn_access_county <- fread("data/table_12/table12_3C_ITN_access_by_county.csv") 
+
+county <- st_read("shapefiles/County.shp")
+itn_access_county1 <- full_join(county, itn_access_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
+itn_access_county1$proportion_category <- as.factor(fct_relevel(itn_access_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+itn_access_county1$epi_zone <- as.factor(fct_relevel(itn_access_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
+```
 
 
+```{r}
+renderGirafe({
+
+  map1<- ggplot(itn_access_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
+  theme_void()+
+  scale_fill_brewer(palette = "YlGn")+
+  #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage of households\nwith access to an ITN")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
+```
 
 ### **Use of mosquito nets by households**
 
@@ -3668,7 +3689,7 @@ renderPlot({if(input$itn_access%in%c("Residence", "Endemicity zone")){ggplot(itn
 selectInput("itn_use", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 ```{r, include=F}
@@ -3679,45 +3700,59 @@ itn_use <- fread("data/table_12/table12_4_ITN_use_by_background_xtics.csv")
 itn_use$Value <- fct_relevel(itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
 
-itn_use_county <- fread("data/table_12/table12_4C_ITN_use_by_county.csv")
-
-county <- st_read("shapefiles/County.shp")
-
-itn_use_county1 <- full_join(county, itn_use_county, by=c("Name"="County"))
-
 ```
 
 
 
 ```{r}
 
-renderPlot({if(input$itn_use%in%c("Residence", "Endemicity zone")){ggplot(itn_use[itn_use$`Background characteristics`%in%input$itn_use,],aes(x=Value, y=Proportion, fill=Category))+
+renderPlot({if(input$itn_use%in%c("Residence", "Endemicity zone","Wealth quintile")){ggplot(itn_use[itn_use$`Background characteristics`%in%input$itn_use,],aes(x=Value, y=Proportion, fill=Category))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="", fill="Household ITN ownership")+
+  labs( y="Percent (%)", title="", x="", fill="Household ITN ownership")+
   scale_fill_brewer(palette = "Set1")+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
   theme(text=element_text(size=16, face="bold"))}
-  else if(input$itn_use%in%"County"){
-  ggplot(itn_use_county1)+
-  geom_sf(data=itn_use_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  facet_wrap(~Category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }
   else{
-    ggplot(itn_use[itn_use$`Background characteristics`%in%input$itn_use,],aes(x=Value, y=Proportion, fill=Category))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4)+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="ITN use")+
-  scale_fill_brewer(palette = "Set1")+
-  theme(text=element_text(size=16, face="bold"))
   }}, width=1600, height=700 )
 
+```
 
+### **Use of mosquito nets by households (By County)**
 
+```{r, include=FALSE}
+itn_use_county <- fread("data/table_12/table12_4C_ITN_use_by_county.csv")
+
+county <- st_read("shapefiles/County.shp")
+
+itn_use_county1 <- full_join(county, itn_use_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
+itn_use_county1$proportion_category <- as.factor(fct_relevel(itn_use_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+itn_use_county1$epi_zone <- as.factor(fct_relevel(itn_use_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
+```
+
+```{r}
+renderGirafe({
+
+  map1<- ggplot(itn_use_county1)+
+  geom_sf_interactive(aes(fill=epi_zone, tooltip=names1),color="grey80", size=0.0)+
+  theme_void()+
+  facet_wrap(~Category)+
+  #scale_fill_brewer(palette = "YlGn")+
+  scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Malaria Epidemiological Zone")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
 ```
 
 ### **Use of existing ITNs**
@@ -3728,7 +3763,7 @@ renderPlot({if(input$itn_use%in%c("Residence", "Endemicity zone")){ggplot(itn_us
 selectInput("itn_itn", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 ```{r, include=F}
@@ -3738,48 +3773,61 @@ existing_itn_use <- fread("data/table_12/table12_5_existing_ITN_use_by_backgroun
 
 existing_itn_use$Value<- fct_relevel(existing_itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
-
-existing_itn_use_county <- fread("data/table_12/table12_5C_existing_ITN_use_by_county.csv")
-
-existing_itn_use_county1 <- full_join(county, existing_itn_use_county, by=c("Name"="County"))
-
-
-
 ```
 
 
 
 ```{r}
 
-renderPlot({if(input$itn_itn%in%c("Residence", "Endemicity zone")){ggplot(existing_itn_use[existing_itn_use$`Background characteristics`%in%input$itn_itn,],aes(x=Value, y=Proportion))+
+renderPlot({if(input$itn_itn%in%c("Residence", "Endemicity zone","Wealth quintile")){ggplot(existing_itn_use[existing_itn_use$`Background characteristics`%in%input$itn_itn,],aes(x=Value, y=Proportion))+
   geom_bar(position="dodge", stat="identity", fill="#74add1")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="", fill="Household ITN ownership")+
+  labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-    geom_text(aes(label=paste0(Proportion,"%")))+
+  geom_text(aes(label=paste0(Proportion)))+
   theme(text=element_text(size=16, face="bold"))}
-  else if(input$itn_itn%in%"County"){
-  ggplot(existing_itn_use_county1)+
-  geom_sf(data=existing_itn_use_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }
   else{
-    ggplot(existing_itn_use[existing_itn_use$`Background characteristics`%in%input$itn_itn,],aes(x=Value, y=Proportion))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 2,fill="#74add1")+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="ITN use")+
-  scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))
   }}, width=1600, height=700 )
 
 
 
 ```
+
+### **Use of existing ITNs (By County)**
+
+```{r, include=F}
+existing_itn_use_county <- fread("data/table_12/table12_5C_existing_ITN_use_by_county.csv")
+
+existing_itn_use_county1 <- full_join(county, existing_itn_use_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
+existing_itn_use_county1$proportion_category <- as.factor(fct_relevel(existing_itn_use_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+existing_itn_use_county1$epi_zone <- as.factor(fct_relevel(existing_itn_use_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
+```
+
+
+```{r}
+renderGirafe({
+
+  map1<- ggplot(existing_itn_use_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
+  theme_void()+
+  scale_fill_brewer(palette = "YlGn")+
+  #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage of households")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
+```
+
 
 ### **Use of mosquito nets:children**
 
@@ -3789,7 +3837,7 @@ renderPlot({if(input$itn_itn%in%c("Residence", "Endemicity zone")){ggplot(existi
 selectInput("nets_children", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 ```{r, include=F}
@@ -3799,48 +3847,61 @@ children_itn_use <- fread("data/table_12/table12_6_children_ITN_use_by_backgroun
 children_itn_use$Value <- fct_relevel(children_itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
 
-children_itn_use_county <- fread("data/table_12/table12_6C_children_ITN_use_by_county.csv")
-
-children_itn_use_county1 <- full_join(county, children_itn_use_county, by=c("Name"="County"))
-
-
-
 ```
 
 
 
 ```{r}
 
-renderPlot({if(input$nets_children%in%c("Residence", "Endemicity zone")){ggplot(children_itn_use[children_itn_use$`Background characteristics`%in%input$nets_children,],aes(x=Value, y=Proportion,fill=Category))+
+renderPlot({if(input$nets_children%in%c("Residence", "Endemicity zone","Wealth quintile")){ggplot(children_itn_use[children_itn_use$`Background characteristics`%in%input$nets_children,],aes(x=Value, y=Proportion,fill=Category))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
+  labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-    geom_text(aes(label=paste0(Proportion,"%")), position=position_dodge(0.7))+
+  geom_text(aes(label=paste0(Proportion,"%")), position=position_dodge(0.7))+
   theme(text=element_text(size=16, face="bold"))}
-  else if(input$nets_children%in%"County"){
-  ggplot(children_itn_use_county1)+
-  geom_sf(data=children_itn_use_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  facet_wrap(.~Category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }
   else{
-    ggplot(children_itn_use[children_itn_use$`Background characteristics`%in%input$nets_children,],aes(x=Value, y=Proportion,fill=Category))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4)+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
-  scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))
   }}, width=1600, height=700 )
 
-
-
 ```
+
+### **Use of mosquito nets:children (By County)**
+
+```{r, include=FALSE}
+
+children_itn_use_county <- fread("data/table_12/table12_6C_children_ITN_use_by_county.csv")
+
+children_itn_use_county1 <- full_join(county, children_itn_use_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
+children_itn_use_county1$proportion_category <- as.factor(fct_relevel(children_itn_use_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+children_itn_use_county1$epi_zone <- as.factor(fct_relevel(children_itn_use_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
+```
+
+
+```{r}
+renderGirafe({
+
+  map1<- ggplot(children_itn_use_county1)+
+  geom_sf_interactive(aes(fill=epi_zone, tooltip=names1),color="grey80", size=0.0)+
+  theme_void()+
+    facet_wrap(~Category)+
+  #scale_fill_brewer(palette = "YlGn")+
+  scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Malaria Epidemiological Zone")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
+```
+
 
 ### **Use of mosquito nets:pregnant women**
 
@@ -3866,21 +3927,14 @@ women_itn_use$Value<- fct_relevel(women_itn_use$Value,
 
 ```{r}
 
-renderPlot({if(input$nets_pregnant%in%c("Residence", "Endemicity zone")){ggplot(women_itn_use[women_itn_use$`Background characteristics`%in%input$nets_pregnant,],aes(x=Value, y=Proportion, fill=Category))+
+renderPlot({if(input$nets_pregnant%in%c("Residence", "Endemicity zone","Wealth quintile")){ggplot(women_itn_use[women_itn_use$`Background characteristics`%in%input$nets_pregnant,],aes(x=Value, y=Proportion, fill=Category))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="Household ITN ownership")+
+  labs( y="Percent (%)", title="", x="", fill="Household category")+
   scale_fill_brewer(palette = "Set1")+
-    geom_text(aes(label=paste0(Proportion,"%")),position=position_dodge(0.5),hjust=0.3)+
+  geom_text(aes(label=paste0(Proportion)),position=position_dodge(0.5),hjust=0.3)+
   theme(text=element_text(size=16, face="bold"))}
   else{
-    ggplot(women_itn_use[women_itn_use$`Background characteristics`%in%input$nets_pregnant,],aes(x=Value, y=Proportion, fill=Category))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4)+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
-  scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))
   }}, width=1600, height=700 )
 
 
@@ -3898,21 +3952,16 @@ renderPlot({if(input$nets_pregnant%in%c("Residence", "Endemicity zone")){ggplot(
 selectInput("nets_notuse", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 ```{r, include=F}
 # import data
-reason_itn_not_used <- fread("data/table_12/table12_8_reason_itn_not_used_by_background_xtics.csv")
+reason_itn_not_used <- fread("data/table_12/table12_8_reason_itn_not_used_by_background_xtics.csv")%>%
+  filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))
 
 reason_itn_not_used$Value<- fct_relevel(reason_itn_not_used$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
-
-reason_itn_not_used_county <- fread("data/table_12/table12_8C_reason_itn_not_used_by_county.csv")
-
-reason_itn_not_used_county1 <- full_join(county, reason_itn_not_used_county, by=c("Name"="County"))
-
-
 
 ```
 
@@ -3920,36 +3969,61 @@ reason_itn_not_used_county1 <- full_join(county, reason_itn_not_used_county, by=
 
 ```{r}
 
-renderPlot({if(input$nets_notuse%in%c("Residence", "Endemicity zone")){ggplot(reason_itn_not_used[reason_itn_not_used$`Background characteristics`%in%input$nets_notuse,],aes(x=reorder(Reason,Proportion), y=Proportion,fill=Value))+
+renderPlot({if(input$nets_notuse%in%c("Residence", "Endemicity zone","Wealth quintile")){ggplot(reason_itn_not_used[reason_itn_not_used$`Background characteristics`%in%input$nets_notuse,],aes(x=reorder(Reason,Proportion), y=Proportion,fill=Value))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
+  labs( y="Percent (%)", title="", x="Reason", fill="")+
   scale_fill_brewer(palette = "Set1")+
-    geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))}
-  else if(input$nets_notuse%in%"County"){
-  ggplot(reason_itn_not_used_county1)+
-  geom_sf(data=reason_itn_not_used_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  facet_wrap(.~Reason)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }
+  geom_text(aes(label=paste0(Proportion)),position=position_dodge(0.5),hjust=0.3)+
+  theme(text=element_text(size=16, face="bold"))+
+  coord_flip()}
   else{
-    ggplot(reason_itn_not_used[reason_itn_not_used$`Background characteristics`%in%input$nets_notuse,],aes(x=reorder(Reason,Proportion), y=Proportion,fill=Value))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4)+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
-  scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))
   }}, width=1600, height=700 )
 
+```
 
+### **Mosquito net not used previous night (By county)**
+
+**Reason why the mosquito net was not used the night before the survey**
+
+```{r, include=FALSE}
+
+reason_itn_not_used_county <- fread("data/table_12/table12_8C_reason_itn_not_used_by_county.csv")%>%
+  filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))%>%
+  mutate(Proportion=ifelse(County%in%"Kitui"&Reason%in%"Extra net/saving for later",21.1, ifelse(County%in%"Kitui"&Reason%in%"No mosquitoes/malaria",28.2, ifelse(County%in%"Kitui"&Reason%in%"User didn't sleep in household",9.2, ifelse(County%in%"Kitui"&Reason%in%"Too hot",24.2,Proportion)))))
+
+reason_itn_not_used_county1 <- full_join(county, reason_itn_not_used_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
+reason_itn_not_used_county1$proportion_category <- as.factor(fct_relevel(reason_itn_not_used_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+reason_itn_not_used_county1$epi_zone <- as.factor(fct_relevel(reason_itn_not_used_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
+```
+
+
+```{r}
+renderGirafe({
+
+  map1<- ggplot(reason_itn_not_used_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
+  theme_void()+
+  facet_wrap(~Reason)+
+  scale_fill_brewer(palette = "YlGn")+
+  #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage of households")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
 
 ```
+
 
 ### **Intermittent Preventive Treatment by women during pregnancy**
 
@@ -3959,7 +4033,7 @@ renderPlot({if(input$nets_notuse%in%c("Residence", "Endemicity zone")){ggplot(re
 selectInput("ipt_women", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 ```{r, include=F}
@@ -3968,52 +4042,45 @@ iptp <- fread("data/table_12/table12_9_iptp_by_background_xtics.csv")
 
 iptp$Value<- fct_relevel(iptp$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
-
-
-iptp_county <- fread("data/table_12/table12_9C_iptp_by_county.csv")
-
-iptp_county1 <- full_join(county, iptp_county, by=c("Name"="County"))
-
-
-
 ```
 
 
 
 ```{r}
 
-renderPlot({if(input$ipt_women%in%c("Residence", "Endemicity zone")){ggplot(iptp[iptp$`Background characteristics`%in%input$ipt_women,],aes(x=Value, y=Proportion,fill=Category))+
+renderPlot({if(input$ipt_women%in%c("Residence", "Endemicity zone","Wealth quintile")){ggplot(iptp[iptp$`Background characteristics`%in%input$ipt_women,],aes(x=Value, y=Proportion,fill=Category))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
+  labs( y="Percent (%)", title="", x="", fill="SP/Fansidar Doses")+
   scale_fill_brewer(palette = "Set1")+
-    geom_text(aes(label=paste0(Proportion,"%")), position=position_dodge(0.7))+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(0.7))+
   theme(text=element_text(size=16, face="bold"))}
-  else if(input$ipt_women%in%"County"){
-  ggplot(iptp_county1)+
-  geom_sf(data=iptp_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  facet_wrap(.~Category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }
   else{
-    ggplot(iptp[iptp$`Background characteristics`%in%input$ipt_women,],aes(x=Value, y=Proportion,fill=Category))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4)+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
-  scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))
   }}, width=1600, height=700 )
 
 
 
 ```
 
-### **Children with fever & careseeking \n prompt treatment & diagnosis**
+### **Use of Intermittent Preventive Treatment by women during pregnancy (By County)**
+
+```{r, include=FALSE}
+
+iptp_county <- fread("data/table_12/table12_9C_iptp_by_county.csv")
+
+iptp_county1 <- full_join(county, iptp_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
+iptp_county1$proportion_category <- as.factor(fct_relevel(iptp_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+iptp_county1$epi_zone <- as.factor(fct_relevel(iptp_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
+
+```
+
+
+### **Children with fever: careseeking, prompt treatment & diagnosis**
 
 
 ```{r}
@@ -4022,7 +4089,7 @@ selectInput("mal_fever", "",
               c("Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
                 "Mother's education"="Mother's education",
-                "Wealth quintile"="Wealth quintile", "By County"="County"))
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 ```{r, include=F}
@@ -4031,10 +4098,8 @@ mal_fever <- fread("data/table_12/table12_10_malaria_fever_by_background_xtics.c
 
 mal_fever$Value<- fct_relevel(mal_fever$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
-
-mal_fever_county <- fread("data/table_12/table12_10C_malaria_fever_by_county.csv")
-
-mal_fever_county1 <- full_join(county, mal_fever_county, by=c("Name"="County"))
+mal_fever$Value<- fct_relevel(mal_fever$Value, 
+                                    "No education", "Primary", "Secondary", "More than secondary")
 
 
 ```
@@ -4043,36 +4108,58 @@ mal_fever_county1 <- full_join(county, mal_fever_county, by=c("Name"="County"))
 
 ```{r}
 
-renderPlot({if(input$mal_fever%in%c("Residence", "Endemicity zone")){ggplot(mal_fever[mal_fever$`Background characteristics`%in%input$mal_fever,],aes(x=Value, y=Proportion,fill=Category))+
+renderPlot({if(input$mal_fever%in%c("Residence", "Endemicity zone","Mother's education","Wealth quintile")){ggplot(mal_fever[mal_fever$`Background characteristics`%in%input$mal_fever,],aes(x=Value, y=Proportion,fill=Category))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
+  labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-    geom_text(aes(label=paste0(Proportion,"%")), position=position_dodge(0.7))+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(0.7))+
   theme(text=element_text(size=16, face="bold"))}
-  else if(input$mal_fever%in%"County"){
-  ggplot(mal_fever_county1)+
-  geom_sf(data=mal_fever_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  facet_wrap(.~Category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16, face="bold"))
-  }
   else{
-    ggplot(mal_fever[mal_fever$`Background characteristics`%in%input$mal_fever,],aes(x=Value, y=Proportion,fill=Category))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4)+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Residence", fill="")+
-  scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))
   }}, width=1600, height=700 )
 
 
 
 ```
+
+### **Children with fever: careseeking, prompt treatment & diagnosis (By County)**
+
+```{r, include=FALSE}
+
+mal_fever_county <- fread("data/table_12/table12_10C_malaria_fever_by_county.csv")
+
+mal_fever_county1 <- full_join(county, mal_fever_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
+  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+
+mal_fever_county1$proportion_category <- as.factor(fct_relevel(mal_fever_county1$proportion_category, c("<30%", "30%-60%", ">60%")))
+
+mal_fever_county1$epi_zone <- as.factor(fct_relevel(mal_fever_county1$epi_zone, c("Low Risk", "Seasonal Low Transmission", "Highland Epidemic Prone", "Coast Stable Endemic", "Lake Stable Endemic")))
+```
+
+
+```{r}
+renderGirafe({
+
+  map1<- ggplot(mal_fever_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
+  theme_void()+
+  facet_wrap(~Category)+
+  scale_fill_brewer(palette = "YlGn")+
+  #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage of households")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
+
+```
+
 
 ### **Source of advice/treatment for children with fever**
 
@@ -4093,14 +4180,15 @@ mal_treat_source <- fread("data/table_12/table12_11_malaria_treat_by_source.csv"
 renderPlot({ggplot(mal_treat_source, aes(x=reorder(`Source of Treatment`,`Proportion`), y=`Proportion`))+
   geom_bar(stat = "identity", fill="#74add1")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="Source of Treatment", fill="")+
+  labs( y="Percent (%)", title="", x="Source of Treatment", fill="", caption = "Other Private Sector:\nIncludes Shop, Traditional practitioner,\nand Itinerant drug seller")+
   theme(text=element_text(size=16, face="bold"))+
-  geom_text(aes(label = lab), nudge_y = 2.0)+
+  geom_text(aes(label = paste0(Proportion)), nudge_y = 2.0)+
   coord_flip()}, width=1600, height=700 )
 
 
 
 ```
+
 
 
 # TB/HIV {data-navmenu="Key Indicators"}
