@@ -1,0 +1,189 @@
+County,Category,Proportion
+Mombasa,<60 days,37.8
+Mombasa,60-89 days,8.7
+Mombasa,90-179 days,34.7
+Mombasa,180+ days,11.2
+Kwale,<60 days,13.4
+Kwale,60-89 days,10.6
+Kwale,90-179 days,54.1
+Kwale,180+ days,18.1
+Kilifi,<60 days,18.9
+Kilifi,60-89 days,9.5
+Kilifi,90-179 days,47.4
+Kilifi,180+ days,19.3
+Tana River,<60 days,21.9
+Tana River,60-89 days,15.1
+Tana River,90-179 days,26.9
+Tana River,180+ days,22.2
+Lamu,<60 days,18.5
+Lamu,60-89 days,13.7
+Lamu,90-179 days,40.9
+Lamu,180+ days,13.8
+Taita Taveta,<60 days,23.4
+Taita Taveta,60-89 days,3.2
+Taita Taveta,90-179 days,39.4
+Taita Taveta,180+ days,26.8
+Garissa,<60 days,21.2
+Garissa,60-89 days,17.0
+Garissa,90-179 days,9.7
+Garissa,180+ days,0.0
+Wajir,<60 days,54.2
+Wajir,60-89 days,5.2
+Wajir,90-179 days,11.6
+Wajir,180+ days,0.5
+Mandera,<60 days,41.5
+Mandera,60-89 days,5.0
+Mandera,90-179 days,4.3
+Mandera,180+ days,10.0
+Marsabit,<60 days,27.1
+Marsabit,60-89 days,17.1
+Marsabit,90-179 days,35.8
+Marsabit,180+ days,7.1
+Isiolo,<60 days,14.6
+Isiolo,60-89 days,8.2
+Isiolo,90-179 days,28.7
+Isiolo,180+ days,25.0
+Meru,<60 days,43.0
+Meru,60-89 days,12.4
+Meru,90-179 days,20.7
+Meru,180+ days,7.3
+Tharaka-Nithi,<60 days,30.4
+Tharaka-Nithi,60-89 days,3.7
+Tharaka-Nithi,90-179 days,47.7
+Tharaka-Nithi,180+ days,11.6
+Embu,<60 days,9.6
+Embu,60-89 days,11.0
+Embu,90-179 days,54.6
+Embu,180+ days,12.5
+Kitui,<60 days,10.1
+Kitui,60-89 days,12.3
+Kitui,90-179 days,41.0
+Kitui,180+ days,25.2
+Machakos,<60 days,21.0
+Machakos,60-89 days,9.1
+Machakos,90-179 days,39.1
+Machakos,180+ days,22.5
+Makueni,<60 days,12.1
+Makueni,60-89 days,8.4
+Makueni,90-179 days,55.4
+Makueni,180+ days,17.1
+Nyandarua,<60 days,23.4
+Nyandarua,60-89 days,14.6
+Nyandarua,90-179 days,43.5
+Nyandarua,180+ days,10.7
+Nyeri,<60 days,27.3
+Nyeri,60-89 days,7.2
+Nyeri,90-179 days,35.7
+Nyeri,180+ days,20.4
+Kirinyaga,<60 days,13.1
+Kirinyaga,60-89 days,11.7
+Kirinyaga,90-179 days,36.1
+Kirinyaga,180+ days,21.7
+Murang'a,<60 days,19.2
+Murang'a,60-89 days,11.4
+Murang'a,90-179 days,37.7
+Murang'a,180+ days,22.5
+Kiambu,<60 days,22.1
+Kiambu,60-89 days,19.6
+Kiambu,90-179 days,35.1
+Kiambu,180+ days,13.6
+Turkana,<60 days,10.7
+Turkana,60-89 days,10.2
+Turkana,90-179 days,28.6
+Turkana,180+ days,47.5
+West Pokot,<60 days,21.4
+West Pokot,60-89 days,18.8
+West Pokot,90-179 days,36.4
+West Pokot,180+ days,10.6
+Samburu,<60 days,23.3
+Samburu,60-89 days,8.1
+Samburu,90-179 days,29.6
+Samburu,180+ days,23.1
+Trans Nzoia,<60 days,30.3
+Trans Nzoia,60-89 days,9.8
+Trans Nzoia,90-179 days,40.9
+Trans Nzoia,180+ days,11.8
+Uasin Gishu,<60 days,23.1
+Uasin Gishu,60-89 days,15.8
+Uasin Gishu,90-179 days,37.6
+Uasin Gishu,180+ days,17.0
+Elgeyo-Marakwet,<60 days,26.9
+Elgeyo-Marakwet,60-89 days,19.4
+Elgeyo-Marakwet,90-179 days,35.4
+Elgeyo-Marakwet,180+ days,3.7
+Nandi,<60 days,26.7
+Nandi,60-89 days,9.1
+Nandi,90-179 days,35.7
+Nandi,180+ days,8.9
+Baringo,<60 days,20.2
+Baringo,60-89 days,18.6
+Baringo,90-179 days,40.7
+Baringo,180+ days,4.7
+Laikipia,<60 days,16.4
+Laikipia,60-89 days,14.7
+Laikipia,90-179 days,42.0
+Laikipia,180+ days,18.5
+Nakuru,<60 days,24.2
+Nakuru,60-89 days,12.8
+Nakuru,90-179 days,41.7
+Nakuru,180+ days,14.8
+Narok,<60 days,41.9
+Narok,60-89 days,9.0
+Narok,90-179 days,26.5
+Narok,180+ days,6.5
+Kajiado,<60 days,23.2
+Kajiado,60-89 days,12.4
+Kajiado,90-179 days,38.3
+Kajiado,180+ days,20.8
+Kericho,<60 days,28.6
+Kericho,60-89 days,12.8
+Kericho,90-179 days,34.0
+Kericho,180+ days,15.0
+Bomet,<60 days,27.1
+Bomet,60-89 days,20.0
+Bomet,90-179 days,34.7
+Bomet,180+ days,8.9
+Kakamega,<60 days,14.3
+Kakamega,60-89 days,7.9
+Kakamega,90-179 days,39.3
+Kakamega,180+ days,30.0
+Vihiga,<60 days,15.5
+Vihiga,60-89 days,18.8
+Vihiga,90-179 days,40.3
+Vihiga,180+ days,23.6
+Bungoma,<60 days,9.1
+Bungoma,60-89 days,10.5
+Bungoma,90-179 days,54.0
+Bungoma,180+ days,13.4
+Busia,<60 days,32.2
+Busia,60-89 days,19.6
+Busia,90-179 days,30.3
+Busia,180+ days,12.4
+Siaya,<60 days,17.2
+Siaya,60-89 days,9.0
+Siaya,90-179 days,43.9
+Siaya,180+ days,18.8
+Kisumu,<60 days,15.0
+Kisumu,60-89 days,14.2
+Kisumu,90-179 days,47.0
+Kisumu,180+ days,18.6
+Homa Bay,<60 days,25.8
+Homa Bay,60-89 days,8.4
+Homa Bay,90-179 days,24.8
+Homa Bay,180+ days,26.1
+Migori,<60 days,14.6
+Migori,60-89 days,9.3
+Migori,90-179 days,32.2
+Migori,180+ days,36.1
+Kisii,<60 days,32.4
+Kisii,60-89 days,17.1
+Kisii,90-179 days,35.5
+Kisii,180+ days,9.6
+Nyamira,<60 days,29.0
+Nyamira,60-89 days,6.2
+Nyamira,90-179 days,28.0
+Nyamira,180+ days,15.2
+Nairobi,<60 days,19.4
+Nairobi,60-89 days,7.4
+Nairobi,90-179 days,41.7
+Nairobi,180+ days,21.5
