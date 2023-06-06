@@ -3181,7 +3181,7 @@ valueBox(
 
 ## Column {.tabset .tabset-fade data-height="900"}
 
-### **Nutritional measure**
+### **Children Nutritional Status**
 
 **Choose characteristics to display**
 
@@ -3206,17 +3206,17 @@ nut_total$Indicator <- fct_relevel(nut_total$Indicator,
 renderPlot({
   ggplot(nut_total[nut_total$Indicator1%in%input$nutr,], aes(x=Indicator, y=perc_below2sd, fill=measure))+
   geom_bar(position="dodge", stat="identity")+
-      geom_text(aes(label=paste0(round(perc_below2sd), "%")), position=position_dodge(0.7), vjust=-0.1)+
+  geom_text(aes(label=paste0(round(perc_below2sd))), position=position_dodge(0.7), vjust=-0.1)+
   theme_bw()+
-  labs( y="Proportion(%)", title="", x="Nutritional measure", fill="Residence")+
+  labs( y="Percent (%)", title="", x="", fill="Nutritional measure")+
   scale_fill_manual(values = c("#f46d43","#74add1", "#78c679"))+
-  theme(text=element_text(size=20, face="bold"))
+  theme(text=element_text(size=20, face="bold"))+ylim(0,100)
 },width = 1300, height=700)
 
 ```
 
 
-### **Nutritional status (county-map)**
+### **Children Nutritional Status (By County:maps)**
 
 ```{r}
 selectInput("nutr2", "",
@@ -3243,13 +3243,37 @@ county <- st_read("shapefiles/County.shp")%>%
 nutc1 <- full_join(county, nutc, by="County")
 
 
-renderGirafe({
-   
-  nut_map2 <- ggplot(nutc1[nutc1$indicator%in%input$nutr2,], aes(fill=perc_below2sd))+
+renderGirafe({if(input$nutr2%in%"HFA"){
+  
+  nutc1 <- nutc1%>%
+    mutate(threshold=ifelse(perc_below2sd>2.4&perc_below2sd<10,"Low (2.5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)", ifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)","Very High (>=30%)"))))
+  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c( "Low (2.5%- <10%)", "Medium (10%- <20%)", "High (20%- <30%)", "Very High (>=30%)")))
+  
+  nut_map2 <- ggplot(nutc1%>%filter(indicator%in%"HFA"), aes(fill=threshold))+
     ggiraph::geom_sf_interactive(aes(tooltip = paste0(County,": ", perc_below2sd,"%")),size=0.3)+
     theme_void()+
-   scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
-    labs(x="", y="",fill="%")+
+    scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="", y="",fill="Classification (WHO 2017)")+
+    theme(text=element_text(size=14)) 
+  nut_map2x<-girafe(ggobj = nut_map2, width_svg = 5, height_svg = 5,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_sizing(rescale = T),
+                     opts_zoom(max = 4)))
+  print(nut_map2x)}
+  else if(input$nutr2%in%"WFA"){
+    nutc1 <- nutc1%>%
+    mutate(threshold=ifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", ifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))
+  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
+  
+  nut_map2 <- ggplot(nutc1%>%filter(indicator%in%"WFA"), aes(fill=threshold))+
+    ggiraph::geom_sf_interactive(aes(tooltip = paste0(County,": ", perc_below2sd,"%")),size=0.3)+
+    theme_void()+
+    scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="", y="",fill="Classification (WHO 2017)")+
     theme(text=element_text(size=14)) 
   nut_map2x<-girafe(ggobj = nut_map2, width_svg = 5, height_svg = 5,
                    options = list(
@@ -3258,11 +3282,32 @@ renderGirafe({
                      opts_sizing(rescale = T),
                      opts_zoom(max = 4)))
   print(nut_map2x)
+  }
+  else{
+    nutc1 <- nutc1%>%
+    mutate(threshold=ifelse(perc_below2sd<2.5,"Very Low (<2.5%)", ifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", ifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)")))))
+  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Very Low (<2.5%)", "Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
+  
+  nut_map2 <- ggplot(nutc1[nutc1$indicator%in%input$nutr2,], aes(fill=threshold))+
+    ggiraph::geom_sf_interactive(aes(tooltip = paste0(County,": ", perc_below2sd,"%")),size=0.3)+
+    theme_void()+
+    scale_fill_manual(values = c("#006837","#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="", y="",fill="Classification (WHO 2017)")+
+    theme(text=element_text(size=14)) 
+  nut_map2x<-girafe(ggobj = nut_map2, width_svg = 5, height_svg = 5,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_sizing(rescale = T),
+                     opts_zoom(max = 4)))
+  print(nut_map2x)
+  }
 })#,width = 1500, height=800)
 
 ```
 
-### **Nutritional status (county-descending)**
+### **Children Nutritional Status (By County:bars)**
 
 ```{r}
 selectInput("nutr2a", "",
@@ -3275,13 +3320,55 @@ selectInput("nutr2a", "",
 
   
 
-renderPlot({
-  ggplot(nutc1[nutc1$indicator%in%input$nutr2a,], aes(x=reorder(County,perc_below2sd), y=perc_below2sd))+
-    geom_col(fill="cyan4")+coord_flip()+
-    theme_bw()+ geom_text(aes(label=paste0(round(perc_below2sd),"%")), hjust=1, color="white")+
-    scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
-    labs(x="", y="",fill="%")+
-    theme(text=element_text(size=15, face="bold")) 
+renderPlot({if(input$nutr2a%in%"HFA"){
+  
+  nutc1 <- nutc1%>%
+    mutate(threshold=ifelse(perc_below2sd>2.4&perc_below2sd<10,"Low (2.5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)", ifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)","Very High (>=30%)"))))
+  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c( "Low (2.5%- <10%)", "Medium (10%- <20%)", "High (20%- <30%)", "Very High (>=30%)")))
+  
+  ggplot(nutc1%>%filter(indicator%in%"HFA"), aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
+    geom_col()+coord_flip()+
+    theme_bw()+ 
+    scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    geom_text(aes(label=paste0(round(perc_below2sd))), hjust=1, color="black")+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="County", y="Percent (%)",fill="Classification (WHO 2017)")+
+    theme(text=element_text(size=15, face="bold")) +ylim(0,100)
+  }
+  else if(input$nutr2a%in%"WFA"){
+    nutc1 <- nutc1%>%
+    mutate(threshold=ifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", ifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))
+  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
+  
+  ggplot(nutc1%>%filter(indicator%in%"WFA"), aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
+    geom_col()+coord_flip()+
+    theme_bw()+ 
+    scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    geom_text(aes(label=paste0(round(perc_below2sd))), hjust=1, color="black")+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="County", y="Percent (%)",fill="Classification (WHO 2017)")+
+    theme(text=element_text(size=15, face="bold")) +ylim(0,100)
+  }
+  else{
+    nutc1 <- nutc1%>%
+    mutate(threshold=ifelse(perc_below2sd<2.5,"Very Low (<2.5%)", ifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", ifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)")))))
+  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Very Low (<2.5%)", "Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
+  
+  ggplot(nutc1[nutc1$indicator%in%input$nutr2a,], aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
+    geom_col()+coord_flip()+
+    theme_bw()+ 
+    scale_fill_manual(values = c("#006837","#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    geom_text(aes(label=paste0(round(perc_below2sd))), hjust=1, color="black")+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="County", y="Percent (%)",fill="Classification (WHO 2017)")+
+    theme(text=element_text(size=15, face="bold")) +ylim(0,100)
+  }
+  # ggplot(nutc1[nutc1$indicator%in%input$nutr2a,], aes(x=reorder(County,perc_below2sd), y=perc_below2sd))+
+  #   geom_col(fill="cyan4")+coord_flip()+
+  #   theme_bw()+ geom_text(aes(label=paste0(round(perc_below2sd),"%")), hjust=1, color="white")+
+  #   scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  #   labs(x="", y="",fill="%")+
+  #   theme(text=element_text(size=15, face="bold")) 
 },width = 1200, height=700)
 ```
 
@@ -3290,23 +3377,13 @@ renderPlot({
 
 ```{r}
 selectInput("micronutrients", "",
-              c("Age (in months)"="Age",
-                "Mother's age"="Mother's age",
+              c("Children's Age (in months)"="Age",
+                "Mother's age (in years)"="Mother's age",
                 "Mother's education"="Mother's education",
                 "Breastfeeding status"="Breastfeeding status",
                 "Residence"="Residence",
                 "Sex"="Sex",
-                "Wealth quintile"="Wealth quintile",
-                "County"="County"))
-```
-
-```{r, include=F}
-micronutrient_county <- fread("data/table_11/table11_12C_micronutrient_by_county.csv")
-
-county <- st_read("shapefiles/County.shp")
-micronutrient_county1 <- full_join(county, micronutrient_county, by=c("Name"="County"))
-
-
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 
@@ -3316,35 +3393,66 @@ micronutrient <- fread("data/table_11/table11_12_micronutrient_by_background_xti
 micronutrient$Value <- fct_relevel(micronutrient$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
 
-renderPlot({if(input$micronutrients%in%c("Age","Mother's age", "Mother's education", "Wealth quintile" )){
+micronutrient$Value <- fct_relevel(micronutrient$Value, 
+                                    "6-8", "9-11", "12-17", "18-23", "24-35", "36-47", "48-59")
+
+micronutrient$Value <- fct_relevel(micronutrient$Value, 
+                                    "No education", "Primary", "Secondary", "More than secondary")
+
+renderPlot({
   ggplot(micronutrient[micronutrient$`Background characteristics`%in%input$micronutrients,],aes(x=Value, y=Proportion, fill=Category))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4)+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="", fill="Micronutrient provided")+
-  scale_fill_manual(values = c("#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"))+
-  geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))}
-  else if(input$micronutrients%in%"County"){
-   ggplot(micronutrient_county1)+
-  geom_sf(data=micronutrient_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  facet_wrap(~Category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16)) }
-  else{
-    ggplot(micronutrient[micronutrient$`Background characteristics`%in%input$micronutrients,],aes(x=Value, y=Proportion, fill=Category))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="", fill="Micronutrient provided")+
+  labs( y="Percent (%)", title="", x="", fill="Micronutrient provided")+
   scale_fill_manual(values = c("#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"))+
-  geom_text(aes(label=paste0(Proportion,"%")), position = position_dodge(0.7))+
-  theme(text=element_text(size=16, face = "bold"))
-  }
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
+  theme(text=element_text(size=16, face = "bold"))+ylim(0,100)
 },width=1600, height=700)
 
 ```
+
+### **Micronutrient supplementation & deworming (By County)**
+
+```{r}
+selectInput("micronutrients_county", "",
+              c("Deworming (last 6 months)"="Deworming last 6 months",
+                "Iron supplements (last 6 months)"="Iron supplements last 6 months",
+                "Iron tablets/syrups (last 12 months)"="Iron tablets/syrups last 12 months",
+                "Micronutrient powders (last 12 months)"="Micronutrient powders last 12 months",
+                "Vitamin A (last 6 months)"="Vit. A last 6 months"))
+```
+
+```{r, include=F}
+micronutrient_county <- fread("data/table_11/table11_12C_micronutrient_by_county.csv")
+
+county <- st_read("shapefiles/County.shp")
+micronutrient_county1 <- full_join(county, micronutrient_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<50,"<50%", ifelse(Proportion>49&Proportion<81,"50-80%",">80%")))
+micronutrient_county1$proportion_category <- as.factor(fct_relevel(micronutrient_county1$proportion_category, c("<50%", "50-80%", ">80%")))
+
+
+```
+
+```{r}
+
+renderGirafe({
+
+  map1<- ggplot(micronutrient_county1[micronutrient_county1$`Category`%in%input$micronutrients_county,])+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
+  theme_void()+
+  #scale_fill_brewer(palette = "YlGn")+  
+  scale_fill_manual(values = c("#e31a1c","#ffffcc","#78c679"))+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
+```
+
 
 ### **Women minimum dietary diversity**
 
@@ -3353,18 +3461,9 @@ renderPlot({if(input$micronutrients%in%c("Age","Mother's age", "Mother's educati
 selectInput("mdd", "",
               c("Age in years"="Age",
                 "Education"="Education",
-                "Maternity status"="Maternity status",
+                "Women Physiological Status"="Maternity status",
                 "Residence"="Residence",
-                "Wealth quintile"="Wealth quintile",
-                "County"="County"))
-```
-
-```{r, include=F}
-mdd_county <- fread("data/table_11/table11_15C_MDD-W_by_county.csv")
-
-county <- st_read("shapefiles/County.shp")
-mdd_county1 <- full_join(county, mdd_county, by=c("Name"="County"))
-
+                "Wealth quintile"="Wealth quintile"))
 ```
 
 
@@ -3373,37 +3472,92 @@ mdd <- fread("data/table_11/table11_15_MDD-W_by_background_xtics.csv")
 
 mdd$Value <- fct_relevel(mdd$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
+mdd$Value <- fct_relevel(mdd$Value, 
+                                    "No education", "Primary", "Secondary", "More than secondary")
 
-renderPlot({if(input$mdd%in%c("Age", "Education", "Wealth quintile" )){
+renderPlot({
   ggplot(mdd[mdd$`Background characteristics`%in%input$mdd,],aes(x=Value, y=Proportion, fill=Category))+
-  geom_dotplot(binaxis='y', stackdir='center', binwidth = 4)+
-  theme_bw()+
-  labs( y="Proportion (%)", title="", x="Age category (in months)", fill="Micronutrient provided")+
-  scale_fill_manual(values = c("#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"))+
-  geom_text(aes(label=paste0(Proportion,"%")))+
-  theme(text=element_text(size=16, face="bold"))}
-  else if(input$mdd%in%"County"){
-   ggplot(mdd_county1)+
-  geom_sf(data=mdd_county1, aes(geometry=geometry), fill=NA)+
-  geom_sf(aes(fill=Proportion),color="grey80", size=0.0)+
-  theme_void()+
-  facet_wrap(~Category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=16)) }
-  else{
-    ggplot(mdd[mdd$`Background characteristics`%in%input$mdd,],aes(x=Value, y=Proportion, fill=Category))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+
-  labs( y="Proportion (%)", title="", x="", fill="")+
-  scale_fill_manual(values = c("#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"))+
+  labs( y="Percent (%)", title="", x="", fill="")+
+  scale_fill_manual(values = c("#d7191c","#fdae61","#abd9e9","#2c7bb6"))+
   geom_text(aes(label=paste0(Proportion,"%")), position = position_dodge(0.7))+
-  theme(text=element_text(size=16, face="bold"))
-  }
+  theme(text=element_text(size=16, face="bold"))+ylim(0,100)
 }, width=1600, height=700)
 ```
 
+### **Women minimum dietary diversity (By County)**
 
+```{r}
+selectInput("mdd_county", "",
+              c("MDD-W"="MDD-W",
+                "Sweet Beverage Consumption"="Sweet Beverage Consumption",
+                "Unhealthy food consumption"="Unhealthy food consumption"))
+```
+
+```{r, include=F}
+mdd_county <- fread("data/table_11/table11_15C_MDD-W_by_county.csv")
+
+county <- st_read("shapefiles/County.shp")
+mdd_county1 <- full_join(county, mdd_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<15,"<15%", ifelse(Proportion>14&Proportion<31,"15%-30%",">30%")))
+mdd_county1$proportion_category<-as.factor(fct_relevel(mdd_county1$proportion_category, c("<15%", "15%-30%", ">30%")))
+
+```
+
+```{r}
+
+renderGirafe({if(input$mdd_county%in%"MDD-W"){
+
+  map1<- ggplot(mdd_county1%>%filter(Category%in%"MDD-W"))+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
+  theme_void()+
+  scale_fill_brewer(palette = "YlGn")+  
+  #scale_fill_manual(values = c("#e31a1c","#ffffcc","#78c679"))+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)
+}
+else if(input$mdd_county%in%"Sweet Beverage Consumption"){
+  map1<- ggplot(mdd_county1%>%filter(Category%in%"Sweet Beverage Consumption"))+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
+  theme_void()+
+  scale_fill_brewer(palette = "OrRd")+  
+  #scale_fill_manual(values = c("#e31a1c","#ffffcc","#78c679"))+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)
+}
+  else{
+    map1<- ggplot(mdd_county1%>%filter(Category%in%input$mdd_county))+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
+  theme_void()+
+  scale_fill_brewer(palette = "OrRd")+  
+  #scale_fill_manual(values = c("#e31a1c","#ffffcc","#78c679"))+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)
+  }
+})
+```
 
 # Malaria {data-navmenu="Key Indicators"}
 
@@ -4365,20 +4519,30 @@ renderGirafe({
 ```{r}
 
 valueBox(
-  value = paste("9.0%"),
-  caption = "of women are diagnosed with high blood pressure/ hypertension",
+  value = paste("9% & 4%"),
+  caption = "of women & men have been diagnosed\nwith hypertension, respectively",
   color = "black"
 )
-
 ```
 
 ###  {.value-box}
 
 ```{r}
 valueBox(
-  value = paste("3.5%"),
-  caption = "of men are diagnosed with high blood pressure/ hypertension",
+  value = paste("4% & 3%"),
+  caption = "of women & men have been diagnosed\nwith depression and/or anxiety, respectively",
   color = "#b15928"
+)
+```
+
+###  {.value-box}
+
+```{r}
+
+valueBox(
+  value = paste("3% & 1%"),
+  caption = "of women & men have been diagnosed\nwith arthritis, respectively",
+  color = "darkgreen"
 )
 ```
 
