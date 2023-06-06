@@ -4111,7 +4111,8 @@ renderPlot({if(input$nets_pregnant%in%c("Residence", "Endemicity zone","Wealth q
 ```{r}
 
 selectInput("nets_notuse", "",
-              c("Residence"="Residence",
+              c("Overall"="Total",
+                "Residence"="Residence",
                 "Endemicity zone"="Endemicity zone",
                 "Wealth quintile"="Wealth quintile"))
 ```
@@ -4124,6 +4125,7 @@ reason_itn_not_used <- fread("data/table_12/table12_8_reason_itn_not_used_by_bac
 reason_itn_not_used$Value<- fct_relevel(reason_itn_not_used$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
 
+reason_itn_not_used_total <- fread("data/table_12/table12_8a_reason_itn_not_used_total.csv")
 ```
 
 
@@ -4139,7 +4141,15 @@ renderPlot({if(input$nets_notuse%in%c("Residence", "Endemicity zone","Wealth qui
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)+
   coord_flip()}
-  else{
+  else{ggplot(reason_itn_not_used_total,aes(x=reorder(Reason,Proportion), y=Proportion))+
+  geom_bar(fill="#74add1",position="dodge", stat="identity")+
+  theme_bw()+
+  labs( y="Percent (%)", title="", x="Reason", fill="")+
+  #scale_fill_brewer(palette = "Set1")+
+  geom_text(aes(label=paste0(Proportion)),position=position_dodge(0.5),hjust=0.3)+
+  theme(text=element_text(size=16, face="bold"))+
+  ylim(0,100)+
+  coord_flip()
   }}, width=1600, height=700 )
 
 ```
@@ -4231,6 +4241,8 @@ renderPlot({if(input$ipt_women%in%c("Residence", "Endemicity zone","Wealth quint
 
 iptp_county <- fread("data/table_12/table12_9C_iptp_by_county.csv")
 
+county <- st_read("shapefiles/County.shp")
+
 iptp_county1 <- full_join(county, iptp_county, by=c("Name"="County"))%>%
   mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
   mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
@@ -4242,6 +4254,29 @@ iptp_county1$epi_zone <- as.factor(fct_relevel(iptp_county1$epi_zone, c("Low Ris
 
 ```
 
+```{r}
+renderGirafe({
+    
+  map1<- ggplot(iptp_county1, aes(geometry=geometry, fill=proportion_category, size=0.0))+
+  geom_sf_interactive(aes(tooltip=names1))+
+  geom_sf_interactive(data=county, aes(geometry=geometry), fill=NA,color="grey80", size=0.1)+
+  theme_void()+
+  facet_wrap(~Characteristics)+
+  scale_fill_brewer(palette = "YlGn", na.value="white")+
+  scale_color_brewer(palette = "YlGn", na.value="white")+
+  #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage of households", caption = "NA (white) represents counties\nwhere IPTp implementation\nis not done (or vice versa)")+
+  theme(text=element_text(size=16))+
+  guides(color="none",size="none")
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
+
+```
 
 ### **Children with fever: careseeking, prompt treatment & diagnosis**
 
@@ -5043,34 +5078,35 @@ renderPlot({if(input$cervical_cancer%in%c("Age","Residence", "Education","Wealth
 ### **Cervical Cancer (By County)**
 
 ```{r, include=F}
-# cervical_cancer_county <- fread("data/table_14/table9_19Cb_Cervical_cancer_by_county.csv")
-# 
-# cervical_cancer_county1 <- full_join(county, cervical_cancer_county, by=c("Name"="County"))%>%
-#   mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>20 & Proportion<41,"20%-40%",">40%")))%>%
-#   mutate(names1=paste0(Name,": ",Proportion,"%"))
-# 
-# cervical_cancer_county1$proportion_category <- as.factor(fct_relevel(cervical_cancer_county1$proportion_category, c("<20%", "20%-40%", ">40%")))
+cervical_cancer_county <- fread("data/table_14/table9_19Cb_Cervical_cancer_by_county.csv")%>%
+  mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
+
+cervical_cancer_county1 <- full_join(county, cervical_cancer_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>20 & Proportion<41,"20%-40%",">40%")))%>%
+  mutate(names1=paste0(Name,": ",Proportion,"%"))
+
+cervical_cancer_county1$proportion_category <- as.factor(fct_relevel(cervical_cancer_county1$proportion_category, c("<20%", "20%-40%", ">40%")))
 ```
 
 
 ```{r}
-# renderGirafe({
-# 
-#   map1<- ggplot(cervical_cancer_county1)+
-#   geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
-#   theme_void()+
-#   facet_wrap(~Category)+
-#   scale_fill_brewer(palette = "YlOrBr", na.value = "white")+
-#   #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
-#   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
-#   labs(x="", y="",fill="Percentage of participants")+
-#   theme(text=element_text(size=16))
-#   x <- girafe(ggobj = map1,
-#                    options = list(
-#                      opts_hover(css = "fill:#666666;cursor:pointer;"),
-#                      opts_selection(css = "fill:orange;", type = "multiple"),
-#                      opts_zoom(max = 4)), width=6, height=3)
-#   print(x)})
+renderGirafe({
+
+  map1<- ggplot(cervical_cancer_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=names1),color="grey80", size=0.0)+
+  theme_void()+
+  facet_wrap(~Category)+
+  scale_fill_brewer(palette = "YlOrBr", na.value = "white")+
+  #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage of participants")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)})
 
 
 ```
