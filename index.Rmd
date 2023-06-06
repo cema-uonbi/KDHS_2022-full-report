@@ -3453,14 +3453,102 @@ renderGirafe({
   print(x)})
 ```
 
+### **Infant and Young Child Feeding (IYCF)**
 
-### **Women minimum dietary diversity**
+**Percentage of children fed according to various IYCF practices**
+
+```{r}
+iycf <- fread("data/table_11/table11_10_IYCF.csv")
+
+ggplot(iycf,aes(x=Indicator, y=Proportion))+
+  geom_bar(position="dodge", stat="identity", fill="#74add1")+
+  theme_bw()+
+  labs( y="Percent (%)", title="", x="IYCF Indicator", fill="")+
+  #scale_fill_brewer(palette = "Set1")+
+  geom_text(aes(label=paste0(Proportion)))+
+  theme(text=element_text(size=16, face="bold"))+
+  ylim(0,100)+coord_flip()
+```
+
+### **Women nutritional status**
+
+**Percentage of women age 20-49 years with specific BMI levels**
+
+```{r}
+selectInput("nutrition_women", "",
+              c("Mother's age (in years)"="Age (in years)",
+                "Mother's education"="Education",
+                "Residence"="Residence",
+                "Wealth quintile"="Wealth quintile"))
+```
 
 
 ```{r}
+nutrition_women <- fread("data/table_11/table11_13_Nutrition_women_by_background_xtics.csv")
+
+nutrition_women$Value <- fct_relevel(nutrition_women$Value, 
+                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
+
+nutrition_women$Value <- fct_relevel(nutrition_women$Value, 
+                                    "No education", "Primary", "Secondary", "More than secondary")
+
+renderPlot({
+  ggplot(nutrition_women[nutrition_women$`Background characteristics`%in%input$nutrition_women,],aes(x=Value, y=Proportion, fill=Category))+
+  geom_bar(position="dodge", stat="identity")+
+  theme_bw()+
+  labs( y="Percent (%)", title="", x="", fill="Nutritional Level")+
+  scale_fill_manual(values = c("#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"))+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
+  theme(text=element_text(size=16, face = "bold"))+ylim(0,100)
+},width=1600, height=700)
+
+```
+
+### **Women nutritional status (By County)**
+
+**Percentage of women age 20-49 years with specific BMI levels**
+
+```{r, include=F}
+nutrition_women_county <- fread("data/table_11/table11_13C_Nutrition_women_by_county.csv")%>%
+  mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
+
+county <- st_read("shapefiles/County.shp")
+
+nutrition_women_county1 <- full_join(county, nutrition_women_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>19&Proportion<41,"20%-40%",">40%")))
+
+nutrition_women_county1$proportion_category<-as.factor(fct_relevel(nutrition_women_county1$proportion_category, c("<20%", "20%-40%", ">40%")))
+
+```
+
+```{r}
+
+renderGirafe({
+
+  map1<- ggplot(nutrition_women_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
+  theme_void()+
+  facet_wrap(~Category, nrow = 2)+
+  scale_fill_brewer(palette = "YlGnBu")+  
+  #scale_fill_manual(values = c("#e31a1c","#ffffcc","#78c679"))+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)
+})
+```
+
+### **Women minimum dietary diversity**
+
+```{r}
 selectInput("mdd", "",
-              c("Age in years"="Age",
-                "Education"="Education",
+              c("Mother's age (in years)"="Age",
+                "Mother's education"="Education",
                 "Women Physiological Status"="Maternity status",
                 "Residence"="Residence",
                 "Wealth quintile"="Wealth quintile"))
@@ -3556,6 +3644,82 @@ else if(input$mdd_county%in%"Sweet Beverage Consumption"){
                      opts_zoom(max = 4)), width=6, height=3)
   print(x)
   }
+})
+```
+
+### **Iron-containing supplementation during pregnancy**
+
+**Percent distribution of the number of days during which women age 15-49 with a live birth in the 2 years preceding the survey took iron-containing supplements during pregnancy for the most recent live birth**
+
+```{r}
+selectInput("iron_women", "",
+              c("Mother's age at birth (in years)"="Age at birth (in years)",
+                "Birth Order"="Birth order",
+                "Mother's education"="Education",
+                "Residence"="Residence",
+                "Wealth quintile"="Wealth quintile"))
+```
+
+
+```{r}
+iron_women <- fread("data/table_11/table9_4_Iron_supplement_women_by_background_xtics.csv")
+
+iron_women$Value <- fct_relevel(iron_women$Value, 
+                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
+
+iron_women$Value <- fct_relevel(iron_women$Value, 
+                                    "No education", "Primary", "Secondary", "More than secondary")
+iron_women$Category <- fct_relevel(iron_women$Category, "<60 days", "60-89 days", "90-179 days", "180+ days")
+
+renderPlot({
+  ggplot(iron_women[iron_women$`Background characteristics`%in%input$iron_women,],aes(x=Value, y=Proportion, fill=Category))+
+  geom_bar(position="dodge", stat="identity")+
+  theme_bw()+
+  labs( y="Percent (%)", title="", x="", fill="Number of days")+
+  scale_fill_manual(values = c("#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"))+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
+  theme(text=element_text(size=16, face = "bold"))+ylim(0,100)
+},width=1600, height=700)
+
+```
+
+### **Iron-containing supplementation during pregnancy (By County)**
+
+**Percent distribution of the number of days during which women age 15-49 with a live birth in the 2 years preceding the survey took iron-containing supplements during pregnancy for the most recent live birth**
+
+```{r, include=F}
+iron_women_county <- fread("data/table_11/table9_4C_Iron_supplement_women_by_county.csv")%>%
+  mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
+iron_women_county$Category <- fct_relevel(iron_women_county$Category, "<60 days", "60-89 days", "90-179 days", "180+ days")
+
+county <- st_read("shapefiles/County.shp")
+
+iron_women_county1 <- full_join(county, iron_women_county, by=c("Name"="County"))%>%
+  mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>19&Proportion<41,"20%-40%",">40%")))
+
+iron_women_county1$proportion_category<-as.factor(fct_relevel(iron_women_county1$proportion_category, c("<20%", "20%-40%", ">40%")))
+
+```
+
+```{r}
+
+renderGirafe({
+
+  map1<- ggplot(iron_women_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
+  theme_void()+
+  facet_wrap(~Category, nrow = 2)+
+  scale_fill_brewer(palette = "YlGnBu")+  
+  #scale_fill_manual(values = c("#e31a1c","#ffffcc","#78c679"))+
+  #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+  labs(x="", y="",fill="Percentage")+
+  theme(text=element_text(size=16))
+  x <- girafe(ggobj = map1,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_zoom(max = 4)), width=6, height=3)
+  print(x)
 })
 ```
 
