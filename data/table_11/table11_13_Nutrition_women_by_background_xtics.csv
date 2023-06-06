@@ -1,0 +1,57 @@
+Value,Category,Proportion,Background characteristics
+20-29,Total thin,9.4,Age (in years)
+20-29,Total normal,58.3,Age (in years)
+20-29,Over-weight,23.5,Age (in years)
+20-29,Obese,8.8,Age (in years)
+30-39,Total thin,5.5,Age (in years)
+30-39,Total normal,41.2,Age (in years)
+30-39,Over-weight,30.9,Age (in years)
+30-39,Obese,22.5,Age (in years)
+40-49,Total thin,6.0,Age (in years)
+40-49,Total normal,39.4,Age (in years)
+40-49,Over-weight,29.9,Age (in years)
+40-49,Obese,24.7,Age (in years)
+Urban,Total thin,4.9,Residence
+Urban,Total normal,42.2,Residence
+Urban,Over-weight,30.6,Residence
+Urban,Obese,22.3,Residence
+Rural,Total thin,9.1,Residence
+Rural,Total normal,52.3,Residence
+Rural,Over-weight,25.3,Residence
+Rural,Obese,13.4,Residence
+No education,Total thin,22.6,Education
+No education,Total normal,51.1,Education
+No education,Over-weight,16.8,Education
+No education,Obese,9.4,Education
+Primary,Total thin,6.6,Education
+Primary,Total normal,49.8,Education
+Primary,Over-weight,26.2,Education
+Primary,Obese,17.4,Education
+Secondary,Total thin,6.4,Education
+Secondary,Total normal,47.4,Education
+Secondary,Over-weight,28.9,Education
+Secondary,Obese,17.3,Education
+More than secondary,Total thin,5.7,Education
+More than secondary,Total normal,44.7,Education
+More than secondary,Over-weight,30.6,Education
+More than secondary,Obese,19.1,Education
+Lowest,Total thin,18.2,Wealth quintile
+Lowest,Total normal,62.4,Wealth quintile
+Lowest,Over-weight,14.9,Wealth quintile
+Lowest,Obese,4.6,Wealth quintile
+Second,Total thin,7.9,Wealth quintile
+Second,Total normal,59.8,Wealth quintile
+Second,Over-weight,23.0,Wealth quintile
+Second,Obese,9.3,Wealth quintile
+Middle,Total thin,7.8,Wealth quintile
+Middle,Total normal,47.8,Wealth quintile
+Middle,Over-weight,28.5,Wealth quintile
+Middle,Obese,15.9,Wealth quintile
+Fourth,Total thin,5.0,Wealth quintile
+Fourth,Total normal,44.0,Wealth quintile
+Fourth,Over-weight,31.2,Wealth quintile
+Fourth,Obese,19.9,Wealth quintile
+Highest,Total thin,2.9,Wealth quintile
+Highest,Total normal,37.1,Wealth quintile
+Highest,Over-weight,33.0,Wealth quintile
+Highest,Obese,27.0,Wealth quintile
