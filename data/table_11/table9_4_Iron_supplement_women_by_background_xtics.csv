@@ -1,0 +1,73 @@
+Value,Category,Proportion,Background characteristics
+<20,<60 days,24.4,Age at birth (in years)
+<20,60-89 days,12.8,Age at birth (in years)
+<20,90-179 days,35.5,Age at birth (in years)
+<20,180+ days,12.5,Age at birth (in years)
+20-34,<60 days,22.4,Age at birth (in years)
+20-34,60-89 days,11.5,Age at birth (in years)
+20-34,90-179 days,38.3,Age at birth (in years)
+20-34,180+ days,18.4,Age at birth (in years)
+35-49,<60 days,24.0,Age at birth (in years)
+35-49,60-89 days,12.8,Age at birth (in years)
+35-49,90-179 days,33.5,Age at birth (in years)
+35-49,180+ days,15.6,Age at birth (in years)
+1,<60 days,21.4,Birth order
+1,60-89 days,11.2,Birth order
+1,90-179 days,38.9,Birth order
+1,180+ days,18.7,Birth order
+2-3,<60 days,21.1,Birth order
+2-3,60-89 days,11.6,Birth order
+2-3,90-179 days,40.7,Birth order
+2-3,180+ days,17.3,Birth order
+4-5,<60 days,27.2,Birth order
+4-5,60-89 days,12.8,Birth order
+4-5,90-179 days,31.7,Birth order
+4-5,180+ days,16.5,Birth order
+6+,<60 days,26.5,Birth order
+6+,60-89 days,13.0,Birth order
+6+,90-179 days,28.0,Birth order
+6+,180+ days,14.2,Birth order
+Urban,<60 days,21.3,Residence
+Urban,60-89 days,10.7,Residence
+Urban,90-179 days,38.9,Residence
+Urban,180+ days,18.9,Residence
+Rural,<60 days,23.7,Residence
+Rural,60-89 days,12.5,Residence
+Rural,90-179 days,36.4,Residence
+Rural,180+ days,16.4,Residence
+No education,<60 days,25.1,Education
+No education,60-89 days,13.4,Education
+No education,90-179 days,23.6,Education
+No education,180+ days,16.7,Education
+Primary,<60 days,26.3,Education
+Primary,60-89 days,12.5,Education
+Primary,90-179 days,34.7,Education
+Primary,180+ days,14.5,Education
+Secondary,<60 days,21.7,Education
+Secondary,60-89 days,11.9,Education
+Secondary,90-179 days,42.0,Education
+Secondary,180+ days,15.7,Education
+More than secondary,<60 days,17.4,Education
+More than secondary,60-89 days,9.5,Education
+More than secondary,90-179 days,39.7,Education
+More than secondary,180+ days,26.2,Education
+Lowest,<60 days,25.4,Wealth quintile
+Lowest,60-89 days,11.7,Wealth quintile
+Lowest,90-179 days,32.9,Wealth quintile
+Lowest,180+ days,15.8,Wealth quintile
+Second,<60 days,24.6,Wealth quintile
+Second,60-89 days,12.7,Wealth quintile
+Second,90-179 days,35.7,Wealth quintile
+Second,180+ days,15.4,Wealth quintile
+Middle,<60 days,21.5,Wealth quintile
+Middle,60-89 days,12.6,Wealth quintile
+Middle,90-179 days,39.6,Wealth quintile
+Middle,180+ days,15.6,Wealth quintile
+Fourth,<60 days,23.6,Wealth quintile
+Fourth,60-89 days,12.4,Wealth quintile
+Fourth,90-179 days,39.9,Wealth quintile
+Fourth,180+ days,14.7,Wealth quintile
+Highest,<60 days,19.0,Wealth quintile
+Highest,60-89 days,10.0,Wealth quintile
+Highest,90-179 days,38.8,Wealth quintile
+Highest,180+ days,24.6,Wealth quintile
