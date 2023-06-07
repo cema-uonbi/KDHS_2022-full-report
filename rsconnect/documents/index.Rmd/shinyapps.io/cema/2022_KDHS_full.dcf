@@ -1,0 +1,13 @@
+name: 2022_KDHS_full
+title: 2022_KDHS_full
+username:
+account: cema
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8936225
+bundleId: 7314966
+url: https://cema.shinyapps.io/2022_KDHS_full/
+when: 1686122803.22697
+lastSyncTime: 1686122803.22698
+asMultiple: FALSE
+asStatic: FALSE
