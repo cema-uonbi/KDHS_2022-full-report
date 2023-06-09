@@ -2197,8 +2197,8 @@ renderPlot({ggplot(fp_messages[fp_messages$variable%in%input$fp_messages,],aes(x
 ```{r}
 
 valueBox(
-  value = paste("63%"),
-  caption = "of currently married women are using a contraceptive method",
+  value = paste("41"),
+  caption = "Under-5 mortality",
   color = "black"
 )
 ```
@@ -2207,9 +2207,19 @@ valueBox(
 
 ```{r}
 valueBox(
-  value = paste("70%"),
-  caption = "of the unmarried women use a contraceptive",
+  value = paste("32"),
+  caption = "Infant mortality",
   color = "#b15928"
+)
+```
+
+###  {.value-box}
+
+```{r}
+valueBox(
+  value = paste("21"),
+  caption = "Neonatal mortality",
+  color = "darkgreen"
 )
 ```
 
@@ -2252,95 +2262,211 @@ valueBox(
 
 ```
 
-### **Ten-year early childhood mortality**
+### **Childhood mortality**
+
+**Neonatal, infant, and under-5 mortality rates for the ten-year period preceding the survey** 
 
 ```{r}
-
 selectInput("early_childhood_mortality", "",
-              c("Birth interval"="Birth interval",
+              c("Inter-Birth interval"="Birth interval",
                 #"Birth order"="Birth order",
-                "Education"="Education",
-                "Mother's age"="Mother's age",
-                "By County"="County"))
+                "Mother's Education"="Education",
+                "Wealth quintile"="Wealth quintile",
+                "Mother's age (in years)"="Mother's age"))
 
 # import data
 
 early_childhood_mortality <-fread("data/table_8/Table_8.3_Early_Childhood_Mortality.csv")%>%
-  filter(!category%in%c("Post neonatal mortality","Child mortality"))
+  filter(!category%in%c("Post neonatal mortality","Child mortality"))%>%
+  mutate(Variable=ifelse(Characteristic%in%c("Lowest","Second","Middle","Fourth","Highest"),"Wealth quintile",Variable))
 
-early_childhood_mortality_county <-fread("data/table_8/Table_8.3C_County Early Childhood Mortality.csv")
+early_childhood_mortality$Characteristic <- fct_relevel(early_childhood_mortality$Characteristic, 
+                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
 
-early_childhood_mortality_county <- full_join(county, early_childhood_mortality_county, by=c("Name"="county"))%>%
-  filter(!category%in%c("Post neonatal mortality","Child mortality")) 
-  
+early_childhood_mortality$Characteristic <- fct_relevel(early_childhood_mortality$Characteristic, 
+                                    "No education", "Primary", "Secondary", "More than secondary")
 ```
 
 
 
 ```{r}
 
-renderPlot({if(input$early_childhood_mortality!="County"){ggplot(early_childhood_mortality[early_childhood_mortality$Variable%in%input$early_childhood_mortality,],aes(x=Characteristic, y=proportion, fill=category))+
+renderPlot({
+  ggplot(early_childhood_mortality[early_childhood_mortality$Variable%in%input$early_childhood_mortality,],aes(x=Characteristic, y=proportion, fill=category))+
   geom_bar(position="dodge", stat="identity")+
-  theme_bw()+scale_fill_brewer(palette = "Set1")+
+  theme_bw()+
+    scale_fill_manual(values = c("grey","#74add1", "#78c679"))+
+    #scale_fill_brewer(palette = "Set1")+
     geom_text(aes(label=proportion), position=position_dodge(0.6))+
-  labs( y="Per 1000", title="", x="", fill="")+
-  theme(text=element_text(size=16, face="bold"))}
-  else{
-    ggplot(early_childhood_mortality_county, aes(geometry=geometry, fill=proportion))+
-      geom_sf()+theme_void()+
-  facet_wrap(~category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=14))
-  }}, width=1600, height=700 )
+  labs( y="Rate Per 1000 live births", title="", x="", fill="")+
+  theme(text=element_text(size=16, face="bold"))+ylim(0,100)
+}, width=1600, height=700 )
 
 
+```
+
+### **Childhood mortality (By County:maps)**
+
+```{r}
+selectInput("early_childhood_mortality_county1", "",
+              c("Infant mortality"="Infant mortality",
+                "Neonatal mortality"="Neonatal mortality",
+                "Under 5 mortality"="Under 5 mortality"))
+```
+
+<br>
+```{r, include=FALSE}
+early_childhood_mortality_county <-fread("data/table_8/Table_8.3C_County Early Childhood Mortality.csv")%>%
+  mutate(county=recode(county,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))%>%
+  mutate(proportion_category=ifelse(proportion<20,"<20", ifelse(proportion>19&proportion<41,"20-40",">40")))
+
+early_childhood_mortality_county$proportion_category <- as.factor(fct_relevel(early_childhood_mortality_county$proportion_category, c( "<20", "20-40", ">40")))
+
+early_childhood_mortality_county1 <- full_join(county, early_childhood_mortality_county, by=c("Name"="county"))
+
+
+  
+```
+
+
+```{r, fig.height=6}
+
+renderGirafe({
+  
+  mort_map2 <- ggplot(early_childhood_mortality_county1[early_childhood_mortality_county1$`category`%in%input$early_childhood_mortality_county1,])+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",proportion)),color="grey80", size=0.0)+
+    theme_void()+
+    scale_fill_brewer(palette = "YlOrBr")+  
+    #scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="", y="",fill="Rate per 1,000\nlive births")+
+    theme(text=element_text(size=14)) 
+  mort_map2x<-girafe(ggobj = mort_map2, width_svg = 5, height_svg = 5,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_sizing(rescale = T),
+                     opts_zoom(max = 4)))
+  print(mort_map2x)
+})#,width = 1500, height=800)
+```
+
+### **Childhood mortality (By County:bars)**
+
+```{r}
+selectInput("early_childhood_mortality_county2", "",
+              c("Infant mortality"="Infant mortality",
+                "Neonatal mortality"="Neonatal mortality",
+                "Under 5 mortality"="Under 5 mortality"))
+```
+
+```{r }
+renderPlot({
+  
+  ggplot(early_childhood_mortality_county[early_childhood_mortality_county$category%in%input$early_childhood_mortality_county2,], aes(x=reorder(county,proportion), y=proportion, fill=proportion_category))+
+    geom_col()+coord_flip()+
+    theme_bw()+ 
+    scale_fill_brewer(palette = "YlOrBr")+
+    #scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    geom_text(aes(label=paste0(round(proportion))), hjust=1, color="black")+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="County", y="Rate per 1,000 live births",fill="Rate per 1,000 live births")+
+    theme(text=element_text(size=15, face="bold")) +ylim(0,100)
+},width = 1200, height=700)
 ```
 
 ### **Perinatal mortality**
 
 ```{r}
-
 selectInput("perinatal_mortality", "",
-              c("Age"="Age",
-                "Pregnancy"="Pregnancy",
+              c("Mother's Age (in years)"="Age",
+                "Previous pregnancy interval (in months)"="Pregnancy",
                 "Residence"="Residence",
-                "Wealth"="Wealth",
-                "By County"="County"))
+                "Mother's education"="Education",
+                "Wealth"="Wealth"))
 
 # import data
 
 perinatal_mortality <-fread("data/table_8/Table_8.4_Perinatal Mortality.csv") %>%
   filter(category!="Pregnancies (28 weeks)")%>%
-  filter(category%in%"Perinatal mortality rate")
+  filter(category%in%"Perinatal mortality rate")%>%
+  mutate(variable=ifelse(characteristic%in%c("No education","Primary","Secondary","More than secondary"),"Education",variable))
 
-perinatal_mortality_county <-fread("data/table_8/Table_8.4C_Perinatal Mortality By County.csv") 
+perinatal_mortality$characteristic <- fct_relevel(perinatal_mortality$characteristic, 
+                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
 
-perinatal_mortality_county <- full_join(county, perinatal_mortality_county, by=c("Name"="county"))%>%
-  filter(category%in%"Perinatal mortality rate")
+perinatal_mortality$characteristic <- fct_relevel(perinatal_mortality$characteristic, 
+                                    "No education", "Primary", "Secondary", "More than secondary")
 
+perinatal_mortality$characteristic <- fct_relevel(perinatal_mortality$characteristic, 
+                                    "First pregnancy", "<15", "15-26", "27-38","39+")
 ```
 
 
 
 ```{r}
 
-renderPlot({if(input$perinatal_mortality!="County"){ggplot(perinatal_mortality[perinatal_mortality$variable%in%input$perinatal_mortality,],aes(x=characteristic, y=proportion, fill=category))+
-  geom_bar(position="dodge", stat="identity")+
-  theme_bw()+scale_fill_brewer(palette = "Set1")+
-  labs( y="Proportion (%)", title="", x="", fill="")+
+renderPlot({
+  ggplot(perinatal_mortality[perinatal_mortality$variable%in%input$perinatal_mortality,],aes(x=characteristic, y=proportion, fill=category))+
+  geom_bar(fill="#74add1",position="dodge", stat="identity")+
+  theme_bw()+
+    #scale_fill_brewer(palette = "Set1")+
+  labs( y="Rate per 1,000", title="", x="", fill="")+
     geom_text(aes(label=paste0(proportion, "%")), position=position_dodge(0.5))+
-  theme(text=element_text(size=16, face="bold"))}
-  else{
-    ggplot(perinatal_mortality_county, aes(geometry=geometry, fill=proportion))+
-      geom_sf()+theme_void()+
-  facet_wrap(~category)+
-  scale_fill_gradient(low = "white", high = "#8c2d04")+
-  labs(x="", y="",fill="Proportion (%)")+
-  theme(text=element_text(size=14))
-  }}, width=1600, height=700 )
+  theme(text=element_text(size=16, face="bold"), legend.position = "none")+ylim(0,100)
+  }, width=1600, height=700 )
+```
 
+### **Perinatal mortality (By County):map**
 
+```{r, include=FALSE}
+perinatal_mortality_county <-fread("data/table_8/Table_8.4C_Perinatal Mortality By County.csv")%>%
+  mutate(county=recode(county,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))%>%
+  mutate(proportion_category=ifelse(proportion<20,"<20", ifelse(proportion>19&proportion<41,"20-40",">40")))%>%
+  filter(category%in%"Perinatal mortality rate")
+
+perinatal_mortality_county$proportion_category <- as.factor(fct_relevel(perinatal_mortality_county$proportion_category, c( "<20", "20-40", ">40")))
+
+perinatal_mortality_county1 <- full_join(county, perinatal_mortality_county, by=c("Name"="county"))
+```
+
+```{r, fig.height=6}
+
+renderGirafe({
+  
+  mort_map2 <- ggplot(perinatal_mortality_county1)+
+  geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",proportion)),color="grey80", size=0.0)+
+    theme_void()+
+    scale_fill_brewer(palette = "YlOrBr")+  
+    #scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="", y="",fill="Rate per 1,000")+
+    theme(text=element_text(size=14)) 
+  mort_map2x<-girafe(ggobj = mort_map2, width_svg = 5, height_svg = 5,
+                   options = list(
+                     opts_hover(css = "fill:#666666;cursor:pointer;"),
+                     opts_selection(css = "fill:orange;", type = "multiple"),
+                     opts_sizing(rescale = T),
+                     opts_zoom(max = 4)))
+  print(mort_map2x)
+})#,width = 1500, height=800)
+```
+
+### **Perinatal mortality (By County):bar**
+
+```{r }
+renderPlot({
+  
+  ggplot(perinatal_mortality_county, aes(x=reorder(county,proportion), y=proportion, fill=proportion_category))+
+    geom_col()+coord_flip()+
+    theme_bw()+ 
+    scale_fill_brewer(palette = "YlOrBr")+
+    #scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
+    geom_text(aes(label=paste0(round(proportion))), hjust=1, color="black")+
+    #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+    labs(x="County", y="Rate per 1,000",fill="Rate per 1,000")+
+    theme(text=element_text(size=15, face="bold")) +ylim(0,100)
+},width = 1200, height=700)
 ```
 
 # Mother's health {data-navmenu="Key Indicators"}
