@@ -1,0 +1,283 @@
+County,Category,Proportion,Names
+Mombasa,"Aware of self examination
+ for breast cancer",49.1,"Mombasa, 49.1%"
+Mombasa,"Examined
+ for breast cancer",15.5,"Mombasa, 15.5%"
+Mombasa,"Diagnosed with
+ breast cancer",0.5,"Mombasa, 0.5%"
+Kwale,"Aware of self examination
+ for breast cancer",24.5,"Kwale, 24.5%"
+Kwale,"Examined
+ for breast cancer",2,"Kwale, 2%"
+Kwale,"Diagnosed with
+ breast cancer",0.6,"Kwale, 0.6%"
+Kilifi,"Aware of self examination
+ for breast cancer",25.4,"Kilifi, 25.4%"
+Kilifi,"Examined
+ for breast cancer",9.3,"Kilifi, 9.3%"
+Kilifi,"Diagnosed with
+ breast cancer",0.4,"Kilifi, 0.4%"
+Tana River,"Aware of self examination
+ for breast cancer",18.1,"Tana River, 18.1%"
+Tana River,"Examined
+ for breast cancer",2,"Tana River, 2%"
+Tana River,"Diagnosed with
+ breast cancer",0,"Tana River, 0%"
+Lamu,"Aware of self examination
+ for breast cancer",28.2,"Lamu, 28.2%"
+Lamu,"Examined
+ for breast cancer",11.2,"Lamu, 11.2%"
+Lamu,"Diagnosed with
+ breast cancer",0,"Lamu, 0%"
+Taita Taveta,"Aware of self examination
+ for breast cancer",29.7,"Taita Taveta, 29.7%"
+Taita Taveta,"Examined
+ for breast cancer",6.1,"Taita Taveta, 6.1%"
+Taita Taveta,"Diagnosed with
+ breast cancer",0,"Taita Taveta, 0%"
+Garissa,"Aware of self examination
+ for breast cancer",9.6,"Garissa, 9.6%"
+Garissa,"Examined
+ for breast cancer",1.5,"Garissa, 1.5%"
+Garissa,"Diagnosed with
+ breast cancer",0,"Garissa, 0%"
+Wajir,"Aware of self examination
+ for breast cancer",41.1,"Wajir, 41.1%"
+Wajir,"Examined
+ for breast cancer",2,"Wajir, 2%"
+Wajir,"Diagnosed with
+ breast cancer",0,"Wajir, 0%"
+Mandera,"Aware of self examination
+ for breast cancer",0.7,"Mandera, 0.7%"
+Mandera,"Examined
+ for breast cancer",0.3,"Mandera, 0.3%"
+Mandera,"Diagnosed with
+ breast cancer",0,"Mandera, 0%"
+Marsabit,"Aware of self examination
+ for breast cancer",4.9,"Marsabit, 4.9%"
+Marsabit,"Examined
+ for breast cancer",1.1,"Marsabit, 1.1%"
+Marsabit,"Diagnosed with
+ breast cancer",0.2,"Marsabit, 0.2%"
+Isiolo,"Aware of self examination
+ for breast cancer",48.9,"Isiolo, 48.9%"
+Isiolo,"Examined
+ for breast cancer",6.1,"Isiolo, 6.1%"
+Isiolo,"Diagnosed with
+ breast cancer",0,"Isiolo, 0%"
+Meru,"Aware of self examination
+ for breast cancer",63.2,"Meru, 63.2%"
+Meru,"Examined
+ for breast cancer",19.9,"Meru, 19.9%"
+Meru,"Diagnosed with
+ breast cancer",0,"Meru, 0%"
+Tharaka Nithi,"Aware of self examination
+ for breast cancer",44.5,"Tharaka Nithi, 44.5%"
+Tharaka Nithi,"Examined
+ for breast cancer",18.9,"Tharaka Nithi, 18.9%"
+Tharaka Nithi,"Diagnosed with
+ breast cancer",0,"Tharaka Nithi, 0%"
+Embu,"Aware of self examination
+ for breast cancer",62.3,"Embu, 62.3%"
+Embu,"Examined
+ for breast cancer",18,"Embu, 18%"
+Embu,"Diagnosed with
+ breast cancer",0,"Embu, 0%"
+Kitui,"Aware of self examination
+ for breast cancer",26.4,"Kitui, 26.4%"
+Kitui,"Examined
+ for breast cancer",6.3,"Kitui, 6.3%"
+Kitui,"Diagnosed with
+ breast cancer",0,"Kitui, 0%"
+Machakos,"Aware of self examination
+ for breast cancer",49,"Machakos, 49%"
+Machakos,"Examined
+ for breast cancer",12.1,"Machakos, 12.1%"
+Machakos,"Diagnosed with
+ breast cancer",0,"Machakos, 0%"
+Makueni,"Aware of self examination
+ for breast cancer",34.8,"Makueni, 34.8%"
+Makueni,"Examined
+ for breast cancer",4,"Makueni, 4%"
+Makueni,"Diagnosed with
+ breast cancer",0,"Makueni, 0%"
+Nyandarua,"Aware of self examination
+ for breast cancer",49.4,"Nyandarua, 49.4%"
+Nyandarua,"Examined
+ for breast cancer",18.5,"Nyandarua, 18.5%"
+Nyandarua,"Diagnosed with
+ breast cancer",0.1,"Nyandarua, 0.1%"
+Nyeri,"Aware of self examination
+ for breast cancer",68.5,"Nyeri, 68.5%"
+Nyeri,"Examined
+ for breast cancer",24.6,"Nyeri, 24.6%"
+Nyeri,"Diagnosed with
+ breast cancer",0,"Nyeri, 0%"
+Kirinyaga,"Aware of self examination
+ for breast cancer",57.5,"Kirinyaga, 57.5%"
+Kirinyaga,"Examined
+ for breast cancer",20.8,"Kirinyaga, 20.8%"
+Kirinyaga,"Diagnosed with
+ breast cancer",0,"Kirinyaga, 0%"
+Muranga,"Aware of self examination
+ for breast cancer",55.6,"Muranga, 55.6%"
+Muranga,"Examined
+ for breast cancer",23.1,"Muranga, 23.1%"
+Muranga,"Diagnosed with
+ breast cancer",0.6,"Muranga, 0.6%"
+Kiambu,"Aware of self examination
+ for breast cancer",54.5,"Kiambu, 54.5%"
+Kiambu,"Examined
+ for breast cancer",21.3,"Kiambu, 21.3%"
+Kiambu,"Diagnosed with
+ breast cancer",0.2,"Kiambu, 0.2%"
+Turkana,"Aware of self examination
+ for breast cancer",28.2,"Turkana, 28.2%"
+Turkana,"Examined
+ for breast cancer",6,"Turkana, 6%"
+Turkana,"Diagnosed with
+ breast cancer",0,"Turkana, 0%"
+West Pokot,"Aware of self examination
+ for breast cancer",11.7,"West Pokot, 11.7%"
+West Pokot,"Examined
+ for breast cancer",4.3,"West Pokot, 4.3%"
+West Pokot,"Diagnosed with
+ breast cancer",0,"West Pokot, 0%"
+Samburu,"Aware of self examination
+ for breast cancer",19.3,"Samburu, 19.3%"
+Samburu,"Examined
+ for breast cancer",6,"Samburu, 6%"
+Samburu,"Diagnosed with
+ breast cancer",0.4,"Samburu, 0.4%"
+Trans Nzoia,"Aware of self examination
+ for breast cancer",56.2,"Trans Nzoia, 56.2%"
+Trans Nzoia,"Examined
+ for breast cancer",20.5,"Trans Nzoia, 20.5%"
+Trans Nzoia,"Diagnosed with
+ breast cancer",0.4,"Trans Nzoia, 0.4%"
+Uasin Gishu,"Aware of self examination
+ for breast cancer",58.1,"Uasin Gishu, 58.1%"
+Uasin Gishu,"Examined
+ for breast cancer",14.2,"Uasin Gishu, 14.2%"
+Uasin Gishu,"Diagnosed with
+ breast cancer",0.3,"Uasin Gishu, 0.3%"
+Elgeyo Marakwet,"Aware of self examination
+ for breast cancer",25,"Elgeyo Marakwet, 25%"
+Elgeyo Marakwet,"Examined
+ for breast cancer",9.5,"Elgeyo Marakwet, 9.5%"
+Elgeyo Marakwet,"Diagnosed with
+ breast cancer",0.3,"Elgeyo Marakwet, 0.3%"
+Nandi,"Aware of self examination
+ for breast cancer",32.2,"Nandi, 32.2%"
+Nandi,"Examined
+ for breast cancer",5.1,"Nandi, 5.1%"
+Nandi,"Diagnosed with
+ breast cancer",0,"Nandi, 0%"
+Baringo,"Aware of self examination
+ for breast cancer",36.6,"Baringo, 36.6%"
+Baringo,"Examined
+ for breast cancer",8,"Baringo, 8%"
+Baringo,"Diagnosed with
+ breast cancer",0.5,"Baringo, 0.5%"
+Laikipia,"Aware of self examination
+ for breast cancer",49,"Laikipia, 49%"
+Laikipia,"Examined
+ for breast cancer",18.8,"Laikipia, 18.8%"
+Laikipia,"Diagnosed with
+ breast cancer",0.4,"Laikipia, 0.4%"
+Nakuru,"Aware of self examination
+ for breast cancer",58.2,"Nakuru, 58.2%"
+Nakuru,"Examined
+ for breast cancer",21.1,"Nakuru, 21.1%"
+Nakuru,"Diagnosed with
+ breast cancer",0.3,"Nakuru, 0.3%"
+Narok,"Aware of self examination
+ for breast cancer",28.8,"Narok, 28.8%"
+Narok,"Examined
+ for breast cancer",7,"Narok, 7%"
+Narok,"Diagnosed with
+ breast cancer",0,"Narok, 0%"
+Kajiado,"Aware of self examination
+ for breast cancer",55.3,"Kajiado, 55.3%"
+Kajiado,"Examined
+ for breast cancer",17.7,"Kajiado, 17.7%"
+Kajiado,"Diagnosed with
+ breast cancer",0,"Kajiado, 0%"
+Kericho,"Aware of self examination
+ for breast cancer",63.1,"Kericho, 63.1%"
+Kericho,"Examined
+ for breast cancer",4.8,"Kericho, 4.8%"
+Kericho,"Diagnosed with
+ breast cancer",0.4,"Kericho, 0.4%"
+Bomet,"Aware of self examination
+ for breast cancer",43.1,"Bomet, 43.1%"
+Bomet,"Examined
+ for breast cancer",9.8,"Bomet, 9.8%"
+Bomet,"Diagnosed with
+ breast cancer",0.3,"Bomet, 0.3%"
+Kakamega,"Aware of self examination
+ for breast cancer",34.2,"Kakamega, 34.2%"
+Kakamega,"Examined
+ for breast cancer",12.2,"Kakamega, 12.2%"
+Kakamega,"Diagnosed with
+ breast cancer",0.4,"Kakamega, 0.4%"
+Vihiga,"Aware of self examination
+ for breast cancer",39.6,"Vihiga, 39.6%"
+Vihiga,"Examined
+ for breast cancer",5.4,"Vihiga, 5.4%"
+Vihiga,"Diagnosed with
+ breast cancer",0,"Vihiga, 0%"
+Bungoma,"Aware of self examination
+ for breast cancer",39.6,"Bungoma, 39.6%"
+Bungoma,"Examined
+ for breast cancer",18.9,"Bungoma, 18.9%"
+Bungoma,"Diagnosed with
+ breast cancer",0.5,"Bungoma, 0.5%"
+Busia,"Aware of self examination
+ for breast cancer",42.6,"Busia, 42.6%"
+Busia,"Examined
+ for breast cancer",2.9,"Busia, 2.9%"
+Busia,"Diagnosed with
+ breast cancer",0,"Busia, 0%"
+Siaya,"Aware of self examination
+ for breast cancer",29.9,"Siaya, 29.9%"
+Siaya,"Examined
+ for breast cancer",3.6,"Siaya, 3.6%"
+Siaya,"Diagnosed with
+ breast cancer",0.3,"Siaya, 0.3%"
+Kisumu,"Aware of self examination
+ for breast cancer",38.3,"Kisumu, 38.3%"
+Kisumu,"Examined
+ for breast cancer",11.6,"Kisumu, 11.6%"
+Kisumu,"Diagnosed with
+ breast cancer",0.3,"Kisumu, 0.3%"
+Homa Bay,"Aware of self examination
+ for breast cancer",37.9,"Homa Bay, 37.9%"
+Homa Bay,"Examined
+ for breast cancer",14,"Homa Bay, 14%"
+Homa Bay,"Diagnosed with
+ breast cancer",0,"Homa Bay, 0%"
+Migori,"Aware of self examination
+ for breast cancer",27.3,"Migori, 27.3%"
+Migori,"Examined
+ for breast cancer",10.7,"Migori, 10.7%"
+Migori,"Diagnosed with
+ breast cancer",0,"Migori, 0%"
+Kisii,"Aware of self examination
+ for breast cancer",34.9,"Kisii, 34.9%"
+Kisii,"Examined
+ for breast cancer",8.8,"Kisii, 8.8%"
+Kisii,"Diagnosed with
+ breast cancer",0,"Kisii, 0%"
+Nyamira,"Aware of self examination
+ for breast cancer",32.1,"Nyamira, 32.1%"
+Nyamira,"Examined
+ for breast cancer",8.8,"Nyamira, 8.8%"
+Nyamira,"Diagnosed with
+ breast cancer",0.6,"Nyamira, 0.6%"
+Nairobi,"Aware of self examination
+ for breast cancer",56.5,"Nairobi, 56.5%"
+Nairobi,"Examined
+ for breast cancer",20.4,"Nairobi, 20.4%"
+Nairobi,"Diagnosed with
+ breast cancer",0,"Nairobi, 0%"
