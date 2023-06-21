@@ -1,0 +1,95 @@
+County,Category,Proportion,proportion_groups
+Mombasa,Use in all households,54.9,>46-67
+Mombasa,Use in households with 1/+ ITN,76.7,>75-82
+Kwale,Use in all households,66.4,>46-67
+Kwale,Use in households with 1/+ ITN,82.7,>82
+Kilifi,Use in all households,72.4,>67-75
+Kilifi,Use in households with 1/+ ITN,82.5,>82
+Tana River,Use in all households,65.5,>46-67
+Tana River,Use in households with 1/+ ITN,84.3,>82
+Lamu,Use in all households,60.9,>46-67
+Lamu,Use in households with 1/+ ITN,83,>82
+Taita Taveta,Use in all households,83.3,>82
+Taita Taveta,Use in households with 1/+ ITN,90.2,>82
+Garissa,Use in all households,12.8,≤ 46
+Garissa,Use in households with 1/+ ITN,58.5,>46-67
+Wajir,Use in all households,21.7,≤ 46
+Wajir,Use in households with 1/+ ITN,51.3,>46-67
+Mandera,Use in all households,9.3,≤ 46
+Mandera,Use in households with 1/+ ITN,54.8,>46-67
+Marsabit,Use in all households,8.9,≤ 46
+Marsabit,Use in households with 1/+ ITN,31.2,≤ 46
+Isiolo,Use in all households,49.2,>46-67
+Isiolo,Use in households with 1/+ ITN,79.2,>75-82
+Meru,Use in all households,45.7,≤ 46
+Meru,Use in households with 1/+ ITN,75,>67-75
+Tharaka Nithi,Use in all households,57.3,>46-67
+Tharaka Nithi,Use in households with 1/+ ITN,82.8,>82
+Embu,Use in all households,58.2,>46-67
+Embu,Use in households with 1/+ ITN,85.4,>82
+Kitui,Use in all households,42.3,≤ 46
+Kitui,Use in households with 1/+ ITN,77.3,>75-82
+Machakos,Use in all households,64.7,>46-67
+Machakos,Use in households with 1/+ ITN,85.5,>82
+Makueni,Use in all households,46.9,>46-67
+Makueni,Use in households with 1/+ ITN,74.9,>67-75
+Nyandarua,Use in all households,8.6,≤ 46
+Nyandarua,Use in households with 1/+ ITN,NA,NA
+Nyeri,Use in all households,19,≤ 46
+Nyeri,Use in households with 1/+ ITN,66.6,>46-67
+Kirinyaga,Use in all households,67.2,>67-75
+Kirinyaga,Use in households with 1/+ ITN,86.1,>82
+Muranga,Use in all households,45.1,≤ 46
+Muranga,Use in households with 1/+ ITN,68.7,>67-75
+Kiambu,Use in all households,28.9,≤ 46
+Kiambu,Use in households with 1/+ ITN,70.2,>67-75
+Turkana,Use in all households,33.3,≤ 46
+Turkana,Use in households with 1/+ ITN,65.1,>46-67
+West Pokot,Use in all households,57.6,>46-67
+West Pokot,Use in households with 1/+ ITN,70.9,>67-75
+Samburu,Use in all households,9.9,≤ 46
+Samburu,Use in households with 1/+ ITN,51.5,>46-67
+Trans Nzoia,Use in all households,75.7,>75-82
+Trans Nzoia,Use in households with 1/+ ITN,84,>82
+Uasin Gishu,Use in all households,65.8,>46-67
+Uasin Gishu,Use in households with 1/+ ITN,74.5,>67-75
+Elgeyo Marakwet,Use in all households,16.6,≤ 46
+Elgeyo Marakwet,Use in households with 1/+ ITN,41.3,≤ 46
+Nandi,Use in all households,71.7,>67-75
+Nandi,Use in households with 1/+ ITN,78.5,>75-82
+Baringo,Use in all households,53.8,>46-67
+Baringo,Use in households with 1/+ ITN,76.8,>75-82
+Laikipia,Use in all households,23.7,≤ 46
+Laikipia,Use in households with 1/+ ITN,71.6,>67-75
+Nakuru,Use in all households,22.9,≤ 46
+Nakuru,Use in households with 1/+ ITN,67.7,>67-75
+Narok,Use in all households,56.6,>46-67
+Narok,Use in households with 1/+ ITN,67.1,>67-75
+Kajiado,Use in all households,39.9,≤ 46
+Kajiado,Use in households with 1/+ ITN,73.5,>67-75
+Kericho,Use in all households,73.6,>67-75
+Kericho,Use in households with 1/+ ITN,81.3,>75-82
+Bomet,Use in all households,75.8,>75-82
+Bomet,Use in households with 1/+ ITN,79.5,>75-82
+Kakamega,Use in all households,71.8,>67-75
+Kakamega,Use in households with 1/+ ITN,77.5,>75-82
+Vihiga,Use in all households,79.3,>75-82
+Vihiga,Use in households with 1/+ ITN,82.2,>82
+Bungoma,Use in all households,74.2,>67-75
+Bungoma,Use in households with 1/+ ITN,77.8,>75-82
+Busia,Use in all households,83.8,>82
+Busia,Use in households with 1/+ ITN,85.6,>82
+Siaya,Use in all households,77,>75-82
+Siaya,Use in households with 1/+ ITN,82.3,>82
+Kisumu,Use in all households,68.9,>67-75
+Kisumu,Use in households with 1/+ ITN,81.1,>75-82
+Homa Bay,Use in all households,69.7,>67-75
+Homa Bay,Use in households with 1/+ ITN,75,>67-75
+Migori,Use in all households,75.5,>75-82
+Migori,Use in households with 1/+ ITN,81.4,>75-82
+Kisii,Use in all households,75.4,>75-82
+Kisii,Use in households with 1/+ ITN,82.7,>82
+Nyamira,Use in all households,81.1,>75-82
+Nyamira,Use in households with 1/+ ITN,83.3,>82
+Nairobi,Use in all households,23.9,≤ 46
+Nairobi,Use in households with 1/+ ITN,72.9,>67-75
