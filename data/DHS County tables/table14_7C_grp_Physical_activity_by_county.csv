@@ -1,0 +1,95 @@
+County,Activity.time,Participants,Names,time_groups
+Mombasa,9.5,Women,"Mombasa, 9.5",≤ 69
+Kwale,209.6,Women,"Kwale, 209.6",>180-300
+Kilifi,359,Women,"Kilifi, 359",>300-719
+Tana River,NA,Women,"Tana River, NA",NA
+Lamu,179.2,Women,"Lamu, 179.2",>69-180
+Taita Taveta,59.5,Women,"Taita Taveta, 59.5",≤ 69
+Garissa,NA,Women,"Garissa, NA",NA
+Wajir,NA,Women,"Wajir, NA",NA
+Mandera,479.3,Women,"Mandera, 479.3",>300-719
+Marsabit,59.6,Women,"Marsabit, 59.6",≤ 69
+Isiolo,6,Women,"Isiolo, 6",≤ 69
+Meru,520,Women,"Meru, 520",>300-719
+Tharaka Nithi,179.9,Women,"Tharaka Nithi, 179.9",>69-180
+Embu,139.3,Women,"Embu, 139.3",>69-180
+Kitui,19.6,Women,"Kitui, 19.6",≤ 69
+Machakos,139.6,Women,"Machakos, 139.6",>69-180
+Makueni,NA,Women,"Makueni, NA",NA
+Nyandarua,179.3,Women,"Nyandarua, 179.3",>69-180
+Nyeri,59.3,Women,"Nyeri, 59.3",≤ 69
+Kirinyaga,59.1,Women,"Kirinyaga, 59.1",≤ 69
+Muranga,899.4,Women,"Muranga, 899.4",>719
+Kiambu,719.7,Women,"Kiambu, 719.7",>719
+Turkana,299.1,Women,"Turkana, 299.1",>180-300
+West Pokot,119.5,Women,"West Pokot, 119.5",>69-180
+Samburu,300,Women,"Samburu, 300",>180-300
+Trans Nzoia,719.6,Women,"Trans Nzoia, 719.6",>719
+Uasin Gishu,59.7,Women,"Uasin Gishu, 59.7",≤ 69
+Elgeyo Marakwet,199.1,Women,"Elgeyo Marakwet, 199.1",>180-300
+Nandi,749.3,Women,"Nandi, 749.3",>719
+Baringo,29.4,Women,"Baringo, 29.4",≤ 69
+Laikipia,179.2,Women,"Laikipia, 179.2",>69-180
+Nakuru,NA,Women,"Nakuru, NA",NA
+Narok,119.2,Women,"Narok, 119.2",>69-180
+Kajiado,149.9,Women,"Kajiado, 149.9",>69-180
+Kericho,119,Women,"Kericho, 119",>69-180
+Bomet,719.5,Women,"Bomet, 719.5",>719
+Kakamega,479.7,Women,"Kakamega, 479.7",>300-719
+Vihiga,99.1,Women,"Vihiga, 99.1",>69-180
+Bungoma,239.4,Women,"Bungoma, 239.4",>180-300
+Busia,44.5,Women,"Busia, 44.5",≤ 69
+Siaya,119.8,Women,"Siaya, 119.8",>69-180
+Kisumu,24.1,Women,"Kisumu, 24.1",≤ 69
+Homa Bay,720,Women,"Homa Bay, 720",>719
+Migori,299.5,Women,"Migori, 299.5",>180-300
+Kisii,359.6,Women,"Kisii, 359.6",>300-719
+Nyamira,239.6,Women,"Nyamira, 239.6",>180-300
+Nairobi,69.4,Women,"Nairobi, 69.4",>69-180
+Mombasa,419.5,Men,"Mombasa, 419.5",>300-719
+Kwale,240,Men,"Kwale, 240",>180-300
+Kilifi,629,Men,"Kilifi, 629",>300-719
+Tana River,NA,Men,"Tana River, NA",NA
+Lamu,59.5,Men,"Lamu, 59.5",≤ 69
+Taita Taveta,NA,Men,"Taita Taveta, NA",NA
+Garissa,239.3,Men,"Garissa, 239.3",>180-300
+Wajir,99.9,Men,"Wajir, 99.9",>69-180
+Mandera,599.7,Men,"Mandera, 599.7",>300-719
+Marsabit,239.7,Men,"Marsabit, 239.7",>180-300
+Isiolo,179.7,Men,"Isiolo, 179.7",>69-180
+Meru,719.4,Men,"Meru, 719.4",>719
+Tharaka Nithi,NA,Men,"Tharaka Nithi, NA",NA
+Embu,959.8,Men,"Embu, 959.8",>719
+Kitui,719.4,Men,"Kitui, 719.4",>719
+Machakos,420,Men,"Machakos, 420",>300-719
+Makueni,NA,Men,"Makueni, NA",NA
+Nyandarua,NA,Men,"Nyandarua, NA",NA
+Nyeri,299.1,Men,"Nyeri, 299.1",>180-300
+Kirinyaga,NA,Men,"Kirinyaga, NA",NA
+Muranga,NA,Men,"Muranga, NA",NA
+Kiambu,839,Men,"Kiambu, 839",>719
+Turkana,NA,Men,"Turkana, NA",NA
+West Pokot,899.8,Men,"West Pokot, 899.8",>719
+Samburu,720,Men,"Samburu, 720",>719
+Trans Nzoia,59.6,Men,"Trans Nzoia, 59.6",≤ 69
+Uasin Gishu,839.8,Men,"Uasin Gishu, 839.8",>719
+Elgeyo Marakwet,719.9,Men,"Elgeyo Marakwet, 719.9",>719
+Nandi,6.3,Men,"Nandi, 6.3",≤ 69
+Baringo,719.9,Men,"Baringo, 719.9",>719
+Laikipia,NA,Men,"Laikipia, NA",NA
+Nakuru,NA,Men,"Nakuru, NA",NA
+Narok,600,Men,"Narok, 600",>300-719
+Kajiado,180,Men,"Kajiado, 180",>69-180
+Kericho,89.5,Men,"Kericho, 89.5",>69-180
+Bomet,NA,Men,"Bomet, NA",NA
+Kakamega,359.9,Men,"Kakamega, 359.9",>300-719
+Vihiga,419.1,Men,"Vihiga, 419.1",>300-719
+Bungoma,539.6,Men,"Bungoma, 539.6",>300-719
+Busia,239.9,Men,"Busia, 239.9",>180-300
+Siaya,239.2,Men,"Siaya, 239.2",>180-300
+Kisumu,719.1,Men,"Kisumu, 719.1",>719
+Homa Bay,NA,Men,"Homa Bay, NA",NA
+Migori,NA,Men,"Migori, NA",NA
+Kisii,239.3,Men,"Kisii, 239.3",>180-300
+Nyamira,59,Men,"Nyamira, 59",≤ 69
+Nairobi,119.7,Men,"Nairobi, 119.7",>69-180
