@@ -1,0 +1,95 @@
+County,Category,Proportion,proportion_groups
+Mombasa,Households with 1/+ ITN,63.3,>57-76
+Mombasa,Households with 1/+ ITN per 2 persons,45.5,>39-57
+Kwale,Households with 1/+ ITN,74,>57-76
+Kwale,Households with 1/+ ITN per 2 persons,47.5,>39-57
+Kilifi,Households with 1/+ ITN,74.4,>57-76
+Kilifi,Households with 1/+ ITN per 2 persons,48.2,>39-57
+Tana River,Households with 1/+ ITN,71.3,>57-76
+Tana River,Households with 1/+ ITN per 2 persons,34.3,>20-39
+Lamu,Households with 1/+ ITN,65.9,>57-76
+Lamu,Households with 1/+ ITN per 2 persons,43.3,>39-57
+Taita Taveta,Households with 1/+ ITN,87.3,>76
+Taita Taveta,Households with 1/+ ITN per 2 persons,74.3,>57-76
+Garissa,Households with 1/+ ITN,19.7,≤ 20
+Garissa,Households with 1/+ ITN per 2 persons,6.8,≤ 20
+Wajir,Households with 1/+ ITN,43.6,>39-57
+Wajir,Households with 1/+ ITN per 2 persons,15.5,≤ 20
+Mandera,Households with 1/+ ITN,15.7,≤ 20
+Mandera,Households with 1/+ ITN per 2 persons,4.8,≤ 20
+Marsabit,Households with 1/+ ITN,27.1,>20-39
+Marsabit,Households with 1/+ ITN per 2 persons,7.4,≤ 20
+Isiolo,Households with 1/+ ITN,51.7,>39-57
+Isiolo,Households with 1/+ ITN per 2 persons,23.4,>20-39
+Meru,Households with 1/+ ITN,36.2,>20-39
+Meru,Households with 1/+ ITN per 2 persons,16.8,≤ 20
+Tharaka Nithi,Households with 1/+ ITN,52.8,>39-57
+Tharaka Nithi,Households with 1/+ ITN per 2 persons,34.7,>20-39
+Embu,Households with 1/+ ITN,40.1,>39-57
+Embu,Households with 1/+ ITN per 2 persons,24.1,>20-39
+Kitui,Households with 1/+ ITN,33,>20-39
+Kitui,Households with 1/+ ITN per 2 persons,15.1,≤ 20
+Machakos,Households with 1/+ ITN,55.9,>39-57
+Machakos,Households with 1/+ ITN per 2 persons,38.8,>20-39
+Makueni,Households with 1/+ ITN,48.1,>39-57
+Makueni,Households with 1/+ ITN per 2 persons,25.8,>20-39
+Nyandarua,Households with 1/+ ITN,9.9,≤ 20
+Nyandarua,Households with 1/+ ITN per 2 persons,5.8,≤ 20
+Nyeri,Households with 1/+ ITN,18.1,≤ 20
+Nyeri,Households with 1/+ ITN per 2 persons,12.1,≤ 20
+Kirinyaga,Households with 1/+ ITN,57.3,>57-76
+Kirinyaga,Households with 1/+ ITN per 2 persons,47.4,>39-57
+Muranga,Households with 1/+ ITN,35.9,>20-39
+Muranga,Households with 1/+ ITN per 2 persons,22,>20-39
+Kiambu,Households with 1/+ ITN,27.8,>20-39
+Kiambu,Households with 1/+ ITN per 2 persons,16,≤ 20
+Turkana,Households with 1/+ ITN,49.4,>39-57
+Turkana,Households with 1/+ ITN per 2 persons,18.8,≤ 20
+West Pokot,Households with 1/+ ITN,78.8,>76
+West Pokot,Households with 1/+ ITN per 2 persons,41.5,>39-57
+Samburu,Households with 1/+ ITN,19.9,≤ 20
+Samburu,Households with 1/+ ITN per 2 persons,7.4,≤ 20
+Trans Nzoia,Households with 1/+ ITN,86,>76
+Trans Nzoia,Households with 1/+ ITN per 2 persons,69.3,>57-76
+Uasin Gishu,Households with 1/+ ITN,69.3,>57-76
+Uasin Gishu,Households with 1/+ ITN per 2 persons,56.8,>39-57
+Elgeyo Marakwet,Households with 1/+ ITN,25.3,>20-39
+Elgeyo Marakwet,Households with 1/+ ITN per 2 persons,10.1,≤ 20
+Nandi,Households with 1/+ ITN,84,>76
+Nandi,Households with 1/+ ITN per 2 persons,69,>57-76
+Baringo,Households with 1/+ ITN,63.8,>57-76
+Baringo,Households with 1/+ ITN per 2 persons,37.6,>20-39
+Laikipia,Households with 1/+ ITN,24.9,>20-39
+Laikipia,Households with 1/+ ITN per 2 persons,15.9,≤ 20
+Nakuru,Households with 1/+ ITN,27.5,>20-39
+Nakuru,Households with 1/+ ITN per 2 persons,15.3,≤ 20
+Narok,Households with 1/+ ITN,76,>57-76
+Narok,Households with 1/+ ITN per 2 persons,54,>39-57
+Kajiado,Households with 1/+ ITN,38.8,>20-39
+Kajiado,Households with 1/+ ITN per 2 persons,20.9,>20-39
+Kericho,Households with 1/+ ITN,84.1,>76
+Kericho,Households with 1/+ ITN per 2 persons,65.9,>57-76
+Bomet,Households with 1/+ ITN,92.3,>76
+Bomet,Households with 1/+ ITN per 2 persons,77.3,>76
+Kakamega,Households with 1/+ ITN,89.1,>76
+Kakamega,Households with 1/+ ITN per 2 persons,66.9,>57-76
+Vihiga,Households with 1/+ ITN,92.5,>76
+Vihiga,Households with 1/+ ITN per 2 persons,75.8,>57-76
+Bungoma,Households with 1/+ ITN,89.4,>76
+Bungoma,Households with 1/+ ITN per 2 persons,70.6,>57-76
+Busia,Households with 1/+ ITN,93.5,>76
+Busia,Households with 1/+ ITN per 2 persons,67.4,>57-76
+Siaya,Households with 1/+ ITN,86.7,>76
+Siaya,Households with 1/+ ITN per 2 persons,58.6,>57-76
+Kisumu,Households with 1/+ ITN,76,>57-76
+Kisumu,Households with 1/+ ITN per 2 persons,47,>39-57
+Homa Bay,Households with 1/+ ITN,89.2,>76
+Homa Bay,Households with 1/+ ITN per 2 persons,60.2,>57-76
+Migori,Households with 1/+ ITN,87.7,>76
+Migori,Households with 1/+ ITN per 2 persons,54.2,>39-57
+Kisii,Households with 1/+ ITN,85,>76
+Kisii,Households with 1/+ ITN per 2 persons,67.4,>57-76
+Nyamira,Households with 1/+ ITN,93.6,>76
+Nyamira,Households with 1/+ ITN per 2 persons,80,>76
+Nairobi,Households with 1/+ ITN,23.4,>20-39
+Nairobi,Households with 1/+ ITN per 2 persons,14.3,≤ 20
