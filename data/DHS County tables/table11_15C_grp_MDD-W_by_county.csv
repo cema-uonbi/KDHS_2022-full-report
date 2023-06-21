@@ -1,0 +1,142 @@
+County,Category,Proportion,Names,proportion_groups
+Mombasa,MDD-W,38.2,"Mombasa, 38.2%",>34-43
+Mombasa,Sweet Beverage Consumption,23.8,"Mombasa, 23.8%",>18-34
+Mombasa,Unhealthy food consumption,44.9,"Mombasa, 44.9%",>43
+Kwale,MDD-W,14.6,"Kwale, 14.6%",>10-18
+Kwale,Sweet Beverage Consumption,3.9,"Kwale, 3.9%",≤ 10
+Kwale,Unhealthy food consumption,40.5,"Kwale, 40.5%",>34-43
+Kilifi,MDD-W,22.3,"Kilifi, 22.3%",>18-34
+Kilifi,Sweet Beverage Consumption,7.9,"Kilifi, 7.9%",≤ 10
+Kilifi,Unhealthy food consumption,36.7,"Kilifi, 36.7%",>34-43
+Tana River,MDD-W,16.7,"Tana River, 16.7%",>10-18
+Tana River,Sweet Beverage Consumption,7.3,"Tana River, 7.3%",≤ 10
+Tana River,Unhealthy food consumption,12.6,"Tana River, 12.6%",>10-18
+Lamu,MDD-W,34.2,"Lamu, 34.2%",>34-43
+Lamu,Sweet Beverage Consumption,25.4,"Lamu, 25.4%",>18-34
+Lamu,Unhealthy food consumption,41.6,"Lamu, 41.6%",>34-43
+Taita Taveta,MDD-W,32.1,"Taita Taveta, 32.1%",>18-34
+Taita Taveta,Sweet Beverage Consumption,8.7,"Taita Taveta, 8.7%",≤ 10
+Taita Taveta,Unhealthy food consumption,24.5,"Taita Taveta, 24.5%",>18-34
+Garissa,MDD-W,66.4,"Garissa, 66.4%",>43
+Garissa,Sweet Beverage Consumption,25.7,"Garissa, 25.7%",>18-34
+Garissa,Unhealthy food consumption,20,"Garissa, 20%",>18-34
+Wajir,MDD-W,31.2,"Wajir, 31.2%",>18-34
+Wajir,Sweet Beverage Consumption,21.3,"Wajir, 21.3%",>18-34
+Wajir,Unhealthy food consumption,15.1,"Wajir, 15.1%",>10-18
+Mandera,MDD-W,17.5,"Mandera, 17.5%",>10-18
+Mandera,Sweet Beverage Consumption,9.3,"Mandera, 9.3%",≤ 10
+Mandera,Unhealthy food consumption,5.7,"Mandera, 5.7%",≤ 10
+Marsabit,MDD-W,11.2,"Marsabit, 11.2%",>10-18
+Marsabit,Sweet Beverage Consumption,5.6,"Marsabit, 5.6%",≤ 10
+Marsabit,Unhealthy food consumption,3.8,"Marsabit, 3.8%",≤ 10
+Isiolo,MDD-W,44.3,"Isiolo, 44.3%",>43
+Isiolo,Sweet Beverage Consumption,14.7,"Isiolo, 14.7%",>10-18
+Isiolo,Unhealthy food consumption,22.1,"Isiolo, 22.1%",>18-34
+Meru,MDD-W,63.3,"Meru, 63.3%",>43
+Meru,Sweet Beverage Consumption,10.2,"Meru, 10.2%",>10-18
+Meru,Unhealthy food consumption,34.9,"Meru, 34.9%",>34-43
+Tharaka Nithi,MDD-W,60.6,"Tharaka Nithi, 60.6%",>43
+Tharaka Nithi,Sweet Beverage Consumption,17.9,"Tharaka Nithi, 17.9%",>10-18
+Tharaka Nithi,Unhealthy food consumption,32.7,"Tharaka Nithi, 32.7%",>18-34
+Embu,MDD-W,75.1,"Embu, 75.1%",>43
+Embu,Sweet Beverage Consumption,17.2,"Embu, 17.2%",>10-18
+Embu,Unhealthy food consumption,33.8,"Embu, 33.8%",>18-34
+Kitui,MDD-W,39.8,"Kitui, 39.8%",>34-43
+Kitui,Sweet Beverage Consumption,6.7,"Kitui, 6.7%",≤ 10
+Kitui,Unhealthy food consumption,17.4,"Kitui, 17.4%",>10-18
+Machakos,MDD-W,69.5,"Machakos, 69.5%",>43
+Machakos,Sweet Beverage Consumption,15.8,"Machakos, 15.8%",>10-18
+Machakos,Unhealthy food consumption,37.6,"Machakos, 37.6%",>34-43
+Makueni,MDD-W,26.9,"Makueni, 26.9%",>18-34
+Makueni,Sweet Beverage Consumption,3.3,"Makueni, 3.3%",≤ 10
+Makueni,Unhealthy food consumption,5.1,"Makueni, 5.1%",≤ 10
+Nyandarua,MDD-W,72,"Nyandarua, 72%",>43
+Nyandarua,Sweet Beverage Consumption,11.2,"Nyandarua, 11.2%",>10-18
+Nyandarua,Unhealthy food consumption,46.2,"Nyandarua, 46.2%",>43
+Nyeri,MDD-W,71.6,"Nyeri, 71.6%",>43
+Nyeri,Sweet Beverage Consumption,15.3,"Nyeri, 15.3%",>10-18
+Nyeri,Unhealthy food consumption,42.7,"Nyeri, 42.7%",>34-43
+Kirinyaga,MDD-W,78,"Kirinyaga, 78%",>43
+Kirinyaga,Sweet Beverage Consumption,21.3,"Kirinyaga, 21.3%",>18-34
+Kirinyaga,Unhealthy food consumption,47.6,"Kirinyaga, 47.6%",>43
+Muranga,MDD-W,81.2,"Muranga, 81.2%",>43
+Muranga,Sweet Beverage Consumption,10.9,"Muranga, 10.9%",>10-18
+Muranga,Unhealthy food consumption,39.9,"Muranga, 39.9%",>34-43
+Kiambu,MDD-W,80.6,"Kiambu, 80.6%",>43
+Kiambu,Sweet Beverage Consumption,25.1,"Kiambu, 25.1%",>18-34
+Kiambu,Unhealthy food consumption,52,"Kiambu, 52%",>43
+Turkana,MDD-W,11.1,"Turkana, 11.1%",>10-18
+Turkana,Sweet Beverage Consumption,3.9,"Turkana, 3.9%",≤ 10
+Turkana,Unhealthy food consumption,7.8,"Turkana, 7.8%",≤ 10
+West Pokot,MDD-W,41.8,"West Pokot, 41.8%",>34-43
+West Pokot,Sweet Beverage Consumption,8,"West Pokot, 8%",≤ 10
+West Pokot,Unhealthy food consumption,18,"West Pokot, 18%",>10-18
+Samburu,MDD-W,24.6,"Samburu, 24.6%",>18-34
+Samburu,Sweet Beverage Consumption,8.8,"Samburu, 8.8%",≤ 10
+Samburu,Unhealthy food consumption,22.1,"Samburu, 22.1%",>18-34
+Trans Nzoia,MDD-W,37.5,"Trans Nzoia, 37.5%",>34-43
+Trans Nzoia,Sweet Beverage Consumption,7.6,"Trans Nzoia, 7.6%",≤ 10
+Trans Nzoia,Unhealthy food consumption,32.3,"Trans Nzoia, 32.3%",>18-34
+Uasin Gishu,MDD-W,45.4,"Uasin Gishu, 45.4%",>43
+Uasin Gishu,Sweet Beverage Consumption,13.5,"Uasin Gishu, 13.5%",>10-18
+Uasin Gishu,Unhealthy food consumption,33.4,"Uasin Gishu, 33.4%",>18-34
+Elgeyo Marakwet,MDD-W,47.1,"Elgeyo Marakwet, 47.1%",>43
+Elgeyo Marakwet,Sweet Beverage Consumption,3.1,"Elgeyo Marakwet, 3.1%",≤ 10
+Elgeyo Marakwet,Unhealthy food consumption,10.7,"Elgeyo Marakwet, 10.7%",>10-18
+Nandi,MDD-W,17.6,"Nandi, 17.6%",>10-18
+Nandi,Sweet Beverage Consumption,1.8,"Nandi, 1.8%",≤ 10
+Nandi,Unhealthy food consumption,11.2,"Nandi, 11.2%",>10-18
+Baringo,MDD-W,51.7,"Baringo, 51.7%",>43
+Baringo,Sweet Beverage Consumption,10.3,"Baringo, 10.3%",>10-18
+Baringo,Unhealthy food consumption,31.8,"Baringo, 31.8%",>18-34
+Laikipia,MDD-W,63.6,"Laikipia, 63.6%",>43
+Laikipia,Sweet Beverage Consumption,12,"Laikipia, 12%",>10-18
+Laikipia,Unhealthy food consumption,39.2,"Laikipia, 39.2%",>34-43
+Nakuru,MDD-W,61.5,"Nakuru, 61.5%",>43
+Nakuru,Sweet Beverage Consumption,12.6,"Nakuru, 12.6%",>10-18
+Nakuru,Unhealthy food consumption,47.6,"Nakuru, 47.6%",>43
+Narok,MDD-W,56.8,"Narok, 56.8%",>43
+Narok,Sweet Beverage Consumption,14.5,"Narok, 14.5%",>10-18
+Narok,Unhealthy food consumption,29.2,"Narok, 29.2%",>18-34
+Kajiado,MDD-W,46.9,"Kajiado, 46.9%",>43
+Kajiado,Sweet Beverage Consumption,5.8,"Kajiado, 5.8%",≤ 10
+Kajiado,Unhealthy food consumption,17.6,"Kajiado, 17.6%",>10-18
+Kericho,MDD-W,63.2,"Kericho, 63.2%",>43
+Kericho,Sweet Beverage Consumption,10.6,"Kericho, 10.6%",>10-18
+Kericho,Unhealthy food consumption,30.3,"Kericho, 30.3%",>18-34
+Bomet,MDD-W,35.8,"Bomet, 35.8%",>34-43
+Bomet,Sweet Beverage Consumption,2.8,"Bomet, 2.8%",≤ 10
+Bomet,Unhealthy food consumption,17.4,"Bomet, 17.4%",>10-18
+Kakamega,MDD-W,34.1,"Kakamega, 34.1%",>34-43
+Kakamega,Sweet Beverage Consumption,9.2,"Kakamega, 9.2%",≤ 10
+Kakamega,Unhealthy food consumption,37.2,"Kakamega, 37.2%",>34-43
+Vihiga,MDD-W,67.9,"Vihiga, 67.9%",>43
+Vihiga,Sweet Beverage Consumption,12.7,"Vihiga, 12.7%",>10-18
+Vihiga,Unhealthy food consumption,54.2,"Vihiga, 54.2%",>43
+Bungoma,MDD-W,47.2,"Bungoma, 47.2%",>43
+Bungoma,Sweet Beverage Consumption,10.1,"Bungoma, 10.1%",>10-18
+Bungoma,Unhealthy food consumption,38.3,"Bungoma, 38.3%",>34-43
+Busia,MDD-W,41.2,"Busia, 41.2%",>34-43
+Busia,Sweet Beverage Consumption,6.6,"Busia, 6.6%",≤ 10
+Busia,Unhealthy food consumption,33.9,"Busia, 33.9%",>18-34
+Siaya,MDD-W,34.4,"Siaya, 34.4%",>34-43
+Siaya,Sweet Beverage Consumption,9.9,"Siaya, 9.9%",≤ 10
+Siaya,Unhealthy food consumption,35.1,"Siaya, 35.1%",>34-43
+Kisumu,MDD-W,28.5,"Kisumu, 28.5%",>18-34
+Kisumu,Sweet Beverage Consumption,6.5,"Kisumu, 6.5%",≤ 10
+Kisumu,Unhealthy food consumption,34.7,"Kisumu, 34.7%",>34-43
+Homa Bay,MDD-W,34.2,"Homa Bay, 34.2%",>34-43
+Homa Bay,Sweet Beverage Consumption,9.4,"Homa Bay, 9.4%",≤ 10
+Homa Bay,Unhealthy food consumption,30,"Homa Bay, 30%",>18-34
+Migori,MDD-W,40.5,"Migori, 40.5%",>34-43
+Migori,Sweet Beverage Consumption,11.3,"Migori, 11.3%",>10-18
+Migori,Unhealthy food consumption,42.1,"Migori, 42.1%",>34-43
+Kisii,MDD-W,33.6,"Kisii, 33.6%",>18-34
+Kisii,Sweet Beverage Consumption,4,"Kisii, 4%",≤ 10
+Kisii,Unhealthy food consumption,23.3,"Kisii, 23.3%",>18-34
+Nyamira,MDD-W,42.9,"Nyamira, 42.9%",>34-43
+Nyamira,Sweet Beverage Consumption,3.9,"Nyamira, 3.9%",≤ 10
+Nyamira,Unhealthy food consumption,27.7,"Nyamira, 27.7%",>18-34
+Nairobi,MDD-W,48.8,"Nairobi, 48.8%",>43
+Nairobi,Sweet Beverage Consumption,20.1,"Nairobi, 20.1%",>18-34
+Nairobi,Unhealthy food consumption,41.2,"Nairobi, 41.2%",>34-43
