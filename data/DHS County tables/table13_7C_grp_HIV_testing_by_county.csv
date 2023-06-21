@@ -1,0 +1,377 @@
+County,Category,Proportion,Participants,proportion_groups
+Mombasa,Ever tested,90.3,Women,>80
+Mombasa,Ever tested & received results,89.9,Women,>80
+Mombasa,Never tested,9.7,Women,≤ 27
+Mombasa,Tested & received results (past 12 months),49.2,Women,>45-66
+Kwale,Ever tested,73.5,Women,>66-80
+Kwale,Ever tested & received results,73.5,Women,>66-80
+Kwale,Never tested,26.5,Women,≤ 27
+Kwale,Tested & received results (past 12 months),38.8,Women,>27-45
+Kilifi,Ever tested,83,Women,>80
+Kilifi,Ever tested & received results,82.7,Women,>80
+Kilifi,Never tested,17,Women,≤ 27
+Kilifi,Tested & received results (past 12 months),39.8,Women,>27-45
+Tana River,Ever tested,73.6,Women,>66-80
+Tana River,Ever tested & received results,73.2,Women,>66-80
+Tana River,Never tested,26.4,Women,≤ 27
+Tana River,Tested & received results (past 12 months),29.3,Women,>27-45
+Lamu,Ever tested,80.8,Women,>80
+Lamu,Ever tested & received results,80.2,Women,>80
+Lamu,Never tested,19.2,Women,≤ 27
+Lamu,Tested & received results (past 12 months),35.5,Women,>27-45
+Taita Taveta,Ever tested,92.3,Women,>80
+Taita Taveta,Ever tested & received results,91.9,Women,>80
+Taita Taveta,Never tested,7.7,Women,≤ 27
+Taita Taveta,Tested & received results (past 12 months),45.3,Women,>45-66
+Garissa,Ever tested,52.4,Women,>45-66
+Garissa,Ever tested & received results,52.4,Women,>45-66
+Garissa,Never tested,47.6,Women,>45-66
+Garissa,Tested & received results (past 12 months),18.6,Women,≤ 27
+Wajir,Ever tested,49.2,Women,>45-66
+Wajir,Ever tested & received results,49.2,Women,>45-66
+Wajir,Never tested,50.8,Women,>45-66
+Wajir,Tested & received results (past 12 months),16.7,Women,≤ 27
+Mandera,Ever tested,21,Women,≤ 27
+Mandera,Ever tested & received results,16.5,Women,≤ 27
+Mandera,Never tested,79,Women,>66-80
+Mandera,Tested & received results (past 12 months),4.9,Women,≤ 27
+Marsabit,Ever tested,55.1,Women,>45-66
+Marsabit,Ever tested & received results,53.1,Women,>45-66
+Marsabit,Never tested,44.9,Women,>27-45
+Marsabit,Tested & received results (past 12 months),17.4,Women,≤ 27
+Isiolo,Ever tested,76.1,Women,>66-80
+Isiolo,Ever tested & received results,75.9,Women,>66-80
+Isiolo,Never tested,23.9,Women,≤ 27
+Isiolo,Tested & received results (past 12 months),28.8,Women,>27-45
+Meru,Ever tested,87.4,Women,>80
+Meru,Ever tested & received results,85.3,Women,>80
+Meru,Never tested,12.6,Women,≤ 27
+Meru,Tested & received results (past 12 months),38.8,Women,>27-45
+Tharaka-Nithi,Ever tested,92.2,Women,>80
+Tharaka-Nithi,Ever tested & received results,91.6,Women,>80
+Tharaka-Nithi,Never tested,7.8,Women,≤ 27
+Tharaka-Nithi,Tested & received results (past 12 months),50.1,Women,>45-66
+Embu,Ever tested,86.6,Women,>80
+Embu,Ever tested & received results,86.4,Women,>80
+Embu,Never tested,13.4,Women,≤ 27
+Embu,Tested & received results (past 12 months),39,Women,>27-45
+Kitui,Ever tested,76.6,Women,>66-80
+Kitui,Ever tested & received results,76.6,Women,>66-80
+Kitui,Never tested,23.4,Women,≤ 27
+Kitui,Tested & received results (past 12 months),25.2,Women,≤ 27
+Machakos,Ever tested,87.9,Women,>80
+Machakos,Ever tested & received results,86.5,Women,>80
+Machakos,Never tested,12.1,Women,≤ 27
+Machakos,Tested & received results (past 12 months),46.5,Women,>45-66
+Makueni,Ever tested,85.5,Women,>80
+Makueni,Ever tested & received results,85,Women,>80
+Makueni,Never tested,14.5,Women,≤ 27
+Makueni,Tested & received results (past 12 months),53.5,Women,>45-66
+Nyandarua,Ever tested,84.1,Women,>80
+Nyandarua,Ever tested & received results,82.7,Women,>80
+Nyandarua,Never tested,15.9,Women,≤ 27
+Nyandarua,Tested & received results (past 12 months),46.8,Women,>45-66
+Nyeri,Ever tested,90.5,Women,>80
+Nyeri,Ever tested & received results,90,Women,>80
+Nyeri,Never tested,9.5,Women,≤ 27
+Nyeri,Tested & received results (past 12 months),56.1,Women,>45-66
+Kirinyaga,Ever tested,92.2,Women,>80
+Kirinyaga,Ever tested & received results,91.6,Women,>80
+Kirinyaga,Never tested,7.8,Women,≤ 27
+Kirinyaga,Tested & received results (past 12 months),48.8,Women,>45-66
+Murang'a,Ever tested,93.3,Women,>80
+Murang'a,Ever tested & received results,92.2,Women,>80
+Murang'a,Never tested,6.7,Women,≤ 27
+Murang'a,Tested & received results (past 12 months),51.7,Women,>45-66
+Kiambu,Ever tested,91.1,Women,>80
+Kiambu,Ever tested & received results,90.1,Women,>80
+Kiambu,Never tested,8.9,Women,≤ 27
+Kiambu,Tested & received results (past 12 months),49.9,Women,>45-66
+Turkana,Ever tested,92,Women,>80
+Turkana,Ever tested & received results,92,Women,>80
+Turkana,Never tested,8,Women,≤ 27
+Turkana,Tested & received results (past 12 months),71.7,Women,>66-80
+West Pokot,Ever tested,80.2,Women,>80
+West Pokot,Ever tested & received results,79,Women,>66-80
+West Pokot,Never tested,19.8,Women,≤ 27
+West Pokot,Tested & received results (past 12 months),37.6,Women,>27-45
+Samburu,Ever tested,80.8,Women,>80
+Samburu,Ever tested & received results,80.7,Women,>80
+Samburu,Never tested,19.2,Women,≤ 27
+Samburu,Tested & received results (past 12 months),38.1,Women,>27-45
+Trans Nzoia,Ever tested,81.5,Women,>80
+Trans Nzoia,Ever tested & received results,81.5,Women,>80
+Trans Nzoia,Never tested,18.5,Women,≤ 27
+Trans Nzoia,Tested & received results (past 12 months),48,Women,>45-66
+Uasin Gishu,Ever tested,86,Women,>80
+Uasin Gishu,Ever tested & received results,84.9,Women,>80
+Uasin Gishu,Never tested,14,Women,≤ 27
+Uasin Gishu,Tested & received results (past 12 months),46.8,Women,>45-66
+Elgeyo-Marakwet,Ever tested,89.1,Women,>80
+Elgeyo-Marakwet,Ever tested & received results,88.4,Women,>80
+Elgeyo-Marakwet,Never tested,10.9,Women,≤ 27
+Elgeyo-Marakwet,Tested & received results (past 12 months),45.2,Women,>45-66
+Nandi,Ever tested,80.2,Women,>80
+Nandi,Ever tested & received results,79.9,Women,>66-80
+Nandi,Never tested,19.8,Women,≤ 27
+Nandi,Tested & received results (past 12 months),42.4,Women,>27-45
+Baringo,Ever tested,81.4,Women,>80
+Baringo,Ever tested & received results,80.3,Women,>80
+Baringo,Never tested,18.6,Women,≤ 27
+Baringo,Tested & received results (past 12 months),37.1,Women,>27-45
+Laikipia,Ever tested,88.2,Women,>80
+Laikipia,Ever tested & received results,88.2,Women,>80
+Laikipia,Never tested,11.8,Women,≤ 27
+Laikipia,Tested & received results (past 12 months),46.8,Women,>45-66
+Nakuru,Ever tested,87,Women,>80
+Nakuru,Ever tested & received results,86.3,Women,>80
+Nakuru,Never tested,13,Women,≤ 27
+Nakuru,Tested & received results (past 12 months),42.7,Women,>27-45
+Narok,Ever tested,85,Women,>80
+Narok,Ever tested & received results,84.1,Women,>80
+Narok,Never tested,15,Women,≤ 27
+Narok,Tested & received results (past 12 months),48.5,Women,>45-66
+Kajiado,Ever tested,86.9,Women,>80
+Kajiado,Ever tested & received results,86.1,Women,>80
+Kajiado,Never tested,13.1,Women,≤ 27
+Kajiado,Tested & received results (past 12 months),48.7,Women,>45-66
+Kericho,Ever tested,84.8,Women,>80
+Kericho,Ever tested & received results,81.8,Women,>80
+Kericho,Never tested,15.2,Women,≤ 27
+Kericho,Tested & received results (past 12 months),36.8,Women,>27-45
+Bomet,Ever tested,82.5,Women,>80
+Bomet,Ever tested & received results,81.9,Women,>80
+Bomet,Never tested,17.5,Women,≤ 27
+Bomet,Tested & received results (past 12 months),43.8,Women,>27-45
+Kakamega,Ever tested,82.8,Women,>80
+Kakamega,Ever tested & received results,82.8,Women,>80
+Kakamega,Never tested,17.2,Women,≤ 27
+Kakamega,Tested & received results (past 12 months),45,Women,>27-45
+Vihiga,Ever tested,76.9,Women,>66-80
+Vihiga,Ever tested & received results,76.5,Women,>66-80
+Vihiga,Never tested,23.1,Women,≤ 27
+Vihiga,Tested & received results (past 12 months),44.4,Women,>27-45
+Bungoma,Ever tested,75.5,Women,>66-80
+Bungoma,Ever tested & received results,74.3,Women,>66-80
+Bungoma,Never tested,24.5,Women,≤ 27
+Bungoma,Tested & received results (past 12 months),39.3,Women,>27-45
+Busia,Ever tested,78.2,Women,>66-80
+Busia,Ever tested & received results,77.9,Women,>66-80
+Busia,Never tested,21.8,Women,≤ 27
+Busia,Tested & received results (past 12 months),46.2,Women,>45-66
+Siaya,Ever tested,88.1,Women,>80
+Siaya,Ever tested & received results,87.7,Women,>80
+Siaya,Never tested,11.9,Women,≤ 27
+Siaya,Tested & received results (past 12 months),59.2,Women,>45-66
+Kisumu,Ever tested,95.1,Women,>80
+Kisumu,Ever tested & received results,95.1,Women,>80
+Kisumu,Never tested,4.9,Women,≤ 27
+Kisumu,Tested & received results (past 12 months),66.8,Women,>66-80
+Homa Bay,Ever tested,93.8,Women,>80
+Homa Bay,Ever tested & received results,93.1,Women,>80
+Homa Bay,Never tested,6.2,Women,≤ 27
+Homa Bay,Tested & received results (past 12 months),66.3,Women,>66-80
+Migori,Ever tested,91.8,Women,>80
+Migori,Ever tested & received results,91.3,Women,>80
+Migori,Never tested,8.2,Women,≤ 27
+Migori,Tested & received results (past 12 months),59.1,Women,>45-66
+Kisii,Ever tested,91.7,Women,>80
+Kisii,Ever tested & received results,91.5,Women,>80
+Kisii,Never tested,8.3,Women,≤ 27
+Kisii,Tested & received results (past 12 months),63.5,Women,>45-66
+Nyamira,Ever tested,88.6,Women,>80
+Nyamira,Ever tested & received results,88.3,Women,>80
+Nyamira,Never tested,11.4,Women,≤ 27
+Nyamira,Tested & received results (past 12 months),56.2,Women,>45-66
+Nairobi,Ever tested,90.2,Women,>80
+Nairobi,Ever tested & received results,90.1,Women,>80
+Nairobi,Never tested,9.8,Women,≤ 27
+Nairobi,Tested & received results (past 12 months),50.3,Women,>45-66
+Mombasa,Ever tested,80.6,Men,>80
+Mombasa,Ever tested & received results,80.2,Men,>80
+Mombasa,Never tested,19.4,Men,≤ 27
+Mombasa,Tested & received results (past 12 months),44.3,Men,>27-45
+Kwale,Ever tested,65.7,Men,>45-66
+Kwale,Ever tested & received results,65.2,Men,>45-66
+Kwale,Never tested,34.3,Men,>27-45
+Kwale,Tested & received results (past 12 months),40,Men,>27-45
+Kilifi,Ever tested,65.5,Men,>45-66
+Kilifi,Ever tested & received results,64.8,Men,>45-66
+Kilifi,Never tested,34.5,Men,>27-45
+Kilifi,Tested & received results (past 12 months),34.3,Men,>27-45
+Tana River,Ever tested,53.4,Men,>45-66
+Tana River,Ever tested & received results,53.3,Men,>45-66
+Tana River,Never tested,46.6,Men,>45-66
+Tana River,Tested & received results (past 12 months),14.6,Men,≤ 27
+Lamu,Ever tested,68.1,Men,>66-80
+Lamu,Ever tested & received results,68.1,Men,>66-80
+Lamu,Never tested,31.9,Men,>27-45
+Lamu,Tested & received results (past 12 months),37.5,Men,>27-45
+Taita Taveta,Ever tested,76,Men,>66-80
+Taita Taveta,Ever tested & received results,76,Men,>66-80
+Taita Taveta,Never tested,24,Men,≤ 27
+Taita Taveta,Tested & received results (past 12 months),45.6,Men,>45-66
+Garissa,Ever tested,51.6,Men,>45-66
+Garissa,Ever tested & received results,51.6,Men,>45-66
+Garissa,Never tested,48.4,Men,>45-66
+Garissa,Tested & received results (past 12 months),24.4,Men,≤ 27
+Wajir,Ever tested,39.5,Men,>27-45
+Wajir,Ever tested & received results,38.8,Men,>27-45
+Wajir,Never tested,60.5,Men,>45-66
+Wajir,Tested & received results (past 12 months),14.9,Men,≤ 27
+Mandera,Ever tested,46.1,Men,>45-66
+Mandera,Ever tested & received results,45.9,Men,>45-66
+Mandera,Never tested,53.9,Men,>45-66
+Mandera,Tested & received results (past 12 months),24.3,Men,≤ 27
+Marsabit,Ever tested,62.1,Men,>45-66
+Marsabit,Ever tested & received results,61.8,Men,>45-66
+Marsabit,Never tested,37.9,Men,>27-45
+Marsabit,Tested & received results (past 12 months),25.3,Men,≤ 27
+Isiolo,Ever tested,73.7,Men,>66-80
+Isiolo,Ever tested & received results,73,Men,>66-80
+Isiolo,Never tested,26.3,Men,≤ 27
+Isiolo,Tested & received results (past 12 months),39.6,Men,>27-45
+Meru,Ever tested,69.5,Men,>66-80
+Meru,Ever tested & received results,69.5,Men,>66-80
+Meru,Never tested,30.5,Men,>27-45
+Meru,Tested & received results (past 12 months),31.1,Men,>27-45
+Tharaka-Nithi,Ever tested,70.2,Men,>66-80
+Tharaka-Nithi,Ever tested & received results,69.9,Men,>66-80
+Tharaka-Nithi,Never tested,29.8,Men,>27-45
+Tharaka-Nithi,Tested & received results (past 12 months),33.9,Men,>27-45
+Embu,Ever tested,69.1,Men,>66-80
+Embu,Ever tested & received results,68.7,Men,>66-80
+Embu,Never tested,30.9,Men,>27-45
+Embu,Tested & received results (past 12 months),35.1,Men,>27-45
+Kitui,Ever tested,59.6,Men,>45-66
+Kitui,Ever tested & received results,59.6,Men,>45-66
+Kitui,Never tested,40.4,Men,>27-45
+Kitui,Tested & received results (past 12 months),29.6,Men,>27-45
+Machakos,Ever tested,76.9,Men,>66-80
+Machakos,Ever tested & received results,76.9,Men,>66-80
+Machakos,Never tested,23.1,Men,≤ 27
+Machakos,Tested & received results (past 12 months),34.8,Men,>27-45
+Makueni,Ever tested,77.7,Men,>66-80
+Makueni,Ever tested & received results,76.7,Men,>66-80
+Makueni,Never tested,22.3,Men,≤ 27
+Makueni,Tested & received results (past 12 months),41,Men,>27-45
+Nyandarua,Ever tested,69.4,Men,>66-80
+Nyandarua,Ever tested & received results,68,Men,>66-80
+Nyandarua,Never tested,30.6,Men,>27-45
+Nyandarua,Tested & received results (past 12 months),34.8,Men,>27-45
+Nyeri,Ever tested,78.5,Men,>66-80
+Nyeri,Ever tested & received results,77.7,Men,>66-80
+Nyeri,Never tested,21.5,Men,≤ 27
+Nyeri,Tested & received results (past 12 months),40.2,Men,>27-45
+Kirinyaga,Ever tested,75.4,Men,>66-80
+Kirinyaga,Ever tested & received results,75.4,Men,>66-80
+Kirinyaga,Never tested,24.6,Men,≤ 27
+Kirinyaga,Tested & received results (past 12 months),35.7,Men,>27-45
+Murang'a,Ever tested,80.5,Men,>80
+Murang'a,Ever tested & received results,78,Men,>66-80
+Murang'a,Never tested,19.5,Men,≤ 27
+Murang'a,Tested & received results (past 12 months),42,Men,>27-45
+Kiambu,Ever tested,76.7,Men,>66-80
+Kiambu,Ever tested & received results,76.1,Men,>66-80
+Kiambu,Never tested,23.3,Men,≤ 27
+Kiambu,Tested & received results (past 12 months),31.7,Men,>27-45
+Turkana,Ever tested,72.7,Men,>66-80
+Turkana,Ever tested & received results,72.7,Men,>66-80
+Turkana,Never tested,27.3,Men,>27-45
+Turkana,Tested & received results (past 12 months),49.6,Men,>45-66
+West Pokot,Ever tested,61.4,Men,>45-66
+West Pokot,Ever tested & received results,61.4,Men,>45-66
+West Pokot,Never tested,38.6,Men,>27-45
+West Pokot,Tested & received results (past 12 months),34.1,Men,>27-45
+Samburu,Ever tested,68.6,Men,>66-80
+Samburu,Ever tested & received results,68.6,Men,>66-80
+Samburu,Never tested,31.4,Men,>27-45
+Samburu,Tested & received results (past 12 months),41.4,Men,>27-45
+Trans Nzoia,Ever tested,66.2,Men,>66-80
+Trans Nzoia,Ever tested & received results,65.8,Men,>45-66
+Trans Nzoia,Never tested,33.8,Men,>27-45
+Trans Nzoia,Tested & received results (past 12 months),33.4,Men,>27-45
+Uasin Gishu,Ever tested,79.2,Men,>66-80
+Uasin Gishu,Ever tested & received results,79,Men,>66-80
+Uasin Gishu,Never tested,20.8,Men,≤ 27
+Uasin Gishu,Tested & received results (past 12 months),44.9,Men,>27-45
+Elgeyo-Marakwet,Ever tested,66.9,Men,>66-80
+Elgeyo-Marakwet,Ever tested & received results,65.6,Men,>45-66
+Elgeyo-Marakwet,Never tested,33.1,Men,>27-45
+Elgeyo-Marakwet,Tested & received results (past 12 months),38.8,Men,>27-45
+Nandi,Ever tested,53.8,Men,>45-66
+Nandi,Ever tested & received results,51.2,Men,>45-66
+Nandi,Never tested,46.2,Men,>45-66
+Nandi,Tested & received results (past 12 months),28.1,Men,>27-45
+Baringo,Ever tested,52.6,Men,>45-66
+Baringo,Ever tested & received results,52.1,Men,>45-66
+Baringo,Never tested,47.4,Men,>45-66
+Baringo,Tested & received results (past 12 months),26.3,Men,≤ 27
+Laikipia,Ever tested,74.2,Men,>66-80
+Laikipia,Ever tested & received results,73.5,Men,>66-80
+Laikipia,Never tested,25.8,Men,≤ 27
+Laikipia,Tested & received results (past 12 months),33.7,Men,>27-45
+Nakuru,Ever tested,60.3,Men,>45-66
+Nakuru,Ever tested & received results,60.1,Men,>45-66
+Nakuru,Never tested,39.7,Men,>27-45
+Nakuru,Tested & received results (past 12 months),30.5,Men,>27-45
+Narok,Ever tested,74.9,Men,>66-80
+Narok,Ever tested & received results,74.9,Men,>66-80
+Narok,Never tested,25.1,Men,≤ 27
+Narok,Tested & received results (past 12 months),55.3,Men,>45-66
+Kajiado,Ever tested,75.5,Men,>66-80
+Kajiado,Ever tested & received results,75.5,Men,>66-80
+Kajiado,Never tested,24.5,Men,≤ 27
+Kajiado,Tested & received results (past 12 months),35.7,Men,>27-45
+Kericho,Ever tested,70.7,Men,>66-80
+Kericho,Ever tested & received results,69.7,Men,>66-80
+Kericho,Never tested,29.3,Men,>27-45
+Kericho,Tested & received results (past 12 months),38.3,Men,>27-45
+Bomet,Ever tested,73.1,Men,>66-80
+Bomet,Ever tested & received results,72.6,Men,>66-80
+Bomet,Never tested,26.9,Men,≤ 27
+Bomet,Tested & received results (past 12 months),35.6,Men,>27-45
+Kakamega,Ever tested,55.4,Men,>45-66
+Kakamega,Ever tested & received results,55.4,Men,>45-66
+Kakamega,Never tested,44.6,Men,>27-45
+Kakamega,Tested & received results (past 12 months),32.2,Men,>27-45
+Vihiga,Ever tested,60,Men,>45-66
+Vihiga,Ever tested & received results,60,Men,>45-66
+Vihiga,Never tested,40,Men,>27-45
+Vihiga,Tested & received results (past 12 months),26.7,Men,≤ 27
+Bungoma,Ever tested,57.2,Men,>45-66
+Bungoma,Ever tested & received results,56.9,Men,>45-66
+Bungoma,Never tested,42.8,Men,>27-45
+Bungoma,Tested & received results (past 12 months),30.8,Men,>27-45
+Busia,Ever tested,63.4,Men,>45-66
+Busia,Ever tested & received results,62.2,Men,>45-66
+Busia,Never tested,36.6,Men,>27-45
+Busia,Tested & received results (past 12 months),30.2,Men,>27-45
+Siaya,Ever tested,78.1,Men,>66-80
+Siaya,Ever tested & received results,78.1,Men,>66-80
+Siaya,Never tested,21.9,Men,≤ 27
+Siaya,Tested & received results (past 12 months),42.7,Men,>27-45
+Kisumu,Ever tested,84.3,Men,>80
+Kisumu,Ever tested & received results,84,Men,>80
+Kisumu,Never tested,15.7,Men,≤ 27
+Kisumu,Tested & received results (past 12 months),59,Men,>45-66
+Homa Bay,Ever tested,86.6,Men,>80
+Homa Bay,Ever tested & received results,85.1,Men,>80
+Homa Bay,Never tested,13.4,Men,≤ 27
+Homa Bay,Tested & received results (past 12 months),53.5,Men,>45-66
+Migori,Ever tested,82.9,Men,>80
+Migori,Ever tested & received results,82.4,Men,>80
+Migori,Never tested,17.1,Men,≤ 27
+Migori,Tested & received results (past 12 months),53.7,Men,>45-66
+Kisii,Ever tested,81,Men,>80
+Kisii,Ever tested & received results,80.7,Men,>80
+Kisii,Never tested,19,Men,≤ 27
+Kisii,Tested & received results (past 12 months),47.2,Men,>45-66
+Nyamira,Ever tested,73.6,Men,>66-80
+Nyamira,Ever tested & received results,73.6,Men,>66-80
+Nyamira,Never tested,26.4,Men,≤ 27
+Nyamira,Tested & received results (past 12 months),44,Men,>27-45
+Nairobi,Ever tested,89.2,Men,>80
+Nairobi,Ever tested & received results,89.1,Men,>80
+Nairobi,Never tested,10.8,Men,≤ 27
+Nairobi,Tested & received results (past 12 months),50.3,Men,>45-66
