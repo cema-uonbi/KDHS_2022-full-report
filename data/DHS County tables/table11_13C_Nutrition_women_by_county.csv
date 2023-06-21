@@ -1,0 +1,189 @@
+County,Category,Proportion
+Mombasa,Total thin,4.3
+Mombasa,Total normal,48.8
+Mombasa,Over-weight,23.6
+Mombasa,Obese,23.3
+Kwale,Total thin,10.2
+Kwale,Total normal,51.2
+Kwale,Over-weight,23.3
+Kwale,Obese,15.4
+Kilifi,Total thin,5.7
+Kilifi,Total normal,56.0
+Kilifi,Over-weight,28.3
+Kilifi,Obese,10.0
+Tana River,Total thin,24.8
+Tana River,Total normal,53.4
+Tana River,Over-weight,15.7
+Tana River,Obese,6.2
+Lamu,Total thin,12.4
+Lamu,Total normal,38.4
+Lamu,Over-weight,23.3
+Lamu,Obese,26.0
+Taita Taveta,Total thin,5.0
+Taita Taveta,Total normal,49.2
+Taita Taveta,Over-weight,27.5
+Taita Taveta,Obese,18.3
+Garissa,Total thin,14.8
+Garissa,Total normal,42.3
+Garissa,Over-weight,28.4
+Garissa,Obese,14.5
+Wajir,Total thin,22.6
+Wajir,Total normal,44.6
+Wajir,Over-weight,19.6
+Wajir,Obese,13.2
+Mandera,Total thin,18.0
+Mandera,Total normal,57.8
+Mandera,Over-weight,20.4
+Mandera,Obese,3.8
+Marsabit,Total thin,36.5
+Marsabit,Total normal,47.2
+Marsabit,Over-weight,12.3
+Marsabit,Obese,3.9
+Isiolo,Total thin,21.7
+Isiolo,Total normal,44.3
+Isiolo,Over-weight,22.5
+Isiolo,Obese,11.5
+Meru,Total thin,10.5
+Meru,Total normal,52.5
+Meru,Over-weight,22.3
+Meru,Obese,14.7
+Tharaka-Nithi,Total thin,7.3
+Tharaka-Nithi,Total normal,50.3
+Tharaka-Nithi,Over-weight,28.3
+Tharaka-Nithi,Obese,14.0
+Embu,Total thin,6.1
+Embu,Total normal,38.8
+Embu,Over-weight,36.0
+Embu,Obese,19.2
+Kitui,Total thin,8.7
+Kitui,Total normal,62.3
+Kitui,Over-weight,20.2
+Kitui,Obese,8.7
+Machakos,Total thin,7.7
+Machakos,Total normal,43.0
+Machakos,Over-weight,31.4
+Machakos,Obese,17.9
+Makueni,Total thin,6.3
+Makueni,Total normal,49.2
+Makueni,Over-weight,30.3
+Makueni,Obese,14.2
+Nyandarua,Total thin,2.8
+Nyandarua,Total normal,41.4
+Nyandarua,Over-weight,32.6
+Nyandarua,Obese,23.2
+Nyeri,Total thin,1.8
+Nyeri,Total normal,35.2
+Nyeri,Over-weight,34.9
+Nyeri,Obese,28.1
+Kirinyaga,Total thin,3.2
+Kirinyaga,Total normal,32.2
+Kirinyaga,Over-weight,35.3
+Kirinyaga,Obese,29.3
+Murang'a,Total thin,4.2
+Murang'a,Total normal,37.2
+Murang'a,Over-weight,31.7
+Murang'a,Obese,26.9
+Kiambu,Total thin,6.3
+Kiambu,Total normal,38.1
+Kiambu,Over-weight,31.5
+Kiambu,Obese,24.1
+Turkana,Total thin,43.7
+Turkana,Total normal,46.2
+Turkana,Over-weight,6.3
+Turkana,Obese,3.9
+West Pokot,Total thin,22.4
+West Pokot,Total normal,58.2
+West Pokot,Over-weight,13.9
+West Pokot,Obese,5.5
+Samburu,Total thin,35.7
+Samburu,Total normal,48.1
+Samburu,Over-weight,10.9
+Samburu,Obese,5.3
+Trans Nzoia,Total thin,7.0
+Trans Nzoia,Total normal,51.3
+Trans Nzoia,Over-weight,25.5
+Trans Nzoia,Obese,16.2
+Uasin Gishu,Total thin,4.3
+Uasin Gishu,Total normal,52.0
+Uasin Gishu,Over-weight,30.4
+Uasin Gishu,Obese,13.4
+Elgeyo-Marakwet,Total thin,14.6
+Elgeyo-Marakwet,Total normal,60.2
+Elgeyo-Marakwet,Over-weight,18.1
+Elgeyo-Marakwet,Obese,7.1
+Nandi,Total thin,11.1
+Nandi,Total normal,56.0
+Nandi,Over-weight,22.6
+Nandi,Obese,10.3
+Baringo,Total thin,20.5
+Baringo,Total normal,56.7
+Baringo,Over-weight,15.6
+Baringo,Obese,7.2
+Laikipia,Total thin,9.1
+Laikipia,Total normal,46.1
+Laikipia,Over-weight,26.7
+Laikipia,Obese,18.1
+Nakuru,Total thin,5.5
+Nakuru,Total normal,43.7
+Nakuru,Over-weight,31.0
+Nakuru,Obese,19.8
+Narok,Total thin,5.5
+Narok,Total normal,52.3
+Narok,Over-weight,27.2
+Narok,Obese,15.0
+Kajiado,Total thin,7.5
+Kajiado,Total normal,42.1
+Kajiado,Over-weight,28.7
+Kajiado,Obese,21.8
+Kericho,Total thin,9.9
+Kericho,Total normal,53.8
+Kericho,Over-weight,21.8
+Kericho,Obese,14.5
+Bomet,Total thin,10.8
+Bomet,Total normal,59.2
+Bomet,Over-weight,20.1
+Bomet,Obese,9.9
+Kakamega,Total thin,4.1
+Kakamega,Total normal,49.2
+Kakamega,Over-weight,27.6
+Kakamega,Obese,19.1
+Vihiga,Total thin,4.2
+Vihiga,Total normal,52.4
+Vihiga,Over-weight,26.5
+Vihiga,Obese,16.9
+Bungoma,Total thin,7.7
+Bungoma,Total normal,58.5
+Bungoma,Over-weight,24.1
+Bungoma,Obese,9.6
+Busia,Total thin,8.7
+Busia,Total normal,52.1
+Busia,Over-weight,28.2
+Busia,Obese,11.1
+Siaya,Total thin,6.2
+Siaya,Total normal,56.9
+Siaya,Over-weight,24.8
+Siaya,Obese,12.1
+Kisumu,Total thin,6.1
+Kisumu,Total normal,55.2
+Kisumu,Over-weight,26.2
+Kisumu,Obese,12.5
+Homa Bay,Total thin,4.9
+Homa Bay,Total normal,56.6
+Homa Bay,Over-weight,25.5
+Homa Bay,Obese,12.9
+Migori,Total thin,4.7
+Migori,Total normal,59.7
+Migori,Over-weight,23.9
+Migori,Obese,11.7
+Kisii,Total thin,3.3
+Kisii,Total normal,51.9
+Kisii,Over-weight,28.7
+Kisii,Obese,16.1
+Nyamira,Total thin,4.4
+Nyamira,Total normal,51.1
+Nyamira,Over-weight,26.1
+Nyamira,Obese,18.4
+Nairobi,Total thin,3.1
+Nairobi,Total normal,40.5
+Nairobi,Over-weight,32.9
+Nairobi,Obese,23.6
