@@ -1,0 +1,142 @@
+county,category,proportion
+Mombasa,Still birth rate,15
+Mombasa,Early neonatal rate,43
+Mombasa,Perinatal mortality rate,57.4
+Kwale,Still birth rate,10.3
+Kwale,Early neonatal rate,15.8
+Kwale,Perinatal mortality rate,25.9
+Kilifi,Still birth rate,29.4
+Kilifi,Early neonatal rate,16.5
+Kilifi,Perinatal mortality rate,45.3
+Tana River,Still birth rate,17.1
+Tana River,Early neonatal rate,18
+Tana River,Perinatal mortality rate,34.8
+Lamu,Still birth rate,11
+Lamu,Early neonatal rate,30.5
+Lamu,Perinatal mortality rate,41.1
+Taita Taveta,Still birth rate,8.8
+Taita Taveta,Early neonatal rate,20.2
+Taita Taveta,Perinatal mortality rate,28.8
+Garissa,Still birth rate,12.3
+Garissa,Early neonatal rate,22.7
+Garissa,Perinatal mortality rate,34.7
+Wajir,Still birth rate,53.6
+Wajir,Early neonatal rate,23.8
+Wajir,Perinatal mortality rate,76.1
+Mandera,Still birth rate,6.7
+Mandera,Early neonatal rate,13.1
+Mandera,Perinatal mortality rate,19.7
+Marsabit,Still birth rate,2.5
+Marsabit,Early neonatal rate,5.1
+Marsabit,Perinatal mortality rate,7.6
+Isiolo,Still birth rate,7.8
+Isiolo,Early neonatal rate,13.8
+Isiolo,Perinatal mortality rate,21.5
+Meru,Still birth rate,3.9
+Meru,Early neonatal rate,4.9
+Meru,Perinatal mortality rate,8.8
+Tharaka Nithi,Still birth rate,22.1
+Tharaka Nithi,Early neonatal rate,2.2
+Tharaka Nithi,Perinatal mortality rate,24.2
+Embu,Still birth rate,14.7
+Embu,Early neonatal rate,10.5
+Embu,Perinatal mortality rate,25
+Kitui,Still birth rate,8.5
+Kitui,Early neonatal rate,10.2
+Kitui,Perinatal mortality rate,18.6
+Machakos,Still birth rate,13.5
+Machakos,Early neonatal rate,20.6
+Machakos,Perinatal mortality rate,33.8
+Makueni,Still birth rate,18.6
+Makueni,Early neonatal rate,9.4
+Makueni,Perinatal mortality rate,27.8
+Nyandarua,Still birth rate,19.1
+Nyandarua,Early neonatal rate,7.6
+Nyandarua,Perinatal mortality rate,26.6
+Nyeri,Still birth rate,8.3
+Nyeri,Early neonatal rate,18.8
+Nyeri,Perinatal mortality rate,27
+Kirinyaga,Still birth rate,19.4
+Kirinyaga,Early neonatal rate,24.4
+Kirinyaga,Perinatal mortality rate,43.3
+Muranga,Still birth rate,28.6
+Muranga,Early neonatal rate,23.2
+Muranga,Perinatal mortality rate,51.1
+Kiambu,Still birth rate,21.2
+Kiambu,Early neonatal rate,20.9
+Kiambu,Perinatal mortality rate,41.7
+Turkana,Still birth rate,12.8
+Turkana,Early neonatal rate,24.7
+Turkana,Perinatal mortality rate,37.2
+West Pokot,Still birth rate,22
+West Pokot,Early neonatal rate,19.7
+West Pokot,Perinatal mortality rate,41.3
+Samburu,Still birth rate,19
+Samburu,Early neonatal rate,18.5
+Samburu,Perinatal mortality rate,37.1
+Trans Nzoia,Still birth rate,11.3
+Trans Nzoia,Early neonatal rate,11.5
+Trans Nzoia,Perinatal mortality rate,22.7
+Uasin Gishu,Still birth rate,31.5
+Uasin Gishu,Early neonatal rate,13.9
+Uasin Gishu,Perinatal mortality rate,44.9
+Elgeyo Marakwet,Still birth rate,0
+Elgeyo Marakwet,Early neonatal rate,11.5
+Elgeyo Marakwet,Perinatal mortality rate,11.5
+Nandi,Still birth rate,12.5
+Nandi,Early neonatal rate,15.4
+Nandi,Perinatal mortality rate,27.7
+Baringo,Still birth rate,15.9
+Baringo,Early neonatal rate,30.8
+Baringo,Perinatal mortality rate,46.3
+Laikipia,Still birth rate,11.5
+Laikipia,Early neonatal rate,16.5
+Laikipia,Perinatal mortality rate,27.8
+Nakuru,Still birth rate,18.5
+Nakuru,Early neonatal rate,16.5
+Nakuru,Perinatal mortality rate,34.8
+Narok,Still birth rate,12.4
+Narok,Early neonatal rate,9.2
+Narok,Perinatal mortality rate,21.5
+Kajiado,Still birth rate,13.2
+Kajiado,Early neonatal rate,12.5
+Kajiado,Perinatal mortality rate,25.5
+Kericho,Still birth rate,11.9
+Kericho,Early neonatal rate,9.2
+Kericho,Perinatal mortality rate,21
+Bomet,Still birth rate,16.9
+Bomet,Early neonatal rate,18.1
+Bomet,Perinatal mortality rate,34.8
+Kakamega,Still birth rate,21.1
+Kakamega,Early neonatal rate,10.9
+Kakamega,Perinatal mortality rate,31.8
+Vihiga,Still birth rate,19.4
+Vihiga,Early neonatal rate,18.4
+Vihiga,Perinatal mortality rate,37.4
+Bungoma,Still birth rate,8.9
+Bungoma,Early neonatal rate,19.4
+Bungoma,Perinatal mortality rate,28.2
+Busia,Still birth rate,22.1
+Busia,Early neonatal rate,20.5
+Busia,Perinatal mortality rate,42.1
+Siaya,Still birth rate,29.5
+Siaya,Early neonatal rate,25.3
+Siaya,Perinatal mortality rate,54
+Kisumu,Still birth rate,20.1
+Kisumu,Early neonatal rate,27.8
+Kisumu,Perinatal mortality rate,47.4
+Homa Bay,Still birth rate,9.8
+Homa Bay,Early neonatal rate,26
+Homa Bay,Perinatal mortality rate,35.6
+Migori,Still birth rate,9.4
+Migori,Early neonatal rate,30.6
+Migori,Perinatal mortality rate,39.7
+Kisii,Still birth rate,8.7
+Kisii,Early neonatal rate,29.1
+Kisii,Perinatal mortality rate,37.6
+Nyamira,Still birth rate,5.9
+Nyamira,Early neonatal rate,17.4
+Nyamira,Perinatal mortality rate,23.2
+Nairobi,Still birth rate,5.7
+Nairobi,Early neonatal rate,8.7
+Nairobi,Perinatal mortality rate,14.3
