@@ -1,0 +1,189 @@
+County,Category,Proportion,Participants,Names,proportion_groups
+Mombasa,Diagnosed with Arthritis,2.5,Women,"Mombasa, 2.5%",>1-3
+Mombasa,Receiving treatment,NA,Women,"Mombasa, NA%",NA
+Kwale,Diagnosed with Arthritis,0,Women,"Kwale, 0%",≤ 1
+Kwale,Receiving treatment,NA,Women,"Kwale, NA%",NA
+Kilifi,Diagnosed with Arthritis,0,Women,"Kilifi, 0%",≤ 1
+Kilifi,Receiving treatment,NA,Women,"Kilifi, NA%",NA
+Tana River,Diagnosed with Arthritis,0.5,Women,"Tana River, 0.5%",≤ 1
+Tana River,Receiving treatment,NA,Women,"Tana River, NA%",NA
+Lamu,Diagnosed with Arthritis,0.7,Women,"Lamu, 0.7%",≤ 1
+Lamu,Receiving treatment,NA,Women,"Lamu, NA%",NA
+Taita Taveta,Diagnosed with Arthritis,0.8,Women,"Taita Taveta, 0.8%",≤ 1
+Taita Taveta,Receiving treatment,NA,Women,"Taita Taveta, NA%",NA
+Garissa,Diagnosed with Arthritis,1.9,Women,"Garissa, 1.9%",>1-3
+Garissa,Receiving treatment,NA,Women,"Garissa, NA%",NA
+Wajir,Diagnosed with Arthritis,1.2,Women,"Wajir, 1.2%",>1-3
+Wajir,Receiving treatment,NA,Women,"Wajir, NA%",NA
+Mandera,Diagnosed with Arthritis,1.6,Women,"Mandera, 1.6%",>1-3
+Mandera,Receiving treatment,NA,Women,"Mandera, NA%",NA
+Marsabit,Diagnosed with Arthritis,0.5,Women,"Marsabit, 0.5%",≤ 1
+Marsabit,Receiving treatment,NA,Women,"Marsabit, NA%",NA
+Isiolo,Diagnosed with Arthritis,2.3,Women,"Isiolo, 2.3%",>1-3
+Isiolo,Receiving treatment,NA,Women,"Isiolo, NA%",NA
+Meru,Diagnosed with Arthritis,10.4,Women,"Meru, 10.4%",>3
+Meru,Receiving treatment,37.9,Women,"Meru, 37.9%",>3
+Tharaka Nithi,Diagnosed with Arthritis,11.1,Women,"Tharaka Nithi, 11.1%",>3
+Tharaka Nithi,Receiving treatment,45,Women,"Tharaka Nithi, 45%",>3
+Embu,Diagnosed with Arthritis,4.4,Women,"Embu, 4.4%",>3
+Embu,Receiving treatment,NA,Women,"Embu, NA%",NA
+Kitui,Diagnosed with Arthritis,0.4,Women,"Kitui, 0.4%",≤ 1
+Kitui,Receiving treatment,NA,Women,"Kitui, NA%",NA
+Machakos,Diagnosed with Arthritis,0.4,Women,"Machakos, 0.4%",≤ 1
+Machakos,Receiving treatment,NA,Women,"Machakos, NA%",NA
+Makueni,Diagnosed with Arthritis,2,Women,"Makueni, 2%",>1-3
+Makueni,Receiving treatment,NA,Women,"Makueni, NA%",NA
+Nyandarua,Diagnosed with Arthritis,8.3,Women,"Nyandarua, 8.3%",>3
+Nyandarua,Receiving treatment,27,Women,"Nyandarua, 27%",>3
+Nyeri,Diagnosed with Arthritis,4.6,Women,"Nyeri, 4.6%",>3
+Nyeri,Receiving treatment,NA,Women,"Nyeri, NA%",NA
+Kirinyaga,Diagnosed with Arthritis,7.2,Women,"Kirinyaga, 7.2%",>3
+Kirinyaga,Receiving treatment,NA,Women,"Kirinyaga, NA%",NA
+Muranga,Diagnosed with Arthritis,3.8,Women,"Muranga, 3.8%",>3
+Muranga,Receiving treatment,NA,Women,"Muranga, NA%",NA
+Kiambu,Diagnosed with Arthritis,2.8,Women,"Kiambu, 2.8%",>1-3
+Kiambu,Receiving treatment,NA,Women,"Kiambu, NA%",NA
+Turkana,Diagnosed with Arthritis,2.1,Women,"Turkana, 2.1%",>1-3
+Turkana,Receiving treatment,NA,Women,"Turkana, NA%",NA
+West Pokot,Diagnosed with Arthritis,3.3,Women,"West Pokot, 3.3%",>3
+West Pokot,Receiving treatment,NA,Women,"West Pokot, NA%",NA
+Samburu,Diagnosed with Arthritis,1.2,Women,"Samburu, 1.2%",>1-3
+Samburu,Receiving treatment,NA,Women,"Samburu, NA%",NA
+Trans Nzoia,Diagnosed with Arthritis,0.4,Women,"Trans Nzoia, 0.4%",≤ 1
+Trans Nzoia,Receiving treatment,NA,Women,"Trans Nzoia, NA%",NA
+Uasin Gishu,Diagnosed with Arthritis,5.1,Women,"Uasin Gishu, 5.1%",>3
+Uasin Gishu,Receiving treatment,NA,Women,"Uasin Gishu, NA%",NA
+Elgeyo Marakwet,Diagnosed with Arthritis,0.8,Women,"Elgeyo Marakwet, 0.8%",≤ 1
+Elgeyo Marakwet,Receiving treatment,NA,Women,"Elgeyo Marakwet, NA%",NA
+Nandi,Diagnosed with Arthritis,2.4,Women,"Nandi, 2.4%",>1-3
+Nandi,Receiving treatment,NA,Women,"Nandi, NA%",NA
+Baringo,Diagnosed with Arthritis,7.2,Women,"Baringo, 7.2%",>3
+Baringo,Receiving treatment,49.7,Women,"Baringo, 49.7%",>3
+Laikipia,Diagnosed with Arthritis,4.4,Women,"Laikipia, 4.4%",>3
+Laikipia,Receiving treatment,NA,Women,"Laikipia, NA%",NA
+Nakuru,Diagnosed with Arthritis,4.3,Women,"Nakuru, 4.3%",>3
+Nakuru,Receiving treatment,NA,Women,"Nakuru, NA%",NA
+Narok,Diagnosed with Arthritis,3.2,Women,"Narok, 3.2%",>3
+Narok,Receiving treatment,NA,Women,"Narok, NA%",NA
+Kajiado,Diagnosed with Arthritis,2.6,Women,"Kajiado, 2.6%",>1-3
+Kajiado,Receiving treatment,NA,Women,"Kajiado, NA%",NA
+Kericho,Diagnosed with Arthritis,0.8,Women,"Kericho, 0.8%",≤ 1
+Kericho,Receiving treatment,NA,Women,"Kericho, NA%",NA
+Bomet,Diagnosed with Arthritis,1.8,Women,"Bomet, 1.8%",>1-3
+Bomet,Receiving treatment,NA,Women,"Bomet, NA%",NA
+Kakamega,Diagnosed with Arthritis,0.9,Women,"Kakamega, 0.9%",≤ 1
+Kakamega,Receiving treatment,NA,Women,"Kakamega, NA%",NA
+Vihiga,Diagnosed with Arthritis,2.4,Women,"Vihiga, 2.4%",>1-3
+Vihiga,Receiving treatment,NA,Women,"Vihiga, NA%",NA
+Bungoma,Diagnosed with Arthritis,2.8,Women,"Bungoma, 2.8%",>1-3
+Bungoma,Receiving treatment,NA,Women,"Bungoma, NA%",NA
+Busia,Diagnosed with Arthritis,0.4,Women,"Busia, 0.4%",≤ 1
+Busia,Receiving treatment,NA,Women,"Busia, NA%",NA
+Siaya,Diagnosed with Arthritis,2.6,Women,"Siaya, 2.6%",>1-3
+Siaya,Receiving treatment,NA,Women,"Siaya, NA%",NA
+Kisumu,Diagnosed with Arthritis,2,Women,"Kisumu, 2%",>1-3
+Kisumu,Receiving treatment,NA,Women,"Kisumu, NA%",NA
+Homa Bay,Diagnosed with Arthritis,4.5,Women,"Homa Bay, 4.5%",>3
+Homa Bay,Receiving treatment,NA,Women,"Homa Bay, NA%",NA
+Migori,Diagnosed with Arthritis,1.8,Women,"Migori, 1.8%",>1-3
+Migori,Receiving treatment,NA,Women,"Migori, NA%",NA
+Kisii,Diagnosed with Arthritis,2,Women,"Kisii, 2%",>1-3
+Kisii,Receiving treatment,NA,Women,"Kisii, NA%",NA
+Nyamira,Diagnosed with Arthritis,1.2,Women,"Nyamira, 1.2%",>1-3
+Nyamira,Receiving treatment,NA,Women,"Nyamira, NA%",NA
+Nairobi,Diagnosed with Arthritis,2.6,Women,"Nairobi, 2.6%",>1-3
+Nairobi,Receiving treatment,NA,Women,"Nairobi, NA%",NA
+Mombasa,Diagnosed with Arthritis,1.3,Men,"Mombasa, 1.3%",>1-3
+Mombasa,Receiving treatment,NA,Men,"Mombasa, NA%",NA
+Kwale,Diagnosed with Arthritis,0.5,Men,"Kwale, 0.5%",≤ 1
+Kwale,Receiving treatment,NA,Men,"Kwale, NA%",NA
+Kilifi,Diagnosed with Arthritis,1.4,Men,"Kilifi, 1.4%",>1-3
+Kilifi,Receiving treatment,NA,Men,"Kilifi, NA%",NA
+Tana River,Diagnosed with Arthritis,0.7,Men,"Tana River, 0.7%",≤ 1
+Tana River,Receiving treatment,NA,Men,"Tana River, NA%",NA
+Lamu,Diagnosed with Arthritis,0,Men,"Lamu, 0%",≤ 1
+Lamu,Receiving treatment,NA,Men,"Lamu, NA%",NA
+Taita Taveta,Diagnosed with Arthritis,0,Men,"Taita Taveta, 0%",≤ 1
+Taita Taveta,Receiving treatment,NA,Men,"Taita Taveta, NA%",NA
+Garissa,Diagnosed with Arthritis,0,Men,"Garissa, 0%",≤ 1
+Garissa,Receiving treatment,NA,Men,"Garissa, NA%",NA
+Wajir,Diagnosed with Arthritis,0,Men,"Wajir, 0%",≤ 1
+Wajir,Receiving treatment,NA,Men,"Wajir, NA%",NA
+Mandera,Diagnosed with Arthritis,0,Men,"Mandera, 0%",≤ 1
+Mandera,Receiving treatment,NA,Men,"Mandera, NA%",NA
+Marsabit,Diagnosed with Arthritis,0,Men,"Marsabit, 0%",≤ 1
+Marsabit,Receiving treatment,NA,Men,"Marsabit, NA%",NA
+Isiolo,Diagnosed with Arthritis,1.1,Men,"Isiolo, 1.1%",>1-3
+Isiolo,Receiving treatment,NA,Men,"Isiolo, NA%",NA
+Meru,Diagnosed with Arthritis,10.4,Men,"Meru, 10.4%",>3
+Meru,Receiving treatment,27.1,Men,"Meru, 27.1%",>3
+Tharaka Nithi,Diagnosed with Arthritis,3.2,Men,"Tharaka Nithi, 3.2%",>3
+Tharaka Nithi,Receiving treatment,NA,Men,"Tharaka Nithi, NA%",NA
+Embu,Diagnosed with Arthritis,2.2,Men,"Embu, 2.2%",>1-3
+Embu,Receiving treatment,NA,Men,"Embu, NA%",NA
+Kitui,Diagnosed with Arthritis,0,Men,"Kitui, 0%",≤ 1
+Kitui,Receiving treatment,NA,Men,"Kitui, NA%",NA
+Machakos,Diagnosed with Arthritis,0,Men,"Machakos, 0%",≤ 1
+Machakos,Receiving treatment,NA,Men,"Machakos, NA%",NA
+Makueni,Diagnosed with Arthritis,0.7,Men,"Makueni, 0.7%",≤ 1
+Makueni,Receiving treatment,NA,Men,"Makueni, NA%",NA
+Nyandarua,Diagnosed with Arthritis,1.8,Men,"Nyandarua, 1.8%",>1-3
+Nyandarua,Receiving treatment,NA,Men,"Nyandarua, NA%",NA
+Nyeri,Diagnosed with Arthritis,3,Men,"Nyeri, 3%",>1-3
+Nyeri,Receiving treatment,NA,Men,"Nyeri, NA%",NA
+Kirinyaga,Diagnosed with Arthritis,1.1,Men,"Kirinyaga, 1.1%",>1-3
+Kirinyaga,Receiving treatment,NA,Men,"Kirinyaga, NA%",NA
+Muranga,Diagnosed with Arthritis,2.8,Men,"Muranga, 2.8%",>1-3
+Muranga,Receiving treatment,NA,Men,"Muranga, NA%",NA
+Kiambu,Diagnosed with Arthritis,0.2,Men,"Kiambu, 0.2%",≤ 1
+Kiambu,Receiving treatment,NA,Men,"Kiambu, NA%",NA
+Turkana,Diagnosed with Arthritis,0,Men,"Turkana, 0%",≤ 1
+Turkana,Receiving treatment,NA,Men,"Turkana, NA%",NA
+West Pokot,Diagnosed with Arthritis,0,Men,"West Pokot, 0%",≤ 1
+West Pokot,Receiving treatment,NA,Men,"West Pokot, NA%",NA
+Samburu,Diagnosed with Arthritis,5,Men,"Samburu, 5%",>3
+Samburu,Receiving treatment,NA,Men,"Samburu, NA%",NA
+Trans Nzoia,Diagnosed with Arthritis,1.5,Men,"Trans Nzoia, 1.5%",>1-3
+Trans Nzoia,Receiving treatment,NA,Men,"Trans Nzoia, NA%",NA
+Uasin Gishu,Diagnosed with Arthritis,0.5,Men,"Uasin Gishu, 0.5%",≤ 1
+Uasin Gishu,Receiving treatment,NA,Men,"Uasin Gishu, NA%",NA
+Elgeyo Marakwet,Diagnosed with Arthritis,0,Men,"Elgeyo Marakwet, 0%",≤ 1
+Elgeyo Marakwet,Receiving treatment,NA,Men,"Elgeyo Marakwet, NA%",NA
+Nandi,Diagnosed with Arthritis,0.6,Men,"Nandi, 0.6%",≤ 1
+Nandi,Receiving treatment,NA,Men,"Nandi, NA%",NA
+Baringo,Diagnosed with Arthritis,0.7,Men,"Baringo, 0.7%",≤ 1
+Baringo,Receiving treatment,NA,Men,"Baringo, NA%",NA
+Laikipia,Diagnosed with Arthritis,3.6,Men,"Laikipia, 3.6%",>3
+Laikipia,Receiving treatment,NA,Men,"Laikipia, NA%",NA
+Nakuru,Diagnosed with Arthritis,1.8,Men,"Nakuru, 1.8%",>1-3
+Nakuru,Receiving treatment,NA,Men,"Nakuru, NA%",NA
+Narok,Diagnosed with Arthritis,1,Men,"Narok, 1%",≤ 1
+Narok,Receiving treatment,NA,Men,"Narok, NA%",NA
+Kajiado,Diagnosed with Arthritis,1.2,Men,"Kajiado, 1.2%",>1-3
+Kajiado,Receiving treatment,NA,Men,"Kajiado, NA%",NA
+Kericho,Diagnosed with Arthritis,0,Men,"Kericho, 0%",≤ 1
+Kericho,Receiving treatment,NA,Men,"Kericho, NA%",NA
+Bomet,Diagnosed with Arthritis,1.9,Men,"Bomet, 1.9%",>1-3
+Bomet,Receiving treatment,NA,Men,"Bomet, NA%",NA
+Kakamega,Diagnosed with Arthritis,0.3,Men,"Kakamega, 0.3%",≤ 1
+Kakamega,Receiving treatment,NA,Men,"Kakamega, NA%",NA
+Vihiga,Diagnosed with Arthritis,0.8,Men,"Vihiga, 0.8%",≤ 1
+Vihiga,Receiving treatment,NA,Men,"Vihiga, NA%",NA
+Bungoma,Diagnosed with Arthritis,0.7,Men,"Bungoma, 0.7%",≤ 1
+Bungoma,Receiving treatment,NA,Men,"Bungoma, NA%",NA
+Busia,Diagnosed with Arthritis,0.4,Men,"Busia, 0.4%",≤ 1
+Busia,Receiving treatment,NA,Men,"Busia, NA%",NA
+Siaya,Diagnosed with Arthritis,0,Men,"Siaya, 0%",≤ 1
+Siaya,Receiving treatment,NA,Men,"Siaya, NA%",NA
+Kisumu,Diagnosed with Arthritis,0.3,Men,"Kisumu, 0.3%",≤ 1
+Kisumu,Receiving treatment,NA,Men,"Kisumu, NA%",NA
+Homa Bay,Diagnosed with Arthritis,1.9,Men,"Homa Bay, 1.9%",>1-3
+Homa Bay,Receiving treatment,NA,Men,"Homa Bay, NA%",NA
+Migori,Diagnosed with Arthritis,0.8,Men,"Migori, 0.8%",≤ 1
+Migori,Receiving treatment,NA,Men,"Migori, NA%",NA
+Kisii,Diagnosed with Arthritis,0.3,Men,"Kisii, 0.3%",≤ 1
+Kisii,Receiving treatment,NA,Men,"Kisii, NA%",NA
+Nyamira,Diagnosed with Arthritis,0,Men,"Nyamira, 0%",≤ 1
+Nyamira,Receiving treatment,NA,Men,"Nyamira, NA%",NA
+Nairobi,Diagnosed with Arthritis,0,Men,"Nairobi, 0%",≤ 1
+Nairobi,Receiving treatment,NA,Men,"Nairobi, NA%",NA
