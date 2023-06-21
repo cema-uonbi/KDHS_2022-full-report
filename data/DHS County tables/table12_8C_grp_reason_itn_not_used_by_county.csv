@@ -1,0 +1,518 @@
+County,Reason,Proportion,Names,proportion_groups
+Mombasa,Too hot,18.1,"Mombasa, 18.1%",>10
+Mombasa,Don't like net,0.3,"Mombasa, 0.3%",< 1
+Mombasa,Don't like smell,0.3,"Mombasa, 0.3%",< 1
+Mombasa,Unable to hang net,2.7,"Mombasa, 2.7%",>2-10
+Mombasa,Slept outdoors,0.4,"Mombasa, 0.4%",< 1
+Mombasa,User didn't sleep in household,10.1,"Mombasa, 10.1%",>10
+Mombasa,No mosquitoes/malaria,6,"Mombasa, 6%",>2-10
+Mombasa,Extra net/saving for later,53,"Mombasa, 53%",>10
+Mombasa,Net too small,1.5,"Mombasa, 1.5%",1-2
+Mombasa,Net brought bedbugs,0.6,"Mombasa, 0.6%",< 1
+Mombasa,Other,7.1,"Mombasa, 7.1%",>2-10
+Kwale,Too hot,8.6,"Kwale, 8.6%",>2-10
+Kwale,Don't like net,0,"Kwale, 0%",< 1
+Kwale,Don't like smell,0,"Kwale, 0%",< 1
+Kwale,Unable to hang net,2.1,"Kwale, 2.1%",>2-10
+Kwale,Slept outdoors,0.6,"Kwale, 0.6%",< 1
+Kwale,User didn't sleep in household,15.8,"Kwale, 15.8%",>10
+Kwale,No mosquitoes/malaria,1.8,"Kwale, 1.8%",1-2
+Kwale,Extra net/saving for later,64.5,"Kwale, 64.5%",>10
+Kwale,Net too small,0.5,"Kwale, 0.5%",< 1
+Kwale,Net brought bedbugs,3.6,"Kwale, 3.6%",>2-10
+Kwale,Other,2.4,"Kwale, 2.4%",>2-10
+Kilifi,Too hot,11.9,"Kilifi, 11.9%",>10
+Kilifi,Don't like net,0.3,"Kilifi, 0.3%",< 1
+Kilifi,Don't like smell,0.3,"Kilifi, 0.3%",< 1
+Kilifi,Unable to hang net,0,"Kilifi, 0%",< 1
+Kilifi,Slept outdoors,0.4,"Kilifi, 0.4%",< 1
+Kilifi,User didn't sleep in household,16.2,"Kilifi, 16.2%",>10
+Kilifi,No mosquitoes/malaria,2.1,"Kilifi, 2.1%",>2-10
+Kilifi,Extra net/saving for later,64.4,"Kilifi, 64.4%",>10
+Kilifi,Net too small,0,"Kilifi, 0%",< 1
+Kilifi,Net brought bedbugs,1.4,"Kilifi, 1.4%",1-2
+Kilifi,Other,3,"Kilifi, 3%",>2-10
+Tana River,Too hot,6.7,"Tana River, 6.7%",>2-10
+Tana River,Don't like net,0.9,"Tana River, 0.9%",< 1
+Tana River,Don't like smell,0,"Tana River, 0%",< 1
+Tana River,Unable to hang net,0,"Tana River, 0%",< 1
+Tana River,Slept outdoors,1.3,"Tana River, 1.3%",1-2
+Tana River,User didn't sleep in household,14.1,"Tana River, 14.1%",>10
+Tana River,No mosquitoes/malaria,21.9,"Tana River, 21.9%",>10
+Tana River,Extra net/saving for later,52.5,"Tana River, 52.5%",>10
+Tana River,Net too small,0,"Tana River, 0%",< 1
+Tana River,Net brought bedbugs,0,"Tana River, 0%",< 1
+Tana River,Other,2.7,"Tana River, 2.7%",>2-10
+Lamu,Too hot,13.3,"Lamu, 13.3%",>10
+Lamu,Don't like net,0,"Lamu, 0%",< 1
+Lamu,Don't like smell,0.4,"Lamu, 0.4%",< 1
+Lamu,Unable to hang net,1.3,"Lamu, 1.3%",1-2
+Lamu,Slept outdoors,1,"Lamu, 1%",1-2
+Lamu,User didn't sleep in household,14.8,"Lamu, 14.8%",>10
+Lamu,No mosquitoes/malaria,3.6,"Lamu, 3.6%",>2-10
+Lamu,Extra net/saving for later,57.2,"Lamu, 57.2%",>10
+Lamu,Net too small,0.4,"Lamu, 0.4%",< 1
+Lamu,Net brought bedbugs,1,"Lamu, 1%",1-2
+Lamu,Other,7.1,"Lamu, 7.1%",>2-10
+Taita Taveta,Too hot,6,"Taita Taveta, 6%",>2-10
+Taita Taveta,Don't like net,0,"Taita Taveta, 0%",< 1
+Taita Taveta,Don't like smell,0,"Taita Taveta, 0%",< 1
+Taita Taveta,Unable to hang net,2.1,"Taita Taveta, 2.1%",>2-10
+Taita Taveta,Slept outdoors,0.3,"Taita Taveta, 0.3%",< 1
+Taita Taveta,User didn't sleep in household,28.1,"Taita Taveta, 28.1%",>10
+Taita Taveta,No mosquitoes/malaria,12.4,"Taita Taveta, 12.4%",>10
+Taita Taveta,Extra net/saving for later,47.1,"Taita Taveta, 47.1%",>10
+Taita Taveta,Net too small,0.3,"Taita Taveta, 0.3%",< 1
+Taita Taveta,Net brought bedbugs,0,"Taita Taveta, 0%",< 1
+Taita Taveta,Other,3.7,"Taita Taveta, 3.7%",>2-10
+Garissa,Too hot,27.4,"Garissa, 27.4%",>10
+Garissa,Don't like net,0,"Garissa, 0%",< 1
+Garissa,Don't like smell,0,"Garissa, 0%",< 1
+Garissa,Unable to hang net,0,"Garissa, 0%",< 1
+Garissa,Slept outdoors,10.5,"Garissa, 10.5%",>10
+Garissa,User didn't sleep in household,12.1,"Garissa, 12.1%",>10
+Garissa,No mosquitoes/malaria,33,"Garissa, 33%",>10
+Garissa,Extra net/saving for later,13.9,"Garissa, 13.9%",>10
+Garissa,Net too small,0,"Garissa, 0%",< 1
+Garissa,Net brought bedbugs,0,"Garissa, 0%",< 1
+Garissa,Other,3.1,"Garissa, 3.1%",>2-10
+Wajir,Too hot,61,"Wajir, 61%",>10
+Wajir,Don't like net,0,"Wajir, 0%",< 1
+Wajir,Don't like smell,0,"Wajir, 0%",< 1
+Wajir,Unable to hang net,0,"Wajir, 0%",< 1
+Wajir,Slept outdoors,0.9,"Wajir, 0.9%",< 1
+Wajir,User didn't sleep in household,13.8,"Wajir, 13.8%",>10
+Wajir,No mosquitoes/malaria,21.9,"Wajir, 21.9%",>10
+Wajir,Extra net/saving for later,2.4,"Wajir, 2.4%",>2-10
+Wajir,Net too small,0,"Wajir, 0%",< 1
+Wajir,Net brought bedbugs,0,"Wajir, 0%",< 1
+Wajir,Other,0,"Wajir, 0%",< 1
+Mandera,Too hot,NA,"Mandera, NA%",NA
+Mandera,Don't like net,NA,"Mandera, NA%",NA
+Mandera,Don't like smell,NA,"Mandera, NA%",NA
+Mandera,Unable to hang net,NA,"Mandera, NA%",NA
+Mandera,Slept outdoors,NA,"Mandera, NA%",NA
+Mandera,User didn't sleep in household,NA,"Mandera, NA%",NA
+Mandera,No mosquitoes/malaria,NA,"Mandera, NA%",NA
+Mandera,Extra net/saving for later,NA,"Mandera, NA%",NA
+Mandera,Net too small,NA,"Mandera, NA%",NA
+Mandera,Net brought bedbugs,NA,"Mandera, NA%",NA
+Mandera,Other,NA,"Mandera, NA%",NA
+Marsabit,Too hot,44.8,"Marsabit, 44.8%",>10
+Marsabit,Don't like net,0.9,"Marsabit, 0.9%",< 1
+Marsabit,Don't like smell,1.6,"Marsabit, 1.6%",1-2
+Marsabit,Unable to hang net,0.5,"Marsabit, 0.5%",< 1
+Marsabit,Slept outdoors,0.4,"Marsabit, 0.4%",< 1
+Marsabit,User didn't sleep in household,0,"Marsabit, 0%",< 1
+Marsabit,No mosquitoes/malaria,44,"Marsabit, 44%",>10
+Marsabit,Extra net/saving for later,7.4,"Marsabit, 7.4%",>2-10
+Marsabit,Net too small,0,"Marsabit, 0%",< 1
+Marsabit,Net brought bedbugs,0,"Marsabit, 0%",< 1
+Marsabit,Other,0.5,"Marsabit, 0.5%",< 1
+Isiolo,Too hot,7.2,"Isiolo, 7.2%",>2-10
+Isiolo,Don't like net,1.2,"Isiolo, 1.2%",1-2
+Isiolo,Don't like smell,0,"Isiolo, 0%",< 1
+Isiolo,Unable to hang net,0.9,"Isiolo, 0.9%",< 1
+Isiolo,Slept outdoors,2.3,"Isiolo, 2.3%",>2-10
+Isiolo,User didn't sleep in household,16.5,"Isiolo, 16.5%",>10
+Isiolo,No mosquitoes/malaria,41.9,"Isiolo, 41.9%",>10
+Isiolo,Extra net/saving for later,18,"Isiolo, 18%",>10
+Isiolo,Net too small,0.5,"Isiolo, 0.5%",< 1
+Isiolo,Net brought bedbugs,0,"Isiolo, 0%",< 1
+Isiolo,Other,11.4,"Isiolo, 11.4%",>10
+Meru,Too hot,4.5,"Meru, 4.5%",>2-10
+Meru,Don't like net,0.4,"Meru, 0.4%",< 1
+Meru,Don't like smell,2.2,"Meru, 2.2%",>2-10
+Meru,Unable to hang net,5.3,"Meru, 5.3%",>2-10
+Meru,Slept outdoors,0.4,"Meru, 0.4%",< 1
+Meru,User didn't sleep in household,20.9,"Meru, 20.9%",>10
+Meru,No mosquitoes/malaria,22.3,"Meru, 22.3%",>10
+Meru,Extra net/saving for later,26.3,"Meru, 26.3%",>10
+Meru,Net too small,0,"Meru, 0%",< 1
+Meru,Net brought bedbugs,0,"Meru, 0%",< 1
+Meru,Other,17.7,"Meru, 17.7%",>10
+Tharaka Nithi,Too hot,4.9,"Tharaka Nithi, 4.9%",>2-10
+Tharaka Nithi,Don't like net,2.3,"Tharaka Nithi, 2.3%",>2-10
+Tharaka Nithi,Don't like smell,1.3,"Tharaka Nithi, 1.3%",1-2
+Tharaka Nithi,Unable to hang net,0.6,"Tharaka Nithi, 0.6%",< 1
+Tharaka Nithi,Slept outdoors,1.9,"Tharaka Nithi, 1.9%",1-2
+Tharaka Nithi,User didn't sleep in household,29.2,"Tharaka Nithi, 29.2%",>10
+Tharaka Nithi,No mosquitoes/malaria,8,"Tharaka Nithi, 8%",>2-10
+Tharaka Nithi,Extra net/saving for later,34.3,"Tharaka Nithi, 34.3%",>10
+Tharaka Nithi,Net too small,0,"Tharaka Nithi, 0%",< 1
+Tharaka Nithi,Net brought bedbugs,0,"Tharaka Nithi, 0%",< 1
+Tharaka Nithi,Other,17.4,"Tharaka Nithi, 17.4%",>10
+Embu,Too hot,6,"Embu, 6%",>2-10
+Embu,Don't like net,0,"Embu, 0%",< 1
+Embu,Don't like smell,0,"Embu, 0%",< 1
+Embu,Unable to hang net,1.6,"Embu, 1.6%",1-2
+Embu,Slept outdoors,0,"Embu, 0%",< 1
+Embu,User didn't sleep in household,37.8,"Embu, 37.8%",>10
+Embu,No mosquitoes/malaria,15.3,"Embu, 15.3%",>10
+Embu,Extra net/saving for later,32.9,"Embu, 32.9%",>10
+Embu,Net too small,0,"Embu, 0%",< 1
+Embu,Net brought bedbugs,1.4,"Embu, 1.4%",1-2
+Embu,Other,4.9,"Embu, 4.9%",>2-10
+Kitui,Too hot,NA,"Kitui, NA%",NA
+Kitui,Don't like net,NA,"Kitui, NA%",NA
+Kitui,Don't like smell,NA,"Kitui, NA%",NA
+Kitui,Unable to hang net,NA,"Kitui, NA%",NA
+Kitui,Slept outdoors,NA,"Kitui, NA%",NA
+Kitui,User didn't sleep in household,NA,"Kitui, NA%",NA
+Kitui,No mosquitoes/malaria,NA,"Kitui, NA%",NA
+Kitui,Extra net/saving for later,NA,"Kitui, NA%",NA
+Kitui,Net too small,NA,"Kitui, NA%",NA
+Kitui,Net brought bedbugs,NA,"Kitui, NA%",NA
+Kitui,Other,NA,"Kitui, NA%",NA
+Machakos,Too hot,5.7,"Machakos, 5.7%",>2-10
+Machakos,Don't like net,0.5,"Machakos, 0.5%",< 1
+Machakos,Don't like smell,0,"Machakos, 0%",< 1
+Machakos,Unable to hang net,1.8,"Machakos, 1.8%",1-2
+Machakos,Slept outdoors,0.7,"Machakos, 0.7%",< 1
+Machakos,User didn't sleep in household,32.3,"Machakos, 32.3%",>10
+Machakos,No mosquitoes/malaria,20.6,"Machakos, 20.6%",>10
+Machakos,Extra net/saving for later,37.7,"Machakos, 37.7%",>10
+Machakos,Net too small,0,"Machakos, 0%",< 1
+Machakos,Net brought bedbugs,0,"Machakos, 0%",< 1
+Machakos,Other,0.7,"Machakos, 0.7%",< 1
+Makueni,Too hot,10.4,"Makueni, 10.4%",>10
+Makueni,Don't like net,0,"Makueni, 0%",< 1
+Makueni,Don't like smell,1.6,"Makueni, 1.6%",1-2
+Makueni,Unable to hang net,1,"Makueni, 1%",1-2
+Makueni,Slept outdoors,0,"Makueni, 0%",< 1
+Makueni,User didn't sleep in household,26.6,"Makueni, 26.6%",>10
+Makueni,No mosquitoes/malaria,30.1,"Makueni, 30.1%",>10
+Makueni,Extra net/saving for later,24.8,"Makueni, 24.8%",>10
+Makueni,Net too small,1,"Makueni, 1%",1-2
+Makueni,Net brought bedbugs,0.6,"Makueni, 0.6%",< 1
+Makueni,Other,4,"Makueni, 4%",>2-10
+Nyandarua,Too hot,0,"Nyandarua, 0%",< 1
+Nyandarua,Don't like net,0,"Nyandarua, 0%",< 1
+Nyandarua,Don't like smell,0,"Nyandarua, 0%",< 1
+Nyandarua,Unable to hang net,5.4,"Nyandarua, 5.4%",>2-10
+Nyandarua,Slept outdoors,1,"Nyandarua, 1%",1-2
+Nyandarua,User didn't sleep in household,11.5,"Nyandarua, 11.5%",>10
+Nyandarua,No mosquitoes/malaria,34.9,"Nyandarua, 34.9%",>10
+Nyandarua,Extra net/saving for later,25.1,"Nyandarua, 25.1%",>10
+Nyandarua,Net too small,2.4,"Nyandarua, 2.4%",>2-10
+Nyandarua,Net brought bedbugs,0,"Nyandarua, 0%",< 1
+Nyandarua,Other,19.7,"Nyandarua, 19.7%",>10
+Nyeri,Too hot,6,"Nyeri, 6%",>2-10
+Nyeri,Don't like net,0,"Nyeri, 0%",< 1
+Nyeri,Don't like smell,1.4,"Nyeri, 1.4%",1-2
+Nyeri,Unable to hang net,5.2,"Nyeri, 5.2%",>2-10
+Nyeri,Slept outdoors,0,"Nyeri, 0%",< 1
+Nyeri,User didn't sleep in household,8,"Nyeri, 8%",>2-10
+Nyeri,No mosquitoes/malaria,54.8,"Nyeri, 54.8%",>10
+Nyeri,Extra net/saving for later,11.9,"Nyeri, 11.9%",>10
+Nyeri,Net too small,0,"Nyeri, 0%",< 1
+Nyeri,Net brought bedbugs,0,"Nyeri, 0%",< 1
+Nyeri,Other,12.7,"Nyeri, 12.7%",>10
+Kirinyaga,Too hot,4.3,"Kirinyaga, 4.3%",>2-10
+Kirinyaga,Don't like net,0.5,"Kirinyaga, 0.5%",< 1
+Kirinyaga,Don't like smell,0,"Kirinyaga, 0%",< 1
+Kirinyaga,Unable to hang net,2.9,"Kirinyaga, 2.9%",>2-10
+Kirinyaga,Slept outdoors,0.6,"Kirinyaga, 0.6%",< 1
+Kirinyaga,User didn't sleep in household,9.1,"Kirinyaga, 9.1%",>2-10
+Kirinyaga,No mosquitoes/malaria,14.9,"Kirinyaga, 14.9%",>10
+Kirinyaga,Extra net/saving for later,65.1,"Kirinyaga, 65.1%",>10
+Kirinyaga,Net too small,0,"Kirinyaga, 0%",< 1
+Kirinyaga,Net brought bedbugs,0.4,"Kirinyaga, 0.4%",< 1
+Kirinyaga,Other,2.2,"Kirinyaga, 2.2%",>2-10
+Muranga,Too hot,5.4,"Muranga, 5.4%",>2-10
+Muranga,Don't like net,1.1,"Muranga, 1.1%",1-2
+Muranga,Don't like smell,0.6,"Muranga, 0.6%",< 1
+Muranga,Unable to hang net,0,"Muranga, 0%",< 1
+Muranga,Slept outdoors,0,"Muranga, 0%",< 1
+Muranga,User didn't sleep in household,12.7,"Muranga, 12.7%",>10
+Muranga,No mosquitoes/malaria,37.8,"Muranga, 37.8%",>10
+Muranga,Extra net/saving for later,33.6,"Muranga, 33.6%",>10
+Muranga,Net too small,0,"Muranga, 0%",< 1
+Muranga,Net brought bedbugs,0,"Muranga, 0%",< 1
+Muranga,Other,8.9,"Muranga, 8.9%",>2-10
+Kiambu,Too hot,5.2,"Kiambu, 5.2%",>2-10
+Kiambu,Don't like net,2.8,"Kiambu, 2.8%",>2-10
+Kiambu,Don't like smell,0,"Kiambu, 0%",< 1
+Kiambu,Unable to hang net,6,"Kiambu, 6%",>2-10
+Kiambu,Slept outdoors,1.3,"Kiambu, 1.3%",1-2
+Kiambu,User didn't sleep in household,12.5,"Kiambu, 12.5%",>10
+Kiambu,No mosquitoes/malaria,31.6,"Kiambu, 31.6%",>10
+Kiambu,Extra net/saving for later,29.5,"Kiambu, 29.5%",>10
+Kiambu,Net too small,1.3,"Kiambu, 1.3%",1-2
+Kiambu,Net brought bedbugs,0,"Kiambu, 0%",< 1
+Kiambu,Other,9.8,"Kiambu, 9.8%",>2-10
+Turkana,Too hot,7.1,"Turkana, 7.1%",>2-10
+Turkana,Don't like net,0.3,"Turkana, 0.3%",< 1
+Turkana,Don't like smell,0,"Turkana, 0%",< 1
+Turkana,Unable to hang net,1.6,"Turkana, 1.6%",1-2
+Turkana,Slept outdoors,3.1,"Turkana, 3.1%",>2-10
+Turkana,User didn't sleep in household,11.4,"Turkana, 11.4%",>10
+Turkana,No mosquitoes/malaria,37.9,"Turkana, 37.9%",>10
+Turkana,Extra net/saving for later,26.7,"Turkana, 26.7%",>10
+Turkana,Net too small,0,"Turkana, 0%",< 1
+Turkana,Net brought bedbugs,0,"Turkana, 0%",< 1
+Turkana,Other,12,"Turkana, 12%",>10
+West Pokot,Too hot,6.5,"West Pokot, 6.5%",>2-10
+West Pokot,Don't like net,0.5,"West Pokot, 0.5%",< 1
+West Pokot,Don't like smell,1.1,"West Pokot, 1.1%",1-2
+West Pokot,Unable to hang net,12.7,"West Pokot, 12.7%",>10
+West Pokot,Slept outdoors,5.8,"West Pokot, 5.8%",>2-10
+West Pokot,User didn't sleep in household,9.1,"West Pokot, 9.1%",>2-10
+West Pokot,No mosquitoes/malaria,15.1,"West Pokot, 15.1%",>10
+West Pokot,Extra net/saving for later,43.4,"West Pokot, 43.4%",>10
+West Pokot,Net too small,0.3,"West Pokot, 0.3%",< 1
+West Pokot,Net brought bedbugs,0.2,"West Pokot, 0.2%",< 1
+West Pokot,Other,5.3,"West Pokot, 5.3%",>2-10
+Samburu,Too hot,17.7,"Samburu, 17.7%",>10
+Samburu,Don't like net,0,"Samburu, 0%",< 1
+Samburu,Don't like smell,0,"Samburu, 0%",< 1
+Samburu,Unable to hang net,3.1,"Samburu, 3.1%",>2-10
+Samburu,Slept outdoors,0,"Samburu, 0%",< 1
+Samburu,User didn't sleep in household,11.3,"Samburu, 11.3%",>10
+Samburu,No mosquitoes/malaria,49.1,"Samburu, 49.1%",>10
+Samburu,Extra net/saving for later,2.2,"Samburu, 2.2%",>2-10
+Samburu,Net too small,0,"Samburu, 0%",< 1
+Samburu,Net brought bedbugs,4.4,"Samburu, 4.4%",>2-10
+Samburu,Other,12.1,"Samburu, 12.1%",>10
+Trans Nzoia,Too hot,2.4,"Trans Nzoia, 2.4%",>2-10
+Trans Nzoia,Don't like net,1.1,"Trans Nzoia, 1.1%",1-2
+Trans Nzoia,Don't like smell,2.1,"Trans Nzoia, 2.1%",>2-10
+Trans Nzoia,Unable to hang net,3.8,"Trans Nzoia, 3.8%",>2-10
+Trans Nzoia,Slept outdoors,3.7,"Trans Nzoia, 3.7%",>2-10
+Trans Nzoia,User didn't sleep in household,7.7,"Trans Nzoia, 7.7%",>2-10
+Trans Nzoia,No mosquitoes/malaria,3.9,"Trans Nzoia, 3.9%",>2-10
+Trans Nzoia,Extra net/saving for later,69.3,"Trans Nzoia, 69.3%",>10
+Trans Nzoia,Net too small,0.2,"Trans Nzoia, 0.2%",< 1
+Trans Nzoia,Net brought bedbugs,0,"Trans Nzoia, 0%",< 1
+Trans Nzoia,Other,5.8,"Trans Nzoia, 5.8%",>2-10
+Uasin Gishu,Too hot,1.8,"Uasin Gishu, 1.8%",1-2
+Uasin Gishu,Don't like net,0.5,"Uasin Gishu, 0.5%",< 1
+Uasin Gishu,Don't like smell,1,"Uasin Gishu, 1%",1-2
+Uasin Gishu,Unable to hang net,4.4,"Uasin Gishu, 4.4%",>2-10
+Uasin Gishu,Slept outdoors,0.3,"Uasin Gishu, 0.3%",< 1
+Uasin Gishu,User didn't sleep in household,12.3,"Uasin Gishu, 12.3%",>10
+Uasin Gishu,No mosquitoes/malaria,9.5,"Uasin Gishu, 9.5%",>2-10
+Uasin Gishu,Extra net/saving for later,65.8,"Uasin Gishu, 65.8%",>10
+Uasin Gishu,Net too small,0,"Uasin Gishu, 0%",< 1
+Uasin Gishu,Net brought bedbugs,0,"Uasin Gishu, 0%",< 1
+Uasin Gishu,Other,4.5,"Uasin Gishu, 4.5%",>2-10
+Elgeyo Marakwet,Too hot,9.1,"Elgeyo Marakwet, 9.1%",>2-10
+Elgeyo Marakwet,Don't like net,1.5,"Elgeyo Marakwet, 1.5%",1-2
+Elgeyo Marakwet,Don't like smell,1,"Elgeyo Marakwet, 1%",1-2
+Elgeyo Marakwet,Unable to hang net,2.2,"Elgeyo Marakwet, 2.2%",>2-10
+Elgeyo Marakwet,Slept outdoors,0,"Elgeyo Marakwet, 0%",< 1
+Elgeyo Marakwet,User didn't sleep in household,12.3,"Elgeyo Marakwet, 12.3%",>10
+Elgeyo Marakwet,No mosquitoes/malaria,56.4,"Elgeyo Marakwet, 56.4%",>10
+Elgeyo Marakwet,Extra net/saving for later,15.6,"Elgeyo Marakwet, 15.6%",>10
+Elgeyo Marakwet,Net too small,0,"Elgeyo Marakwet, 0%",< 1
+Elgeyo Marakwet,Net brought bedbugs,0,"Elgeyo Marakwet, 0%",< 1
+Elgeyo Marakwet,Other,1.8,"Elgeyo Marakwet, 1.8%",1-2
+Nandi,Too hot,3.1,"Nandi, 3.1%",>2-10
+Nandi,Don't like net,3.5,"Nandi, 3.5%",>2-10
+Nandi,Don't like smell,0.5,"Nandi, 0.5%",< 1
+Nandi,Unable to hang net,9.6,"Nandi, 9.6%",>2-10
+Nandi,Slept outdoors,0,"Nandi, 0%",< 1
+Nandi,User didn't sleep in household,9.9,"Nandi, 9.9%",>2-10
+Nandi,No mosquitoes/malaria,5.6,"Nandi, 5.6%",>2-10
+Nandi,Extra net/saving for later,62.8,"Nandi, 62.8%",>10
+Nandi,Net too small,0,"Nandi, 0%",< 1
+Nandi,Net brought bedbugs,0,"Nandi, 0%",< 1
+Nandi,Other,5.1,"Nandi, 5.1%",>2-10
+Baringo,Too hot,4.2,"Baringo, 4.2%",>2-10
+Baringo,Don't like net,0.8,"Baringo, 0.8%",< 1
+Baringo,Don't like smell,2.5,"Baringo, 2.5%",>2-10
+Baringo,Unable to hang net,7.6,"Baringo, 7.6%",>2-10
+Baringo,Slept outdoors,6,"Baringo, 6%",>2-10
+Baringo,User didn't sleep in household,9.7,"Baringo, 9.7%",>2-10
+Baringo,No mosquitoes/malaria,25.2,"Baringo, 25.2%",>10
+Baringo,Extra net/saving for later,39.8,"Baringo, 39.8%",>10
+Baringo,Net too small,0,"Baringo, 0%",< 1
+Baringo,Net brought bedbugs,0,"Baringo, 0%",< 1
+Baringo,Other,4.3,"Baringo, 4.3%",>2-10
+Laikipia,Too hot,3.5,"Laikipia, 3.5%",>2-10
+Laikipia,Don't like net,1.1,"Laikipia, 1.1%",1-2
+Laikipia,Don't like smell,1.4,"Laikipia, 1.4%",1-2
+Laikipia,Unable to hang net,5.7,"Laikipia, 5.7%",>2-10
+Laikipia,Slept outdoors,5.4,"Laikipia, 5.4%",>2-10
+Laikipia,User didn't sleep in household,22,"Laikipia, 22%",>10
+Laikipia,No mosquitoes/malaria,33.4,"Laikipia, 33.4%",>10
+Laikipia,Extra net/saving for later,19.4,"Laikipia, 19.4%",>10
+Laikipia,Net too small,0,"Laikipia, 0%",< 1
+Laikipia,Net brought bedbugs,0,"Laikipia, 0%",< 1
+Laikipia,Other,8.2,"Laikipia, 8.2%",>2-10
+Nakuru,Too hot,16.4,"Nakuru, 16.4%",>10
+Nakuru,Don't like net,1.3,"Nakuru, 1.3%",1-2
+Nakuru,Don't like smell,1.5,"Nakuru, 1.5%",1-2
+Nakuru,Unable to hang net,4.8,"Nakuru, 4.8%",>2-10
+Nakuru,Slept outdoors,1.3,"Nakuru, 1.3%",1-2
+Nakuru,User didn't sleep in household,14.7,"Nakuru, 14.7%",>10
+Nakuru,No mosquitoes/malaria,41.6,"Nakuru, 41.6%",>10
+Nakuru,Extra net/saving for later,13.4,"Nakuru, 13.4%",>10
+Nakuru,Net too small,0.8,"Nakuru, 0.8%",< 1
+Nakuru,Net brought bedbugs,0,"Nakuru, 0%",< 1
+Nakuru,Other,4.3,"Nakuru, 4.3%",>2-10
+Narok,Too hot,1.4,"Narok, 1.4%",1-2
+Narok,Don't like net,0.1,"Narok, 0.1%",< 1
+Narok,Don't like smell,3.1,"Narok, 3.1%",>2-10
+Narok,Unable to hang net,4.7,"Narok, 4.7%",>2-10
+Narok,Slept outdoors,0.1,"Narok, 0.1%",< 1
+Narok,User didn't sleep in household,10.1,"Narok, 10.1%",>10
+Narok,No mosquitoes/malaria,12.9,"Narok, 12.9%",>10
+Narok,Extra net/saving for later,59.9,"Narok, 59.9%",>10
+Narok,Net too small,0.3,"Narok, 0.3%",< 1
+Narok,Net brought bedbugs,0,"Narok, 0%",< 1
+Narok,Other,7.4,"Narok, 7.4%",>2-10
+Kajiado,Too hot,10.3,"Kajiado, 10.3%",>10
+Kajiado,Don't like net,3,"Kajiado, 3%",>2-10
+Kajiado,Don't like smell,2.5,"Kajiado, 2.5%",>2-10
+Kajiado,Unable to hang net,7.8,"Kajiado, 7.8%",>2-10
+Kajiado,Slept outdoors,0,"Kajiado, 0%",< 1
+Kajiado,User didn't sleep in household,9,"Kajiado, 9%",>2-10
+Kajiado,No mosquitoes/malaria,21.4,"Kajiado, 21.4%",>10
+Kajiado,Extra net/saving for later,39.2,"Kajiado, 39.2%",>10
+Kajiado,Net too small,0,"Kajiado, 0%",< 1
+Kajiado,Net brought bedbugs,0.3,"Kajiado, 0.3%",< 1
+Kajiado,Other,6.5,"Kajiado, 6.5%",>2-10
+Kericho,Too hot,1,"Kericho, 1%",1-2
+Kericho,Don't like net,0,"Kericho, 0%",< 1
+Kericho,Don't like smell,0.7,"Kericho, 0.7%",< 1
+Kericho,Unable to hang net,1.7,"Kericho, 1.7%",1-2
+Kericho,Slept outdoors,1.4,"Kericho, 1.4%",1-2
+Kericho,User didn't sleep in household,12.8,"Kericho, 12.8%",>10
+Kericho,No mosquitoes/malaria,1.7,"Kericho, 1.7%",1-2
+Kericho,Extra net/saving for later,77.7,"Kericho, 77.7%",>10
+Kericho,Net too small,0,"Kericho, 0%",< 1
+Kericho,Net brought bedbugs,0,"Kericho, 0%",< 1
+Kericho,Other,2.9,"Kericho, 2.9%",>2-10
+Bomet,Too hot,0.7,"Bomet, 0.7%",< 1
+Bomet,Don't like net,0.4,"Bomet, 0.4%",< 1
+Bomet,Don't like smell,3.2,"Bomet, 3.2%",>2-10
+Bomet,Unable to hang net,3,"Bomet, 3%",>2-10
+Bomet,Slept outdoors,0.5,"Bomet, 0.5%",< 1
+Bomet,User didn't sleep in household,9.3,"Bomet, 9.3%",>2-10
+Bomet,No mosquitoes/malaria,4.9,"Bomet, 4.9%",>2-10
+Bomet,Extra net/saving for later,76.1,"Bomet, 76.1%",>10
+Bomet,Net too small,0,"Bomet, 0%",< 1
+Bomet,Net brought bedbugs,0,"Bomet, 0%",< 1
+Bomet,Other,1.9,"Bomet, 1.9%",1-2
+Kakamega,Too hot,1.1,"Kakamega, 1.1%",1-2
+Kakamega,Don't like net,2.2,"Kakamega, 2.2%",>2-10
+Kakamega,Don't like smell,1,"Kakamega, 1%",1-2
+Kakamega,Unable to hang net,4.3,"Kakamega, 4.3%",>2-10
+Kakamega,Slept outdoors,0.9,"Kakamega, 0.9%",< 1
+Kakamega,User didn't sleep in household,6.3,"Kakamega, 6.3%",>2-10
+Kakamega,No mosquitoes/malaria,2.7,"Kakamega, 2.7%",>2-10
+Kakamega,Extra net/saving for later,67.4,"Kakamega, 67.4%",>10
+Kakamega,Net too small,0.7,"Kakamega, 0.7%",< 1
+Kakamega,Net brought bedbugs,2.2,"Kakamega, 2.2%",>2-10
+Kakamega,Other,11.2,"Kakamega, 11.2%",>10
+Vihiga,Too hot,2,"Vihiga, 2%",1-2
+Vihiga,Don't like net,0.3,"Vihiga, 0.3%",< 1
+Vihiga,Don't like smell,1.8,"Vihiga, 1.8%",1-2
+Vihiga,Unable to hang net,3.2,"Vihiga, 3.2%",>2-10
+Vihiga,Slept outdoors,0,"Vihiga, 0%",< 1
+Vihiga,User didn't sleep in household,18.5,"Vihiga, 18.5%",>10
+Vihiga,No mosquitoes/malaria,0.7,"Vihiga, 0.7%",< 1
+Vihiga,Extra net/saving for later,66.4,"Vihiga, 66.4%",>10
+Vihiga,Net too small,0,"Vihiga, 0%",< 1
+Vihiga,Net brought bedbugs,1.3,"Vihiga, 1.3%",1-2
+Vihiga,Other,5.9,"Vihiga, 5.9%",>2-10
+Bungoma,Too hot,2,"Bungoma, 2%",1-2
+Bungoma,Don't like net,0.2,"Bungoma, 0.2%",< 1
+Bungoma,Don't like smell,0.2,"Bungoma, 0.2%",< 1
+Bungoma,Unable to hang net,6.1,"Bungoma, 6.1%",>2-10
+Bungoma,Slept outdoors,1.1,"Bungoma, 1.1%",1-2
+Bungoma,User didn't sleep in household,9,"Bungoma, 9%",>2-10
+Bungoma,No mosquitoes/malaria,1.7,"Bungoma, 1.7%",1-2
+Bungoma,Extra net/saving for later,72.8,"Bungoma, 72.8%",>10
+Bungoma,Net too small,0.9,"Bungoma, 0.9%",< 1
+Bungoma,Net brought bedbugs,2.6,"Bungoma, 2.6%",>2-10
+Bungoma,Other,3.5,"Bungoma, 3.5%",>2-10
+Busia,Too hot,1.3,"Busia, 1.3%",1-2
+Busia,Don't like net,0.6,"Busia, 0.6%",< 1
+Busia,Don't like smell,0.9,"Busia, 0.9%",< 1
+Busia,Unable to hang net,1,"Busia, 1%",1-2
+Busia,Slept outdoors,0,"Busia, 0%",< 1
+Busia,User didn't sleep in household,7.1,"Busia, 7.1%",>2-10
+Busia,No mosquitoes/malaria,3.3,"Busia, 3.3%",>2-10
+Busia,Extra net/saving for later,81.2,"Busia, 81.2%",>10
+Busia,Net too small,0,"Busia, 0%",< 1
+Busia,Net brought bedbugs,1.9,"Busia, 1.9%",1-2
+Busia,Other,2.7,"Busia, 2.7%",>2-10
+Siaya,Too hot,0.6,"Siaya, 0.6%",< 1
+Siaya,Don't like net,0,"Siaya, 0%",< 1
+Siaya,Don't like smell,0.4,"Siaya, 0.4%",< 1
+Siaya,Unable to hang net,1.5,"Siaya, 1.5%",1-2
+Siaya,Slept outdoors,0,"Siaya, 0%",< 1
+Siaya,User didn't sleep in household,11.8,"Siaya, 11.8%",>10
+Siaya,No mosquitoes/malaria,1.5,"Siaya, 1.5%",1-2
+Siaya,Extra net/saving for later,80.6,"Siaya, 80.6%",>10
+Siaya,Net too small,0,"Siaya, 0%",< 1
+Siaya,Net brought bedbugs,1.9,"Siaya, 1.9%",1-2
+Siaya,Other,1.6,"Siaya, 1.6%",1-2
+Kisumu,Too hot,3.9,"Kisumu, 3.9%",>2-10
+Kisumu,Don't like net,0,"Kisumu, 0%",< 1
+Kisumu,Don't like smell,0.3,"Kisumu, 0.3%",< 1
+Kisumu,Unable to hang net,2.2,"Kisumu, 2.2%",>2-10
+Kisumu,Slept outdoors,2.2,"Kisumu, 2.2%",>2-10
+Kisumu,User didn't sleep in household,7.2,"Kisumu, 7.2%",>2-10
+Kisumu,No mosquitoes/malaria,4.9,"Kisumu, 4.9%",>2-10
+Kisumu,Extra net/saving for later,73.8,"Kisumu, 73.8%",>10
+Kisumu,Net too small,0.6,"Kisumu, 0.6%",< 1
+Kisumu,Net brought bedbugs,1.1,"Kisumu, 1.1%",1-2
+Kisumu,Other,3.8,"Kisumu, 3.8%",>2-10
+Homa Bay,Too hot,0.5,"Homa Bay, 0.5%",< 1
+Homa Bay,Don't like net,1.7,"Homa Bay, 1.7%",1-2
+Homa Bay,Don't like smell,0.8,"Homa Bay, 0.8%",< 1
+Homa Bay,Unable to hang net,6.5,"Homa Bay, 6.5%",>2-10
+Homa Bay,Slept outdoors,0.2,"Homa Bay, 0.2%",< 1
+Homa Bay,User didn't sleep in household,10.8,"Homa Bay, 10.8%",>10
+Homa Bay,No mosquitoes/malaria,3.7,"Homa Bay, 3.7%",>2-10
+Homa Bay,Extra net/saving for later,67.5,"Homa Bay, 67.5%",>10
+Homa Bay,Net too small,0,"Homa Bay, 0%",< 1
+Homa Bay,Net brought bedbugs,1.2,"Homa Bay, 1.2%",1-2
+Homa Bay,Other,7.1,"Homa Bay, 7.1%",>2-10
+Migori,Too hot,1.3,"Migori, 1.3%",1-2
+Migori,Don't like net,0.8,"Migori, 0.8%",< 1
+Migori,Don't like smell,0.4,"Migori, 0.4%",< 1
+Migori,Unable to hang net,4.4,"Migori, 4.4%",>2-10
+Migori,Slept outdoors,0,"Migori, 0%",< 1
+Migori,User didn't sleep in household,15.5,"Migori, 15.5%",>10
+Migori,No mosquitoes/malaria,0.9,"Migori, 0.9%",< 1
+Migori,Extra net/saving for later,71.9,"Migori, 71.9%",>10
+Migori,Net too small,0.3,"Migori, 0.3%",< 1
+Migori,Net brought bedbugs,0,"Migori, 0%",< 1
+Migori,Other,4.6,"Migori, 4.6%",>2-10
+Kisii,Too hot,0.8,"Kisii, 0.8%",< 1
+Kisii,Don't like net,0,"Kisii, 0%",< 1
+Kisii,Don't like smell,2.2,"Kisii, 2.2%",>2-10
+Kisii,Unable to hang net,1.2,"Kisii, 1.2%",1-2
+Kisii,Slept outdoors,0.4,"Kisii, 0.4%",< 1
+Kisii,User didn't sleep in household,13.3,"Kisii, 13.3%",>10
+Kisii,No mosquitoes/malaria,2.1,"Kisii, 2.1%",>2-10
+Kisii,Extra net/saving for later,77.7,"Kisii, 77.7%",>10
+Kisii,Net too small,0,"Kisii, 0%",< 1
+Kisii,Net brought bedbugs,0,"Kisii, 0%",< 1
+Kisii,Other,2.3,"Kisii, 2.3%",>2-10
+Nyamira,Too hot,0.2,"Nyamira, 0.2%",< 1
+Nyamira,Don't like net,0.2,"Nyamira, 0.2%",< 1
+Nyamira,Don't like smell,0,"Nyamira, 0%",< 1
+Nyamira,Unable to hang net,1.8,"Nyamira, 1.8%",1-2
+Nyamira,Slept outdoors,0.3,"Nyamira, 0.3%",< 1
+Nyamira,User didn't sleep in household,17.7,"Nyamira, 17.7%",>10
+Nyamira,No mosquitoes/malaria,1,"Nyamira, 1%",1-2
+Nyamira,Extra net/saving for later,74.4,"Nyamira, 74.4%",>10
+Nyamira,Net too small,0.3,"Nyamira, 0.3%",< 1
+Nyamira,Net brought bedbugs,0,"Nyamira, 0%",< 1
+Nyamira,Other,4,"Nyamira, 4%",>2-10
+Nairobi,Too hot,8.6,"Nairobi, 8.6%",>2-10
+Nairobi,Don't like net,0,"Nairobi, 0%",< 1
+Nairobi,Don't like smell,0.6,"Nairobi, 0.6%",< 1
+Nairobi,Unable to hang net,14.6,"Nairobi, 14.6%",>10
+Nairobi,Slept outdoors,1.3,"Nairobi, 1.3%",1-2
+Nairobi,User didn't sleep in household,17.2,"Nairobi, 17.2%",>10
+Nairobi,No mosquitoes/malaria,24.2,"Nairobi, 24.2%",>10
+Nairobi,Extra net/saving for later,24.3,"Nairobi, 24.3%",>10
+Nairobi,Net too small,0,"Nairobi, 0%",< 1
+Nairobi,Net brought bedbugs,0,"Nairobi, 0%",< 1
+Nairobi,Other,9.2,"Nairobi, 9.2%",>2-10
