@@ -1,0 +1,189 @@
+County,Category,Proportion,proportion_groups
+Mombasa,Advice/treatment sought,41.7,>32-44
+Mombasa,Advice/treatment sought same/next day,20.9,>17-32
+Mombasa,Blood taken from finger/heel for testing,43.6,>32-44
+Mombasa,Diagnosed by healthcare provider,14.2,≤ 17
+Kwale,Advice/treatment sought,NA,NA
+Kwale,Advice/treatment sought same/next day,NA,NA
+Kwale,Blood taken from finger/heel for testing,NA,NA
+Kwale,Diagnosed by healthcare provider,NA,NA
+Kilifi,Advice/treatment sought,61,>44-62
+Kilifi,Advice/treatment sought same/next day,49.3,>44-62
+Kilifi,Blood taken from finger/heel for testing,30.7,>17-32
+Kilifi,Diagnosed by healthcare provider,13.1,≤ 17
+Tana River,Advice/treatment sought,54,>44-62
+Tana River,Advice/treatment sought same/next day,10.4,≤ 17
+Tana River,Blood taken from finger/heel for testing,27.8,>17-32
+Tana River,Diagnosed by healthcare provider,11.2,≤ 17
+Lamu,Advice/treatment sought,78.6,>62
+Lamu,Advice/treatment sought same/next day,33.4,>32-44
+Lamu,Blood taken from finger/heel for testing,19.5,>17-32
+Lamu,Diagnosed by healthcare provider,6.7,≤ 17
+Taita Taveta,Advice/treatment sought,57.6,>44-62
+Taita Taveta,Advice/treatment sought same/next day,40,>32-44
+Taita Taveta,Blood taken from finger/heel for testing,25,>17-32
+Taita Taveta,Diagnosed by healthcare provider,0,≤ 17
+Garissa,Advice/treatment sought,55,>44-62
+Garissa,Advice/treatment sought same/next day,16.1,≤ 17
+Garissa,Blood taken from finger/heel for testing,54.1,>44-62
+Garissa,Diagnosed by healthcare provider,25.1,>17-32
+Wajir,Advice/treatment sought,56.9,>44-62
+Wajir,Advice/treatment sought same/next day,32.8,>32-44
+Wajir,Blood taken from finger/heel for testing,14.7,≤ 17
+Wajir,Diagnosed by healthcare provider,2.5,≤ 17
+Mandera,Advice/treatment sought,37.5,>32-44
+Mandera,Advice/treatment sought same/next day,18,>17-32
+Mandera,Blood taken from finger/heel for testing,24.7,>17-32
+Mandera,Diagnosed by healthcare provider,16.6,≤ 17
+Marsabit,Advice/treatment sought,46.1,>44-62
+Marsabit,Advice/treatment sought same/next day,8.8,≤ 17
+Marsabit,Blood taken from finger/heel for testing,32.3,>32-44
+Marsabit,Diagnosed by healthcare provider,38,>32-44
+Isiolo,Advice/treatment sought,59.9,>44-62
+Isiolo,Advice/treatment sought same/next day,15.1,≤ 17
+Isiolo,Blood taken from finger/heel for testing,34.3,>32-44
+Isiolo,Diagnosed by healthcare provider,18.7,>17-32
+Meru,Advice/treatment sought,66.5,>62
+Meru,Advice/treatment sought same/next day,38,>32-44
+Meru,Blood taken from finger/heel for testing,17.8,>17-32
+Meru,Diagnosed by healthcare provider,12,≤ 17
+Tharaka Nithi,Advice/treatment sought,74.4,>62
+Tharaka Nithi,Advice/treatment sought same/next day,42.1,>32-44
+Tharaka Nithi,Blood taken from finger/heel for testing,34.2,>32-44
+Tharaka Nithi,Diagnosed by healthcare provider,8.4,≤ 17
+Embu,Advice/treatment sought,79.5,>62
+Embu,Advice/treatment sought same/next day,62.5,>62
+Embu,Blood taken from finger/heel for testing,6.4,≤ 17
+Embu,Diagnosed by healthcare provider,12.1,≤ 17
+Kitui,Advice/treatment sought,54.4,>44-62
+Kitui,Advice/treatment sought same/next day,26.4,>17-32
+Kitui,Blood taken from finger/heel for testing,12.4,≤ 17
+Kitui,Diagnosed by healthcare provider,15.4,≤ 17
+Machakos,Advice/treatment sought,78,>62
+Machakos,Advice/treatment sought same/next day,47.7,>44-62
+Machakos,Blood taken from finger/heel for testing,24.3,>17-32
+Machakos,Diagnosed by healthcare provider,15.8,≤ 17
+Makueni,Advice/treatment sought,NA,NA
+Makueni,Advice/treatment sought same/next day,NA,NA
+Makueni,Blood taken from finger/heel for testing,NA,NA
+Makueni,Diagnosed by healthcare provider,NA,NA
+Nyandarua,Advice/treatment sought,73.3,>62
+Nyandarua,Advice/treatment sought same/next day,37.7,>32-44
+Nyandarua,Blood taken from finger/heel for testing,23.2,>17-32
+Nyandarua,Diagnosed by healthcare provider,4.1,≤ 17
+Nyeri,Advice/treatment sought,97.6,>62
+Nyeri,Advice/treatment sought same/next day,69.3,>62
+Nyeri,Blood taken from finger/heel for testing,23,>17-32
+Nyeri,Diagnosed by healthcare provider,0,≤ 17
+Kirinyaga,Advice/treatment sought,NA,NA
+Kirinyaga,Advice/treatment sought same/next day,NA,NA
+Kirinyaga,Blood taken from finger/heel for testing,NA,NA
+Kirinyaga,Diagnosed by healthcare provider,NA,NA
+Muranga,Advice/treatment sought,71.3,>62
+Muranga,Advice/treatment sought same/next day,32.6,>32-44
+Muranga,Blood taken from finger/heel for testing,11.3,≤ 17
+Muranga,Diagnosed by healthcare provider,6,≤ 17
+Kiambu,Advice/treatment sought,68,>62
+Kiambu,Advice/treatment sought same/next day,47,>44-62
+Kiambu,Blood taken from finger/heel for testing,28.8,>17-32
+Kiambu,Diagnosed by healthcare provider,0,≤ 17
+Turkana,Advice/treatment sought,76.8,>62
+Turkana,Advice/treatment sought same/next day,53.5,>44-62
+Turkana,Blood taken from finger/heel for testing,56,>44-62
+Turkana,Diagnosed by healthcare provider,32.7,>32-44
+West Pokot,Advice/treatment sought,72,>62
+West Pokot,Advice/treatment sought same/next day,42,>32-44
+West Pokot,Blood taken from finger/heel for testing,52.6,>44-62
+West Pokot,Diagnosed by healthcare provider,49.2,>44-62
+Samburu,Advice/treatment sought,51,>44-62
+Samburu,Advice/treatment sought same/next day,19.5,>17-32
+Samburu,Blood taken from finger/heel for testing,23.7,>17-32
+Samburu,Diagnosed by healthcare provider,15.5,≤ 17
+Trans Nzoia,Advice/treatment sought,74,>62
+Trans Nzoia,Advice/treatment sought same/next day,43,>32-44
+Trans Nzoia,Blood taken from finger/heel for testing,41.9,>32-44
+Trans Nzoia,Diagnosed by healthcare provider,52.3,>44-62
+Uasin Gishu,Advice/treatment sought,77.9,>62
+Uasin Gishu,Advice/treatment sought same/next day,42,>32-44
+Uasin Gishu,Blood taken from finger/heel for testing,29.6,>17-32
+Uasin Gishu,Diagnosed by healthcare provider,17.1,>17-32
+Elgeyo Marakwet,Advice/treatment sought,65.1,>62
+Elgeyo Marakwet,Advice/treatment sought same/next day,42.9,>32-44
+Elgeyo Marakwet,Blood taken from finger/heel for testing,15.1,≤ 17
+Elgeyo Marakwet,Diagnosed by healthcare provider,0,≤ 17
+Nandi,Advice/treatment sought,72.5,>62
+Nandi,Advice/treatment sought same/next day,43,>32-44
+Nandi,Blood taken from finger/heel for testing,34.6,>32-44
+Nandi,Diagnosed by healthcare provider,32,>17-32
+Baringo,Advice/treatment sought,85.3,>62
+Baringo,Advice/treatment sought same/next day,39.7,>32-44
+Baringo,Blood taken from finger/heel for testing,35.4,>32-44
+Baringo,Diagnosed by healthcare provider,26.1,>17-32
+Laikipia,Advice/treatment sought,77.9,>62
+Laikipia,Advice/treatment sought same/next day,48.2,>44-62
+Laikipia,Blood taken from finger/heel for testing,13.8,≤ 17
+Laikipia,Diagnosed by healthcare provider,7.3,≤ 17
+Nakuru,Advice/treatment sought,66.2,>62
+Nakuru,Advice/treatment sought same/next day,41.6,>32-44
+Nakuru,Blood taken from finger/heel for testing,18.6,>17-32
+Nakuru,Diagnosed by healthcare provider,8.3,≤ 17
+Narok,Advice/treatment sought,59.3,>44-62
+Narok,Advice/treatment sought same/next day,23,>17-32
+Narok,Blood taken from finger/heel for testing,29.5,>17-32
+Narok,Diagnosed by healthcare provider,14.6,≤ 17
+Kajiado,Advice/treatment sought,60.1,>44-62
+Kajiado,Advice/treatment sought same/next day,34.5,>32-44
+Kajiado,Blood taken from finger/heel for testing,21.5,>17-32
+Kajiado,Diagnosed by healthcare provider,4,≤ 17
+Kericho,Advice/treatment sought,NA,NA
+Kericho,Advice/treatment sought same/next day,NA,NA
+Kericho,Blood taken from finger/heel for testing,NA,NA
+Kericho,Diagnosed by healthcare provider,NA,NA
+Bomet,Advice/treatment sought,67,>62
+Bomet,Advice/treatment sought same/next day,44.5,>44-62
+Bomet,Blood taken from finger/heel for testing,9.6,≤ 17
+Bomet,Diagnosed by healthcare provider,4,≤ 17
+Kakamega,Advice/treatment sought,72.2,>62
+Kakamega,Advice/treatment sought same/next day,29.5,>17-32
+Kakamega,Blood taken from finger/heel for testing,38.4,>32-44
+Kakamega,Diagnosed by healthcare provider,34,>32-44
+Vihiga,Advice/treatment sought,64.2,>62
+Vihiga,Advice/treatment sought same/next day,34.8,>32-44
+Vihiga,Blood taken from finger/heel for testing,23.8,>17-32
+Vihiga,Diagnosed by healthcare provider,25.4,>17-32
+Bungoma,Advice/treatment sought,71.4,>62
+Bungoma,Advice/treatment sought same/next day,50,>44-62
+Bungoma,Blood taken from finger/heel for testing,50.5,>44-62
+Bungoma,Diagnosed by healthcare provider,51,>44-62
+Busia,Advice/treatment sought,85,>62
+Busia,Advice/treatment sought same/next day,54.8,>44-62
+Busia,Blood taken from finger/heel for testing,79.7,>62
+Busia,Diagnosed by healthcare provider,59.8,>44-62
+Siaya,Advice/treatment sought,84.1,>62
+Siaya,Advice/treatment sought same/next day,30.3,>17-32
+Siaya,Blood taken from finger/heel for testing,65.6,>62
+Siaya,Diagnosed by healthcare provider,63.5,>62
+Kisumu,Advice/treatment sought,66.3,>62
+Kisumu,Advice/treatment sought same/next day,40,>32-44
+Kisumu,Blood taken from finger/heel for testing,49.6,>44-62
+Kisumu,Diagnosed by healthcare provider,39.6,>32-44
+Homa Bay,Advice/treatment sought,78.2,>62
+Homa Bay,Advice/treatment sought same/next day,50.3,>44-62
+Homa Bay,Blood taken from finger/heel for testing,43.6,>32-44
+Homa Bay,Diagnosed by healthcare provider,38.1,>32-44
+Migori,Advice/treatment sought,73.7,>62
+Migori,Advice/treatment sought same/next day,38.4,>32-44
+Migori,Blood taken from finger/heel for testing,44.5,>44-62
+Migori,Diagnosed by healthcare provider,48.1,>44-62
+Kisii,Advice/treatment sought,69.2,>62
+Kisii,Advice/treatment sought same/next day,52.7,>44-62
+Kisii,Blood taken from finger/heel for testing,30.4,>17-32
+Kisii,Diagnosed by healthcare provider,17,≤ 17
+Nyamira,Advice/treatment sought,67.2,>62
+Nyamira,Advice/treatment sought same/next day,57.1,>44-62
+Nyamira,Blood taken from finger/heel for testing,26.8,>17-32
+Nyamira,Diagnosed by healthcare provider,16.7,≤ 17
+Nairobi,Advice/treatment sought,72.3,>62
+Nairobi,Advice/treatment sought same/next day,54.7,>44-62
+Nairobi,Blood taken from finger/heel for testing,27.5,>17-32
+Nairobi,Diagnosed by healthcare provider,12.7,≤ 17
