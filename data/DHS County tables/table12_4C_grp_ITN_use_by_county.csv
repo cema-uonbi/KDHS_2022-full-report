@@ -1,0 +1,95 @@
+County,Category,Proportion,proportion_groups
+Mombasa,Use in households with 1/+ ITN,47.6,>31-55
+Mombasa,Use in households with 1/+ ITN per 2 persons,71.6,>68-74
+Kwale,Use in households with 1/+ ITN,62.3,>55-68
+Kwale,Use in households with 1/+ ITN per 2 persons,81.5,>74
+Kilifi,Use in households with 1/+ ITN,65.4,>55-68
+Kilifi,Use in households with 1/+ ITN per 2 persons,79.5,>74
+Tana River,Use in households with 1/+ ITN,58.5,>55-68
+Tana River,Use in households with 1/+ ITN per 2 persons,80.4,>74
+Lamu,Use in households with 1/+ ITN,49.6,>31-55
+Lamu,Use in households with 1/+ ITN per 2 persons,73.2,>68-74
+Taita Taveta,Use in households with 1/+ ITN,74.8,>74
+Taita Taveta,Use in households with 1/+ ITN per 2 persons,82.8,>74
+Garissa,Use in households with 1/+ ITN,9,≤ 31
+Garissa,Use in households with 1/+ ITN per 2 persons,44.4,>31-55
+Wajir,Use in households with 1/+ ITN,22.2,≤ 31
+Wajir,Use in households with 1/+ ITN per 2 persons,47.8,>31-55
+Mandera,Use in households with 1/+ ITN,8.4,≤ 31
+Mandera,Use in households with 1/+ ITN per 2 persons,48.7,>31-55
+Marsabit,Use in households with 1/+ ITN,7.2,≤ 31
+Marsabit,Use in households with 1/+ ITN per 2 persons,24.4,≤ 31
+Isiolo,Use in households with 1/+ ITN,35.4,>31-55
+Isiolo,Use in households with 1/+ ITN per 2 persons,64.2,>55-68
+Meru,Use in households with 1/+ ITN,23.3,≤ 31
+Meru,Use in households with 1/+ ITN per 2 persons,59.1,>55-68
+Tharaka Nithi,Use in households with 1/+ ITN,36.7,>31-55
+Tharaka Nithi,Use in households with 1/+ ITN per 2 persons,67,>55-68
+Embu,Use in households with 1/+ ITN,32.5,>31-55
+Embu,Use in households with 1/+ ITN per 2 persons,70.9,>68-74
+Kitui,Use in households with 1/+ ITN,22.3,≤ 31
+Kitui,Use in households with 1/+ ITN per 2 persons,63.1,>55-68
+Machakos,Use in households with 1/+ ITN,43.3,>31-55
+Machakos,Use in households with 1/+ ITN per 2 persons,72.5,>68-74
+Makueni,Use in households with 1/+ ITN,29.1,≤ 31
+Makueni,Use in households with 1/+ ITN per 2 persons,57.6,>55-68
+Nyandarua,Use in households with 1/+ ITN,5.4,≤ 31
+Nyandarua,Use in households with 1/+ ITN per 2 persons,53.6,>31-55
+Nyeri,Use in households with 1/+ ITN,10.5,≤ 31
+Nyeri,Use in households with 1/+ ITN per 2 persons,55.2,>55-68
+Kirinyaga,Use in households with 1/+ ITN,51.3,>31-55
+Kirinyaga,Use in households with 1/+ ITN per 2 persons,80.9,>74
+Muranga,Use in households with 1/+ ITN,21.9,≤ 31
+Muranga,Use in households with 1/+ ITN per 2 persons,53.3,>31-55
+Kiambu,Use in households with 1/+ ITN,17.5,≤ 31
+Kiambu,Use in households with 1/+ ITN per 2 persons,55.9,>55-68
+Turkana,Use in households with 1/+ ITN,24.7,≤ 31
+Turkana,Use in households with 1/+ ITN per 2 persons,47.1,>31-55
+West Pokot,Use in households with 1/+ ITN,50,>31-55
+West Pokot,Use in households with 1/+ ITN per 2 persons,61.5,>55-68
+Samburu,Use in households with 1/+ ITN,8.3,≤ 31
+Samburu,Use in households with 1/+ ITN per 2 persons,44.3,>31-55
+Trans Nzoia,Use in households with 1/+ ITN,72.6,>68-74
+Trans Nzoia,Use in households with 1/+ ITN per 2 persons,79.7,>74
+Uasin Gishu,Use in households with 1/+ ITN,57.5,>55-68
+Uasin Gishu,Use in households with 1/+ ITN per 2 persons,70.4,>68-74
+Elgeyo Marakwet,Use in households with 1/+ ITN,9.9,≤ 31
+Elgeyo Marakwet,Use in households with 1/+ ITN per 2 persons,39.9,>31-55
+Nandi,Use in households with 1/+ ITN,69,>68-74
+Nandi,Use in households with 1/+ ITN per 2 persons,76.5,>74
+Baringo,Use in households with 1/+ ITN,43.4,>31-55
+Baringo,Use in households with 1/+ ITN per 2 persons,66.7,>55-68
+Laikipia,Use in households with 1/+ ITN,15.1,≤ 31
+Laikipia,Use in households with 1/+ ITN per 2 persons,57.6,>55-68
+Nakuru,Use in households with 1/+ ITN,16,≤ 31
+Nakuru,Use in households with 1/+ ITN per 2 persons,55.2,>55-68
+Narok,Use in households with 1/+ ITN,49.4,>31-55
+Narok,Use in households with 1/+ ITN per 2 persons,61.1,>55-68
+Kajiado,Use in households with 1/+ ITN,26.9,≤ 31
+Kajiado,Use in households with 1/+ ITN per 2 persons,59.6,>55-68
+Kericho,Use in households with 1/+ ITN,69.1,>68-74
+Kericho,Use in households with 1/+ ITN per 2 persons,79,>74
+Bomet,Use in households with 1/+ ITN,73.4,>68-74
+Bomet,Use in households with 1/+ ITN per 2 persons,77.1,>74
+Kakamega,Use in households with 1/+ ITN,66.6,>55-68
+Kakamega,Use in households with 1/+ ITN per 2 persons,73.7,>68-74
+Vihiga,Use in households with 1/+ ITN,74.2,>74
+Vihiga,Use in households with 1/+ ITN per 2 persons,78.2,>74
+Bungoma,Use in households with 1/+ ITN,64.9,>55-68
+Bungoma,Use in households with 1/+ ITN per 2 persons,70.2,>68-74
+Busia,Use in households with 1/+ ITN,74.5,>74
+Busia,Use in households with 1/+ ITN per 2 persons,77.7,>74
+Siaya,Use in households with 1/+ ITN,68,>55-68
+Siaya,Use in households with 1/+ ITN per 2 persons,75.9,>74
+Kisumu,Use in households with 1/+ ITN,61.8,>55-68
+Kisumu,Use in households with 1/+ ITN per 2 persons,78.6,>74
+Homa Bay,Use in households with 1/+ ITN,61.4,>55-68
+Homa Bay,Use in households with 1/+ ITN per 2 persons,67.4,>55-68
+Migori,Use in households with 1/+ ITN,69.5,>68-74
+Migori,Use in households with 1/+ ITN per 2 persons,76.7,>74
+Kisii,Use in households with 1/+ ITN,71.2,>68-74
+Kisii,Use in households with 1/+ ITN per 2 persons,79.8,>74
+Nyamira,Use in households with 1/+ ITN,78.5,>74
+Nyamira,Use in households with 1/+ ITN per 2 persons,82.3,>74
+Nairobi,Use in households with 1/+ ITN,16.9,≤ 31
+Nairobi,Use in households with 1/+ ITN per 2 persons,66.8,>55-68
