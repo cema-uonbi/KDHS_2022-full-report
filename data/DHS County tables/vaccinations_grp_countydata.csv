@@ -1,0 +1,95 @@
+County,indicator2,values,names1,values_groups
+Kisii,CountyFullyVaccinated12,81.6,"Kisii, 82%",>65
+Kisii,CountyFullyVaccinated24,50.9,"Kisii, 51%",>43-52
+Nyamira,CountyFullyVaccinated12,55.8,"Nyamira, 56%",>52-65
+Nyamira,CountyFullyVaccinated24,48.5,"Nyamira, 48%",>43-52
+Nairobi,CountyFullyVaccinated12,45.8,"Nairobi, 46%",>43-52
+Nairobi,CountyFullyVaccinated24,30.5,"Nairobi, 30%",>28-43
+Mombasa,CountyFullyVaccinated12,70.4,"Mombasa, 70%",>65
+Mombasa,CountyFullyVaccinated24,24.8,"Mombasa, 25%",≤ 28
+Kwale,CountyFullyVaccinated12,50.1,"Kwale, 50%",>43-52
+Kwale,CountyFullyVaccinated24,39.3,"Kwale, 39%",>28-43
+Kilifi,CountyFullyVaccinated12,62.5,"Kilifi, 62%",>52-65
+Kilifi,CountyFullyVaccinated24,47.6,"Kilifi, 48%",>43-52
+Tana River,CountyFullyVaccinated12,39.2,"Tana River, 39%",>28-43
+Tana River,CountyFullyVaccinated24,28.1,"Tana River, 28%",>28-43
+Lamu,CountyFullyVaccinated12,54.2,"Lamu, 54%",>52-65
+Lamu,CountyFullyVaccinated24,36.6,"Lamu, 37%",>28-43
+Taita Taveta,CountyFullyVaccinated12,65.4,"Taita Taveta, 65%",>65
+Taita Taveta,CountyFullyVaccinated24,44.3,"Taita Taveta, 44%",>43-52
+Garissa,CountyFullyVaccinated12,16.9,"Garissa, 17%",≤ 28
+Garissa,CountyFullyVaccinated24,3.6,"Garissa, 4%",≤ 28
+Wajir,CountyFullyVaccinated12,19.2,"Wajir, 19%",≤ 28
+Wajir,CountyFullyVaccinated24,5.5,"Wajir, 6%",≤ 28
+Mandera,CountyFullyVaccinated12,5.6,"Mandera, 6%",≤ 28
+Mandera,CountyFullyVaccinated24,3.5,"Mandera, 4%",≤ 28
+Marsabit,CountyFullyVaccinated12,19.3,"Marsabit, 19%",≤ 28
+Marsabit,CountyFullyVaccinated24,8.4,"Marsabit, 8%",≤ 28
+Isiolo,CountyFullyVaccinated12,37.1,"Isiolo, 37%",>28-43
+Isiolo,CountyFullyVaccinated24,25.3,"Isiolo, 25%",≤ 28
+Meru,CountyFullyVaccinated12,57.9,"Meru, 58%",>52-65
+Meru,CountyFullyVaccinated24,49.1,"Meru, 49%",>43-52
+Tharaka Nithi,CountyFullyVaccinated12,82.1,"Tharaka Nithi, 82%",>65
+Tharaka Nithi,CountyFullyVaccinated24,48.5,"Tharaka Nithi, 48%",>43-52
+Embu,CountyFullyVaccinated12,75.6,"Embu, 76%",>65
+Embu,CountyFullyVaccinated24,52.6,"Embu, 53%",>52-65
+Kitui,CountyFullyVaccinated12,49.4,"Kitui, 49%",>43-52
+Kitui,CountyFullyVaccinated24,24.7,"Kitui, 25%",≤ 28
+Machakos,CountyFullyVaccinated12,70.8,"Machakos, 71%",>65
+Machakos,CountyFullyVaccinated24,60.9,"Machakos, 61%",>52-65
+Makueni,CountyFullyVaccinated12,65.5,"Makueni, 66%",>65
+Makueni,CountyFullyVaccinated24,48.4,"Makueni, 48%",>43-52
+Nyandarua,CountyFullyVaccinated12,70.6,"Nyandarua, 71%",>65
+Nyandarua,CountyFullyVaccinated24,63.5,"Nyandarua, 64%",>52-65
+Nyeri,CountyFullyVaccinated12,56.6,"Nyeri, 57%",>52-65
+Nyeri,CountyFullyVaccinated24,45.1,"Nyeri, 45%",>43-52
+Kirinyaga,CountyFullyVaccinated12,70.9,"Kirinyaga, 71%",>65
+Kirinyaga,CountyFullyVaccinated24,43.8,"Kirinyaga, 44%",>43-52
+Muranga,CountyFullyVaccinated12,66.2,"Muranga, 66%",>65
+Muranga,CountyFullyVaccinated24,62.5,"Muranga, 62%",>52-65
+Kiambu,CountyFullyVaccinated12,65.5,"Kiambu, 66%",>65
+Kiambu,CountyFullyVaccinated24,39.6,"Kiambu, 40%",>28-43
+Turkana,CountyFullyVaccinated12,29.3,"Turkana, 29%",>28-43
+Turkana,CountyFullyVaccinated24,25.3,"Turkana, 25%",≤ 28
+West Pokot,CountyFullyVaccinated12,10.7,"West Pokot, 11%",≤ 28
+West Pokot,CountyFullyVaccinated24,5.2,"West Pokot, 5%",≤ 28
+Samburu,CountyFullyVaccinated12,27.8,"Samburu, 28%",≤ 28
+Samburu,CountyFullyVaccinated24,14.9,"Samburu, 15%",≤ 28
+Trans Nzoia,CountyFullyVaccinated12,70.6,"Trans Nzoia, 71%",>65
+Trans Nzoia,CountyFullyVaccinated24,64.8,"Trans Nzoia, 65%",>52-65
+Uasin Gishu,CountyFullyVaccinated12,49.3,"Uasin Gishu, 49%",>43-52
+Uasin Gishu,CountyFullyVaccinated24,37.5,"Uasin Gishu, 38%",>28-43
+Elgeyo Marakwet,CountyFullyVaccinated12,43.2,"Elgeyo Marakwet, 43%",>43-52
+Elgeyo Marakwet,CountyFullyVaccinated24,30.2,"Elgeyo Marakwet, 30%",>28-43
+Nandi,CountyFullyVaccinated12,65,"Nandi, 65%",>52-65
+Nandi,CountyFullyVaccinated24,51.6,"Nandi, 52%",>43-52
+Baringo,CountyFullyVaccinated12,43.3,"Baringo, 43%",>43-52
+Baringo,CountyFullyVaccinated24,32.4,"Baringo, 32%",>28-43
+Laikipia,CountyFullyVaccinated12,55.5,"Laikipia, 56%",>52-65
+Laikipia,CountyFullyVaccinated24,33.2,"Laikipia, 33%",>28-43
+Nakuru,CountyFullyVaccinated12,69.2,"Nakuru, 69%",>65
+Nakuru,CountyFullyVaccinated24,57.6,"Nakuru, 58%",>52-65
+Narok,CountyFullyVaccinated12,30.8,"Narok, 31%",>28-43
+Narok,CountyFullyVaccinated24,16.2,"Narok, 16%",≤ 28
+Kajiado,CountyFullyVaccinated12,43.5,"Kajiado, 44%",>43-52
+Kajiado,CountyFullyVaccinated24,27.9,"Kajiado, 28%",≤ 28
+Kericho,CountyFullyVaccinated12,47.6,"Kericho, 48%",>43-52
+Kericho,CountyFullyVaccinated24,45.6,"Kericho, 46%",>43-52
+Bomet,CountyFullyVaccinated12,63.9,"Bomet, 64%",>52-65
+Bomet,CountyFullyVaccinated24,45.1,"Bomet, 45%",>43-52
+Kakamega,CountyFullyVaccinated12,72.8,"Kakamega, 73%",>65
+Kakamega,CountyFullyVaccinated24,53.2,"Kakamega, 53%",>52-65
+Vihiga,CountyFullyVaccinated12,70.1,"Vihiga, 70%",>65
+Vihiga,CountyFullyVaccinated24,58.1,"Vihiga, 58%",>52-65
+Bungoma,CountyFullyVaccinated12,65.9,"Bungoma, 66%",>65
+Bungoma,CountyFullyVaccinated24,29,"Bungoma, 29%",>28-43
+Busia,CountyFullyVaccinated12,55.8,"Busia, 56%",>52-65
+Busia,CountyFullyVaccinated24,60.2,"Busia, 60%",>52-65
+Siaya,CountyFullyVaccinated12,69.9,"Siaya, 70%",>65
+Siaya,CountyFullyVaccinated24,26.6,"Siaya, 27%",≤ 28
+Kisumu,CountyFullyVaccinated12,62.6,"Kisumu, 63%",>52-65
+Kisumu,CountyFullyVaccinated24,30.1,"Kisumu, 30%",>28-43
+Homa Bay,CountyFullyVaccinated12,52.6,"Homa Bay, 53%",>52-65
+Homa Bay,CountyFullyVaccinated24,28.5,"Homa Bay, 28%",>28-43
+Migori,CountyFullyVaccinated12,71.4,"Migori, 71%",>65
+Migori,CountyFullyVaccinated24,37.9,"Migori, 38%",>28-43
