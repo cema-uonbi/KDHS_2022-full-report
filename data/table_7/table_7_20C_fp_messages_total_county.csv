@@ -1,0 +1,894 @@
+County,Category,Proportion,Participants
+Mombasa,Radio,58.7,Women
+Mombasa,Television,57.6,Women
+Mombasa,Newspaper/magazine,22.2,Women
+Mombasa,Mobile phone,23.1,Women
+Mombasa,Social media,42.2,Women
+Mombasa,Poster/leaflet/brochure,47.6,Women
+Mombasa,Outdoor sign/billboard,41.8,Women
+Mombasa,Community meeting/events,52.1,Women
+Mombasa,Friends/peers,75.6,Women
+Mombasa,Internet,39.4,Women
+Kwale,Radio,59.1,Women
+Kwale,Television,42.0,Women
+Kwale,Newspaper/magazine,23.2,Women
+Kwale,Mobile phone,28.3,Women
+Kwale,Social media,31.8,Women
+Kwale,Poster/leaflet/brochure,36.7,Women
+Kwale,Outdoor sign/billboard,47.3,Women
+Kwale,Community meeting/events,72.9,Women
+Kwale,Friends/peers,91.4,Women
+Kwale,Internet,31.0,Women
+Kilifi,Radio,40.9,Women
+Kilifi,Television,28.3,Women
+Kilifi,Newspaper/magazine,9.1,Women
+Kilifi,Mobile phone,9.3,Women
+Kilifi,Social media,13.1,Women
+Kilifi,Poster/leaflet/brochure,18.1,Women
+Kilifi,Outdoor sign/billboard,12.9,Women
+Kilifi,Community meeting/events,54.7,Women
+Kilifi,Friends/peers,83.7,Women
+Kilifi,Internet,15.8,Women
+Tana River,Radio,18.5,Women
+Tana River,Television,14.0,Women
+Tana River,Newspaper/magazine,2.4,Women
+Tana River,Mobile phone,5.2,Women
+Tana River,Social media,7.2,Women
+Tana River,Poster/leaflet/brochure,19.2,Women
+Tana River,Outdoor sign/billboard,14.5,Women
+Tana River,Community meeting/events,32.3,Women
+Tana River,Friends/peers,55.5,Women
+Tana River,Internet,11.3,Women
+Lamu,Radio,38.6,Women
+Lamu,Television,35.3,Women
+Lamu,Newspaper/magazine,9.2,Women
+Lamu,Mobile phone,9.0,Women
+Lamu,Social media,14.1,Women
+Lamu,Poster/leaflet/brochure,37.6,Women
+Lamu,Outdoor sign/billboard,32.7,Women
+Lamu,Community meeting/events,17.9,Women
+Lamu,Friends/peers,71.4,Women
+Lamu,Internet,15.4,Women
+Taita/Taveta,Radio,60.8,Women
+Taita/Taveta,Television,51.5,Women
+Taita/Taveta,Newspaper/magazine,15.2,Women
+Taita/Taveta,Mobile phone,10.3,Women
+Taita/Taveta,Social media,32.4,Women
+Taita/Taveta,Poster/leaflet/brochure,38.3,Women
+Taita/Taveta,Outdoor sign/billboard,25.9,Women
+Taita/Taveta,Community meeting/events,31.7,Women
+Taita/Taveta,Friends/peers,72.1,Women
+Taita/Taveta,Internet,23.9,Women
+Garissa,Radio,33.0,Women
+Garissa,Television,35.0,Women
+Garissa,Newspaper/magazine,19.6,Women
+Garissa,Mobile phone,21.3,Women
+Garissa,Social media,23.2,Women
+Garissa,Poster/leaflet/brochure,19.2,Women
+Garissa,Outdoor sign/billboard,20.0,Women
+Garissa,Community meeting/events,38.4,Women
+Garissa,Friends/peers,47.5,Women
+Garissa,Internet,24.7,Women
+Wajir,Radio,15.3,Women
+Wajir,Television,7.3,Women
+Wajir,Newspaper/magazine,4.4,Women
+Wajir,Mobile phone,2.0,Women
+Wajir,Social media,10.9,Women
+Wajir,Poster/leaflet/brochure,1.2,Women
+Wajir,Outdoor sign/billboard,2.1,Women
+Wajir,Community meeting/events,10.1,Women
+Wajir,Friends/peers,43.6,Women
+Wajir,Internet,6.9,Women
+Mandera,Radio,4.2,Women
+Mandera,Television,2.6,Women
+Mandera,Newspaper/magazine,0.9,Women
+Mandera,Mobile phone,1.8,Women
+Mandera,Social media,2.4,Women
+Mandera,Poster/leaflet/brochure,1.0,Women
+Mandera,Outdoor sign/billboard,0.9,Women
+Mandera,Community meeting/events,17.2,Women
+Mandera,Friends/peers,41.8,Women
+Mandera,Internet,3.2,Women
+Marsabit,Radio,13.1,Women
+Marsabit,Television,7.3,Women
+Marsabit,Newspaper/magazine,3.0,Women
+Marsabit,Mobile phone,3.3,Women
+Marsabit,Social media,3.5,Women
+Marsabit,Poster/leaflet/brochure,4.2,Women
+Marsabit,Outdoor sign/billboard,4.1,Women
+Marsabit,Community meeting/events,43.7,Women
+Marsabit,Friends/peers,76.2,Women
+Marsabit,Internet,7.6,Women
+Isiolo,Radio,50.4,Women
+Isiolo,Television,54.5,Women
+Isiolo,Newspaper/magazine,28.1,Women
+Isiolo,Mobile phone,35.3,Women
+Isiolo,Social media,35.1,Women
+Isiolo,Poster/leaflet/brochure,39.3,Women
+Isiolo,Outdoor sign/billboard,35.2,Women
+Isiolo,Community meeting/events,47.7,Women
+Isiolo,Friends/peers,80.2,Women
+Isiolo,Internet,35.9,Women
+Meru,Radio,50.9,Women
+Meru,Television,39.4,Women
+Meru,Newspaper/magazine,14.3,Women
+Meru,Mobile phone,11.7,Women
+Meru,Social media,23.4,Women
+Meru,Poster/leaflet/brochure,25.2,Women
+Meru,Outdoor sign/billboard,25.8,Women
+Meru,Community meeting/events,21.4,Women
+Meru,Friends/peers,66.3,Women
+Meru,Internet,20.7,Women
+Tharaka-Nithi,Radio,42.9,Women
+Tharaka-Nithi,Television,30.8,Women
+Tharaka-Nithi,Newspaper/magazine,13.0,Women
+Tharaka-Nithi,Mobile phone,18.3,Women
+Tharaka-Nithi,Social media,18.8,Women
+Tharaka-Nithi,Poster/leaflet/brochure,42.1,Women
+Tharaka-Nithi,Outdoor sign/billboard,18.4,Women
+Tharaka-Nithi,Community meeting/events,29.0,Women
+Tharaka-Nithi,Friends/peers,71.2,Women
+Tharaka-Nithi,Internet,18.2,Women
+Embu,Radio,58.7,Women
+Embu,Television,46.6,Women
+Embu,Newspaper/magazine,22.3,Women
+Embu,Mobile phone,17.0,Women
+Embu,Social media,29.3,Women
+Embu,Poster/leaflet/brochure,47.6,Women
+Embu,Outdoor sign/billboard,22.6,Women
+Embu,Community meeting/events,56.1,Women
+Embu,Friends/peers,75.8,Women
+Embu,Internet,21.6,Women
+Kitui,Radio,69.0,Women
+Kitui,Television,24.6,Women
+Kitui,Newspaper/magazine,8.8,Women
+Kitui,Mobile phone,7.1,Women
+Kitui,Social media,14.7,Women
+Kitui,Poster/leaflet/brochure,18.5,Women
+Kitui,Outdoor sign/billboard,19.2,Women
+Kitui,Community meeting/events,70.0,Women
+Kitui,Friends/peers,87.2,Women
+Kitui,Internet,17.6,Women
+Machakos,Radio,53.8,Women
+Machakos,Television,50.1,Women
+Machakos,Newspaper/magazine,17.8,Women
+Machakos,Mobile phone,8.3,Women
+Machakos,Social media,26.4,Women
+Machakos,Poster/leaflet/brochure,44.6,Women
+Machakos,Outdoor sign/billboard,20.8,Women
+Machakos,Community meeting/events,37.9,Women
+Machakos,Friends/peers,81.1,Women
+Machakos,Internet,31.0,Women
+Makueni,Radio,57.9,Women
+Makueni,Television,29.4,Women
+Makueni,Newspaper/magazine,8.9,Women
+Makueni,Mobile phone,12.6,Women
+Makueni,Social media,16.0,Women
+Makueni,Poster/leaflet/brochure,26.4,Women
+Makueni,Outdoor sign/billboard,30.1,Women
+Makueni,Community meeting/events,56.3,Women
+Makueni,Friends/peers,80.6,Women
+Makueni,Internet,22.6,Women
+Nyandarua,Radio,70.8,Women
+Nyandarua,Television,68.8,Women
+Nyandarua,Newspaper/magazine,11.6,Women
+Nyandarua,Mobile phone,11.6,Women
+Nyandarua,Social media,23.7,Women
+Nyandarua,Poster/leaflet/brochure,26.7,Women
+Nyandarua,Outdoor sign/billboard,35.8,Women
+Nyandarua,Community meeting/events,35.1,Women
+Nyandarua,Friends/peers,76.7,Women
+Nyandarua,Internet,24.5,Women
+Nyeri,Radio,70.6,Women
+Nyeri,Television,69.6,Women
+Nyeri,Newspaper/magazine,31.4,Women
+Nyeri,Mobile phone,13.4,Women
+Nyeri,Social media,50.2,Women
+Nyeri,Poster/leaflet/brochure,43.4,Women
+Nyeri,Outdoor sign/billboard,39.5,Women
+Nyeri,Community meeting/events,27.8,Women
+Nyeri,Friends/peers,81.2,Women
+Nyeri,Internet,45.5,Women
+Kirinyaga,Radio,58.1,Women
+Kirinyaga,Television,65.2,Women
+Kirinyaga,Newspaper/magazine,11.5,Women
+Kirinyaga,Mobile phone,8.2,Women
+Kirinyaga,Social media,38.1,Women
+Kirinyaga,Poster/leaflet/brochure,51.6,Women
+Kirinyaga,Outdoor sign/billboard,38.5,Women
+Kirinyaga,Community meeting/events,67.9,Women
+Kirinyaga,Friends/peers,88.9,Women
+Kirinyaga,Internet,36.3,Women
+Murang’a,Radio,72.8,Women
+Murang’a,Television,68.4,Women
+Murang’a,Newspaper/magazine,43.8,Women
+Murang’a,Mobile phone,15.6,Women
+Murang’a,Social media,30.1,Women
+Murang’a,Poster/leaflet/brochure,56.4,Women
+Murang’a,Outdoor sign/billboard,49.9,Women
+Murang’a,Community meeting/events,40.2,Women
+Murang’a,Friends/peers,74.1,Women
+Murang’a,Internet,21.6,Women
+Kiambu,Radio,50.6,Women
+Kiambu,Television,57.3,Women
+Kiambu,Newspaper/magazine,13.2,Women
+Kiambu,Mobile phone,7.9,Women
+Kiambu,Social media,44.2,Women
+Kiambu,Poster/leaflet/brochure,32.2,Women
+Kiambu,Outdoor sign/billboard,31.5,Women
+Kiambu,Community meeting/events,22.7,Women
+Kiambu,Friends/peers,79.2,Women
+Kiambu,Internet,39.3,Women
+Turkana,Radio,17.1,Women
+Turkana,Television,9.3,Women
+Turkana,Newspaper/magazine,3.8,Women
+Turkana,Mobile phone,6.4,Women
+Turkana,Social media,10.7,Women
+Turkana,Poster/leaflet/brochure,6.0,Women
+Turkana,Outdoor sign/billboard,11.3,Women
+Turkana,Community meeting/events,54.1,Women
+Turkana,Friends/peers,84.6,Women
+Turkana,Internet,10.3,Women
+West Pokot,Radio,56.6,Women
+West Pokot,Television,23.3,Women
+West Pokot,Newspaper/magazine,10.5,Women
+West Pokot,Mobile phone,21.2,Women
+West Pokot,Social media,12.3,Women
+West Pokot,Poster/leaflet/brochure,15.2,Women
+West Pokot,Outdoor sign/billboard,10.7,Women
+West Pokot,Community meeting/events,58.7,Women
+West Pokot,Friends/peers,85.8,Women
+West Pokot,Internet,15.5,Women
+Samburu,Radio,29.2,Women
+Samburu,Television,18.6,Women
+Samburu,Newspaper/magazine,6.7,Women
+Samburu,Mobile phone,3.3,Women
+Samburu,Social media,14.8,Women
+Samburu,Poster/leaflet/brochure,17.4,Women
+Samburu,Outdoor sign/billboard,16.7,Women
+Samburu,Community meeting/events,60.7,Women
+Samburu,Friends/peers,88.6,Women
+Samburu,Internet,12.2,Women
+Trans Nzoia,Radio,72.0,Women
+Trans Nzoia,Television,53.8,Women
+Trans Nzoia,Newspaper/magazine,16.8,Women
+Trans Nzoia,Mobile phone,12.0,Women
+Trans Nzoia,Social media,33.7,Women
+Trans Nzoia,Poster/leaflet/brochure,64.2,Women
+Trans Nzoia,Outdoor sign/billboard,62.3,Women
+Trans Nzoia,Community meeting/events,54.7,Women
+Trans Nzoia,Friends/peers,89.6,Women
+Trans Nzoia,Internet,30.3,Women
+Uasin Gishu,Radio,67.5,Women
+Uasin Gishu,Television,67.0,Women
+Uasin Gishu,Newspaper/magazine,28.7,Women
+Uasin Gishu,Mobile phone,18.0,Women
+Uasin Gishu,Social media,49.5,Women
+Uasin Gishu,Poster/leaflet/brochure,75.1,Women
+Uasin Gishu,Outdoor sign/billboard,51.3,Women
+Uasin Gishu,Community meeting/events,47.5,Women
+Uasin Gishu,Friends/peers,85.8,Women
+Uasin Gishu,Internet,49.4,Women
+Elgeyo/Marakwet,Radio,66.1,Women
+Elgeyo/Marakwet,Television,43.7,Women
+Elgeyo/Marakwet,Newspaper/magazine,21.3,Women
+Elgeyo/Marakwet,Mobile phone,10.1,Women
+Elgeyo/Marakwet,Social media,23.1,Women
+Elgeyo/Marakwet,Poster/leaflet/brochure,20.0,Women
+Elgeyo/Marakwet,Outdoor sign/billboard,23.9,Women
+Elgeyo/Marakwet,Community meeting/events,50.7,Women
+Elgeyo/Marakwet,Friends/peers,88.1,Women
+Elgeyo/Marakwet,Internet,24.8,Women
+Nandi,Radio,60.8,Women
+Nandi,Television,43.6,Women
+Nandi,Newspaper/magazine,18.4,Women
+Nandi,Mobile phone,5.1,Women
+Nandi,Social media,24.6,Women
+Nandi,Poster/leaflet/brochure,47.9,Women
+Nandi,Outdoor sign/billboard,16.0,Women
+Nandi,Community meeting/events,36.2,Women
+Nandi,Friends/peers,77.4,Women
+Nandi,Internet,22.3,Women
+Baringo,Radio,65.4,Women
+Baringo,Television,49.2,Women
+Baringo,Newspaper/magazine,29.8,Women
+Baringo,Mobile phone,20.5,Women
+Baringo,Social media,28.4,Women
+Baringo,Poster/leaflet/brochure,57.7,Women
+Baringo,Outdoor sign/billboard,24.7,Women
+Baringo,Community meeting/events,48.3,Women
+Baringo,Friends/peers,87.3,Women
+Baringo,Internet,23.3,Women
+Laikipia,Radio,44.0,Women
+Laikipia,Television,52.1,Women
+Laikipia,Newspaper/magazine,8.4,Women
+Laikipia,Mobile phone,7.6,Women
+Laikipia,Social media,34.2,Women
+Laikipia,Poster/leaflet/brochure,45.0,Women
+Laikipia,Outdoor sign/billboard,42.2,Women
+Laikipia,Community meeting/events,11.1,Women
+Laikipia,Friends/peers,74.4,Women
+Laikipia,Internet,19.7,Women
+Nakuru,Radio,55.1,Women
+Nakuru,Television,54.7,Women
+Nakuru,Newspaper/magazine,18.4,Women
+Nakuru,Mobile phone,8.8,Women
+Nakuru,Social media,42.7,Women
+Nakuru,Poster/leaflet/brochure,29.6,Women
+Nakuru,Outdoor sign/billboard,30.2,Women
+Nakuru,Community meeting/events,33.1,Women
+Nakuru,Friends/peers,76.6,Women
+Nakuru,Internet,43.1,Women
+Narok,Radio,75.4,Women
+Narok,Television,40.1,Women
+Narok,Newspaper/magazine,18.8,Women
+Narok,Mobile phone,15.2,Women
+Narok,Social media,24.7,Women
+Narok,Poster/leaflet/brochure,38.7,Women
+Narok,Outdoor sign/billboard,22.0,Women
+Narok,Community meeting/events,64.8,Women
+Narok,Friends/peers,91.1,Women
+Narok,Internet,20.3,Women
+Kajiado,Radio,66.4,Women
+Kajiado,Television,60.7,Women
+Kajiado,Newspaper/magazine,35.8,Women
+Kajiado,Mobile phone,13.4,Women
+Kajiado,Social media,49.3,Women
+Kajiado,Poster/leaflet/brochure,47.3,Women
+Kajiado,Outdoor sign/billboard,40.2,Women
+Kajiado,Community meeting/events,42.1,Women
+Kajiado,Friends/peers,75.6,Women
+Kajiado,Internet,53.6,Women
+Kericho,Radio,78.4,Women
+Kericho,Television,68.5,Women
+Kericho,Newspaper/magazine,57.1,Women
+Kericho,Mobile phone,32.4,Women
+Kericho,Social media,44.6,Women
+Kericho,Poster/leaflet/brochure,60.9,Women
+Kericho,Outdoor sign/billboard,65.5,Women
+Kericho,Community meeting/events,79.1,Women
+Kericho,Friends/peers,87.7,Women
+Kericho,Internet,37.6,Women
+Bomet,Radio,54.7,Women
+Bomet,Television,18.3,Women
+Bomet,Newspaper/magazine,14.7,Women
+Bomet,Mobile phone,5.4,Women
+Bomet,Social media,13.6,Women
+Bomet,Poster/leaflet/brochure,55.1,Women
+Bomet,Outdoor sign/billboard,14.8,Women
+Bomet,Community meeting/events,35.4,Women
+Bomet,Friends/peers,76.5,Women
+Bomet,Internet,12.1,Women
+Kakamega,Radio,71.0,Women
+Kakamega,Television,44.2,Women
+Kakamega,Newspaper/magazine,18.6,Women
+Kakamega,Mobile phone,14.5,Women
+Kakamega,Social media,25.5,Women
+Kakamega,Poster/leaflet/brochure,42.2,Women
+Kakamega,Outdoor sign/billboard,40.9,Women
+Kakamega,Community meeting/events,54.5,Women
+Kakamega,Friends/peers,80.1,Women
+Kakamega,Internet,21.8,Women
+Vihiga,Radio,50.3,Women
+Vihiga,Television,30.7,Women
+Vihiga,Newspaper/magazine,10.2,Women
+Vihiga,Mobile phone,8.8,Women
+Vihiga,Social media,21.4,Women
+Vihiga,Poster/leaflet/brochure,38.6,Women
+Vihiga,Outdoor sign/billboard,23.5,Women
+Vihiga,Community meeting/events,44.1,Women
+Vihiga,Friends/peers,80.7,Women
+Vihiga,Internet,15.5,Women
+Bungoma,Radio,69.5,Women
+Bungoma,Television,45.5,Women
+Bungoma,Newspaper/magazine,21.3,Women
+Bungoma,Mobile phone,23.0,Women
+Bungoma,Social media,29.1,Women
+Bungoma,Poster/leaflet/brochure,72.7,Women
+Bungoma,Outdoor sign/billboard,36.1,Women
+Bungoma,Community meeting/events,57.8,Women
+Bungoma,Friends/peers,81.5,Women
+Bungoma,Internet,26.9,Women
+Busia,Radio,50.3,Women
+Busia,Television,32.3,Women
+Busia,Newspaper/magazine,6.5,Women
+Busia,Mobile phone,7.7,Women
+Busia,Social media,12.5,Women
+Busia,Poster/leaflet/brochure,21.3,Women
+Busia,Outdoor sign/billboard,7.9,Women
+Busia,Community meeting/events,31.2,Women
+Busia,Friends/peers,85.7,Women
+Busia,Internet,11.1,Women
+Siaya,Radio,79.6,Women
+Siaya,Television,62.3,Women
+Siaya,Newspaper/magazine,32.5,Women
+Siaya,Mobile phone,18.4,Women
+Siaya,Social media,24.8,Women
+Siaya,Poster/leaflet/brochure,58.4,Women
+Siaya,Outdoor sign/billboard,49.1,Women
+Siaya,Community meeting/events,63.5,Women
+Siaya,Friends/peers,79.5,Women
+Siaya,Internet,28.1,Women
+Kisumu,Radio,70.1,Women
+Kisumu,Television,55.7,Women
+Kisumu,Newspaper/magazine,12.4,Women
+Kisumu,Mobile phone,12.0,Women
+Kisumu,Social media,19.8,Women
+Kisumu,Poster/leaflet/brochure,62.4,Women
+Kisumu,Outdoor sign/billboard,71.9,Women
+Kisumu,Community meeting/events,61.4,Women
+Kisumu,Friends/peers,92.9,Women
+Kisumu,Internet,22.4,Women
+Homa Bay,Radio,67.4,Women
+Homa Bay,Television,46.5,Women
+Homa Bay,Newspaper/magazine,24.6,Women
+Homa Bay,Mobile phone,16.1,Women
+Homa Bay,Social media,26.3,Women
+Homa Bay,Poster/leaflet/brochure,32.8,Women
+Homa Bay,Outdoor sign/billboard,22.0,Women
+Homa Bay,Community meeting/events,44.0,Women
+Homa Bay,Friends/peers,82.7,Women
+Homa Bay,Internet,28.5,Women
+Migori,Radio,65.7,Women
+Migori,Television,42.8,Women
+Migori,Newspaper/magazine,8.8,Women
+Migori,Mobile phone,11.2,Women
+Migori,Social media,17.9,Women
+Migori,Poster/leaflet/brochure,32.3,Women
+Migori,Outdoor sign/billboard,16.7,Women
+Migori,Community meeting/events,30.5,Women
+Migori,Friends/peers,79.1,Women
+Migori,Internet,15.9,Women
+Kisii,Radio,61.5,Women
+Kisii,Television,43.0,Women
+Kisii,Newspaper/magazine,16.9,Women
+Kisii,Mobile phone,12.1,Women
+Kisii,Social media,20.4,Women
+Kisii,Poster/leaflet/brochure,43.5,Women
+Kisii,Outdoor sign/billboard,59.4,Women
+Kisii,Community meeting/events,38.2,Women
+Kisii,Friends/peers,87.7,Women
+Kisii,Internet,17.9,Women
+Nyamira,Radio,73.1,Women
+Nyamira,Television,51.5,Women
+Nyamira,Newspaper/magazine,39.3,Women
+Nyamira,Mobile phone,24.1,Women
+Nyamira,Social media,21.4,Women
+Nyamira,Poster/leaflet/brochure,57.3,Women
+Nyamira,Outdoor sign/billboard,59.9,Women
+Nyamira,Community meeting/events,52.0,Women
+Nyamira,Friends/peers,80.3,Women
+Nyamira,Internet,20.6,Women
+Nairobi City,Radio,57.4,Women
+Nairobi City,Television,67.7,Women
+Nairobi City,Newspaper/magazine,28.4,Women
+Nairobi City,Mobile phone,17.8,Women
+Nairobi City,Social media,54.8,Women
+Nairobi City,Poster/leaflet/brochure,38.7,Women
+Nairobi City,Outdoor sign/billboard,47.2,Women
+Nairobi City,Community meeting/events,47.4,Women
+Nairobi City,Friends/peers,85.3,Women
+Nairobi City,Internet,50.3,Women
+Mombasa,Radio,70.7,Men
+Mombasa,Television,55.7,Men
+Mombasa,Newspaper/magazine,16.6,Men
+Mombasa,Mobile phone,4.9,Men
+Mombasa,Social media,48.2,Men
+Mombasa,Poster/leaflet/brochure,61.5,Men
+Mombasa,Outdoor sign/billboard,63.1,Men
+Mombasa,Friends/peers,85.7,Men
+Mombasa,Internet,35.6,Men
+Kwale,Radio,52.3,Men
+Kwale,Television,39.8,Men
+Kwale,Newspaper/magazine,16.3,Men
+Kwale,Mobile phone,14.5,Men
+Kwale,Social media,32.9,Men
+Kwale,Poster/leaflet/brochure,40.7,Men
+Kwale,Outdoor sign/billboard,43.8,Men
+Kwale,Friends/peers,61.4,Men
+Kwale,Internet,28.5,Men
+Kilifi,Radio,57.9,Men
+Kilifi,Television,42.2,Men
+Kilifi,Newspaper/magazine,12.1,Men
+Kilifi,Mobile phone,9.2,Men
+Kilifi,Social media,18.4,Men
+Kilifi,Poster/leaflet/brochure,20.4,Men
+Kilifi,Outdoor sign/billboard,25.1,Men
+Kilifi,Friends/peers,47.9,Men
+Kilifi,Internet,25.5,Men
+Tana River,Radio,50.0,Men
+Tana River,Television,34.6,Men
+Tana River,Newspaper/magazine,22.7,Men
+Tana River,Mobile phone,12.7,Men
+Tana River,Social media,21.5,Men
+Tana River,Poster/leaflet/brochure,24.0,Men
+Tana River,Outdoor sign/billboard,63.9,Men
+Tana River,Friends/peers,79.5,Men
+Tana River,Internet,30.6,Men
+Lamu,Radio,46.5,Men
+Lamu,Television,22.6,Men
+Lamu,Newspaper/magazine,2.8,Men
+Lamu,Mobile phone,8.3,Men
+Lamu,Social media,16.6,Men
+Lamu,Poster/leaflet/brochure,37.5,Men
+Lamu,Outdoor sign/billboard,17.2,Men
+Lamu,Friends/peers,83.7,Men
+Lamu,Internet,22.6,Men
+Taita/Taveta,Radio,79.0,Men
+Taita/Taveta,Television,69.2,Men
+Taita/Taveta,Newspaper/magazine,23.3,Men
+Taita/Taveta,Mobile phone,3.2,Men
+Taita/Taveta,Social media,39.4,Men
+Taita/Taveta,Poster/leaflet/brochure,49.7,Men
+Taita/Taveta,Outdoor sign/billboard,32.3,Men
+Taita/Taveta,Friends/peers,64.8,Men
+Taita/Taveta,Internet,44.7,Men
+Garissa,Radio,53.7,Men
+Garissa,Television,33.6,Men
+Garissa,Newspaper/magazine,13.8,Men
+Garissa,Mobile phone,5.1,Men
+Garissa,Social media,3.2,Men
+Garissa,Poster/leaflet/brochure,20.7,Men
+Garissa,Outdoor sign/billboard,6.9,Men
+Garissa,Friends/peers,4.3,Men
+Garissa,Internet,24.4,Men
+Wajir,Radio,18.6,Men
+Wajir,Television,10.2,Men
+Wajir,Newspaper/magazine,9.2,Men
+Wajir,Mobile phone,4.2,Men
+Wajir,Social media,15.4,Men
+Wajir,Poster/leaflet/brochure,12.5,Men
+Wajir,Outdoor sign/billboard,14.6,Men
+Wajir,Friends/peers,28.3,Men
+Wajir,Internet,16.0,Men
+Mandera,Radio,15.5,Men
+Mandera,Television,9.6,Men
+Mandera,Newspaper/magazine,6.2,Men
+Mandera,Mobile phone,1.2,Men
+Mandera,Social media,8.2,Men
+Mandera,Poster/leaflet/brochure,5.7,Men
+Mandera,Outdoor sign/billboard,8.4,Men
+Mandera,Friends/peers,31.4,Men
+Mandera,Internet,14.6,Men
+Marsabit,Radio,48.1,Men
+Marsabit,Television,30.1,Men
+Marsabit,Newspaper/magazine,6.0,Men
+Marsabit,Mobile phone,1.3,Men
+Marsabit,Social media,20.4,Men
+Marsabit,Poster/leaflet/brochure,28.0,Men
+Marsabit,Outdoor sign/billboard,29.6,Men
+Marsabit,Friends/peers,62.8,Men
+Marsabit,Internet,17.1,Men
+Isiolo,Radio,49.7,Men
+Isiolo,Television,46.9,Men
+Isiolo,Newspaper/magazine,10.6,Men
+Isiolo,Mobile phone,3.8,Men
+Isiolo,Social media,49.6,Men
+Isiolo,Poster/leaflet/brochure,22.3,Men
+Isiolo,Outdoor sign/billboard,11.8,Men
+Isiolo,Friends/peers,56.0,Men
+Isiolo,Internet,38.0,Men
+Meru,Radio,59.8,Men
+Meru,Television,43.8,Men
+Meru,Newspaper/magazine,26.1,Men
+Meru,Mobile phone,10.5,Men
+Meru,Social media,36.0,Men
+Meru,Poster/leaflet/brochure,45.5,Men
+Meru,Outdoor sign/billboard,31.9,Men
+Meru,Friends/peers,58.5,Men
+Meru,Internet,31.9,Men
+Tharaka-Nithi,Radio,66.9,Men
+Tharaka-Nithi,Television,51.9,Men
+Tharaka-Nithi,Newspaper/magazine,19.7,Men
+Tharaka-Nithi,Mobile phone,10.4,Men
+Tharaka-Nithi,Social media,32.7,Men
+Tharaka-Nithi,Poster/leaflet/brochure,49.3,Men
+Tharaka-Nithi,Outdoor sign/billboard,36.0,Men
+Tharaka-Nithi,Friends/peers,72.5,Men
+Tharaka-Nithi,Internet,30.4,Men
+Embu,Radio,55.3,Men
+Embu,Television,39.9,Men
+Embu,Newspaper/magazine,8.8,Men
+Embu,Mobile phone,9.3,Men
+Embu,Social media,15.3,Men
+Embu,Poster/leaflet/brochure,11.6,Men
+Embu,Outdoor sign/billboard,8.5,Men
+Embu,Friends/peers,52.4,Men
+Embu,Internet,16.4,Men
+Kitui,Radio,51.2,Men
+Kitui,Television,27.1,Men
+Kitui,Newspaper/magazine,11.7,Men
+Kitui,Mobile phone,5.0,Men
+Kitui,Social media,8.0,Men
+Kitui,Poster/leaflet/brochure,31.2,Men
+Kitui,Outdoor sign/billboard,8.4,Men
+Kitui,Friends/peers,40.6,Men
+Kitui,Internet,17.4,Men
+Machakos,Radio,96.5,Men
+Machakos,Television,88.3,Men
+Machakos,Newspaper/magazine,41.1,Men
+Machakos,Mobile phone,35.5,Men
+Machakos,Social media,37.6,Men
+Machakos,Poster/leaflet/brochure,31.1,Men
+Machakos,Outdoor sign/billboard,35.8,Men
+Machakos,Friends/peers,58.6,Men
+Machakos,Internet,32.9,Men
+Makueni,Radio,89.0,Men
+Makueni,Television,49.9,Men
+Makueni,Newspaper/magazine,21.0,Men
+Makueni,Mobile phone,3.1,Men
+Makueni,Social media,28.1,Men
+Makueni,Poster/leaflet/brochure,60.8,Men
+Makueni,Outdoor sign/billboard,17.9,Men
+Makueni,Friends/peers,67.5,Men
+Makueni,Internet,17.8,Men
+Nyandarua,Radio,60.6,Men
+Nyandarua,Television,58.0,Men
+Nyandarua,Newspaper/magazine,33.0,Men
+Nyandarua,Mobile phone,11.3,Men
+Nyandarua,Social media,47.7,Men
+Nyandarua,Poster/leaflet/brochure,36.1,Men
+Nyandarua,Outdoor sign/billboard,27.8,Men
+Nyandarua,Friends/peers,63.9,Men
+Nyandarua,Internet,47.0,Men
+Nyeri,Radio,58.0,Men
+Nyeri,Television,54.7,Men
+Nyeri,Newspaper/magazine,31.5,Men
+Nyeri,Mobile phone,3.5,Men
+Nyeri,Social media,42.8,Men
+Nyeri,Poster/leaflet/brochure,59.5,Men
+Nyeri,Outdoor sign/billboard,8.0,Men
+Nyeri,Friends/peers,45.3,Men
+Nyeri,Internet,46.3,Men
+Kirinyaga,Radio,92.1,Men
+Kirinyaga,Television,88.0,Men
+Kirinyaga,Newspaper/magazine,18.6,Men
+Kirinyaga,Mobile phone,11.0,Men
+Kirinyaga,Social media,56.3,Men
+Kirinyaga,Poster/leaflet/brochure,9.1,Men
+Kirinyaga,Outdoor sign/billboard,71.0,Men
+Kirinyaga,Friends/peers,87.9,Men
+Kirinyaga,Internet,50.6,Men
+Murang’a,Radio,66.2,Men
+Murang’a,Television,61.3,Men
+Murang’a,Newspaper/magazine,26.4,Men
+Murang’a,Mobile phone,15.3,Men
+Murang’a,Social media,38.5,Men
+Murang’a,Poster/leaflet/brochure,69.1,Men
+Murang’a,Outdoor sign/billboard,35.7,Men
+Murang’a,Friends/peers,55.1,Men
+Murang’a,Internet,34.5,Men
+Kiambu,Radio,70.3,Men
+Kiambu,Television,62.3,Men
+Kiambu,Newspaper/magazine,25.1,Men
+Kiambu,Mobile phone,8.4,Men
+Kiambu,Social media,50.2,Men
+Kiambu,Poster/leaflet/brochure,32.4,Men
+Kiambu,Outdoor sign/billboard,26.9,Men
+Kiambu,Friends/peers,69.3,Men
+Kiambu,Internet,47.0,Men
+Turkana,Radio,35.4,Men
+Turkana,Television,25.3,Men
+Turkana,Newspaper/magazine,9.1,Men
+Turkana,Mobile phone,2.3,Men
+Turkana,Social media,6.4,Men
+Turkana,Poster/leaflet/brochure,13.8,Men
+Turkana,Outdoor sign/billboard,40.7,Men
+Turkana,Friends/peers,33.5,Men
+Turkana,Internet,9.9,Men
+West Pokot,Radio,81.3,Men
+West Pokot,Television,34.7,Men
+West Pokot,Newspaper/magazine,12.5,Men
+West Pokot,Mobile phone,13.1,Men
+West Pokot,Social media,19.3,Men
+West Pokot,Poster/leaflet/brochure,22.5,Men
+West Pokot,Outdoor sign/billboard,38.0,Men
+West Pokot,Friends/peers,62.7,Men
+West Pokot,Internet,16.0,Men
+Samburu,Radio,74.0,Men
+Samburu,Television,51.9,Men
+Samburu,Newspaper/magazine,18.9,Men
+Samburu,Mobile phone,19.3,Men
+Samburu,Social media,38.6,Men
+Samburu,Poster/leaflet/brochure,48.5,Men
+Samburu,Outdoor sign/billboard,40.8,Men
+Samburu,Friends/peers,80.8,Men
+Samburu,Internet,37.5,Men
+Trans Nzoia,Radio,79.5,Men
+Trans Nzoia,Television,69.0,Men
+Trans Nzoia,Newspaper/magazine,21.6,Men
+Trans Nzoia,Mobile phone,8.1,Men
+Trans Nzoia,Social media,23.0,Men
+Trans Nzoia,Poster/leaflet/brochure,21.4,Men
+Trans Nzoia,Outdoor sign/billboard,54.7,Men
+Trans Nzoia,Friends/peers,97.6,Men
+Trans Nzoia,Internet,37.2,Men
+Uasin Gishu,Radio,85.9,Men
+Uasin Gishu,Television,77.5,Men
+Uasin Gishu,Newspaper/magazine,53.2,Men
+Uasin Gishu,Mobile phone,9.5,Men
+Uasin Gishu,Social media,62.1,Men
+Uasin Gishu,Poster/leaflet/brochure,86.1,Men
+Uasin Gishu,Outdoor sign/billboard,61.4,Men
+Uasin Gishu,Friends/peers,83.3,Men
+Uasin Gishu,Internet,56.2,Men
+Elgeyo/Marakwet,Radio,75.0,Men
+Elgeyo/Marakwet,Television,59.2,Men
+Elgeyo/Marakwet,Newspaper/magazine,25.4,Men
+Elgeyo/Marakwet,Mobile phone,6.5,Men
+Elgeyo/Marakwet,Social media,37.0,Men
+Elgeyo/Marakwet,Poster/leaflet/brochure,59.4,Men
+Elgeyo/Marakwet,Outdoor sign/billboard,29.5,Men
+Elgeyo/Marakwet,Friends/peers,61.6,Men
+Elgeyo/Marakwet,Internet,26.2,Men
+Nandi,Radio,75.3,Men
+Nandi,Television,46.8,Men
+Nandi,Newspaper/magazine,17.0,Men
+Nandi,Mobile phone,9.9,Men
+Nandi,Social media,16.0,Men
+Nandi,Poster/leaflet/brochure,34.4,Men
+Nandi,Outdoor sign/billboard,31.8,Men
+Nandi,Friends/peers,42.6,Men
+Nandi,Internet,14.2,Men
+Baringo,Radio,59.1,Men
+Baringo,Television,30.2,Men
+Baringo,Newspaper/magazine,14.9,Men
+Baringo,Mobile phone,2.9,Men
+Baringo,Social media,26.3,Men
+Baringo,Poster/leaflet/brochure,12.1,Men
+Baringo,Outdoor sign/billboard,17.3,Men
+Baringo,Friends/peers,29.0,Men
+Baringo,Internet,10.4,Men
+Laikipia,Radio,57.4,Men
+Laikipia,Television,57.6,Men
+Laikipia,Newspaper/magazine,19.7,Men
+Laikipia,Mobile phone,7.4,Men
+Laikipia,Social media,47.7,Men
+Laikipia,Poster/leaflet/brochure,10.4,Men
+Laikipia,Outdoor sign/billboard,18.5,Men
+Laikipia,Friends/peers,52.5,Men
+Laikipia,Internet,38.4,Men
+Nakuru,Radio,69.1,Men
+Nakuru,Television,58.8,Men
+Nakuru,Newspaper/magazine,36.2,Men
+Nakuru,Mobile phone,17.1,Men
+Nakuru,Social media,29.9,Men
+Nakuru,Poster/leaflet/brochure,42.3,Men
+Nakuru,Outdoor sign/billboard,31.2,Men
+Nakuru,Friends/peers,79.3,Men
+Nakuru,Internet,40.9,Men
+Narok,Radio,85.5,Men
+Narok,Television,74.4,Men
+Narok,Newspaper/magazine,15.9,Men
+Narok,Mobile phone,18.5,Men
+Narok,Social media,45.0,Men
+Narok,Poster/leaflet/brochure,86.7,Men
+Narok,Outdoor sign/billboard,67.5,Men
+Narok,Friends/peers,89.0,Men
+Narok,Internet,31.4,Men
+Kajiado,Radio,69.3,Men
+Kajiado,Television,58.7,Men
+Kajiado,Newspaper/magazine,41.2,Men
+Kajiado,Mobile phone,18.6,Men
+Kajiado,Social media,53.9,Men
+Kajiado,Poster/leaflet/brochure,57.6,Men
+Kajiado,Outdoor sign/billboard,54.6,Men
+Kajiado,Friends/peers,68.2,Men
+Kajiado,Internet,62.6,Men
+Kericho,Radio,93.0,Men
+Kericho,Television,85.7,Men
+Kericho,Newspaper/magazine,66.2,Men
+Kericho,Mobile phone,12.5,Men
+Kericho,Social media,45.7,Men
+Kericho,Poster/leaflet/brochure,75.1,Men
+Kericho,Outdoor sign/billboard,83.6,Men
+Kericho,Friends/peers,84.3,Men
+Kericho,Internet,64.3,Men
+Bomet,Radio,74.8,Men
+Bomet,Television,27.3,Men
+Bomet,Newspaper/magazine,14.5,Men
+Bomet,Mobile phone,7.1,Men
+Bomet,Social media,21.3,Men
+Bomet,Poster/leaflet/brochure,80.8,Men
+Bomet,Outdoor sign/billboard,39.6,Men
+Bomet,Friends/peers,67.5,Men
+Bomet,Internet,16.0,Men
+Kakamega,Radio,75.2,Men
+Kakamega,Television,46.8,Men
+Kakamega,Newspaper/magazine,14.5,Men
+Kakamega,Mobile phone,1.1,Men
+Kakamega,Social media,11.2,Men
+Kakamega,Poster/leaflet/brochure,3.4,Men
+Kakamega,Outdoor sign/billboard,34.2,Men
+Kakamega,Friends/peers,45.8,Men
+Kakamega,Internet,12.2,Men
+Vihiga,Radio,63.0,Men
+Vihiga,Television,47.1,Men
+Vihiga,Newspaper/magazine,22.6,Men
+Vihiga,Mobile phone,17.2,Men
+Vihiga,Social media,39.4,Men
+Vihiga,Poster/leaflet/brochure,54.8,Men
+Vihiga,Outdoor sign/billboard,46.5,Men
+Vihiga,Friends/peers,62.3,Men
+Vihiga,Internet,25.6,Men
+Bungoma,Radio,63.6,Men
+Bungoma,Television,51.5,Men
+Bungoma,Newspaper/magazine,34.7,Men
+Bungoma,Mobile phone,25.6,Men
+Bungoma,Social media,44.2,Men
+Bungoma,Poster/leaflet/brochure,46.5,Men
+Bungoma,Outdoor sign/billboard,54.6,Men
+Bungoma,Friends/peers,67.3,Men
+Bungoma,Internet,45.0,Men
+Busia,Radio,48.5,Men
+Busia,Television,30.8,Men
+Busia,Newspaper/magazine,17.5,Men
+Busia,Mobile phone,11.2,Men
+Busia,Social media,23.6,Men
+Busia,Poster/leaflet/brochure,26.8,Men
+Busia,Outdoor sign/billboard,39.9,Men
+Busia,Friends/peers,58.8,Men
+Busia,Internet,23.2,Men
+Siaya,Radio,80.4,Men
+Siaya,Television,59.1,Men
+Siaya,Newspaper/magazine,42.1,Men
+Siaya,Mobile phone,6.9,Men
+Siaya,Social media,27.3,Men
+Siaya,Poster/leaflet/brochure,57.7,Men
+Siaya,Outdoor sign/billboard,52.2,Men
+Siaya,Friends/peers,86.8,Men
+Siaya,Internet,36.5,Men
+Kisumu,Radio,61.2,Men
+Kisumu,Television,26.4,Men
+Kisumu,Newspaper/magazine,11.4,Men
+Kisumu,Mobile phone,1.9,Men
+Kisumu,Social media,31.5,Men
+Kisumu,Poster/leaflet/brochure,26.6,Men
+Kisumu,Outdoor sign/billboard,15.6,Men
+Kisumu,Friends/peers,56.7,Men
+Kisumu,Internet,29.7,Men
+Homa Bay,Radio,69.2,Men
+Homa Bay,Television,52.5,Men
+Homa Bay,Newspaper/magazine,37.6,Men
+Homa Bay,Mobile phone,22.4,Men
+Homa Bay,Social media,53.5,Men
+Homa Bay,Poster/leaflet/brochure,47.8,Men
+Homa Bay,Outdoor sign/billboard,64.9,Men
+Homa Bay,Friends/peers,71.1,Men
+Homa Bay,Internet,42.7,Men
+Migori,Radio,69.4,Men
+Migori,Television,46.1,Men
+Migori,Newspaper/magazine,18.9,Men
+Migori,Mobile phone,12.2,Men
+Migori,Social media,36.9,Men
+Migori,Poster/leaflet/brochure,55.1,Men
+Migori,Outdoor sign/billboard,39.8,Men
+Migori,Friends/peers,67.9,Men
+Migori,Internet,32.9,Men
+Kisii,Radio,78.9,Men
+Kisii,Television,46.0,Men
+Kisii,Newspaper/magazine,4.4,Men
+Kisii,Mobile phone,1.6,Men
+Kisii,Social media,33.8,Men
+Kisii,Poster/leaflet/brochure,31.3,Men
+Kisii,Outdoor sign/billboard,53.4,Men
+Kisii,Friends/peers,95.6,Men
+Kisii,Internet,40.2,Men
+Nyamira,Radio,71.6,Men
+Nyamira,Television,44.2,Men
+Nyamira,Newspaper/magazine,19.8,Men
+Nyamira,Mobile phone,20.8,Men
+Nyamira,Social media,27.3,Men
+Nyamira,Poster/leaflet/brochure,53.3,Men
+Nyamira,Outdoor sign/billboard,60.9,Men
+Nyamira,Friends/peers,67.2,Men
+Nyamira,Internet,24.5,Men
+Nairobi City,Radio,60.8,Men
+Nairobi City,Television,66.8,Men
+Nairobi City,Newspaper/magazine,51.5,Men
+Nairobi City,Mobile phone,37.9,Men
+Nairobi City,Social media,75.8,Men
+Nairobi City,Poster/leaflet/brochure,68.7,Men
+Nairobi City,Outdoor sign/billboard,59.1,Men
+Nairobi City,Friends/peers,70.3,Men
+Nairobi City,Internet,66.4,Men
