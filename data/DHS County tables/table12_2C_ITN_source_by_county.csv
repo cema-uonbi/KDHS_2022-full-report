@@ -1,0 +1,518 @@
+County,Category,Proportion
+Mombasa,Mass distribution campaign,81.1
+Mombasa,ANC visit,8.5
+Mombasa,Immunization visit,1.2
+Mombasa,Govt Health Facility,1.2
+Mombasa,Private Health Facility,0
+Mombasa,Pharmacy,0.2
+Mombasa,Shop/market,5.2
+Mombasa,Community Health Worker,0
+Mombasa,Religious institution,0.5
+Mombasa,School,0
+Mombasa,Other,1.9
+Kwale,Mass distribution campaign,85.8
+Kwale,ANC visit,5.4
+Kwale,Immunization visit,2.4
+Kwale,Govt Health Facility,0.1
+Kwale,Private Health Facility,0
+Kwale,Pharmacy,0
+Kwale,Shop/market,5.8
+Kwale,Community Health Worker,0
+Kwale,Religious institution,0
+Kwale,School,0
+Kwale,Other,0.5
+Kilifi,Mass distribution campaign,90.5
+Kilifi,ANC visit,6.6
+Kilifi,Immunization visit,0
+Kilifi,Govt Health Facility,0.7
+Kilifi,Private Health Facility,0
+Kilifi,Pharmacy,0
+Kilifi,Shop/market,1.6
+Kilifi,Community Health Worker,0
+Kilifi,Religious institution,0
+Kilifi,School,0
+Kilifi,Other,0.5
+Tana River,Mass distribution campaign,65.3
+Tana River,ANC visit,15.9
+Tana River,Immunization visit,6.5
+Tana River,Govt Health Facility,0.1
+Tana River,Private Health Facility,0
+Tana River,Pharmacy,0
+Tana River,Shop/market,10.4
+Tana River,Community Health Worker,0
+Tana River,Religious institution,0
+Tana River,School,0
+Tana River,Other,1.7
+Lamu,Mass distribution campaign,77.4
+Lamu,ANC visit,14.3
+Lamu,Immunization visit,2.1
+Lamu,Govt Health Facility,0.4
+Lamu,Private Health Facility,0
+Lamu,Pharmacy,0
+Lamu,Shop/market,3.4
+Lamu,Community Health Worker,0
+Lamu,Religious institution,0
+Lamu,School,0.1
+Lamu,Other,2.2
+Taita Taveta,Mass distribution campaign,93.8
+Taita Taveta,ANC visit,3
+Taita Taveta,Immunization visit,0.4
+Taita Taveta,Govt Health Facility,0.1
+Taita Taveta,Private Health Facility,0
+Taita Taveta,Pharmacy,0.1
+Taita Taveta,Shop/market,2.1
+Taita Taveta,Community Health Worker,0
+Taita Taveta,Religious institution,0
+Taita Taveta,School,0
+Taita Taveta,Other,0.5
+Garissa,Mass distribution campaign,23.1
+Garissa,ANC visit,5.9
+Garissa,Immunization visit,0
+Garissa,Govt Health Facility,0
+Garissa,Private Health Facility,0
+Garissa,Pharmacy,2.2
+Garissa,Shop/market,68.3
+Garissa,Community Health Worker,0
+Garissa,Religious institution,0
+Garissa,School,0
+Garissa,Other,0.4
+Wajir,Mass distribution campaign,4.2
+Wajir,ANC visit,2.4
+Wajir,Immunization visit,0.2
+Wajir,Govt Health Facility,0.1
+Wajir,Private Health Facility,0
+Wajir,Pharmacy,0.6
+Wajir,Shop/market,88.8
+Wajir,Community Health Worker,0
+Wajir,Religious institution,0
+Wajir,School,0
+Wajir,Other,3.8
+Mandera,Mass distribution campaign,0.4
+Mandera,ANC visit,1
+Mandera,Immunization visit,0.3
+Mandera,Govt Health Facility,0.4
+Mandera,Private Health Facility,0
+Mandera,Pharmacy,0
+Mandera,Shop/market,98
+Mandera,Community Health Worker,0
+Mandera,Religious institution,0
+Mandera,School,0
+Mandera,Other,0
+Marsabit,Mass distribution campaign,72.2
+Marsabit,ANC visit,4.8
+Marsabit,Immunization visit,2.1
+Marsabit,Govt Health Facility,0.3
+Marsabit,Private Health Facility,0
+Marsabit,Pharmacy,0
+Marsabit,Shop/market,17.3
+Marsabit,Community Health Worker,0
+Marsabit,Religious institution,0
+Marsabit,School,1
+Marsabit,Other,2
+Isiolo,Mass distribution campaign,12
+Isiolo,ANC visit,41.6
+Isiolo,Immunization visit,0.6
+Isiolo,Govt Health Facility,5.8
+Isiolo,Private Health Facility,0.3
+Isiolo,Pharmacy,0.3
+Isiolo,Shop/market,33.4
+Isiolo,Community Health Worker,0.2
+Isiolo,Religious institution,0
+Isiolo,School,0
+Isiolo,Other,5.8
+Meru,Mass distribution campaign,6.4
+Meru,ANC visit,30.4
+Meru,Immunization visit,28.9
+Meru,Govt Health Facility,5.5
+Meru,Private Health Facility,0.6
+Meru,Pharmacy,0.3
+Meru,Shop/market,16
+Meru,Community Health Worker,0
+Meru,Religious institution,0
+Meru,School,0.2
+Meru,Other,9.8
+Tharaka Nithi,Mass distribution campaign,8.3
+Tharaka Nithi,ANC visit,29.1
+Tharaka Nithi,Immunization visit,11.5
+Tharaka Nithi,Govt Health Facility,7.4
+Tharaka Nithi,Private Health Facility,2.4
+Tharaka Nithi,Pharmacy,2.8
+Tharaka Nithi,Shop/market,27.2
+Tharaka Nithi,Community Health Worker,0
+Tharaka Nithi,Religious institution,0.2
+Tharaka Nithi,School,3.4
+Tharaka Nithi,Other,6.6
+Embu,Mass distribution campaign,13.7
+Embu,ANC visit,32.2
+Embu,Immunization visit,14.2
+Embu,Govt Health Facility,8.4
+Embu,Private Health Facility,3.3
+Embu,Pharmacy,4.7
+Embu,Shop/market,18
+Embu,Community Health Worker,0.2
+Embu,Religious institution,0.8
+Embu,School,0.2
+Embu,Other,3.9
+Kitui,Mass distribution campaign,5
+Kitui,ANC visit,49.7
+Kitui,Immunization visit,1.4
+Kitui,Govt Health Facility,3.5
+Kitui,Private Health Facility,0
+Kitui,Pharmacy,4.6
+Kitui,Shop/market,34.6
+Kitui,Community Health Worker,0
+Kitui,Religious institution,0
+Kitui,School,0
+Kitui,Other,0.9
+Machakos,Mass distribution campaign,7.7
+Machakos,ANC visit,25.2
+Machakos,Immunization visit,4.6
+Machakos,Govt Health Facility,7.6
+Machakos,Private Health Facility,0.6
+Machakos,Pharmacy,2
+Machakos,Shop/market,47.9
+Machakos,Community Health Worker,0
+Machakos,Religious institution,0
+Machakos,School,0
+Machakos,Other,4.1
+Makueni,Mass distribution campaign,4.4
+Makueni,ANC visit,31.6
+Makueni,Immunization visit,10
+Makueni,Govt Health Facility,3.4
+Makueni,Private Health Facility,0.8
+Makueni,Pharmacy,0.6
+Makueni,Shop/market,36.1
+Makueni,Community Health Worker,0
+Makueni,Religious institution,0.5
+Makueni,School,0.2
+Makueni,Other,12.1
+Nyandarua,Mass distribution campaign,18.2
+Nyandarua,ANC visit,8.8
+Nyandarua,Immunization visit,2.3
+Nyandarua,Govt Health Facility,2.7
+Nyandarua,Private Health Facility,0
+Nyandarua,Pharmacy,0.7
+Nyandarua,Shop/market,53.1
+Nyandarua,Community Health Worker,0
+Nyandarua,Religious institution,0
+Nyandarua,School,0
+Nyandarua,Other,11.1
+Nyeri,Mass distribution campaign,14.1
+Nyeri,ANC visit,15.2
+Nyeri,Immunization visit,2.3
+Nyeri,Govt Health Facility,0.8
+Nyeri,Private Health Facility,1.9
+Nyeri,Pharmacy,4.3
+Nyeri,Shop/market,52.4
+Nyeri,Community Health Worker,0
+Nyeri,Religious institution,0
+Nyeri,School,0
+Nyeri,Other,7
+Kirinyaga,Mass distribution campaign,59.5
+Kirinyaga,ANC visit,14.7
+Kirinyaga,Immunization visit,1.7
+Kirinyaga,Govt Health Facility,0.8
+Kirinyaga,Private Health Facility,0.4
+Kirinyaga,Pharmacy,0.9
+Kirinyaga,Shop/market,18.3
+Kirinyaga,Community Health Worker,0
+Kirinyaga,Religious institution,0
+Kirinyaga,School,0
+Kirinyaga,Other,2.8
+Muranga,Mass distribution campaign,8.4
+Muranga,ANC visit,35.7
+Muranga,Immunization visit,9.1
+Muranga,Govt Health Facility,10.6
+Muranga,Private Health Facility,0.4
+Muranga,Pharmacy,0.5
+Muranga,Shop/market,27.1
+Muranga,Community Health Worker,0
+Muranga,Religious institution,0
+Muranga,School,0.4
+Muranga,Other,6.8
+Kiambu,Mass distribution campaign,9.3
+Kiambu,ANC visit,33.7
+Kiambu,Immunization visit,6.9
+Kiambu,Govt Health Facility,1.8
+Kiambu,Private Health Facility,0.6
+Kiambu,Pharmacy,0.2
+Kiambu,Shop/market,40.2
+Kiambu,Community Health Worker,0
+Kiambu,Religious institution,0
+Kiambu,School,0.2
+Kiambu,Other,5.8
+Turkana,Mass distribution campaign,55.2
+Turkana,ANC visit,6.8
+Turkana,Immunization visit,3.6
+Turkana,Govt Health Facility,6.8
+Turkana,Private Health Facility,0
+Turkana,Pharmacy,0
+Turkana,Shop/market,16.4
+Turkana,Community Health Worker,0.3
+Turkana,Religious institution,0
+Turkana,School,0.2
+Turkana,Other,10.4
+West Pokot,Mass distribution campaign,97.8
+West Pokot,ANC visit,1
+West Pokot,Immunization visit,0.1
+West Pokot,Govt Health Facility,0
+West Pokot,Private Health Facility,0.1
+West Pokot,Pharmacy,0
+West Pokot,Shop/market,0.8
+West Pokot,Community Health Worker,0
+West Pokot,Religious institution,0
+West Pokot,School,0
+West Pokot,Other,0.2
+Samburu,Mass distribution campaign,29.6
+Samburu,ANC visit,15.8
+Samburu,Immunization visit,2.4
+Samburu,Govt Health Facility,2.7
+Samburu,Private Health Facility,0
+Samburu,Pharmacy,0
+Samburu,Shop/market,33.4
+Samburu,Community Health Worker,0
+Samburu,Religious institution,2.1
+Samburu,School,1.6
+Samburu,Other,11.9
+Trans Nzoia,Mass distribution campaign,89.8
+Trans Nzoia,ANC visit,4
+Trans Nzoia,Immunization visit,1.4
+Trans Nzoia,Govt Health Facility,0.6
+Trans Nzoia,Private Health Facility,0
+Trans Nzoia,Pharmacy,0.1
+Trans Nzoia,Shop/market,3
+Trans Nzoia,Community Health Worker,0
+Trans Nzoia,Religious institution,0
+Trans Nzoia,School,0
+Trans Nzoia,Other,1.1
+Uasin Gishu,Mass distribution campaign,84.8
+Uasin Gishu,ANC visit,6.9
+Uasin Gishu,Immunization visit,1.9
+Uasin Gishu,Govt Health Facility,0.3
+Uasin Gishu,Private Health Facility,0
+Uasin Gishu,Pharmacy,0
+Uasin Gishu,Shop/market,2.8
+Uasin Gishu,Community Health Worker,0
+Uasin Gishu,Religious institution,0
+Uasin Gishu,School,0
+Uasin Gishu,Other,2.8
+Elgeyo Marakwet,Mass distribution campaign,29.4
+Elgeyo Marakwet,ANC visit,51.1
+Elgeyo Marakwet,Immunization visit,8.2
+Elgeyo Marakwet,Govt Health Facility,2.2
+Elgeyo Marakwet,Private Health Facility,0
+Elgeyo Marakwet,Pharmacy,0
+Elgeyo Marakwet,Shop/market,6.3
+Elgeyo Marakwet,Community Health Worker,0.4
+Elgeyo Marakwet,Religious institution,0
+Elgeyo Marakwet,School,0
+Elgeyo Marakwet,Other,2.1
+Nandi,Mass distribution campaign,92.6
+Nandi,ANC visit,3.7
+Nandi,Immunization visit,0.4
+Nandi,Govt Health Facility,0
+Nandi,Private Health Facility,0
+Nandi,Pharmacy,0.2
+Nandi,Shop/market,1.9
+Nandi,Community Health Worker,0
+Nandi,Religious institution,0
+Nandi,School,0.6
+Nandi,Other,0.4
+Baringo,Mass distribution campaign,66.4
+Baringo,ANC visit,14.6
+Baringo,Immunization visit,4.2
+Baringo,Govt Health Facility,7.2
+Baringo,Private Health Facility,0
+Baringo,Pharmacy,0.1
+Baringo,Shop/market,4.2
+Baringo,Community Health Worker,0
+Baringo,Religious institution,0
+Baringo,School,0
+Baringo,Other,3.3
+Laikipia,Mass distribution campaign,13.6
+Laikipia,ANC visit,4.5
+Laikipia,Immunization visit,7.4
+Laikipia,Govt Health Facility,1.9
+Laikipia,Private Health Facility,2.2
+Laikipia,Pharmacy,1.5
+Laikipia,Shop/market,59.7
+Laikipia,Community Health Worker,0
+Laikipia,Religious institution,1.3
+Laikipia,School,0
+Laikipia,Other,7.6
+Nakuru,Mass distribution campaign,23.5
+Nakuru,ANC visit,10.8
+Nakuru,Immunization visit,5.2
+Nakuru,Govt Health Facility,0.4
+Nakuru,Private Health Facility,0.2
+Nakuru,Pharmacy,0.2
+Nakuru,Shop/market,53.1
+Nakuru,Community Health Worker,0
+Nakuru,Religious institution,0
+Nakuru,School,0
+Nakuru,Other,5.3
+Narok,Mass distribution campaign,89.9
+Narok,ANC visit,6.3
+Narok,Immunization visit,2.3
+Narok,Govt Health Facility,0.3
+Narok,Private Health Facility,0.1
+Narok,Pharmacy,0
+Narok,Shop/market,0.3
+Narok,Community Health Worker,0
+Narok,Religious institution,0.1
+Narok,School,0
+Narok,Other,0.8
+Kajiado,Mass distribution campaign,14
+Kajiado,ANC visit,35.6
+Kajiado,Immunization visit,9.6
+Kajiado,Govt Health Facility,4.4
+Kajiado,Private Health Facility,0.3
+Kajiado,Pharmacy,0.5
+Kajiado,Shop/market,32.3
+Kajiado,Community Health Worker,0.1
+Kajiado,Religious institution,0.1
+Kajiado,School,0
+Kajiado,Other,3
+Kericho,Mass distribution campaign,96.9
+Kericho,ANC visit,0.7
+Kericho,Immunization visit,0
+Kericho,Govt Health Facility,0.2
+Kericho,Private Health Facility,0
+Kericho,Pharmacy,0.1
+Kericho,Shop/market,2
+Kericho,Community Health Worker,0
+Kericho,Religious institution,0
+Kericho,School,0
+Kericho,Other,0.2
+Bomet,Mass distribution campaign,95.9
+Bomet,ANC visit,2.9
+Bomet,Immunization visit,0.3
+Bomet,Govt Health Facility,0.3
+Bomet,Private Health Facility,0
+Bomet,Pharmacy,0
+Bomet,Shop/market,0.4
+Bomet,Community Health Worker,0
+Bomet,Religious institution,0
+Bomet,School,0
+Bomet,Other,0.2
+Kakamega,Mass distribution campaign,89.9
+Kakamega,ANC visit,4
+Kakamega,Immunization visit,0.5
+Kakamega,Govt Health Facility,0.1
+Kakamega,Private Health Facility,0.1
+Kakamega,Pharmacy,0
+Kakamega,Shop/market,4.8
+Kakamega,Community Health Worker,0
+Kakamega,Religious institution,0
+Kakamega,School,0
+Kakamega,Other,0.6
+Vihiga,Mass distribution campaign,93.3
+Vihiga,ANC visit,4.1
+Vihiga,Immunization visit,0.9
+Vihiga,Govt Health Facility,0
+Vihiga,Private Health Facility,0.3
+Vihiga,Pharmacy,0
+Vihiga,Shop/market,1.2
+Vihiga,Community Health Worker,0
+Vihiga,Religious institution,0
+Vihiga,School,0
+Vihiga,Other,0.2
+Bungoma,Mass distribution campaign,92.8
+Bungoma,ANC visit,3.5
+Bungoma,Immunization visit,2
+Bungoma,Govt Health Facility,0.2
+Bungoma,Private Health Facility,0
+Bungoma,Pharmacy,0.2
+Bungoma,Shop/market,0.6
+Bungoma,Community Health Worker,0
+Bungoma,Religious institution,0
+Bungoma,School,0
+Bungoma,Other,0.6
+Busia,Mass distribution campaign,87.8
+Busia,ANC visit,6.6
+Busia,Immunization visit,0.6
+Busia,Govt Health Facility,0.2
+Busia,Private Health Facility,0.1
+Busia,Pharmacy,0
+Busia,Shop/market,4.4
+Busia,Community Health Worker,0
+Busia,Religious institution,0
+Busia,School,0
+Busia,Other,0.4
+Siaya,Mass distribution campaign,90.2
+Siaya,ANC visit,8.2
+Siaya,Immunization visit,0.3
+Siaya,Govt Health Facility,0.1
+Siaya,Private Health Facility,0.1
+Siaya,Pharmacy,0.1
+Siaya,Shop/market,0.7
+Siaya,Community Health Worker,0
+Siaya,Religious institution,0
+Siaya,School,0
+Siaya,Other,0.3
+Kisumu,Mass distribution campaign,82.8
+Kisumu,ANC visit,8.2
+Kisumu,Immunization visit,2.4
+Kisumu,Govt Health Facility,0.3
+Kisumu,Private Health Facility,0
+Kisumu,Pharmacy,0
+Kisumu,Shop/market,5.3
+Kisumu,Community Health Worker,0
+Kisumu,Religious institution,0
+Kisumu,School,0
+Kisumu,Other,0.9
+Homa Bay,Mass distribution campaign,85.4
+Homa Bay,ANC visit,8.8
+Homa Bay,Immunization visit,1.7
+Homa Bay,Govt Health Facility,1.4
+Homa Bay,Private Health Facility,0.1
+Homa Bay,Pharmacy,0
+Homa Bay,Shop/market,0.9
+Homa Bay,Community Health Worker,0
+Homa Bay,Religious institution,0
+Homa Bay,School,0
+Homa Bay,Other,1.3
+Migori,Mass distribution campaign,83.5
+Migori,ANC visit,9.7
+Migori,Immunization visit,4.2
+Migori,Govt Health Facility,0.4
+Migori,Private Health Facility,0.1
+Migori,Pharmacy,0
+Migori,Shop/market,1.4
+Migori,Community Health Worker,0.1
+Migori,Religious institution,0
+Migori,School,0.1
+Migori,Other,0.5
+Kisii,Mass distribution campaign,92.2
+Kisii,ANC visit,3.8
+Kisii,Immunization visit,0.5
+Kisii,Govt Health Facility,0.1
+Kisii,Private Health Facility,0
+Kisii,Pharmacy,0
+Kisii,Shop/market,1.8
+Kisii,Community Health Worker,0
+Kisii,Religious institution,0
+Kisii,School,0
+Kisii,Other,1.5
+Nyamira,Mass distribution campaign,95.3
+Nyamira,ANC visit,2
+Nyamira,Immunization visit,0.5
+Nyamira,Govt Health Facility,0
+Nyamira,Private Health Facility,0
+Nyamira,Pharmacy,0
+Nyamira,Shop/market,1.1
+Nyamira,Community Health Worker,0
+Nyamira,Religious institution,0
+Nyamira,School,0
+Nyamira,Other,1
+Nairobi,Mass distribution campaign,21.6
+Nairobi,ANC visit,14.8
+Nairobi,Immunization visit,5.3
+Nairobi,Govt Health Facility,2.6
+Nairobi,Private Health Facility,0
+Nairobi,Pharmacy,0
+Nairobi,Shop/market,49.3
+Nairobi,Community Health Worker,0
+Nairobi,Religious institution,0
+Nairobi,School,0
+Nairobi,Other,5.8
