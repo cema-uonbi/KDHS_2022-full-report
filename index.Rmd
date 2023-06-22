@@ -289,9 +289,6 @@ renderPlot({
  # print(insurance_map2a, justify="left")
   }
 }, width=1600, height=700)
-
-
-
 ```
 
 ### **Housing**
