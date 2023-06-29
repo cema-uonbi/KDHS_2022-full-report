@@ -5,9 +5,9 @@ account: cema
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8936225
-bundleId: 7401210
+bundleId: 7403315
 url: https://cema.shinyapps.io/2022_KDHS_full/
-when: 1688031179.62327
-lastSyncTime: 1688031179.62333
+when: 1688068625.82393
+lastSyncTime: 1688068625.82395
 asMultiple: FALSE
 asStatic: FALSE

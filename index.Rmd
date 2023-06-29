@@ -2142,7 +2142,7 @@ renderPlot({
 
 ```
 
-### **Ideal number of children**
+### **Ideal number of children by number of living children**
 
 **Percent distribution of currently married respondents by ideal number of children**
 
@@ -2150,14 +2150,17 @@ renderPlot({
 
 
 children_number <- fread("data/table_6/Table 6.3  Ideal number of children by number of living children.csv")%>%
-  filter(variable%in%"Currently married")
+ # select(-Ideal.number.children) %>%
+  pivot_longer(c(2:8))  %>%
+  distinct() %>%
+  filter(Ideal.number.children!="Non-numeric responses")
 
 renderPlot({
-  ggplot(children_number,aes(x=category, y=value, fill=participants))+
+  ggplot(children_number,aes(x=name, y=value, fill=participants))+
   geom_bar(position="dodge", stat="identity")+
   geom_text(aes(label=paste0(round(value))), position = position_dodge(width=1), vjust=-0.2)+
-  theme_bw()+
-  labs( y="Percent (%)", title="", x="Ideal number of children", fill="Gender")+
+  theme_bw()+facet_wrap(~Ideal.number.children, nrow=2)+
+  labs( y="Percent (%)", title="", x="Number of chilren currently living", fill="Gender")+
   scale_fill_brewer(palette = "Set1")+
   theme(text=element_text(size=18, face="bold"))+ylim(0,100)
 }, width=1200, height=800)
@@ -2346,7 +2349,7 @@ valueBox(
 
 ### **Knowledge of fertile period**
 
-**Percent distribution of rhythm users, SDM users, and all women age 15-49 by knowledge of the fertile period during the ovulatory cycle**
+**Percent distribution of women aged 15-49 using rhythm method and Standard Days Method (SDM) by knowledge of the fertile period during the ovulatory cycle**
 
 ```{r}
 
@@ -2374,7 +2377,7 @@ renderPlot({ggplot(knowledge_fertile[knowledge_fertile$variable%in%input$knowled
     geom_text(aes(label=paste0(Proportion)), hjust=-0.2)+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_manual(values = c("#f46d43","#74add1"))+ylim(0,100)+
-  theme(text=element_text(size=16, face="bold"))}, width=1600, height=700 )
+  theme(text=element_text(size=16, face="bold"))}, width=1200, height=700 )
 
 
 
@@ -2420,7 +2423,7 @@ renderPlot({ggplot(reasons_discontinuation,aes(x=reorder(Reason, Proportion), y=
     geom_text(aes(label=paste0(Proportion)), hjust=-0.2)+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_manual(values = c("#f46d43","#74add1"))+ylim(0,100)+
-  theme(text=element_text(size=16, face="bold"))}, width=1600, height=700 )
+  theme(text=element_text(size=16, face="bold"))}, width=1200, height=700 )
 
 
 
@@ -2460,7 +2463,7 @@ renderPlot({ggplot(need_demand[need_demand$variable%in%input$need_demand,],aes(x
     geom_text(aes(label=paste0(round(Proportion))), position = position_dodge(width=1), vjust=-0.2)+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette ="Set1")+
-  theme(text=element_text(size=16, face="bold"))}, width=1600, height=700 )
+  theme(text=element_text(size=16, face="bold"))}, width=1200, height=700 )
 
 
 
@@ -2554,7 +2557,7 @@ renderPlot({
   geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1), hjust=-0.2)+
   labs( y="Percent (%)", title="", x="Source of message", fill="Sex")+ylim(0,100)+
   theme(text=element_text(size=16, face="bold"))
-  }, width=1600, height=700 )
+  }, width=1200, height=700 )
 
 
 ```
@@ -2573,21 +2576,23 @@ fp_messages_county$proportion_category <- as.factor(fct_relevel(fp_messages_coun
 
 fp_messages_county1 <- full_join(county, fp_messages_county, by=c("Name"="County"))%>%
   filter(!Category%in%"Community meeting/events")
+
+
 ```
 
-```{r, fig.height=6}
+```{r, fig.height=12, fig.width=12}
 
 renderGirafe({
   
   fp_mess_map2 <- ggplot(fp_messages_county1)+
   geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
     theme_void()+
-    facet_wrap(Category~Participants, nrow=2, labeller = label_wrap_gen(multi_line = 3))+
-    scale_fill_brewer(palette = "YlGn")+  
+    facet_wrap(Participants~Category, nrow=3, labeller = label_wrap_gen(multi_line = T, width=10))+
+    scale_fill_brewer(palette = "Greens")+  
     #scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
     #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
     labs(x="", y="",fill="Percent (%)")+
-    theme(text=element_text(size=14)) 
+    theme(text=element_text(size=12)) 
   fp_mess_map2x<-girafe(ggobj = fp_mess_map2, 
                    options = list(
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
@@ -2698,6 +2703,8 @@ early_childhood_mortality$Characteristic <- fct_relevel(early_childhood_mortalit
 
 early_childhood_mortality$Characteristic <- fct_relevel(early_childhood_mortality$Characteristic, 
                                     "No education", "Primary", "Secondary", "More than secondary")
+
+
 ```
 
 
@@ -2709,7 +2716,6 @@ early_childhood_mortality_county <-fread("data/DHS County tables/Table_8.3C_grp_
 early_childhood_mortality_county$proportion_groups <- as.factor(fct_relevel(early_childhood_mortality_county$proportion_groups, c( "≤ 8", ">8-17", ">17-26", ">26-38", ">38")))
 
 early_childhood_mortality_county1 <- full_join(county, early_childhood_mortality_county, by=c("Name"="county"))
-
 
   
 ```
@@ -2775,7 +2781,7 @@ renderPlot({
     #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
     labs(x="County", y="Rate per 1,000 live births",fill="Rate per 1,000 live births")+
     theme(text=element_text(size=15, face="bold")) +ylim(0,100)
-},width = 1200, height=700)
+},width = 1200, height=650)
 ```
 
 ### **Perinatal mortality**
@@ -2871,7 +2877,7 @@ renderPlot({
     #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
     labs(x="County", y="Rate per 1,000",fill="Rate per 1,000")+
     theme(text=element_text(size=15, face="bold")) +ylim(0,100)
-},width = 1200, height=700)
+},width = 1200, height=650)
 ```
 
 # Maternal Health {data-navmenu="Key Indicators"}
@@ -2974,13 +2980,16 @@ antenatal_care1$Category <- as.factor(fct_relevel(antenatal_care1$Category, c("N
 
 anc_number_county <-fread("data/table_9/table_9_2C_ancvisits_number_by_county.csv")%>%
   mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi", "Nairobi City"="Nairobi", "Taita/Taveta"="Taita Taveta"))%>%
-  mutate(proportion_category=ifelse(Proportion<40,"<40%",">40%"))
+  mutate(proportion_category=ifelse(Proportion<20,"<20",ifelse(Proportion>19 & Proportion<40, "20-39", "40-78")))
 
-anc_number_county$proportion_category <- as.factor(fct_relevel(anc_number_county$proportion_category, c( "<40%",">40%")))
+anc_number_county$proportion_category <- as.factor(fct_relevel(anc_number_county$proportion_category, c( "<20","20-39", "40-78")))
 
 anc_number_county1 <- full_join(county, anc_number_county, by=c("Name"="County"))
 
+
 anc_number_county1$Category <- as.factor(fct_relevel(anc_number_county1$Category, c("None","1","2-3","4-7","8+")))
+
+
 ```
 
 ```{r, fig.height=6}
@@ -3001,10 +3010,11 @@ renderGirafe({
                      opts_zoom(max = 4)), width=15, height=5)
   print(anc_care1a)
   }
+  else{
   anc_number_map2 <- ggplot(anc_number_county1)+
   geom_sf_interactive(aes(fill=proportion_category, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
     theme_void()+
-    facet_wrap(~Category, nrow=2)+
+    facet_wrap(~Category, nrow=1)+
     scale_fill_brewer(palette = "YlGn")+  
     #scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
     #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
@@ -3016,7 +3026,7 @@ renderGirafe({
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_sizing(rescale = T),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(anc_number_map2x)
+  print(anc_number_map2x)}
 })#,width = 1500, height=800)
 ```
 
@@ -3089,9 +3099,9 @@ place_delivery$Characteristic <- fct_relevel(place_delivery$Characteristic,
 renderPlot({ggplot(place_delivery[place_delivery$Variable%in%input$place_delivery,],aes(x=Characteristic, y=proportion, fill=category))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+scale_fill_brewer(palette = "Set1")+
-    geom_text(aes(label=paste0(proportion)), position = position_dodge(width=1))+
+    geom_text(aes(label=paste0(proportion)), position = position_dodge(width=1),vjust=-0.2)+
   labs( y="Percent (%)", title="", x="", fill="Place of delivery")+ylim(0,100)+
-  theme(text=element_text(size=16, face="bold"))}, width=1600, height=700 )
+  theme(text=element_text(size=16, face="bold"))}, width=1400, height=650 )
 
 
 ```
@@ -3160,6 +3170,7 @@ assist_delivery <-fread("data/table_9/Table_9.9C_Assistance_during_delivery_by_c
   mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))%>%
   mutate(proportion_category=ifelse(proportion<80,"<80",">80"))
 
+
 assist_delivery$proportion_category <- as.factor(fct_relevel(assist_delivery$proportion_category, c( "<80", ">80")))
 
 assist_delivery1 <- full_join(county, assist_delivery, by=c("Name"="County"))
@@ -3215,12 +3226,12 @@ mens_involvement$Characteristic <- fct_relevel(mens_involvement$Characteristic,
 
 ```{r}
 
-renderPlot({ggplot(mens_involvement[mens_involvement$Variable%in%input$mens_involvement,],aes(x=Characteristic, y=proportion, fill=category))+
+renderPlot({ggplot(mens_involvement[mens_involvement$Variable%in%input$mens_involvement,],aes(x=category, y=proportion, fill=Characteristic))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+scale_fill_brewer(palette = "Set1")+
   labs( y="Percent (%)", title="", x="", fill="")+
-    geom_text(aes(label=paste0(proportion,"%")), position = position_dodge(width=1), hjust=0.2)+ylim(0,100)+
-  theme(text=element_text(size=16, face="bold"))}, width=1600, height=700 )
+    geom_text(aes(label=paste0(round(proportion),"%")), position = position_dodge(width=1), vjust=-0.2)+ylim(0,100)+
+  theme(text=element_text(size=16, face="bold"))}, width=1400, height=700 )
 
 
 ```
@@ -4049,7 +4060,7 @@ renderGirafe({
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="Micronutrient provided")+
   scale_fill_manual(values = c("#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"))+
-  geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1))+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face = "bold"))+ylim(0,100)
   micro1a <- girafe(ggobj = micro1,
                    options = list(
@@ -4091,7 +4102,7 @@ renderPlot({ggplot(iycf,aes(x=reorder(Indicator,Proportion), y=Proportion))+
   theme_bw()+
   labs( y="Percent (%)", title="", x="IYCF Indicator", fill="")+
   #scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)))+
+  geom_text(aes(label=paste0(Proportion)), hjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)+coord_flip()},width=1200, height=800)
 ```
@@ -4162,7 +4173,7 @@ if(input$nutrition_women!="County"){
   geom_sf_interactive(aes(fill=proportion_groups, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
   theme_void()+
   facet_wrap(~Category, nrow = 1)+
-  scale_fill_brewer(palette = "YlGnBu")+  
+  scale_fill_brewer(palette = "Greens")+  
   #scale_fill_manual(values = c("#e31a1c","#ffffcc","#78c679"))+
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percent (%)")+
@@ -4221,7 +4232,7 @@ mdd1 <-ggplot(mdd[mdd$`Background characteristics`%in%input$mdd,],aes(x=Value, y
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_manual(values = c("#d7191c","#fdae61","#abd9e9","#2c7bb6"))+
-  geom_text(aes(label=paste0(Proportion,"%")), position = position_dodge(width=1))+
+  geom_text(aes(label=paste0(Proportion,"%")), position = position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+ylim(0,100)
   mddx <- girafe(ggobj = mdd1,
                    options = list(
@@ -4305,7 +4316,7 @@ if(input$iron_women!="County"){
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="Number of days")+
   scale_fill_manual(values = c("#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"))+
-  geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1))+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face = "bold"))+ylim(0,100)
     iron1x <- girafe(ggobj = iron1,
                    options = list(
@@ -4319,7 +4330,7 @@ if(input$iron_women!="County"){
   geom_sf_interactive(aes(fill=proportion_groups, tooltip=paste0(Name,": ",Proportion,"%")),color="grey80", size=0.0)+
   theme_void()+
   facet_wrap(~Category, nrow = 1)+
-  scale_fill_brewer(palette = "YlGnBu")+  
+  scale_fill_brewer(palette = "Greens")+  
   #scale_fill_manual(values = c("#e31a1c","#ffffcc","#78c679"))+
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percent (%)")+
@@ -4428,7 +4439,7 @@ renderGirafe({
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="Household ITN ownership")+
   scale_fill_manual(values = c("#f46d43","#74add1"))+
-  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
   itn1x <- girafe(ggobj = itn1,
@@ -4443,7 +4454,7 @@ renderGirafe({
   geom_sf_interactive(aes(fill=proportion_groups, tooltip=names1),color="grey80", size=0.0)+
   theme_void()+
   facet_wrap(~Category, nrow=1)+
-  scale_fill_brewer(palette = "YlGn")+  
+  scale_fill_brewer(palette = "Greens")+  
   #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percent (%) of households\npossessing mosquito nets")+
@@ -4510,10 +4521,9 @@ renderGirafe({
    itn1x <-ggplot(itn_source[itn_source$`Background characteristics`%in%input$itn_source,],aes(x=reorder(Category,Proportion), y=Proportion, fill=Value))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+coord_flip()+
-      geom_text(aes(label=paste0(Proportion,"%")), position = position_dodge(0.6))+
-  labs( y="PPercent (%)", title="", x="Source of ITN", fill="")+
+      geom_text(aes(label=paste0(Proportion,"%")), position = position_dodge(width=1), vjust=-0.2)+
+  labs( y="Percent (%)", title="", x="Source of ITN", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
    itn1xx <- girafe(ggobj = itn1x,
@@ -4528,7 +4538,7 @@ renderGirafe({
   geom_sf_interactive(aes(fill=proportion_groups, tooltip=names1),color="grey80", size=0.0)+
   theme_void()+
   facet_wrap(~Category, nrow=1)+
-  scale_fill_brewer(palette = "YlGn")+
+  scale_fill_brewer(palette = "Greens")+
   #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percent (%) of households")+
@@ -4590,7 +4600,7 @@ if(input$itn_access!="County"){
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="")+
   #scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position = position_dodge(0.7))+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
    itn_acc1x <- girafe(ggobj = itn_acc1,
@@ -4665,7 +4675,7 @@ if(input$itn_use!="County"){
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="Household ITN ownership")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1))+
+  geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
   itn_use1x <- girafe(ggobj = itn_use1,
@@ -4741,7 +4751,7 @@ if(input$itn_itn!="County"){
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)))+
+  geom_text(aes(label=paste0(Proportion)), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
    exist_itn1x <- girafe(ggobj = exist_itn1,
@@ -4755,7 +4765,7 @@ if(input$itn_itn!="County"){
   map1<- ggplot(existing_itn_use_county1)+
   geom_sf_interactive(aes(fill=proportion_groups, tooltip=names1),color="grey80", size=0.0)+
   theme_void()+
-  scale_fill_brewer(palette = "YlGn")+
+  scale_fill_brewer(palette = "Greens")+
   #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percent (%) of households")+
@@ -4816,7 +4826,7 @@ if(input$nets_children!="County"){
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion,"%")), position=position_dodge(width=1))+
+  geom_text(aes(label=paste0(Proportion,"%")), position=position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
   children_itn1x <- girafe(ggobj =children_itn1,
@@ -4876,7 +4886,7 @@ renderPlot({if(input$nets_pregnant%in%c("Residence", "Endemicity zone","Wealth q
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="Household category")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)),position=position_dodge(width=1),hjust=0.3)+
+  geom_text(aes(label=paste0(Proportion)),position=position_dodge(width=1),vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)}
   else{
@@ -4941,7 +4951,7 @@ renderGirafe({
   theme_bw()+
   labs( y="Percent (%)", title="", x="Reason", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)),position=position_dodge(width=1),hjust=0.3)+
+  geom_text(aes(label=paste0(Proportion)),position=position_dodge(width=1),hjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)+
   coord_flip()
@@ -4974,7 +4984,7 @@ renderGirafe({
   geom_sf_interactive(aes(fill=proportion_groups, tooltip=names1),color="grey80", size=0.0)+
   theme_void()+
   facet_wrap(~Reason, nrow=1)+
-  scale_fill_brewer(palette = "YlGn")+
+  scale_fill_brewer(palette = "Greens")+
   #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percent (%) of households", caption = "NA represents counties with\nfewer than 25 cases")+
@@ -5039,7 +5049,7 @@ renderGirafe({
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="SP/Fansidar Doses")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1))+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
    iptp1x <- girafe(ggobj = iptp1,
@@ -5056,8 +5066,8 @@ renderGirafe({
   geom_sf_interactive(data=county, aes(geometry=geometry), fill=NA,color="grey80", size=0.1)+
   theme_void()+
   facet_wrap(~Characteristics, nrow=1)+
-  scale_fill_brewer(palette = "YlGn", na.value="white")+
-  scale_color_brewer(palette = "YlGn", na.value="white")+
+  scale_fill_brewer(palette = "Greens", na.value="white")+
+  scale_color_brewer(palette = "Greens", na.value="white")+
   #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percent (%) of households", caption = "NA (white) represents counties\nwhere IPTp implementation\nis not done (or vice versa)")+
@@ -5124,7 +5134,7 @@ renderGirafe({
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1))+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
     mal_f1x <- girafe(ggobj = mal_f1,
@@ -5140,7 +5150,7 @@ renderGirafe({
   geom_sf_interactive(aes(fill=proportion_groups, tooltip=names1),color="grey80", size=0.0)+
   theme_void()+
   facet_wrap(~Category, nrow=1)+
-  scale_fill_brewer(palette = "YlGn")+
+  scale_fill_brewer(palette = "Greens")+
   #scale_fill_manual(values = c("#ffffcc","#fed976","#fd8d3c","#e31a1c","#800026"))+  
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percent (%) of households", caption = "NA represents counties with\nfewer than 25 cases")+
@@ -5179,7 +5189,7 @@ renderPlot({ggplot(mal_treat_source, aes(x=reorder(`Source of Treatment`,`Propor
   theme(text=element_text(size=16, face="bold"))+
   geom_text(aes(label = paste0(Proportion)), nudge_y = 2.0)+
   ylim(0,100)+
-  coord_flip()}, width=1600, height=700 )
+  coord_flip()}, width=1400, height=650 )
 
 
 
@@ -5245,11 +5255,11 @@ renderPlot({if(input$hiv_kap%in%c("Age", "Education","Marital status", "Residenc
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_manual(values = c("#d7191c","#fdae61","#abdda4","#abd9e9"))+
   theme(text=element_text(size=16, face="bold"), legend.position="None")+
-  geom_text(aes(label=paste0(Proportion)), position=position_dodge(0.6))+ylim(0,100)
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), hjust=-0.2)+ylim(0,100)
 }
  else{
  } 
-}, width=1600, height=700)
+}, width=1400, height=700)
 
 ```
 
@@ -5285,7 +5295,7 @@ renderGirafe({
   map1<- ggplot(hivc1[hivc1$indicators%in%input$hiv,])+
   geom_sf_interactive(aes(fill=cats, tooltip=names1),color="grey80", size=0.0)+
   theme_void()+facet_grid(.~Participants)+
-  scale_fill_brewer(palette = "YlGn")+
+  scale_fill_brewer(palette = "Greens")+
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percentage")+
   theme(text=element_text(size=16))
@@ -5327,7 +5337,7 @@ renderGirafe({
   map1<- ggplot(hiv_testc1[hiv_testc1$Category%in%input$hiv_test1,])+
   geom_sf_interactive(aes(fill=proportion_groups, tooltip=paste0(Name, ": ", Proportion, "%")),color="grey80", size=0.0)+
   theme_void()+facet_grid(.~Participants)+
-  scale_fill_brewer(palette = "YlGn")+
+  scale_fill_brewer(palette = "Greens")+
   #scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   labs(x="", y="",fill="Percentage")+
   theme(text=element_text(size=16))
@@ -5435,7 +5445,7 @@ bp1 <-ggplot(bp[bp$`Background characteristics`%in%input$bp,],aes(x=Value, y=Pro
   facet_wrap(.~Participants)+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position=position_dodge(0.7), vjust=0.3)+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
 bpx <- girafe(ggobj = bp1,
@@ -5556,7 +5566,7 @@ depressn1 <-ggplot(depression[depression$`Background characteristics`%in%input$d
   facet_wrap(.~Participants)+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position=position_dodge(0.7), vjust=0.2)+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
 depressnx <- girafe(ggobj = depressn1,
@@ -5633,7 +5643,7 @@ renderGirafe({if(input$arthritis!="County"){
   facet_wrap(.~Participants)+
   labs( y="Percent (%)", title="", x="", fill="", caption="**Categories that don't have values\n have fewer than 25 cases")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), vjust=0.2)+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), vjust=-0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
  arth1x <- girafe(ggobj = arth1,
@@ -5792,7 +5802,7 @@ renderGirafe({if(input$breast_cancer!="County"){
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position=position_dodge(0.7), vjust=0.2)+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), vjust=0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
   breast_can1a <- girafe(ggobj = breast_can1,
@@ -5871,7 +5881,7 @@ if(input$cervical_cancer!="County"){
   theme_bw()+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette = "Set1")+
-  geom_text(aes(label=paste0(Proportion)), position=position_dodge(0.7), vjust=0.2)+
+  geom_text(aes(label=paste0(Proportion)), position=position_dodge(width=1), vjust=0.2)+
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)
   cervc1x <- girafe(ggobj = cervc1,
@@ -6050,7 +6060,7 @@ house_land_ownsership <- fread('data/table_15/table_15.3.1_&_table_15.3.2_House_
 
 renderPlot({ggplot(house_land_ownsership[house_land_ownsership$`Background characteristics`%in%input$home_own,],aes(y = Category, x=value, fill = variable)) + 
   geom_col(  position = 'dodge')+facet_grid(~Gender)+
-    geom_text(aes(label=paste0(round(value),"%")), position=position_dodge(width=1),vjust=-0.5)+
+    geom_text(aes(label=paste0(round(value),"%")), position=position_dodge(width=1),hjust=-0.2)+
   scale_fill_brewer(palette = "Set1")+
   theme_bw()+
   labs(x ='Proportion (%)', y ="", fill="")+
@@ -6091,7 +6101,7 @@ agricultural_land_ownsership_county <- full_join(agricultural_land_ownsership_co
 ```{r}
 renderGirafe({if(input$agric_own!="County"){
   agric1 <-ggplot(Agricultural_land_ownsership[Agricultural_land_ownsership$`Background characteristics`%in%input$agric_own,],mapping=aes(y=value, x=Category)) +
-  geom_col(position="dodge",fill="#abd9e9") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), vjust=-0.3)+
+  geom_col(position="dodge",fill="#abd9e9") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1))+
   facet_grid(Gender~variable, labeller = label_wrap_gen(width=10,multi_line = T)) + 
   theme_bw() +coord_flip()+
   labs( x = "", y="%", fill="")+theme(text=element_text(size=16, face="bold"))
@@ -6157,7 +6167,7 @@ non_agricultural_land_ownsership_county <- left_join(county, non_agricultural_la
 ```{r}
 renderGirafe({if(input$nonagric_own!="County"){
   non_agric1 <-ggplot(non_agricultural_land_ownsership[non_agricultural_land_ownsership$`Background characteristics`%in%input$nonagric_own,],mapping=aes(y=value, x=Category)) +
-  geom_col(position="dodge", fill="#abd9e9") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), hjust=-0.5)+
+  geom_col(position="dodge", fill="#abd9e9") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), hjust=0.2)+
   facet_grid(Gender~variable, labeller = label_wrap_gen(width=10,multi_line = T)) + 
   theme_bw() +coord_flip()+
   labs( x = "", y="%", fill="")+theme(text=element_text(size=16, face="bold"))
@@ -6217,7 +6227,7 @@ T15.6.1$Category <- fct_relevel(T15.6.1$Category, "No education", "Primary", "Se
 ```{r}
 renderGirafe({if(input$mobile!="County"){
   own1 <-ggplot(T15.6.1[T15.6.1$`Background characteristics`%in%input$mobile,],aes(y=value, x=Category)) +
-  geom_col(position="dodge", fill="#abd9e9") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), vjust=-0.5)+
+  geom_col(position="dodge", fill="#abd9e9") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), hjust=-0.2)+
   facet_grid(Gender~variable,labeller = label_wrap_gen(width=20,multi_line = T)) + 
   theme_bw() +coord_flip()+
   labs( x = "", y="%", fill="")+theme(text=element_text(size=15, face="bold"))
@@ -6282,9 +6292,9 @@ decision_making_county1 <- right_join(county, decision_making_county, by=c("Name
 ```{r}
 renderGirafe({if(input$decision_making!="County"){
   decision1 <- ggplot(decision_making[decision_making$`Background characteristics`%in%input$decision_making,],aes(y=value, x=Category)) +
-  geom_col(position="dodge", fill="cyan3") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), vjust=-0.3)+
+  geom_col(position="dodge", fill="cyan3") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), hjust=0.2)+
   facet_grid(Gender~variable, scales="free", labeller = label_wrap_gen(width=10,multi_line = T)) + 
-  theme_bw() +coord_flip()+
+  theme_bw() +ylim(0,100)+coord_flip()+
   labs( x = "", y="%", fill="")+theme(text=element_text(size=16, face="bold"))
   decision1x <- girafe(ggobj = decision1,
                    options = list(
@@ -6330,16 +6340,25 @@ selectInput("safer_sex", "",
 
 
 T15.10 <- fread("data/table_15/Table_15_10_attitudes_toward_negotiating_safer_sexual_relations_with_husband.csv") %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+  mutate(value=ifelse(value>0.5, round(value), value)) %>%
+  mutate(Category=recode(Category, "Divorced/Separated/Widowed"="Divorced/\nSeparated/Widowed", "Married/Living together"="Married/\nLiving together"))
 
 
 T15.10$Category<- fct_relevel(T15.10$Category, 
-                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
+                                    "Lowest", "Second", "Middle", "Fourth", "Highest", "No education", "Primary", "Secondary", "More than secondary")
 
 T15.10C <- fread("data/table_15/Table_15_10C_attitudes_toward_negotiating_safer_sexual_relations_with_husband_map.csv") 
 
 
 T15.10C <- full_join(county, T15.10C, by=c("Name"="County")) 
+
+breaks<- classIntervals(T15.10C$value, n=5, style="quantile", na.rm=T)
+
+T15.10C <- T15.10C %>%
+  mutate(value=abs(value)) %>%
+  mutate(cat=ifelse(value<40, "<40", ifelse(value>39 & value<60, "40-59", ifelse(value>59 & value<80, "60-79", ">79"))))
+
+T15.10C$cat <- fct_relevel(T15.10C$cat, "<40", "40-59", "60-79", ">79")
 ```
 
 
@@ -6349,7 +6368,7 @@ renderGirafe({if(input$safer_sex!="County"){
   geom_col(position="dodge") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), vjust=-0.5)+
   facet_grid(~Gender, scales="free", labeller = label_wrap_gen(width=10,multi_line = T)) + 
   theme_bw() +scale_fill_brewer(palette = "Set1")+
-  labs( x = "", y="%", fill="")+theme(text=element_text(size=20, face="bold"))
+  labs( x = "", y="%", fill="")+theme(text=element_text(size=16, face="bold"), legend.position = "bottom")
   att1x <- girafe(ggobj = att1,
                    options = list(
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
@@ -6357,10 +6376,12 @@ renderGirafe({if(input$safer_sex!="County"){
                      opts_zoom(max = 4)), width=15, height=5)
   print(att1x)}
   else{
-    att2 <-ggplot(T15.10C ,aes(fill= abs(value))) +
+    att2 <-ggplot(T15.10C ,aes(fill= cat)) +
    geom_sf_interactive(aes(tooltip=paste0(Name, ", ", value)))+
  facet_wrap(Gender~variable,nrow=1, labeller = label_wrap_gen(width=15,multi_line = T)) +
- theme_void()+scale_fill_gradient(low="#ffffcc", high="#bd0026", na.value = "white")+
+ theme_void()+
+      scale_fill_manual(values=brewer_pal(palette = "Greens")(5))+
+      #scale_fill_gradient(low="#ffffcc", high="#bd0026", na.value = "white")+
  labs(fill="%") +
   theme(text=element_text(size=14),axis.title=element_text(size=14,face="bold"))
     att2x <- girafe(ggobj = att2,
