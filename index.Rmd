@@ -3730,11 +3730,13 @@ valueBox(
 
 ### **Kindly select characteristics in the dropdown menu**
 
+**Proportion of children aged 24-59 months who are developmentally on track in health, learning & psychosocial wellbeing**
+
 ```{r}
 #### Proportion of children aged 24-59 months who are developmentally on track in health, learning, #### & psychosocial wellbeing.
 
 selectInput("ecd","",
-             c("Age"="Age",
+             c("Age"="Age (in months)",
                "Sex"="Sex",
                "Residence"="Residence",
                "Early childhood education attendance"="Early childhood education attendance",
