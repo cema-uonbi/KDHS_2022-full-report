@@ -32,13 +32,6 @@ resource_files:
 - data/table_17/table_17.1_Experience_pysical_violence.csv
 ---
 
-```{=html}
-<style>
-.dataTables_scrollBody {
-    max-height: 100% !important;
-}
-</style>
-```
 
 
 # About
