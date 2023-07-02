@@ -6971,8 +6971,8 @@ renderPlot({ggplot(sources_help[sources_help$variable%in%input$sources_help,],ae
 ```{r}
 
 valueBox(
-  value = paste("13%"),
-  caption = "of women have ever experienced sexual violence",
+  value = paste("16%"),
+  caption = "of women have undergone female genital mutilation",
   color = "black"
 )
 ```
@@ -6981,8 +6981,8 @@ valueBox(
 
 ```{r}
 valueBox(
-  value = paste("6.5%"),
-  caption = "of women have often experienced sexual violence in the last 12 months",
+  value = paste("12%"),
+  caption = "of women have undergone female genital mutilation by being sewn closed",
   color = "#b15928"
 )
 ```
@@ -7073,9 +7073,9 @@ prevalence_circumcission_county <- full_join(county,prevalence_circumcission_cou
 
 ```{r}
 
-renderPlot({if(input$prevalence_circumcision!="County"){ggplot(prevalence_circumcision[prevalence_circumcision$`Background characteristics`%in%input$prevalence_circumcision,],aes(y=value, x=Category)) +
-  geom_col(position="dodge", fill="cyan3") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(0.7), vjust=-0.5)+
-  theme_bw() +scale_fill_brewer(palette = "Set1")+
+renderPlot({if(input$prevalence_circumcision!="County"){ggplot(prevalence_circumcision[prevalence_circumcision$`Background characteristics`%in%input$prevalence_circumcision &prevalence_circumcision$variable!="Percentage of women circumcised",],aes(y=value, x=Category)) +
+  geom_col(position="dodge", fill="cyan3" ) + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), vjust=-0.5)+
+  theme_bw() +scale_fill_brewer(palette = "Set1")+facet_wrap(.~variable, labeller = label_wrap_gen(multi_line = T))+ylim(0,100)+
   labs( x = "", y="%", fill="")+theme(text=element_text(size=20, face="bold"))}
   else{
     ggplot(prevalence_circumcission_county ,aes(fill= abs(value), geometry=geometry)) +
@@ -7084,7 +7084,7 @@ renderPlot({if(input$prevalence_circumcision!="County"){ggplot(prevalence_circum
  theme_void()+scale_fill_gradient(low="#ffffcc", high="#bd0026", na.value = "white")+
  labs(fill="%") +
   theme(text=element_text(size=25),axis.title=element_text(size=14,face="bold"))
-  }}, width=1500, height=700)
+  }}, width=1300, height=700)
 
 
 
