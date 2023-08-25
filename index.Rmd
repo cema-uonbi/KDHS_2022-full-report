@@ -62,18 +62,7 @@ knitr::include_graphics("www/front_page_knbs.png")
 #setwd("~/")
 # load all the required packages
 library(pacman)
-p_load(shiny)
-p_load(docxtractr)
-p_load(flexdashboard)
-p_load(tidyverse)
-p_load(ggiraph)
-p_load(scales)
-p_load(sf)
-p_load(reshape2)
-p_load(cowplot)
-p_load(data.table)
-p_load(classInt)
-
+p_load(shiny, docxtractr,flexdashboard, tidyverse,ggiraph, scales, sf, reshape2, cowplot, data.table, classInt, microbenchmark)
 
 ```
 
@@ -241,8 +230,8 @@ insurance_county1 <- full_join(county, insurance_county, by=c("Name"="County"))
 
 ```{r, fig.width=16 }
 # health insurance data by age
-insurance <- fread("data/table_2/table_2_20_insurance_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+insurance <- fread("data/table_2/table_2_20_insurance_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 insurance$Value<- fct_relevel(insurance$Value, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -299,8 +288,8 @@ selectInput("housing", "",
 ```
 
 ```{r}
-housing <- fread("data/table_2/table2_1_Housing_by_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+housing <- fread("data/table_2/table2_1_Housing_by_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 housing$Value <-fct_relevel(housing$Value, "Never", "Daily", "Weekly", "Less than once a month", "Monthly")
 
@@ -331,8 +320,8 @@ selectInput("cooking", "",
 ```
 
 ```{r }
-cooking <- fread("data/table_2/table2_2_Cooking_by_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+cooking <- fread("data/table_2/table2_2_Cooking_by_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 renderPlot({
@@ -363,8 +352,8 @@ selectInput("possessions", "",
 
 ```{r}
 
-hh_possession <- fread("data/table_2/table2_5_HH_possession.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+hh_possession <- fread("data/table_2/table2_5_HH_possession.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 
@@ -400,14 +389,14 @@ selectInput("birth_reg", "",
 ```
 
 ```{r, include=F}
-birth_reg_county <- fread("data/table_2/table2_10C_Birth_registration_by_county.csv")%>%
+birth_reg_county <- fread("data/table_2/table2_10C_Birth_registration_by_county.csv")|>
   mutate(Proportion=as.numeric(Proportion))
 
 breaks<- classIntervals(birth_reg_county$Proportion, n=5, style="quantile", na.rm=T)
 
-birth_reg_county <- birth_reg_county %>%
-  mutate(cat=ifelse(Proportion<31, "<31", ifelse(Proportion>30 & Proportion<43, "31-42", ifelse(Proportion>42 & Proportion <52, "43-51",
-                                                                                                ifelse(Proportion>51&Proportion<73, "52-72", ">73")))))
+birth_reg_county <- birth_reg_county |>
+  mutate(cat=fifelse(Proportion<31, "<31", fifelse(Proportion>30 & Proportion<43, "31-42", fifelse(Proportion>42 & Proportion <52, "43-51",
+                                                                                                fifelse(Proportion>51&Proportion<73, "52-72", ">73")))))
 
 birth_reg_county$cat <- fct_relevel(birth_reg_county$cat, "<31", "31-42", "43-51", "52-72", ">73")
 
@@ -421,9 +410,9 @@ birth_reg_county1 <- full_join(county, birth_reg_county, by=c("Name"="County"))
 
 ```{r }
 
-birth_reg <- fread("data/table_2/table2_10_Birth_registration_by_background_xtics.csv")%>%
-  mutate(Proportion=as.numeric(Proportion)) %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+birth_reg <- fread("data/table_2/table2_10_Birth_registration_by_background_xtics.csv")|>
+  mutate(Proportion=as.numeric(Proportion)) |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 birth_reg$Value<- fct_relevel(birth_reg$Value, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -477,14 +466,14 @@ selectInput("school_attendance", "",
 ```
 
 ```{r, include=F}
-school_att_county <- fread("data/table_2/table_2_12C_School_attendance_by_county.csv")%>%
+school_att_county <- fread("data/table_2/table_2_12C_School_attendance_by_county.csv")|>
   filter(!(Category%in%"Gender Parity Index"))
 
 breaks<- classIntervals(school_att_county$Proportion, n=5, style="quantile", na.rm=T)
 
-school_att_county <- school_att_county %>%
-  mutate(cat=ifelse(Proportion<52, "<52", ifelse(Proportion>51 & Proportion<76, "51-75", ifelse(Proportion>75 & Proportion <90, "75-89",
-                                                                                                ifelse(Proportion>89&Proportion<104, "90-103", ">103")))))
+school_att_county <- school_att_county |>
+  mutate(cat=fifelse(Proportion<52, "<52", fifelse(Proportion>51 & Proportion<76, "51-75", fifelse(Proportion>75 & Proportion <90, "75-89",
+                                                                                                fifelse(Proportion>89&Proportion<104, "90-103", ">103")))))
 
 school_att_county$cat <- fct_relevel(school_att_county$cat, "<52", "51-75", "75-89", "90-103", ">103")
 
@@ -497,8 +486,8 @@ school_att_county1 <- full_join(county, school_att_county, by=c("Name"="County")
 
 ```{r}
 
-school_attendance <- fread("data/table_2/table_2_12_School_attendance_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+school_attendance <- fread("data/table_2/table_2_12_School_attendance_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 school_attendance$Value<- fct_relevel(school_attendance$Value, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -555,18 +544,18 @@ selectInput("rta", "",
 ```
 
 ```{r, include=F}
-RTA <- fread("data/table_2/table_2_17_RTA_by_background_xtics.csv") %>%
+RTA <- fread("data/table_2/table_2_17_RTA_by_background_xtics.csv") |>
   mutate(Proportion=parse_number(Proportion))
 
 RTA$Value<- fct_relevel(RTA$Value, "Lowest", "Second", "Middle", "Fourth", "Highest")
 
-RTA_county <- fread("data/table_2/table_2_17_RTA_by_county.csv") %>%
+RTA_county <- fread("data/table_2/table_2_17_RTA_by_county.csv") |>
   mutate(Proportion=as.numeric(Proportion))
 breaks<- classIntervals(RTA_county$Proportion, n=5, style="quantile", na.rm=T)
 
-RTA_county <- RTA_county %>%
-  mutate(cat=ifelse(Proportion<33, "<33", ifelse(Proportion>32 & Proportion<85, "33-84", ifelse(Proportion>84 & Proportion <211, "85-210",
-                                                                                                ifelse(Proportion>210 &Proportion<1062, "211-1061", ">1062")))))
+RTA_county <- RTA_county |>
+  mutate(cat=fifelse(Proportion<33, "<33", fifelse(Proportion>32 & Proportion<85, "33-84", fifelse(Proportion>84 & Proportion <211, "85-210",
+                                                                                                fifelse(Proportion>210 &Proportion<1062, "211-1061", ">1062")))))
 
 RTA_county$cat <- fct_relevel(RTA_county$cat, "<33", "33-84","85-210", "211-1061",">1062" )
 
@@ -638,9 +627,9 @@ covid_county <- fread("data/table_2/table_2_19_1C_covid_by_county.csv")
 
 
 
-covid_county1 <- full_join(county, covid_county%>%filter(Participants%in%"Households")%>%distinct(), by=c("Name"="County")) %>%
+covid_county1 <- full_join(county, covid_county|>filter(Participants%in%"Households")|>distinct(), by=c("Name"="County")) |>
   mutate(Participants="Households")
-covid_county2 <- full_join(county, covid_county%>%filter(Participants%in%"Population"), by=c("Name"="County")) %>%
+covid_county2 <- full_join(county, covid_county|>filter(Participants%in%"Population"), by=c("Name"="County")) |>
   mutate(Participants="Population")
 
 
@@ -648,9 +637,9 @@ covid_county3 <- rbind(covid_county1, covid_county2)
 
 breaks<- classIntervals(covid_county3$Proportion, n=5, style="quantile", na.rm=T)
 
-covid_county3 <- covid_county3 %>%
-  mutate(cat=ifelse(Proportion<9.6, "<9.6", ifelse(Proportion>9.5 & Proportion<18.7, "9.6-18.6", ifelse(Proportion>18.6 & Proportion <30.1, "18.7-30.0",
-                                                                                                ifelse(Proportion>30.0&Proportion<48.0, "30.1-47.9", ">48.0")))))
+covid_county3 <- covid_county3 |>
+  mutate(cat=fifelse(Proportion<9.6, "<9.6", fifelse(Proportion>9.5 & Proportion<18.7, "9.6-18.6", fifelse(Proportion>18.6 & Proportion <30.1, "18.7-30.0",
+                                                                                                fifelse(Proportion>30.0&Proportion<48.0, "30.1-47.9", ">48.0")))))
 
 covid_county3$cat <- fct_relevel(covid_county3$cat, "<9.6", "9.6-18.6", "18.7-30.0", "30.1-47.9", ">48.0")
 
@@ -660,8 +649,8 @@ covid_county3$cat <- fct_relevel(covid_county3$cat, "<9.6", "9.6-18.6", "18.7-30
 
 ```{r}
 
-covid <- fread("data/table_2/table_2_19_1_covid_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+covid <- fread("data/table_2/table_2_19_1_covid_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 covid$Value<- fct_relevel(covid$Value, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -741,9 +730,9 @@ cash_transfer_county1 <- full_join(county, cash_transfer_county, by=c("Name"="Co
 
 breaks<- classIntervals(cash_transfer_county$Proportion, n=5, style="quantile", na.rm=T)
 
-cash_transfer_county1 <- cash_transfer_county1 %>%
-  mutate(cat=ifelse(Proportion<0.7, "<0.7", ifelse(Proportion>0.6 & Proportion<2.6, "0.7-2.5", ifelse(Proportion>2.5 & Proportion <8.1, "2.6-8.0",
-                                                                                                ifelse(Proportion>8.0&Proportion<20.0, "8.1-19.9", ">19.9")))))
+cash_transfer_county1 <- cash_transfer_county1 |>
+  mutate(cat=fifelse(Proportion<0.7, "<0.7", fifelse(Proportion>0.6 & Proportion<2.6, "0.7-2.5", fifelse(Proportion>2.5 & Proportion <8.1, "2.6-8.0",
+                                                                                                fifelse(Proportion>8.0&Proportion<20.0, "8.1-19.9", ">19.9")))))
 
 cash_transfer_county1$cat <- fct_relevel(cash_transfer_county1$cat, "<0.7", "0.7-2.5", "2.6-8.0", "8.1-19.9", ">19.9")
 
@@ -751,8 +740,8 @@ cash_transfer_county1$cat <- fct_relevel(cash_transfer_county1$cat, "<0.7", "0.7
 ```
 
 ```{r}
-cash_transfer <- fread("data/table_2/table_2_22_1_cash_transfer_by_provider.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+cash_transfer <- fread("data/table_2/table_2_22_1_cash_transfer_by_provider.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 renderGirafe({if(input$cash_transfer!="County"){
   cash_trans1 <- ggplot(cash_transfer[cash_transfer$Provider1%in%input$cash_transfer,], aes(x=reorder(`Reason For Assistance`,Proportion), y=Proportion))+
@@ -843,8 +832,8 @@ selectInput("char", "",
 
 ```{r, include=F}
 
-respondentsdata <- fread("data/table_2/table2_respondentsdata.csv") %>%
-  mutate(Weighted_percent=ifelse(Weighted_percent>0.5, round(Weighted_percent),Weighted_percent))
+respondentsdata <- fread("data/table_2/table2_respondentsdata.csv") |>
+  mutate(Weighted_percent=fifelse(Weighted_percent>0.5, round(Weighted_percent),Weighted_percent))
 
 
 respondentsdata$Grouping<- fct_relevel(respondentsdata$Grouping, 
@@ -852,31 +841,31 @@ respondentsdata$Grouping<- fct_relevel(respondentsdata$Grouping,
 ## county data
 
 ### men
-men_background_xtics_county <- fread("data/table_2/table2C_men_backgroundxtics_by_county.csv") %>%
+men_background_xtics_county <- fread("data/table_2/table2C_men_backgroundxtics_by_county.csv") |>
   mutate(group="Men")
 
-county <- st_read("shapefiles/County.shp")%>%
-  mutate(region=ifelse(Name%in%c("Kilifi","Kwale","Lamu", "Mombasa", "Taita Taveta", "Tana River"),"Coast", ifelse(Name%in%c("Garissa", "Mandera", "Wajir"),"North Eastern", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni"),"Eastern", ifelse(Name%in%c("Kiambu", "Kirinyaga","Muranga","Nyandarua", "Nyeri"),"Central", ifelse(Name%in%c("Bungoma",
- "Busia","Kakamega","Vihiga"),"Western", ifelse(Name%in%c("Kisumu", "Siaya","Homa Bay","Kisii", "Migori","Nyamira"),"Nyanza", ifelse(Name%in%"Nairobi","Nairobi", "Rift Valley"))))))))%>%
+county <- st_read("shapefiles/County.shp")|>
+  mutate(region=fifelse(Name%in%c("Kilifi","Kwale","Lamu", "Mombasa", "Taita Taveta", "Tana River"),"Coast", fifelse(Name%in%c("Garissa", "Mandera", "Wajir"),"North Eastern", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni"),"Eastern", fifelse(Name%in%c("Kiambu", "Kirinyaga","Muranga","Nyandarua", "Nyeri"),"Central", fifelse(Name%in%c("Bungoma",
+ "Busia","Kakamega","Vihiga"),"Western", fifelse(Name%in%c("Kisumu", "Siaya","Homa Bay","Kisii", "Migori","Nyamira"),"Nyanza", fifelse(Name%in%"Nairobi","Nairobi", "Rift Valley"))))))))|>
   rename(County=Name)
 
-men_background_xtics_county1 <- full_join(county, men_background_xtics_county, by="County")%>%
+men_background_xtics_county1 <- full_join(county, men_background_xtics_county, by="County")|>
   mutate(names=paste0(County,", ", weighted_perc,"%"))
 
 ### women
-women_background_xtics_county <- fread("data/table_2/table2C_women_backgroundxtics_by_county.csv") %>%
+women_background_xtics_county <- fread("data/table_2/table2C_women_backgroundxtics_by_county.csv") |>
   mutate(group="Women")
 
-women_background_xtics_county1 <- full_join(county, women_background_xtics_county, by="County")%>%
+women_background_xtics_county1 <- full_join(county, women_background_xtics_county, by="County")|>
   mutate(names=paste0(County,", ", weighted_perc,"%"))
 
 background_characteristics_map <- rbind(women_background_xtics_county1, men_background_xtics_county1)
 
 breaks<- classIntervals(background_characteristics_map$weighted_perc, n=5, style="quantile", na.rm=T)
 
-background_characteristics_map <- background_characteristics_map %>%
-  mutate(cat=ifelse(weighted_perc<0.8, "<0.8", ifelse(weighted_perc>0.7 & weighted_perc<1.3, "0.8-1.2", ifelse(weighted_perc>1.2 & weighted_perc <2.1, "1.3-2.0",
-                                                                                                ifelse(weighted_perc>2.0&weighted_perc<2.9, "2.1-2.8", ">2.8")))))
+background_characteristics_map <- background_characteristics_map |>
+  mutate(cat=fifelse(weighted_perc<0.8, "<0.8", fifelse(weighted_perc>0.7 & weighted_perc<1.3, "0.8-1.2", fifelse(weighted_perc>1.2 & weighted_perc <2.1, "1.3-2.0",
+                                                                                                fifelse(weighted_perc>2.0&weighted_perc<2.9, "2.1-2.8", ">2.8")))))
 
 background_characteristics_map$cat <- fct_relevel(background_characteristics_map$cat, "<0.8", "0.8-1.2", "1.3-2.0", "2.1-2.8", ">2.8")
 
@@ -886,8 +875,8 @@ background_characteristics_map$cat <- fct_relevel(background_characteristics_map
 
 renderGirafe({
   if (input$char%in%c("Wealth_Quintile", "Age")){
-  respondents_map1 <- respondentsdata%>%
-    filter(Indicator%in%input$char)%>%
+  respondents_map1 <- respondentsdata|>
+    filter(Indicator%in%input$char)|>
     ggplot(aes(x=Grouping, y=Weighted_percent, color=Participants)) + 
   geom_point_interactive(stat = "identity", size= 12,alpha=0.6, aes(tooltip=paste0(Weighted_percent, "%"))) + 
   theme_bw() +
@@ -907,8 +896,8 @@ renderGirafe({
                      opts_zoom(max = 4)), width=15, height=5)
   print(respondents_map1a)
     } else if(input$char%in%"County"){
- respondents_map2 <-respondentsdata%>%
-    filter(Indicator==input$char)%>%
+ respondents_map2 <-respondentsdata|>
+    filter(Indicator==input$char)|>
       ggplot(aes(x=reorder(Grouping,Weighted_percent), y=Weighted_percent)) + 
   geom_bar(stat = "identity", size= 10, fill = "cyan4") +ylim(0,100)+ coord_flip()+
   theme_bw() +theme(text = element_text(size = 10))+
@@ -927,8 +916,8 @@ renderGirafe({
   print(respondents_map2a)
 
   }  else if(input$char%in%c("Religion", "Marital_Status")){
-  respondents_map3 <- respondentsdata%>%
-    filter(Indicator==input$char)%>%
+  respondents_map3 <- respondentsdata|>
+    filter(Indicator==input$char)|>
       ggplot(aes(x=reorder(Grouping,Weighted_percent), y=Weighted_percent, fill=Participants)) + 
   geom_bar(stat = "identity", size= 10, position="dodge") + coord_flip()+
   theme_bw() + ylim(0,100)+
@@ -962,8 +951,8 @@ renderGirafe({
     print(background_map)
   }
   else{
-  respondents_map4 <- respondentsdata%>%
-    filter(Indicator==input$char)%>%
+  respondents_map4 <- respondentsdata|>
+    filter(Indicator==input$char)|>
     ggplot(aes(x=Grouping, y=Weighted_percent)) + ylim(0,100)+
   geom_bar(stat = "identity", size= 10, fill = "cyan4")+ #aes(tooltip=paste0(Weighted_percent, "%"))) + 
   theme_bw() +
@@ -1002,17 +991,17 @@ selectInput("occupation", "",
 occupation_county <- fread("data/table_3/table3_7C_occupation_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
-occupation_county1 <- full_join(county, occupation_county%>%filter(Participants%in%"Women"), by=c("Name"="County")) %>%
+occupation_county1 <- full_join(county, occupation_county|>filter(Participants%in%"Women"), by=c("Name"="County")) |>
   mutate(Participants="Women")
-occupation_county2 <- full_join(county, occupation_county%>%filter(Participants%in%"Men"), by=c("Name"="County")) %>%
+occupation_county2 <- full_join(county, occupation_county|>filter(Participants%in%"Men"), by=c("Name"="County")) |>
   mutate(Participants="Men")
 occupation_county3 <- rbind(occupation_county1, occupation_county2)
 
 breaks<- classIntervals(occupation_county3$Proportion, n=5, style="quantile", na.rm=T)
 
-occupation_county3 <- occupation_county3 %>%
-  mutate(cat=ifelse(Proportion<1.9, "<1.9", ifelse(Proportion>1.8 & Proportion<5.5, "1.9-5.4", ifelse(Proportion>5.4 & Proportion <9.5, "5.5-9.4",
-                                                                                                ifelse(Proportion>9.4&Proportion<18.5, "9.5-18.4", ">18.4")))))
+occupation_county3 <- occupation_county3 |>
+  mutate(cat=fifelse(Proportion<1.9, "<1.9", fifelse(Proportion>1.8 & Proportion<5.5, "1.9-5.4", fifelse(Proportion>5.4 & Proportion <9.5, "5.5-9.4",
+                                                                                                fifelse(Proportion>9.4&Proportion<18.5, "9.5-18.4", ">18.4")))))
 
 occupation_county3$cat <- fct_relevel(occupation_county3$cat, "<1.9", "1.9-5.4", "5.5-9.4", "9.5-18.4", ">18.4")
 
@@ -1020,8 +1009,8 @@ occupation_county3$cat <- fct_relevel(occupation_county3$cat, "<1.9", "1.9-5.4",
 
 ```{r}
 
-occupation <- fread("data/table_3/table3_7_occupation_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+occupation <- fread("data/table_3/table3_7_occupation_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 occupation$Value <- recode(occupation$Value, "More than secondary"="More than \nsecondary","Divorced/separated/widowed"="Divorced/separated\n/widowed", "Married or living together"="Married or \nliving together" )
 occupation$Value<- fct_relevel(occupation$Value, 
@@ -1077,8 +1066,8 @@ selectInput("employment", "",
 
 ```{r}
 
-employment <-fread("data/table_3/table3_8_employment_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+employment <-fread("data/table_3/table3_8_employment_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 renderPlot({
@@ -1111,9 +1100,9 @@ migration_county <- fread("data/table_3/table_3_17C_migration_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
 
-migration_county1 <- full_join(county, migration_county%>%filter(Participants%in%"Men"), by=c("Name"="County"))%>%
+migration_county1 <- full_join(county, migration_county|>filter(Participants%in%"Men"), by=c("Name"="County"))|>
   mutate(Participants="Men")
-migration_county2 <- full_join(county, migration_county%>%filter(Participants%in%"Women"), by=c("Name"="County"))%>%
+migration_county2 <- full_join(county, migration_county|>filter(Participants%in%"Women"), by=c("Name"="County"))|>
   mutate(Participants="Women")
 migration_county3 <-rbind(migration_county1, migration_county2)
 
@@ -1121,8 +1110,8 @@ migration_county3 <-rbind(migration_county1, migration_county2)
 
 
 ```{r}
-migration <- fread("data/table_3/table_3_17_migration_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+migration <- fread("data/table_3/table_3_17_migration_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 migration$Value<- fct_relevel(migration$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1197,8 +1186,8 @@ valueBox(
 
 ```{r}
 
-water_collector <- fread("data/table_16/table_16_3_water_collection_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+water_collector <- fread("data/table_16/table_16_3_water_collection_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 water_collector$Value<- fct_relevel(water_collector$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1209,9 +1198,9 @@ water_collector_county1 <- full_join(county, water_collector_county, by=c("Name"
 
 breaks<- classIntervals(water_collector_county1$Proportion, n=5, style="quantile", na.rm=T)
 
-water_collector_county1 <- water_collector_county1 %>%
-  mutate(cat=ifelse(Proportion<3.1, "<3.1", ifelse(Proportion>3.0 & Proportion<7.1, "3.1-7.0", ifelse(Proportion>7.0 & Proportion <17.5, "7.1-17.4",
-                                                                                                ifelse(Proportion>17.4&Proportion<62.0, "17.5-61.9", ">61.9")))))
+water_collector_county1 <- water_collector_county1 |>
+  mutate(cat=fifelse(Proportion<3.1, "<3.1", fifelse(Proportion>3.0 & Proportion<7.1, "3.1-7.0", fifelse(Proportion>7.0 & Proportion <17.5, "7.1-17.4",
+                                                                                                fifelse(Proportion>17.4&Proportion<62.0, "17.5-61.9", ">61.9")))))
 
 water_collector_county1$cat <- fct_relevel(water_collector_county1$cat, "<3.1", "3.1-7.0", "7.1-17.4", "17.5-61.9", ">61.9")
 
@@ -1259,8 +1248,8 @@ renderGirafe({if(input$collector!="County"){
 
 ```{r}
 
-water_treat <- fread("data/table_16/table_16_5_water_treatment_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+water_treat <- fread("data/table_16/table_16_5_water_treatment_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 water_treat$Value <- fct_relevel(water_treat$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1271,8 +1260,8 @@ water_treat_county1 <- full_join(county, water_treat_county, by=c("Name"="County
 
 breaks<- classIntervals(water_treat_county1$Proportion, n=5, style="quantile", na.rm=T)
 
-water_treat_county1 <- water_treat_county1 %>%
-  mutate(cat=ifelse(Proportion<0.3, "<0.3", ifelse(Proportion>0.2 & Proportion<3.0, "0.3-2.9", ifelse(Proportion>2.9 & Proportion <25.3, "3.0-25.2",
+water_treat_county1 <- water_treat_county1 |>
+  mutate(cat=fifelse(Proportion<0.3, "<0.3", fifelse(Proportion>0.2 & Proportion<3.0, "0.3-2.9", fifelse(Proportion>2.9 & Proportion <25.3, "3.0-25.2",
                                                                                                  ">25.2"))))
 
 water_treat_county1$cat <- fct_relevel(water_treat_county1$cat, "<0.3", "0.3-2.9", "3.0-25.2",  ">25.2")
@@ -1323,8 +1312,8 @@ renderGirafe({if(input$water_treat!="County"){
 
 ```{r}
 
-excreta_mgmnt <- fread("data/table_16/table_16_9_excreta_management_by_background_xtics.csv")%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+excreta_mgmnt <- fread("data/table_16/table_16_9_excreta_management_by_background_xtics.csv")|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 excreta_mgmnt$Value<- fct_relevel(excreta_mgmnt$Value, 
@@ -1336,8 +1325,8 @@ excreta_mgmnt_county <- full_join(county, excreta_mgmnt_county, by=c("Name"="Cou
 
 breaks<- classIntervals(excreta_mgmnt_county$Proportion, n=5, style="quantile", na.rm=T)
 
-excreta_mgmnt_county <- excreta_mgmnt_county %>%
-  mutate(cat=ifelse(Proportion<1, "<1.0", ifelse(Proportion>0.9 & Proportion<10.7, "0.9-10.6", ifelse(Proportion>10.6 & Proportion <47.8, "10.7-47.7",
+excreta_mgmnt_county <- excreta_mgmnt_county |>
+  mutate(cat=fifelse(Proportion<1, "<1.0", fifelse(Proportion>0.9 & Proportion<10.7, "0.9-10.6", fifelse(Proportion>10.6 & Proportion <47.8, "10.7-47.7",
                                                                                                  ">47.7"))))
 
 excreta_mgmnt_county$cat <- fct_relevel(excreta_mgmnt_county$cat, "<1.0", "0.9-10.6", "10.7-47.7",  ">47.7")
@@ -1388,8 +1377,8 @@ renderGirafe({if(input$excreta_mgmnt!="County"){
 
 ```{r}
 
-child_stool_disp <- fread("data/table_16/table_16_10_stool_disposal_by_background_xtics.csv")%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+child_stool_disp <- fread("data/table_16/table_16_10_stool_disposal_by_background_xtics.csv")|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 child_stool_disp$Value <- fct_relevel(child_stool_disp$Value, 
@@ -1403,8 +1392,8 @@ child_stool_disp_county1 <- full_join(county, child_stool_disp_county, by=c("Nam
 
 breaks<- classIntervals(child_stool_disp_county1$Proportion, n=4, style="quantile", na.rm=T)
 
-child_stool_disp_county1 <- child_stool_disp_county1 %>%
-  mutate(cat=ifelse(Proportion<2, "<2", ifelse(Proportion>1.9 & Proportion<10.4, "2.0-10.3", ifelse(Proportion>10.3 & Proportion <57.2, "10.4-57.1",
+child_stool_disp_county1 <- child_stool_disp_county1 |>
+  mutate(cat=fifelse(Proportion<2, "<2", fifelse(Proportion>1.9 & Proportion<10.4, "2.0-10.3", fifelse(Proportion>10.3 & Proportion <57.2, "10.4-57.1",
                                                                                                  ">57.1"))))
 
 child_stool_disp_county1$cat <- fct_relevel(child_stool_disp_county1$cat, "<2.0", "2.0-10.3", "10.4-57.1",  ">57.1")
@@ -1459,8 +1448,8 @@ renderGirafe({if(input$child_stool_disp!="County"){
 
 ```{r}
 
-handwashing <- fread("data/table_16/table_16_11_handwashing_by_background_xtics.csv")%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+handwashing <- fread("data/table_16/table_16_11_handwashing_by_background_xtics.csv")|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 handwashing$Value <- fct_relevel(handwashing$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1471,8 +1460,8 @@ handwashing_county1 <- full_join(county, handwashing_county, by=c("Name"="County
 
 breaks<- classIntervals(handwashing_county1$Proportion, n=4, style="quantile", na.rm=T)
 
-handwashing_county1 <- handwashing_county1 %>%
-  mutate(cat=ifelse(Proportion<13.1, "<13.1", ifelse(Proportion>13.0 & Proportion<39.8, "13.1-39.7", ifelse(Proportion>39.7 & Proportion <63.8, "39.8-63.7",
+handwashing_county1 <- handwashing_county1 |>
+  mutate(cat=fifelse(Proportion<13.1, "<13.1", fifelse(Proportion>13.0 & Proportion<39.8, "13.1-39.7", fifelse(Proportion>39.7 & Proportion <63.8, "39.8-63.7",
                                                                                                  ">63.7"))))
 
 handwashing_county1$cat <- fct_relevel(handwashing_county1$cat, "<13.1", "13.1-39.7", "39.8-63.7",  ">63.7")
@@ -1563,8 +1552,8 @@ marriage_data1 <- full_join(county, marriage_data, by=c("Name"="County"))
 
 breaks<- classIntervals(marriage_data1$Value, n=4, style="quantile", na.rm=T)
 
-marriage_data1 <- marriage_data1 %>%
-  mutate(cat=ifelse(Value<16.1, "<16.1", ifelse(Value>16.0 & Value<20.1, "16.1-20.0", ifelse(Value>20.0 & Value <40.1, "20.1-40.0",
+marriage_data1 <- marriage_data1 |>
+  mutate(cat=fifelse(Value<16.1, "<16.1", fifelse(Value>16.0 & Value<20.1, "16.1-20.0", fifelse(Value>20.0 & Value <40.1, "20.1-40.0",
                                                                                                  ">40.0"))))
 
 marriage_data1$cat <- fct_relevel(marriage_data1$cat,  "<16.1", "16.1-20.0", "20.1-40.0",  ">40.0")
@@ -1577,7 +1566,7 @@ selectInput("marriage", "",
              ))
 
 renderGirafe({
-  marriage_data1a <-marriage_data1 %>%filter(type%in%input$marriage) %>%
+  marriage_data1a <-marriage_data1 |>filter(type%in%input$marriage) |>
     filter(!(category%in%c("Women (20-49 yrs)", "Men (25-54 yrs)")))
 
   marriage_data_map<- ggplot(marriage_data1a, aes(fill=cat)) + 
@@ -1831,7 +1820,7 @@ selectInput("tfr1", "",
             ))
 
 
-fertility_rate <- fread("data/table_5/table 5.2fertility_rate.csv")%>%
+fertility_rate <- fread("data/table_5/table 5.2fertility_rate.csv")|>
   filter(Variable%in%"TFR")
 
 fertility_rate$category <- fct_relevel(fertility_rate$category, 
@@ -1852,9 +1841,9 @@ fertility_rate$category <- fct_relevel(fertility_rate$category,
 
 #tfrbycounty_2014 <- full_join(county, tfrbycounty_2014, by=c("Name"="County"))
 
-TFRbycounty.2022 <- fread("data/table_5/Table 5.2_C  Fertility by county.2022.csv")%>%
-  filter(Category%in%"TFR")%>%
-  mutate(proportion_category=ifelse(Proportion<4,"<4",">=4"))%>%
+TFRbycounty.2022 <- fread("data/table_5/Table 5.2_C  Fertility by county.2022.csv")|>
+  filter(Category%in%"TFR")|>
+  mutate(proportion_category=fifelse(Proportion<4,"<4",">=4"))|>
   mutate(County=recode(County,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
 
 TFRbycounty.2022$proportion_category <- as.factor(fct_relevel(TFRbycounty.2022$proportion_category, c( "<4", ">=4")))
@@ -1863,8 +1852,8 @@ TFRbycounty.2022_1 <- full_join(county, TFRbycounty.2022, by=c("Name"="County"))
 
 breaks<- classIntervals(TFRbycounty.2022_1$Proportion, n=4, style="quantile", na.rm=T)
 
-TFRbycounty.2022_1 <- TFRbycounty.2022_1 %>%
-  mutate(cat=ifelse(Proportion<3.2, "<3.2", ifelse(Proportion>3.1 & Proportion<3.6, "3.2-3.5", ifelse(Proportion>3.5 & Proportion <4.4, "3.6-4.3",
+TFRbycounty.2022_1 <- TFRbycounty.2022_1 |>
+  mutate(cat=fifelse(Proportion<3.2, "<3.2", fifelse(Proportion>3.1 & Proportion<3.6, "3.2-3.5", fifelse(Proportion>3.5 & Proportion <4.4, "3.6-4.3",
                                                                                                  ">4.3"))))
 
 TFRbycounty.2022_1$cat <- fct_relevel(TFRbycounty.2022_1$cat,  "<3.2", "3.2-3.5", "3.6-4.3",  ">4.3")
@@ -1928,7 +1917,7 @@ selectInput("median_age1", "",
             ))
 
 
-median_age <- fread("data/table_5/Table 5.11 Median age at first birth.csv")%>%
+median_age <- fread("data/table_5/Table 5.11 Median age at first birth.csv")|>
   filter(category%in%"Women aged 25-49")
 
 median_age$Variable<- fct_relevel(median_age$Variable, 
@@ -1944,10 +1933,10 @@ median_age$Variable<- fct_relevel(median_age$Variable,
 
 ```{r, include=FALSE}
 
-median_age_county <- fread("data/table_5/Table_6c Median.age.first.birth.csv")%>%
-  filter(year==2022)%>%
-  filter(category%in%"Women (25-49)")%>%
-  mutate(proportion_category=ifelse(proportion<20,"<20",">=20"))%>%
+median_age_county <- fread("data/table_5/Table_6c Median.age.first.birth.csv")|>
+  filter(year==2022)|>
+  filter(category%in%"Women (25-49)")|>
+  mutate(proportion_category=fifelse(proportion<20,"<20",">=20"))|>
   mutate(Name=recode(Name,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
 
 median_age_county$proportion_category <- as.factor(fct_relevel(median_age_county$proportion_category, c( "<20", ">=20")))
@@ -1956,8 +1945,8 @@ median_age_county1 <- full_join(county, median_age_county, by="Name")
 
 breaks<- classIntervals(median_age_county1$proportion, n=4, style="quantile", na.rm=T)
 
-median_age_county1 <- median_age_county1 %>%
-  mutate(cat=ifelse(proportion<19.9, "<19.9", ifelse(proportion>19.9 & proportion<20.8, "19.9-20.7", ifelse(proportion>20.7 & proportion <21.2, "20.8-21.1",
+median_age_county1 <- median_age_county1 |>
+  mutate(cat=fifelse(proportion<19.9, "<19.9", fifelse(proportion>19.9 & proportion<20.8, "19.9-20.7", fifelse(proportion>20.7 & proportion <21.2, "20.8-21.1",
                                                                                                  "21.2-22.3"))))
 
 median_age_county1$cat <- fct_relevel(median_age_county1$cat,  "<19.9", "19.9-20.7", "20.8-21.1",  "21.2-22.3")
@@ -1967,7 +1956,7 @@ median_age_county1$cat <- fct_relevel(median_age_county1$cat,  "<19.9", "19.9-20
 ```{r}
 renderGirafe({
   if(input$median_age1!="County"){
-  median_age1 <- ggplot(median_age%>%filter(characteristic%in%input$median_age1),aes(x=Variable, y=proportion))+
+  median_age1 <- ggplot(median_age|>filter(characteristic%in%input$median_age1),aes(x=Variable, y=proportion))+
   geom_bar(position="dodge", stat="identity", fill="cyan3")+
   theme_bw()+
   geom_text(aes(label=paste0(proportion)), vjust=-0.2)+
@@ -2035,8 +2024,8 @@ teen_preg$indicator <- fct_relevel(teen_preg$indicator, "No education", "Primary
 
 ```{r, include=FALSE}
 
-teenpregnancybycountyvisual <- fread("data/table_6/table6_teenpregnancybycounty.csv")%>%
-  mutate(proportion_category=ifelse(Percent<10,"<10%",ifelse(Percent>9.9&Percent<21,"10-20%",">20%")))%>%
+teenpregnancybycountyvisual <- fread("data/table_6/table6_teenpregnancybycounty.csv")|>
+  mutate(proportion_category=fifelse(Percent<10,"<10%",fifelse(Percent>9.9&Percent<21,"10-20%",">20%")))|>
   mutate(County=recode(County,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi", "Nairobi City"="Nairobi", "Taita/Taveta"="Taita Taveta"))
 
 teenpregnancybycountyvisual$proportion_category <- as.factor(fct_relevel(teenpregnancybycountyvisual$proportion_category, c( "<10%","10-20%", ">20%")))
@@ -2046,8 +2035,8 @@ teenpregnancybycountyvisual1 <- full_join(county, teenpregnancybycountyvisual, b
 
 breaks<- classIntervals(teenpregnancybycountyvisual1$Percent, n=4, style="quantile", na.rm=T)
 
-teenpregnancybycountyvisual1 <- teenpregnancybycountyvisual1 %>%
-  mutate(cat=ifelse(Percent<1.5, "<1.5", ifelse(Percent>1.4 & Percent<5.4, "1.5-5.3", ifelse(Percent>5.3 & Percent <12.7, "5.4-12.6",
+teenpregnancybycountyvisual1 <- teenpregnancybycountyvisual1 |>
+  mutate(cat=fifelse(Percent<1.5, "<1.5", fifelse(Percent>1.4 & Percent<5.4, "1.5-5.3", fifelse(Percent>5.3 & Percent <12.7, "5.4-12.6",
                                                                                                  "12.7-50.1"))))
 
 teenpregnancybycountyvisual1$cat <- fct_relevel(teenpregnancybycountyvisual1$cat,  "<1.5", "1.5-5.3", "5.4-12.6",  "12.7-50.1")
@@ -2118,9 +2107,9 @@ renderGirafe({
 
 
 
-fertility_preferences <- fread("data/table_7/table7_fertilitypreferences.csv")%>%
-  filter(Desire_children%in%c("Have another soon","Have another later","Want no more")) %>%
-  mutate(Percent=ifelse(Percent>0.5, round(Percent), Percent))
+fertility_preferences <- fread("data/table_7/table7_fertilitypreferences.csv")|>
+  filter(Desire_children%in%c("Have another soon","Have another later","Want no more")) |>
+  mutate(Percent=fifelse(Percent>0.5, round(Percent), Percent))
 
 renderPlot({
   ggplot(fertility_preferences,aes(x=`Number of children`, y=Percent, fill=Desire_children))+
@@ -2142,10 +2131,10 @@ renderPlot({
 ```{r}
 
 
-children_number <- fread("data/table_6/Table 6.3  Ideal number of children by number of living children.csv")%>%
- # select(-Ideal.number.children) %>%
-  pivot_longer(c(2:8))  %>%
-  distinct() %>%
+children_number <- fread("data/table_6/Table 6.3  Ideal number of children by number of living children.csv")|>
+ # select(-Ideal.number.children) |>
+  pivot_longer(c(2:8))  |>
+  distinct() |>
   filter(Ideal.number.children!="Non-numeric responses")
 
 renderPlot({
@@ -2203,7 +2192,7 @@ renderPlot({
 #               "Pregnancy outcome" = "Pregnancy outcome"
 #             ))
 # 
-# fertility_planning <- fread("data/table_6/Table 6.5 Fertility planning status.csv") %>%
+# fertility_planning <- fread("data/table_6/Table 6.5 Fertility planning status.csv") |>
 #   mutate(percent=as.numeric(percent))
 # 
 # 
@@ -2317,8 +2306,8 @@ valueBox(
 
 ```{r, include=F}
 # import data
-# knowledge_contraceptives <- fread("data/table_7/Table_7.1 Knowledge of contraceptive methods.csv") %>%
-#   mutate(proportion=ifelse(proportion>0.5, round(proportion), proportion))
+# knowledge_contraceptives <- fread("data/table_7/Table_7.1 Knowledge of contraceptive methods.csv") |>
+#   mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
 
 
 ```
@@ -2354,8 +2343,8 @@ selectInput("knowledge_fertile", "",
 
 ```{r, include=F}
 # import data
-knowledge_fertile <- fread("data/table_7/Table_7.8_Knowledge of Fertile Period.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+knowledge_fertile <- fread("data/table_7/Table_7.8_Knowledge of Fertile Period.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 ```
@@ -2401,9 +2390,9 @@ renderPlot({ggplot(knowledge_fertile[knowledge_fertile$variable%in%input$knowled
 
 ```{r, include=F}
 # import data
-reasons_discontinuation <- fread("data/table_7/Table_7.14_Reason_for_discontinuation.csv") %>%
-  filter(variable%in%"All methods") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+reasons_discontinuation <- fread("data/table_7/Table_7.14_Reason_for_discontinuation.csv") |>
+  filter(variable%in%"All methods") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 ```
 
 
@@ -2436,7 +2425,7 @@ selectInput("need_demand", "",
 
 ```{r, include=F}
 # import data
-need_demand <- fread("data/table_7/Table_7.15.1_2_Need and Demand for family planning.csv") %>%
+need_demand <- fread("data/table_7/Table_7.15.1_2_Need and Demand for family planning.csv") |>
   filter(need%in%"Unmet need")
 
 need_demand$Characteristic <- fct_relevel(need_demand$Characteristic, 
@@ -2476,9 +2465,9 @@ renderPlot({ggplot(need_demand[need_demand$variable%in%input$need_demand,],aes(x
 #                 "Wealth"="Wealth"))
 
 # import data
-decision_making1a <- fread("data/table_7/Table_7.16_17_decision_making.csv")%>%
-  filter(variable%in%"General") %>%
- mutate(proportion=ifelse(proportion>0.5, round(proportion), proportion))
+decision_making1a <- fread("data/table_7/Table_7.16_17_decision_making.csv")|>
+  filter(variable%in%"General") |>
+ mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
 
 ```
 
@@ -2502,8 +2491,8 @@ renderPlot({ggplot(decision_making1a,aes(x=reorder(category,proportion), y=propo
 ### **Future use of contraception**
 
 # import data
-# future_use_contraception <- fread("data/table_7/Table_7.19_Future_Contraception.csv")%>%
-#   filter(!intention%in%"Missing")%>%
+# future_use_contraception <- fread("data/table_7/Table_7.19_Future_Contraception.csv")|>
+#   filter(!intention%in%"Missing")|>
 #   filter(category%in%"Total")
 
 ```
@@ -2535,8 +2524,8 @@ renderPlot({ggplot(decision_making1a,aes(x=reorder(category,proportion), y=propo
 
 # import data
 
-fp_messages <-fread("data/table_7/table_7_20_fp_messages_total.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+fp_messages <-fread("data/table_7/table_7_20_fp_messages_total.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 ```
 
 
@@ -2561,13 +2550,13 @@ renderPlot({
 
 ```{r, include=FALSE}
 
-fp_messages_county <-fread("data/table_7/table_7_20C_fp_messages_total_county.csv")%>%
-  mutate(County=recode(County,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi", "Nairobi City"="Nairobi", "Taita/Taveta"="Taita Taveta"))%>%
-  mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>19.9&Proportion<41,"20%-40%", ifelse(Proportion>40.9&Proportion<61,"41%-60%", ifelse(Proportion>60.9&Proportion<81,"61%-80%",">80%")))))
+fp_messages_county <-fread("data/table_7/table_7_20C_fp_messages_total_county.csv")|>
+  mutate(County=recode(County,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi", "Nairobi City"="Nairobi", "Taita/Taveta"="Taita Taveta"))|>
+  mutate(proportion_category=fifelse(Proportion<20,"<20%", fifelse(Proportion>19.9&Proportion<41,"20%-40%", fifelse(Proportion>40.9&Proportion<61,"41%-60%", fifelse(Proportion>60.9&Proportion<81,"61%-80%",">80%")))))
 
 fp_messages_county$proportion_category <- as.factor(fct_relevel(fp_messages_county$proportion_category, c( "<20%", "20%-40%", "41%-60%","61%-80%",">80%")))
 
-fp_messages_county1 <- full_join(county, fp_messages_county, by=c("Name"="County"))%>%
+fp_messages_county1 <- full_join(county, fp_messages_county, by=c("Name"="County"))|>
   filter(!Category%in%"Community meeting/events")
 
 
@@ -2687,9 +2676,9 @@ selectInput("early_childhood_mortality", "",
 
 # import data
 
-early_childhood_mortality <-fread("data/table_8/Table_8.3_Early_Childhood_Mortality.csv")%>%
-  filter(!category%in%c("Post neonatal mortality","Child mortality"))%>%
-  mutate(Variable=ifelse(Characteristic%in%c("Lowest","Second","Middle","Fourth","Highest"),"Wealth quintile",Variable))
+early_childhood_mortality <-fread("data/table_8/Table_8.3_Early_Childhood_Mortality.csv")|>
+  filter(!category%in%c("Post neonatal mortality","Child mortality"))|>
+  mutate(Variable=fifelse(Characteristic%in%c("Lowest","Second","Middle","Fourth","Highest"),"Wealth quintile",Variable))
 
 early_childhood_mortality$Characteristic <- fct_relevel(early_childhood_mortality$Characteristic, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -2702,9 +2691,9 @@ early_childhood_mortality$Characteristic <- fct_relevel(early_childhood_mortalit
 
 
 ```{r, include=FALSE}
-early_childhood_mortality_county <-fread("data/DHS County tables/Table_8.3C_grp_County Early Childhood Mortality.csv")%>%
-  mutate(county=recode(county,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))#%>%
-  #mutate(proportion_category=ifelse(proportion<20,"<20", ifelse(proportion>19&proportion<41,"20-40",">40")))
+early_childhood_mortality_county <-fread("data/DHS County tables/Table_8.3C_grp_County Early Childhood Mortality.csv")|>
+  mutate(county=recode(county,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))#|>
+  #mutate(proportion_category=fifelse(proportion<20,"<20", fifelse(proportion>19&proportion<41,"20-40",">40")))
 
 early_childhood_mortality_county$proportion_groups <- as.factor(fct_relevel(early_childhood_mortality_county$proportion_groups, c( "≤ 8", ">8-17", ">17-26", ">26-38", ">38")))
 
@@ -2790,11 +2779,11 @@ selectInput("perinatal_mortality", "",
 
 # import data
 
-perinatal_mortality <-fread("data/table_8/Table_8.4_Perinatal Mortality.csv") %>%
-  filter(category!="Pregnancies (28 weeks)")%>%
-  filter(category%in%"Perinatal mortality rate")%>%
-  mutate(variable=ifelse(characteristic%in%c("No education","Primary","Secondary","More than secondary"),"Education",variable))%>%
- mutate(proportion=ifelse(proportion>0.5, round(proportion), proportion))
+perinatal_mortality <-fread("data/table_8/Table_8.4_Perinatal Mortality.csv") |>
+  filter(category!="Pregnancies (28 weeks)")|>
+  filter(category%in%"Perinatal mortality rate")|>
+  mutate(variable=fifelse(characteristic%in%c("No education","Primary","Secondary","More than secondary"),"Education",variable))|>
+ mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
 
 perinatal_mortality$characteristic <- fct_relevel(perinatal_mortality$characteristic, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -2808,9 +2797,9 @@ perinatal_mortality$characteristic <- fct_relevel(perinatal_mortality$characteri
 
 
 ```{r, include=FALSE}
-perinatal_mortality_county <-fread("data/DHS County tables/Table_8.4C_grp_Perinatal Mortality By County.csv")%>%
-  mutate(county=recode(county,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))%>%
-  #mutate(proportion_category=ifelse(proportion<20,"<20", ifelse(proportion>19&proportion<41,"20-40",">40")))%>%
+perinatal_mortality_county <-fread("data/DHS County tables/Table_8.4C_grp_Perinatal Mortality By County.csv")|>
+  mutate(county=recode(county,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))|>
+  #mutate(proportion_category=fifelse(proportion<20,"<20", fifelse(proportion>19&proportion<41,"20-40",">40")))|>
   filter(category%in%"Perinatal mortality rate")
 
 perinatal_mortality_county$proportion_groups <- as.factor(fct_relevel(perinatal_mortality_county$proportion_groups, c( "≤ 11", ">11-17", ">17-22", ">22-30", ">30")))
@@ -2920,7 +2909,7 @@ valueBox(
 # 
 # # import data
 # 
-# antenatal_care <-fread("data/table_9/Table_9.1_Antenatal_care.csv") %>%
+# antenatal_care <-fread("data/table_9/Table_9.1_Antenatal_care.csv") |>
 #   filter(!(category%in%c("No ANC", "Total percentage")))
 #    
 # antenatal_care$Characteristic <- fct_relevel(antenatal_care$Characteristic, "Lowest", "Second", "Middle", "Fourth", "Highest", "No education", "Primary")
@@ -2955,8 +2944,8 @@ selectInput("antenatal_care_visits", "",
 
 # import data
 
-antenatal_care1 <-fread("data/table_9/table_9_2_ancvisits_number_by_background_xtics.csv")%>%
-   mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+antenatal_care1 <-fread("data/table_9/table_9_2_ancvisits_number_by_background_xtics.csv")|>
+   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 antenatal_care1$Category <- as.factor(fct_relevel(antenatal_care1$Category, c("None","1","2-3","4-7","8+")))
   
@@ -2971,9 +2960,9 @@ antenatal_care1$Category <- as.factor(fct_relevel(antenatal_care1$Category, c("N
 
 ```{r, include=FALSE}
 
-anc_number_county <-fread("data/table_9/table_9_2C_ancvisits_number_by_county.csv")%>%
-  mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi", "Nairobi City"="Nairobi", "Taita/Taveta"="Taita Taveta"))%>%
-  mutate(proportion_category=ifelse(Proportion<20,"<20",ifelse(Proportion>19 & Proportion<40, "20-39", "40-78")))
+anc_number_county <-fread("data/table_9/table_9_2C_ancvisits_number_by_county.csv")|>
+  mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi", "Nairobi City"="Nairobi", "Taita/Taveta"="Taita Taveta"))|>
+  mutate(proportion_category=fifelse(Proportion<20,"<20",fifelse(Proportion>19 & Proportion<40, "20-39", "40-78")))
 
 anc_number_county$proportion_category <- as.factor(fct_relevel(anc_number_county$proportion_category, c( "<20","20-39", "40-78")))
 
@@ -2989,7 +2978,7 @@ anc_number_county1$Category <- as.factor(fct_relevel(anc_number_county1$Category
 
 renderGirafe({
   if(input$antenatal_care_visits!="County"){
-   anc_care1 <- ggplot(antenatal_care1%>%filter(`Background characteristics`%in%input$antenatal_care_visits),aes(x=Category, y=Proportion, fill=`Value`))+
+   anc_care1 <- ggplot(antenatal_care1|>filter(`Background characteristics`%in%input$antenatal_care_visits),aes(x=Category, y=Proportion, fill=`Value`))+
   geom_bar(position="dodge", stat="identity")+
   theme_bw()+scale_fill_brewer(palette = "Set1")+
   geom_text(aes(label=paste0(Proportion)), position = position_dodge(width=1), vjust=0.2)+
@@ -3073,10 +3062,10 @@ selectInput("place_delivery", "",
 
 # import data
 
-place_delivery <-fread("data/table_9/Table_9.7_Place_of_delivery.csv") %>%
-  filter(category%in%c("Percentage in facility", "Home"))%>%
-  filter(!Characteristic%in%"None") %>%
- mutate(proportion=ifelse(proportion>0.5, round(proportion), proportion))
+place_delivery <-fread("data/table_9/Table_9.7_Place_of_delivery.csv") |>
+  filter(category%in%c("Percentage in facility", "Home"))|>
+  filter(!Characteristic%in%"None") |>
+ mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
 
 place_delivery$Characteristic <- fct_relevel(place_delivery$Characteristic, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -3108,9 +3097,9 @@ renderPlot({ggplot(place_delivery[place_delivery$Variable%in%input$place_deliver
 
 # import data
 
-c_section <-fread("data/table_9/Table_9.8C_cesarean_section_by_county.csv")%>%
-  mutate(county=recode(county,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))%>%
-  mutate(proportion_category=ifelse(percentage_delivered_by_cs<10,"<10", ifelse(percentage_delivered_by_cs>9&percentage_delivered_by_cs<21,"10-20",">20")))
+c_section <-fread("data/table_9/Table_9.8C_cesarean_section_by_county.csv")|>
+  mutate(county=recode(county,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))|>
+  mutate(proportion_category=fifelse(percentage_delivered_by_cs<10,"<10", fifelse(percentage_delivered_by_cs>9&percentage_delivered_by_cs<21,"10-20",">20")))
 
 c_section$proportion_category <- as.factor(fct_relevel(c_section$proportion_category, c( "<10", "10-20", ">20")))
 
@@ -3158,10 +3147,10 @@ renderGirafe({
 
 # import data
 
-assist_delivery <-fread("data/table_9/Table_9.9C_Assistance_during_delivery_by_county.csv")%>%
-  filter(category%in%"Total percentage delivered by skilled provider")%>%
-  mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))%>%
-  mutate(proportion_category=ifelse(proportion<80,"<80",">80"))
+assist_delivery <-fread("data/table_9/Table_9.9C_Assistance_during_delivery_by_county.csv")|>
+  filter(category%in%"Total percentage delivered by skilled provider")|>
+  mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))|>
+  mutate(proportion_category=fifelse(proportion<80,"<80",">80"))
 
 
 assist_delivery$proportion_category <- as.factor(fct_relevel(assist_delivery$proportion_category, c( "<80", ">80")))
@@ -3207,7 +3196,7 @@ selectInput("mens_involvement", "",
 
 # import data
 
-mens_involvement <-fread("data/table_9/Table_9.18_Men's_involvement_in_maternal_health_care.csv")%>%
+mens_involvement <-fread("data/table_9/Table_9.18_Men's_involvement_in_maternal_health_care.csv")|>
   filter(!Characteristic%in%"<20")
 
 mens_involvement$Characteristic <- fct_relevel(mens_involvement$Characteristic, 
@@ -3484,8 +3473,8 @@ selectInput("vacc_char", "",
 
 
 
-vaccination_data <-fread("data/vaccination_data.csv") %>%
-  mutate(Vaccines1= ifelse(Vaccines%in%c("Rotavirus1", "Rotavirus2", "Pneumococcal1", "Pneumococcal2", "Pneumococcal3","OPV0", "OPV1", "OPV2", "OPV3", "MR1", "MR2", "IPV", "BCG", "DPT1", "DPT2", "DPT3"), "Vaccines", "Summary"))
+vaccination_data <-fread("data/vaccination_data.csv") |>
+  mutate(Vaccines1= fifelse(Vaccines%in%c("Rotavirus1", "Rotavirus2", "Pneumococcal1", "Pneumococcal2", "Pneumococcal3","OPV0", "OPV1", "OPV2", "OPV3", "MR1", "MR2", "IPV", "BCG", "DPT1", "DPT2", "DPT3"), "Vaccines", "Summary"))
 
 vaccination_data$Characteristics <- fct_relevel(vaccination_data$Characteristics, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -3612,8 +3601,8 @@ renderPlot({if(input$treat_char%in%c( "Sex", "Residence")){ggplot(treatment[trea
 <!-- treatment_county <- fread("data/table_12/table12C_childtreatment_by_county.csv") -->
 
 <!-- renderGirafe({ -->
-<!--   treatment_county1 <- full_join(county, treatment_county[treatment_county$condition%in%input$trt_county,], by=c("Name"="County"))%>% -->
-<!--   mutate(names=ifelse(sought_treatment%in%NA, paste0(Name," No value"), paste0(Name,", ", sought_treatment,"%"))) -->
+<!--   treatment_county1 <- full_join(county, treatment_county[treatment_county$condition%in%input$trt_county,], by=c("Name"="County"))|> -->
+<!--   mutate(names=fifelse(sought_treatment%in%NA, paste0(Name," No value"), paste0(Name,", ", sought_treatment,"%"))) -->
 <!--   treatment_map <- ggplot(treatment_county1, aes(fill=sought_treatment))+ -->
 <!--   #geom_sf(data=treatment_county1, aes(geometry=geometry), fill=NA)+ -->
 <!--   geom_sf_interactive(aes(fill=sought_treatment, tooltip=names),color="grey80", size=0.0)+ -->
@@ -3671,14 +3660,14 @@ selectInput("trtsrc","",
 
 
 ```{r}
-treat_source <- fread("data/table_10/table10_7_10_12_treatment_by_source.csv")%>%
-  mutate(`Source of Treatment`=ifelse(`Source of Treatment`%in%c("Private medical sector (NGO)", "Private medical sector (non-NGO)", "Other private sector"), "Private sector", `Source of Treatment` )) %>%
-  group_by(`Source of Treatment`, Condition, Category) %>%
-  mutate(Proportion=sum(Proportion, na.rm=T)) %>%
-  ungroup() %>%
-  select(-lab) %>%
-  distinct() %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+treat_source <- fread("data/table_10/table10_7_10_12_treatment_by_source.csv")|>
+  mutate(`Source of Treatment`=fifelse(`Source of Treatment`%in%c("Private medical sector (NGO)", "Private medical sector (non-NGO)", "Other private sector"), "Private sector", `Source of Treatment` )) |>
+  group_by(`Source of Treatment`, Condition, Category) |>
+  mutate(Proportion=sum(Proportion, na.rm=T)) |>
+  ungroup() |>
+  select(-lab) |>
+  distinct() |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 renderPlot({
   ggplot(treat_source[treat_source$Condition%in%input$trtsrc,], aes(x=reorder(`Source of Treatment`,Proportion), y=Proportion, fill=Category))+
@@ -3737,8 +3726,8 @@ selectInput("ecd","",
                "Wealth quintile"="Wealth quintile"))
 
 
-ecd <- fread("data/table_13/table13_ECD.csv") %>%
-  mutate(proportion=ifelse(proportion>0.5, round(proportion), proportion))
+ecd <- fread("data/table_13/table13_ECD.csv") |>
+  mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
 
 ecd$characteristics <- fct_relevel(ecd$characteristics, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest", "No education", "Primary", "Secondary", "More than secondary")
@@ -3843,9 +3832,9 @@ nut_total$Indicator <- fct_relevel(nut_total$Indicator,
 ```{r, include=FALSE}
 nutc <- fread("data/table_14/table14C_nutr_status_by_county.csv")
 
-county <- st_read("shapefiles/County.shp")%>%
-  mutate(region=ifelse(Name%in%c("Kilifi","Kwale","Lamu", "Mombasa", "Taita Taveta", "Tana River"),"Coast", ifelse(Name%in%c("Garissa", "Mandera", "Wajir"),"North Eastern", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni"),"Eastern", ifelse(Name%in%c("Kiambu", "Kirinyaga","Muranga","Nyandarua", "Nyeri"),"Central", ifelse(Name%in%c("Bungoma",
- "Busia","Kakamega","Vihiga"),"Western", ifelse(Name%in%c("Kisumu", "Siaya","Homa Bay","Kisii", "Migori","Nyamira"),"Nyanza", ifelse(Name%in%"Nairobi","Nairobi", "Rift Valley"))))))))%>%
+county <- st_read("shapefiles/County.shp")|>
+  mutate(region=fifelse(Name%in%c("Kilifi","Kwale","Lamu", "Mombasa", "Taita Taveta", "Tana River"),"Coast", fifelse(Name%in%c("Garissa", "Mandera", "Wajir"),"North Eastern", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni"),"Eastern", fifelse(Name%in%c("Kiambu", "Kirinyaga","Muranga","Nyandarua", "Nyeri"),"Central", fifelse(Name%in%c("Bungoma",
+ "Busia","Kakamega","Vihiga"),"Western", fifelse(Name%in%c("Kisumu", "Siaya","Homa Bay","Kisii", "Migori","Nyamira"),"Nyanza", fifelse(Name%in%"Nairobi","Nairobi", "Rift Valley"))))))))|>
   rename(County=Name)
 ```
 
@@ -3860,11 +3849,11 @@ nutc1 <- full_join(county, nutc, by="County")
 
 renderGirafe({if(input$nutr%in%"HFA"){
   
-  nutc1 <- nutc1%>%
-    mutate(threshold=ifelse(perc_below2sd>2.4&perc_below2sd<10,"Low (2.5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)", ifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)","Very High (>=30%)"))))
+  nutc1 <- nutc1|>
+    mutate(threshold=fifelse(perc_below2sd>2.4&perc_below2sd<10,"Low (2.5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)", fifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)","Very High (>=30%)"))))
   nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c( "Low (2.5%- <10%)", "Medium (10%- <20%)", "High (20%- <30%)", "Very High (>=30%)")))
   
-  nut_map2 <- ggplot(nutc1%>%filter(indicator%in%"HFA"), aes(fill=threshold))+
+  nut_map2 <- ggplot(nutc1|>filter(indicator%in%"HFA"), aes(fill=threshold))+
     ggiraph::geom_sf_interactive(aes(tooltip = paste0(County,": ", perc_below2sd,"%")),size=0.3)+
     theme_void()+
     scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
@@ -3879,11 +3868,11 @@ renderGirafe({if(input$nutr%in%"HFA"){
                      opts_zoom(max = 4)), width=15, height=5)
   print(nut_map2x)}
   else if(input$nutr%in%"WFA"){
-    nutc1 <- nutc1%>%
-    mutate(threshold=ifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", ifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))
+    nutc1 <- nutc1|>
+    mutate(threshold=fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))
   nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
   
-  nut_map2 <- ggplot(nutc1%>%filter(indicator%in%"WFA"), aes(fill=threshold))+
+  nut_map2 <- ggplot(nutc1|>filter(indicator%in%"WFA"), aes(fill=threshold))+
     ggiraph::geom_sf_interactive(aes(tooltip = paste0(County,": ", perc_below2sd,"%")),size=0.3)+
     theme_void()+
     scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
@@ -3899,8 +3888,8 @@ renderGirafe({if(input$nutr%in%"HFA"){
   print(nut_map2x)
   }
   else if(input$nutr%in%"WFH"){
-    nutc1 <- nutc1%>%
-    mutate(threshold=ifelse(perc_below2sd<2.5,"Very Low (<2.5%)", ifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", ifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)")))))
+    nutc1 <- nutc1|>
+    mutate(threshold=fifelse(perc_below2sd<2.5,"Very Low (<2.5%)", fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)")))))
   nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Very Low (<2.5%)", "Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
   
   nut_map2 <- ggplot(nutc1[nutc1$indicator%in%input$nutr,], aes(fill=threshold))+
@@ -3953,11 +3942,11 @@ selectInput("nutr2a", "",
 
 renderPlot({if(input$nutr2a%in%"HFA"){
   
-  nutc1 <- nutc1%>%
-    mutate(threshold=ifelse(perc_below2sd>2.4&perc_below2sd<10,"Low (2.5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)", ifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)","Very High (>=30%)"))))
+  nutc1 <- nutc1|>
+    mutate(threshold=fifelse(perc_below2sd>2.4&perc_below2sd<10,"Low (2.5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)", fifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)","Very High (>=30%)"))))
   nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c( "Low (2.5%- <10%)", "Medium (10%- <20%)", "High (20%- <30%)", "Very High (>=30%)")))
   
-  ggplot(nutc1%>%filter(indicator%in%"HFA"), aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
+  ggplot(nutc1|>filter(indicator%in%"HFA"), aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
     geom_col()+coord_flip()+
     theme_bw()+ 
     scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
@@ -3967,11 +3956,11 @@ renderPlot({if(input$nutr2a%in%"HFA"){
     theme(text=element_text(size=15, face="bold")) +ylim(0,100)
   }
   else if(input$nutr2a%in%"WFA"){
-    nutc1 <- nutc1%>%
-    mutate(threshold=ifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", ifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))
+    nutc1 <- nutc1|>
+    mutate(threshold=fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))
   nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
   
-  ggplot(nutc1%>%filter(indicator%in%"WFA"), aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
+  ggplot(nutc1|>filter(indicator%in%"WFA"), aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
     geom_col()+coord_flip()+
     theme_bw()+ 
     scale_fill_manual(values = c("#78c679","#ffffcc","#feb24c","#e31a1c"))+
@@ -3981,8 +3970,8 @@ renderPlot({if(input$nutr2a%in%"HFA"){
     theme(text=element_text(size=15, face="bold")) +ylim(0,100)
   }
   else{
-    nutc1 <- nutc1%>%
-    mutate(threshold=ifelse(perc_below2sd<2.5,"Very Low (<2.5%)", ifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", ifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", ifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)")))))
+    nutc1 <- nutc1|>
+    mutate(threshold=fifelse(perc_below2sd<2.5,"Very Low (<2.5%)", fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)")))))
   nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Very Low (<2.5%)", "Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
   
   ggplot(nutc1[nutc1$indicator%in%input$nutr2a,], aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
@@ -4020,8 +4009,8 @@ selectInput("micronutrients", "",
 
 
 ```{r}
-micronutrient <- fread("data/table_11/table11_12_micronutrient_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion<0.5, Proportion, round(Proportion)))
+micronutrient <- fread("data/table_11/table11_12_micronutrient_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion<0.5, Proportion, round(Proportion)))
 
 micronutrient$Value <- fct_relevel(micronutrient$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4039,8 +4028,8 @@ micronutrient$Value <- fct_relevel(micronutrient$Value,
 micronutrient_county <- fread("data/table_11/table11_12C_micronutrient_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
-micronutrient_county1 <- full_join(county, micronutrient_county, by=c("Name"="County"))%>%
-  mutate(proportion_category=ifelse(Proportion<50,"<50%", ifelse(Proportion>49&Proportion<81,"50-80%",">80%")))
+micronutrient_county1 <- full_join(county, micronutrient_county, by=c("Name"="County"))|>
+  mutate(proportion_category=fifelse(Proportion<50,"<50%", fifelse(Proportion>49&Proportion<81,"50-80%",">80%")))
 micronutrient_county1$proportion_category <- as.factor(fct_relevel(micronutrient_county1$proportion_category, c("<50%", "50-80%", ">80%")))
 
 
@@ -4088,8 +4077,8 @@ renderGirafe({
 **Percentage of children fed according to various IYCF practices**
 
 ```{r}
-iycf <- fread("data/table_11/table11_10_IYCF.csv") %>%
-  mutate(Proportion=ifelse(Proportion<0.5, Proportion, round(Proportion))) %>%
+iycf <- fread("data/table_11/table11_10_IYCF.csv") |>
+  mutate(Proportion=fifelse(Proportion<0.5, Proportion, round(Proportion))) |>
   mutate(Indicator=str_replace(Indicator, "Percentage", "%"))
 
 renderPlot({ggplot(iycf,aes(x=reorder(Indicator,Proportion), y=Proportion))+
@@ -4117,8 +4106,8 @@ selectInput("nutrition_women", "",
 
 
 ```{r}
-nutrition_women <- fread("data/table_11/table11_13_Nutrition_women_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+nutrition_women <- fread("data/table_11/table11_13_Nutrition_women_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 nutrition_women$Value <- fct_relevel(nutrition_women$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4133,13 +4122,13 @@ nutrition_women$Value <- fct_relevel(nutrition_women$Value,
 
 
 ```{r, include=F}
-nutrition_women_county <- fread("data/DHS County tables/table11_13C_grp_Nutrition_women_by_county.csv")%>%
+nutrition_women_county <- fread("data/DHS County tables/table11_13C_grp_Nutrition_women_by_county.csv")|>
   mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
 
 county <- st_read("shapefiles/County.shp")
 
-nutrition_women_county1 <- full_join(county, nutrition_women_county, by=c("Name"="County"))#%>%
-  #mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>19&Proportion<41,"20%-40%",">40%")))
+nutrition_women_county1 <- full_join(county, nutrition_women_county, by=c("Name"="County"))#|>
+  #mutate(proportion_category=fifelse(Proportion<20,"<20%", fifelse(Proportion>19&Proportion<41,"20%-40%",">40%")))
 
 nutrition_women_county1$proportion_groups<-as.factor(fct_relevel(nutrition_women_county1$proportion_groups, c("≤ 9", ">9-18", ">18-26", ">26-43", ">43")))
 
@@ -4196,8 +4185,8 @@ selectInput("mdd", "",
 
 
 ```{r}
-mdd <- fread("data/table_11/table11_15_MDD-W_by_background_xtics.csv")%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+mdd <- fread("data/table_11/table11_15_MDD-W_by_background_xtics.csv")|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 mdd$Value <- fct_relevel(mdd$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4212,8 +4201,8 @@ mdd$Value <- fct_relevel(mdd$Value,
 mdd_county <- fread("data/DHS County tables/table11_15C_grp_MDD-W_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
-mdd_county1 <- full_join(county, mdd_county, by=c("Name"="County"))#%>%
-  #mutate(proportion_category=ifelse(Proportion<15,"<15%", ifelse(Proportion>14&Proportion<31,"15%-30%",">30%")))
+mdd_county1 <- full_join(county, mdd_county, by=c("Name"="County"))#|>
+  #mutate(proportion_category=fifelse(Proportion<15,"<15%", fifelse(Proportion>14&Proportion<31,"15%-30%",">30%")))
 
 mdd_county1$proportion_groups<-as.factor(fct_relevel(mdd_county1$proportion_groups, c("≤ 10", ">10-18", ">18-34", ">34-43", ">43")))
 
@@ -4272,8 +4261,8 @@ selectInput("iron_women", "",
 
 
 ```{r}
-iron_women <- fread("data/table_11/table9_4_Iron_supplement_women_by_background_xtics.csv")%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+iron_women <- fread("data/table_11/table9_4_Iron_supplement_women_by_background_xtics.csv")|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 iron_women$Value <- fct_relevel(iron_women$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4288,15 +4277,15 @@ iron_women$Category <- fct_relevel(iron_women$Category, "<60 days", "60-89 days"
 
 
 ```{r, include=F}
-iron_women_county <- fread("data/DHS County tables/table9_4C_Iron_grp_supplement_women_by_county.csv")%>%
+iron_women_county <- fread("data/DHS County tables/table9_4C_Iron_grp_supplement_women_by_county.csv")|>
   mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
 
 iron_women_county$Category <- fct_relevel(iron_women_county$Category, "<60 days", "60-89 days", "90-179 days", "180+ days")
 
 county <- st_read("shapefiles/County.shp")
 
-iron_women_county1 <- full_join(county, iron_women_county, by=c("Name"="County"))#%>%
-  #mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>19&Proportion<41,"20%-40%",">40%")))
+iron_women_county1 <- full_join(county, iron_women_county, by=c("Name"="County"))#|>
+  #mutate(proportion_category=fifelse(Proportion<20,"<20%", fifelse(Proportion>19&Proportion<41,"20%-40%",">40%")))
 
 iron_women_county1$proportion_groups<-as.factor(fct_relevel(iron_women_county1$proportion_groups, c("≤ 11", ">11-16", ">16-23", ">23-35", ">35")))
 
@@ -4395,8 +4384,8 @@ selectInput("itn", "",
 ```{r, include=F}
 # import data
 
-itn_possess <- fread("data/table_12/table12_1_ITN_possession_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+itn_possess <- fread("data/table_12/table12_1_ITN_possession_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 itn_possess$Value<- fct_relevel(itn_possess$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4414,10 +4403,10 @@ itn_possess_county <- fread("data/DHS County tables/table12_1C_ITN_grp_possessio
 
 county <- st_read("shapefiles/County.shp")
 
-itn_possess_county1 <- full_join(county, itn_possess_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+itn_possess_county1 <- full_join(county, itn_possess_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 itn_possess_county1$proportion_groups <- as.factor(fct_relevel(itn_possess_county1$proportion_groups, c("≤ 20", ">20-39", ">39-57", ">57-76",">76")))
 
@@ -4477,9 +4466,9 @@ selectInput("itn_source", "",
 ```{r, include=F}
 # import data
 
-itn_source <- fread("data/table_12/table12_2_ITN_source_by_background_xtics.csv")%>%
-  filter(Category%in%c("Mass distribution campaign","Shop/market","ANC visit","Immunization visit")) %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+itn_source <- fread("data/table_12/table12_2_ITN_source_by_background_xtics.csv")|>
+  filter(Category%in%c("Mass distribution campaign","Shop/market","ANC visit","Immunization visit")) |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 itn_source$Value <- fct_relevel(itn_source$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4492,15 +4481,15 @@ itn_source$Value <- fct_relevel(itn_source$Value,
 
 # import data
 
-itn_source_county <- fread("data/DHS County tables/table12_2C_ITN_grp_source_by_county.csv")%>%
+itn_source_county <- fread("data/DHS County tables/table12_2C_ITN_grp_source_by_county.csv")|>
   filter(Category%in%c("Mass distribution campaign","Shop/market","ANC visit","Immunization visit"))
 
 county <- st_read("shapefiles/County.shp")
 
-itn_source_county1 <- full_join(county, itn_source_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+itn_source_county1 <- full_join(county, itn_source_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 itn_source_county1$proportion_groups <- as.factor(fct_relevel(itn_source_county1$proportion_groups, c("≤ 1", ">1-3", ">3")))
 
@@ -4560,8 +4549,8 @@ selectInput("itn_access", "",
 ```{r, include=F}
 # import data
 
-itn_access <- fread("data/table_12/table12_3_ITN_access_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+itn_access <- fread("data/table_12/table12_3_ITN_access_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 itn_access$Value<- fct_relevel(itn_access$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4576,10 +4565,10 @@ itn_access_county <- fread("data/DHS County tables/table12_3C_ITN_grp_access_by_
 
 county <- st_read("shapefiles/County.shp")
 
-itn_access_county1 <- full_join(county, itn_access_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+itn_access_county1 <- full_join(county, itn_access_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 itn_access_county1$proportion_groups <- as.factor(fct_relevel(itn_access_county1$proportion_groups, c("≤ 22", ">22-37", ">37-61", ">61-80", ">80")))
 
@@ -4637,8 +4626,8 @@ selectInput("itn_use", "",
 ```{r, include=F}
 # import data
 
-itn_use <- fread("data/table_12/table12_4_ITN_use_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+itn_use <- fread("data/table_12/table12_4_ITN_use_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 itn_use$Value <- fct_relevel(itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4652,10 +4641,10 @@ itn_use_county <- fread("data/DHS County tables/table12_4C_grp_ITN_use_by_county
 
 county <- st_read("shapefiles/County.shp")
 
-itn_use_county1 <- full_join(county, itn_use_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+itn_use_county1 <- full_join(county, itn_use_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 itn_use_county1$proportion_groups <- as.factor(fct_relevel(itn_use_county1$proportion_groups, c("≤ 31", ">31-55", ">55-68", ">68-74", ">74")))
 
@@ -4713,8 +4702,8 @@ selectInput("itn_itn", "",
 ```{r, include=F}
 # import data
 
-existing_itn_use <- fread("data/table_12/table12_5_existing_ITN_use_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+existing_itn_use <- fread("data/table_12/table12_5_existing_ITN_use_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 existing_itn_use$Value<- fct_relevel(existing_itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4727,10 +4716,10 @@ existing_itn_use$Value<- fct_relevel(existing_itn_use$Value,
 ```{r, include=F}
 existing_itn_use_county <- fread("data/DHS County tables/table12_5C_grp_existing_ITN_use_by_county.csv")
 
-existing_itn_use_county1 <- full_join(county, existing_itn_use_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+existing_itn_use_county1 <- full_join(county, existing_itn_use_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 existing_itn_use_county1$proportion_groups <- as.factor(fct_relevel(existing_itn_use_county1$proportion_groups, c("≤ 64", ">64-71", ">71-76", ">76-80", ">80")))
 
@@ -4788,8 +4777,8 @@ selectInput("nets_children", "",
 
 ```{r, include=F}
 # import data
-children_itn_use <- fread("data/table_12/table12_6_children_ITN_use_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+children_itn_use <- fread("data/table_12/table12_6_children_ITN_use_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 children_itn_use$Value <- fct_relevel(children_itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4802,10 +4791,10 @@ children_itn_use$Value <- fct_relevel(children_itn_use$Value,
 
 children_itn_use_county <- fread("data/DHS County tables/table12_6C_grp_children_ITN_use_by_county.csv")
 
-children_itn_use_county1 <- full_join(county, children_itn_use_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+children_itn_use_county1 <- full_join(county, children_itn_use_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 children_itn_use_county1$proportion_groups <- as.factor(fct_relevel(children_itn_use_county1$proportion_groups, c("≤ 46", ">46-67", ">67-75",">75-82",">82")))
 
@@ -4864,8 +4853,8 @@ selectInput("nets_pregnant", "",
 
 ```{r, include=F}
 # import data
-women_itn_use <- fread("data/table_12/table12_7_women_ITN_use_by_background_xtics.csv")%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+women_itn_use <- fread("data/table_12/table12_7_women_ITN_use_by_background_xtics.csv")|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 women_itn_use$Value<- fct_relevel(women_itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4909,9 +4898,9 @@ selectInput("nets_notuse", "",
 
 ```{r, include=F}
 # import data
-reason_itn_not_used <- fread("data/table_12/table12_8_reason_itn_not_used_by_background_xtics.csv")%>%
-  filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+reason_itn_not_used <- fread("data/table_12/table12_8_reason_itn_not_used_by_background_xtics.csv")|>
+  filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 reason_itn_not_used$Value<- fct_relevel(reason_itn_not_used$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4923,14 +4912,14 @@ reason_itn_not_used_total <- fread("data/table_12/table12_8a_reason_itn_not_used
 
 ```{r, include=FALSE}
 
-reason_itn_not_used_county <- fread("data/DHS County tables/table12_8C_grp_reason_itn_not_used_by_county.csv")%>%
-  filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))%>%
-  mutate(Proportion=ifelse(County%in%"Kitui"&Reason%in%"Extra net/saving for later",21.1, ifelse(County%in%"Kitui"&Reason%in%"No mosquitoes/malaria",28.2, ifelse(County%in%"Kitui"&Reason%in%"User didn't sleep in household",9.2, ifelse(County%in%"Kitui"&Reason%in%"Too hot",24.2,Proportion)))))
+reason_itn_not_used_county <- fread("data/DHS County tables/table12_8C_grp_reason_itn_not_used_by_county.csv")|>
+  filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))|>
+  mutate(Proportion=fifelse(County%in%"Kitui"&Reason%in%"Extra net/saving for later",21.1, fifelse(County%in%"Kitui"&Reason%in%"No mosquitoes/malaria",28.2, fifelse(County%in%"Kitui"&Reason%in%"User didn't sleep in household",9.2, fifelse(County%in%"Kitui"&Reason%in%"Too hot",24.2,Proportion)))))
 
-reason_itn_not_used_county1 <- full_join(county, reason_itn_not_used_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+reason_itn_not_used_county1 <- full_join(county, reason_itn_not_used_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 reason_itn_not_used_county1$proportion_groups <- as.factor(fct_relevel(reason_itn_not_used_county1$proportion_groups, c("< 1", "1-2", ">2-10",">10")))
 
@@ -5008,8 +4997,8 @@ selectInput("ipt_women", "",
 
 ```{r, include=F}
 # import data
-iptp <- fread("data/table_12/table12_9_iptp_by_background_xtics.csv")%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+iptp <- fread("data/table_12/table12_9_iptp_by_background_xtics.csv")|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
   
 
 iptp$Value<- fct_relevel(iptp$Value, 
@@ -5025,10 +5014,10 @@ iptp_county <- fread("data/DHS County tables/table12_9C_grp_iptp_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
 
-iptp_county1 <- full_join(county, iptp_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+iptp_county1 <- full_join(county, iptp_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 iptp_county1$proportion_groups <- as.factor(fct_relevel(iptp_county1$proportion_groups, c("≤ 2", ">2-6", ">6-15", ">15-40", ">40")))
 
@@ -5092,8 +5081,8 @@ selectInput("mal_fever", "",
 
 ```{r, include=F}
 # import data
-mal_fever <- fread("data/table_12/table12_10_malaria_fever_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+mal_fever <- fread("data/table_12/table12_10_malaria_fever_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 mal_fever$Value<- fct_relevel(mal_fever$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -5110,10 +5099,10 @@ mal_fever$Value<- fct_relevel(mal_fever$Value,
 
 mal_fever_county <- fread("data/DHS County tables/table12_10C_grp_malaria_fever_by_county.csv")
 
-mal_fever_county1 <- full_join(county, mal_fever_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<30,"<30%", ifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))%>%
-  mutate(names1=paste0(Name,": ",Proportion,"%"))%>%
-  mutate(epi_zone=ifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", ifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", ifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", ifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
+mal_fever_county1 <- full_join(county, mal_fever_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
+  mutate(names1=paste0(Name,": ",Proportion,"%"))|>
+  mutate(epi_zone=fifelse(Name%in%c("Kisii","Nyamira","West Pokot","Trans Nzoia","Uasin Gishu","Nandi","Narok","Kericho","Bomet","Elgeyo Marakwet","Turkana","Kajiado"),"Highland Epidemic Prone", fifelse(Name%in%c("Siaya","Kisumu","Migori","Homa Bay","Kakamega","Vihiga","Bungoma","Busia","Bungoma","Kakamega"),"Lake Stable Endemic", fifelse(Name%in%c("Mombasa","Kwale","Kilifi","Lamu","Taita Taveta","Tana River"),"Coast Stable Endemic", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Garissa","Wajir","Mandera","Samburu","Baringo","Elgeyo Marakwet","West Pokot","Makueni"),"Seasonal Low Transmission", "Low Risk")))))
 
 mal_fever_county1$proportion_groups <- as.factor(fct_relevel(mal_fever_county1$proportion_groups, c("≤ 17", ">17-32", ">32-44",">44-62",">62")))
 
@@ -5167,8 +5156,8 @@ renderGirafe({
 
 ```{r, include=F}
 # import data
-mal_treat_source <- fread("data/table_12/table12_11_malaria_treat_by_source.csv") %>%
-   mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+mal_treat_source <- fread("data/table_12/table12_11_malaria_treat_by_source.csv") |>
+   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 ```
@@ -5237,8 +5226,8 @@ selectInput("hiv_kap", "",
 
 # import data
 
-hiv_meds_kap <- fread("data/table_13/table13_1_HIV_meds_KAP_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+hiv_meds_kap <- fread("data/table_13/table13_1_HIV_meds_KAP_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 hiv_meds_kap$Value <- fct_relevel(hiv_meds_kap$Value, "No education", "Primary", "Secondary", "More than secondary")
 
@@ -5276,9 +5265,9 @@ hivc <- fread("data/table_23/table23_hiv_count_data.csv")
 
 hivc_men <- full_join(county, hivc[hivc$Participants%in%"Men_15-24",], by=c("Name"="County"))
 hivc_women <- full_join(county, hivc[hivc$Participants%in%"Women_15-24",], by=c("Name"="County"))
-hivc1 <- rbind(hivc_men, hivc_women) %>%
-  mutate(Participants=recode(Participants, "Men_15-24"="Men (15-24 years)", "Women_15-24"="Women (15-24 years)"))%>%
-  mutate(cats=ifelse(values<40,"<40%", ifelse(values>39&values<81,"40-80%",">80%")))
+hivc1 <- rbind(hivc_men, hivc_women) |>
+  mutate(Participants=recode(Participants, "Men_15-24"="Men (15-24 years)", "Women_15-24"="Women (15-24 years)"))|>
+  mutate(cats=fifelse(values<40,"<40%", fifelse(values>39&values<81,"40-80%",">80%")))
 
 hivc1$Participants <- fct_relevel(hivc1$Participants, "Women 15-24", "Men 15-24")
 hivc1$cats <- fct_relevel(hivc1$cats, "<40%", "40-80%", ">80%")
@@ -5317,11 +5306,11 @@ selectInput("hiv_test1", "",
 
 # import data
 
-hiv_testc <- fread("data/DHS County tables/table13_7C_grp_HIV_testing_by_county.csv") %>%
+hiv_testc <- fread("data/DHS County tables/table13_7C_grp_HIV_testing_by_county.csv") |>
   mutate(County=recode(County, "Tharaka-Nithi"="Tharaka Nithi", "Murang'a"="Muranga", "Elgeyo-Marakwet"="Elgeyo Marakwet"))
 
-hiv_testc1 <- full_join(county, hiv_testc, by=c("Name"="County"), multiple="all") #%>%
-  #mutate(cats=ifelse(values<40,"<40%", ifelse(values>39&values<81,"40-80%",">80%")))
+hiv_testc1 <- full_join(county, hiv_testc, by=c("Name"="County"), multiple="all") #|>
+  #mutate(cats=fifelse(values<40,"<40%", fifelse(values>39&values<81,"40-80%",">80%")))
 
 hiv_testc1$proportion_groups <- fct_relevel(hiv_testc1$proportion_groups, "≤ 27", ">27-45", ">45-66", ">66-80", ">80")
 
@@ -5405,8 +5394,8 @@ selectInput("bp", "",
 ```{r, include=F}
 # import data
 
-bp <- fread("data/table_14/table14_1_BP_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+bp <- fread("data/table_14/table14_1_BP_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 bp$Value <- fct_relevel(bp$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -5424,8 +5413,8 @@ bp_county <- fread("data/DHS County tables/table14_1C_grp_BP_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
 
-bp_county1 <- full_join(county, bp_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<10,"<10%", ifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))%>%
+bp_county1 <- full_join(county, bp_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<10,"<10%", fifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))|>
   mutate(names1=paste0(Name,": ",Proportion,"%"))
 
 bp_county1$proportion_groups <- as.factor(fct_relevel(bp_county1$proportion_groups, c("≤ 3", ">3-5", ">5-8", ">8-20", ">20")))
@@ -5525,9 +5514,9 @@ selectInput("depression", "",
 ```{r, include=F}
 # import data
 
-depression <- fread("data/table_14/table14_5_Depression_by_background_xtics.csv")%>%
-  mutate(Category=recode(Category,"Diagnosed with Depression"="Diagnosed with Depression and/or Anxiety"))%>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+depression <- fread("data/table_14/table14_5_Depression_by_background_xtics.csv")|>
+  mutate(Category=recode(Category,"Diagnosed with Depression"="Diagnosed with Depression and/or Anxiety"))|>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 
@@ -5540,13 +5529,13 @@ depression$Value<- fct_relevel(depression$Value,
 
 
 ```{r, include=F}
-depression_county <- fread("data/DHS County tables/table14_5C_grp_Depression_by_county.csv")%>%
+depression_county <- fread("data/DHS County tables/table14_5C_grp_Depression_by_county.csv")|>
   mutate(Category=recode(Category,"Diagnosed with Depression"="Diagnosed with Depression and/or Anxiety"))
 
 county <- st_read("shapefiles/County.shp")
 
-depression_county1 <- full_join(county, depression_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<10,"<10%", ifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))%>%
+depression_county1 <- full_join(county, depression_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<10,"<10%", fifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))|>
   mutate(names1=paste0(Name,": ",Proportion,"%"))
 
 depression_county1$proportion_groups <- as.factor(fct_relevel(depression_county1$proportion_groups, c("≤ 1", ">1-2", ">2-3",">3-5",">5")))
@@ -5605,8 +5594,8 @@ selectInput("arthritis", "",
 ```{r, include=F}
 # import data
 
-arthritis <- fread("data/table_14/table14_6_Arthritis_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+arthritis <- fread("data/table_14/table14_6_Arthritis_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 arthritis$Value<- fct_relevel(arthritis$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -5621,8 +5610,8 @@ arthritis$Value<- fct_relevel(arthritis$Value,
 ```{r, include=F}
 arthritis_county <- fread("data/DHS County tables/table14_6C_grp_Arthritis_by_county.csv")
 county <- st_read("shapefiles/County.shp")
-arthritis_county1 <- full_join(county, arthritis_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<10,"<10%", ifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))%>%
+arthritis_county1 <- full_join(county, arthritis_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<10,"<10%", fifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))|>
   mutate(names1=paste0(Name,": ",Proportion,"%"))
 
 arthritis_county1$proportion_groups <- as.factor(fct_relevel(arthritis_county1$proportion_groups, c("≤ 1", ">1-3", ">3")))
@@ -5684,7 +5673,7 @@ selectInput("physical_activity", "",
 ```{r, include=F}
 # import data
 
-physical_activity <- fread("data/table_14/table14_7_Physical_activity_by_background_xtics.csv")%>%
+physical_activity <- fread("data/table_14/table14_7_Physical_activity_by_background_xtics.csv")|>
   mutate(`Activity time`=round(`Activity time`))
 
 
@@ -5703,8 +5692,8 @@ physical_activity$Value<- fct_relevel(physical_activity$Value,
 physical_activity_county <- fread("data/DHS County tables/table14_7C_grp_Physical_activity_by_county.csv") 
 county <- st_read("shapefiles/County.shp")
 
-physical_activity_county1 <- full_join(county, physical_activity_county, by=c("Name"="County"))%>%
-  #mutate(time_category=ifelse(`Activity time`<200,"<200 minutes", ifelse(`Activity time`>200 & `Activity time`<401,"200 minutes-400 minutes",ifelse(`Activity time`>400&`Activity time`<601,"401-600 minutes",">600 minutes"))))%>%
+physical_activity_county1 <- full_join(county, physical_activity_county, by=c("Name"="County"))|>
+  #mutate(time_category=fifelse(`Activity time`<200,"<200 minutes", fifelse(`Activity time`>200 & `Activity time`<401,"200 minutes-400 minutes",fifelse(`Activity time`>400&`Activity time`<601,"401-600 minutes",">600 minutes"))))|>
   mutate(names1=paste0(Name,": ",`Activity.time`," Minutes"))
 
 physical_activity_county1$time_groups <- as.factor(fct_relevel(physical_activity_county1$time_groups, c("≤ 69", ">69-180", ">180-300", ">300-719", ">719")))
@@ -5764,8 +5753,8 @@ selectInput("breast_cancer", "",
 ```{r, include=F}
 # import data
 
-breast_cancer <- fread("data/table_14/table9_19a_Breast_cancer_by_background_xtics.csv")%>%
-  mutate(Proportion=ifelse(Proportion>0.5,round(Proportion), Proportion))
+breast_cancer <- fread("data/table_14/table9_19a_Breast_cancer_by_background_xtics.csv")|>
+  mutate(Proportion=fifelse(Proportion>0.5,round(Proportion), Proportion))
 
 
 
@@ -5782,8 +5771,8 @@ breast_cancer$Value<- fct_relevel(breast_cancer$Value,
 ```{r, include=F}
 breast_cancer_county <- fread("data/DHS County tables/table9_19Ca_grp_Breast_cancer_by_county.csv")
 
-breast_cancer_county1 <- full_join(county, breast_cancer_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>20 & Proportion<41,"20%-40%",">40%")))%>%
+breast_cancer_county1 <- full_join(county, breast_cancer_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<20,"<20%", fifelse(Proportion>20 & Proportion<41,"20%-40%",">40%")))|>
   mutate(names1=paste0(Name,": ",Proportion,"%"))
 
 breast_cancer_county1$proportion_groups <- as.factor(fct_relevel(breast_cancer_county1$proportion_groups, c("≤ 1", ">1-4", ">4-18", ">18-34", ">34")))
@@ -5843,8 +5832,8 @@ selectInput("cervical_cancer", "",
 ```{r, include=F}
 # import data
 
-cervical_cancer <- fread("data/table_14/table9_19b_Cervical_cancer_by_background_xtics.csv") %>%
-  mutate(Proportion=ifelse(Proportion>0.5, round(Proportion), Proportion))
+cervical_cancer <- fread("data/table_14/table9_19b_Cervical_cancer_by_background_xtics.csv") |>
+  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 
 cervical_cancer$Value <- fct_relevel(cervical_cancer$Value, 
@@ -5857,11 +5846,11 @@ cervical_cancer$Value<- fct_relevel(cervical_cancer$Value,
 
 
 ```{r, include=F}
-cervical_cancer_county <- fread("data/DHS County tables/table9_19Cb_grp_Cervical_cancer_by_county.csv")%>%
+cervical_cancer_county <- fread("data/DHS County tables/table9_19Cb_grp_Cervical_cancer_by_county.csv")|>
   mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
 
-cervical_cancer_county1 <- full_join(county, cervical_cancer_county, by=c("Name"="County"))%>%
-  #mutate(proportion_category=ifelse(Proportion<20,"<20%", ifelse(Proportion>20 & Proportion<41,"20%-40%",">40%")))%>%
+cervical_cancer_county1 <- full_join(county, cervical_cancer_county, by=c("Name"="County"))|>
+  #mutate(proportion_category=fifelse(Proportion<20,"<20%", fifelse(Proportion>20 & Proportion<41,"20%-40%",">40%")))|>
   mutate(names1=paste0(Name,": ",Proportion,"%"))
 
 cervical_cancer_county1$proportion_groups <- as.factor(fct_relevel(cervical_cancer_county1$proportion_groups, c("≤ 1", ">1-8", ">8")))
@@ -5966,8 +5955,8 @@ valueBox(
 ```{r, include=F}
 # import data
 
-T15.1 <- fread("data/table_15/table_15_1_employment_and_cash_earnings_of_currently_married_women_and_men.csv")%>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+T15.1 <- fread("data/table_15/table_15_1_employment_and_cash_earnings_of_currently_married_women_and_men.csv")|>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 ```
 
@@ -5975,8 +5964,8 @@ T15.1 <- fread("data/table_15/table_15_1_employment_and_cash_earnings_of_current
 
 ```{r}
 
-renderPlot({T15.1 %>%
-  filter(is.na(value) == FALSE) %>%
+renderPlot({T15.1 |>
+  filter(is.na(value) == FALSE) |>
   ggplot(aes(y=value, x=Age, fill=variable)) +
   geom_dotplot(binaxis = "y", stackdir = "center", binwidth = 6) +
     theme_bw()+scale_fill_brewer(palette = "Set1")+geom_text(aes(label=paste0(value,"%")))+
@@ -6005,9 +5994,9 @@ selectInput("control", "",
 ```{r, include=F}
 # import data
 
-T15.2.2 <- fread("data/table_15/table_15_2_2_control_over_mens_cash_earnings.csv", na.strings=c("*"))%>%
-  mutate(value=as.numeric(value)) %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+T15.2.2 <- fread("data/table_15/table_15_2_2_control_over_mens_cash_earnings.csv", na.strings=c("*"))|>
+  mutate(value=as.numeric(value)) |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 T15.2.2$Category<- fct_relevel(T15.2.2$Category, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -6080,10 +6069,10 @@ selectInput("agric_own", "",
 ```{r, include=F}
 # agricultural land ownership
 
-Agricultural_land_ownsership <- fread('data/table_15/table_15.5.1_&_table_15.5.3_Agicultural_Land_ownership.csv')%>%
-  mutate(value=ifelse(value>0.5, round(value), value)) 
+Agricultural_land_ownsership <- fread('data/table_15/table_15.5.1_&_table_15.5.3_Agicultural_Land_ownership.csv')|>
+  mutate(value=fifelse(value>0.5, round(value), value)) 
 
-agricultural_land_ownsership_county <- fread('data/table_15/Table_15.5.1C&15.5.3CAgricultural _and_ownership_county.csv') %>%
+agricultural_land_ownsership_county <- fread('data/table_15/Table_15.5.1C&15.5.3CAgricultural _and_ownership_county.csv') |>
   mutate(variable=recode(variable, "Does.not.have.a.title.deed"="Does not have \na title deed"))
 
 Agricultural_land_ownsership$Category <- fct_relevel(Agricultural_land_ownsership$Category, "No education", "Primary", "Secondary", "More than secondary",
@@ -6142,19 +6131,19 @@ selectInput("nonagric_own", "",
 ```{r, include=F}
 # agricultural land ownership
 
-non_agricultural_land_ownsership <- fread('data/table_15/table_15.5.2_&_table_15.5.4_Longformat.csv') %>%
-  mutate(value=ifelse(value>0.5, round(value), value)) 
+non_agricultural_land_ownsership <- fread('data/table_15/table_15.5.2_&_table_15.5.4_Longformat.csv') |>
+  mutate(value=fifelse(value>0.5, round(value), value)) 
 
-non_agricultural_land_ownsership_county <- fread('data/table_15/Table_15.52C&15.5.3C_ Non_agricultural_land_ownership _county.csv') %>%
-  mutate(variable=recode(variable, "Does not have a title deed"="Does not have \na title deed")) %>%
+non_agricultural_land_ownsership_county <- fread('data/table_15/Table_15.52C&15.5.3C_ Non_agricultural_land_ownership _county.csv') |>
+  mutate(variable=recode(variable, "Does not have a title deed"="Does not have \na title deed")) |>
   mutate(County=recode(County, "Murang'a"="Muranga", "Elgeyo-Marakwet"="Elgeyo Marakwet"))
 
 non_agricultural_land_ownsership$Category <- fct_relevel(non_agricultural_land_ownsership$Category, "No education", "Primary", "Secondary", "More than secondary",
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
 
 
-non_agricultural_land_ownsership_county <- left_join(county, non_agricultural_land_ownsership_county, by = c('Name'='County'), multiple = "all") %>%
-  mutate(value=abs(value)) %>%
+non_agricultural_land_ownsership_county <- left_join(county, non_agricultural_land_ownsership_county, by = c('Name'='County'), multiple = "all") |>
+  mutate(value=abs(value)) |>
   filter(!is.na(variable))
 
 ```
@@ -6208,8 +6197,8 @@ selectInput("mobile", "",
 ```{r, include=F}
 
 
-T15.6.1 <- fread("data/table_15/Table_15_6_1_ownership_and_use_of_mobile_phones_and_bank_accounts.csv") %>%
-  mutate(value=ifelse(value>0.5, round(value), value)) 
+T15.6.1 <- fread("data/table_15/Table_15_6_1_ownership_and_use_of_mobile_phones_and_bank_accounts.csv") |>
+  mutate(value=fifelse(value>0.5, round(value), value)) 
 
 T15.6.1C <- fread("data/table_15/Table_15_6_1_ownership_and_use_of_mobile_phones_and_bank_accounts_map.csv") 
 
@@ -6271,13 +6260,13 @@ selectInput("decision_making", "",
 # agricultural land ownership
 
 
-decision_making <- fread("data/table_15/Table_15_8_2_participation_in_decision_making.csv") %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+decision_making <- fread("data/table_15/Table_15_8_2_participation_in_decision_making.csv") |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 
 decision_making$Category<- fct_relevel(decision_making$Category, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
-decision_making_county <- fread("data/table_15/Table_15_8_2C_participation_in_decision_making_map.csv") %>%
+decision_making_county <- fread("data/table_15/Table_15_8_2C_participation_in_decision_making_map.csv") |>
   mutate(variable=recode(variable, "Making major household purchases"="Making major \nhousehold purchases", "Visits to her family or relatives"="Visits to her family \nor relatives"))
 
 decision_making_county1 <- right_join(county, decision_making_county, by=c("Name"="County")) 
@@ -6334,8 +6323,8 @@ selectInput("safer_sex", "",
 # agricultural land ownership
 
 
-T15.10 <- fread("data/table_15/Table_15_10_attitudes_toward_negotiating_safer_sexual_relations_with_husband.csv") %>%
-  mutate(value=ifelse(value>0.5, round(value), value)) %>%
+T15.10 <- fread("data/table_15/Table_15_10_attitudes_toward_negotiating_safer_sexual_relations_with_husband.csv") |>
+  mutate(value=fifelse(value>0.5, round(value), value)) |>
   mutate(Category=recode(Category, "Divorced/Separated/Widowed"="Divorced/\nSeparated/Widowed", "Married/Living together"="Married/\nLiving together"))
 
 
@@ -6349,9 +6338,9 @@ T15.10C <- full_join(county, T15.10C, by=c("Name"="County"))
 
 breaks<- classIntervals(T15.10C$value, n=5, style="quantile", na.rm=T)
 
-T15.10C <- T15.10C %>%
-  mutate(value=abs(value)) %>%
-  mutate(cat=ifelse(value<40, "<40", ifelse(value>39 & value<60, "40-59", ifelse(value>59 & value<80, "60-79", ">79"))))
+T15.10C <- T15.10C |>
+  mutate(value=abs(value)) |>
+  mutate(cat=fifelse(value<40, "<40", fifelse(value>39 & value<60, "40-59", fifelse(value>59 & value<80, "60-79", ">79"))))
 
 T15.10C$cat <- fct_relevel(T15.10C$cat, "<40", "40-59", "60-79", ">79")
 ```
@@ -6437,8 +6426,8 @@ selectInput("physical_violence", "",
 
 ```{r, include=F}
 #import data
-physical_violence <- fread('data/table_17/table_17.1_Experience_pysical_violence.csv') %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+physical_violence <- fread('data/table_17/table_17.1_Experience_pysical_violence.csv') |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 physical_violence_county <- fread('data/table_17/Table 17.1C Experience of physical violence by any perpetrator according to county.csv')
 
@@ -6494,8 +6483,8 @@ selectInput("viol","",
             c("Male"="Male",
             "Female"="Female"))
 
-pers_physical_violence <- fread('data/table_17/table_17.2_person_commiting_physical_violence.csv') %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+pers_physical_violence <- fread('data/table_17/table_17.2_person_commiting_physical_violence.csv') |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 renderPlot({ggplot(pers_physical_violence[pers_physical_violence$Gender%in%input$viol,],aes(y=value, x=reorder(Category,value), fill=variable)) +ylim(0,100)+coord_flip()+
   geom_col(position="dodge") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), hjust=-0.5)+
@@ -6525,8 +6514,8 @@ selectInput("violence_preg", "",
 
 ```{r, include=F}
 #import data
-violence_preg <- fread('data/table_17/table 17.3 Experience of violence during pregnancy_longformat.csv')%>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+violence_preg <- fread('data/table_17/table 17.3 Experience of violence during pregnancy_longformat.csv')|>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 violence_preg_county <- fread('data/table_17/Table 17.3C Experience of violence during pregnancy.csv')
 
@@ -6599,8 +6588,8 @@ selectInput("violence_sexual", "",
 
 ```{r, include=F}
 #import data
-sexual_violence <- fread('data/table_17/table_17.4_experience_sexual_violence.csv') %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+sexual_violence <- fread('data/table_17/table_17.4_experience_sexual_violence.csv') |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 
 experience_sexual_violence_county <- fread('data/table_17/Table 17.4C Experience of sexual violence by any perpetrator according to county.csv') 
@@ -6661,8 +6650,8 @@ renderGirafe({if(input$violence_sexual%in%c("Age","Education","Employment","Resi
 
 ```{r, include=F}
 #import data
-sexual_violence1 <- fread('data/table_17/table_17.2_person_commiting_physical_violence.csv') %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+sexual_violence1 <- fread('data/table_17/table_17.2_person_commiting_physical_violence.csv') |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 ```
 
@@ -6693,8 +6682,8 @@ selectInput("controlling", "",
 
 ```{r, include=F}
 #import data
-controlling <- fread('data/table_17/Table_17_9_2_forms_of_controlling_behaviors_and_intimate-partner_violence.csv') %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+controlling <- fread('data/table_17/Table_17_9_2_forms_of_controlling_behaviors_and_intimate-partner_violence.csv') |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 ```
 
 ```{r}
@@ -6724,8 +6713,8 @@ selectInput("violence_spouse", "",
 
 ```{r, include=F}
 #import data
-violence_spouse <- fread('data/table_17/Table_17_13_violence_by_any_spouse_or_intimate_partner_in_the_last_12_months.csv')%>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+violence_spouse <- fread('data/table_17/Table_17_13_violence_by_any_spouse_or_intimate_partner_in_the_last_12_months.csv')|>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 violence_spouse$Category <- fct_relevel(violence_spouse$Category, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -6795,8 +6784,8 @@ selectInput("violence_women", "",
 
 ```{r, include=F}
 #import data
-violence_women <- fread("data/table_17/table_17_16_Violence_by_respondent_against_their_spouse.csv") %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+violence_women <- fread("data/table_17/table_17_16_Violence_by_respondent_against_their_spouse.csv") |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 
 violence_women$Category <- fct_relevel(violence_women$Category, "No education", "Primary", "Secondary", "More than secondary",
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -6869,14 +6858,14 @@ selectInput("violence_stop", "",
 
 ```{r, include=F}
 #import data
-T17.17 <- fread("data/table_17/table_17_17_Help_seeking_to_stop_violence.csv")  %>%
-  mutate(value=ifelse(value>0.5, round(value), value))
+T17.17 <- fread("data/table_17/table_17_17_Help_seeking_to_stop_violence.csv")  |>
+  mutate(value=fifelse(value>0.5, round(value), value))
 T17.17$Category <- fct_relevel(T17.17$Category, "No education", "Primary", "Secondary", "More than secondary",
                                    "Lowest", "Second", "Middle", "Fourth", "Highest") 
 
 T17.17C <- fread("data/table_17/table_17_17C_Help_seeking_to_stop_violence.csv") 
  
-T17.17C <- right_join(county, T17.17C, by = c('Name'='County'), multiple = "all") %>%
+T17.17C <- right_join(county, T17.17C, by = c('Name'='County'), multiple = "all") |>
   mutate(value=as.numeric(value))
 
 ```
@@ -7262,18 +7251,18 @@ selectInput("category1", "",
 comparison_data <-fread("data/County Comparison Data/comparison_data_wide.csv")
 
 
-# vacc_comparison <- read_csv("data/County Comparison Data/vaccination_22_14_combined_county.csv")%>%
-#   pivot_longer(cols = c(BCG:FULL_VACCINATION), names_to = "Vaccination", values_to = "Proportion") %>%
-#   rename(County=Name, Category=Vaccination)%>%
-#   arrange(year) %>%
-#   group_by(County, Category)%>%
-#   mutate(Proportion1=round((Proportion-lag(Proportion))/Proportion*100,1))%>%
-#   ungroup() %>%
-#   mutate(type="Vaccination") %>%
-#   pivot_longer(c(Proportion, Proportion1), names_to="P", values_to="Proportion") %>%
-#   filter(!is.na(Proportion)) %>%
-#   mutate(P=recode(P, "Proportion1"="Percentage change")) %>%
-#    mutate(Prop=ifelse(P%in%"Proportion",paste0("Proportion", " (", year,")"), P)) %>%
+# vacc_comparison <- read_csv("data/County Comparison Data/vaccination_22_14_combined_county.csv")|>
+#   pivot_longer(cols = c(BCG:FULL_VACCINATION), names_to = "Vaccination", values_to = "Proportion") |>
+#   rename(County=Name, Category=Vaccination)|>
+#   arrange(year) |>
+#   group_by(County, Category)|>
+#   mutate(Proportion1=round((Proportion-lag(Proportion))/Proportion*100,1))|>
+#   ungroup() |>
+#   mutate(type="Vaccination") |>
+#   pivot_longer(c(Proportion, Proportion1), names_to="P", values_to="Proportion") |>
+#   filter(!is.na(Proportion)) |>
+#   mutate(P=recode(P, "Proportion1"="Percentage change")) |>
+#    mutate(Prop=fifelse(P%in%"Proportion",paste0("Proportion", " (", year,")"), P)) |>
 #   select(-P)
 
 comparison_data1 <- fread("data/County Comparison Data/comparison_data.csv")
@@ -7283,7 +7272,7 @@ comparison_data2 <- full_join(county, comparison_data1, by=c("Name"="County"))
 # trends over time
 trends_data <- fread("data/trends_per_county.csv")
 
-comparison_data1a<- fread("data/County Comparison Data/comparison_data_wide1a.csv") %>%
+comparison_data1a<- fread("data/County Comparison Data/comparison_data_wide1a.csv") |>
   mutate(indicator=recode( Category, "Households with >=1 ITN"="Malaria", "Households with >=1 ITN\nper 2 people"="Malaria", "Stunting"="Nutrition", "Underweight"="Nutrition", "Wasting"="Nutrition", "BCG"="Child vaccination", "DPT1"="Child vaccination", "DPT2"="Child vaccination", "DPT3"="Child vaccination", "FULL_VACCINATION"="Child vaccination", "OPV"="Child vaccination", "OPV1"="Child vaccination", "OPV2"="Child vaccination", "OPV3"="Child vaccination"))
 
 renderPlot({
@@ -7314,7 +7303,7 @@ selectInput("trends", "",
              "Household possession of insecticide treated nets"="treated_nets"))
 
 renderGirafe({
-  trends_data1 <-trends_data %>%filter(indicator%in%input$trends) %>%
+  trends_data1 <-trends_data |>filter(indicator%in%input$trends) |>
     mutate(Years=as.numeric(as.character(Years)))
 
   trends_map<- ggplot(trends_data1, aes(x=Years, y=Percent, color=grouping)) + 
@@ -7355,7 +7344,7 @@ selectInput("ind_comp", "",
 ```{r}
 
 renderGirafe({
-  comp_data1 <-comparison_data2 %>%filter(Category%in%input$ind_comp) 
+  comp_data1 <-comparison_data2 |>filter(Category%in%input$ind_comp) 
 
   comp_data_map<- ggplot(comp_data1, aes(fill=Proportion)) + 
     geom_sf_interactive(aes(tooltip=paste0(Name, " ",Proportion,"%")))+
@@ -7378,7 +7367,7 @@ renderGirafe({
 
 ```{r}
 renderPlot({
-  comp_data1a <-comparison_data1 %>%filter(Category%in%input$ind_comp)%>%filter(Prop%in%c("Proportion (2022)", "Proportion (2014)")) 
+  comp_data1a <-comparison_data1 |>filter(Category%in%input$ind_comp)|>filter(Prop%in%c("Proportion (2022)", "Proportion (2014)")) 
 
   ggplot(comp_data1a, aes(x=reorder(County, Proportion), y=Proportion, fill=factor(year))) + 
   geom_col() +coord_flip()+ facet_grid(~year)+
@@ -7550,7 +7539,7 @@ selectInput("comp_indicator2", "",
 
 
 renderGirafe({
-  combined_data1<- left_join(combined_data[combined_data$indicator1%in%input$comp_indicator1,]%>%select(-indicator), combined_data[combined_data$indicator1%in%input$comp_indicator2, ]%>%rename(indicator2=indicator1, values2=values)%>%select(-indicator))
+  combined_data1<- left_join(combined_data[combined_data$indicator1%in%input$comp_indicator1,]|>select(-indicator), combined_data[combined_data$indicator1%in%input$comp_indicator2, ]|>rename(indicator2=indicator1, values2=values)|>select(-indicator))
   combined_map<- ggplot(combined_data1, aes(x=values, y=values2))+
   geom_point_interactive(size=4, aes(tooltip=County), color="cyan4")+
   theme_bw()+
@@ -7583,7 +7572,7 @@ county <- st_read("shapefiles/County.shp")
 ```{r,fig.width=6,fig.height=6}
 #
 renderGirafe({
-combined_data1<- left_join(county, combined_data[combined_data$indicator1%in%input$comp_indicator1,]%>%select(-indicator), by=c("Name"="County"))
+combined_data1<- left_join(county, combined_data[combined_data$indicator1%in%input$comp_indicator1,]|>select(-indicator), by=c("Name"="County"))
   indicator_map1<- ggplot(combined_data1, aes(fill=values))+
   geom_sf_interactive(aes(tooltip=paste0(Name,": ",round(values))))+
   theme_void()+scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
@@ -7615,7 +7604,7 @@ girafe(ggobj = cowplot::plot_grid(plotlist=list(indicator_map1, plot2),rel_width
 ```{r,fig.width=6,fig.height=6}
 #
 renderGirafe({
-combined_data1<- left_join(county, combined_data[combined_data$indicator1%in%input$comp_indicator2,]%>%select(-indicator), by=c("Name"="County"))
+combined_data1<- left_join(county, combined_data[combined_data$indicator1%in%input$comp_indicator2,]|>select(-indicator), by=c("Name"="County"))
   indicator_map2<- ggplot(combined_data1, aes(fill=values))+
   geom_sf_interactive(aes(tooltip=paste0(Name,": ",round(values))))+
   theme_void()+scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
@@ -7640,4 +7629,4 @@ combined_data1<- left_join(county, combined_data[combined_data$indicator1%in%inp
 girafe(ggobj = plot_grid(plotlist=list(indicator_map2, plot2a),rel_widths=1.2, rel_heights=0.5, nrow=1))
 })
 
-```
+``` 
