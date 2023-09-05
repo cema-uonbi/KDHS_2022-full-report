@@ -1942,11 +1942,13 @@ median_age$Variable<- fct_relevel(median_age$Variable,
 
 ```{r, include=FALSE}
 
-median_age_county <- fread("data/table_5/Table_6c Median.age.first.birth.csv")|>
-  filter(year==2022)|>
-  filter(category%in%"Women (25-49)")|>
-  mutate(proportion_category=fifelse(proportion<20,"<20",">=20"))|>
-  mutate(Name=recode(Name,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
+# median_age_county <- fread("data/table_5/Table_6c Median.age.first.birth.csv")|>
+#   filter(year==2022)|>
+#   filter(category%in%"Women (25-49)")|>
+#   mutate(proportion_category=fifelse(proportion<20,"<20",">=20"))|>
+#   mutate(Name=recode(Name,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
+
+median_age_county <- fread("data/table_5/Table 6c. Median.age.county.first.birth.csv")
 
 median_age_county$proportion_category <- as.factor(fct_relevel(median_age_county$proportion_category, c( "<20", ">=20")))
 
@@ -2116,9 +2118,11 @@ renderGirafe({
 
 
 
-fertility_preferences <- fread("data/table_7/table7_fertilitypreferences.csv")|>
-  filter(Desire_children%in%c("Have another soon","Have another later","Want no more")) |>
-  mutate(Percent=fifelse(Percent>0.5, round(Percent), Percent))
+# fertility_preferences <- fread("data/table_7/table7_fertilitypreferences.csv")|>
+#   filter(Desire_children%in%c("Have another soon","Have another later","Want no more")) |>
+#   mutate(Percent=fifelse(Percent>0.5, round(Percent), Percent))
+
+fertility_preferences <- fread("data/table_7/table7_fertilitypreferences_2.csv")
 
 renderPlot({
   ggplot(fertility_preferences,aes(x=`Number of children`, y=Percent, fill=Desire_children))+
@@ -2687,9 +2691,11 @@ selectInput("early_childhood_mortality", "",
 
 # import data
 
-early_childhood_mortality <-fread("data/table_8/Table_8.3_Early_Childhood_Mortality.csv")|>
-  filter(!category%in%c("Post neonatal mortality","Child mortality"))|>
-  mutate(Variable=fifelse(Characteristic%in%c("Lowest","Second","Middle","Fourth","Highest"),"Wealth quintile",Variable))
+# early_childhood_mortality <-fread("data/table_8/Table_8.3_Early_Childhood_Mortality.csv")|>
+#   filter(!category%in%c("Post neonatal mortality","Child mortality"))|>
+#   mutate(Variable=fifelse(Characteristic%in%c("Lowest","Second","Middle","Fourth","Highest"),"Wealth quintile",Variable))
+
+early_childhood_mortality <- fread("data/table_8/Table_8.3_Early_Childhood_Mortality_2.csv")
 
 early_childhood_mortality$Characteristic <- fct_relevel(early_childhood_mortality$Characteristic, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -3073,10 +3079,12 @@ selectInput("place_delivery", "",
 
 # import data
 
-place_delivery <-fread("data/table_9/Table_9.7_Place_of_delivery.csv") |>
-  filter(category%in%c("Percentage in facility", "Home"))|>
-  filter(!Characteristic%in%"None") |>
- mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
+# place_delivery <-fread("data/table_9/Table_9.7_Place_of_delivery.csv") |>
+#   filter(category%in%c("Percentage in facility", "Home"))|>
+#   filter(!Characteristic%in%"None") |>
+#  mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
+
+place_delivery <- fread("data/table_9/Table_9.7_Place_of_delivery_2.csv")
 
 place_delivery$Characteristic <- fct_relevel(place_delivery$Characteristic, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -3158,10 +3166,12 @@ renderGirafe({
 
 # import data
 
-assist_delivery <-fread("data/table_9/Table_9.9C_Assistance_during_delivery_by_county.csv")|>
-  filter(category%in%"Total percentage delivered by skilled provider")|>
-  mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))|>
-  mutate(proportion_category=fifelse(proportion<80,"<80",">80"))
+# assist_delivery <-fread("data/table_9/Table_9.9C_Assistance_during_delivery_by_county.csv")|>
+#   filter(category%in%"Total percentage delivered by skilled provider")|>
+#   mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))|>
+#   mutate(proportion_category=fifelse(proportion<80,"<80",">80"))
+
+assist_delivery <- fread("data/table_9/Table_9.9C_Assistance_during_delivery_by_county_2.csv")
 
 
 assist_delivery$proportion_category <- as.factor(fct_relevel(assist_delivery$proportion_category, c( "<80", ">80")))
@@ -4478,9 +4488,11 @@ selectInput("itn_source", "",
 ```{r, include=F}
 # import data
 
-itn_source <- fread("data/table_12/table12_2_ITN_source_by_background_xtics.csv")|>
-  filter(Category%in%c("Mass distribution campaign","Shop/market","ANC visit","Immunization visit")) |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+# itn_source <- fread("data/table_12/table12_2_ITN_source_by_background_xtics.csv")|>
+#   filter(Category%in%c("Mass distribution campaign","Shop/market","ANC visit","Immunization visit")) |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+itn_source <- fread("data/table_12/table12_2_ITN_source_by_background_xtics_2.csv")
 
 itn_source$Value <- fct_relevel(itn_source$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4910,9 +4922,12 @@ selectInput("nets_notuse", "",
 
 ```{r, include=F}
 # import data
-reason_itn_not_used <- fread("data/table_12/table12_8_reason_itn_not_used_by_background_xtics.csv")|>
-  filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))|>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+# reason_itn_not_used <- fread("data/table_12/table12_8_reason_itn_not_used_by_background_xtics.csv")|>
+#   filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))|>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+reason_itn_not_used <- fread("data/table_12/table12_8_reason_itn_not_used_by_background_xtics_2.csv")
 
 reason_itn_not_used$Value<- fct_relevel(reason_itn_not_used$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4924,9 +4939,12 @@ reason_itn_not_used_total <- fread("data/table_12/table12_8a_reason_itn_not_used
 
 ```{r, include=FALSE}
 
-reason_itn_not_used_county <- fread("data/DHS County tables/table12_8C_grp_reason_itn_not_used_by_county.csv")|>
-  filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))|>
-  mutate(Proportion=fifelse(County%in%"Kitui"&Reason%in%"Extra net/saving for later",21.1, fifelse(County%in%"Kitui"&Reason%in%"No mosquitoes/malaria",28.2, fifelse(County%in%"Kitui"&Reason%in%"User didn't sleep in household",9.2, fifelse(County%in%"Kitui"&Reason%in%"Too hot",24.2,Proportion)))))
+# reason_itn_not_used_county <- fread("data/DHS County tables/table12_8C_grp_reason_itn_not_used_by_county.csv")|>
+#   filter(Reason%in%c("Extra net/saving for later","No mosquitoes/malaria","User didn't sleep in household","Too hot"))|>
+#   mutate(Proportion=fifelse(County%in%"Kitui"&Reason%in%"Extra net/saving for later",21.1, fifelse(County%in%"Kitui"&Reason%in%"No mosquitoes/malaria",28.2, fifelse(County%in%"Kitui"&Reason%in%"User didn't sleep in household",9.2, fifelse(County%in%"Kitui"&Reason%in%"Too hot",24.2,Proportion)))))
+
+reason_itn_not_used_county <- fread("data/table_12/table12_8C_grp_reason_itn_not_used_by_county_2.csv")
+
 
 reason_itn_not_used_county1 <- full_join(county, reason_itn_not_used_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>

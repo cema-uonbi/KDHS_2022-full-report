@@ -1,0 +1,64 @@
+"","Characteristic","Variable","category","proportion"
+"1","<20","Mother's age","Neonatal mortality",24
+"2","<20","Mother's age","Infant mortality",37
+"3","<20","Mother's age","Under 5 mortality",45
+"4","20-29","Mother's age","Neonatal mortality",23
+"5","20-29","Mother's age","Infant mortality",35
+"6","20-29","Mother's age","Under 5 mortality",44
+"7","30-39","Mother's age","Neonatal mortality",21
+"8","30-39","Mother's age","Infant mortality",33
+"9","30-39","Mother's age","Under 5 mortality",41
+"10","40-49","Mother's age","Neonatal mortality",34
+"11","40-49","Mother's age","Infant mortality",43
+"12","40-49","Mother's age","Under 5 mortality",58
+"13","1","Birth order","Neonatal mortality",24
+"14","1","Birth order","Infant mortality",35
+"15","1","Birth order","Under 5 mortality",41
+"16","2-3","Birth order","Neonatal mortality",22
+"17","2-3","Birth order","Infant mortality",36
+"18","2-3","Birth order","Under 5 mortality",44
+"19","4-6","Birth order","Neonatal mortality",21
+"20","4-6","Birth order","Infant mortality",31
+"21","4-6","Birth order","Under 5 mortality",41
+"22","7+","Birth order","Neonatal mortality",30
+"23","7+","Birth order","Infant mortality",44
+"24","7+","Birth order","Under 5 mortality",59
+"25","<2 years","Birth interval","Neonatal mortality",36
+"26","<2 years","Birth interval","Infant mortality",50
+"27","<2 years","Birth interval","Under 5 mortality",67
+"28","2 years","Birth interval","Neonatal mortality",18
+"29","2 years","Birth interval","Infant mortality",30
+"30","2 years","Birth interval","Under 5 mortality",37
+"31","3 years","Birth interval","Neonatal mortality",16
+"32","3 years","Birth interval","Infant mortality",30
+"33","3 years","Birth interval","Under 5 mortality",38
+"34","4+ years","Birth interval","Neonatal mortality",21
+"35","4+ years","Birth interval","Infant mortality",33
+"36","4+ years","Birth interval","Under 5 mortality",41
+"37","No education","Education","Neonatal mortality",24
+"38","No education","Education","Infant mortality",33
+"39","No education","Education","Under 5 mortality",41
+"40","Primary","Education","Neonatal mortality",24
+"41","Primary","Education","Infant mortality",38
+"42","Primary","Education","Under 5 mortality",49
+"43","Secondary","Education","Neonatal mortality",24
+"44","Secondary","Education","Infant mortality",35
+"45","Secondary","Education","Under 5 mortality",42
+"46","More than secondary","Education","Neonatal mortality",19
+"47","More than secondary","Education","Infant mortality",30
+"48","More than secondary","Education","Under 5 mortality",32
+"49","Lowest","Wealth quintile","Neonatal mortality",24
+"50","Lowest","Wealth quintile","Infant mortality",36
+"51","Lowest","Wealth quintile","Under 5 mortality",47
+"52","Second","Wealth quintile","Neonatal mortality",22
+"53","Second","Wealth quintile","Infant mortality",35
+"54","Second","Wealth quintile","Under 5 mortality",46
+"55","Middle","Wealth quintile","Neonatal mortality",23
+"56","Middle","Wealth quintile","Infant mortality",35
+"57","Middle","Wealth quintile","Under 5 mortality",41
+"58","Fourth","Wealth quintile","Neonatal mortality",25
+"59","Fourth","Wealth quintile","Infant mortality",37
+"60","Fourth","Wealth quintile","Under 5 mortality",46
+"61","Highest","Wealth quintile","Neonatal mortality",21
+"62","Highest","Wealth quintile","Infant mortality",33
+"63","Highest","Wealth quintile","Under 5 mortality",37
