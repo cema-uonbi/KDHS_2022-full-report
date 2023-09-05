@@ -651,6 +651,8 @@ covid_county <- fread("data/table_2/table_2_19_1C_covid_by_county.csv")
 
 covid_county3 <- fread("data/table_2/table_2_19_1C_covid_by_county_bind.csv")
 
+covid_county3 <- full_join(county,covid_county3, by=c("Name"="County"))
+
 breaks<- classIntervals(covid_county3$Proportion, n=5, style="quantile", na.rm=T)
 
 covid_county3 <- covid_county3 |>
