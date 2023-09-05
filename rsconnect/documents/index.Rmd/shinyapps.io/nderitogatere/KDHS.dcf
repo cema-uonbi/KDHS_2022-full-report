@@ -1,0 +1,12 @@
+name: KDHS
+title: KDHS
+username: nderitogatere
+account: nderitogatere
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9765401
+bundleId: 7645460
+url: https://nderitogatere.shinyapps.io/KDHS/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

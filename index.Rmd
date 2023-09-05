@@ -42,6 +42,7 @@ resource_files:
 
 ```{r, fig.width=7.5, fig.height=7.5, fig.align = 'center', fig.cap= "**KNBS and ICF. 2022. Kenya Demographic and Health Survey 2022. Key Indicators Report. Nairobi, Kenya, and Rockville, Maryland, USA: KNBS and ICF.**"}
 knitr::include_graphics("www/front_page_knbs.png")
+
 ```
 
 [Link to the report](https://www.knbs.or.ke/download/2022-kdhs-key-indicators-report/#)
@@ -63,6 +64,7 @@ knitr::include_graphics("www/front_page_knbs.png")
 # load all the required packages
 library(pacman)
 p_load(shiny, docxtractr,flexdashboard, tidyverse,ggiraph, scales, sf, reshape2, cowplot, data.table, classInt, microbenchmark)
+library(profvis)
 
 ```
 
@@ -164,7 +166,11 @@ renderPlot({if(input$quest%in%"Response Rate"){
   facet_grid(residence~selection) +
   theme(text= element_text(size = 20, colour = "black", face = "bold")) +
   theme(strip.background =element_rect(fill="darkorange"))
-        }, width = 1200, height=600) 
+        }, width = 1200, height=600) %>%
+  bindCache(input$quest)
+ 
+
+
 
 
 ```
@@ -230,12 +236,15 @@ insurance_county1 <- full_join(county, insurance_county, by=c("Name"="County"))
 
 ```{r, fig.width=16 }
 # health insurance data by age
+
+
 insurance <- fread("data/table_2/table_2_20_insurance_by_background_xtics.csv") |>
   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
 insurance$Value<- fct_relevel(insurance$Value, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
 insurance$`Health Insurance Type` <- fct_relevel(insurance$`Health Insurance Type`, "None/Don't know", "Any", "NHIF", "Community-based", "Private/commercial", "Other")
+
 
 renderPlot({
   if(input$health%in%c("Wealth quintile", "Age", "Residence")){
@@ -271,7 +280,8 @@ renderPlot({
       #               opts_zoom(max = 4)))
  # print(insurance_map2a, justify="left")
   }
-}, width=1400, height=700)
+}, width=1400, height=700) %>% bindCache(input$health)
+
 ```
 
 ### **Housing**
@@ -288,6 +298,7 @@ selectInput("housing", "",
 ```
 
 ```{r}
+
 housing <- fread("data/table_2/table2_1_Housing_by_xtics.csv") |>
   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
@@ -301,7 +312,7 @@ renderPlot({
     theme(strip.background =element_rect(fill="darkorange"))+
     geom_text(aes(label=paste0(Proportion, "%")), position=position_dodge(width=1),vjust=0.5,hjust=-0.2, size=4, color="black")
  
-}, width=1400, height=600)
+}, width=1400, height=600) %>% bindCache(input$housing)
 
 
 
@@ -323,7 +334,6 @@ selectInput("cooking", "",
 cooking <- fread("data/table_2/table2_2_Cooking_by_xtics.csv") |>
   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
-
 renderPlot({
     ggplot(cooking[cooking$Characteristics%in%input$cooking & cooking$Participants%in%"Household",], aes(x=Value, y=Proportion, fill=Category))+geom_bar(stat = 'identity', position = position_dodge())+#,aes(tooltip=paste0(Coverage, "%"))) +
   labs(y="Percent (%)", x="", fill="")+ylim(0,100)+
@@ -332,7 +342,7 @@ renderPlot({
     theme(strip.background =element_rect(fill="darkorange"))+
     geom_text(aes(label=paste0(Proportion, "%")), position=position_dodge(width=1),vjust=0.5,hjust=-0.2, size=4, color="black")
  
-}, width=1400, height=700)
+}, width=1400, height=700) %>% bindCache(input$cooking)
 
 
 
@@ -366,7 +376,7 @@ renderPlot({
     theme(strip.background =element_rect(fill="darkorange"))+
     geom_text(aes(label=paste0(Proportion, "%")), position=position_dodge(width=1),vjust=0.5,hjust=-0.2, size=4, color="black")
  
-}, width=1400, height=700)
+}, width=1400, height=700) %>% bindCache(input$possessions)
 
 
 
@@ -445,9 +455,9 @@ renderGirafe({
                    options = list(
                     # opts_sizing(rescale = TRUE),
                      opts_zoom(max = 6)),width=12, height=5)
-  print(birth_reg_map1a, justify="left")}
+  print(birth_reg_map1a, justify="left")} 
  
-})
+}) %>% bindCache(input$birth_reg)
 
 
 
@@ -606,7 +616,7 @@ renderGirafe({
                      opts_zoom(max = 9)), width=12, height=5)
   print(rta3a)}
  
-})
+}) %>% bindCache(input$rta)
 
 ```
 
@@ -698,7 +708,7 @@ renderGirafe({if(input$covid%in%"Residence"){
   }
   
  
-})
+}) %>% bindCache(input$covid)
 
 
 ```
@@ -772,7 +782,7 @@ renderGirafe({if(input$cash_transfer!="County"){
                      opts_zoom(max = 6)), width=14, height=5)
   print(cash_trans2a)
   }
-})
+}) %>% bindCache(input$cash_transfer)
 ```
 
 
@@ -968,7 +978,7 @@ renderGirafe({
                      opts_zoom(max = 4)),  width=15, height=5)
   print(respondents_map4a)
   }  
-  })
+  })  %>% bindCache(input$char)
   
 ```
 
@@ -1050,7 +1060,7 @@ renderGirafe({if(input$occupation!="County"){
                      opts_zoom(max = 4)),  width=14, height=5)
   print(occupation2a)
   }
-})
+}) %>% bindCache(input$occupation)
 ```
 
 ### **Type of employment for women**
@@ -1079,7 +1089,7 @@ renderPlot({
   scale_fill_manual(values = c("#f46d43","#74add1"))+
   theme(text=element_text(size=16, face="bold"))+
   coord_flip()
-},width=1500, height=700)
+},width=1500, height=700) %>% bindCache(input$employment)
 ```
 
 ### **Migration**
@@ -1105,7 +1115,6 @@ migration_county1 <- full_join(county, migration_county|>filter(Participants%in%
 migration_county2 <- full_join(county, migration_county|>filter(Participants%in%"Women"), by=c("Name"="County"))|>
   mutate(Participants="Women")
 migration_county3 <-rbind(migration_county1, migration_county2)
-
 ```
 
 
@@ -1137,7 +1146,7 @@ renderPlot({if(input$migration!="County"){
   labs(x="", y="",fill="Percent (%)", fill="")+
   theme(text=element_text(size=14))
   }
-},width=1500, height=600)
+},width=1500, height=600) %>% bindCache(input$migration)
 ```
 
 # Water, Sanitation and Hygiene {data-navmenu="Key Indicators"}
@@ -1241,7 +1250,7 @@ renderGirafe({if(input$collector!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)),  width=14, height=5)
   print(water_collector2a)}
-})
+})  %>% bindCache(input$collector)
 ```
 
 ### **Treatment of household drinking water**
@@ -1305,7 +1314,7 @@ renderGirafe({if(input$water_treat!="County"){
                      opts_zoom(max = 6)),  width=15, height=5)
   print(water_treat2a)
   }
-})
+})  %>% bindCache(input$water_treat)
 ```
 
 ### **Management of household excreta**
@@ -1370,7 +1379,7 @@ renderGirafe({if(input$excreta_mgmnt!="County"){
                      opts_zoom(max = 6)),  width=14, height=5)
   print(excreta2a)  
   }
-})
+}) %>% bindCache(input$excreta_mgmnt)
 ```
 
 ### **Disposal of children's stool**
@@ -1441,7 +1450,7 @@ renderGirafe({if(input$child_stool_disp!="County"){
                      opts_zoom(max = 6)),  width=15, height=5)
   print(stool2a)
   }
-})
+}) %>% bindCache(input$child_stool_disp)
 ```
 
 ### **Handwashing**
@@ -1504,7 +1513,7 @@ renderGirafe({if(input$handwashing!="County"){
                      opts_zoom(max = 6)),  width=15, height=5)
   print(handwashing2a)
   }
-})
+}) %>% bindCache(input$handwashing)
 ```
 
 # Marriage {data-navmenu="Key Indicators"}
@@ -1584,7 +1593,7 @@ renderGirafe({
                     # opts_sizing(rescale = TRUE),
                      opts_zoom(max = 9)),width=15, height=5)
   print( marriage_map2, justify="right")
-})
+}) %>% bindCache(input$marriage)
 ```
 
 
@@ -1690,7 +1699,7 @@ disabilitydata$Indicator <- fct_relevel(disabilitydata$Indicator,
      scale_fill_brewer(palette="Set1")
  }
     
-})
+}) %>% bindCache(input$disability)
  
  
 ```
@@ -1728,7 +1737,7 @@ renderGirafe({if(input$disability_domain%in%"All"){
   print(disability_map2a, justify="left")
 }
    
-})
+}) %>% bindCache(input$disability_domain)
 ```
 
 # Fertility {data-navmenu="Key Indicators"}
@@ -1900,7 +1909,7 @@ renderGirafe({
                      opts_sizing(rescale = T),
                      opts_zoom(max = 9)),width=15, height=5)
   print(tfr_mapx)}
-})
+}) %>% bindCache(input$tfr1)
 ```
 
 
@@ -1988,7 +1997,7 @@ renderGirafe({
                      opts_zoom(max = 4)),width=15, height=5)
   print(tfr_mapx) 
   }
-  })
+  }) %>% bindCache(input$median_age1)
 
 ```
 
@@ -2078,7 +2087,7 @@ renderGirafe({
                      opts_zoom(max = 6)),width=15, height=5)
   print(teenpreg_mapx) 
   }
-  })
+  }) %>% bindCache(input$teenage)
 
   
 ```
@@ -2359,7 +2368,8 @@ renderPlot({ggplot(knowledge_fertile[knowledge_fertile$variable%in%input$knowled
     geom_text(aes(label=paste0(Proportion)), hjust=-0.2)+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_manual(values = c("#f46d43","#74add1"))+ylim(0,100)+
-  theme(text=element_text(size=16, face="bold"))}, width=1200, height=700 )
+  theme(text=element_text(size=16, face="bold"))}, width=1200, height=700 ) %>%
+  bindCache(input$knowledge_fertile)
 
 
 
@@ -2445,7 +2455,8 @@ renderPlot({ggplot(need_demand[need_demand$variable%in%input$need_demand,],aes(x
     geom_text(aes(label=paste0(round(Proportion))), position = position_dodge(width=1), vjust=-0.2)+
   labs( y="Percent (%)", title="", x="", fill="")+
   scale_fill_brewer(palette ="Set1")+
-  theme(text=element_text(size=16, face="bold"))}, width=1200, height=700 )
+  theme(text=element_text(size=16, face="bold"))}, width=1200, height=700 ) %>%
+  bindCache(input$need_demand)
 
 
 
@@ -2739,7 +2750,7 @@ renderGirafe({
                      opts_sizing(rescale = T),
                      opts_zoom(max = 4)), width=15, height=5)
   print(mort_map2x)}
-})#,width = 1500, height=800)
+}) %>% bindCache(input$early_childhood_mortality) #,width = 1500, height=800) 
 ```
 
 ### **Childhood mortality (By County:bars)**
@@ -2842,7 +2853,7 @@ renderGirafe({
                      opts_sizing(rescale = T),
                      opts_zoom(max = 4)), width=15, height=5)
   print(mort_map2x)}
-})#,width = 1500, height=800)
+}) %>% bindCache(input$perinatal_mortality) #,width = 1500, height=800)
 ```
 
 ### **Perinatal mortality (By County:bar)**
@@ -3009,7 +3020,7 @@ renderGirafe({
                      opts_sizing(rescale = T),
                      opts_zoom(max = 4)), width=15, height=5)
   print(anc_number_map2x)}
-})#,width = 1500, height=800)
+}) %>% bindCache(input$antenatal_care_visits) #,width = 1500, height=800)
 ```
 
 
@@ -3213,7 +3224,8 @@ renderPlot({ggplot(mens_involvement[mens_involvement$Variable%in%input$mens_invo
   theme_bw()+scale_fill_brewer(palette = "Set1")+
   labs( y="Percent (%)", title="", x="", fill="")+
     geom_text(aes(label=paste0(round(proportion),"%")), position = position_dodge(width=1), vjust=-0.2)+ylim(0,100)+
-  theme(text=element_text(size=16, face="bold"))}, width=1400, height=700 )
+  theme(text=element_text(size=16, face="bold"))}, width=1400, height=700 ) %>%
+  bindCache(input$antenatal_care_visits)
 
 
 ```
@@ -3453,7 +3465,7 @@ renderGirafe({
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)))
     print(x)
-    })
+    }) %>% bindCache(input$vacc)
 
 
 
@@ -3494,7 +3506,7 @@ renderPlot({
   theme(axis.title=element_text(size=14, face="bold"), axis.text = element_text(face = "bold", size = 13)) +
   theme(strip.background =element_rect(fill="darkorange")) 
 
-}, width=700, height=600)
+}, width=700, height=600) %>% bindCache(input$vacc_char)
 ```
 
 <br>
@@ -3578,7 +3590,7 @@ renderPlot({if(input$treat_char%in%c( "Sex", "Residence")){ggplot(treatment[trea
   theme_bw()+ geom_text(aes(label=paste0(round(sought_treatment),"%" )))+
   labs( y="% for whom treatment was sought", title="", x="", fill="")+scale_fill_brewer(palette="Set1")+
   theme(text=element_text(size=16, face="bold"))
-  } }, width=1200, height=700)
+  } }, width=1200, height=700) %>% bindCache(input$treat_char)
 
 ```
 
@@ -3678,7 +3690,7 @@ renderPlot({
   geom_text(aes(label = paste0(Proportion, "%")),position=position_dodge(0.5), hjust=0.3)+
   coord_flip()+
     scale_fill_brewer(palette = "Set1")
-}, width=1200, height=800)
+}, width=1200, height=800) %>% bindCache(input$vacc_char)
 ```
 
 # Early Childhood Development Index 2030 {data-navmenu="Key Indicators"}
@@ -3746,7 +3758,7 @@ renderPlot({ if(input$ecd%in%c("Age", "Sex", "Residence", "Early childhood educa
   theme(text=element_text(size=16))+
   geom_text(aes(label = lab), hjust=0.3, size=5)   
   }
-}, width=1200, height=800)
+}, width=1200, height=800) %>% bindCache(input$input$ecd)
 
 
 
@@ -3923,7 +3935,7 @@ renderGirafe({if(input$nutr%in%"HFA"){
                      opts_zoom(max = 4)), width=15, height=5)
   print(nut_tot1a)
   }
-})#,width = 1500, height=800)
+}) %>% bindCache(input$nutr)#,width = 1500, height=800)
 
 ```
 
@@ -3989,7 +4001,7 @@ renderPlot({if(input$nutr2a%in%"HFA"){
   #   scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
   #   labs(x="", y="",fill="%")+
   #   theme(text=element_text(size=15, face="bold")) 
-},width = 1200, height=700)
+},width = 1200, height=700) %>% bindCache(input$nutr2a)
 ```
 
 
@@ -4069,7 +4081,7 @@ renderGirafe({
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$micronutrients)
 ```
 
 ### **Infant and Young Child Feeding (IYCF)**
@@ -4168,7 +4180,7 @@ if(input$nutrition_women!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
   print(x)}
-})
+}) %>% bindCache(input$nutrition_women)
 ```
 
 ### **Women minimum dietary diversity**
@@ -4242,7 +4254,7 @@ else {
   print(x)
 }
  
-})
+}) %>% bindCache(input$mdd)
 ```
 
 ### **Iron-containing supplementation during pregnancy**
@@ -4325,7 +4337,7 @@ if(input$iron_women!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
   print(x)}
-})
+}) %>% bindCache(input$iron_women)
 ```
 
 # Malaria {data-navmenu="Key Indicators"}
@@ -4448,7 +4460,7 @@ renderGirafe({
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$itn)
 ```
 
 ### **Source of mosquito nets**
@@ -4532,7 +4544,7 @@ renderGirafe({
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$itn_source)
 ```
 
 
@@ -4608,7 +4620,7 @@ if(input$itn_access!="County"){
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$itn_access)
 ```
 
 ### **Use of mosquito nets by households**
@@ -4684,7 +4696,7 @@ if(input$itn_use!="County"){
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$itn_use)
 ```
 
 ### **Use of existing ITNs**
@@ -4759,8 +4771,8 @@ if(input$itn_itn!="County"){
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
-```
+  print(x)}}) %>% bindCache(input$itn_itn)
+``` 
 
 
 ### **Use of mosquito nets:children**
@@ -4835,7 +4847,7 @@ if(input$nets_children!="County"){
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$nets_children)
 ```
 
 
@@ -4874,7 +4886,7 @@ renderPlot({if(input$nets_pregnant%in%c("Residence", "Endemicity zone","Wealth q
   theme(text=element_text(size=16, face="bold"))+
   ylim(0,100)}
   else{
-  }}, width=1600, height=700 )
+  }}, width=1600, height=700 ) %>% bindCache(input$nets_pregnant)
 
 
 
@@ -4978,7 +4990,7 @@ renderGirafe({
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$nets_notuse)
 
 ```
 
@@ -5062,7 +5074,7 @@ renderGirafe({
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$ipt_women)
 
 ```
 
@@ -5144,7 +5156,7 @@ renderGirafe({
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$mal_fever)
 
 ```
 
@@ -5243,7 +5255,7 @@ renderPlot({if(input$hiv_kap%in%c("Age", "Education","Marital status", "Residenc
 }
  else{
  } 
-}, width=1400, height=700)
+}, width=1400, height=700) %>% bindCache(input$hiv_kap)
 
 ```
 
@@ -5288,7 +5300,7 @@ renderGirafe({
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)})
+  print(x)}) %>% bindCache(input$hiv)
 
 
 ```
@@ -5331,7 +5343,7 @@ renderGirafe({
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
   print(x)
-  })
+  }) %>% bindCache(input$hiv_test1)
 
 
 ```
@@ -5454,7 +5466,7 @@ bpx <- girafe(ggobj = bp1,
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$bp)
 
 ```
 
@@ -5574,7 +5586,7 @@ depressnx <- girafe(ggobj = depressn1,
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$depression)
 
 ```
 
@@ -5651,7 +5663,7 @@ renderGirafe({if(input$arthritis!="County"){
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$arthiritis)
 
 
 ```
@@ -5732,7 +5744,7 @@ physic1 <- ggplot(physical_activity[physical_activity$`Background characteristic
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$physical_activity)
 
 
 ```
@@ -5811,7 +5823,7 @@ else{
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$breast_cancer)
 
 
 ```
@@ -5890,7 +5902,7 @@ if(input$cervical_cancer!="County"){
                      opts_hover(css = "fill:#666666;cursor:pointer;"),
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
-  print(x)}})
+  print(x)}}) %>% bindCache(input$cervical_cancer)
 
 
 ```
@@ -6024,7 +6036,7 @@ renderPlot({if(input$control%in%c("Residence", "Education", "Residence", "Number
   facet_wrap(.~Gender)+
   geom_text(aes(label=paste0(value,"%")))+
   theme(text=element_text(size=16, face="bold"))
-  }}, width=1600, height=700 )
+  }}, width=1600, height=700 ) %>% bindCache(input$control)
 
 
 
@@ -6109,7 +6121,7 @@ renderGirafe({if(input$agric_own!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
   print(agric2x)
-  }})
+  }}) %>% bindCache(input$inputagricown)
 
 ```
 
@@ -6175,7 +6187,7 @@ renderGirafe({if(input$nonagric_own!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
   print(non_agric2x)
-     }})
+     }}) %>% bindCache(input$nonagric_own)
 
 ```
 
@@ -6235,7 +6247,7 @@ renderGirafe({if(input$mobile!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
   print(own2x)
-  }})
+  }}) %>% bindCache(input$mobile)
 
 ```
 
@@ -6299,7 +6311,7 @@ renderGirafe({if(input$decision_making!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 4)), width=15, height=5)
   print(decision2x)
-  }})
+  }}) %>% bindCache(input$decision_making)
 
 ```
 
@@ -6374,7 +6386,7 @@ renderGirafe({if(input$safer_sex!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 6)), width=15, height=5)
   print(att2x)
-  }})
+  }}) %>% bindCache(input$safer_sex)
 
 
 ```
@@ -6468,7 +6480,7 @@ renderGirafe({if(input$physical_violence!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 6)), width=15, height=5)
   print( physic2x)
-  }})
+  }}) %>% bindCache(input$physical_violence)
 
 
 
@@ -6565,7 +6577,7 @@ renderGirafe({if(input$violence_preg!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 6)), width=15, height=5)
   print( violenc3x)
-  }})
+  }}) %>% bindCache(input$violence_preg)
 
 
 
@@ -6639,7 +6651,7 @@ renderGirafe({if(input$violence_sexual%in%c("Age","Education","Employment","Resi
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 6)), width=15, height=5)
   print( viol3x)
-  }})
+  }}) %>% bindCache(input$violence_sexual)
 
 
 
@@ -6692,7 +6704,7 @@ renderPlot({ggplot(controlling[controlling$`Background characteristics`%in%input
   geom_col(position="dodge") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), hjust=-0.5)+ylim(0,100)+
   theme_bw() +scale_fill_brewer(palette = "Set1")+coord_flip()+
     facet_grid(~Gender)+
-  labs( x = "", y="%", fill="")+theme(text=element_text(size=16, face="bold"))}, width=1500, height=700)
+  labs( x = "", y="%", fill="")+theme(text=element_text(size=16, face="bold"))}, width=1500, height=700) %>% bindCache(input$controlling)
 
 
 
@@ -6752,7 +6764,7 @@ renderGirafe({if(input$violence_spouse!="County"){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 6)), width=15, height=5)
   print( spouse2x)
-  }})
+  }}) %>% bindCache(input$violence_spouse)
 
 
 
@@ -6834,7 +6846,7 @@ renderGirafe({if(input$violence_women!=c("County", "Marital status")){
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 6)), width=15, height=5)
   print(viol_w3x)
-  }})
+  }})  %>% bindCache(input$violence_women)
 
 
 
@@ -6908,7 +6920,7 @@ renderGirafe({if(input$violence_stop%in%c("Age","Education","Employment","Reside
                      opts_selection(css = "fill:orange;", type = "multiple"),
                      opts_zoom(max = 6)), width=15, height=5)
   print(help3x)
-  }})
+  }}) %>% bindCache(input$violence_stop)
 
 
 
@@ -6942,7 +6954,7 @@ renderPlot({ggplot(sources_help[sources_help$variable%in%input$sources_help,],ae
   geom_col(position="dodge", fill="#74add1") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(0.7), vjust=-0.5, hjust=-1)+
   theme_bw() +scale_fill_brewer(palette = "Set1")+
     facet_grid(~Gender)+coord_flip()+
-  labs( x = "", y="%", fill="")+theme(text=element_text(size=20, face="bold"))}, width=1500, height=700)
+  labs( x = "", y="%", fill="")+theme(text=element_text(size=20, face="bold"))}, width=1500, height=700) %>% bindCache(input$sources_help)
 
 
 
@@ -7073,7 +7085,7 @@ renderPlot({if(input$prevalence_circumcision!="County"){ggplot(prevalence_circum
  theme_void()+scale_fill_gradient(low="#ffffcc", high="#bd0026", na.value = "white")+
  labs(fill="%") +
   theme(text=element_text(size=25),axis.title=element_text(size=14,face="bold"))
-  }}, width=1300, height=700)
+  }}, width=1300, height=700) %>% bindCache(input$prevalence_circumcision)
 
 
 
@@ -7118,7 +7130,7 @@ renderPlot({if(input$age_at_circumcision!="County"){ggplot(age_at_circumcision[a
  theme_void()+scale_fill_gradient(low="#ffffcc", high="#bd0026", na.value = "white")+
  labs(fill="%") +
   theme(text=element_text(size=25),axis.title=element_text(size=14,face="bold"))
-  }}, width=1500, height=700)
+  }}, width=1500, height=700) %>% bindCache(input$age_at_circumcision)
 
 
 
@@ -7147,7 +7159,7 @@ aspects_of_circumcision <- fread('data/table_18/table 18.7 _Aspects_of_circumcis
 renderPlot({ggplot(aspects_of_circumcision[aspects_of_circumcision$Characteristic%in%input$aspects_of_circumcision,],aes(y=value, x=reorder(variable,value), fill=Category)) +coord_flip()+
   geom_col(position="dodge") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(0.7), vjust=-0.5)+
   theme_bw() +scale_fill_brewer(palette = "Set1")+
-  labs( x = "", y="%", fill="")+theme(text=element_text(size=20, face="bold"))}, width=1500, height=700)
+  labs( x = "", y="%", fill="")+theme(text=element_text(size=20, face="bold"))}, width=1500, height=700) %>% bindCache(input$aspects_of_circumcision)
 
 
 
