@@ -299,13 +299,15 @@ selectInput("housing", "",
 
 ```{r}
 
-housing <- fread("data/table_2/table2_1_Housing_by_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+# housing <- fread("data/table_2/table2_1_Housing_by_xtics.csv") |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+housing <- fread("data/table_2/table2_1_Housing_by_xtics_2.csv")
 
 housing$Value <-fct_relevel(housing$Value, "Never", "Daily", "Weekly", "Less than once a month", "Monthly")
 
 renderPlot({
-    ggplot(housing[housing$Characteristics%in%input$housing & housing$Participants%in%"Household",], aes(x=Value, y=Proportion, fill=Category))+geom_bar(stat = 'identity', position = position_dodge())+#,aes(tooltip=paste0(Coverage, "%"))) +
+    ggplot(housing[housing$Characteristics%in%input$housing], aes(x=Value, y=Proportion, fill=Category))+geom_bar(stat = 'identity', position = position_dodge())+#,aes(tooltip=paste0(Coverage, "%"))) +
   labs(y="Percent (%)", x="", fill="")+ylim(0,100)+
     scale_fill_brewer(palette = "Set1")+coord_flip()+
     theme_bw()+theme(text=element_text(size=16, face = "bold")) +
@@ -331,11 +333,13 @@ selectInput("cooking", "",
 ```
 
 ```{r }
-cooking <- fread("data/table_2/table2_2_Cooking_by_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+# cooking <- fread("data/table_2/table2_2_Cooking_by_xtics.csv") |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+cooking <- fread("data/table_2/table2_1_Cooking_by_xtics_2.csv")
 
 renderPlot({
-    ggplot(cooking[cooking$Characteristics%in%input$cooking & cooking$Participants%in%"Household",], aes(x=Value, y=Proportion, fill=Category))+geom_bar(stat = 'identity', position = position_dodge())+#,aes(tooltip=paste0(Coverage, "%"))) +
+    ggplot(cooking[cooking$Characteristics%in%input$cooking], aes(x=Value, y=Proportion, fill=Category))+geom_bar(stat = 'identity', position = position_dodge())+#,aes(tooltip=paste0(Coverage, "%"))) +
   labs(y="Percent (%)", x="", fill="")+ylim(0,100)+
     scale_fill_brewer(palette = "Set1")+coord_flip()+
     theme_bw()+theme(text=element_text(size=16, face = "bold")) +
@@ -364,7 +368,6 @@ selectInput("possessions", "",
 
 hh_possession <- fread("data/table_2/table2_5_HH_possession.csv") |>
   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
-
 
 
 renderPlot({
@@ -633,17 +636,20 @@ selectInput("covid", "",
 ```
 
 ```{r, include=F}
+
 covid_county <- fread("data/table_2/table_2_19_1C_covid_by_county.csv")
 
 
+# covid_county1 <- fread("data/table_2/table_2_19_1C_covid_by_county.csv")
+# covid_county1 <- full_join(county, covid_county|>filter(Participants%in%"Households")|>distinct(), by=c("Name"="County")) |>
+#   mutate(Participants="Households")
+# covid_county2 <- full_join(county, covid_county|>filter(Participants%in%"Population"), by=c("Name"="County")) |>
+#   mutate(Participants="Population")
+# 
+# # 
+# # covid_county3 <- rbind(covid_county1, covid_county2)
 
-covid_county1 <- full_join(county, covid_county|>filter(Participants%in%"Households")|>distinct(), by=c("Name"="County")) |>
-  mutate(Participants="Households")
-covid_county2 <- full_join(county, covid_county|>filter(Participants%in%"Population"), by=c("Name"="County")) |>
-  mutate(Participants="Population")
-
-
-covid_county3 <- rbind(covid_county1, covid_county2)
+covid_county3 <- fread("data/table_2/table_2_19_1C_covid_by_county_bind.csv")
 
 breaks<- classIntervals(covid_county3$Proportion, n=5, style="quantile", na.rm=T)
 
@@ -652,8 +658,6 @@ covid_county3 <- covid_county3 |>
                                                                                                 fifelse(Proportion>30.0&Proportion<48.0, "30.1-47.9", ">48.0")))))
 
 covid_county3$cat <- fct_relevel(covid_county3$cat, "<9.6", "9.6-18.6", "18.7-30.0", "30.1-47.9", ">48.0")
-
-
 
 ```
 
