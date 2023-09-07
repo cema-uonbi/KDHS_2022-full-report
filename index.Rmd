@@ -904,6 +904,9 @@ county <- st_read("shapefiles/County.shp")|>
  "Busia","Kakamega","Vihiga"),"Western", fifelse(Name%in%c("Kisumu", "Siaya","Homa Bay","Kisii", "Migori","Nyamira"),"Nyanza", fifelse(Name%in%"Nairobi","Nairobi", "Rift Valley"))))))))|>
   rename(County=Name)
 
+background_characteristics_map <- background_characteristics_map[, cat := fifelse(weighted_perc<0.8, "<0.8",
+fifelse(weighted_perc>0.7 & weighted_perc<1.3, "0.8-1.2", fifelse(weighted_perc>1.2 & weighted_perc <2.1, "1.3-2.0",                      fifelse(weighted_perc>2.0&weighted_perc<2.9, "2.1-2.8", ">2.8"))))]
+
 background_characteristics_map <- full_join(county, background_characteristics_map, by="County")
 
 
@@ -933,9 +936,10 @@ background_characteristics_map <- full_join(county, background_characteristics_m
 
 breaks<- classIntervals(background_characteristics_map$weighted_perc, n=5, style="quantile", na.rm=T)
 
-background_characteristics_map <- background_characteristics_map |>
-  mutate(cat=fifelse(weighted_perc<0.8, "<0.8", fifelse(weighted_perc>0.7 & weighted_perc<1.3, "0.8-1.2", fifelse(weighted_perc>1.2 & weighted_perc <2.1, "1.3-2.0",
-                                                                                                fifelse(weighted_perc>2.0&weighted_perc<2.9, "2.1-2.8", ">2.8")))))
+# background_characteristics_map <- background_characteristics_map |>
+# mutate(cat=fifelse(weighted_perc<0.8, "<0.8",
+# fifelse(weighted_perc>0.7 & weighted_perc<1.3, "0.8-1.2", fifelse(weighted_perc>1.2 & weighted_perc <2.1, "1.3-2.0",                      fifelse(weighted_perc>2.0&weighted_perc<2.9, "2.1-2.8", ">2.8")))))
+
 
 background_characteristics_map$cat <- fct_relevel(background_characteristics_map$cat, "<0.8", "0.8-1.2", "1.3-2.0", "2.1-2.8", ">2.8")
 
@@ -1058,14 +1062,15 @@ selectInput("occupation", "",
 ```
 
 ```{r, include=F}
-occupation_county <- fread("data/table_3/table3_7C_occupation_by_county.csv")
+occupation_county <- read.csv("data/table_3/table3_7C_occupation_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
-occupation_county1 <- full_join(county, occupation_county|>filter(Participants%in%"Women"), by=c("Name"="County")) |>
-  mutate(Participants="Women")
-occupation_county2 <- full_join(county, occupation_county|>filter(Participants%in%"Men"), by=c("Name"="County")) |>
-  mutate(Participants="Men")
+occupation_county1 <- full_join(county, occupation_county|>filter(Participants%in%"Women"), by=c("Name"="County"))|>
+mutate(Participants="Women")
+occupation_county2 <- full_join(county, occupation_county|>filter(Participants%in%"Men"), by=c("Name"="County"))|>
+mutate(Participants="Men")
 occupation_county3 <- rbind(occupation_county1, occupation_county2)
+
 
 breaks<- classIntervals(occupation_county3$Proportion, n=5, style="quantile", na.rm=T)
 
@@ -1136,8 +1141,10 @@ selectInput("employment", "",
 
 ```{r}
 
-employment <-fread("data/table_3/table3_8_employment_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+employment <-fread("data/table_3/table3_8_employment_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+employment[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 
 renderPlot({
@@ -1179,8 +1186,9 @@ migration_county3 <-rbind(migration_county1, migration_county2)
 
 
 ```{r}
-migration <- fread("data/table_3/table_3_17_migration_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+migration <- fread("data/table_3/table_3_17_migration_by_background_xtics.csv") #|>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+migration[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 migration$Value<- fct_relevel(migration$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1255,8 +1263,10 @@ valueBox(
 
 ```{r}
 
-water_collector <- fread("data/table_16/table_16_3_water_collection_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+water_collector <- fread("data/table_16/table_16_3_water_collection_by_background_xtics.csv") 
+#|>
+  # mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+water_collector[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 water_collector$Value<- fct_relevel(water_collector$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1317,8 +1327,10 @@ renderGirafe({if(input$collector!="County"){
 
 ```{r}
 
-water_treat <- fread("data/table_16/table_16_5_water_treatment_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+water_treat <- fread("data/table_16/table_16_5_water_treatment_by_background_xtics.csv") 
+#|>
+#  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+water_treat[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 water_treat$Value <- fct_relevel(water_treat$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1381,8 +1393,10 @@ renderGirafe({if(input$water_treat!="County"){
 
 ```{r}
 
-excreta_mgmnt <- fread("data/table_16/table_16_9_excreta_management_by_background_xtics.csv")|>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+excreta_mgmnt <- fread("data/table_16/table_16_9_excreta_management_by_background_xtics.csv")
+#|>
+#mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+excreta_mgmnt[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 
 excreta_mgmnt$Value<- fct_relevel(excreta_mgmnt$Value, 
@@ -1446,8 +1460,10 @@ renderGirafe({if(input$excreta_mgmnt!="County"){
 
 ```{r}
 
-child_stool_disp <- fread("data/table_16/table_16_10_stool_disposal_by_background_xtics.csv")|>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+child_stool_disp <- fread("data/table_16/table_16_10_stool_disposal_by_background_xtics.csv")
+#|>
+  #mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+child_stool_disp[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 
 child_stool_disp$Value <- fct_relevel(child_stool_disp$Value, 
@@ -1517,8 +1533,11 @@ renderGirafe({if(input$child_stool_disp!="County"){
 
 ```{r}
 
-handwashing <- fread("data/table_16/table_16_11_handwashing_by_background_xtics.csv")|>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+handwashing <- fread("data/table_16/table_16_11_handwashing_by_background_xtics.csv")
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+handwashing[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 handwashing$Value <- fct_relevel(handwashing$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1910,12 +1929,15 @@ fertility_rate$category <- fct_relevel(fertility_rate$category,
 
 #tfrbycounty_2014 <- full_join(county, tfrbycounty_2014, by=c("Name"="County"))
 
-TFRbycounty.2022 <- fread("data/table_5/Table 5.2_C  Fertility by county.2022.csv")|>
-  filter(Category%in%"TFR")|>
-  mutate(proportion_category=fifelse(Proportion<4,"<4",">=4"))|>
-  mutate(County=recode(County,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
+# TFRbycounty.2022 <- fread("data/table_5/Table 5.2_C  Fertility by county.2022.csv")|>
+#   filter(Category%in%"TFR")|>
+#   mutate(proportion_category=fifelse(Proportion<4,"<4",">=4"))|>
+#   mutate(County=recode(County,"Elgeyo/Marakwet"="Elgeyo Marakwet", "Murang’a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
 
-TFRbycounty.2022$proportion_category <- as.factor(fct_relevel(TFRbycounty.2022$proportion_category, c( "<4", ">=4")))
+# TFRbycounty.2022$proportion_category <- as.factor(fct_relevel(TFRbycounty.2022$proportion_category, c( "<4", ">=4")))
+
+TFRbycounty.2022 <- fread("data/table_5/Table 5.2_C  Fertility by county.2022_bind.csv")
+
 
 TFRbycounty.2022_1 <- full_join(county, TFRbycounty.2022, by=c("Name"="County"))
 
