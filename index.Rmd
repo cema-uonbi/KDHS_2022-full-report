@@ -366,9 +366,11 @@ selectInput("possessions", "",
 
 ```{r}
 
-hh_possession <- fread("data/table_2/table2_5_HH_possession.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+# hh_possession <- fread("data/table_2/table2_5_HH_possession.csv") |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
+hh_possession <-fread("data/table_2/table2_5_HH_possession.csv") |> as.data.table() |>
+      (\(x) {x$Proportion <- fifelse(x$Proportion > 0.5,  round(x$Proportion), x$Proportion); x})()
 
 renderPlot({
     ggplot(hh_possession[hh_possession$Possessions%in%input$possessions,], aes(x=Value, y=Proportion, fill=Category))+geom_bar(stat = 'identity', position = position_dodge())+
@@ -402,8 +404,11 @@ selectInput("birth_reg", "",
 ```
 
 ```{r, include=F}
-birth_reg_county <- fread("data/table_2/table2_10C_Birth_registration_by_county.csv")|>
-  mutate(Proportion=as.numeric(Proportion))
+# birth_reg_county <- fread("data/table_2/table2_10C_Birth_registration_by_county.csv")|>
+#   mutate(Proportion=as.numeric(Proportion))
+
+birth_reg_county <- fread("data/table_2/table2_10C_Birth_registration_by_county.csv")
+birth_reg_county[, Proportion := as.numeric(Proportion)]
 
 breaks<- classIntervals(birth_reg_county$Proportion, n=5, style="quantile", na.rm=T)
 
@@ -423,9 +428,13 @@ birth_reg_county1 <- full_join(county, birth_reg_county, by=c("Name"="County"))
 
 ```{r }
 
-birth_reg <- fread("data/table_2/table2_10_Birth_registration_by_background_xtics.csv")|>
-  mutate(Proportion=as.numeric(Proportion)) |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+# birth_reg <- fread("data/table_2/table2_10_Birth_registration_by_background_xtics.csv")|>
+#   mutate(Proportion=as.numeric(Proportion)) |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+birth_reg <- fread("data/table_2/table2_10_Birth_registration_by_background_xtics.csv") |>
+  (\(x) {x$Proportion <- fifelse(x$Proportion > 0.5, round(x$Proportion), x$Proportion); x})()
+    birth_reg[, Proportion := as.numeric(Proportion)]
 
 birth_reg$Value<- fct_relevel(birth_reg$Value, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -479,14 +488,24 @@ selectInput("school_attendance", "",
 ```
 
 ```{r, include=F}
-school_att_county <- fread("data/table_2/table_2_12C_School_attendance_by_county.csv")|>
-  filter(!(Category%in%"Gender Parity Index"))
+
+# school_att_county <- fread("data/table_2/table_2_12C_School_attendance_by_county.csv")|>
+#   filter(!(Category%in%"Gender Parity Index"))
+
+school_att_county <- fread("data/table_2/table_2_12C_School_attendance_by_county.csv") |>
+      as.data.table() |>
+      subset(!(Category %in% "Gender Parity Index"))
 
 breaks<- classIntervals(school_att_county$Proportion, n=5, style="quantile", na.rm=T)
 
-school_att_county <- school_att_county |>
-  mutate(cat=fifelse(Proportion<52, "<52", fifelse(Proportion>51 & Proportion<76, "51-75", fifelse(Proportion>75 & Proportion <90, "75-89",
-                                                                                                fifelse(Proportion>89&Proportion<104, "90-103", ">103")))))
+# school_att_county <- school_att_county |>
+#   mutate(cat=fifelse(Proportion<52, "<52", fifelse(Proportion>51 & Proportion<76, "51-75", fifelse(Proportion>75 & Proportion <90, "75-89",
+#                                                                                                 fifelse(Proportion>89&Proportion<104, "90-103", ">103")))))
+
+school_att_county <- school_att_county[, cat := fifelse(Proportion < 52, "<52",
+                      fifelse(Proportion > 51 & Proportion < 76, "51-75",
+                      fifelse(Proportion > 75 & Proportion < 90, "75-89",
+                      fifelse(Proportion > 89 & Proportion < 104, "90-103", ">103"))))]
 
 school_att_county$cat <- fct_relevel(school_att_county$cat, "<52", "51-75", "75-89", "90-103", ">103")
 
@@ -499,8 +518,13 @@ school_att_county1 <- full_join(county, school_att_county, by=c("Name"="County")
 
 ```{r}
 
-school_attendance <- fread("data/table_2/table_2_12_School_attendance_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+# school_attendance <- fread("data/table_2/table_2_12_School_attendance_by_background_xtics.csv") |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+
+school_attendance <- fread("data/table_2/table_2_12_School_attendance_by_background_xtics.csv") |> (\(x) {x$Proportion <- fifelse(x$Proportion > 0.5, round(x$Proportion), x$Proportion); x})()
+  
+
 
 school_attendance$Value<- fct_relevel(school_attendance$Value, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -537,9 +561,6 @@ renderGirafe({
  
 })
 
-
-
-
 ```
 
 ### **Road Traffic Accidents**
@@ -557,8 +578,12 @@ selectInput("rta", "",
 ```
 
 ```{r, include=F}
-RTA <- fread("data/table_2/table_2_17_RTA_by_background_xtics.csv") |>
-  mutate(Proportion=parse_number(Proportion))
+# RTA <- fread("data/table_2/table_2_17_RTA_by_background_xtics.csv") |>
+#   mutate(Proportion=parse_number(Proportion))
+
+RTA <- fread("data/table_2/table_2_17_RTA_by_background_xtics.csv")
+RTA$Proportion <- gsub(",","", RTA$Proportion)
+RTA$Proportion <- as.numeric(RTA$Proportion)
 
 RTA$Value<- fct_relevel(RTA$Value, "Lowest", "Second", "Middle", "Fourth", "Highest")
 
@@ -566,9 +591,14 @@ RTA_county <- fread("data/table_2/table_2_17_RTA_by_county.csv") |>
   mutate(Proportion=as.numeric(Proportion))
 breaks<- classIntervals(RTA_county$Proportion, n=5, style="quantile", na.rm=T)
 
-RTA_county <- RTA_county |>
-  mutate(cat=fifelse(Proportion<33, "<33", fifelse(Proportion>32 & Proportion<85, "33-84", fifelse(Proportion>84 & Proportion <211, "85-210",
-                                                                                                fifelse(Proportion>210 &Proportion<1062, "211-1061", ">1062")))))
+# RTA_county <- RTA_county |>
+#   mutate(cat=fifelse(Proportion<33, "<33", fifelse(Proportion>32 & Proportion<85, "33-84", fifelse(Proportion>84 & Proportion <211, "85-210",
+#                                                                                                 fifelse(Proportion>210 &Proportion<1062, "211-1061", ">1062")))))
+
+RTA_county <- RTA_county[, cat := fifelse(Proportion < 33, "<33",
+                      fifelse(Proportion > 32 & Proportion < 85, "33-84",
+                      fifelse(Proportion > 84 & Proportion < 211, "85-210",
+                      fifelse(Proportion > 210 & Proportion < 1062, "211-1061", ">1062"))))]
 
 RTA_county$cat <- fct_relevel(RTA_county$cat, "<33", "33-84","85-210", "211-1061",">1062" )
 
@@ -646,8 +676,8 @@ covid_county <- fread("data/table_2/table_2_19_1C_covid_by_county.csv")
 # covid_county2 <- full_join(county, covid_county|>filter(Participants%in%"Population"), by=c("Name"="County")) |>
 #   mutate(Participants="Population")
 # 
-# # 
-# # covid_county3 <- rbind(covid_county1, covid_county2)
+# 
+# covid_county3 <- rbind(covid_county1, covid_county2)
 
 covid_county3 <- fread("data/table_2/table_2_19_1C_covid_by_county_bind.csv")
 
@@ -656,8 +686,7 @@ covid_county3 <- full_join(county,covid_county3, by=c("Name"="County"))
 breaks<- classIntervals(covid_county3$Proportion, n=5, style="quantile", na.rm=T)
 
 covid_county3 <- covid_county3 |>
-  mutate(cat=fifelse(Proportion<9.6, "<9.6", fifelse(Proportion>9.5 & Proportion<18.7, "9.6-18.6", fifelse(Proportion>18.6 & Proportion <30.1, "18.7-30.0",
-                                                                                                fifelse(Proportion>30.0&Proportion<48.0, "30.1-47.9", ">48.0")))))
+  mutate(cat=fifelse(Proportion<9.6, "<9.6", fifelse(Proportion>9.5 & Proportion<18.7, "9.6-18.6", fifelse(Proportion>18.6 & Proportion <30.1, "18.7-30.0",         fifelse(Proportion>30.0&Proportion<48.0, "30.1-47.9", ">48.0")))))
 
 covid_county3$cat <- fct_relevel(covid_county3$cat, "<9.6", "9.6-18.6", "18.7-30.0", "30.1-47.9", ">48.0")
 
@@ -665,11 +694,15 @@ covid_county3$cat <- fct_relevel(covid_county3$cat, "<9.6", "9.6-18.6", "18.7-30
 
 ```{r}
 
-covid <- fread("data/table_2/table_2_19_1_covid_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+# covid <- fread("data/table_2/table_2_19_1_covid_by_background_xtics.csv") |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
 
-covid$Value<- fct_relevel(covid$Value, 
-                                   "Lowest", "Second", "Middle", "Fourth", "Highest")
+covid <- fread("data/table_2/table_2_19_1_covid_by_background_xtics.csv") |>
+      as.data.table() |>
+      (\(x) {x$Proportion <- fifelse(x$Proportion > 0.5, round(x$Proportion), x$Proportion); x})()
+
+covid$Value<- fct_relevel(covid$Value, "Lowest", "Second", "Middle", "Fourth", "Highest")
+
 renderGirafe({if(input$covid%in%"Residence"){
     covid1 <- ggplot(covid[covid$`Background characteristics`%in%input$covid & covid$Participants%in%"Households",], aes(x=Value, y=Proportion, fill=Category))+geom_bar(stat = 'identity', position = position_dodge())+facet_grid(.~Participants)+ylim(0,100)+
     #,aes(tooltip=paste0(Coverage, "%"))) +
@@ -756,8 +789,12 @@ cash_transfer_county1$cat <- fct_relevel(cash_transfer_county1$cat, "<0.7", "0.7
 ```
 
 ```{r}
+# cash_transfer <- fread("data/table_2/table_2_22_1_cash_transfer_by_provider.csv") |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
 cash_transfer <- fread("data/table_2/table_2_22_1_cash_transfer_by_provider.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+      as.data.table() |>
+      (\(x) {x$Proportion <- fifelse(x$Proportion > 0.5, round(x$Proportion), x$Proportion); x})()
 
 renderGirafe({if(input$cash_transfer!="County"){
   cash_trans1 <- ggplot(cash_transfer[cash_transfer$Provider1%in%input$cash_transfer,], aes(x=reorder(`Reason For Assistance`,Proportion), y=Proportion))+
@@ -848,34 +885,51 @@ selectInput("char", "",
 
 ```{r, include=F}
 
+# respondentsdata <- fread("data/table_2/table2_respondentsdata.csv") |>
+#   mutate(Weighted_percent=fifelse(Weighted_percent>0.5, round(Weighted_percent),Weighted_percent))
+
 respondentsdata <- fread("data/table_2/table2_respondentsdata.csv") |>
-  mutate(Weighted_percent=fifelse(Weighted_percent>0.5, round(Weighted_percent),Weighted_percent))
+      as.data.table() |>
+      (\(x) {x$Weighted_percent <- fifelse(x$Weighted_percent > 0.5, round(x$Weighted_percent), x$Weighted_percent); x})()
 
 
 respondentsdata$Grouping<- fct_relevel(respondentsdata$Grouping, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest", "No education", "Primary", "Secondary", "More than secondary")
 ## county data
 
-### men
-men_background_xtics_county <- fread("data/table_2/table2C_men_backgroundxtics_by_county.csv") |>
-  mutate(group="Men")
+background_characteristics_map <- fread("data/table_2/table_2C_backgroundxtics_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")|>
   mutate(region=fifelse(Name%in%c("Kilifi","Kwale","Lamu", "Mombasa", "Taita Taveta", "Tana River"),"Coast", fifelse(Name%in%c("Garissa", "Mandera", "Wajir"),"North Eastern", fifelse(Name%in%c("Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni"),"Eastern", fifelse(Name%in%c("Kiambu", "Kirinyaga","Muranga","Nyandarua", "Nyeri"),"Central", fifelse(Name%in%c("Bungoma",
  "Busia","Kakamega","Vihiga"),"Western", fifelse(Name%in%c("Kisumu", "Siaya","Homa Bay","Kisii", "Migori","Nyamira"),"Nyanza", fifelse(Name%in%"Nairobi","Nairobi", "Rift Valley"))))))))|>
   rename(County=Name)
 
-men_background_xtics_county1 <- full_join(county, men_background_xtics_county, by="County")|>
-  mutate(names=paste0(County,", ", weighted_perc,"%"))
+background_characteristics_map <- full_join(county, background_characteristics_map, by="County")
+
+
+# background_characteristics_map <- rbind(women_background_xtics_county, men_background_xtics_county)
+
+# ### men
+# men_background_xtics_county <- fread("data/table_2/table2C_men_backgroundxtics_by_county.csv") |>
+#   mutate(group="Men") |>
+#   mutate(names=paste0(County,", ", weighted_perc,"%"))
+# 
+# ### women
+# women_background_xtics_county <- fread("data/table_2/table2C_women_backgroundxtics_by_county.csv") |>
+#   mutate(group="Women") |>
+#   mutate(names=paste0(County,", ", weighted_perc,"%"))
+
+# men_background_xtics_county1 <- full_join(county, men_background_xtics_county, by="County")|>
+#   mutate(names=paste0(County,", ", weighted_perc,"%"))
 
 ### women
-women_background_xtics_county <- fread("data/table_2/table2C_women_backgroundxtics_by_county.csv") |>
-  mutate(group="Women")
+# women_background_xtics_county <- fread("data/table_2/table2C_women_backgroundxtics_by_county.csv") |>
+#   mutate(group="Women")
 
-women_background_xtics_county1 <- full_join(county, women_background_xtics_county, by="County")|>
-  mutate(names=paste0(County,", ", weighted_perc,"%"))
+# women_background_xtics_county1 <- full_join(county, women_background_xtics_county, by="County")|>
+#   mutate(names=paste0(County,", ", weighted_perc,"%"))
 
-background_characteristics_map <- rbind(women_background_xtics_county1, men_background_xtics_county1)
+# background_characteristics_map <- rbind(women_background_xtics_county1, men_background_xtics_county1)
 
 breaks<- classIntervals(background_characteristics_map$weighted_perc, n=5, style="quantile", na.rm=T)
 
