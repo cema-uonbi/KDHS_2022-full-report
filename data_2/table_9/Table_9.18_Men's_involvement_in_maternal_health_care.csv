@@ -1,0 +1,69 @@
+"Characteristic","Variable","category","proportion"
+"20-34","Father's age","Reports ANC was done",95.8
+"20-34","Father's age","Present during ANC visit",58.3
+"20-34","Father's age","Reports child was born in a facility",92.7
+"20-34","Father's age","Went with mother to facility",64.8
+"35-49","Father's age","Reports ANC was done",94.4
+"35-49","Father's age","Present during ANC visit",49.5
+"35-49","Father's age","Reports child was born in a facility",89.3
+"35-49","Father's age","Went with mother to facility",70.2
+"1","Children ever fathered","Reports ANC was done",93.8
+"1","Children ever fathered","Present during ANC visit",58.3
+"1","Children ever fathered","Reports child was born in a facility",94.3
+"1","Children ever fathered","Went with mother to facility",58.7
+"2-3","Children ever fathered","Reports ANC was done",97.1
+"2-3","Children ever fathered","Present during ANC visit",58
+"2-3","Children ever fathered","Reports child was born in a facility",94
+"2-3","Children ever fathered","Went with mother to facility",71.5
+"4-5","Children ever fathered","Reports ANC was done",93.5
+"4-5","Children ever fathered","Present during ANC visit",47.8
+"4-5","Children ever fathered","Reports child was born in a facility",89.3
+"4-5","Children ever fathered","Went with mother to facility",68.1
+"6+","Children ever fathered","Reports ANC was done",94.1
+"6+","Children ever fathered","Present during ANC visit",44.8
+"6+","Children ever fathered","Reports child was born in a facility",78.3
+"6+","Children ever fathered","Went with mother to facility",61.8
+"Urban","Residence","Reports ANC was done",95.6
+"Urban","Residence","Present during ANC visit",65.1
+"Urban","Residence","Reports child was born in a facility",97.4
+"Urban","Residence","Went with mother to facility",72.3
+"Rural","Residence","Reports ANC was done",95
+"Rural","Residence","Present during ANC visit",47.1
+"Rural","Residence","Reports child was born in a facility",86.8
+"Rural","Residence","Went with mother to facility",61.7
+"No education","Education","Reports ANC was done",90.3
+"No education","Education","Present during ANC visit",34.4
+"No education","Education","Reports child was born in a facility",55.1
+"No education","Education","Went with mother to facility",70
+"Primary","Education","Reports ANC was done",95.3
+"Primary","Education","Present during ANC visit",44.2
+"Primary","Education","Reports child was born in a facility",88.1
+"Primary","Education","Went with mother to facility",62.3
+"Secondary","Education","Reports ANC was done",94.6
+"Secondary","Education","Present during ANC visit",58.5
+"Secondary","Education","Reports child was born in a facility",95.5
+"Secondary","Education","Went with mother to facility",66.9
+"More than secondary","Education","Reports ANC was done",97.3
+"More than secondary","Education","Present during ANC visit",69.9
+"More than secondary","Education","Reports child was born in a facility",98.6
+"More than secondary","Education","Went with mother to facility",71.4
+"Lowest","Wealth","Reports ANC was done",92.7
+"Lowest","Wealth","Present during ANC visit",35.1
+"Lowest","Wealth","Reports child was born in a facility",68.1
+"Lowest","Wealth","Went with mother to facility",59.5
+"Second","Wealth","Reports ANC was done",96.3
+"Second","Wealth","Present during ANC visit",46.3
+"Second","Wealth","Reports child was born in a facility",89.9
+"Second","Wealth","Went with mother to facility",61.4
+"Middle","Wealth","Reports ANC was done",94.3
+"Middle","Wealth","Present during ANC visit",54.2
+"Middle","Wealth","Reports child was born in a facility",94.6
+"Middle","Wealth","Went with mother to facility",59.3
+"Fourth","Wealth","Reports ANC was done",96.1
+"Fourth","Wealth","Present during ANC visit",59.2
+"Fourth","Wealth","Reports child was born in a facility",98.1
+"Fourth","Wealth","Went with mother to facility",67.3
+"Highest","Wealth","Reports ANC was done",96.2
+"Highest","Wealth","Present during ANC visit",71
+"Highest","Wealth","Reports child was born in a facility",99.2
+"Highest","Wealth","Went with mother to facility",78.8

@@ -1,0 +1,22 @@
+"perceived_fertility_period","variable","Proportion"
+"Just before her menstrual period begins","Users of rythm method",15
+"Just before her menstrual period begins","Users of SDM",4
+"Just before her menstrual period begins","All women",12
+"During her menstrual period","Users of rythm method",0.4
+"During her menstrual period","Users of SDM",1
+"During her menstrual period","All women",2
+"Right after her menstrual period has ended","Users of rythm method",30
+"Right after her menstrual period has ended","Users of SDM",37
+"Right after her menstrual period has ended","All women",30
+"Halfway between two menstrual periods","Users of rythm method",47
+"Halfway between two menstrual periods","Users of SDM",51
+"Halfway between two menstrual periods","All women",38
+"Other","Users of rythm method",0
+"Other","Users of SDM",0
+"Other","All women",0.2
+"No specific time","Users of rythm method",4
+"No specific time","Users of SDM",4
+"No specific time","All women",8
+"Don't know","Users of rythm method",3
+"Don't know","Users of SDM",3
+"Don't know","All women",10

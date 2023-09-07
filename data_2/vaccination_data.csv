@@ -1,0 +1,507 @@
+"Characteristics","Vaccines","Percent","group","indicator","Vaccines1"
+"Male","BCG",96.4,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","DPT1",96.9,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","DPT2",93.8,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","DPT3",88.8,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","OPV0",86,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","OPV1",95.9,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","OPV2",93.6,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","OPV3",77.5,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","IPV",88.2,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","Pneumococcal1",96.2,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","Pneumococcal2",95.2,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","Pneumococcal3",91.2,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","Rotavirus1",95.8,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","Rotavirus2",92.1,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","MR1",89.5,"CountyFullyVaccinated12","Gender","Vaccines"
+"Male","Fully vaccinated
+(basic antigens)",80.2,"CountyFullyVaccinated12","Gender","Summary"
+"Male","Fully vaccinated
+(national schedule)",56,"CountyFullyVaccinated12","Gender","Summary"
+"Male","No vaccinations",2.5,"CountyFullyVaccinated12","Gender","Summary"
+"Female","BCG",97.4,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","DPT1",97.3,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","DPT2",94.1,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","DPT3",89.5,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","OPV0",86.2,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","OPV1",97,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","OPV2",94.8,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","OPV3",78.9,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","IPV",86.5,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","Pneumococcal1",96.8,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","Pneumococcal2",95.6,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","Pneumococcal3",91.1,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","Rotavirus1",96.2,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","Rotavirus2",92.5,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","MR1",88.6,"CountyFullyVaccinated12","Gender","Vaccines"
+"Female","Fully vaccinated
+(basic antigens)",80,"CountyFullyVaccinated12","Gender","Summary"
+"Female","Fully vaccinated
+(national schedule)",54.4,"CountyFullyVaccinated12","Gender","Summary"
+"Female","No vaccinations",1.8,"CountyFullyVaccinated12","Gender","Summary"
+"1","BCG",97.1,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","DPT1",98,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","DPT2",95.8,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","DPT3",92,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","OPV0",89.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","OPV1",96.5,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","OPV2",94.7,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","OPV3",79.8,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","IPV",89.5,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","Pneumococcal1",97.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","Pneumococcal2",96.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","Pneumococcal3",93.4,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","Rotavirus1",96.6,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","Rotavirus2",94.7,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","MR1",94.1,"CountyFullyVaccinated12","Birth","Vaccines"
+"1","Fully vaccinated
+(basic antigens)",85.1,"CountyFullyVaccinated12","Birth","Summary"
+"1","Fully vaccinated
+(national schedule)",61.2,"CountyFullyVaccinated12","Birth","Summary"
+"1","No vaccinations",1.6,"CountyFullyVaccinated12","Birth","Summary"
+"2–3","BCG",97.6,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","DPT1",97.4,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","DPT2",94.3,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","DPT3",89,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","OPV0",88.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","OPV1",97.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","OPV2",94.6,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","OPV3",79.1,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","IPV",88.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","Pneumococcal1",96.7,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","Pneumococcal2",95.8,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","Pneumococcal3",91.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","Rotavirus1",96.7,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","Rotavirus2",92.3,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","MR1",91.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"2–3","Fully vaccinated
+(basic antigens)",81.9,"CountyFullyVaccinated12","Birth","Summary"
+"2–3","Fully vaccinated
+(national schedule)",56.8,"CountyFullyVaccinated12","Birth","Summary"
+"2–3","No vaccinations",1.9,"CountyFullyVaccinated12","Birth","Summary"
+"4–5","BCG",97,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","DPT1",96.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","DPT2",92.8,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","DPT3",88.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","OPV0",82.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","OPV1",96.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","OPV2",95.1,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","OPV3",77.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","IPV",86.4,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","Pneumococcal1",96.4,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","Pneumococcal2",95.3,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","Pneumococcal3",91.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","Rotavirus1",95.1,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","Rotavirus2",90.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","MR1",83.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"4–5","Fully vaccinated
+(basic antigens)",75.8,"CountyFullyVaccinated12","Birth","Summary"
+"4–5","Fully vaccinated
+(national schedule)",51,"CountyFullyVaccinated12","Birth","Summary"
+"4–5","No vaccinations",2,"CountyFullyVaccinated12","Birth","Summary"
+"6+","BCG",93.5,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","DPT1",93.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","DPT2",89.4,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","DPT3",82.5,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","OPV0",71.1,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","OPV1",93,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","OPV2",89.5,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","OPV3",70.8,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","IPV",80.3,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","Pneumococcal1",93.9,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","Pneumococcal2",92.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","Pneumococcal3",84.8,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","Rotavirus1",93.1,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","Rotavirus2",89.1,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","MR1",76.2,"CountyFullyVaccinated12","Birth","Vaccines"
+"6+","Fully vaccinated
+(basic antigens)",67,"CountyFullyVaccinated12","Birth","Summary"
+"6+","Fully vaccinated
+(national schedule)",40.3,"CountyFullyVaccinated12","Birth","Summary"
+"6+","No vaccinations",4.9,"CountyFullyVaccinated12","Birth","Summary"
+"Seen","BCG",99.2,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","DPT1",99.4,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","DPT2",98.6,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","DPT3",96,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","OPV0",88.3,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","OPV1",99.5,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","OPV2",98.8,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","OPV3",95.6,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","IPV",86.9,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","Pneumococcal1",98.7,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","Pneumococcal2",97.9,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","Pneumococcal3",95,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","Rotavirus1",98.8,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","Rotavirus2",95.5,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","MR1",90.9,"CountyFullyVaccinated12","Card","Vaccines"
+"Seen","Fully vaccinated
+(basic antigens)",87.4,"CountyFullyVaccinated12","Card","Summary"
+"Seen","Fully vaccinated
+(national schedule)",69.1,"CountyFullyVaccinated12","Card","Summary"
+"Seen","No vaccinations",0,"CountyFullyVaccinated12","Card","Summary"
+"Not seen or 
+ no longer has card","BCG",94.6,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","DPT1",94.3,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","DPT2",83.6,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","DPT3",72,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","OPV0",84.2,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","OPV1",90.8,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","OPV2",83.8,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","OPV3",25.9,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","IPV",93.7,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","Pneumococcal1",94.2,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","Pneumococcal2",92.3,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","Pneumococcal3",83.7,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","Rotavirus1",91.5,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","Rotavirus2",86.6,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","MR1",88.1,"CountyFullyVaccinated12","Card","Vaccines"
+"Not seen or 
+ no longer has card","Fully vaccinated
+(basic antigens)",60.9,"CountyFullyVaccinated12","Card","Summary"
+"Not seen or 
+ no longer has card","Fully vaccinated
+(national schedule)",13.4,"CountyFullyVaccinated12","Card","Summary"
+"Not seen or 
+ no longer has card","No vaccinations",4.3,"CountyFullyVaccinated12","Card","Summary"
+"Never had card","BCG",33.9,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","DPT1",37.6,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","DPT2",29.5,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","DPT3",23.3,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","OPV0",19,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","OPV1",40.4,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","OPV2",33.4,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","OPV3",5.5,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","IPV",31,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","Pneumococcal1",36.4,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","Pneumococcal2",32.4,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","Pneumococcal3",28.7,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","Rotavirus1",35.8,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","Rotavirus2",30.8,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","MR1",26.3,"CountyFullyVaccinated12","Card","Vaccines"
+"Never had card","Fully vaccinated
+(basic antigens)",17.4,"CountyFullyVaccinated12","Card","Summary"
+"Never had card","Fully vaccinated
+(national schedule)",0.2,"CountyFullyVaccinated12","Card","Summary"
+"Never had card","No vaccinations",59.6,"CountyFullyVaccinated12","Card","Summary"
+"No education","BCG",88.5,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","DPT1",88.3,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","DPT2",80.7,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","DPT3",73,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","OPV0",54.4,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","OPV1",87.4,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","OPV2",81.8,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","OPV3",57.8,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","IPV",75.3,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","Pneumococcal1",88.5,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","Pneumococcal2",84.7,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","Pneumococcal3",77.9,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","Rotavirus1",87.1,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","Rotavirus2",78.9,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","MR1",64,"CountyFullyVaccinated12","Education","Vaccines"
+"No education","Fully vaccinated
+(basic antigens)",53.6,"CountyFullyVaccinated12","Education","Summary"
+"No education","Fully vaccinated
+(national schedule)",22.7,"CountyFullyVaccinated12","Education","Summary"
+"No education","No vaccinations",9.6,"CountyFullyVaccinated12","Education","Summary"
+"Primary","BCG",98.3,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","DPT1",98.2,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","DPT2",95.1,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","DPT3",90.6,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","OPV0",87.5,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","OPV1",98.2,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","OPV2",96,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","OPV3",80.6,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","IPV",88.9,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","Pneumococcal1",97.2,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","Pneumococcal2",96.5,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","Pneumococcal3",92.2,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","Rotavirus1",97.1,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","Rotavirus2",94,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","MR1",89.4,"CountyFullyVaccinated12","Education","Vaccines"
+"Primary","Fully vaccinated
+(basic antigens)",80.8,"CountyFullyVaccinated12","Education","Summary"
+"Primary","Fully vaccinated
+(national schedule)",55.9,"CountyFullyVaccinated12","Education","Summary"
+"Primary","No vaccinations",0.8,"CountyFullyVaccinated12","Education","Summary"
+"Secondary","BCG",97,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","DPT1",97.8,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","DPT2",95.2,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","DPT3",90.6,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","OPV0",89.9,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","OPV1",96.4,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","OPV2",94.7,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","OPV3",79.6,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","IPV",88.8,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","Pneumococcal1",97.5,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","Pneumococcal2",96.5,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","Pneumococcal3",91.6,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","Rotavirus1",96.8,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","Rotavirus2",93.2,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","MR1",94.1,"CountyFullyVaccinated12","Education","Vaccines"
+"Secondary","Fully vaccinated
+(basic antigens)",83.8,"CountyFullyVaccinated12","Education","Summary"
+"Secondary","Fully vaccinated
+(national schedule)",60.6,"CountyFullyVaccinated12","Education","Summary"
+"Secondary","No vaccinations",1.8,"CountyFullyVaccinated12","Education","Summary"
+"More than
+ secondary","BCG",98.6,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","DPT1",98.5,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","DPT2",96.4,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","DPT3",92.6,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","OPV0",93.6,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","OPV1",98.1,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","OPV2",96.4,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","OPV3",81,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","IPV",88.4,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","Pneumococcal1",97.6,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","Pneumococcal2",97.4,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","Pneumococcal3",95.8,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","Rotavirus1",97,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","Rotavirus2",94.7,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","MR1",93,"CountyFullyVaccinated12","Education","Vaccines"
+"More than
+ secondary","Fully vaccinated
+(basic antigens)",86.8,"CountyFullyVaccinated12","Education","Summary"
+"More than
+ secondary","Fully vaccinated
+(national schedule)",61.7,"CountyFullyVaccinated12","Education","Summary"
+"More than
+ secondary","No vaccinations",1.4,"CountyFullyVaccinated12","Education","Summary"
+"Urban","BCG",97.1,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","DPT1",97.3,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","DPT2",93.2,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","DPT3",87.9,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","OPV0",92,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","OPV1",95.9,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","OPV2",93.5,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","OPV3",74.5,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","IPV",89,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","Pneumococcal1",96.4,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","Pneumococcal2",95.9,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","Pneumococcal3",92,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","Rotavirus1",96.2,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","Rotavirus2",93.7,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","MR1",90.9,"CountyFullyVaccinated12","Residence","Vaccines"
+"Urban","Fully vaccinated
+(basic antigens)",79.6,"CountyFullyVaccinated12","Residence","Summary"
+"Urban","Fully vaccinated
+(national schedule)",55.7,"CountyFullyVaccinated12","Residence","Summary"
+"Urban","No vaccinations",2.2,"CountyFullyVaccinated12","Residence","Summary"
+"Rural","BCG",96.8,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","DPT1",97,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","DPT2",94.4,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","DPT3",89.9,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","OPV0",82.7,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","OPV1",96.8,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","OPV2",94.6,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","OPV3",80.4,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","IPV",86.4,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","Pneumococcal1",96.5,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","Pneumococcal2",95.2,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","Pneumococcal3",90.7,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","Rotavirus1",95.9,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","Rotavirus2",91.5,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","MR1",87.9,"CountyFullyVaccinated12","Residence","Vaccines"
+"Rural","Fully vaccinated
+(basic antigens)",80.3,"CountyFullyVaccinated12","Residence","Summary"
+"Rural","Fully vaccinated
+(national schedule)",55,"CountyFullyVaccinated12","Residence","Summary"
+"Rural","No vaccinations",2.1,"CountyFullyVaccinated12","Residence","Summary"
+"Lowest","BCG",94.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","DPT1",95.4,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","DPT2",90.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","DPT3",85.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","OPV0",69.3,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","OPV1",94.8,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","OPV2",91.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","OPV3",76.5,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","IPV",82.6,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","Pneumococcal1",95,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","Pneumococcal2",92.2,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","Pneumococcal3",86.8,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","Rotavirus1",93.7,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","Rotavirus2",87.7,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","MR1",79.6,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Lowest","Fully vaccinated
+(basic antigens)",71.1,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Lowest","Fully vaccinated
+(national schedule)",42.3,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Lowest","No vaccinations",3.5,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Second","BCG",97.3,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","DPT1",97.6,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","DPT2",96.2,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","DPT3",92.3,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","OPV0",90.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","OPV1",97.5,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","OPV2",96.2,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","OPV3",81.3,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","IPV",86.8,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","Pneumococcal1",97.2,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","Pneumococcal2",96.7,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","Pneumococcal3",93.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","Rotavirus1",96.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","Rotavirus2",94,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","MR1",90.5,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Second","Fully vaccinated
+(basic antigens)",82.6,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Second","Fully vaccinated
+(national schedule)",59.6,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Second","No vaccinations",1.2,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Middle","BCG",96.8,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","DPT1",96.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","DPT2",94.2,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","DPT3",88.8,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","OPV0",87.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","OPV1",96.3,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","OPV2",93.4,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","OPV3",79.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","IPV",89.6,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","Pneumococcal1",95.7,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","Pneumococcal2",95.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","Pneumococcal3",90.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","Rotavirus1",95.3,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","Rotavirus2",91.3,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","MR1",91.5,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Middle","Fully vaccinated
+(basic antigens)",82.5,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Middle","Fully vaccinated
+(national schedule)",58.4,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Middle","No vaccinations",2.6,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Fourth","BCG",97.7,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","DPT1",97.6,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","DPT2",93.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","DPT3",90,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","OPV0",92.4,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","OPV1",96.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","OPV2",94.9,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","OPV3",77,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","IPV",88.2,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","Pneumococcal1",97.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","Pneumococcal2",96.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","Pneumococcal3",92.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","Rotavirus1",97.5,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","Rotavirus2",93.8,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","MR1",92.4,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Fourth","Fully vaccinated
+(basic antigens)",82.7,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Fourth","Fully vaccinated
+(national schedule)",59.3,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Fourth","No vaccinations",1.8,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Highest","BCG",98,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","DPT1",98.2,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","DPT2",95,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","DPT3",90.4,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","OPV0",93.4,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","OPV1",97,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","OPV2",95.8,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","OPV3",77.1,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","IPV",90.4,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","Pneumococcal1",97.5,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","Pneumococcal2",97.4,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","Pneumococcal3",94.3,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","Rotavirus1",96.7,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","Rotavirus2",95,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","MR1",92.7,"CountyFullyVaccinated12","Wealth quintile","Vaccines"
+"Highest","Fully vaccinated
+(basic antigens)",83.1,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Highest","Fully vaccinated
+(national schedule)",59.1,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Highest","No vaccinations",1.4,"CountyFullyVaccinated12","Wealth quintile","Summary"
+"Male","MR2",69.7,"CountyFullyVaccinated24","Gender","Vaccines"
+"Male","Fully vaccinated
+(national schedule)",38.1,"CountyFullyVaccinated24","Gender","Summary"
+"Female","MR2",63.8,"CountyFullyVaccinated24","Gender","Vaccines"
+"Female","Fully vaccinated
+(national schedule)",36.9,"CountyFullyVaccinated24","Gender","Summary"
+"1","MR2",72.2,"CountyFullyVaccinated24","Birth","Vaccines"
+"1","Fully vaccinated
+(national schedule)",39.9,"CountyFullyVaccinated24","Birth","Summary"
+"2–3","MR2",70.4,"CountyFullyVaccinated24","Birth","Vaccines"
+"2–3","Fully vaccinated
+(national schedule)",39.5,"CountyFullyVaccinated24","Birth","Summary"
+"4–5","MR2",60.8,"CountyFullyVaccinated24","Birth","Vaccines"
+"4–5","Fully vaccinated
+(national schedule)",36.2,"CountyFullyVaccinated24","Birth","Summary"
+"6+","MR2",46,"CountyFullyVaccinated24","Birth","Vaccines"
+"6+","Fully vaccinated
+(national schedule)",24.4,"CountyFullyVaccinated24","Birth","Summary"
+"Seen","MR2",68.8,"CountyFullyVaccinated24","Card","Vaccines"
+"Seen","Fully vaccinated
+(national schedule)",51.5,"CountyFullyVaccinated24","Card","Summary"
+"Not seen or 
+ no longer has card","MR2",66.3,"CountyFullyVaccinated24","Card","Vaccines"
+"Not seen or 
+ no longer has card","Fully vaccinated
+(national schedule)",16.2,"CountyFullyVaccinated24","Card","Summary"
+"Never had card","MR2",18.4,"CountyFullyVaccinated24","Card","Vaccines"
+"Never had card","Fully vaccinated
+(national schedule)",0,"CountyFullyVaccinated24","Card","Summary"
+"No education","MR2",33.4,"CountyFullyVaccinated24","Education","Vaccines"
+"No education","Fully vaccinated
+(national schedule)",14.7,"CountyFullyVaccinated24","Education","Summary"
+"Primary","MR2",63,"CountyFullyVaccinated24","Education","Vaccines"
+"Primary","Fully vaccinated
+(national schedule)",34.1,"CountyFullyVaccinated24","Education","Summary"
+"Secondary","MR2",72.6,"CountyFullyVaccinated24","Education","Vaccines"
+"Secondary","Fully vaccinated
+(national schedule)",42.6,"CountyFullyVaccinated24","Education","Summary"
+"More than
+ secondary","MR2",81.7,"CountyFullyVaccinated24","Education","Vaccines"
+"More than
+ secondary","Fully vaccinated
+(national schedule)",47.1,"CountyFullyVaccinated24","Education","Summary"
+"Male","MR2",69.7,"CountyFullyVaccinated24","Gender","Vaccines"
+"Male","Fully vaccinated
+(national schedule)",38.1,"CountyFullyVaccinated24","Gender","Summary"
+"Female","MR2",63.8,"CountyFullyVaccinated24","Gender","Vaccines"
+"Female","Fully vaccinated
+(national schedule)",36.9,"CountyFullyVaccinated24","Gender","Summary"
+"Urban","MR2",71.1,"CountyFullyVaccinated24","Residence","Vaccines"
+"Urban","Fully vaccinated
+(national schedule)",37.6,"CountyFullyVaccinated24","Residence","Summary"
+"Rural","MR2",64.1,"CountyFullyVaccinated24","Residence","Vaccines"
+"Rural","Fully vaccinated
+(national schedule)",37.5,"CountyFullyVaccinated24","Residence","Summary"
+"Lowest","MR2",50.1,"CountyFullyVaccinated24","Wealth quintile","Vaccines"
+"Lowest","Fully vaccinated
+(national schedule)",25.3,"CountyFullyVaccinated24","Wealth quintile","Summary"
+"Second","MR2",66.5,"CountyFullyVaccinated24","Wealth quintile","Vaccines"
+"Second","Fully vaccinated
+(national schedule)",40.1,"CountyFullyVaccinated24","Wealth quintile","Summary"
+"Middle","MR2",68.4,"CountyFullyVaccinated24","Wealth quintile","Vaccines"
+"Middle","Fully vaccinated
+(national schedule)",40.5,"CountyFullyVaccinated24","Wealth quintile","Summary"
+"Fourth","MR2",71.1,"CountyFullyVaccinated24","Wealth quintile","Vaccines"
+"Fourth","Fully vaccinated
+(national schedule)",40.5,"CountyFullyVaccinated24","Wealth quintile","Summary"
+"Highest","MR2",78,"CountyFullyVaccinated24","Wealth quintile","Vaccines"
+"Highest","Fully vaccinated
+(national schedule)",42.5,"CountyFullyVaccinated24","Wealth quintile","Summary"

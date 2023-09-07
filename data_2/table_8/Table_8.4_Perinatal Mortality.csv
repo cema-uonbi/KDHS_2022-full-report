@@ -1,0 +1,21 @@
+"characteristic","variable","category","proportion"
+"<20","Age","Perinatal mortality rate",34
+"20-29","Age","Perinatal mortality rate",27
+"30-39","Age","Perinatal mortality rate",38
+"40-49","Age","Perinatal mortality rate",55
+"First pregnancy","Pregnancy","Perinatal mortality rate",30
+"<15","Pregnancy","Perinatal mortality rate",40
+"15-26","Pregnancy","Perinatal mortality rate",31
+"27-38","Pregnancy","Perinatal mortality rate",22
+"39+","Pregnancy","Perinatal mortality rate",34
+"Urban","Residence","Perinatal mortality rate",33
+"Rural","Residence","Perinatal mortality rate",31
+"No education","Education","Perinatal mortality rate",35
+"Primary","Education","Perinatal mortality rate",36
+"Secondary","Education","Perinatal mortality rate",30
+"More than secondary","Education","Perinatal mortality rate",27
+"Lowest","Wealth","Perinatal mortality rate",32
+"Second","Wealth","Perinatal mortality rate",27
+"Middle","Wealth","Perinatal mortality rate",36
+"Fourth","Wealth","Perinatal mortality rate",36
+"Highest","Wealth","Perinatal mortality rate",29
