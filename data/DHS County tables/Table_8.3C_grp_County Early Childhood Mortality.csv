@@ -1,236 +1,236 @@
-county,category,proportion,proportion_groups
-Mombasa,Neonatal mortality,32,>26-38
-Mombasa,Post neonatal mortality,10,>8-17
-Mombasa,Infant mortality,43,>38
-Mombasa,Child mortality,8,≤ 8
-Mombasa,Under 5 mortality,50,>38
-Kwale,Neonatal mortality,19,>17-26
-Kwale,Post neonatal mortality,4,≤ 8
-Kwale,Infant mortality,23,>17-26
-Kwale,Child mortality,7,≤ 8
-Kwale,Under 5 mortality,30,>26-38
-Kilifi,Neonatal mortality,24,>17-26
-Kilifi,Post neonatal mortality,10,>8-17
-Kilifi,Infant mortality,34,>26-38
-Kilifi,Child mortality,6,≤ 8
-Kilifi,Under 5 mortality,40,>38
-Tana River,Neonatal mortality,23,>17-26
-Tana River,Post neonatal mortality,14,>8-17
-Tana River,Infant mortality,38,>26-38
-Tana River,Child mortality,8,≤ 8
-Tana River,Under 5 mortality,45,>38
-Lamu,Neonatal mortality,26,>17-26
-Lamu,Post neonatal mortality,15,>8-17
-Lamu,Infant mortality,41,>38
-Lamu,Child mortality,9,>8-17
-Lamu,Under 5 mortality,50,>38
-Taita Taveta,Neonatal mortality,19,>17-26
-Taita Taveta,Post neonatal mortality,5,≤ 8
-Taita Taveta,Infant mortality,24,>17-26
-Taita Taveta,Child mortality,6,≤ 8
-Taita Taveta,Under 5 mortality,29,>26-38
-Garissa,Neonatal mortality,28,>26-38
-Garissa,Post neonatal mortality,13,>8-17
-Garissa,Infant mortality,41,>38
-Garissa,Child mortality,3,≤ 8
-Garissa,Under 5 mortality,44,>38
-Wajir,Neonatal mortality,37,>26-38
-Wajir,Post neonatal mortality,6,≤ 8
-Wajir,Infant mortality,43,>38
-Wajir,Child mortality,15,>8-17
-Wajir,Under 5 mortality,57,>38
-Mandera,Neonatal mortality,16,>8-17
-Mandera,Post neonatal mortality,4,≤ 8
-Mandera,Infant mortality,20,>17-26
-Mandera,Child mortality,1,≤ 8
-Mandera,Under 5 mortality,21,>17-26
-Marsabit,Neonatal mortality,4,≤ 8
-Marsabit,Post neonatal mortality,5,≤ 8
-Marsabit,Infant mortality,9,>8-17
-Marsabit,Child mortality,6,≤ 8
-Marsabit,Under 5 mortality,15,>8-17
-Isiolo,Neonatal mortality,22,>17-26
-Isiolo,Post neonatal mortality,2,≤ 8
-Isiolo,Infant mortality,24,>17-26
-Isiolo,Child mortality,9,>8-17
-Isiolo,Under 5 mortality,33,>26-38
-Meru,Neonatal mortality,20,>17-26
-Meru,Post neonatal mortality,9,>8-17
-Meru,Infant mortality,29,>26-38
-Meru,Child mortality,6,≤ 8
-Meru,Under 5 mortality,35,>26-38
-Tharaka Nithi,Neonatal mortality,12,>8-17
-Tharaka Nithi,Post neonatal mortality,7,≤ 8
-Tharaka Nithi,Infant mortality,19,>17-26
-Tharaka Nithi,Child mortality,6,≤ 8
-Tharaka Nithi,Under 5 mortality,25,>17-26
-Embu,Neonatal mortality,24,>17-26
-Embu,Post neonatal mortality,11,>8-17
-Embu,Infant mortality,36,>26-38
-Embu,Child mortality,8,≤ 8
-Embu,Under 5 mortality,44,>38
-Kitui,Neonatal mortality,13,>8-17
-Kitui,Post neonatal mortality,9,>8-17
-Kitui,Infant mortality,23,>17-26
-Kitui,Child mortality,4,≤ 8
-Kitui,Under 5 mortality,27,>26-38
-Machakos,Neonatal mortality,26,>17-26
-Machakos,Post neonatal mortality,8,≤ 8
-Machakos,Infant mortality,34,>26-38
-Machakos,Child mortality,7,≤ 8
-Machakos,Under 5 mortality,41,>38
-Makueni,Neonatal mortality,26,>17-26
-Makueni,Post neonatal mortality,9,>8-17
-Makueni,Infant mortality,35,>26-38
-Makueni,Child mortality,3,≤ 8
-Makueni,Under 5 mortality,38,>26-38
-Nyandarua,Neonatal mortality,20,>17-26
-Nyandarua,Post neonatal mortality,16,>8-17
-Nyandarua,Infant mortality,36,>26-38
-Nyandarua,Child mortality,10,>8-17
-Nyandarua,Under 5 mortality,45,>38
-Nyeri,Neonatal mortality,27,>26-38
-Nyeri,Post neonatal mortality,21,>17-26
-Nyeri,Infant mortality,48,>38
-Nyeri,Child mortality,5,≤ 8
-Nyeri,Under 5 mortality,52,>38
-Kirinyaga,Neonatal mortality,37,>26-38
-Kirinyaga,Post neonatal mortality,17,>8-17
-Kirinyaga,Infant mortality,55,>38
-Kirinyaga,Child mortality,2,≤ 8
-Kirinyaga,Under 5 mortality,56,>38
-Murang’a,Neonatal mortality,36,>26-38
-Murang’a,Post neonatal mortality,7,≤ 8
-Murang’a,Infant mortality,43,>38
-Murang’a,Child mortality,5,≤ 8
-Murang’a,Under 5 mortality,47,>38
-Kiambu,Neonatal mortality,28,>26-38
-Kiambu,Post neonatal mortality,7,≤ 8
-Kiambu,Infant mortality,35,>26-38
-Kiambu,Child mortality,5,≤ 8
-Kiambu,Under 5 mortality,40,>38
-Turkana,Neonatal mortality,21,>17-26
-Turkana,Post neonatal mortality,7,≤ 8
-Turkana,Infant mortality,29,>26-38
-Turkana,Child mortality,27,>26-38
-Turkana,Under 5 mortality,55,>38
-West Pokot,Neonatal mortality,27,>26-38
-West Pokot,Post neonatal mortality,11,>8-17
-West Pokot,Infant mortality,38,>26-38
-West Pokot,Child mortality,9,>8-17
-West Pokot,Under 5 mortality,46,>38
-Samburu,Neonatal mortality,19,>17-26
-Samburu,Post neonatal mortality,10,>8-17
-Samburu,Infant mortality,29,>26-38
-Samburu,Child mortality,9,>8-17
-Samburu,Under 5 mortality,38,>26-38
-Trans Nzoia,Neonatal mortality,23,>17-26
-Trans Nzoia,Post neonatal mortality,14,>8-17
-Trans Nzoia,Infant mortality,36,>26-38
-Trans Nzoia,Child mortality,6,≤ 8
-Trans Nzoia,Under 5 mortality,42,>38
-Uasin Gishu,Neonatal mortality,17,>8-17
-Uasin Gishu,Post neonatal mortality,14,>8-17
-Uasin Gishu,Infant mortality,31,>26-38
-Uasin Gishu,Child mortality,6,≤ 8
-Uasin Gishu,Under 5 mortality,37,>26-38
-Elgeyo/Marakwet,Neonatal mortality,27,>26-38
-Elgeyo/Marakwet,Post neonatal mortality,5,≤ 8
-Elgeyo/Marakwet,Infant mortality,32,>26-38
-Elgeyo/Marakwet,Child mortality,1,≤ 8
-Elgeyo/Marakwet,Under 5 mortality,33,>26-38
-Nandi,Neonatal mortality,24,>17-26
-Nandi,Post neonatal mortality,9,>8-17
-Nandi,Infant mortality,33,>26-38
-Nandi,Child mortality,7,≤ 8
-Nandi,Under 5 mortality,39,>38
-Baringo,Neonatal mortality,33,>26-38
-Baringo,Post neonatal mortality,17,>8-17
-Baringo,Infant mortality,50,>38
-Baringo,Child mortality,5,≤ 8
-Baringo,Under 5 mortality,55,>38
-Laikipia,Neonatal mortality,20,>17-26
-Laikipia,Post neonatal mortality,23,>17-26
-Laikipia,Infant mortality,44,>38
-Laikipia,Child mortality,7,≤ 8
-Laikipia,Under 5 mortality,50,>38
-Nakuru,Neonatal mortality,25,>17-26
-Nakuru,Post neonatal mortality,16,>8-17
-Nakuru,Infant mortality,41,>38
-Nakuru,Child mortality,10,>8-17
-Nakuru,Under 5 mortality,51,>38
-Narok,Neonatal mortality,16,>8-17
-Narok,Post neonatal mortality,8,≤ 8
-Narok,Infant mortality,24,>17-26
-Narok,Child mortality,2,≤ 8
-Narok,Under 5 mortality,26,>17-26
-Kajiado,Neonatal mortality,14,>8-17
-Kajiado,Post neonatal mortality,12,>8-17
-Kajiado,Infant mortality,25,>17-26
-Kajiado,Child mortality,7,≤ 8
-Kajiado,Under 5 mortality,32,>26-38
-Kericho,Neonatal mortality,17,>8-17
-Kericho,Post neonatal mortality,8,≤ 8
-Kericho,Infant mortality,25,>17-26
-Kericho,Child mortality,7,≤ 8
-Kericho,Under 5 mortality,31,>26-38
-Bomet,Neonatal mortality,17,>8-17
-Bomet,Post neonatal mortality,9,>8-17
-Bomet,Infant mortality,26,>17-26
-Bomet,Child mortality,3,≤ 8
-Bomet,Under 5 mortality,28,>26-38
-Kakamega,Neonatal mortality,16,>8-17
-Kakamega,Post neonatal mortality,11,>8-17
-Kakamega,Infant mortality,28,>26-38
-Kakamega,Child mortality,18,>17-26
-Kakamega,Under 5 mortality,45,>38
-Vihiga,Neonatal mortality,16,>8-17
-Vihiga,Post neonatal mortality,18,>17-26
-Vihiga,Infant mortality,34,>26-38
-Vihiga,Child mortality,17,>8-17
-Vihiga,Under 5 mortality,51,>38
-Bungoma,Neonatal mortality,25,>17-26
-Bungoma,Post neonatal mortality,15,>8-17
-Bungoma,Infant mortality,39,>38
-Bungoma,Child mortality,16,>8-17
-Bungoma,Under 5 mortality,55,>38
-Busia,Neonatal mortality,22,>17-26
-Busia,Post neonatal mortality,12,>8-17
-Busia,Infant mortality,34,>26-38
-Busia,Child mortality,20,>17-26
-Busia,Under 5 mortality,53,>38
-Siaya,Neonatal mortality,24,>17-26
-Siaya,Post neonatal mortality,22,>17-26
-Siaya,Infant mortality,45,>38
-Siaya,Child mortality,19,>17-26
-Siaya,Under 5 mortality,63,>38
-Kisumu,Neonatal mortality,21,>17-26
-Kisumu,Post neonatal mortality,19,>17-26
-Kisumu,Infant mortality,40,>38
-Kisumu,Child mortality,5,≤ 8
-Kisumu,Under 5 mortality,45,>38
-Homa Bay,Neonatal mortality,32,>26-38
-Homa Bay,Post neonatal mortality,11,>8-17
-Homa Bay,Infant mortality,42,>38
-Homa Bay,Child mortality,20,>17-26
-Homa Bay,Under 5 mortality,61,>38
-Migori,Neonatal mortality,37,>26-38
-Migori,Post neonatal mortality,16,>8-17
-Migori,Infant mortality,53,>38
-Migori,Child mortality,21,>17-26
-Migori,Under 5 mortality,73,>38
-Kisii,Neonatal mortality,21,>17-26
-Kisii,Post neonatal mortality,3,≤ 8
-Kisii,Infant mortality,24,>17-26
-Kisii,Child mortality,16,>8-17
-Kisii,Under 5 mortality,40,>38
-Nyamira,Neonatal mortality,27,>26-38
-Nyamira,Post neonatal mortality,4,≤ 8
-Nyamira,Infant mortality,31,>26-38
-Nyamira,Child mortality,12,>8-17
-Nyamira,Under 5 mortality,42,>38
-Nairobi,Neonatal mortality,20,>17-26
-Nairobi,Post neonatal mortality,20,>17-26
-Nairobi,Infant mortality,40,>38
-Nairobi,Child mortality,4,≤ 8
-Nairobi,Under 5 mortality,44,>38
+"","county","category","proportion","proportion_groups"
+"1","Mombasa","Neonatal mortality",32,">26-38"
+"2","Mombasa","Post neonatal mortality",10,">8-17"
+"3","Mombasa","Infant mortality",43,">38"
+"4","Mombasa","Child mortality",8,"≤ 8"
+"5","Mombasa","Under 5 mortality",50,">38"
+"6","Kwale","Neonatal mortality",19,">17-26"
+"7","Kwale","Post neonatal mortality",4,"≤ 8"
+"8","Kwale","Infant mortality",23,">17-26"
+"9","Kwale","Child mortality",7,"≤ 8"
+"10","Kwale","Under 5 mortality",30,">26-38"
+"11","Kilifi","Neonatal mortality",24,">17-26"
+"12","Kilifi","Post neonatal mortality",10,">8-17"
+"13","Kilifi","Infant mortality",34,">26-38"
+"14","Kilifi","Child mortality",6,"≤ 8"
+"15","Kilifi","Under 5 mortality",40,">38"
+"16","Tana River","Neonatal mortality",23,">17-26"
+"17","Tana River","Post neonatal mortality",14,">8-17"
+"18","Tana River","Infant mortality",38,">26-38"
+"19","Tana River","Child mortality",8,"≤ 8"
+"20","Tana River","Under 5 mortality",45,">38"
+"21","Lamu","Neonatal mortality",26,">17-26"
+"22","Lamu","Post neonatal mortality",15,">8-17"
+"23","Lamu","Infant mortality",41,">38"
+"24","Lamu","Child mortality",9,">8-17"
+"25","Lamu","Under 5 mortality",50,">38"
+"26","Taita Taveta","Neonatal mortality",19,">17-26"
+"27","Taita Taveta","Post neonatal mortality",5,"≤ 8"
+"28","Taita Taveta","Infant mortality",24,">17-26"
+"29","Taita Taveta","Child mortality",6,"≤ 8"
+"30","Taita Taveta","Under 5 mortality",29,">26-38"
+"31","Garissa","Neonatal mortality",28,">26-38"
+"32","Garissa","Post neonatal mortality",13,">8-17"
+"33","Garissa","Infant mortality",41,">38"
+"34","Garissa","Child mortality",3,"≤ 8"
+"35","Garissa","Under 5 mortality",44,">38"
+"36","Wajir","Neonatal mortality",37,">26-38"
+"37","Wajir","Post neonatal mortality",6,"≤ 8"
+"38","Wajir","Infant mortality",43,">38"
+"39","Wajir","Child mortality",15,">8-17"
+"40","Wajir","Under 5 mortality",57,">38"
+"41","Mandera","Neonatal mortality",16,">8-17"
+"42","Mandera","Post neonatal mortality",4,"≤ 8"
+"43","Mandera","Infant mortality",20,">17-26"
+"44","Mandera","Child mortality",1,"≤ 8"
+"45","Mandera","Under 5 mortality",21,">17-26"
+"46","Marsabit","Neonatal mortality",4,"≤ 8"
+"47","Marsabit","Post neonatal mortality",5,"≤ 8"
+"48","Marsabit","Infant mortality",9,">8-17"
+"49","Marsabit","Child mortality",6,"≤ 8"
+"50","Marsabit","Under 5 mortality",15,">8-17"
+"51","Isiolo","Neonatal mortality",22,">17-26"
+"52","Isiolo","Post neonatal mortality",2,"≤ 8"
+"53","Isiolo","Infant mortality",24,">17-26"
+"54","Isiolo","Child mortality",9,">8-17"
+"55","Isiolo","Under 5 mortality",33,">26-38"
+"56","Meru","Neonatal mortality",20,">17-26"
+"57","Meru","Post neonatal mortality",9,">8-17"
+"58","Meru","Infant mortality",29,">26-38"
+"59","Meru","Child mortality",6,"≤ 8"
+"60","Meru","Under 5 mortality",35,">26-38"
+"61","Tharaka Nithi","Neonatal mortality",12,">8-17"
+"62","Tharaka Nithi","Post neonatal mortality",7,"≤ 8"
+"63","Tharaka Nithi","Infant mortality",19,">17-26"
+"64","Tharaka Nithi","Child mortality",6,"≤ 8"
+"65","Tharaka Nithi","Under 5 mortality",25,">17-26"
+"66","Embu","Neonatal mortality",24,">17-26"
+"67","Embu","Post neonatal mortality",11,">8-17"
+"68","Embu","Infant mortality",36,">26-38"
+"69","Embu","Child mortality",8,"≤ 8"
+"70","Embu","Under 5 mortality",44,">38"
+"71","Kitui","Neonatal mortality",13,">8-17"
+"72","Kitui","Post neonatal mortality",9,">8-17"
+"73","Kitui","Infant mortality",23,">17-26"
+"74","Kitui","Child mortality",4,"≤ 8"
+"75","Kitui","Under 5 mortality",27,">26-38"
+"76","Machakos","Neonatal mortality",26,">17-26"
+"77","Machakos","Post neonatal mortality",8,"≤ 8"
+"78","Machakos","Infant mortality",34,">26-38"
+"79","Machakos","Child mortality",7,"≤ 8"
+"80","Machakos","Under 5 mortality",41,">38"
+"81","Makueni","Neonatal mortality",26,">17-26"
+"82","Makueni","Post neonatal mortality",9,">8-17"
+"83","Makueni","Infant mortality",35,">26-38"
+"84","Makueni","Child mortality",3,"≤ 8"
+"85","Makueni","Under 5 mortality",38,">26-38"
+"86","Nyandarua","Neonatal mortality",20,">17-26"
+"87","Nyandarua","Post neonatal mortality",16,">8-17"
+"88","Nyandarua","Infant mortality",36,">26-38"
+"89","Nyandarua","Child mortality",10,">8-17"
+"90","Nyandarua","Under 5 mortality",45,">38"
+"91","Nyeri","Neonatal mortality",27,">26-38"
+"92","Nyeri","Post neonatal mortality",21,">17-26"
+"93","Nyeri","Infant mortality",48,">38"
+"94","Nyeri","Child mortality",5,"≤ 8"
+"95","Nyeri","Under 5 mortality",52,">38"
+"96","Kirinyaga","Neonatal mortality",37,">26-38"
+"97","Kirinyaga","Post neonatal mortality",17,">8-17"
+"98","Kirinyaga","Infant mortality",55,">38"
+"99","Kirinyaga","Child mortality",2,"≤ 8"
+"100","Kirinyaga","Under 5 mortality",56,">38"
+"101","Muranga","Neonatal mortality",36,">26-38"
+"102","Muranga","Post neonatal mortality",7,"≤ 8"
+"103","Muranga","Infant mortality",43,">38"
+"104","Muranga","Child mortality",5,"≤ 8"
+"105","Muranga","Under 5 mortality",47,">38"
+"106","Kiambu","Neonatal mortality",28,">26-38"
+"107","Kiambu","Post neonatal mortality",7,"≤ 8"
+"108","Kiambu","Infant mortality",35,">26-38"
+"109","Kiambu","Child mortality",5,"≤ 8"
+"110","Kiambu","Under 5 mortality",40,">38"
+"111","Turkana","Neonatal mortality",21,">17-26"
+"112","Turkana","Post neonatal mortality",7,"≤ 8"
+"113","Turkana","Infant mortality",29,">26-38"
+"114","Turkana","Child mortality",27,">26-38"
+"115","Turkana","Under 5 mortality",55,">38"
+"116","West Pokot","Neonatal mortality",27,">26-38"
+"117","West Pokot","Post neonatal mortality",11,">8-17"
+"118","West Pokot","Infant mortality",38,">26-38"
+"119","West Pokot","Child mortality",9,">8-17"
+"120","West Pokot","Under 5 mortality",46,">38"
+"121","Samburu","Neonatal mortality",19,">17-26"
+"122","Samburu","Post neonatal mortality",10,">8-17"
+"123","Samburu","Infant mortality",29,">26-38"
+"124","Samburu","Child mortality",9,">8-17"
+"125","Samburu","Under 5 mortality",38,">26-38"
+"126","Trans Nzoia","Neonatal mortality",23,">17-26"
+"127","Trans Nzoia","Post neonatal mortality",14,">8-17"
+"128","Trans Nzoia","Infant mortality",36,">26-38"
+"129","Trans Nzoia","Child mortality",6,"≤ 8"
+"130","Trans Nzoia","Under 5 mortality",42,">38"
+"131","Uasin Gishu","Neonatal mortality",17,">8-17"
+"132","Uasin Gishu","Post neonatal mortality",14,">8-17"
+"133","Uasin Gishu","Infant mortality",31,">26-38"
+"134","Uasin Gishu","Child mortality",6,"≤ 8"
+"135","Uasin Gishu","Under 5 mortality",37,">26-38"
+"136","Elgeyo Marakwet","Neonatal mortality",27,">26-38"
+"137","Elgeyo Marakwet","Post neonatal mortality",5,"≤ 8"
+"138","Elgeyo Marakwet","Infant mortality",32,">26-38"
+"139","Elgeyo Marakwet","Child mortality",1,"≤ 8"
+"140","Elgeyo Marakwet","Under 5 mortality",33,">26-38"
+"141","Nandi","Neonatal mortality",24,">17-26"
+"142","Nandi","Post neonatal mortality",9,">8-17"
+"143","Nandi","Infant mortality",33,">26-38"
+"144","Nandi","Child mortality",7,"≤ 8"
+"145","Nandi","Under 5 mortality",39,">38"
+"146","Baringo","Neonatal mortality",33,">26-38"
+"147","Baringo","Post neonatal mortality",17,">8-17"
+"148","Baringo","Infant mortality",50,">38"
+"149","Baringo","Child mortality",5,"≤ 8"
+"150","Baringo","Under 5 mortality",55,">38"
+"151","Laikipia","Neonatal mortality",20,">17-26"
+"152","Laikipia","Post neonatal mortality",23,">17-26"
+"153","Laikipia","Infant mortality",44,">38"
+"154","Laikipia","Child mortality",7,"≤ 8"
+"155","Laikipia","Under 5 mortality",50,">38"
+"156","Nakuru","Neonatal mortality",25,">17-26"
+"157","Nakuru","Post neonatal mortality",16,">8-17"
+"158","Nakuru","Infant mortality",41,">38"
+"159","Nakuru","Child mortality",10,">8-17"
+"160","Nakuru","Under 5 mortality",51,">38"
+"161","Narok","Neonatal mortality",16,">8-17"
+"162","Narok","Post neonatal mortality",8,"≤ 8"
+"163","Narok","Infant mortality",24,">17-26"
+"164","Narok","Child mortality",2,"≤ 8"
+"165","Narok","Under 5 mortality",26,">17-26"
+"166","Kajiado","Neonatal mortality",14,">8-17"
+"167","Kajiado","Post neonatal mortality",12,">8-17"
+"168","Kajiado","Infant mortality",25,">17-26"
+"169","Kajiado","Child mortality",7,"≤ 8"
+"170","Kajiado","Under 5 mortality",32,">26-38"
+"171","Kericho","Neonatal mortality",17,">8-17"
+"172","Kericho","Post neonatal mortality",8,"≤ 8"
+"173","Kericho","Infant mortality",25,">17-26"
+"174","Kericho","Child mortality",7,"≤ 8"
+"175","Kericho","Under 5 mortality",31,">26-38"
+"176","Bomet","Neonatal mortality",17,">8-17"
+"177","Bomet","Post neonatal mortality",9,">8-17"
+"178","Bomet","Infant mortality",26,">17-26"
+"179","Bomet","Child mortality",3,"≤ 8"
+"180","Bomet","Under 5 mortality",28,">26-38"
+"181","Kakamega","Neonatal mortality",16,">8-17"
+"182","Kakamega","Post neonatal mortality",11,">8-17"
+"183","Kakamega","Infant mortality",28,">26-38"
+"184","Kakamega","Child mortality",18,">17-26"
+"185","Kakamega","Under 5 mortality",45,">38"
+"186","Vihiga","Neonatal mortality",16,">8-17"
+"187","Vihiga","Post neonatal mortality",18,">17-26"
+"188","Vihiga","Infant mortality",34,">26-38"
+"189","Vihiga","Child mortality",17,">8-17"
+"190","Vihiga","Under 5 mortality",51,">38"
+"191","Bungoma","Neonatal mortality",25,">17-26"
+"192","Bungoma","Post neonatal mortality",15,">8-17"
+"193","Bungoma","Infant mortality",39,">38"
+"194","Bungoma","Child mortality",16,">8-17"
+"195","Bungoma","Under 5 mortality",55,">38"
+"196","Busia","Neonatal mortality",22,">17-26"
+"197","Busia","Post neonatal mortality",12,">8-17"
+"198","Busia","Infant mortality",34,">26-38"
+"199","Busia","Child mortality",20,">17-26"
+"200","Busia","Under 5 mortality",53,">38"
+"201","Siaya","Neonatal mortality",24,">17-26"
+"202","Siaya","Post neonatal mortality",22,">17-26"
+"203","Siaya","Infant mortality",45,">38"
+"204","Siaya","Child mortality",19,">17-26"
+"205","Siaya","Under 5 mortality",63,">38"
+"206","Kisumu","Neonatal mortality",21,">17-26"
+"207","Kisumu","Post neonatal mortality",19,">17-26"
+"208","Kisumu","Infant mortality",40,">38"
+"209","Kisumu","Child mortality",5,"≤ 8"
+"210","Kisumu","Under 5 mortality",45,">38"
+"211","Homa Bay","Neonatal mortality",32,">26-38"
+"212","Homa Bay","Post neonatal mortality",11,">8-17"
+"213","Homa Bay","Infant mortality",42,">38"
+"214","Homa Bay","Child mortality",20,">17-26"
+"215","Homa Bay","Under 5 mortality",61,">38"
+"216","Migori","Neonatal mortality",37,">26-38"
+"217","Migori","Post neonatal mortality",16,">8-17"
+"218","Migori","Infant mortality",53,">38"
+"219","Migori","Child mortality",21,">17-26"
+"220","Migori","Under 5 mortality",73,">38"
+"221","Kisii","Neonatal mortality",21,">17-26"
+"222","Kisii","Post neonatal mortality",3,"≤ 8"
+"223","Kisii","Infant mortality",24,">17-26"
+"224","Kisii","Child mortality",16,">8-17"
+"225","Kisii","Under 5 mortality",40,">38"
+"226","Nyamira","Neonatal mortality",27,">26-38"
+"227","Nyamira","Post neonatal mortality",4,"≤ 8"
+"228","Nyamira","Infant mortality",31,">26-38"
+"229","Nyamira","Child mortality",12,">8-17"
+"230","Nyamira","Under 5 mortality",42,">38"
+"231","Nairobi","Neonatal mortality",20,">17-26"
+"232","Nairobi","Post neonatal mortality",20,">17-26"
+"233","Nairobi","Infant mortality",40,">38"
+"234","Nairobi","Child mortality",4,"≤ 8"
+"235","Nairobi","Under 5 mortality",44,">38"
