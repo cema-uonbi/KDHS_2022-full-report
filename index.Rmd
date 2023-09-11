@@ -238,8 +238,11 @@ insurance_county1 <- full_join(county, insurance_county, by=c("Name"="County"))
 # health insurance data by age
 
 
-insurance <- fread("data/table_2/table_2_20_insurance_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+insurance <- fread("data/table_2/table_2_20_insurance_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+insurance[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
+
 
 insurance$Value<- fct_relevel(insurance$Value, 
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -1084,8 +1087,10 @@ occupation_county3$cat <- fct_relevel(occupation_county3$cat, "<1.9", "1.9-5.4",
 
 ```{r}
 
-occupation <- fread("data/table_3/table3_7_occupation_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+occupation <- fread("data/table_3/table3_7_occupation_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+occupation[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 occupation$Value <- recode(occupation$Value, "More than secondary"="More than \nsecondary","Divorced/separated/widowed"="Divorced/separated\n/widowed", "Married or living together"="Married or \nliving together" )
 occupation$Value<- fct_relevel(occupation$Value, 
@@ -1191,7 +1196,7 @@ migration <- fread("data/table_3/table_3_17_migration_by_background_xtics.csv") 
 migration[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)]  
 
 migration$Value<- fct_relevel(migration$Value, 
-                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
+                              "Lowest", "Second", "Middle", "Fourth", "Highest")
 
 renderPlot({if(input$migration!="County"){
   ggplot(migration[migration$`Background characteristics`%in%input$migration,],aes(x=Value, y=Proportion, fill=`Reason For Migration`))+
@@ -2438,8 +2443,10 @@ selectInput("knowledge_fertile", "",
 
 ```{r, include=F}
 # import data
-knowledge_fertile <- fread("data/table_7/Table_7.8_Knowledge of Fertile Period.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+knowledge_fertile <- fread("data/table_7/Table_7.8_Knowledge of Fertile Period.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+knowledge_fertile[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 
 ```
@@ -2621,8 +2628,8 @@ renderPlot({ggplot(decision_making1a,aes(x=reorder(category,proportion), y=propo
 
 # import data
 
-fp_messages <-fread("data/table_7/table_7_20_fp_messages_total.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+fp_messages <-fread("data/table_7/table_7_20_fp_messages_total.csv")
+fp_messages[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 ```
 
 
@@ -3043,8 +3050,10 @@ selectInput("antenatal_care_visits", "",
 
 # import data
 
-antenatal_care1 <-fread("data/table_9/table_9_2_ancvisits_number_by_background_xtics.csv")|>
-   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+antenatal_care1 <-fread("data/table_9/table_9_2_ancvisits_number_by_background_xtics.csv")
+# |>
+  # mutate(Proportion=fifelse(Proportion<0.5, Proportion, round(Proportion)))
+antenatal_care1[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 antenatal_care1$Category <- as.factor(fct_relevel(antenatal_care1$Category, c("None","1","2-3","4-7","8+")))
   
@@ -4113,8 +4122,10 @@ selectInput("micronutrients", "",
 
 
 ```{r}
-micronutrient <- fread("data/table_11/table11_12_micronutrient_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion<0.5, Proportion, round(Proportion)))
+micronutrient <- fread("data/table_11/table11_12_micronutrient_by_background_xtics.csv") 
+# |>
+  # mutate(Proportion=fifelse(Proportion<0.5, Proportion, round(Proportion)))
+micronutrient[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 micronutrient$Value <- fct_relevel(micronutrient$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4210,8 +4221,11 @@ selectInput("nutrition_women", "",
 
 
 ```{r}
-nutrition_women <- fread("data/table_11/table11_13_Nutrition_women_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+nutrition_women <- fread("data/table_11/table11_13_Nutrition_women_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+nutrition_women[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 nutrition_women$Value <- fct_relevel(nutrition_women$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4289,8 +4303,10 @@ selectInput("mdd", "",
 
 
 ```{r}
-mdd <- fread("data/table_11/table11_15_MDD-W_by_background_xtics.csv")|>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+mdd <- fread("data/table_11/table11_15_MDD-W_by_background_xtics.csv")
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+mdd[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 mdd$Value <- fct_relevel(mdd$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4365,8 +4381,10 @@ selectInput("iron_women", "",
 
 
 ```{r}
-iron_women <- fread("data/table_11/table9_4_Iron_supplement_women_by_background_xtics.csv")|>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+iron_women <- fread("data/table_11/table9_4_Iron_supplement_women_by_background_xtics.csv")
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+iron_women[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 iron_women$Value <- fct_relevel(iron_women$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4488,8 +4506,9 @@ selectInput("itn", "",
 ```{r, include=F}
 # import data
 
-itn_possess <- fread("data/table_12/table12_1_ITN_possession_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+itn_possess <- fread("data/table_12/table12_1_ITN_possession_by_background_xtics.csv") #|>
+ # mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+itn_possess[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 itn_possess$Value<- fct_relevel(itn_possess$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4655,8 +4674,11 @@ selectInput("itn_access", "",
 ```{r, include=F}
 # import data
 
-itn_access <- fread("data/table_12/table12_3_ITN_access_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+itn_access <- fread("data/table_12/table12_3_ITN_access_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+itn_access[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 itn_access$Value<- fct_relevel(itn_access$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4732,8 +4754,11 @@ selectInput("itn_use", "",
 ```{r, include=F}
 # import data
 
-itn_use <- fread("data/table_12/table12_4_ITN_use_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+itn_use <- fread("data/table_12/table12_4_ITN_use_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+itn_use[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 itn_use$Value <- fct_relevel(itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4808,8 +4833,10 @@ selectInput("itn_itn", "",
 ```{r, include=F}
 # import data
 
-existing_itn_use <- fread("data/table_12/table12_5_existing_ITN_use_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+existing_itn_use <- fread("data/table_12/table12_5_existing_ITN_use_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+existing_itn_use[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 existing_itn_use$Value<- fct_relevel(existing_itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4883,8 +4910,11 @@ selectInput("nets_children", "",
 
 ```{r, include=F}
 # import data
-children_itn_use <- fread("data/table_12/table12_6_children_ITN_use_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+children_itn_use <- fread("data/table_12/table12_6_children_ITN_use_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+children_itn_use[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 children_itn_use$Value <- fct_relevel(children_itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -4959,8 +4989,10 @@ selectInput("nets_pregnant", "",
 
 ```{r, include=F}
 # import data
-women_itn_use <- fread("data/table_12/table12_7_women_ITN_use_by_background_xtics.csv")|>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+women_itn_use <- fread("data/table_12/table12_7_women_ITN_use_by_background_xtics.csv")
+#|>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+women_itn_use[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
 
 women_itn_use$Value<- fct_relevel(women_itn_use$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -5109,8 +5141,12 @@ selectInput("ipt_women", "",
 
 ```{r, include=F}
 # import data
-iptp <- fread("data/table_12/table12_9_iptp_by_background_xtics.csv")|>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+iptp <- fread("data/table_12/table12_9_iptp_by_background_xtics.csv")
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+iptp[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
+
   
 
 iptp$Value<- fct_relevel(iptp$Value, 
@@ -5193,8 +5229,11 @@ selectInput("mal_fever", "",
 
 ```{r, include=F}
 # import data
-mal_fever <- fread("data/table_12/table12_10_malaria_fever_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+mal_fever <- fread("data/table_12/table12_10_malaria_fever_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+mal_fever[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
+
 
 mal_fever$Value<- fct_relevel(mal_fever$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -5268,8 +5307,12 @@ renderGirafe({
 
 ```{r, include=F}
 # import data
-mal_treat_source <- fread("data/table_12/table12_11_malaria_treat_by_source.csv") |>
-   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+mal_treat_source <- fread("data/table_12/table12_11_malaria_treat_by_source.csv") 
+# |>
+#    mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+mal_treat_source[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
+
 
 
 ```
@@ -5338,8 +5381,12 @@ selectInput("hiv_kap", "",
 
 # import data
 
-hiv_meds_kap <- fread("data/table_13/table13_1_HIV_meds_KAP_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+hiv_meds_kap <- fread("data/table_13/table13_1_HIV_meds_KAP_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+hiv_meds_kap[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
+
 
 hiv_meds_kap$Value <- fct_relevel(hiv_meds_kap$Value, "No education", "Primary", "Secondary", "More than secondary")
 
@@ -5506,8 +5553,11 @@ selectInput("bp", "",
 ```{r, include=F}
 # import data
 
-bp <- fread("data/table_14/table14_1_BP_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+bp <- fread("data/table_14/table14_1_BP_by_background_xtics.csv")
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+bp[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
+
 
 bp$Value <- fct_relevel(bp$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -5865,8 +5915,11 @@ selectInput("breast_cancer", "",
 ```{r, include=F}
 # import data
 
-breast_cancer <- fread("data/table_14/table9_19a_Breast_cancer_by_background_xtics.csv")|>
-  mutate(Proportion=fifelse(Proportion>0.5,round(Proportion), Proportion))
+breast_cancer <- fread("data/table_14/table9_19a_Breast_cancer_by_background_xtics.csv")
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5,round(Proportion), Proportion))
+breast_cancer[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
+
 
 
 
@@ -5944,8 +5997,11 @@ selectInput("cervical_cancer", "",
 ```{r, include=F}
 # import data
 
-cervical_cancer <- fread("data/table_14/table9_19b_Cervical_cancer_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+cervical_cancer <- fread("data/table_14/table9_19b_Cervical_cancer_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+cervical_cancer[, Proportion := fifelse(Proportion>0.5, round(Proportion), Proportion)] 
+
 
 
 cervical_cancer$Value <- fct_relevel(cervical_cancer$Value, 
