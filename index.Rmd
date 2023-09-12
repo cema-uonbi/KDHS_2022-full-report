@@ -1051,7 +1051,7 @@ renderGirafe({
   
 ```
 
-### **Occupation
+### **Occupation**
 
 **Choose the characteristics to display (which will appear in the horizontal axis)::**
 
@@ -1067,16 +1067,19 @@ selectInput("occupation", "",
 ```
 
 ```{r, include=F}
-occupation_county <- read.csv("data/table_3/table3_7C_occupation_by_county.csv")
+#occupation_county <- read.csv("data/table_3/table3_7C_occupation_by_county.csv")
 
-county <- st_read("shapefiles/County.shp")
+#county <- st_read("shapefiles/County.shp")
 
-occupation_county1 <- full_join(county, occupation_county|>filter(Participants%in%"Women"), by=c("Name"="County"))|>
-mutate(Participants="Women")
-occupation_county2 <- full_join(county, occupation_county|>filter(Participants%in%"Men"), by=c("Name"="County"))|>
-mutate(Participants="Men")
-occupation_county3 <- rbind(occupation_county1, occupation_county2)
+# occupation_county1 <- full_join(county, occupation_county|>filter(Participants%in%"Women"), by=c("Name"="County"))|>
+# mutate(Participants="Women")
+# occupation_county2 <- full_join(county, occupation_county|>filter(Participants%in%"Men"), by=c("Name"="County"))|>
+# mutate(Participants="Men")
+# occupation_county3 <- rbind(occupation_county1, occupation_county2)
 
+occupation_county <- read.csv("data/table_3/table3_7C_occupation_by_county_2.csv")
+
+occupation_county3 <- full_join(county,occupation_county, by=c("County"="County"))
 
 breaks<- classIntervals(occupation_county3$Proportion, n=5, style="quantile", na.rm=T)
 
@@ -1184,12 +1187,15 @@ selectInput("migration", "",
 migration_county <- fread("data/table_3/table_3_17C_migration_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
+county <- ms_simplify(county, keep = 0.001)
 
 migration_county1 <- full_join(county, migration_county|>filter(Participants%in%"Men"), by=c("Name"="County"))|>
   mutate(Participants="Men")
 migration_county2 <- full_join(county, migration_county|>filter(Participants%in%"Women"), by=c("Name"="County"))|>
   mutate(Participants="Women")
 migration_county3 <-rbind(migration_county1, migration_county2)
+
+
 ```
 
 
@@ -3536,7 +3542,7 @@ valueBox(
 
 vacc_data <- fread("data/DHS County tables/vaccinations_grp_countydata.csv") 
 
-county <- st_read("shapefiles/County.shp")
+
 vacc_data1<- full_join(county, vacc_data, by=c("Name"="County"))
 
 vacc_data1$values_groups <- fct_relevel(vacc_data1$values_groups, c("≤ 28",">28-43",">43-52",">52-65",">65"))
@@ -4145,6 +4151,7 @@ micronutrient$Value <- fct_relevel(micronutrient$Value,
 micronutrient_county <- fread("data/table_11/table11_12C_micronutrient_by_county.csv")
 
 county <- st_read("shapefiles/County.shp")
+county <- ms_simplify(county, keep = 0.001)
 micronutrient_county1 <- full_join(county, micronutrient_county, by=c("Name"="County"))|>
   mutate(proportion_category=fifelse(Proportion<50,"<50%", fifelse(Proportion>49&Proportion<81,"50-80%",">80%")))
 micronutrient_county1$proportion_category <- as.factor(fct_relevel(micronutrient_county1$proportion_category, c("<50%", "50-80%", ">80%")))
@@ -4245,7 +4252,6 @@ nutrition_women$Value <- fct_relevel(nutrition_women$Value,
 nutrition_women_county <- fread("data/DHS County tables/table11_13C_grp_Nutrition_women_by_county.csv")|>
   mutate(County=recode(County,"Elgeyo-Marakwet"="Elgeyo Marakwet", "Murang'a"="Muranga", "Tharaka-Nithi"="Tharaka Nithi"))
 
-county <- st_read("shapefiles/County.shp")
 
 nutrition_women_county1 <- full_join(county, nutrition_women_county, by=c("Name"="County"))#|>
   #mutate(proportion_category=fifelse(Proportion<20,"<20%", fifelse(Proportion>19&Proportion<41,"20%-40%",">40%")))
@@ -4322,7 +4328,7 @@ mdd$Value <- fct_relevel(mdd$Value,
 ```{r, include=F}
 mdd_county <- fread("data/DHS County tables/table11_15C_grp_MDD-W_by_county.csv")
 
-county <- st_read("shapefiles/County.shp")
+
 mdd_county1 <- full_join(county, mdd_county, by=c("Name"="County"))#|>
   #mutate(proportion_category=fifelse(Proportion<15,"<15%", fifelse(Proportion>14&Proportion<31,"15%-30%",">30%")))
 
@@ -4406,7 +4412,6 @@ iron_women_county <- fread("data/DHS County tables/table9_4C_Iron_grp_supplement
 
 iron_women_county$Category <- fct_relevel(iron_women_county$Category, "<60 days", "60-89 days", "90-179 days", "180+ days")
 
-county <- st_read("shapefiles/County.shp")
 
 iron_women_county1 <- full_join(county, iron_women_county, by=c("Name"="County"))#|>
   #mutate(proportion_category=fifelse(Proportion<20,"<20%", fifelse(Proportion>19&Proportion<41,"20%-40%",">40%")))
@@ -4526,7 +4531,6 @@ itn_possess$Value<- fct_relevel(itn_possess$Value,
 
 itn_possess_county <- fread("data/DHS County tables/table12_1C_ITN_grp_possession_by_county.csv")
 
-county <- st_read("shapefiles/County.shp")
 
 itn_possess_county1 <- full_join(county, itn_possess_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
@@ -4611,7 +4615,7 @@ itn_source$Value <- fct_relevel(itn_source$Value,
 itn_source_county <- fread("data/DHS County tables/table12_2C_ITN_grp_source_by_county.csv")|>
   filter(Category%in%c("Mass distribution campaign","Shop/market","ANC visit","Immunization visit"))
 
-county <- st_read("shapefiles/County.shp")
+
 
 itn_source_county1 <- full_join(county, itn_source_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
@@ -4693,7 +4697,7 @@ itn_access$Value<- fct_relevel(itn_access$Value,
 ```{r, include=F}
 itn_access_county <- fread("data/DHS County tables/table12_3C_ITN_grp_access_by_county.csv") 
 
-county <- st_read("shapefiles/County.shp")
+
 
 itn_access_county1 <- full_join(county, itn_access_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
@@ -4772,7 +4776,7 @@ itn_use$Value <- fct_relevel(itn_use$Value,
 ```{r, include=FALSE}
 itn_use_county <- fread("data/DHS County tables/table12_4C_grp_ITN_use_by_county.csv")
 
-county <- st_read("shapefiles/County.shp")
+
 
 itn_use_county1 <- full_join(county, itn_use_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
@@ -5162,7 +5166,7 @@ iptp$Value<- fct_relevel(iptp$Value,
 
 iptp_county <- fread("data/DHS County tables/table12_9C_grp_iptp_by_county.csv")
 
-county <- st_read("shapefiles/County.shp")
+
 
 iptp_county1 <- full_join(county, iptp_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<30,"<30%", fifelse(Proportion>30 & Proportion<61,"30%-60%",">60%")))|>
@@ -5576,7 +5580,6 @@ bp$Value<- fct_relevel(bp$Value,
 ```{r, include=FALSE}
 bp_county <- fread("data/DHS County tables/table14_1C_grp_BP_by_county.csv")
 
-county <- st_read("shapefiles/County.shp")
 
 bp_county1 <- full_join(county, bp_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<10,"<10%", fifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))|>
@@ -5697,7 +5700,7 @@ depression$Value<- fct_relevel(depression$Value,
 depression_county <- fread("data/DHS County tables/table14_5C_grp_Depression_by_county.csv")|>
   mutate(Category=recode(Category,"Diagnosed with Depression"="Diagnosed with Depression and/or Anxiety"))
 
-county <- st_read("shapefiles/County.shp")
+
 
 depression_county1 <- full_join(county, depression_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<10,"<10%", fifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))|>
@@ -5774,7 +5777,7 @@ arthritis$Value<- fct_relevel(arthritis$Value,
 
 ```{r, include=F}
 arthritis_county <- fread("data/DHS County tables/table14_6C_grp_Arthritis_by_county.csv")
-county <- st_read("shapefiles/County.shp")
+
 arthritis_county1 <- full_join(county, arthritis_county, by=c("Name"="County"))|>
   #mutate(proportion_category=fifelse(Proportion<10,"<10%", fifelse(Proportion>10 & Proportion<21,"10%-20%",">20%")))|>
   mutate(names1=paste0(Name,": ",Proportion,"%"))
@@ -5855,7 +5858,7 @@ physical_activity$Value<- fct_relevel(physical_activity$Value,
 
 ```{r, include=F}
 physical_activity_county <- fread("data/DHS County tables/table14_7C_grp_Physical_activity_by_county.csv") 
-county <- st_read("shapefiles/County.shp")
+
 
 physical_activity_county1 <- full_join(county, physical_activity_county, by=c("Name"="County"))|>
   #mutate(time_category=fifelse(`Activity time`<200,"<200 minutes", fifelse(`Activity time`>200 & `Activity time`<401,"200 minutes-400 minutes",fifelse(`Activity time`>400&`Activity time`<601,"401-600 minutes",">600 minutes"))))|>
@@ -6602,7 +6605,6 @@ physical_violence <- fread('data/table_17/table_17.1_Experience_pysical_violence
 
 physical_violence_county <- fread('data/table_17/Table 17.1C Experience of physical violence by any perpetrator according to county.csv')
 
-county <- st_read("shapefiles/County.shp")
 
 physical_violence_county <- full_join(physical_violence_county, county, by = c('County'='Name')) 
 
@@ -7732,7 +7734,7 @@ renderGirafe({
 
 ```{r, include=F}
 
-county <- st_read("shapefiles/County.shp")
+
 
 ```
 

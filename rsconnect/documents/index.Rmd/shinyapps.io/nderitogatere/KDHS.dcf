@@ -5,8 +5,6 @@ account: nderitogatere
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9765401
-bundleId: 7647113
+bundleId: 7669743
 url: https://nderitogatere.shinyapps.io/KDHS/
 version: 1
-asMultiple: FALSE
-asStatic: FALSE
