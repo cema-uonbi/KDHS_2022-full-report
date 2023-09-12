@@ -790,14 +790,21 @@ selectInput("cash_transfer", "",
 
 cash_transfer_county <- fread("data/table_2/table_2_22_2C_cash_transfer_by_county.csv")
 
+cash_transfer_county <- cash_transfer_county[, cat := fifelse(Proportion < 0.7, "<0.7",
+fifelse(Proportion > 0.6 & Proportion < 2.6, "0.7-2.5",
+fifelse(Proportion > 2.5 & Proportion < 8.1, "2.6-8.0",
+fifelse(Proportion > 8.0 & Proportion < 20.0, "8.1-19.9", ">19.9"))))]
+
 cash_transfer_county1 <- full_join(county, cash_transfer_county, by=c("Name"="County"))
 
 
 breaks<- classIntervals(cash_transfer_county$Proportion, n=5, style="quantile", na.rm=T)
 
-cash_transfer_county1 <- cash_transfer_county1 |>
-  mutate(cat=fifelse(Proportion<0.7, "<0.7", fifelse(Proportion>0.6 & Proportion<2.6, "0.7-2.5", fifelse(Proportion>2.5 & Proportion <8.1, "2.6-8.0",
-                                                                                                fifelse(Proportion>8.0&Proportion<20.0, "8.1-19.9", ">19.9")))))
+# cash_transfer_county1 <- cash_transfer_county1 |>
+#   mutate(cat=fifelse(Proportion<0.7, "<0.7", fifelse(Proportion>0.6 & Proportion<2.6, "0.7-2.5", fifelse(Proportion>2.5 & Proportion <8.1, "2.6-8.0",
+#                                                                                                 fifelse(Proportion>8.0&Proportion<20.0, "8.1-19.9", ">19.9")))))
+
+
 
 
 covid_county3
@@ -2985,11 +2992,18 @@ selectInput("perinatal_mortality", "",
 
 # import data
 
-perinatal_mortality <-fread("data/table_8/Table_8.4_Perinatal Mortality.csv") |>
-  filter(category!="Pregnancies (28 weeks)")|>
-  filter(category%in%"Perinatal mortality rate")|>
-  mutate(variable=fifelse(characteristic%in%c("No education","Primary","Secondary","More than secondary"),"Education",variable))|>
- mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
+  # filter(category!="Pregnancies (28 weeks)")|>
+  # filter(category%in%"Perinatal mortality rate")|>
+perinatal_mortality <-fread("data/table_8/Table_8.4_Perinatal Mortality.csv")
+perinatal_mortality <- perinatal_mortality[!(category %in% "Pregnancies (28 weeks)") & category %in% "Perinatal mortality rate", ]
+perinatal_mortality <- perinatal_mortality[characteristic %in% c("No education", "Primary", "Secondary", "More than secondary"), variable := "Education"]
+perinatal_mortality <- perinatal_mortality[proportion > 0.5, proportion := round(proportion)]
+
+
+# perinatal_mortality <- perinatal_mortality |> mutate(variable=fifelse(characteristic%in%c("No education","Primary","Secondary","More than secondary"),"Education",variable))|>
+#  mutate(proportion=fifelse(proportion>0.5, round(proportion), proportion))
+
+
 
 perinatal_mortality$characteristic <- fct_relevel(perinatal_mortality$characteristic, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -3003,9 +3017,11 @@ perinatal_mortality$characteristic <- fct_relevel(perinatal_mortality$characteri
 
 
 ```{r, include=FALSE}
-perinatal_mortality_county <-fread("data/DHS County tables/Table_8.4C_grp_Perinatal Mortality By County.csv")|>
+perinatal_mortality_county <-fread("data/DHS County tables/Table_8.4C_grp_Perinatal Mortality By County.csv")
   #mutate(proportion_category=fifelse(proportion<20,"<20", fifelse(proportion>19&proportion<41,"20-40",">40")))|>
-  filter(category%in%"Perinatal mortality rate")
+  # filter(category%in%"Perinatal mortality rate")
+
+perinatal_mortality_county <- perinatal_mortality_county[category %in% "Perinatal mortality rate"]
 
 perinatal_mortality_county$proportion_groups <- as.factor(fct_relevel(perinatal_mortality_county$proportion_groups, c( "≤ 11", ">11-17", ">17-22", ">22-30", ">30")))
 
@@ -3167,8 +3183,11 @@ antenatal_care1$Category <- as.factor(fct_relevel(antenatal_care1$Category, c("N
 
 ```{r, include=FALSE}
 
-anc_number_county <-fread("data/table_9/table_9_2C_ancvisits_number_by_county.csv")|>
-  mutate(proportion_category=fifelse(Proportion<20,"<20",fifelse(Proportion>19 & Proportion<40, "20-39", "40-78")))
+anc_number_county <-fread("data/table_9/table_9_2C_ancvisits_number_by_county.csv")
+# |>
+#   mutate(proportion_category=fifelse(Proportion<20,"<20",fifelse(Proportion>19 & Proportion<40, "20-39", "40-78")))
+anc_number_county <- anc_number_county[, proportion_category := ifelse(Proportion < 20, "<20", 
+                                   ifelse(Proportion > 19 & Proportion < 40, "20-39", "40-78"))]
 
 anc_number_county$proportion_category <- as.factor(fct_relevel(anc_number_county$proportion_category, c( "<20","20-39", "40-78")))
 
@@ -3305,8 +3324,11 @@ renderPlot({ggplot(place_delivery[place_delivery$Variable%in%input$place_deliver
 
 # import data
 
-c_section <-fread("data/table_9/Table_9.8C_cesarean_section_by_county.csv")|>
-  mutate(proportion_category=fifelse(percentage_delivered_by_cs<10,"<10", fifelse(percentage_delivered_by_cs>9&percentage_delivered_by_cs<21,"10-20",">20")))
+c_section <-fread("data/table_9/Table_9.8C_cesarean_section_by_county.csv")
+# |>
+#   mutate(proportion_category=fifelse(percentage_delivered_by_cs<10,"<10", fifelse(percentage_delivered_by_cs>9&percentage_delivered_by_cs<21,"10-20",">20")))
+
+c_section <- c_section[, proportion_category := ifelse(percentage_delivered_by_cs < 10, "<10", ifelse(percentage_delivered_by_cs > 9 & percentage_delivered_by_cs < 21, "10-20", ">20"))]
 
 c_section$proportion_category <- as.factor(fct_relevel(c_section$proportion_category, c( "<10", "10-20", ">20")))
 
@@ -3683,8 +3705,12 @@ selectInput("vacc_char", "",
 
 
 
-vaccination_data <-fread("data/vaccination_data.csv") |>
-  mutate(Vaccines1= fifelse(Vaccines%in%c("Rotavirus1", "Rotavirus2", "Pneumococcal1", "Pneumococcal2", "Pneumococcal3","OPV0", "OPV1", "OPV2", "OPV3", "MR1", "MR2", "IPV", "BCG", "DPT1", "DPT2", "DPT3"), "Vaccines", "Summary"))
+vaccination_data <-fread("data/vaccination_data.csv") 
+# |>
+#   mutate(Vaccines1= fifelse(Vaccines%in%c("Rotavirus1", "Rotavirus2", "Pneumococcal1", "Pneumococcal2", "Pneumococcal3","OPV0", "OPV1", "OPV2", "OPV3", "MR1", "MR2", "IPV", "BCG", "DPT1", "DPT2", "DPT3"), "Vaccines", "Summary"))
+
+vaccination_data  <- vaccination_data[, Vaccines1 := ifelse(Vaccines %in% c("Rotavirus1", "Rotavirus2", "Pneumococcal1", "Pneumococcal2", "Pneumococcal3","OPV0", "OPV1", "OPV2", "OPV3", "MR1", "MR2", "IPV", "BCG", "DPT1", "DPT2", "DPT3"), "Vaccines", "Summary")]
+
 
 vaccination_data$Characteristics <- fct_relevel(vaccination_data$Characteristics, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -3870,14 +3896,21 @@ selectInput("trtsrc","",
 
 
 ```{r}
-treat_source <- fread("data/table_10/table10_7_10_12_treatment_by_source.csv")|>
-  mutate(`Source of Treatment`=fifelse(`Source of Treatment`%in%c("Private medical sector (NGO)", "Private medical sector (non-NGO)", "Other private sector"), "Private sector", `Source of Treatment` )) |>
-  group_by(`Source of Treatment`, Condition, Category) |>
-  mutate(Proportion=sum(Proportion, na.rm=T)) |>
-  ungroup() |>
-  select(-lab) |>
-  distinct() |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+treat_source <- fread("data/table_10/table10_7_10_12_treatment_by_source.csv")
+#|>
+  # mutate(`Source of Treatment`=fifelse(`Source of Treatment`%in%c("Private medical sector (NGO)", "Private medical sector (non-NGO)", "Other private sector"), "Private sector", `Source of Treatment` )) |>
+  # group_by(`Source of Treatment`, Condition, Category) |>
+  # mutate(Proportion=sum(Proportion, na.rm=T)) |>
+  # ungroup() |>
+  # select(-lab) |>
+  # distinct() |>
+  # mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+
+treat_source <- treat_source[, `Source of Treatment` := ifelse(`Source of Treatment` %in% c("Private medical sector (NGO)", "Private medical sector (non-NGO)", "Other private sector"), "Private sector", `Source of Treatment`)]
+treat_source <- treat_source[, Proportion := sum(Proportion, na.rm = TRUE), by = .(`Source of Treatment`, Condition, Category)]
+treat_source <- treat_source[, .(`Source of Treatment`, Condition, Category, Proportion)]
+treat_source <- unique(treat_source)
+treat_source <- treat_source[, Proportion := ifelse(Proportion > 0.5, round(Proportion), Proportion)]
 
 renderPlot({
   ggplot(treat_source[treat_source$Condition%in%input$trtsrc,], aes(x=reorder(`Source of Treatment`,Proportion), y=Proportion, fill=Category))+
@@ -4322,9 +4355,11 @@ renderGirafe({
 **Percentage of children fed according to various IYCF practices**
 
 ```{r}
-iycf <- fread("data/table_11/table11_10_IYCF.csv") |>
-  mutate(Proportion=fifelse(Proportion<0.5, Proportion, round(Proportion))) |>
-  mutate(Indicator=str_replace(Indicator, "Percentage", "%"))
+iycf <- fread("data/table_11/table11_10_IYCF.csv")
+iycf <- iycf[, Proportion := ifelse(Proportion < 0.5, Proportion, round(Proportion))]
+iycf <- iycf[, Indicator := gsub("Percentage", "%", Indicator)]
+  #mutate(Proportion=fifelse(Proportion<0.5, Proportion, round(Proportion))) |>
+  # mutate(Indicator=str_replace(Indicator, "Percentage", "%"))
 
 renderPlot({ggplot(iycf,aes(x=reorder(Indicator,Proportion), y=Proportion))+
   geom_bar(position="dodge", stat="identity", fill="#74add1")+
@@ -5545,12 +5580,16 @@ selectInput("hiv", "",
 # import data
 
 hivc <- fread("data/table_23/table23_hiv_count_data.csv")
-
+hivc <- hivc[, Participants := ifelse(Participants == "Men_15-24", "Men (15-24 years)", 
+ifelse(Participants == "Women_15-24", "Women (15-24 years)", Participants))]
+hivc <- hivc[, cats := ifelse(values < 40, "<40%", 
+ifelse(values > 39 & values < 81, "40-80%", ">80%"))]
 hivc_men <- full_join(county, hivc[hivc$Participants%in%"Men_15-24",], by=c("Name"="County"))
 hivc_women <- full_join(county, hivc[hivc$Participants%in%"Women_15-24",], by=c("Name"="County"))
-hivc1 <- rbind(hivc_men, hivc_women) |>
-  mutate(Participants=recode(Participants, "Men_15-24"="Men (15-24 years)", "Women_15-24"="Women (15-24 years)"))|>
-  mutate(cats=fifelse(values<40,"<40%", fifelse(values>39&values<81,"40-80%",">80%")))
+hivc1 <- rbind(hivc_men, hivc_women)
+
+  # mutate(Participants=recode(Participants, "Men_15-24"="Men (15-24 years)", "Women_15-24"="Women (15-24 years)"))|>
+  # mutate(cats=fifelse(values<40,"<40%", fifelse(values>39&values<81,"40-80%",">80%")))
 
 hivc1$Participants <- fct_relevel(hivc1$Participants, "Women 15-24", "Men 15-24")
 hivc1$cats <- fct_relevel(hivc1$cats, "<40%", "40-80%", ">80%")
@@ -5813,8 +5852,10 @@ depression$Value<- fct_relevel(depression$Value,
 
 
 ```{r, include=F}
-depression_county <- fread("data/DHS County tables/table14_5C_grp_Depression_by_county.csv")|>
-  mutate(Category=recode(Category,"Diagnosed with Depression"="Diagnosed with Depression and/or Anxiety"))
+depression_county <- fread("data/DHS County tables/table14_5C_grp_Depression_by_county.csv")
+# |>
+#   mutate(Category=recode(Category,"Diagnosed with Depression"="Diagnosed with Depression and/or Anxiety"))
+depression_county <- depression_county[, Category := ifelse(Category == "Diagnosed with Depression", "Diagnosed with Depression and/or Anxiety", Category)]
 
 
 
@@ -5878,8 +5919,10 @@ selectInput("arthritis", "",
 ```{r, include=F}
 # import data
 
-arthritis <- fread("data/table_14/table14_6_Arthritis_by_background_xtics.csv") |>
-  mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+arthritis <- fread("data/table_14/table14_6_Arthritis_by_background_xtics.csv") 
+# |>
+#   mutate(Proportion=fifelse(Proportion>0.5, round(Proportion), Proportion))
+arthritis <- arthritis[, Proportion := ifelse(Proportion > 0.5, round(Proportion), Proportion)]
 
 arthritis$Value<- fct_relevel(arthritis$Value, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -5957,8 +6000,10 @@ selectInput("physical_activity", "",
 ```{r, include=F}
 # import data
 
-physical_activity <- fread("data/table_14/table14_7_Physical_activity_by_background_xtics.csv")|>
-  mutate(`Activity time`=round(`Activity time`))
+physical_activity <- fread("data/table_14/table14_7_Physical_activity_by_background_xtics.csv")
+# |>
+  # mutate(`Activity time`=round(`Activity time`))
+physical_activity <- physical_activity[, `Activity time` := round(`Activity time`)]
 
 
 physical_activity$Value<- fct_relevel(physical_activity$Value, 
@@ -6244,8 +6289,12 @@ valueBox(
 ```{r, include=F}
 # import data
 
-T15.1 <- fread("data/table_15/table_15_1_employment_and_cash_earnings_of_currently_married_women_and_men.csv")|>
-  mutate(value=fifelse(value>0.5, round(value), value))
+T15.1 <- fread("data/table_15/table_15_1_employment_and_cash_earnings_of_currently_married_women_and_men.csv")
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+
+T15.1 <- T15.1[, value := ifelse(value > 0.5, round(value), value)]
+
 
 ```
 
@@ -6283,9 +6332,13 @@ selectInput("control", "",
 ```{r, include=F}
 # import data
 
-T15.2.2 <- fread("data/table_15/table_15_2_2_control_over_mens_cash_earnings.csv", na.strings=c("*"))|>
-  mutate(value=as.numeric(value)) |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+T15.2.2 <- fread("data/table_15/table_15_2_2_control_over_mens_cash_earnings.csv", na.strings=c("*"))
+# |>
+#   mutate(value=as.numeric(value)) |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+
+T15.2.2 <- T15.2.2[, value := as.numeric(value)]
+T15.2.2 <- T15.2.2[, value := ifelse(value > 0.5, round(value), value)]
 
 T15.2.2$Category<- fct_relevel(T15.2.2$Category, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -6358,11 +6411,18 @@ selectInput("agric_own", "",
 ```{r, include=F}
 # agricultural land ownership
 
-Agricultural_land_ownsership <- fread('data/table_15/table_15.5.1_&_table_15.5.3_Agicultural_Land_ownership.csv')|>
-  mutate(value=fifelse(value>0.5, round(value), value)) 
+Agricultural_land_ownsership <- fread('data/table_15/table_15.5.1_&_table_15.5.3_Agicultural_Land_ownership.csv')
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value)) 
 
-agricultural_land_ownsership_county <- fread('data/table_15/Table_15.5.1C&15.5.3CAgricultural _and_ownership_county.csv') |>
-  mutate(variable=recode(variable, "Does.not.have.a.title.deed"="Does not have \na title deed"))
+Agricultural_land_ownsership <- Agricultural_land_ownsership[, value := ifelse(value > 0.5, round(value), value)]
+
+
+agricultural_land_ownsership_county <- fread('data/table_15/Table_15.5.1C&15.5.3CAgricultural _and_ownership_county.csv') # |>
+#   mutate(variable=recode(variable, "Does.not.have.a.title.deed"="Does not have \na title deed"))
+
+agricultural_land_ownsership_county <- agricultural_land_ownsership_county[, variable := ifelse(variable == "Does.not.have.a.title.deed", "Does not have \na title deed", variable)]
+
 
 Agricultural_land_ownsership$Category <- fct_relevel(Agricultural_land_ownsership$Category, "No education", "Primary", "Secondary", "More than secondary",
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -6420,18 +6480,26 @@ selectInput("nonagric_own", "",
 ```{r, include=F}
 # agricultural land ownership
 
-non_agricultural_land_ownsership <- fread('data/table_15/table_15.5.2_&_table_15.5.4_Longformat.csv') |>
-  mutate(value=fifelse(value>0.5, round(value), value)) 
+non_agricultural_land_ownsership <- fread('data/table_15/table_15.5.2_&_table_15.5.4_Longformat.csv') 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value)) 
+
+non_agricultural_land_ownsership <- non_agricultural_land_ownsership[, value := ifelse(value > 0.5, round(value), value)]
+
 
 non_agricultural_land_ownsership_county <- fread('data/table_15/Table_15.52C&15.5.3C_ Non_agricultural_land_ownership _county.csv') 
 
 non_agricultural_land_ownsership$Category <- fct_relevel(non_agricultural_land_ownsership$Category, "No education", "Primary", "Secondary", "More than secondary",
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
 
+non_agricultural_land_ownsership_county <- non_agricultural_land_ownsership_county[, value := abs(value)]
+non_agricultural_land_ownsership_county <- non_agricultural_land_ownsership_county[!is.na(variable)]
 
-non_agricultural_land_ownsership_county <- left_join(county, non_agricultural_land_ownsership_county, by = c('Name'='County'), multiple = "all") |>
-  mutate(value=abs(value)) |>
-  filter(!is.na(variable))
+
+non_agricultural_land_ownsership_county <- left_join(county, non_agricultural_land_ownsership_county, by = c('Name'='County'), multiple = "all")
+  # mutate(value=abs(value)) |>
+  # filter(!is.na(variable))
+
 
 ```
 
@@ -6484,8 +6552,11 @@ selectInput("mobile", "",
 ```{r, include=F}
 
 
-T15.6.1 <- fread("data/table_15/Table_15_6_1_ownership_and_use_of_mobile_phones_and_bank_accounts.csv") |>
-  mutate(value=fifelse(value>0.5, round(value), value)) 
+T15.6.1 <- fread("data/table_15/Table_15_6_1_ownership_and_use_of_mobile_phones_and_bank_accounts.csv") 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value)) 
+
+T15.6.1 <- T15.6.1[, value := ifelse(value > 0.5, round(value), value)]
 
 T15.6.1C <- fread("data/table_15/Table_15_6_1_ownership_and_use_of_mobile_phones_and_bank_accounts_map.csv") 
 
@@ -6547,8 +6618,12 @@ selectInput("decision_making", "",
 # agricultural land ownership
 
 
-decision_making <- fread("data/table_15/Table_15_8_2_participation_in_decision_making.csv") |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+decision_making <- fread("data/table_15/Table_15_8_2_participation_in_decision_making.csv") 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+
+decision_making <- decision_making[, value := ifelse(value > 0.5, round(value), value)]
+
 
 
 decision_making$Category<- fct_relevel(decision_making$Category, 
@@ -6610,24 +6685,37 @@ selectInput("safer_sex", "",
 # agricultural land ownership
 
 
-T15.10 <- fread("data/table_15/Table_15_10_attitudes_toward_negotiating_safer_sexual_relations_with_husband.csv") |>
-  mutate(value=fifelse(value>0.5, round(value), value)) |>
-  mutate(Category=recode(Category, "Divorced/Separated/Widowed"="Divorced/\nSeparated/Widowed", "Married/Living together"="Married/\nLiving together"))
+T15.10 <- fread("data/table_15/Table_15_10_attitudes_toward_negotiating_safer_sexual_relations_with_husband.csv") 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value)) |>
+#   mutate(Category=recode(Category, "Divorced/Separated/Widowed"="Divorced/\nSeparated/Widowed", "Married/Living together"="Married/\nLiving together"))
+
+T15.10 <- T15.10[, value := ifelse(value > 0.5, round(value), value)]
+T15.10 <- T15.10[, Category := ifelse(Category == "Divorced/Separated/Widowed", "Divorced/\nSeparated/Widowed", 
+ifelse(Category == "Married/Living together", "Married/\nLiving together", Category))]
 
 
 T15.10$Category<- fct_relevel(T15.10$Category, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest", "No education", "Primary", "Secondary", "More than secondary")
 
 T15.10C <- fread("data/table_15/Table_15_10C_attitudes_toward_negotiating_safer_sexual_relations_with_husband_map.csv") 
+T15.10C <- T15.10C[, value := abs(value)]
+T15.10C <- T15.10C[, cat := ifelse(value < 40, "<40", 
+                   ifelse(value > 39 & value < 60, "40-59", 
+                          ifelse(value > 59 & value < 80, "60-79", ">79")))]
 
 
 T15.10C <- full_join(county, T15.10C, by=c("Name"="County")) 
 
 breaks<- classIntervals(T15.10C$value, n=5, style="quantile", na.rm=T)
 
-T15.10C <- T15.10C |>
-  mutate(value=abs(value)) |>
-  mutate(cat=fifelse(value<40, "<40", fifelse(value>39 & value<60, "40-59", fifelse(value>59 & value<80, "60-79", ">79"))))
+# T15.10C <- T15.10C[, value := abs(value)]
+# T15.10C <- T15.10C[, cat := ifelse(value < 40, "<40", 
+#                    ifelse(value > 39 & value < 60, "40-59", 
+#                           ifelse(value > 59 & value < 80, "60-79", ">79")))]
+
+  # mutate(value=abs(value)) |>
+  # mutate(cat=fifelse(value<40, "<40", fifelse(value>39 & value<60, "40-59", fifelse(value>59 & value<80, "60-79", ">79"))))
 
 T15.10C$cat <- fct_relevel(T15.10C$cat, "<40", "40-59", "60-79", ">79")
 ```
@@ -6713,8 +6801,11 @@ selectInput("physical_violence", "",
 
 ```{r, include=F}
 #import data
-physical_violence <- fread('data/table_17/table_17.1_Experience_pysical_violence.csv') |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+physical_violence <- fread('data/table_17/table_17.1_Experience_pysical_violence.csv') 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+
+physical_violence <- physical_violence[, value := ifelse(value > 0.5, round(value), value)]
 
 physical_violence_county <- fread('data/table_17/Table 17.1C Experience of physical violence by any perpetrator according to county.csv')
 
@@ -6769,8 +6860,11 @@ selectInput("viol","",
             c("Male"="Male",
             "Female"="Female"))
 
-pers_physical_violence <- fread('data/table_17/table_17.2_person_commiting_physical_violence.csv') |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+pers_physical_violence <- fread('data/table_17/table_17.2_person_commiting_physical_violence.csv') 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+
+pers_physical_violence <- pers_physical_violence[, value := ifelse(value > 0.5, round(value), value)]
 
 renderPlot({ggplot(pers_physical_violence[pers_physical_violence$Gender%in%input$viol,],aes(y=value, x=reorder(Category,value), fill=variable)) +ylim(0,100)+coord_flip()+
   geom_col(position="dodge") + geom_text(aes(label=paste0(value,"%")), position=position_dodge(width=1), hjust=-0.5)+
@@ -6800,8 +6894,10 @@ selectInput("violence_preg", "",
 
 ```{r, include=F}
 #import data
-violence_preg <- fread('data/table_17/table 17.3 Experience of violence during pregnancy_longformat.csv')|>
-  mutate(value=fifelse(value>0.5, round(value), value))
+violence_preg <- fread('data/table_17/table 17.3 Experience of violence during pregnancy_longformat.csv')
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+violence_preg <- violence_preg[, value := ifelse(value > 0.5, round(value), value)]
 
 violence_preg_county <- fread('data/table_17/Table 17.3C Experience of violence during pregnancy.csv')
 
@@ -6874,8 +6970,10 @@ selectInput("violence_sexual", "",
 
 ```{r, include=F}
 #import data
-sexual_violence <- fread('data/table_17/table_17.4_experience_sexual_violence.csv') |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+sexual_violence <- fread('data/table_17/table_17.4_experience_sexual_violence.csv') 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+sexual_violence <- sexual_violence[, value := ifelse(value > 0.5, round(value), value)]
 
 
 experience_sexual_violence_county <- fread('data/table_17/Table 17.4C Experience of sexual violence by any perpetrator according to county.csv') 
@@ -6936,8 +7034,10 @@ renderGirafe({if(input$violence_sexual%in%c("Age","Education","Employment","Resi
 
 ```{r, include=F}
 #import data
-sexual_violence1 <- fread('data/table_17/table_17.2_person_commiting_physical_violence.csv') |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+sexual_violence1 <- fread('data/table_17/table_17.2_person_commiting_physical_violence.csv') 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+sexual_violence1 <- sexual_violence1[, value := ifelse(value > 0.5, round(value), value)]
 
 ```
 
@@ -6968,8 +7068,11 @@ selectInput("controlling", "",
 
 ```{r, include=F}
 #import data
-controlling <- fread('data/table_17/Table_17_9_2_forms_of_controlling_behaviors_and_intimate-partner_violence.csv') |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+controlling <- fread('data/table_17/Table_17_9_2_forms_of_controlling_behaviors_and_intimate-partner_violence.csv') 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+
+controlling <- controlling[, value := ifelse(value > 0.5, round(value), value)]
 ```
 
 ```{r}
@@ -6999,8 +7102,11 @@ selectInput("violence_spouse", "",
 
 ```{r, include=F}
 #import data
-violence_spouse <- fread('data/table_17/Table_17_13_violence_by_any_spouse_or_intimate_partner_in_the_last_12_months.csv')|>
-  mutate(value=fifelse(value>0.5, round(value), value))
+violence_spouse <- fread('data/table_17/Table_17_13_violence_by_any_spouse_or_intimate_partner_in_the_last_12_months.csv')
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+violence_spouse <- violence_spouse[, value := ifelse(value > 0.5, round(value), value)]
+
 
 violence_spouse$Category <- fct_relevel(violence_spouse$Category, 
                                     "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -7070,8 +7176,11 @@ selectInput("violence_women", "",
 
 ```{r, include=F}
 #import data
-violence_women <- fread("data/table_17/table_17_16_Violence_by_respondent_against_their_spouse.csv") |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+violence_women <- fread("data/table_17/table_17_16_Violence_by_respondent_against_their_spouse.csv") 
+# |>
+#   mutate(value=fifelse(value>0.5, round(value), value))
+violence_women <- violence_women[, value := ifelse(value > 0.5, round(value), value)]
+
 
 violence_women$Category <- fct_relevel(violence_women$Category, "No education", "Primary", "Secondary", "More than secondary",
                                    "Lowest", "Second", "Middle", "Fourth", "Highest")
@@ -7144,15 +7253,18 @@ selectInput("violence_stop", "",
 
 ```{r, include=F}
 #import data
-T17.17 <- fread("data/table_17/table_17_17_Help_seeking_to_stop_violence.csv")  |>
-  mutate(value=fifelse(value>0.5, round(value), value))
+T17.17 <- fread("data/table_17/table_17_17_Help_seeking_to_stop_violence.csv")
+T17.17 <- T17.17[, value := ifelse(value > 0.5, round(value), value)]
+#mutate(value=fifelse(value>0.5, round(value), value))
 T17.17$Category <- fct_relevel(T17.17$Category, "No education", "Primary", "Secondary", "More than secondary",
                                    "Lowest", "Second", "Middle", "Fourth", "Highest") 
 
 T17.17C <- fread("data/table_17/table_17_17C_Help_seeking_to_stop_violence.csv") 
- 
-T17.17C <- right_join(county, T17.17C, by = c('Name'='County'), multiple = "all") |>
-  mutate(value=as.numeric(value))
+T17.17C <- T17.17C[, value := as.numeric(value)]
+T17.17C <- right_join(county, T17.17C, by = c('Name'='County'), multiple = "all") 
+
+
+#mutate(value=as.numeric(value))
 
 ```
 
@@ -7616,9 +7728,7 @@ renderGirafe({
 Row {data-height=700}
 -------------------------------------
 
-### Please select an indicator
-
-```{r}
+### Please select an indicator```{r}
 selectInput("ind_comp", "",
              c("Stunting"= "Stunting",
              "Wasting"="Wasting",
