@@ -1,95 +1,95 @@
-County,Category,Proportion,proportion_groups
-Mombasa,Tested for cervical cancer,15.9,>8
-Mombasa,Diagnosed with cervical cancer,0.4,≤ 1
-Kwale,Tested for cervical cancer,2.9,>1-8
-Kwale,Diagnosed with cervical cancer,0,≤ 1
-Kilifi,Tested for cervical cancer,7,>1-8
-Kilifi,Diagnosed with cervical cancer,0,≤ 1
-Tana River,Tested for cervical cancer,6.9,>1-8
-Tana River,Diagnosed with cervical cancer,0,≤ 1
-Lamu,Tested for cervical cancer,6.9,>1-8
-Lamu,Diagnosed with cervical cancer,0,≤ 1
-Taita Taveta,Tested for cervical cancer,10.6,>8
-Taita Taveta,Diagnosed with cervical cancer,0,≤ 1
-Garissa,Tested for cervical cancer,2,>1-8
-Garissa,Diagnosed with cervical cancer,0,≤ 1
-Wajir,Tested for cervical cancer,2,>1-8
-Wajir,Diagnosed with cervical cancer,0,≤ 1
-Mandera,Tested for cervical cancer,0.5,≤ 1
-Mandera,Diagnosed with cervical cancer,0,≤ 1
-Marsabit,Tested for cervical cancer,0.5,≤ 1
-Marsabit,Diagnosed with cervical cancer,0.2,≤ 1
-Isiolo,Tested for cervical cancer,5.1,>1-8
-Isiolo,Diagnosed with cervical cancer,0,≤ 1
-Meru,Tested for cervical cancer,20.5,>8
-Meru,Diagnosed with cervical cancer,0,≤ 1
-Tharaka-Nithi,Tested for cervical cancer,20.1,>8
-Tharaka-Nithi,Diagnosed with cervical cancer,0.3,≤ 1
-Embu,Tested for cervical cancer,18,>8
-Embu,Diagnosed with cervical cancer,0.2,≤ 1
-Kitui,Tested for cervical cancer,4.7,>1-8
-Kitui,Diagnosed with cervical cancer,0,≤ 1
-Machakos,Tested for cervical cancer,18.8,>8
-Machakos,Diagnosed with cervical cancer,0,≤ 1
-Makueni,Tested for cervical cancer,5.9,>1-8
-Makueni,Diagnosed with cervical cancer,0,≤ 1
-Nyandarua,Tested for cervical cancer,21.3,>8
-Nyandarua,Diagnosed with cervical cancer,0.1,≤ 1
-Nyeri,Tested for cervical cancer,31.6,>8
-Nyeri,Diagnosed with cervical cancer,0,≤ 1
-Kirinyaga,Tested for cervical cancer,23.1,>8
-Kirinyaga,Diagnosed with cervical cancer,0.3,≤ 1
-Murang'a,Tested for cervical cancer,22.1,>8
-Murang'a,Diagnosed with cervical cancer,0.3,≤ 1
-Kiambu,Tested for cervical cancer,19.6,>8
-Kiambu,Diagnosed with cervical cancer,0.6,≤ 1
-Turkana,Tested for cervical cancer,8.2,>8
-Turkana,Diagnosed with cervical cancer,0,≤ 1
-West Pokot,Tested for cervical cancer,3.1,>1-8
-West Pokot,Diagnosed with cervical cancer,0,≤ 1
-Samburu,Tested for cervical cancer,9.4,>8
-Samburu,Diagnosed with cervical cancer,0,≤ 1
-Trans Nzoia,Tested for cervical cancer,17.1,>8
-Trans Nzoia,Diagnosed with cervical cancer,0.3,≤ 1
-Uasin Gishu,Tested for cervical cancer,21.4,>8
-Uasin Gishu,Diagnosed with cervical cancer,0.3,≤ 1
-Elgeyo-Marakwet,Tested for cervical cancer,13.6,>8
-Elgeyo-Marakwet,Diagnosed with cervical cancer,0,≤ 1
-Nandi,Tested for cervical cancer,8,>1-8
-Nandi,Diagnosed with cervical cancer,0.1,≤ 1
-Baringo,Tested for cervical cancer,10,>8
-Baringo,Diagnosed with cervical cancer,0.4,≤ 1
-Laikipia,Tested for cervical cancer,18.6,>8
-Laikipia,Diagnosed with cervical cancer,0,≤ 1
-Nakuru,Tested for cervical cancer,22.9,>8
-Nakuru,Diagnosed with cervical cancer,0,≤ 1
-Narok,Tested for cervical cancer,7.1,>1-8
-Narok,Diagnosed with cervical cancer,0.3,≤ 1
-Kajiado,Tested for cervical cancer,16.2,>8
-Kajiado,Diagnosed with cervical cancer,0,≤ 1
-Kericho,Tested for cervical cancer,27.2,>8
-Kericho,Diagnosed with cervical cancer,0.4,≤ 1
-Bomet,Tested for cervical cancer,7.6,>1-8
-Bomet,Diagnosed with cervical cancer,0,≤ 1
-Kakamega,Tested for cervical cancer,11.1,>8
-Kakamega,Diagnosed with cervical cancer,0,≤ 1
-Vihiga,Tested for cervical cancer,8.7,>8
-Vihiga,Diagnosed with cervical cancer,0.2,≤ 1
-Bungoma,Tested for cervical cancer,16.4,>8
-Bungoma,Diagnosed with cervical cancer,0.3,≤ 1
-Busia,Tested for cervical cancer,12.3,>8
-Busia,Diagnosed with cervical cancer,0.3,≤ 1
-Siaya,Tested for cervical cancer,17.3,>8
-Siaya,Diagnosed with cervical cancer,0.4,≤ 1
-Kisumu,Tested for cervical cancer,23.4,>8
-Kisumu,Diagnosed with cervical cancer,0.8,≤ 1
-Homa Bay,Tested for cervical cancer,23.8,>8
-Homa Bay,Diagnosed with cervical cancer,0.7,≤ 1
-Migori,Tested for cervical cancer,16,>8
-Migori,Diagnosed with cervical cancer,0,≤ 1
-Kisii,Tested for cervical cancer,17,>8
-Kisii,Diagnosed with cervical cancer,0,≤ 1
-Nyamira,Tested for cervical cancer,17.8,>8
-Nyamira,Diagnosed with cervical cancer,0,≤ 1
-Nairobi,Tested for cervical cancer,25.4,>8
-Nairobi,Diagnosed with cervical cancer,0.2,≤ 1
+"","County","Category","Proportion","proportion_groups"
+"1","Mombasa","Tested for cervical cancer",15.9,">8"
+"2","Mombasa","Diagnosed with cervical cancer",0.4,"≤ 1"
+"3","Kwale","Tested for cervical cancer",2.9,">1-8"
+"4","Kwale","Diagnosed with cervical cancer",0,"≤ 1"
+"5","Kilifi","Tested for cervical cancer",7,">1-8"
+"6","Kilifi","Diagnosed with cervical cancer",0,"≤ 1"
+"7","Tana River","Tested for cervical cancer",6.9,">1-8"
+"8","Tana River","Diagnosed with cervical cancer",0,"≤ 1"
+"9","Lamu","Tested for cervical cancer",6.9,">1-8"
+"10","Lamu","Diagnosed with cervical cancer",0,"≤ 1"
+"11","Taita Taveta","Tested for cervical cancer",10.6,">8"
+"12","Taita Taveta","Diagnosed with cervical cancer",0,"≤ 1"
+"13","Garissa","Tested for cervical cancer",2,">1-8"
+"14","Garissa","Diagnosed with cervical cancer",0,"≤ 1"
+"15","Wajir","Tested for cervical cancer",2,">1-8"
+"16","Wajir","Diagnosed with cervical cancer",0,"≤ 1"
+"17","Mandera","Tested for cervical cancer",0.5,"≤ 1"
+"18","Mandera","Diagnosed with cervical cancer",0,"≤ 1"
+"19","Marsabit","Tested for cervical cancer",0.5,"≤ 1"
+"20","Marsabit","Diagnosed with cervical cancer",0.2,"≤ 1"
+"21","Isiolo","Tested for cervical cancer",5.1,">1-8"
+"22","Isiolo","Diagnosed with cervical cancer",0,"≤ 1"
+"23","Meru","Tested for cervical cancer",20.5,">8"
+"24","Meru","Diagnosed with cervical cancer",0,"≤ 1"
+"25","Tharaka Nithi","Tested for cervical cancer",20.1,">8"
+"26","Tharaka Nithi","Diagnosed with cervical cancer",0.3,"≤ 1"
+"27","Embu","Tested for cervical cancer",18,">8"
+"28","Embu","Diagnosed with cervical cancer",0.2,"≤ 1"
+"29","Kitui","Tested for cervical cancer",4.7,">1-8"
+"30","Kitui","Diagnosed with cervical cancer",0,"≤ 1"
+"31","Machakos","Tested for cervical cancer",18.8,">8"
+"32","Machakos","Diagnosed with cervical cancer",0,"≤ 1"
+"33","Makueni","Tested for cervical cancer",5.9,">1-8"
+"34","Makueni","Diagnosed with cervical cancer",0,"≤ 1"
+"35","Nyandarua","Tested for cervical cancer",21.3,">8"
+"36","Nyandarua","Diagnosed with cervical cancer",0.1,"≤ 1"
+"37","Nyeri","Tested for cervical cancer",31.6,">8"
+"38","Nyeri","Diagnosed with cervical cancer",0,"≤ 1"
+"39","Kirinyaga","Tested for cervical cancer",23.1,">8"
+"40","Kirinyaga","Diagnosed with cervical cancer",0.3,"≤ 1"
+"41","Muranga","Tested for cervical cancer",22.1,">8"
+"42","Muranga","Diagnosed with cervical cancer",0.3,"≤ 1"
+"43","Kiambu","Tested for cervical cancer",19.6,">8"
+"44","Kiambu","Diagnosed with cervical cancer",0.6,"≤ 1"
+"45","Turkana","Tested for cervical cancer",8.2,">8"
+"46","Turkana","Diagnosed with cervical cancer",0,"≤ 1"
+"47","West Pokot","Tested for cervical cancer",3.1,">1-8"
+"48","West Pokot","Diagnosed with cervical cancer",0,"≤ 1"
+"49","Samburu","Tested for cervical cancer",9.4,">8"
+"50","Samburu","Diagnosed with cervical cancer",0,"≤ 1"
+"51","Trans Nzoia","Tested for cervical cancer",17.1,">8"
+"52","Trans Nzoia","Diagnosed with cervical cancer",0.3,"≤ 1"
+"53","Uasin Gishu","Tested for cervical cancer",21.4,">8"
+"54","Uasin Gishu","Diagnosed with cervical cancer",0.3,"≤ 1"
+"55","Elgeyo Marakwet","Tested for cervical cancer",13.6,">8"
+"56","Elgeyo Marakwet","Diagnosed with cervical cancer",0,"≤ 1"
+"57","Nandi","Tested for cervical cancer",8,">1-8"
+"58","Nandi","Diagnosed with cervical cancer",0.1,"≤ 1"
+"59","Baringo","Tested for cervical cancer",10,">8"
+"60","Baringo","Diagnosed with cervical cancer",0.4,"≤ 1"
+"61","Laikipia","Tested for cervical cancer",18.6,">8"
+"62","Laikipia","Diagnosed with cervical cancer",0,"≤ 1"
+"63","Nakuru","Tested for cervical cancer",22.9,">8"
+"64","Nakuru","Diagnosed with cervical cancer",0,"≤ 1"
+"65","Narok","Tested for cervical cancer",7.1,">1-8"
+"66","Narok","Diagnosed with cervical cancer",0.3,"≤ 1"
+"67","Kajiado","Tested for cervical cancer",16.2,">8"
+"68","Kajiado","Diagnosed with cervical cancer",0,"≤ 1"
+"69","Kericho","Tested for cervical cancer",27.2,">8"
+"70","Kericho","Diagnosed with cervical cancer",0.4,"≤ 1"
+"71","Bomet","Tested for cervical cancer",7.6,">1-8"
+"72","Bomet","Diagnosed with cervical cancer",0,"≤ 1"
+"73","Kakamega","Tested for cervical cancer",11.1,">8"
+"74","Kakamega","Diagnosed with cervical cancer",0,"≤ 1"
+"75","Vihiga","Tested for cervical cancer",8.7,">8"
+"76","Vihiga","Diagnosed with cervical cancer",0.2,"≤ 1"
+"77","Bungoma","Tested for cervical cancer",16.4,">8"
+"78","Bungoma","Diagnosed with cervical cancer",0.3,"≤ 1"
+"79","Busia","Tested for cervical cancer",12.3,">8"
+"80","Busia","Diagnosed with cervical cancer",0.3,"≤ 1"
+"81","Siaya","Tested for cervical cancer",17.3,">8"
+"82","Siaya","Diagnosed with cervical cancer",0.4,"≤ 1"
+"83","Kisumu","Tested for cervical cancer",23.4,">8"
+"84","Kisumu","Diagnosed with cervical cancer",0.8,"≤ 1"
+"85","Homa Bay","Tested for cervical cancer",23.8,">8"
+"86","Homa Bay","Diagnosed with cervical cancer",0.7,"≤ 1"
+"87","Migori","Tested for cervical cancer",16,">8"
+"88","Migori","Diagnosed with cervical cancer",0,"≤ 1"
+"89","Kisii","Tested for cervical cancer",17,">8"
+"90","Kisii","Diagnosed with cervical cancer",0,"≤ 1"
+"91","Nyamira","Tested for cervical cancer",17.8,">8"
+"92","Nyamira","Diagnosed with cervical cancer",0,"≤ 1"
+"93","Nairobi","Tested for cervical cancer",25.4,">8"
+"94","Nairobi","Diagnosed with cervical cancer",0.2,"≤ 1"

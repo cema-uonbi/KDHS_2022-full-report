@@ -1,48 +1,48 @@
-county,percentage_delivered_by_cs
-Mombasa,18.8
-Kwale,6.3
-Kilifi,9.1
-Tana River,6.9
-Lamu,19.4
-Taita Taveta,26.5
-Garissa,11.2
-Wajir,2.4
-Mandera,3.7
-Marsabit,6.2
-Isiolo,12.3
-Meru,22.9
-Tharaka Nithi,30.2
-Embu,22.4
-Kitui,14.9
-Machakos,17.2
-Makueni,22.5
-Nyandarua,13.4
-Nyeri,18.1
-Kirinyaga,40.3
-Murang'a,19.7
-Kiambu,33.2
-Turkana,4.3
-West Pokot,9.6
-Samburu,4.9
-Trans Nzoia,9.8
-Uasin Gishu,14.3
-Elgeyo-Marakwet,7.1
-Nandi,10.1
-Baringo,7.4
-Laikipia,12.4
-Nakuru,14.5
-Narok,8.8
-Kajiado,23.3
-Kericho,21.3
-Bomet,15.9
-Kakamega,8.2
-Vihiga,16.5
-Bungoma,11.3
-Busia,11.1
-Siaya,15.7
-Kisumu,9.8
-Homa Bay,9.7
-Migori,6.3
-Kisii,21.7
-Nyamira,12
-Nairobi,28.1
+"","county","percentage_delivered_by_cs"
+"1","Mombasa",18.8
+"2","Kwale",6.3
+"3","Kilifi",9.1
+"4","Tana River",6.9
+"5","Lamu",19.4
+"6","Taita Taveta",26.5
+"7","Garissa",11.2
+"8","Wajir",2.4
+"9","Mandera",3.7
+"10","Marsabit",6.2
+"11","Isiolo",12.3
+"12","Meru",22.9
+"13","Tharaka Nithi",30.2
+"14","Embu",22.4
+"15","Kitui",14.9
+"16","Machakos",17.2
+"17","Makueni",22.5
+"18","Nyandarua",13.4
+"19","Nyeri",18.1
+"20","Kirinyaga",40.3
+"21","Muranga",19.7
+"22","Kiambu",33.2
+"23","Turkana",4.3
+"24","West Pokot",9.6
+"25","Samburu",4.9
+"26","Trans Nzoia",9.8
+"27","Uasin Gishu",14.3
+"28","Elgeyo Marakwet",7.1
+"29","Nandi",10.1
+"30","Baringo",7.4
+"31","Laikipia",12.4
+"32","Nakuru",14.5
+"33","Narok",8.8
+"34","Kajiado",23.3
+"35","Kericho",21.3
+"36","Bomet",15.9
+"37","Kakamega",8.2
+"38","Vihiga",16.5
+"39","Bungoma",11.3
+"40","Busia",11.1
+"41","Siaya",15.7
+"42","Kisumu",9.8
+"43","Homa Bay",9.7
+"44","Migori",6.3
+"45","Kisii",21.7
+"46","Nyamira",12
+"47","Nairobi",28.1

@@ -1,236 +1,236 @@
-County,Category,Proportion
-Mombasa,None,0.6
-Mombasa,1,0.6
-Mombasa,2-3,33.1
-Mombasa,4-7,61.0
-Mombasa,8+,4.3
-Kwale,None,0.7
-Kwale,1,0.0
-Kwale,2-3,27.4
-Kwale,4-7,68.4
-Kwale,8+,3.5
-Kilifi,None,0.7
-Kilifi,1,0.0
-Kilifi,2-3,22.0
-Kilifi,4-7,68.5
-Kilifi,8+,8.9
-Tana River,None,3.4
-Tana River,1,5.1
-Tana River,2-3,30.3
-Tana River,4-7,59.9
-Tana River,8+,1.3
-Lamu,None,2.1
-Lamu,1,0.4
-Lamu,2-3,27.0
-Lamu,4-7,67.1
-Lamu,8+,3.4
-Taita Taveta,None,0.0
-Taita Taveta,1,6.2
-Taita Taveta,2-3,29.0
-Taita Taveta,4-7,58.9
-Taita Taveta,8+,6.0
-Garissa,None,20.2
-Garissa,1,9.0
-Garissa,2-3,39.6
-Garissa,4-7,31.0
-Garissa,8+,0.2
-Wajir,None,16.0
-Wajir,1,5.4
-Wajir,2-3,33.7
-Wajir,4-7,44.6
-Wajir,8+,0.2
-Mandera,None,22.6
-Mandera,1,4.2
-Mandera,2-3,32.3
-Mandera,4-7,38.4
-Mandera,8+,2.0
-Marsabit,None,5.0
-Marsabit,1,3.5
-Marsabit,2-3,24.4
-Marsabit,4-7,64.0
-Marsabit,8+,3.1
-Isiolo,None,0.7
-Isiolo,1,4.6
-Isiolo,2-3,41.8
-Isiolo,4-7,48.6
-Isiolo,8+,4.3
-Meru,None,0.8
-Meru,1,8.2
-Meru,2-3,46.1
-Meru,4-7,41.2
-Meru,8+,3.8
-Tharaka-Nithi,None,2.0
-Tharaka-Nithi,1,2.4
-Tharaka-Nithi,2-3,31.3
-Tharaka-Nithi,4-7,60.7
-Tharaka-Nithi,8+,2.4
-Embu,None,0.0
-Embu,1,1.2
-Embu,2-3,36.7
-Embu,4-7,60.4
-Embu,8+,1.6
-Kitui,None,5.9
-Kitui,1,1.5
-Kitui,2-3,24.3
-Kitui,4-7,64.9
-Kitui,8+,3.3
-Machakos,None,2.0
-Machakos,1,6.6
-Machakos,2-3,14.5
-Machakos,4-7,68.6
-Machakos,8+,8.3
-Makueni,None,0.9
-Makueni,1,3.2
-Makueni,2-3,20.2
-Makueni,4-7,73.0
-Makueni,8+,2.7
-Nyandarua,None,1.7
-Nyandarua,1,0.3
-Nyandarua,2-3,37.3
-Nyandarua,4-7,55.2
-Nyandarua,8+,5.4
-Nyeri,None,2.7
-Nyeri,1,0.0
-Nyeri,2-3,15.1
-Nyeri,4-7,77.5
-Nyeri,8+,4.7
-Kirinyaga,None,0.0
-Kirinyaga,1,0.0
-Kirinyaga,2-3,31.3
-Kirinyaga,4-7,61.8
-Kirinyaga,8+,5.7
-Murang'a,None,0.0
-Murang'a,1,3.0
-Murang'a,2-3,38.7
-Murang'a,4-7,55.7
-Murang'a,8+,2.6
-Kiambu,None,1.6
-Kiambu,1,1.6
-Kiambu,2-3,29.9
-Kiambu,4-7,64.4
-Kiambu,8+,2.4
-Turkana,None,0.5
-Turkana,1,3.3
-Turkana,2-3,38.5
-Turkana,4-7,53.5
-Turkana,8+,4.2
-West Pokot,None,2.1
-West Pokot,1,8.2
-West Pokot,2-3,54.6
-West Pokot,4-7,34.5
-West Pokot,8+,0.5
-Samburu,None,7.1
-Samburu,1,8.4
-Samburu,2-3,28.3
-Samburu,4-7,54.7
-Samburu,8+,1.5
-Trans Nzoia,None,1.2
-Trans Nzoia,1,2.7
-Trans Nzoia,2-3,28.0
-Trans Nzoia,4-7,65.6
-Trans Nzoia,8+,2.5
-Uasin Gishu,None,1.1
-Uasin Gishu,1,1.1
-Uasin Gishu,2-3,25.9
-Uasin Gishu,4-7,65.6
-Uasin Gishu,8+,6.3
-Elgeyo-Marakwet,None,0.7
-Elgeyo-Marakwet,1,2.6
-Elgeyo-Marakwet,2-3,45.2
-Elgeyo-Marakwet,4-7,50.9
-Elgeyo-Marakwet,8+,0.6
-Nandi,None,2.4
-Nandi,1,2.7
-Nandi,2-3,32.8
-Nandi,4-7,59.4
-Nandi,8+,2.8
-Baringo,None,0.7
-Baringo,1,5.4
-Baringo,2-3,44.5
-Baringo,4-7,48.5
-Baringo,8+,0.9
-Laikipia,None,1.0
-Laikipia,1,2.3
-Laikipia,2-3,31.2
-Laikipia,4-7,64.1
-Laikipia,8+,1.4
-Nakuru,None,2.3
-Nakuru,1,1.1
-Nakuru,2-3,23.2
-Nakuru,4-7,70.0
-Nakuru,8+,3.4
-Narok,None,3.0
-Narok,1,4.3
-Narok,2-3,37.5
-Narok,4-7,53.6
-Narok,8+,1.7
-Kajiado,None,0.0
-Kajiado,1,1.1
-Kajiado,2-3,17.7
-Kajiado,4-7,76.2
-Kajiado,8+,5.1
-Kericho,None,4.3
-Kericho,1,2.0
-Kericho,2-3,35.1
-Kericho,4-7,57.1
-Kericho,8+,1.6
-Bomet,None,3.4
-Bomet,1,3.1
-Bomet,2-3,40.2
-Bomet,4-7,51.2
-Bomet,8+,2.1
-Kakamega,None,0.0
-Kakamega,1,2.0
-Kakamega,2-3,24.6
-Kakamega,4-7,66.5
-Kakamega,8+,6.9
-Vihiga,None,0.9
-Vihiga,1,2.3
-Vihiga,2-3,17.4
-Vihiga,4-7,74.2
-Vihiga,8+,5.2
-Bungoma,None,1.4
-Bungoma,1,0.5
-Bungoma,2-3,25.6
-Bungoma,4-7,69.4
-Bungoma,8+,3.1
-Busia,None,0.6
-Busia,1,3.1
-Busia,2-3,25.5
-Busia,4-7,64.5
-Busia,8+,6.3
-Siaya,None,0.9
-Siaya,1,1.2
-Siaya,2-3,32.8
-Siaya,4-7,62.0
-Siaya,8+,3.0
-Kisumu,None,1.4
-Kisumu,1,3.9
-Kisumu,2-3,31.5
-Kisumu,4-7,58.3
-Kisumu,8+,5.0
-Homa Bay,None,1.8
-Homa Bay,1,1.7
-Homa Bay,2-3,27.3
-Homa Bay,4-7,65.5
-Homa Bay,8+,3.3
-Migori,None,0.0
-Migori,1,2.8
-Migori,2-3,38.7
-Migori,4-7,56.1
-Migori,8+,2.4
-Kisii,None,1.5
-Kisii,1,4.5
-Kisii,2-3,31.2
-Kisii,4-7,60.9
-Kisii,8+,1.7
-Nyamira,None,0.0
-Nyamira,1,3.8
-Nyamira,2-3,30.4
-Nyamira,4-7,62.9
-Nyamira,8+,2.8
-Nairobi,None,0.0
-Nairobi,1,1.7
-Nairobi,2-3,17.8
-Nairobi,4-7,72.9
-Nairobi,8+,7.6
+"","County","Category","Proportion"
+"1","Mombasa","None",0.6
+"2","Mombasa","1",0.6
+"3","Mombasa","2-3",33.1
+"4","Mombasa","4-7",61
+"5","Mombasa","8+",4.3
+"6","Kwale","None",0.7
+"7","Kwale","1",0
+"8","Kwale","2-3",27.4
+"9","Kwale","4-7",68.4
+"10","Kwale","8+",3.5
+"11","Kilifi","None",0.7
+"12","Kilifi","1",0
+"13","Kilifi","2-3",22
+"14","Kilifi","4-7",68.5
+"15","Kilifi","8+",8.9
+"16","Tana River","None",3.4
+"17","Tana River","1",5.1
+"18","Tana River","2-3",30.3
+"19","Tana River","4-7",59.9
+"20","Tana River","8+",1.3
+"21","Lamu","None",2.1
+"22","Lamu","1",0.4
+"23","Lamu","2-3",27
+"24","Lamu","4-7",67.1
+"25","Lamu","8+",3.4
+"26","Taita Taveta","None",0
+"27","Taita Taveta","1",6.2
+"28","Taita Taveta","2-3",29
+"29","Taita Taveta","4-7",58.9
+"30","Taita Taveta","8+",6
+"31","Garissa","None",20.2
+"32","Garissa","1",9
+"33","Garissa","2-3",39.6
+"34","Garissa","4-7",31
+"35","Garissa","8+",0.2
+"36","Wajir","None",16
+"37","Wajir","1",5.4
+"38","Wajir","2-3",33.7
+"39","Wajir","4-7",44.6
+"40","Wajir","8+",0.2
+"41","Mandera","None",22.6
+"42","Mandera","1",4.2
+"43","Mandera","2-3",32.3
+"44","Mandera","4-7",38.4
+"45","Mandera","8+",2
+"46","Marsabit","None",5
+"47","Marsabit","1",3.5
+"48","Marsabit","2-3",24.4
+"49","Marsabit","4-7",64
+"50","Marsabit","8+",3.1
+"51","Isiolo","None",0.7
+"52","Isiolo","1",4.6
+"53","Isiolo","2-3",41.8
+"54","Isiolo","4-7",48.6
+"55","Isiolo","8+",4.3
+"56","Meru","None",0.8
+"57","Meru","1",8.2
+"58","Meru","2-3",46.1
+"59","Meru","4-7",41.2
+"60","Meru","8+",3.8
+"61","Tharaka Nithi","None",2
+"62","Tharaka Nithi","1",2.4
+"63","Tharaka Nithi","2-3",31.3
+"64","Tharaka Nithi","4-7",60.7
+"65","Tharaka Nithi","8+",2.4
+"66","Embu","None",0
+"67","Embu","1",1.2
+"68","Embu","2-3",36.7
+"69","Embu","4-7",60.4
+"70","Embu","8+",1.6
+"71","Kitui","None",5.9
+"72","Kitui","1",1.5
+"73","Kitui","2-3",24.3
+"74","Kitui","4-7",64.9
+"75","Kitui","8+",3.3
+"76","Machakos","None",2
+"77","Machakos","1",6.6
+"78","Machakos","2-3",14.5
+"79","Machakos","4-7",68.6
+"80","Machakos","8+",8.3
+"81","Makueni","None",0.9
+"82","Makueni","1",3.2
+"83","Makueni","2-3",20.2
+"84","Makueni","4-7",73
+"85","Makueni","8+",2.7
+"86","Nyandarua","None",1.7
+"87","Nyandarua","1",0.3
+"88","Nyandarua","2-3",37.3
+"89","Nyandarua","4-7",55.2
+"90","Nyandarua","8+",5.4
+"91","Nyeri","None",2.7
+"92","Nyeri","1",0
+"93","Nyeri","2-3",15.1
+"94","Nyeri","4-7",77.5
+"95","Nyeri","8+",4.7
+"96","Kirinyaga","None",0
+"97","Kirinyaga","1",0
+"98","Kirinyaga","2-3",31.3
+"99","Kirinyaga","4-7",61.8
+"100","Kirinyaga","8+",5.7
+"101","Muranga","None",0
+"102","Muranga","1",3
+"103","Muranga","2-3",38.7
+"104","Muranga","4-7",55.7
+"105","Muranga","8+",2.6
+"106","Kiambu","None",1.6
+"107","Kiambu","1",1.6
+"108","Kiambu","2-3",29.9
+"109","Kiambu","4-7",64.4
+"110","Kiambu","8+",2.4
+"111","Turkana","None",0.5
+"112","Turkana","1",3.3
+"113","Turkana","2-3",38.5
+"114","Turkana","4-7",53.5
+"115","Turkana","8+",4.2
+"116","West Pokot","None",2.1
+"117","West Pokot","1",8.2
+"118","West Pokot","2-3",54.6
+"119","West Pokot","4-7",34.5
+"120","West Pokot","8+",0.5
+"121","Samburu","None",7.1
+"122","Samburu","1",8.4
+"123","Samburu","2-3",28.3
+"124","Samburu","4-7",54.7
+"125","Samburu","8+",1.5
+"126","Trans Nzoia","None",1.2
+"127","Trans Nzoia","1",2.7
+"128","Trans Nzoia","2-3",28
+"129","Trans Nzoia","4-7",65.6
+"130","Trans Nzoia","8+",2.5
+"131","Uasin Gishu","None",1.1
+"132","Uasin Gishu","1",1.1
+"133","Uasin Gishu","2-3",25.9
+"134","Uasin Gishu","4-7",65.6
+"135","Uasin Gishu","8+",6.3
+"136","Elgeyo Marakwet","None",0.7
+"137","Elgeyo Marakwet","1",2.6
+"138","Elgeyo Marakwet","2-3",45.2
+"139","Elgeyo Marakwet","4-7",50.9
+"140","Elgeyo Marakwet","8+",0.6
+"141","Nandi","None",2.4
+"142","Nandi","1",2.7
+"143","Nandi","2-3",32.8
+"144","Nandi","4-7",59.4
+"145","Nandi","8+",2.8
+"146","Baringo","None",0.7
+"147","Baringo","1",5.4
+"148","Baringo","2-3",44.5
+"149","Baringo","4-7",48.5
+"150","Baringo","8+",0.9
+"151","Laikipia","None",1
+"152","Laikipia","1",2.3
+"153","Laikipia","2-3",31.2
+"154","Laikipia","4-7",64.1
+"155","Laikipia","8+",1.4
+"156","Nakuru","None",2.3
+"157","Nakuru","1",1.1
+"158","Nakuru","2-3",23.2
+"159","Nakuru","4-7",70
+"160","Nakuru","8+",3.4
+"161","Narok","None",3
+"162","Narok","1",4.3
+"163","Narok","2-3",37.5
+"164","Narok","4-7",53.6
+"165","Narok","8+",1.7
+"166","Kajiado","None",0
+"167","Kajiado","1",1.1
+"168","Kajiado","2-3",17.7
+"169","Kajiado","4-7",76.2
+"170","Kajiado","8+",5.1
+"171","Kericho","None",4.3
+"172","Kericho","1",2
+"173","Kericho","2-3",35.1
+"174","Kericho","4-7",57.1
+"175","Kericho","8+",1.6
+"176","Bomet","None",3.4
+"177","Bomet","1",3.1
+"178","Bomet","2-3",40.2
+"179","Bomet","4-7",51.2
+"180","Bomet","8+",2.1
+"181","Kakamega","None",0
+"182","Kakamega","1",2
+"183","Kakamega","2-3",24.6
+"184","Kakamega","4-7",66.5
+"185","Kakamega","8+",6.9
+"186","Vihiga","None",0.9
+"187","Vihiga","1",2.3
+"188","Vihiga","2-3",17.4
+"189","Vihiga","4-7",74.2
+"190","Vihiga","8+",5.2
+"191","Bungoma","None",1.4
+"192","Bungoma","1",0.5
+"193","Bungoma","2-3",25.6
+"194","Bungoma","4-7",69.4
+"195","Bungoma","8+",3.1
+"196","Busia","None",0.6
+"197","Busia","1",3.1
+"198","Busia","2-3",25.5
+"199","Busia","4-7",64.5
+"200","Busia","8+",6.3
+"201","Siaya","None",0.9
+"202","Siaya","1",1.2
+"203","Siaya","2-3",32.8
+"204","Siaya","4-7",62
+"205","Siaya","8+",3
+"206","Kisumu","None",1.4
+"207","Kisumu","1",3.9
+"208","Kisumu","2-3",31.5
+"209","Kisumu","4-7",58.3
+"210","Kisumu","8+",5
+"211","Homa Bay","None",1.8
+"212","Homa Bay","1",1.7
+"213","Homa Bay","2-3",27.3
+"214","Homa Bay","4-7",65.5
+"215","Homa Bay","8+",3.3
+"216","Migori","None",0
+"217","Migori","1",2.8
+"218","Migori","2-3",38.7
+"219","Migori","4-7",56.1
+"220","Migori","8+",2.4
+"221","Kisii","None",1.5
+"222","Kisii","1",4.5
+"223","Kisii","2-3",31.2
+"224","Kisii","4-7",60.9
+"225","Kisii","8+",1.7
+"226","Nyamira","None",0
+"227","Nyamira","1",3.8
+"228","Nyamira","2-3",30.4
+"229","Nyamira","4-7",62.9
+"230","Nyamira","8+",2.8
+"231","Nairobi","None",0
+"232","Nairobi","1",1.7
+"233","Nairobi","2-3",17.8
+"234","Nairobi","4-7",72.9
+"235","Nairobi","8+",7.6

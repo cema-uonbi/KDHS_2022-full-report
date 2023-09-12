@@ -1,142 +1,142 @@
-county,category,proportion,proportion_groups
-Mombasa,Still birth rate,15,>11-17
-Mombasa,Early neonatal rate,43,>30
-Mombasa,Perinatal mortality rate,57.4,>30
-Kwale,Still birth rate,10.3,≤ 11
-Kwale,Early neonatal rate,15.8,>11-17
-Kwale,Perinatal mortality rate,25.9,>22-30
-Kilifi,Still birth rate,29.4,>22-30
-Kilifi,Early neonatal rate,16.5,>11-17
-Kilifi,Perinatal mortality rate,45.3,>30
-Tana River,Still birth rate,17.1,>17-22
-Tana River,Early neonatal rate,18,>17-22
-Tana River,Perinatal mortality rate,34.8,>30
-Lamu,Still birth rate,11,≤ 11
-Lamu,Early neonatal rate,30.5,>30
-Lamu,Perinatal mortality rate,41.1,>30
-Taita Taveta,Still birth rate,8.8,≤ 11
-Taita Taveta,Early neonatal rate,20.2,>17-22
-Taita Taveta,Perinatal mortality rate,28.8,>22-30
-Garissa,Still birth rate,12.3,>11-17
-Garissa,Early neonatal rate,22.7,>22-30
-Garissa,Perinatal mortality rate,34.7,>30
-Wajir,Still birth rate,53.6,>30
-Wajir,Early neonatal rate,23.8,>22-30
-Wajir,Perinatal mortality rate,76.1,>30
-Mandera,Still birth rate,6.7,≤ 11
-Mandera,Early neonatal rate,13.1,>11-17
-Mandera,Perinatal mortality rate,19.7,>17-22
-Marsabit,Still birth rate,2.5,≤ 11
-Marsabit,Early neonatal rate,5.1,≤ 11
-Marsabit,Perinatal mortality rate,7.6,≤ 11
-Isiolo,Still birth rate,7.8,≤ 11
-Isiolo,Early neonatal rate,13.8,>11-17
-Isiolo,Perinatal mortality rate,21.5,>17-22
-Meru,Still birth rate,3.9,≤ 11
-Meru,Early neonatal rate,4.9,≤ 11
-Meru,Perinatal mortality rate,8.8,≤ 11
-Tharaka Nithi,Still birth rate,22.1,>22-30
-Tharaka Nithi,Early neonatal rate,2.2,≤ 11
-Tharaka Nithi,Perinatal mortality rate,24.2,>22-30
-Embu,Still birth rate,14.7,>11-17
-Embu,Early neonatal rate,10.5,≤ 11
-Embu,Perinatal mortality rate,25,>22-30
-Kitui,Still birth rate,8.5,≤ 11
-Kitui,Early neonatal rate,10.2,≤ 11
-Kitui,Perinatal mortality rate,18.6,>17-22
-Machakos,Still birth rate,13.5,>11-17
-Machakos,Early neonatal rate,20.6,>17-22
-Machakos,Perinatal mortality rate,33.8,>30
-Makueni,Still birth rate,18.6,>17-22
-Makueni,Early neonatal rate,9.4,≤ 11
-Makueni,Perinatal mortality rate,27.8,>22-30
-Nyandarua,Still birth rate,19.1,>17-22
-Nyandarua,Early neonatal rate,7.6,≤ 11
-Nyandarua,Perinatal mortality rate,26.6,>22-30
-Nyeri,Still birth rate,8.3,≤ 11
-Nyeri,Early neonatal rate,18.8,>17-22
-Nyeri,Perinatal mortality rate,27,>22-30
-Kirinyaga,Still birth rate,19.4,>17-22
-Kirinyaga,Early neonatal rate,24.4,>22-30
-Kirinyaga,Perinatal mortality rate,43.3,>30
-Muranga,Still birth rate,28.6,>22-30
-Muranga,Early neonatal rate,23.2,>22-30
-Muranga,Perinatal mortality rate,51.1,>30
-Kiambu,Still birth rate,21.2,>17-22
-Kiambu,Early neonatal rate,20.9,>17-22
-Kiambu,Perinatal mortality rate,41.7,>30
-Turkana,Still birth rate,12.8,>11-17
-Turkana,Early neonatal rate,24.7,>22-30
-Turkana,Perinatal mortality rate,37.2,>30
-West Pokot,Still birth rate,22,>17-22
-West Pokot,Early neonatal rate,19.7,>17-22
-West Pokot,Perinatal mortality rate,41.3,>30
-Samburu,Still birth rate,19,>17-22
-Samburu,Early neonatal rate,18.5,>17-22
-Samburu,Perinatal mortality rate,37.1,>30
-Trans Nzoia,Still birth rate,11.3,>11-17
-Trans Nzoia,Early neonatal rate,11.5,>11-17
-Trans Nzoia,Perinatal mortality rate,22.7,>22-30
-Uasin Gishu,Still birth rate,31.5,>30
-Uasin Gishu,Early neonatal rate,13.9,>11-17
-Uasin Gishu,Perinatal mortality rate,44.9,>30
-Elgeyo Marakwet,Still birth rate,0,≤ 11
-Elgeyo Marakwet,Early neonatal rate,11.5,>11-17
-Elgeyo Marakwet,Perinatal mortality rate,11.5,>11-17
-Nandi,Still birth rate,12.5,>11-17
-Nandi,Early neonatal rate,15.4,>11-17
-Nandi,Perinatal mortality rate,27.7,>22-30
-Baringo,Still birth rate,15.9,>11-17
-Baringo,Early neonatal rate,30.8,>30
-Baringo,Perinatal mortality rate,46.3,>30
-Laikipia,Still birth rate,11.5,>11-17
-Laikipia,Early neonatal rate,16.5,>11-17
-Laikipia,Perinatal mortality rate,27.8,>22-30
-Nakuru,Still birth rate,18.5,>17-22
-Nakuru,Early neonatal rate,16.5,>11-17
-Nakuru,Perinatal mortality rate,34.8,>30
-Narok,Still birth rate,12.4,>11-17
-Narok,Early neonatal rate,9.2,≤ 11
-Narok,Perinatal mortality rate,21.5,>17-22
-Kajiado,Still birth rate,13.2,>11-17
-Kajiado,Early neonatal rate,12.5,>11-17
-Kajiado,Perinatal mortality rate,25.5,>22-30
-Kericho,Still birth rate,11.9,>11-17
-Kericho,Early neonatal rate,9.2,≤ 11
-Kericho,Perinatal mortality rate,21,>17-22
-Bomet,Still birth rate,16.9,>11-17
-Bomet,Early neonatal rate,18.1,>17-22
-Bomet,Perinatal mortality rate,34.8,>30
-Kakamega,Still birth rate,21.1,>17-22
-Kakamega,Early neonatal rate,10.9,≤ 11
-Kakamega,Perinatal mortality rate,31.8,>30
-Vihiga,Still birth rate,19.4,>17-22
-Vihiga,Early neonatal rate,18.4,>17-22
-Vihiga,Perinatal mortality rate,37.4,>30
-Bungoma,Still birth rate,8.9,≤ 11
-Bungoma,Early neonatal rate,19.4,>17-22
-Bungoma,Perinatal mortality rate,28.2,>22-30
-Busia,Still birth rate,22.1,>22-30
-Busia,Early neonatal rate,20.5,>17-22
-Busia,Perinatal mortality rate,42.1,>30
-Siaya,Still birth rate,29.5,>22-30
-Siaya,Early neonatal rate,25.3,>22-30
-Siaya,Perinatal mortality rate,54,>30
-Kisumu,Still birth rate,20.1,>17-22
-Kisumu,Early neonatal rate,27.8,>22-30
-Kisumu,Perinatal mortality rate,47.4,>30
-Homa Bay,Still birth rate,9.8,≤ 11
-Homa Bay,Early neonatal rate,26,>22-30
-Homa Bay,Perinatal mortality rate,35.6,>30
-Migori,Still birth rate,9.4,≤ 11
-Migori,Early neonatal rate,30.6,>30
-Migori,Perinatal mortality rate,39.7,>30
-Kisii,Still birth rate,8.7,≤ 11
-Kisii,Early neonatal rate,29.1,>22-30
-Kisii,Perinatal mortality rate,37.6,>30
-Nyamira,Still birth rate,5.9,≤ 11
-Nyamira,Early neonatal rate,17.4,>17-22
-Nyamira,Perinatal mortality rate,23.2,>22-30
-Nairobi,Still birth rate,5.7,≤ 11
-Nairobi,Early neonatal rate,8.7,≤ 11
-Nairobi,Perinatal mortality rate,14.3,>11-17
+"","county","category","proportion","proportion_groups"
+"1","Mombasa","Still birth rate",15,">11-17"
+"2","Mombasa","Early neonatal rate",43,">30"
+"3","Mombasa","Perinatal mortality rate",57.4,">30"
+"4","Kwale","Still birth rate",10.3,"≤ 11"
+"5","Kwale","Early neonatal rate",15.8,">11-17"
+"6","Kwale","Perinatal mortality rate",25.9,">22-30"
+"7","Kilifi","Still birth rate",29.4,">22-30"
+"8","Kilifi","Early neonatal rate",16.5,">11-17"
+"9","Kilifi","Perinatal mortality rate",45.3,">30"
+"10","Tana River","Still birth rate",17.1,">17-22"
+"11","Tana River","Early neonatal rate",18,">17-22"
+"12","Tana River","Perinatal mortality rate",34.8,">30"
+"13","Lamu","Still birth rate",11,"≤ 11"
+"14","Lamu","Early neonatal rate",30.5,">30"
+"15","Lamu","Perinatal mortality rate",41.1,">30"
+"16","Taita Taveta","Still birth rate",8.8,"≤ 11"
+"17","Taita Taveta","Early neonatal rate",20.2,">17-22"
+"18","Taita Taveta","Perinatal mortality rate",28.8,">22-30"
+"19","Garissa","Still birth rate",12.3,">11-17"
+"20","Garissa","Early neonatal rate",22.7,">22-30"
+"21","Garissa","Perinatal mortality rate",34.7,">30"
+"22","Wajir","Still birth rate",53.6,">30"
+"23","Wajir","Early neonatal rate",23.8,">22-30"
+"24","Wajir","Perinatal mortality rate",76.1,">30"
+"25","Mandera","Still birth rate",6.7,"≤ 11"
+"26","Mandera","Early neonatal rate",13.1,">11-17"
+"27","Mandera","Perinatal mortality rate",19.7,">17-22"
+"28","Marsabit","Still birth rate",2.5,"≤ 11"
+"29","Marsabit","Early neonatal rate",5.1,"≤ 11"
+"30","Marsabit","Perinatal mortality rate",7.6,"≤ 11"
+"31","Isiolo","Still birth rate",7.8,"≤ 11"
+"32","Isiolo","Early neonatal rate",13.8,">11-17"
+"33","Isiolo","Perinatal mortality rate",21.5,">17-22"
+"34","Meru","Still birth rate",3.9,"≤ 11"
+"35","Meru","Early neonatal rate",4.9,"≤ 11"
+"36","Meru","Perinatal mortality rate",8.8,"≤ 11"
+"37","Tharaka Nithi","Still birth rate",22.1,">22-30"
+"38","Tharaka Nithi","Early neonatal rate",2.2,"≤ 11"
+"39","Tharaka Nithi","Perinatal mortality rate",24.2,">22-30"
+"40","Embu","Still birth rate",14.7,">11-17"
+"41","Embu","Early neonatal rate",10.5,"≤ 11"
+"42","Embu","Perinatal mortality rate",25,">22-30"
+"43","Kitui","Still birth rate",8.5,"≤ 11"
+"44","Kitui","Early neonatal rate",10.2,"≤ 11"
+"45","Kitui","Perinatal mortality rate",18.6,">17-22"
+"46","Machakos","Still birth rate",13.5,">11-17"
+"47","Machakos","Early neonatal rate",20.6,">17-22"
+"48","Machakos","Perinatal mortality rate",33.8,">30"
+"49","Makueni","Still birth rate",18.6,">17-22"
+"50","Makueni","Early neonatal rate",9.4,"≤ 11"
+"51","Makueni","Perinatal mortality rate",27.8,">22-30"
+"52","Nyandarua","Still birth rate",19.1,">17-22"
+"53","Nyandarua","Early neonatal rate",7.6,"≤ 11"
+"54","Nyandarua","Perinatal mortality rate",26.6,">22-30"
+"55","Nyeri","Still birth rate",8.3,"≤ 11"
+"56","Nyeri","Early neonatal rate",18.8,">17-22"
+"57","Nyeri","Perinatal mortality rate",27,">22-30"
+"58","Kirinyaga","Still birth rate",19.4,">17-22"
+"59","Kirinyaga","Early neonatal rate",24.4,">22-30"
+"60","Kirinyaga","Perinatal mortality rate",43.3,">30"
+"61","Muranga","Still birth rate",28.6,">22-30"
+"62","Muranga","Early neonatal rate",23.2,">22-30"
+"63","Muranga","Perinatal mortality rate",51.1,">30"
+"64","Kiambu","Still birth rate",21.2,">17-22"
+"65","Kiambu","Early neonatal rate",20.9,">17-22"
+"66","Kiambu","Perinatal mortality rate",41.7,">30"
+"67","Turkana","Still birth rate",12.8,">11-17"
+"68","Turkana","Early neonatal rate",24.7,">22-30"
+"69","Turkana","Perinatal mortality rate",37.2,">30"
+"70","West Pokot","Still birth rate",22,">17-22"
+"71","West Pokot","Early neonatal rate",19.7,">17-22"
+"72","West Pokot","Perinatal mortality rate",41.3,">30"
+"73","Samburu","Still birth rate",19,">17-22"
+"74","Samburu","Early neonatal rate",18.5,">17-22"
+"75","Samburu","Perinatal mortality rate",37.1,">30"
+"76","Trans Nzoia","Still birth rate",11.3,">11-17"
+"77","Trans Nzoia","Early neonatal rate",11.5,">11-17"
+"78","Trans Nzoia","Perinatal mortality rate",22.7,">22-30"
+"79","Uasin Gishu","Still birth rate",31.5,">30"
+"80","Uasin Gishu","Early neonatal rate",13.9,">11-17"
+"81","Uasin Gishu","Perinatal mortality rate",44.9,">30"
+"82","Elgeyo Marakwet","Still birth rate",0,"≤ 11"
+"83","Elgeyo Marakwet","Early neonatal rate",11.5,">11-17"
+"84","Elgeyo Marakwet","Perinatal mortality rate",11.5,">11-17"
+"85","Nandi","Still birth rate",12.5,">11-17"
+"86","Nandi","Early neonatal rate",15.4,">11-17"
+"87","Nandi","Perinatal mortality rate",27.7,">22-30"
+"88","Baringo","Still birth rate",15.9,">11-17"
+"89","Baringo","Early neonatal rate",30.8,">30"
+"90","Baringo","Perinatal mortality rate",46.3,">30"
+"91","Laikipia","Still birth rate",11.5,">11-17"
+"92","Laikipia","Early neonatal rate",16.5,">11-17"
+"93","Laikipia","Perinatal mortality rate",27.8,">22-30"
+"94","Nakuru","Still birth rate",18.5,">17-22"
+"95","Nakuru","Early neonatal rate",16.5,">11-17"
+"96","Nakuru","Perinatal mortality rate",34.8,">30"
+"97","Narok","Still birth rate",12.4,">11-17"
+"98","Narok","Early neonatal rate",9.2,"≤ 11"
+"99","Narok","Perinatal mortality rate",21.5,">17-22"
+"100","Kajiado","Still birth rate",13.2,">11-17"
+"101","Kajiado","Early neonatal rate",12.5,">11-17"
+"102","Kajiado","Perinatal mortality rate",25.5,">22-30"
+"103","Kericho","Still birth rate",11.9,">11-17"
+"104","Kericho","Early neonatal rate",9.2,"≤ 11"
+"105","Kericho","Perinatal mortality rate",21,">17-22"
+"106","Bomet","Still birth rate",16.9,">11-17"
+"107","Bomet","Early neonatal rate",18.1,">17-22"
+"108","Bomet","Perinatal mortality rate",34.8,">30"
+"109","Kakamega","Still birth rate",21.1,">17-22"
+"110","Kakamega","Early neonatal rate",10.9,"≤ 11"
+"111","Kakamega","Perinatal mortality rate",31.8,">30"
+"112","Vihiga","Still birth rate",19.4,">17-22"
+"113","Vihiga","Early neonatal rate",18.4,">17-22"
+"114","Vihiga","Perinatal mortality rate",37.4,">30"
+"115","Bungoma","Still birth rate",8.9,"≤ 11"
+"116","Bungoma","Early neonatal rate",19.4,">17-22"
+"117","Bungoma","Perinatal mortality rate",28.2,">22-30"
+"118","Busia","Still birth rate",22.1,">22-30"
+"119","Busia","Early neonatal rate",20.5,">17-22"
+"120","Busia","Perinatal mortality rate",42.1,">30"
+"121","Siaya","Still birth rate",29.5,">22-30"
+"122","Siaya","Early neonatal rate",25.3,">22-30"
+"123","Siaya","Perinatal mortality rate",54,">30"
+"124","Kisumu","Still birth rate",20.1,">17-22"
+"125","Kisumu","Early neonatal rate",27.8,">22-30"
+"126","Kisumu","Perinatal mortality rate",47.4,">30"
+"127","Homa Bay","Still birth rate",9.8,"≤ 11"
+"128","Homa Bay","Early neonatal rate",26,">22-30"
+"129","Homa Bay","Perinatal mortality rate",35.6,">30"
+"130","Migori","Still birth rate",9.4,"≤ 11"
+"131","Migori","Early neonatal rate",30.6,">30"
+"132","Migori","Perinatal mortality rate",39.7,">30"
+"133","Kisii","Still birth rate",8.7,"≤ 11"
+"134","Kisii","Early neonatal rate",29.1,">22-30"
+"135","Kisii","Perinatal mortality rate",37.6,">30"
+"136","Nyamira","Still birth rate",5.9,"≤ 11"
+"137","Nyamira","Early neonatal rate",17.4,">17-22"
+"138","Nyamira","Perinatal mortality rate",23.2,">22-30"
+"139","Nairobi","Still birth rate",5.7,"≤ 11"
+"140","Nairobi","Early neonatal rate",8.7,"≤ 11"
+"141","Nairobi","Perinatal mortality rate",14.3,">11-17"

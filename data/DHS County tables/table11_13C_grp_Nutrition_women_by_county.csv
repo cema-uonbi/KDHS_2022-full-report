@@ -1,189 +1,189 @@
-County,Category,Proportion,proportion_groups
-Mombasa,Total thin,4.3,≤ 9
-Mombasa,Total normal,48.8,>43
-Mombasa,Over-weight,23.6,>18-26
-Mombasa,Obese,23.3,>18-26
-Kwale,Total thin,10.2,>9-18
-Kwale,Total normal,51.2,>43
-Kwale,Over-weight,23.3,>18-26
-Kwale,Obese,15.4,>9-18
-Kilifi,Total thin,5.7,≤ 9
-Kilifi,Total normal,56,>43
-Kilifi,Over-weight,28.3,>26-43
-Kilifi,Obese,10,>9-18
-Tana River,Total thin,24.8,>18-26
-Tana River,Total normal,53.4,>43
-Tana River,Over-weight,15.7,>9-18
-Tana River,Obese,6.2,≤ 9
-Lamu,Total thin,12.4,>9-18
-Lamu,Total normal,38.4,>26-43
-Lamu,Over-weight,23.3,>18-26
-Lamu,Obese,26,>18-26
-Taita Taveta,Total thin,5,≤ 9
-Taita Taveta,Total normal,49.2,>43
-Taita Taveta,Over-weight,27.5,>26-43
-Taita Taveta,Obese,18.3,>18-26
-Garissa,Total thin,14.8,>9-18
-Garissa,Total normal,42.3,>26-43
-Garissa,Over-weight,28.4,>26-43
-Garissa,Obese,14.5,>9-18
-Wajir,Total thin,22.6,>18-26
-Wajir,Total normal,44.6,>43
-Wajir,Over-weight,19.6,>18-26
-Wajir,Obese,13.2,>9-18
-Mandera,Total thin,18,>9-18
-Mandera,Total normal,57.8,>43
-Mandera,Over-weight,20.4,>18-26
-Mandera,Obese,3.8,≤ 9
-Marsabit,Total thin,36.5,>26-43
-Marsabit,Total normal,47.2,>43
-Marsabit,Over-weight,12.3,>9-18
-Marsabit,Obese,3.9,≤ 9
-Isiolo,Total thin,21.7,>18-26
-Isiolo,Total normal,44.3,>43
-Isiolo,Over-weight,22.5,>18-26
-Isiolo,Obese,11.5,>9-18
-Meru,Total thin,10.5,>9-18
-Meru,Total normal,52.5,>43
-Meru,Over-weight,22.3,>18-26
-Meru,Obese,14.7,>9-18
-Tharaka-Nithi,Total thin,7.3,≤ 9
-Tharaka-Nithi,Total normal,50.3,>43
-Tharaka-Nithi,Over-weight,28.3,>26-43
-Tharaka-Nithi,Obese,14,>9-18
-Embu,Total thin,6.1,≤ 9
-Embu,Total normal,38.8,>26-43
-Embu,Over-weight,36,>26-43
-Embu,Obese,19.2,>18-26
-Kitui,Total thin,8.7,≤ 9
-Kitui,Total normal,62.3,>43
-Kitui,Over-weight,20.2,>18-26
-Kitui,Obese,8.7,≤ 9
-Machakos,Total thin,7.7,≤ 9
-Machakos,Total normal,43,>26-43
-Machakos,Over-weight,31.4,>26-43
-Machakos,Obese,17.9,>9-18
-Makueni,Total thin,6.3,≤ 9
-Makueni,Total normal,49.2,>43
-Makueni,Over-weight,30.3,>26-43
-Makueni,Obese,14.2,>9-18
-Nyandarua,Total thin,2.8,≤ 9
-Nyandarua,Total normal,41.4,>26-43
-Nyandarua,Over-weight,32.6,>26-43
-Nyandarua,Obese,23.2,>18-26
-Nyeri,Total thin,1.8,≤ 9
-Nyeri,Total normal,35.2,>26-43
-Nyeri,Over-weight,34.9,>26-43
-Nyeri,Obese,28.1,>26-43
-Kirinyaga,Total thin,3.2,≤ 9
-Kirinyaga,Total normal,32.2,>26-43
-Kirinyaga,Over-weight,35.3,>26-43
-Kirinyaga,Obese,29.3,>26-43
-Murang'a,Total thin,4.2,≤ 9
-Murang'a,Total normal,37.2,>26-43
-Murang'a,Over-weight,31.7,>26-43
-Murang'a,Obese,26.9,>26-43
-Kiambu,Total thin,6.3,≤ 9
-Kiambu,Total normal,38.1,>26-43
-Kiambu,Over-weight,31.5,>26-43
-Kiambu,Obese,24.1,>18-26
-Turkana,Total thin,43.7,>43
-Turkana,Total normal,46.2,>43
-Turkana,Over-weight,6.3,≤ 9
-Turkana,Obese,3.9,≤ 9
-West Pokot,Total thin,22.4,>18-26
-West Pokot,Total normal,58.2,>43
-West Pokot,Over-weight,13.9,>9-18
-West Pokot,Obese,5.5,≤ 9
-Samburu,Total thin,35.7,>26-43
-Samburu,Total normal,48.1,>43
-Samburu,Over-weight,10.9,>9-18
-Samburu,Obese,5.3,≤ 9
-Trans Nzoia,Total thin,7,≤ 9
-Trans Nzoia,Total normal,51.3,>43
-Trans Nzoia,Over-weight,25.5,>18-26
-Trans Nzoia,Obese,16.2,>9-18
-Uasin Gishu,Total thin,4.3,≤ 9
-Uasin Gishu,Total normal,52,>43
-Uasin Gishu,Over-weight,30.4,>26-43
-Uasin Gishu,Obese,13.4,>9-18
-Elgeyo-Marakwet,Total thin,14.6,>9-18
-Elgeyo-Marakwet,Total normal,60.2,>43
-Elgeyo-Marakwet,Over-weight,18.1,>18-26
-Elgeyo-Marakwet,Obese,7.1,≤ 9
-Nandi,Total thin,11.1,>9-18
-Nandi,Total normal,56,>43
-Nandi,Over-weight,22.6,>18-26
-Nandi,Obese,10.3,>9-18
-Baringo,Total thin,20.5,>18-26
-Baringo,Total normal,56.7,>43
-Baringo,Over-weight,15.6,>9-18
-Baringo,Obese,7.2,≤ 9
-Laikipia,Total thin,9.1,>9-18
-Laikipia,Total normal,46.1,>43
-Laikipia,Over-weight,26.7,>26-43
-Laikipia,Obese,18.1,>18-26
-Nakuru,Total thin,5.5,≤ 9
-Nakuru,Total normal,43.7,>43
-Nakuru,Over-weight,31,>26-43
-Nakuru,Obese,19.8,>18-26
-Narok,Total thin,5.5,≤ 9
-Narok,Total normal,52.3,>43
-Narok,Over-weight,27.2,>26-43
-Narok,Obese,15,>9-18
-Kajiado,Total thin,7.5,≤ 9
-Kajiado,Total normal,42.1,>26-43
-Kajiado,Over-weight,28.7,>26-43
-Kajiado,Obese,21.8,>18-26
-Kericho,Total thin,9.9,>9-18
-Kericho,Total normal,53.8,>43
-Kericho,Over-weight,21.8,>18-26
-Kericho,Obese,14.5,>9-18
-Bomet,Total thin,10.8,>9-18
-Bomet,Total normal,59.2,>43
-Bomet,Over-weight,20.1,>18-26
-Bomet,Obese,9.9,>9-18
-Kakamega,Total thin,4.1,≤ 9
-Kakamega,Total normal,49.2,>43
-Kakamega,Over-weight,27.6,>26-43
-Kakamega,Obese,19.1,>18-26
-Vihiga,Total thin,4.2,≤ 9
-Vihiga,Total normal,52.4,>43
-Vihiga,Over-weight,26.5,>26-43
-Vihiga,Obese,16.9,>9-18
-Bungoma,Total thin,7.7,≤ 9
-Bungoma,Total normal,58.5,>43
-Bungoma,Over-weight,24.1,>18-26
-Bungoma,Obese,9.6,>9-18
-Busia,Total thin,8.7,≤ 9
-Busia,Total normal,52.1,>43
-Busia,Over-weight,28.2,>26-43
-Busia,Obese,11.1,>9-18
-Siaya,Total thin,6.2,≤ 9
-Siaya,Total normal,56.9,>43
-Siaya,Over-weight,24.8,>18-26
-Siaya,Obese,12.1,>9-18
-Kisumu,Total thin,6.1,≤ 9
-Kisumu,Total normal,55.2,>43
-Kisumu,Over-weight,26.2,>26-43
-Kisumu,Obese,12.5,>9-18
-Homa Bay,Total thin,4.9,≤ 9
-Homa Bay,Total normal,56.6,>43
-Homa Bay,Over-weight,25.5,>18-26
-Homa Bay,Obese,12.9,>9-18
-Migori,Total thin,4.7,≤ 9
-Migori,Total normal,59.7,>43
-Migori,Over-weight,23.9,>18-26
-Migori,Obese,11.7,>9-18
-Kisii,Total thin,3.3,≤ 9
-Kisii,Total normal,51.9,>43
-Kisii,Over-weight,28.7,>26-43
-Kisii,Obese,16.1,>9-18
-Nyamira,Total thin,4.4,≤ 9
-Nyamira,Total normal,51.1,>43
-Nyamira,Over-weight,26.1,>26-43
-Nyamira,Obese,18.4,>18-26
-Nairobi,Total thin,3.1,≤ 9
-Nairobi,Total normal,40.5,>26-43
-Nairobi,Over-weight,32.9,>26-43
-Nairobi,Obese,23.6,>18-26
+"","County","Category","Proportion","proportion_groups"
+"1","Mombasa","Total thin",4.3,"≤ 9"
+"2","Mombasa","Total normal",48.8,">43"
+"3","Mombasa","Over-weight",23.6,">18-26"
+"4","Mombasa","Obese",23.3,">18-26"
+"5","Kwale","Total thin",10.2,">9-18"
+"6","Kwale","Total normal",51.2,">43"
+"7","Kwale","Over-weight",23.3,">18-26"
+"8","Kwale","Obese",15.4,">9-18"
+"9","Kilifi","Total thin",5.7,"≤ 9"
+"10","Kilifi","Total normal",56,">43"
+"11","Kilifi","Over-weight",28.3,">26-43"
+"12","Kilifi","Obese",10,">9-18"
+"13","Tana River","Total thin",24.8,">18-26"
+"14","Tana River","Total normal",53.4,">43"
+"15","Tana River","Over-weight",15.7,">9-18"
+"16","Tana River","Obese",6.2,"≤ 9"
+"17","Lamu","Total thin",12.4,">9-18"
+"18","Lamu","Total normal",38.4,">26-43"
+"19","Lamu","Over-weight",23.3,">18-26"
+"20","Lamu","Obese",26,">18-26"
+"21","Taita Taveta","Total thin",5,"≤ 9"
+"22","Taita Taveta","Total normal",49.2,">43"
+"23","Taita Taveta","Over-weight",27.5,">26-43"
+"24","Taita Taveta","Obese",18.3,">18-26"
+"25","Garissa","Total thin",14.8,">9-18"
+"26","Garissa","Total normal",42.3,">26-43"
+"27","Garissa","Over-weight",28.4,">26-43"
+"28","Garissa","Obese",14.5,">9-18"
+"29","Wajir","Total thin",22.6,">18-26"
+"30","Wajir","Total normal",44.6,">43"
+"31","Wajir","Over-weight",19.6,">18-26"
+"32","Wajir","Obese",13.2,">9-18"
+"33","Mandera","Total thin",18,">9-18"
+"34","Mandera","Total normal",57.8,">43"
+"35","Mandera","Over-weight",20.4,">18-26"
+"36","Mandera","Obese",3.8,"≤ 9"
+"37","Marsabit","Total thin",36.5,">26-43"
+"38","Marsabit","Total normal",47.2,">43"
+"39","Marsabit","Over-weight",12.3,">9-18"
+"40","Marsabit","Obese",3.9,"≤ 9"
+"41","Isiolo","Total thin",21.7,">18-26"
+"42","Isiolo","Total normal",44.3,">43"
+"43","Isiolo","Over-weight",22.5,">18-26"
+"44","Isiolo","Obese",11.5,">9-18"
+"45","Meru","Total thin",10.5,">9-18"
+"46","Meru","Total normal",52.5,">43"
+"47","Meru","Over-weight",22.3,">18-26"
+"48","Meru","Obese",14.7,">9-18"
+"49","Tharaka Nithi","Total thin",7.3,"≤ 9"
+"50","Tharaka Nithi","Total normal",50.3,">43"
+"51","Tharaka Nithi","Over-weight",28.3,">26-43"
+"52","Tharaka Nithi","Obese",14,">9-18"
+"53","Embu","Total thin",6.1,"≤ 9"
+"54","Embu","Total normal",38.8,">26-43"
+"55","Embu","Over-weight",36,">26-43"
+"56","Embu","Obese",19.2,">18-26"
+"57","Kitui","Total thin",8.7,"≤ 9"
+"58","Kitui","Total normal",62.3,">43"
+"59","Kitui","Over-weight",20.2,">18-26"
+"60","Kitui","Obese",8.7,"≤ 9"
+"61","Machakos","Total thin",7.7,"≤ 9"
+"62","Machakos","Total normal",43,">26-43"
+"63","Machakos","Over-weight",31.4,">26-43"
+"64","Machakos","Obese",17.9,">9-18"
+"65","Makueni","Total thin",6.3,"≤ 9"
+"66","Makueni","Total normal",49.2,">43"
+"67","Makueni","Over-weight",30.3,">26-43"
+"68","Makueni","Obese",14.2,">9-18"
+"69","Nyandarua","Total thin",2.8,"≤ 9"
+"70","Nyandarua","Total normal",41.4,">26-43"
+"71","Nyandarua","Over-weight",32.6,">26-43"
+"72","Nyandarua","Obese",23.2,">18-26"
+"73","Nyeri","Total thin",1.8,"≤ 9"
+"74","Nyeri","Total normal",35.2,">26-43"
+"75","Nyeri","Over-weight",34.9,">26-43"
+"76","Nyeri","Obese",28.1,">26-43"
+"77","Kirinyaga","Total thin",3.2,"≤ 9"
+"78","Kirinyaga","Total normal",32.2,">26-43"
+"79","Kirinyaga","Over-weight",35.3,">26-43"
+"80","Kirinyaga","Obese",29.3,">26-43"
+"81","Muranga","Total thin",4.2,"≤ 9"
+"82","Muranga","Total normal",37.2,">26-43"
+"83","Muranga","Over-weight",31.7,">26-43"
+"84","Muranga","Obese",26.9,">26-43"
+"85","Kiambu","Total thin",6.3,"≤ 9"
+"86","Kiambu","Total normal",38.1,">26-43"
+"87","Kiambu","Over-weight",31.5,">26-43"
+"88","Kiambu","Obese",24.1,">18-26"
+"89","Turkana","Total thin",43.7,">43"
+"90","Turkana","Total normal",46.2,">43"
+"91","Turkana","Over-weight",6.3,"≤ 9"
+"92","Turkana","Obese",3.9,"≤ 9"
+"93","West Pokot","Total thin",22.4,">18-26"
+"94","West Pokot","Total normal",58.2,">43"
+"95","West Pokot","Over-weight",13.9,">9-18"
+"96","West Pokot","Obese",5.5,"≤ 9"
+"97","Samburu","Total thin",35.7,">26-43"
+"98","Samburu","Total normal",48.1,">43"
+"99","Samburu","Over-weight",10.9,">9-18"
+"100","Samburu","Obese",5.3,"≤ 9"
+"101","Trans Nzoia","Total thin",7,"≤ 9"
+"102","Trans Nzoia","Total normal",51.3,">43"
+"103","Trans Nzoia","Over-weight",25.5,">18-26"
+"104","Trans Nzoia","Obese",16.2,">9-18"
+"105","Uasin Gishu","Total thin",4.3,"≤ 9"
+"106","Uasin Gishu","Total normal",52,">43"
+"107","Uasin Gishu","Over-weight",30.4,">26-43"
+"108","Uasin Gishu","Obese",13.4,">9-18"
+"109","Elgeyo Marakwet","Total thin",14.6,">9-18"
+"110","Elgeyo Marakwet","Total normal",60.2,">43"
+"111","Elgeyo Marakwet","Over-weight",18.1,">18-26"
+"112","Elgeyo Marakwet","Obese",7.1,"≤ 9"
+"113","Nandi","Total thin",11.1,">9-18"
+"114","Nandi","Total normal",56,">43"
+"115","Nandi","Over-weight",22.6,">18-26"
+"116","Nandi","Obese",10.3,">9-18"
+"117","Baringo","Total thin",20.5,">18-26"
+"118","Baringo","Total normal",56.7,">43"
+"119","Baringo","Over-weight",15.6,">9-18"
+"120","Baringo","Obese",7.2,"≤ 9"
+"121","Laikipia","Total thin",9.1,">9-18"
+"122","Laikipia","Total normal",46.1,">43"
+"123","Laikipia","Over-weight",26.7,">26-43"
+"124","Laikipia","Obese",18.1,">18-26"
+"125","Nakuru","Total thin",5.5,"≤ 9"
+"126","Nakuru","Total normal",43.7,">43"
+"127","Nakuru","Over-weight",31,">26-43"
+"128","Nakuru","Obese",19.8,">18-26"
+"129","Narok","Total thin",5.5,"≤ 9"
+"130","Narok","Total normal",52.3,">43"
+"131","Narok","Over-weight",27.2,">26-43"
+"132","Narok","Obese",15,">9-18"
+"133","Kajiado","Total thin",7.5,"≤ 9"
+"134","Kajiado","Total normal",42.1,">26-43"
+"135","Kajiado","Over-weight",28.7,">26-43"
+"136","Kajiado","Obese",21.8,">18-26"
+"137","Kericho","Total thin",9.9,">9-18"
+"138","Kericho","Total normal",53.8,">43"
+"139","Kericho","Over-weight",21.8,">18-26"
+"140","Kericho","Obese",14.5,">9-18"
+"141","Bomet","Total thin",10.8,">9-18"
+"142","Bomet","Total normal",59.2,">43"
+"143","Bomet","Over-weight",20.1,">18-26"
+"144","Bomet","Obese",9.9,">9-18"
+"145","Kakamega","Total thin",4.1,"≤ 9"
+"146","Kakamega","Total normal",49.2,">43"
+"147","Kakamega","Over-weight",27.6,">26-43"
+"148","Kakamega","Obese",19.1,">18-26"
+"149","Vihiga","Total thin",4.2,"≤ 9"
+"150","Vihiga","Total normal",52.4,">43"
+"151","Vihiga","Over-weight",26.5,">26-43"
+"152","Vihiga","Obese",16.9,">9-18"
+"153","Bungoma","Total thin",7.7,"≤ 9"
+"154","Bungoma","Total normal",58.5,">43"
+"155","Bungoma","Over-weight",24.1,">18-26"
+"156","Bungoma","Obese",9.6,">9-18"
+"157","Busia","Total thin",8.7,"≤ 9"
+"158","Busia","Total normal",52.1,">43"
+"159","Busia","Over-weight",28.2,">26-43"
+"160","Busia","Obese",11.1,">9-18"
+"161","Siaya","Total thin",6.2,"≤ 9"
+"162","Siaya","Total normal",56.9,">43"
+"163","Siaya","Over-weight",24.8,">18-26"
+"164","Siaya","Obese",12.1,">9-18"
+"165","Kisumu","Total thin",6.1,"≤ 9"
+"166","Kisumu","Total normal",55.2,">43"
+"167","Kisumu","Over-weight",26.2,">26-43"
+"168","Kisumu","Obese",12.5,">9-18"
+"169","Homa Bay","Total thin",4.9,"≤ 9"
+"170","Homa Bay","Total normal",56.6,">43"
+"171","Homa Bay","Over-weight",25.5,">18-26"
+"172","Homa Bay","Obese",12.9,">9-18"
+"173","Migori","Total thin",4.7,"≤ 9"
+"174","Migori","Total normal",59.7,">43"
+"175","Migori","Over-weight",23.9,">18-26"
+"176","Migori","Obese",11.7,">9-18"
+"177","Kisii","Total thin",3.3,"≤ 9"
+"178","Kisii","Total normal",51.9,">43"
+"179","Kisii","Over-weight",28.7,">26-43"
+"180","Kisii","Obese",16.1,">9-18"
+"181","Nyamira","Total thin",4.4,"≤ 9"
+"182","Nyamira","Total normal",51.1,">43"
+"183","Nyamira","Over-weight",26.1,">26-43"
+"184","Nyamira","Obese",18.4,">18-26"
+"185","Nairobi","Total thin",3.1,"≤ 9"
+"186","Nairobi","Total normal",40.5,">26-43"
+"187","Nairobi","Over-weight",32.9,">26-43"
+"188","Nairobi","Obese",23.6,">18-26"
