@@ -7654,8 +7654,9 @@ renderGirafe({
 
 ```{r}
 renderPlot({
-  comp_data1a <-comparison_data1[Category%in%input$ind_comp]
-  comp_data1a <- comparison_data1[Prop%in%c("Proportion (2022)", "Proportion (2014)")] 
+
+  
+  comp_data1a <-comparison_data1 |>filter(Category%in%input$ind_comp)|>filter(Prop%in%c("Proportion (2022)", "Proportion (2014)"))
 
   ggplot(comp_data1a, aes(x=reorder(County, Proportion), y=Proportion, fill=factor(year))) + 
   geom_col() +coord_flip()+ facet_grid(~year)+
