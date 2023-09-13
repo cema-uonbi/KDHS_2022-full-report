@@ -692,7 +692,7 @@ covid_county3 <- fread("data/table_2/table_2_19_1C_covid_by_county_bind.csv")
 covid_county3 <- covid_county3[, cat := fifelse(Proportion < 9.6, "<9.6",
                       fifelse(Proportion > 9.5 & Proportion < 18.7, "9.6-18.6",
                       fifelse(Proportion > 18.6 & Proportion < 30.1, "18.7-30.0",
-                      fifelse(Proportion > 30.0 & Proportion < 8.0, "30.1-47.9", ">103"))))]
+                      fifelse(Proportion > 30.0 & Proportion < 8.0, "30.1-47.9", ">48.0"))))]
 
 covid_county3 <- full_join(county,covid_county3, by=c("Name"="County"))
 
@@ -4085,21 +4085,16 @@ county <- county |>
 
 ```{r, fig.height=6}
 
-nutc1 <- full_join(county, nutc, by="County")
-
-
-
-
-renderGirafe({if(input$nutr%in%"HFA"){
-  
-  # nutc1 <- nutc1|>
-  #   mutate(threshold=fifelse(perc_below2sd>2.4&perc_below2sd<10,"Low (2.5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)", fifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)","Very High (>=30%)"))))
-  
-nutc1 <- nutc1[, threshold := fifelse(perc_below2sd < 2.4 & perc_below2sd<10, "Low (2.5%- <10%)",
+nutc1 <- nutc[, threshold := fifelse(perc_below2sd < 2.4 & perc_below2sd<10, "Low (2.5%- <10%)",
 fifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)",
 fifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)", "Very High (>=30%)")))]
   nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c( "Low (2.5%- <10%)", "Medium (10%- <20%)", "High (20%- <30%)", "Very High (>=30%)")))
-  
+
+
+nutc1 <- full_join(county, nutc1, by="County")
+
+renderGirafe({if(input$nutr%in%"HFA"){
+
   nut_map2 <- ggplot(nutc1|>filter(indicator%in%"HFA"), aes(fill=threshold))+
     ggiraph::geom_sf_interactive(aes(tooltip = paste0(County,": ", perc_below2sd,"%")),size=0.3)+
     theme_void()+
@@ -4115,15 +4110,6 @@ fifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)", "Very High (>=30
                      opts_zoom(max = 4)), width=15, height=5)
   print(nut_map2x)}
   else if(input$nutr%in%"WFA"){
-    # nutc1 <- nutc1|>
-    # mutate(threshold=fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))
-  
-    nutc1 <- nutc1[, threshold := fifelse(perc_below2sd < 2.4 & perc_below2sd<5, "Low (2.5%- <5%)",
-fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)",
-fifelse(perc_below2sd>9.8&perc_below2sd<15,"High (10%- <15%)", "Very High (>=15%)")))]  
-    
-    
-  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
   
   nut_map2 <- ggplot(nutc1|>filter(indicator%in%"WFA"), aes(fill=threshold))+
     ggiraph::geom_sf_interactive(aes(tooltip = paste0(County,": ", perc_below2sd,"%")),size=0.3)+
@@ -4141,13 +4127,6 @@ fifelse(perc_below2sd>9.8&perc_below2sd<15,"High (10%- <15%)", "Very High (>=15%
   print(nut_map2x)
   }
   else if(input$nutr%in%"WFH"){
-    # nutc1 <- nutc1|>
-    # mutate(threshold=fifelse(perc_below2sd<2.5,"Very Low (<2.5%)", fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)")))))
-    
-nutc1 <- nutc1[, threshold := fifelse(perc_below2sd < 2.5, "Very Low (2.5%)",
-fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)",
-fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)",
-fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))]
 
   nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Very Low (<2.5%)", "Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
   
@@ -4197,20 +4176,7 @@ selectInput("nutr2a", "",
 
 ```{r }
 
-  
-
 renderPlot({if(input$nutr2a%in%"HFA"){
-  
-  # nutc1 <- nutc1|>
-  #   mutate(threshold=fifelse(perc_below2sd>2.4&perc_below2sd<10,"Low (2.5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)", fifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)","Very High (>=30%)"))))
-  
-  nutc1 <- nutc1[, threshold := fifelse(perc_below2sd < 2.4 & perc_below2sd<10, "Low (2.5%- <10%)",
-fifelse(perc_below2sd>9.9&perc_below2sd<20,"Medium (10%- <20%)",
-fifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)", "Very High (>=30%)")))]
-  
-  
-  
-  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c( "Low (2.5%- <10%)", "Medium (10%- <20%)", "High (20%- <30%)", "Very High (>=30%)")))
   
   ggplot(nutc1|>filter(indicator%in%"HFA"), aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
     geom_col()+coord_flip()+
@@ -4222,15 +4188,7 @@ fifelse(perc_below2sd>19.9&perc_below2sd<30,"High (20%- <30%)", "Very High (>=30
     theme(text=element_text(size=15, face="bold")) +ylim(0,100)
   }
   else if(input$nutr2a%in%"WFA"){
-    # nutc1 <- nutc1|>
-    # mutate(threshold=fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))
-    
-    nutc1 <- nutc1[, threshold := fifelse(perc_below2sd < 2.5, "Very Low (2.5%)",
-fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)",
-fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)",
-fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))]
-  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
-  
+
   ggplot(nutc1|>filter(indicator%in%"WFA"), aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
     geom_col()+coord_flip()+
     theme_bw()+ 
@@ -4241,14 +4199,6 @@ fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)
     theme(text=element_text(size=15, face="bold")) +ylim(0,100)
   }
   else{
-    # nutc1 <- nutc1|>
-    # mutate(threshold=fifelse(perc_below2sd<2.5,"Very Low (<2.5%)", fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)", fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)", fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)")))))
-    
-    nutc1 <- nutc1[, threshold := fifelse(perc_below2sd < 2.5, "Very Low (2.5%)",
-fifelse(perc_below2sd>2.4&perc_below2sd<5,"Low (2.5%- <5%)",
-fifelse(perc_below2sd>4.9&perc_below2sd<10,"Medium (5%- <10%)",
-fifelse(perc_below2sd>9.9&perc_below2sd<15,"High (10%- <15%)","Very High (>=15%)"))))]
-  nutc1$threshold <- as.factor(fct_relevel(nutc1$threshold, c("Very Low (<2.5%)", "Low (2.5%- <5%)", "Medium (5%- <10%)", "High (10%- <15%)", "Very High (>=15%)")))
   
   ggplot(nutc1[nutc1$indicator%in%input$nutr2a,], aes(x=reorder(County,perc_below2sd), y=perc_below2sd, fill=threshold))+
     geom_col()+coord_flip()+
@@ -5576,22 +5526,10 @@ selectInput("hiv", "",
                 "Limiting sexual intercourse to one uninfected partner"="limit_sex",
                 "Using condoms"="using_condoms"))
 
+hivc1 <- fread("data/table_23/table23_hiv_count_data_2.csv")
 
-# import data
-
-hivc <- fread("data/table_23/table23_hiv_count_data.csv")
-hivc <- hivc[, Participants := ifelse(Participants == "Men_15-24", "Men (15-24 years)", 
-ifelse(Participants == "Women_15-24", "Women (15-24 years)", Participants))]
-hivc <- hivc[, cats := ifelse(values < 40, "<40%", 
-ifelse(values > 39 & values < 81, "40-80%", ">80%"))]
-hivc_men <- full_join(county, hivc[hivc$Participants%in%"Men_15-24",], by=c("Name"="County"))
-hivc_women <- full_join(county, hivc[hivc$Participants%in%"Women_15-24",], by=c("Name"="County"))
-hivc1 <- rbind(hivc_men, hivc_women)
-
-  # mutate(Participants=recode(Participants, "Men_15-24"="Men (15-24 years)", "Women_15-24"="Women (15-24 years)"))|>
-  # mutate(cats=fifelse(values<40,"<40%", fifelse(values>39&values<81,"40-80%",">80%")))
-
-hivc1$Participants <- fct_relevel(hivc1$Participants, "Women 15-24", "Men 15-24")
+hivc1 <- full_join(county, hivc1,by=c("Name"="County"))
+hivc1$Participants <- fct_relevel(hivc1$Participants, "Women (15-24 years)", "Men (15-24 years)")
 hivc1$cats <- fct_relevel(hivc1$cats, "<40%", "40-80%", ">80%")
 
 #visualization
@@ -7728,7 +7666,9 @@ renderGirafe({
 Row {data-height=700}
 -------------------------------------
 
-### Please select an indicator```{r}
+### Please select an indicator
+
+```{r}
 selectInput("ind_comp", "",
              c("Stunting"= "Stunting",
              "Wasting"="Wasting",
@@ -7938,8 +7878,13 @@ selectInput("comp_indicator2", "",
 
 
 renderGirafe({
-  combined_data1<- left_join(combined_data[combined_data$indicator1%in%input$comp_indicator1,]|>select(-indicator), combined_data[combined_data$indicator1%in%input$comp_indicator2, ]|>rename(indicator2=indicator1, values2=values)|>select(-indicator))
-  combined_map<- ggplot(combined_data1, aes(x=values, y=values2))+
+  # combined_data1<- left_join(combined_data[combined_data$indicator1%in%input$comp_indicator1,]|>select(-indicator), combined_data[combined_data$indicator1%in%input$comp_indicator2, ]|>rename(indicator2=indicator1, values2=values)|>select(-indicator))
+combined_data1 <- combined_data[combined_data$indicator1 %in% input$comp_indicator1, ] |> select(-indicator)
+combined_data2 <- combined_data[combined_data$indicator1 %in% input$comp_indicator2, ] |> rename(indicator2 = indicator1, values2 = values) |> select(-indicator)
+
+combined_data1 <- left_join(combined_data1, combined_data2)
+  
+combined_map<- ggplot(combined_data1, aes(x=values, y=values2))+
   geom_point_interactive(size=4, aes(tooltip=County), color="cyan4")+
   theme_bw()+
   labs(y="Indicator2",x="Indicator1", fill="")+
@@ -7971,11 +7916,19 @@ renderGirafe({
 ```{r,fig.width=6,fig.height=6}
 #
 renderGirafe({
-combined_data1<- left_join(county, combined_data[combined_data$indicator1%in%input$comp_indicator1,]|>select(-indicator), by=c("Name"="County"))
-  indicator_map1<- ggplot(combined_data1, aes(fill=values))+
-  geom_sf_interactive(aes(tooltip=paste0(Name,": ",round(values))))+
-  theme_void()+scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
-  labs(y="", x="", fill="")#+
+
+combined_data1 <- combined_data[combined_data$indicator1 %in% input$comp_indicator1, ] |> select(-indicator)
+combined_data1 <- left_join(county, combined_data1, by = c("Name" = "County"))
+indicator_map1 <- ggplot(combined_data1, aes(fill = values)) +
+  geom_sf_interactive(aes(tooltip = paste0(Name, ": ", round(values)))) +
+  theme_void() +
+  scale_fill_gradient(low = "#fee6ce", high = "#7f2704") +
+  labs(y = "", x = "", fill = "")
+# combined_data1<- left_join(county, combined_data[combined_data$indicator1%in%input$comp_indicator1,]|>select(-indicator), by=c("Name"="County"))
+#   indicator_map1<- ggplot(combined_data1, aes(fill=values))+
+#   geom_sf_interactive(aes(tooltip=paste0(Name,": ",round(values))))+
+#   theme_void()+scale_fill_gradient(low = "#fee6ce", high = "#7f2704")+
+#   labs(y="", x="", fill="")#+
   #scale_fill_manual(values = c("#f46d43","#fee090","#4575b4"))+
   #theme(text=element_text(size=18), legend.position = "none")
   
