@@ -51,7 +51,7 @@ knitr::include_graphics("www/front_page_knbs.png")
 
 ### About
 
--   The App uses data from the Key Indicators Report of the 2022 Kenya Demographic and Health Survey (2022 KDHS). The survey was implemented by the Kenya National Bureau of Statistics (KNBS) in collaboration with the Kenya's Ministry of Health (MoH) and other stakeholders.
+-   The App uses data from the Full Report of the 2022 Kenya Demographic and Health Survey (2022 KDHS). The survey was implemented by the Kenya National Bureau of Statistics (KNBS) in collaboration with the Kenya's Ministry of Health (MoH) and other stakeholders.
 
 -   It provides easy-to-use interface to explore 2022 KDHS data using tools such as choropleth maps, bar plots, trend plots. This is a living app that is continuously developed to include comparisons of the current results with those from Demographic and Health Surveys.
 
