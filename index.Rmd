@@ -7631,8 +7631,13 @@ comparison_data2 <- full_join(county, comparison_data1, by=c("Name"="County"))
 # trends over time
 trends_data <- fread("data/trends_per_county.csv")
 
-comparison_data1a<- fread("data/County Comparison Data/comparison_data_wide1a.csv") |>
-  mutate(indicator=recode( Category, "Households with >=1 ITN"="Malaria", "Households with >=1 ITN\nper 2 people"="Malaria", "Stunting"="Nutrition", "Underweight"="Nutrition", "Wasting"="Nutrition", "BCG"="Child vaccination", "DPT1"="Child vaccination", "DPT2"="Child vaccination", "DPT3"="Child vaccination", "FULL_VACCINATION"="Child vaccination", "OPV"="Child vaccination", "OPV1"="Child vaccination", "OPV2"="Child vaccination", "OPV3"="Child vaccination"))
+# comparison_data1a<- fread("data/County Comparison Data/comparison_data_wide1a.csv") |>
+#   mutate(indicator=recode( Category, "Households with >=1 ITN"="Malaria", "Households with >=1 ITN\nper 2 people"="Malaria", "Stunting"="Nutrition", "Underweight"="Nutrition", "Wasting"="Nutrition", "BCG"="Child vaccination", "DPT1"="Child vaccination", "DPT2"="Child vaccination", "DPT3"="Child vaccination", "FULL_VACCINATION"="Child vaccination", "OPV"="Child vaccination", "OPV1"="Child vaccination", "OPV2"="Child vaccination", "OPV3"="Child vaccination"))
+
+comparison_data1a <- fread("data/County Comparison Data/comparison_data_wide1a.csv")
+
+setDT(comparison_data1a)[, indicator := recode(Category, "Households with >=1 ITN"="Malaria", "Households with >=1 ITN\nper 2 people"="Malaria", "Stunting"="Nutrition", "Underweight"="Nutrition", "Wasting"="Nutrition", "BCG"="Child vaccination", "DPT1"="Child vaccination", "DPT2"="Child vaccination", "DPT3"="Child vaccination", "FULL_VACCINATION"="Child vaccination", "OPV"="Child vaccination", "OPV1"="Child vaccination", "OPV2"="Child vaccination", 
+"OPV3"="Child vaccination")]
 
 renderPlot({
   ggplot(comparison_data1a[comparison_data1a$indicator%in%input$category1,], aes(y=County, x=Category, fill=Proportion))+
@@ -7926,11 +7931,6 @@ combined_map<- ggplot(combined_data1, aes(x=values, y=values2))+
 #paste0(input$comp1)
 ```
 
-```{r, include=F}
-
-
-
-```
 
 ## Row {data.width="500"}
 
